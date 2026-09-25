@@ -33,6 +33,9 @@ yarn-error.log*
 # Docker volumes
 postgres_data/
 
+# Large local recordings
+/_current/4eye-Recordings/Intro-What-Am-I-Working-On.mov
+
 # Coverage
 coverage/
 

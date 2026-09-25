@@ -32,3 +32,6 @@ logs/
 /docs/*
 # Generated Veo clips - regenerable, too large for git
 /apps/command-center/public/films/*/
+
+# Large local presentation export
+/presentation/Full Expanse' EDU Pitch Deck(1).pptx
