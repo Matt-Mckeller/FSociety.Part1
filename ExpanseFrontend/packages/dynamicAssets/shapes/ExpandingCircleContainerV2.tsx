@@ -1,0 +1,79 @@
+"use client"
+import React from "react"
+
+import { useTheme } from "@mui/material/styles"
+
+export const ExpandingCircleContainerV2 = ({
+  children,
+  outerCircleColor,
+  middleCircleColor,
+  innerCircleColor,
+  middleBackground,
+  width = "100%",
+  height = "100%",
+}: {
+  children?: React.ReactNode
+  outerCircleColor?: string
+  middleCircleColor?: string
+  innerCircleColor?: string
+  middleBackground?: string
+  width?: string
+  height?: string
+}) => {
+  const theme = useTheme()
+
+  const viewBoxWidth = 100
+  const viewBoxHeight = 100
+  // Goal: 1 outer circle, 2 middle stroke, 3 inner stroke, remainder inner circle
+  const borderScaleFactor = 2
+  const outerCircleStrokeWidth = 1 * borderScaleFactor
+  const outerCircleRadius = 50 - outerCircleStrokeWidth / 2
+  // the middle layer is created by the gap between outer circle fill and inner circle stroke
+  const middleLayerRadius = 2 * borderScaleFactor
+  // const middleLayerRadius = 0
+
+  const innerCircleStrokeWidth = 3 * borderScaleFactor
+
+  // inner circle radius is just a background
+  const innerCircleRadius =
+    outerCircleRadius - innerCircleStrokeWidth / 2 - middleLayerRadius // 2x stroke when compared with radius for calculations
+
+  outerCircleColor = outerCircleColor || theme.palette.common.black
+  middleCircleColor = middleCircleColor || theme.palette.common.white
+  innerCircleColor = innerCircleColor || theme.palette.common.black
+
+  middleBackground = middleBackground || theme.palette.background.default
+
+  return (
+    <svg
+      id="svg-layer"
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox={`0 0 ${viewBoxWidth} ${viewBoxHeight}`}
+      overflow="visible"
+      width={width}
+      height={height}
+    >
+      <circle
+        cx={"50"}
+        cy="50"
+        data-id="outer-circle"
+        r={outerCircleRadius}
+        fill={middleCircleColor}
+        stroke={outerCircleColor}
+        strokeWidth={outerCircleStrokeWidth}
+      />
+      <circle
+        cx="50"
+        cy="50"
+        data-id="inner-circle"
+        r={innerCircleRadius}
+        fill={middleBackground}
+        stroke={innerCircleColor}
+        strokeWidth={innerCircleStrokeWidth}
+      ></circle>
+      <foreignObject x="0" y="0" width="100" height="100">
+        {children}
+      </foreignObject>
+    </svg>
+  )
+}

@@ -1,0 +1,12 @@
+export { default as TitleSlide } from './TitleSlide';
+export { default as ProblemSlide } from './ProblemSlide';
+export { default as SolutionSlide } from './SolutionSlide';
+export { default as HowItWorksSlide } from './HowItWorksSlide';
+export { default as FeaturesSlide } from './FeaturesSlide';
+export { default as RobotSlide } from './RobotSlide';
+export { default as TechnologySlide } from './TechnologySlide';
+export { default as MarketSlide } from './MarketSlide';
+export { default as BusinessModelSlide } from './BusinessModelSlide';
+export { default as TeamSlide } from './TeamSlide';
+export { default as CompetitiveSlide } from './CompetitiveSlide';
+export { default as CTASlide } from './CTASlide';

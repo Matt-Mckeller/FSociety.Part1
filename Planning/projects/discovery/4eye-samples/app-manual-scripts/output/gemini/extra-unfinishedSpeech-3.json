@@ -1,0 +1,337 @@
+{
+  "sample": {
+    "durationSeconds": 140,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Today we're covering nucleophilic substitution reactions.",
+          "timestamp": 0,
+          "confidence": 0.84
+        },
+        {
+          "text": "static noise",
+          "timestamp": 6.2,
+          "confidence": 0.19
+        },
+        {
+          "text": "There are two main types, SN1 and SN2.",
+          "timestamp": 9.7,
+          "confidence": 0.79
+        },
+        {
+          "text": "",
+          "timestamp": 15.4,
+          "confidence": 0.11
+        },
+        {
+          "text": "SN2 reactions proceed through a single",
+          "timestamp": 18.9,
+          "confidence": 0.72
+        },
+        {
+          "text": "microphone cutting out",
+          "timestamp": 24.6,
+          "confidence": 0.25
+        },
+        {
+          "text": "step mechanism with back-side attack.",
+          "timestamp": 27.8,
+          "confidence": 0.68
+        },
+        {
+          "text": "The nucleophile approaches from",
+          "timestamp": 33.5,
+          "confidence": 0.75
+        },
+        {
+          "text": "",
+          "timestamp": 38.2,
+          "confidence": 0.09
+        },
+        {
+          "text": "opposite side of the leaving group.",
+          "timestamp": 41.6,
+          "confidence": 0.71
+        },
+        {
+          "text": "lab equipment noise",
+          "timestamp": 47.3,
+          "confidence": 0.28
+        },
+        {
+          "text": "This results in inversion of configuration.",
+          "timestamp": 50.8,
+          "confidence": 0.77
+        },
+        {
+          "text": "SN1 reactions, on the other hand",
+          "timestamp": 57.2,
+          "confidence": 0.8
+        },
+        {
+          "text": "",
+          "timestamp": 62.5,
+          "confidence": 0.1
+        },
+        {
+          "text": "proceed through a two-step mechanism.",
+          "timestamp": 66.1,
+          "confidence": 0.73
+        },
+        {
+          "text": "First, the leaving group departs, forming",
+          "timestamp": 72.6,
+          "confidence": 0.76
+        },
+        {
+          "text": "feedback squeal",
+          "timestamp": 78.9,
+          "confidence": 0.31
+        },
+        {
+          "text": "carbocation intermediate.",
+          "timestamp": 81.4,
+          "confidence": 0.64
+        },
+        {
+          "text": "",
+          "timestamp": 85.8,
+          "confidence": 0.08
+        },
+        {
+          "text": "Then the nucleophile attacks",
+          "timestamp": 89.3,
+          "confidence": 0.7
+        },
+        {
+          "text": "ventilation system noise",
+          "timestamp": 94.7,
+          "confidence": 0.26
+        },
+        {
+          "text": "from either side, giving a racemic mixture.",
+          "timestamp": 98.2,
+          "confidence": 0.69
+        },
+        {
+          "text": "The rate of SN2 depends on",
+          "timestamp": 105.6,
+          "confidence": 0.78
+        },
+        {
+          "text": "",
+          "timestamp": 110.8,
+          "confidence": 0.12
+        },
+        {
+          "text": "both nucleophile and substrate concentration.",
+          "timestamp": 114.5,
+          "confidence": 0.72
+        },
+        {
+          "text": "While SN1 rate depends only",
+          "timestamp": 121.3,
+          "confidence": 0.75
+        },
+        {
+          "text": "audio dropout",
+          "timestamp": 127.1,
+          "confidence": 0.22
+        },
+        {
+          "text": "on substrate concentration.",
+          "timestamp": 130.4,
+          "confidence": 0.68
+        },
+        {
+          "text": "For your lab report",
+          "timestamp": 136.2,
+          "confidence": 0.77
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.75,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "AUDIO_QUALITY",
+        "message": "Transcription contains significant noise, audio dropouts, and low-confidence segments. While the core educational content was extracted, some details may be missing."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.9,
+    "isSideConversation_confidence": 0.02,
+    "isIrrelevantContent_confidence": 0.3,
+    "isPartialResponse": true,
+    "expectedCompletionTime": 60,
+    "tags": [
+      "chemistry",
+      "organic_chemistry",
+      "reaction_mechanisms",
+      "sn1",
+      "sn2",
+      "nucleophilic_substitution",
+      "stereochemistry",
+      "university"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": true,
+    "summarization": "The lecture introduces two primary types of nucleophilic substitution reactions: SN1 and SN2. The SN2 reaction is a single-step process where a nucleophile attacks the substrate from the side opposite to the leaving group (back-side attack), resulting in an inversion of the molecule's stereochemical configuration. In contrast, the SN1 reaction is a two-step mechanism. First, the leaving group departs to form a stable carbocation intermediate. Then, the nucleophile can attack this planar intermediate from either side, leading to a racemic mixture of products. The reaction rates also differ: SN2's rate depends on the concentrations of both the nucleophile and the substrate, while SN1's rate depends only on the substrate concentration.",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "• **SN2 Reaction**:\n  - Mechanism: Single step (concerted)\n  - Attack: Back-side attack\n  - Stereochemistry: Inversion of configuration\n  - Intermediate: None (transition state)\n  - Rate Law: Rate = k[Substrate][Nucleophile]\n\n• **SN1 Reaction**:\n  - Mechanism: Two steps\n  - Attack: Front-side or back-side\n  - Stereochemistry: Racemic mixture (racemization)\n  - Intermediate: Carbocation\n  - Rate Law: Rate = k[Substrate]"
+      },
+      {
+        "version": "detailed",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "This lesson contrasts the two fundamental nucleophilic substitution reaction mechanisms, SN1 and SN2. The SN2 (bimolecular) reaction is a concerted, one-step process. The nucleophile performs a 'back-side attack,' approaching the carbon atom from the direction opposite the leaving group, which causes a stereochemical inversion, often likened to an umbrella flipping inside out. Its rate is dependent on both the substrate and nucleophile concentrations. The SN1 (unimolecular) reaction occurs in two steps. The rate-determining first step is the spontaneous departure of the leaving group to form a planar carbocation intermediate. In the second step, the nucleophile attacks this flat intermediate, with an equal probability of attacking from the front or the back, resulting in a racemic mixture of both stereoisomers. Its rate depends solely on the substrate concentration because the formation of the carbocation is the slow step."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.75,
+        "text": "SN1 and SN2 are two types of nucleophilic substitution. SN2 is a single-step reaction causing stereochemical inversion, while SN1 is a two-step reaction involving a carbocation intermediate that results in a racemic mixture."
+      }
+    ],
+    "oneLineSummarization": "SN2 reactions are one-step substitutions with back-side attack causing inversion, while SN1 reactions are two-step via a carbocation, yielding a racemic mixture.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "VISUAL",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Picture a carbon atom as a central point with three groups forming a tripod base and one 'leaving group' pointing straight up. In an SN2 reaction, imagine a nucleophile approaching from the bottom, directly opposite the leaving group. As it gets closer, it forces the three 'tripod' groups to flip upwards, like an umbrella turning inside out in the wind, at the exact moment the leaving group pops off the top. For an SN1 reaction, first visualize the leaving group simply detaching, leaving behind a flat, positively charged carbon (carbocation). Now, this flat molecule can be approached by the nucleophile from either the top or the bottom with equal ease, creating two different mirror-image products."
+      },
+      {
+        "effectiveness": "high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "The differences between SN1 and SN2 reactions are a direct consequence of their mechanisms. Because the SN2 reaction is a single, concerted step, the nucleophile and substrate must collide simultaneously. This makes the reaction rate dependent on both concentrations. The requirement for a back-side attack logically leads to an inversion of stereochemistry. Conversely, the SN1 mechanism has two steps. The first, slow step involves only the substrate losing its leaving group. Therefore, the overall reaction rate depends only on the substrate's concentration. The formation of a planar carbocation intermediate removes the original stereochemistry, so the subsequent attack by the nucleophile can happen from either face, logically resulting in a racemic mixture."
+      },
+      {
+        "effectiveness": "high",
+        "type": "METAPHORS",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "Think of an SN2 reaction as a swift, polite exchange. A new person (the nucleophile) wants to take the seat of someone already sitting (the leaving group). They tap the person on the opposite shoulder, and in one smooth motion, the seated person gets up and leaves as the new person sits down. The whole arrangement is inverted. An SN1 reaction is more like a breakup and rebound. First, one person (the leaving group) leaves the relationship, creating an open, available spot (the carbocation). This spot is now open to anyone. A new person (the nucleophile) can then approach from any direction to fill the vacancy, with no memory of how the original person was positioned."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "ANIMATED_SVG",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "SPATIAL_DIAGRAM"
+        ],
+        "title": "SN2 Reaction: Concerted Back-side Attack",
+        "reasonForSuggestion": "Animation is the most effective way to demonstrate the simultaneous (concerted) nature of the bond-forming and bond-breaking, and the critical 'umbrella flip' inversion of configuration, which is difficult to grasp from static images.",
+        "promptForGeneration": "Create an animated SVG for a university-level organic chemistry class, illustrating an SN2 reaction. Use a simple substrate like bromomethane (CH3Br). Show a hydroxide ion (OH-) as the nucleophile. The animation should proceed as follows: 1) The OH- ion approaches the carbon atom from the side opposite the Bromine atom (Br). 2) As the OH- gets closer, a dotted line should form to show the new C-OH bond forming, while the C-Br bond, represented by a solid line, begins to stretch and become a dotted line. 3) At the peak of the transition state, the three Hydrogen atoms should be planar with the Carbon. 4) As the Br- ion (leaving group) fully detaches and floats away, the C-OH bond becomes solid, and the three Hydrogen atoms 'flip' to the other side, showing a clear inversion of stereochemistry. Label all species: 'Nucleophile (OH-)', 'Substrate (CH3Br)', 'Transition State', 'Product (CH3OH)', and 'Leaving Group (Br-)'."
+      },
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 0.95,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.95,
+        "coreType": "STEP_SEQUENCE",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "SVG_DIAGRAM",
+          "ANNOTATED_TEXT"
+        ],
+        "title": "SN1 Reaction: Two-Step Carbocation Mechanism",
+        "reasonForSuggestion": "A step-by-step diagram clearly separates the two distinct phases of the SN1 reaction, emphasizing the formation of the crucial carbocation intermediate and explaining why a racemic mixture is formed.",
+        "promptForGeneration": "Generate a two-panel SVG diagram for a university-level organic chemistry class illustrating the SN1 mechanism. Use tert-butyl bromide as the substrate. Panel 1 (labeled 'Step 1: Formation of Carbocation (Slow)'): Show the tert-butyl bromide molecule. Use a curved arrow to show the C-Br bond breaking and the electrons moving to the Br. An arrow should point to the products: a planar tert-butyl carbocation (with a visible '+' on the central carbon) and a bromide ion (Br-). Panel 2 (labeled 'Step 2: Nucleophilic Attack (Fast)'): Show the planar carbocation from Step 1. Use two separate curved arrows to illustrate a water molecule (nucleophile) attacking the carbocation from the top and another attacking from the bottom. These arrows should point to the two resulting enantiomers of the product (tert-butyl alcohol), explicitly showing the two different stereochemical outcomes. Add a caption below: 'Attack from either side of the planar carbocation results in a racemic mixture.'"
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherSuggestions": 0.9,
+        "coreType": "COMPARISON_MATRIX",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "HTML_STATIC"
+        ],
+        "title": "SN1 vs. SN2: Key Differences",
+        "reasonForSuggestion": "A table provides a structured, high-density summary that is perfect for studying and quick review, allowing students to directly compare and contrast the features of the two mechanisms.",
+        "promptForGeneration": "Create an HTML table comparing SN1 and SN2 reactions. The table should have three columns: 'Feature', 'SN1 Reaction', and 'SN2 Reaction'. Include the following rows: 'Kinetics' (with 'Unimolecular, Rate=k[Substrate]' for SN1 and 'Bimolecular, Rate=k[Substrate][Nuc]' for SN2), 'Mechanism' ('Two steps' vs 'One step'), 'Intermediate' ('Carbocation' vs 'None'), 'Stereochemistry' ('Racemization' vs 'Inversion of configuration'), 'Substrate Structure' ('Prefers 3° > 2°' vs 'Prefers 1° > 2°'), and 'Nucleophile' ('Weak nucleophile OK' vs 'Requires strong nucleophile'). Use clear headings (<th>) and distinct cell borders. Highlight the column headers with a light gray background."
+      }
+    ],
+    "purpose": "Understanding nucleophilic substitution mechanisms like SN1 and SN2 is fundamental to organic chemistry. It allows chemists to predict the products of reactions, understand how molecular structure affects reactivity, and strategically design synthetic pathways to create complex molecules, including pharmaceuticals, polymers, and other materials.",
+    "motivation": "Ever wonder how a new drug is designed? It's all about controlling chemical reactions with precision. Learning SN1 and SN2 is like learning the secret rules of a molecular construction game. By understanding whether a reaction will proceed in one step or two, you can predict the exact 3D shape of the final molecule, which is critical for how a drug interacts with your body. This knowledge is the key to building the specific molecules that can fight diseases.",
+    "learningValueScore": 0.85,
+    "availableActions": [
+      {
+        "actionLabel": "Animate SN2",
+        "reason": "Visualize the single-step mechanism and stereochemical inversion.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "Show SN1 Steps",
+        "reason": "Clarify the two-step process and the role of the carbocation.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Compare Both",
+        "reason": "Get a quick, side-by-side summary of the key differences for review.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Quiz Me",
+        "reason": "Test your ability to distinguish between the two reaction types.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "nucleophile": {
+        "definition": "An 'nucleus-loving' chemical species that is rich in electrons. It donates an electron pair to an electron-deficient center to form a chemical bond.",
+        "etymology": "From 'nucleus' + Greek '-phile' (loving).",
+        "example": "Hydroxide (OH-) is a common nucleophile."
+      },
+      "carbocation": {
+        "definition": "A molecule containing a carbon atom with a positive charge and only three bonds. It is a highly reactive intermediate.",
+        "etymology": "From 'carbon' + 'cation' (a positive ion).",
+        "example": "The SN1 reaction proceeds through a carbocation intermediate."
+      },
+      "inversion of configuration": {
+        "definition": "The reversal of the 3D arrangement of atoms at a chiral center during a chemical reaction. It's often compared to an umbrella flipping inside out.",
+        "also_known_as": "Walden Inversion",
+        "example": "SN2 reactions always result in an inversion of configuration."
+      },
+      "racemic mixture": {
+        "definition": "A mixture that contains equal amounts of the left-handed and right-handed enantiomers (mirror-image isomers) of a chiral molecule.",
+        "result": "The mixture is not optically active because the effects of the two enantiomers cancel each other out.",
+        "example": "SN1 reactions typically produce a racemic mixture."
+      }
+    },
+    "recommendationsToTeacher": [
+      "Address the poor audio quality for future recordings by using a dedicated microphone and minimizing background noise to improve clarity for students.",
+      "Use physical or digital molecular model kits to demonstrate the 3D spatial arrangements in back-side attack (SN2) and the planar nature of the carbocation (SN1). This kinesthetic and visual aid is crucial for understanding stereochemistry.",
+      "Create a follow-up worksheet with various substrates and nucleophiles, asking students to predict whether the reaction would favor an SN1 or SN2 pathway and to draw the expected products, including correct stereochemistry."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:43:57.133Z",
+    "latencyMs": 49884,
+    "tokenUsage": {
+      "input": 7738,
+      "output": 3569,
+      "total": 13421
+    }
+  }
+}

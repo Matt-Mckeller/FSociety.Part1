@@ -1,0 +1,53 @@
+{
+  "name": "expanseedu",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --hostname localhost",
+    "build": "next build",
+    "buildSite": "mv ./src/app/demo ./ && npm run build && mv ./demo ./src/app/demo",
+    "start": "serve out",
+    "startServer": "serve out -p 3600"
+  },
+  "engines": {
+    "node": ">=24.4.0",
+    "npm": ">=9.6.7"
+  },
+  "browserslist": [
+    "> 0.5%, not dead"
+  ],
+  "dependencies": {
+    "@apollo/sandbox": "^2.5.1",
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.9",
+    "@mui/lab": "^5.0.0-alpha.165",
+    "@mui/material": "^5.15.9",
+    "@mui/material-nextjs": "^7.2.0",
+    "@mui/system": "^5.15.9",
+    "@svgr/webpack": "^8.1.0",
+    "dayjs": "^1.11.10",
+    "expanse.dynamicAssets": "../../packages/dynamicAssets",
+    "expanse.ui": "../../packages/ui",
+    "html2canvas": "^1.4.1",
+    "js-cookie": "^3.0.5",
+    "lottie-web": "^5.12.2",
+    "next": "14.1.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.77.2",
+    "serve": "^14.2.3"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.6",
+    "@babel/preset-react": "^7.24.6",
+    "@babel/preset-typescript": "^7.24.6",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint-config-next": "14.1.4",
+    "typescript": "^5"
+  }
+}

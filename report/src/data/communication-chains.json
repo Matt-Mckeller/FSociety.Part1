@@ -1,0 +1,82 @@
+{
+  "communicationChains": [
+    {
+      "id": "chain-001",
+      "title": "Large Money Chain",
+      "type": "verbal_symbolic",
+      "dateRange": {
+        "start": "2025-11-22",
+        "end": "2025-12-15"
+      },
+      "description": "A chain of symbolic actions across multiple events that could have been misinterpreted as signaling large money/laundering interest. In reality, these were legitimate business aspirations (unicorn startups), personal items (anime mug), and convenience (cigarettes). However, combined with billionaire talk, these may have built a profile that attracted criminal interest.",
+      "entries": [
+        {
+          "date": "2025-11-22",
+          "eventId": "evt-casino-day-1-coins-entryway",
+          "action": "Bought cigarettes, smoked one, left rest on jackpot machine",
+          "perceivedMeaning": "Signaling desire for large payout or having large sums to work with",
+          "reality": "Just didn't want the rest of the cigarettes, set them down conveniently"
+        },
+        {
+          "date": "2025-11-22",
+          "eventId": "evt-casino-day-1-coins-entryway",
+          "action": "Talked about wanting to be a billionaire and working on multiple businesses",
+          "perceivedMeaning": "Has money or ambitions worth investigating/recruiting",
+          "reality": "Legitimate business aspirations - building companies to help kids learn and improve work motivation"
+        },
+        {
+          "date": "2025-12-08",
+          "eventId": "evt-crow-coffee",
+          "action": "Wrote 'unicorn' in notepad",
+          "perceivedMeaning": "Having $1B+ to launder (unicorn in criminal context)",
+          "reality": "Unicorn = startup worth $1B+, legitimate business aspiration for companies being built"
+        },
+        {
+          "date": "2025-12-08",
+          "eventId": "evt-crow-coffee",
+          "action": "Had Slime mug visible on counter at home during event",
+          "perceivedMeaning": "PWN = owned/controlled, Slime = perceived negatively",
+          "reality": "Anime reference - 'That Time I Reincarnated as a Slime' - actually means perceived as slime but capable/intelligent, history of resetting and learning"
+        },
+        {
+          "date": "2025-12-09",
+          "eventId": "evt-panera-gray-suit",
+          "action": "Mentioned needing sharpies in apartment; sharpie markings appeared at Panera",
+          "perceivedMeaning": "Confirmation of surveillance, they were watching and responding",
+          "reality": "Confirmed apartment surveillance - sharpie markings appeared after mentioning sharpies"
+        },
+        {
+          "date": "2025-12-15",
+          "eventId": "evt-move-out",
+          "action": "Left Slime mug in mailroom as final communication",
+          "perceivedMeaning": "Final signal/acknowledgment of the chain",
+          "reality": "Intentional response acknowledging knowledge of observation and multiple interpretations"
+        }
+      ],
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Pattern of signals built a profile of someone with large money or ambitions: jackpot placement, unicorn writing, billionaire talk. Worth investigating/recruiting.",
+          "likelihood": "medium"
+        },
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "Narrator legitimately building companies intended to be unicorns. Symbolic items like slime mug were personal interests. Misinterpretation led to unwanted attention.",
+          "likelihood": "high"
+        },
+        {
+          "type": "random",
+          "author": "matt",
+          "interpretation": "Unrelated coincidences with no pattern.",
+          "likelihood": "low"
+        }
+      ],
+      "relatedEventIds": ["evt-casino-day-1-coins-entryway", "evt-crow-coffee", "evt-panera-gray-suit", "evt-move-out"],
+      "relatedItemIds": ["item-010", "item-011"],
+      "confidenceRating": 7,
+      "notes": "Chain spans multiple events and locations. Sharpie surveillance confirmation proves these actions were being observed."
+    }
+  ]
+}

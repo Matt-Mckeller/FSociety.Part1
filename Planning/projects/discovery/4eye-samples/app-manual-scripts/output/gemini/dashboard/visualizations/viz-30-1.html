@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Greenhouse Gas Emissions by Sector</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: white;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            padding: 32px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #1976d2;
+            font-size: 28px;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+        .content {
+            background: #f5f5f5;
+            padding: 24px;
+            border-radius: 8px;
+            margin-bottom: 24px;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            color: #1976d2;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 12px;
+            border-bottom: 2px solid #1976d2;
+            padding-bottom: 8px;
+        }
+        .section-content {
+            color: #424242;
+            line-height: 1.8;
+            white-space: pre-wrap;
+        }
+        .badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 16px;
+            font-size: 12px;
+            font-weight: 500;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+        .badge-type {
+            background: #e3f2fd;
+            color: #1976d2;
+        }
+        .badge-effectiveness {
+            background: #e8f5e9;
+            color: #388e3c;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 12px;
+            }
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Global Greenhouse Gas Emissions by Sector</h1>
+        
+        <div style="margin-bottom: 20px; text-align: center;">
+            <span class="badge badge-type">CHART_PIE</span>
+            <span class="badge badge-effectiveness">high effectiveness</span>
+        </div>
+
+        <div class="content">
+            <div class="section">
+                <div class="section-title">Visualization Description</div>
+                <div class="section-content">The students listed multiple sources of emissions. A pie chart provides quantitative context, showing which sectors are the biggest contributors. This moves the discussion from qualitative to quantitative understanding.</div>
+            </div>
+
+            <div class="section">
+                <div class="section-title">Generation Prompt</div>
+                <div class="section-content">Generate a Mermaid pie chart diagram titled &#039;Global Greenhouse Gas Emissions by Sector&#039;. Use the following approximate data: &#039;Electricity &amp; Heat Production&#039;: 30, &#039;Transportation&#039;: 15, &#039;Industry&#039;: 20, &#039;Agriculture &amp; Forestry&#039;: 25, &#039;Other&#039;: 10. Each slice should have a clear label and its percentage value. Use distinct, high-contrast colors for each sector to ensure accessibility. The prompt is for an 8th-grade level, so keep the design simple and direct.</div>
+            </div>
+        </div>
+
+        <div style="padding: 16px; background: #fff3e0; border-radius: 8px; color: #e65100;">
+            <strong>⚠️ Note:</strong> This visualization type (CHART_PIE) requires custom implementation or AI-generated code.
+            The prompt above describes what should be created.
+        </div>
+    </div>
+</body>
+</html>

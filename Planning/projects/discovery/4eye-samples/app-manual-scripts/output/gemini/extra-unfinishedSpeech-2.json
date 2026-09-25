@@ -1,0 +1,309 @@
+{
+  "sample": {
+    "durationSeconds": 65,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Vamos a practicar el vocabulario de la comida. María, cómo se dice apple?",
+          "timestamp": 0,
+          "confidence": 0.86
+        },
+        {
+          "text": "Manzana",
+          "timestamp": 7.8,
+          "confidence": 0.79
+        },
+        {
+          "text": "Muy bien! Y banana?",
+          "timestamp": 10.3,
+          "confidence": 0.88
+        },
+        {
+          "text": "Plát",
+          "timestamp": 14.6,
+          "confidence": 0.42
+        },
+        {
+          "text": "",
+          "timestamp": 16.2,
+          "confidence": 0.08
+        },
+        {
+          "text": "Plátano, sí. Carlos, orange?",
+          "timestamp": 19.5,
+          "confidence": 0.81
+        },
+        {
+          "text": "Naran",
+          "timestamp": 24.3,
+          "confidence": 0.39
+        },
+        {
+          "text": "Speak up please. Naranja, correct.",
+          "timestamp": 26.8,
+          "confidence": 0.77
+        },
+        {
+          "text": "Now, quien puede decirme bread?",
+          "timestamp": 32.1,
+          "confidence": 0.83
+        },
+        {
+          "text": "mumbling",
+          "timestamp": 37.5,
+          "confidence": 0.27
+        },
+        {
+          "text": "",
+          "timestamp": 39.8,
+          "confidence": 0.09
+        },
+        {
+          "text": "I didn't catch that. Anyone else?",
+          "timestamp": 42.6,
+          "confidence": 0.79
+        },
+        {
+          "text": "Pan",
+          "timestamp": 47.2,
+          "confidence": 0.74
+        },
+        {
+          "text": "Exacto! Milk?",
+          "timestamp": 49.8,
+          "confidence": 0.85
+        },
+        {
+          "text": "Lech",
+          "timestamp": 53.5,
+          "confidence": 0.44
+        },
+        {
+          "text": "",
+          "timestamp": 55.1,
+          "confidence": 0.1
+        },
+        {
+          "text": "Leche, muy bien. Last one, cheese?",
+          "timestamp": 58.4,
+          "confidence": 0.82
+        },
+        {
+          "text": "Ques",
+          "timestamp": 63.7,
+          "confidence": 0.41
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.88,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "PII_DETECTED",
+        "details": "Student names 'María' and 'Carlos' were detected in the transcript. These should be reviewed and anonymized if necessary.",
+        "confidence": 0.9
+      }
+    ],
+    "isMainLectureContent_confidence": 0.98,
+    "isSideConversation_confidence": 0.01,
+    "isIrrelevantContent_confidence": 0.01,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "spanish_language",
+      "vocabulary",
+      "food",
+      "translation",
+      "beginner_spanish",
+      "language_learning",
+      "grade_4_7"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "The teacher conducts a basic Spanish vocabulary drill focusing on food items. The teacher provides the English word, and students are asked to provide the Spanish translation. The words covered are apple (manzana), banana (plátano), orange (naranja), bread (pan), milk (leche), and cheese (queso). The teacher provides positive reinforcement and encourages students to speak clearly, guiding them to the correct answers in a call-and-response format.",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "• Activity: Spanish vocabulary drill on food.\n• Format: Teacher says English word, student translates to Spanish.\n• Vocabulary Covered:\n  - Apple → Manzana\n  - Banana → Plátano\n  - Orange → Naranja\n  - Bread → Pan\n  - Milk → Leche\n  - Cheese → Queso"
+      },
+      {
+        "version": "narrative",
+        "comparativeValueToRecommendedModality": 0.85,
+        "text": "In a Spanish language class, the teacher initiated a practice session for food vocabulary. Calling on students by name, she prompted them with English words like 'apple' and 'banana'. The students responded with the Spanish equivalents, 'manzana' and 'plátano', receiving encouragement and gentle corrections to build their confidence and vocabulary."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.75,
+        "text": "A teacher leads a Spanish vocabulary exercise where students translate six common English food words: apple, banana, orange, bread, milk, and cheese."
+      }
+    ],
+    "oneLineSummarization": "A teacher leads a beginner Spanish class in a vocabulary drill, translating English food names into their Spanish equivalents.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "VISUAL",
+        "relativeEffectivenessWeight": 0.95,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Imagine a colorful chart. On the left, you see a picture of a shiny red apple, and next to it, the word 'Apple'. An arrow points to the right side, where you see the Spanish word 'Manzana'. Below that, a yellow banana is paired with 'Banana' pointing to 'Plátano'. This visual pairing creates a strong mental link between the object, the English word, and its new Spanish name, making it much easier to remember."
+      },
+      {
+        "effectiveness": "high",
+        "type": "AUDITORY",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "Let's learn with a rhythm! Clap a simple beat and chant along: 'Apple is Manzana, (clap, clap). Banana, Plátano, (clap, clap). Orange is Naranja, (clap, clap). Now you know your frutas!' Creating a simple song or chant helps the words stick in your memory through sound and repetition, and it makes practicing pronunciation fun."
+      },
+      {
+        "effectiveness": "high",
+        "type": "KINESTHETIC",
+        "relativeEffectivenessWeight": 0.8,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "Let's act out the words! When you hear 'Manzana', pretend you're picking an apple from a tree and taking a big, crunchy bite. For 'Plátano', peel an imaginary banana. For 'Leche', pretend to pour a glass of milk and drink it. Connecting a physical action to each new word helps your body remember the vocabulary along with your brain."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "EXPERIENTIAL",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.75,
+        "text": "Picture yourself at a market in Mexico City. You want to buy some fruit. You walk up to a stall and say, '¡Hola! ¿Una manzana, por favor?' The vendor smiles and hands you an apple. Then you see some bread at a bakery, a 'panadería', and you know the word is 'pan'. Using these words in real-world scenarios shows you how useful they are for traveling and communicating."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "FLASHCARD",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "IMAGE",
+          "HTML_INTERACTIVE",
+          "ANNOTATED_TEXT"
+        ],
+        "title": "Interactive Food Vocabulary Flashcards (English-Spanish)",
+        "reasonForSuggestion": "Flashcards are a proven and highly effective method for vocabulary acquisition. Adding images and interactivity creates a multi-sensory learning experience that strongly reinforces word association and recall.",
+        "promptForGeneration": "Create a set of 6 interactive HTML flashcards for a beginner Spanish lesson. Each card should have a front and a back that flips on click. The front of each card must display a high-quality, clear image of the food item and the English word below it in a large, clean font (e.g., 'Apple'). The back of the card must display the Spanish translation in a bold font (e.g., 'Manzana'), along with its grammatical gender (la) and a simple phonetic pronunciation guide (mahn-SAH-nah). Use bright, engaging colors suitable for elementary/middle school students. The cards are: 1. Apple/Manzana (la), 2. Banana/Plátano (el), 3. Orange/Naranja (la), 4. Bread/Pan (el), 5. Milk/Leche (la), 6. Cheese/Queso (el)."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.85,
+        "coreType": "HTML_INTERACTIVE",
+        "otherCoreType": "CUSTOM",
+        "secondaryTypes": [
+          "MEMORY_GAME",
+          "IMAGE"
+        ],
+        "title": "Spanish Food Matching Game",
+        "reasonForSuggestion": "Gamification significantly increases student engagement and motivation. A matching game transforms a simple drill into a fun challenge, encouraging repetition and faster recall in a low-stakes environment.",
+        "promptForGeneration": "Generate an interactive HTML matching game for a beginner Spanish class. Create a 4x3 grid of 12 cards, face down. The set of cards consists of 6 pairs. One card in each pair has an image of a food item (apple, banana, orange, bread, milk, cheese), and the other card has the corresponding Spanish word (Manzana, Plátano, Naranja, Pan, Leche, Queso). When a student clicks a card, it flips over to reveal its content. If two clicked cards are a matching pair (image and correct word), they should stay face up. If they don't match, they should flip back over after a 1.5-second delay. Add a simple 'You Win!' message when all pairs are found. Use a cheerful and colorful design."
+      },
+      {
+        "effectiveness": "medium",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherSuggestions": 0.7,
+        "coreType": "MERMAID_MINDMAP",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "EMOJI_DIAGRAM"
+        ],
+        "title": "La Comida (Food) Vocabulary Map",
+        "reasonForSuggestion": "A mind map helps students categorize information, which is a key step in moving from simple memorization to deeper understanding. It shows relationships between words (e.g., fruits, dairy).",
+        "promptForGeneration": "Create a Mermaid mindmap for beginner Spanish vocabulary. The central node should be 'La Comida 🍎🍞🧀'. Create three main branches: 1) 'Frutas (Fruits) 🍌' with child nodes 'Manzana (Apple)' and 'Naranja (Orange)' and 'Plátano (Banana)'. 2) 'Lácteos (Dairy) 🥛' with child nodes 'Leche (Milk)' and 'Queso (Cheese)'. 3) 'Granos (Grains) 🥖' with the child node 'Pan (Bread)'. Use emojis to enhance visual appeal. Ensure the structure is clear and easy for a young learner to read."
+      }
+    ],
+    "purpose": "This lesson establishes a foundational vocabulary for Spanish learners. Learning the names of common food items is a critical first step that enables practical, real-world communication, such as ordering at a restaurant, shopping for groceries, or simply talking about what you like to eat.",
+    "motivation": "Have you ever wanted to try amazing food while traveling? Learning these simple words is your passport to new culinary adventures! Knowing how to say 'apple' or 'cheese' in Spanish lets you connect with people from different cultures, order confidently from a menu in another country, and share the universal joy of food.",
+    "learningValueScore": 0.8,
+    "availableActions": [
+      {
+        "actionLabel": "Show Flashcards",
+        "reason": "Visually reinforces the connection between the object, English word, and Spanish word.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "Quiz Me",
+        "reason": "Allows students to actively test their recall and identify words they need to practice more.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Hear Pronunciation",
+        "reason": "Auditory input is crucial for correct language learning and building speaking confidence.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Build a Sentence",
+        "reason": "Moves beyond simple recall to application, showing how to use the new words in context.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "manzana": {
+        "definition": "The Spanish word for 'apple'.",
+        "gender": "Feminine (la manzana)",
+        "pronunciation_guide": "mahn-SAH-nah",
+        "example_sentence": "Me gusta la manzana roja. (I like the red apple.)"
+      },
+      "plátano": {
+        "definition": "The Spanish word for 'banana'.",
+        "gender": "Masculine (el plátano)",
+        "pronunciation_guide": "PLAH-tah-noh",
+        "example_sentence": "Como un plátano en la mañana. (I eat a banana in the morning.)"
+      },
+      "naranja": {
+        "definition": "The Spanish word for 'orange'.",
+        "gender": "Feminine (la naranja)",
+        "pronunciation_guide": "nah-RAHN-hah",
+        "example_sentence": "Quiero un jugo de naranja. (I want an orange juice.)"
+      },
+      "pan": {
+        "definition": "The Spanish word for 'bread'.",
+        "gender": "Masculine (el pan)",
+        "pronunciation_guide": "pahn",
+        "example_sentence": "El pan está fresco. (The bread is fresh.)"
+      },
+      "leche": {
+        "definition": "The Spanish word for 'milk'.",
+        "gender": "Feminine (la leche)",
+        "pronunciation_guide": "LEH-cheh",
+        "example_sentence": "Bebo leche con chocolate. (I drink chocolate milk.)"
+      },
+      "queso": {
+        "definition": "The Spanish word for 'cheese'.",
+        "gender": "Masculine (el queso)",
+        "pronunciation_guide": "KEH-soh",
+        "example_sentence": "El sándwich tiene queso. (The sandwich has cheese.)"
+      }
+    },
+    "relatedResearch": [],
+    "recommendationsToTeacher": [
+      "Incorporate visual aids, such as real food items or high-quality pictures, to strengthen the word-object association for students.",
+      "Transition from single-word recall to simple sentence construction. For example, after a student correctly identifies 'manzana', prompt them with '¿Te gusta la manzana?' (Do you like the apple?).",
+      "Gamify the vocabulary practice using activities like Bingo, a matching game, or 'Around the World' to increase student engagement and make learning more dynamic and fun."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:43:06.245Z",
+    "latencyMs": 43339,
+    "tokenUsage": {
+      "input": 7309,
+      "output": 3261,
+      "total": 12148
+    }
+  }
+}

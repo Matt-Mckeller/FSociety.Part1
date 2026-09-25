@@ -1,0 +1,91 @@
+{
+  "checkpoints": [
+    {
+      "id": "cp-planning-functional",
+      "questId": "quest-planning-optimization",
+      "storylineId": "planning",
+      "title": "Planning App Functional",
+      "targetDate": "2026-01-22",
+      "status": "reached",
+      "description": "Planning app with game-themed views working, data consolidated",
+      "category": "business"
+    },
+    {
+      "id": "cp-4eye-start",
+      "questId": "quest-4eye-mvp-definition",
+      "storylineId": "4eye",
+      "title": "4Eye Development Start",
+      "targetDate": "2026-01-31",
+      "status": "reached",
+      "description": "4Eye is now the primary focus",
+      "category": "business"
+    },
+    {
+      "id": "cp-4eye-mvp-defined",
+      "questId": "quest-4eye-mvp-definition",
+      "storylineId": "4eye",
+      "title": "4Eye MVP Defined",
+      "targetDate": null,
+      "status": "upcoming",
+      "description": "Clear MVP scope, requirements, and success criteria documented",
+      "category": "business"
+    },
+    {
+      "id": "cp-4eye-core-working",
+      "questId": "quest-4eye-core",
+      "storylineId": "4eye",
+      "title": "4Eye Core Working",
+      "targetDate": null,
+      "status": "upcoming",
+      "description": "Audio to visual pipeline functional",
+      "category": "business"
+    },
+    {
+      "id": "cp-4eye-ui-complete",
+      "questId": "quest-4eye-uiux",
+      "storylineId": "4eye",
+      "title": "4Eye UI Complete",
+      "targetDate": null,
+      "status": "upcoming",
+      "description": "Chat, playback, and visual interfaces working",
+      "category": "business"
+    },
+    {
+      "id": "cp-4eye-website-live",
+      "questId": "quest-4eye-website",
+      "storylineId": "4eye",
+      "title": "4Eye Website Live",
+      "targetDate": null,
+      "status": "upcoming",
+      "description": "Landing page and signup flow deployed",
+      "category": "business"
+    },
+    {
+      "id": "cp-sf-arrival",
+      "storylineId": "personal",
+      "title": "San Francisco Arrival",
+      "targetDate": "2026-01-19",
+      "status": "reached",
+      "description": "Move to San Francisco",
+      "category": "personal"
+    },
+    {
+      "id": "cp-nicotine-free",
+      "storylineId": "personal",
+      "title": "Nicotine Free",
+      "targetDate": "2026-01-19",
+      "status": "reached",
+      "description": "No more nicotine needed, no withdrawal symptoms",
+      "category": "personal"
+    },
+    {
+      "id": "cp-adderall",
+      "storylineId": "personal",
+      "title": "Adderall Prescription",
+      "targetDate": "2026-01-20",
+      "status": "reached",
+      "description": "Get Adderall prescription in SF",
+      "category": "personal"
+    }
+  ]
+}

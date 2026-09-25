@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newton's Second Law: F = ma Interactive</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            text-align: center;
+            color: #1e3c72;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        .equation-display {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 12px;
+            text-align: center;
+            font-size: 3em;
+            font-weight: bold;
+            margin: 30px 0;
+            letter-spacing: 5px;
+            box-shadow: 0 5px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .equation-display .equals {
+            margin: 0 20px;
+            color: #ffd43b;
+        }
+
+        .controls-panel {
+            background: #f8f9fa;
+            padding: 30px;
+            border-radius: 12px;
+            margin: 30px 0;
+        }
+
+        .control-group {
+            margin-bottom: 25px;
+        }
+
+        .control-group label {
+            display: block;
+            font-weight: bold;
+            color: #1e3c72;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .slider-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        input[type="range"] {
+            flex: 1;
+            height: 8px;
+            border-radius: 5px;
+            background: #d3d3d3;
+            outline: none;
+            -webkit-appearance: none;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background: #667eea;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        input[type="range"]::-webkit-slider-thumb:hover {
+            background: #764ba2;
+            transform: scale(1.2);
+        }
+
+        input[type="range"]::-moz-range-thumb {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background: #667eea;
+            cursor: pointer;
+            border: none;
+        }
+
+        .value-display {
+            min-width: 100px;
+            text-align: center;
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #1e3c72;
+            background: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            border: 2px solid #667eea;
+        }
+
+        .visualization {
+            background: #f0f0f0;
+            border-radius: 12px;
+            padding: 40px 20px;
+            margin: 30px 0;
+            position: relative;
+            overflow: hidden;
+            min-height: 250px;
+        }
+
+        .track {
+            width: 100%;
+            height: 4px;
+            background: #333;
+            position: absolute;
+            bottom: 80px;
+            left: 0;
+        }
+
+        .cart {
+            position: absolute;
+            bottom: 84px;
+            left: 50px;
+            transition: all 0.5s cubic-bezier(0.4, 0.0, 0.2, 1);
+            cursor: grab;
+        }
+
+        .cart:active {
+            cursor: grabbing;
+        }
+
+        .cart-body {
+            width: 100px;
+            height: 60px;
+            background: #ff6b6b;
+            border-radius: 8px;
+            position: relative;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .cart-body.heavy {
+            background: #495057;
+        }
+
+        .wheel {
+            width: 20px;
+            height: 20px;
+            background: #333;
+            border-radius: 50%;
+            position: absolute;
+            bottom: -10px;
+            border: 3px solid #666;
+        }
+
+        .wheel.left {
+            left: 15px;
+        }
+
+        .wheel.right {
+            right: 15px;
+        }
+
+        .force-arrow {
+            position: absolute;
+            left: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: all 0.3s ease;
+        }
+
+        .force-arrow svg {
+            width: auto;
+            height: 30px;
+        }
+
+        .mass-label {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-weight: bold;
+            color: white;
+            font-size: 1.1em;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        }
+
+        .result-panel {
+            background: linear-gradient(135deg, #51cf66 0%, #37b24d 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 12px;
+            margin: 30px 0;
+        }
+
+        .result-panel h2 {
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
+
+        .result-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: 15px 0;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
+        .explanation {
+            background: rgba(255,255,255,0.2);
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 15px;
+            line-height: 1.6;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .info-card {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border: 3px solid #e9ecef;
+        }
+
+        .info-card h3 {
+            color: #1e3c72;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .info-card ul {
+            list-style-position: inside;
+            color: #495057;
+            line-height: 1.8;
+        }
+
+        button {
+            padding: 12px 30px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            background: #667eea;
+            color: white;
+            display: block;
+            margin: 20px auto;
+        }
+
+        button:hover {
+            background: #764ba2;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .comparison {
+            background: #fff3cd;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px solid #ffc107;
+            margin-top: 20px;
+        }
+
+        .comparison h3 {
+            color: #856404;
+            margin-bottom: 10px;
+        }
+
+        .comparison p {
+            color: #856404;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .equation-display {
+                font-size: 2em;
+                letter-spacing: 2px;
+            }
+
+            .result-value {
+                font-size: 1.8em;
+            }
+
+            .cart-body {
+                width: 80px;
+                height: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚡ Newton's Second Law: F = ma</h1>
+        <p class="subtitle">Adjust the sliders to see how force, mass, and acceleration are related!</p>
+
+        <div class="equation-display">
+            F <span class="equals">=</span> m <span class="equals">×</span> a
+        </div>
+
+        <div class="controls-panel">
+            <div class="control-group">
+                <label>🚀 Force (Newtons)</label>
+                <div class="slider-container">
+                    <input type="range" id="forceSlider" min="0" max="100" value="10" step="1">
+                    <div class="value-display" id="forceDisplay">10 N</div>
+                </div>
+            </div>
+
+            <div class="control-group">
+                <label>📦 Mass (Kilograms)</label>
+                <div class="slider-container">
+                    <input type="range" id="massSlider" min="1" max="50" value="5" step="1">
+                    <div class="value-display" id="massDisplay">5 kg</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="visualization" id="visualization">
+            <div class="track"></div>
+            <div class="cart" id="cart">
+                <div class="cart-body" id="cartBody">
+                    <span class="mass-label" id="cartMassLabel">5 kg</span>
+                    <div class="wheel left"></div>
+                    <div class="wheel right"></div>
+                    <div class="force-arrow" id="forceArrow">
+                        <svg id="arrowSvg" viewBox="0 0 100 30">
+                            <defs>
+                                <marker id="arrowhead2" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                                    <polygon points="0 0, 10 3, 0 6" fill="#ff922b" />
+                                </marker>
+                            </defs>
+                            <line x1="0" y1="15" x2="90" y2="15" stroke="#ff922b" stroke-width="4" marker-end="url(#arrowhead2)" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button onclick="demonstrateMotion()">▶️ Push the Cart!</button>
+
+        <div class="result-panel">
+            <h2>📊 Calculated Result</h2>
+            <div style="text-align: center; color: rgba(255,255,255,0.9); font-size: 1.2em; margin: 10px 0;">
+                Acceleration =
+            </div>
+            <div class="result-value" id="accelerationDisplay">2.0 m/s²</div>
+            <div class="explanation">
+                <strong>What this means:</strong> <span id="explanationText">With 10 N of force pushing a 5 kg object, it accelerates at 2 m/s².</span>
+            </div>
+        </div>
+
+        <div class="comparison">
+            <h3>💡 Real-World Example</h3>
+            <p id="realWorldExample">
+                This is like pushing a shopping cart! If you push an empty cart (small mass) with the same force, 
+                it zooms away quickly (high acceleration). But if you push a cart full of groceries (large mass) 
+                with the same force, it moves much slower (low acceleration).
+            </p>
+        </div>
+
+        <div class="info-grid">
+            <div class="info-card">
+                <h3>🎯 What is Force?</h3>
+                <p>Force is a push or pull measured in <strong>Newtons (N)</strong>.</p>
+                <ul>
+                    <li>More force = more push</li>
+                    <li>10 N is like pushing with moderate strength</li>
+                    <li>100 N is like pushing very hard</li>
+                </ul>
+            </div>
+
+            <div class="info-card">
+                <h3>⚖️ What is Mass?</h3>
+                <p>Mass is the amount of matter in an object, measured in <strong>kilograms (kg)</strong>.</p>
+                <ul>
+                    <li>More mass = heavier object</li>
+                    <li>5 kg is like a small bag of flour</li>
+                    <li>50 kg is like a large dog</li>
+                </ul>
+            </div>
+
+            <div class="info-card">
+                <h3>🏃 What is Acceleration?</h3>
+                <p>Acceleration is how quickly speed changes, measured in <strong>meters per second squared (m/s²)</strong>.</p>
+                <ul>
+                    <li>Higher = speeds up faster</li>
+                    <li>2 m/s² = moderate acceleration</li>
+                    <li>10 m/s² ≈ gravity on Earth</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const forceSlider = document.getElementById('forceSlider');
+        const massSlider = document.getElementById('massSlider');
+        const forceDisplay = document.getElementById('forceDisplay');
+        const massDisplay = document.getElementById('massDisplay');
+        const accelerationDisplay = document.getElementById('accelerationDisplay');
+        const explanationText = document.getElementById('explanationText');
+        const realWorldExample = document.getElementById('realWorldExample');
+        const cart = document.getElementById('cart');
+        const cartBody = document.getElementById('cartBody');
+        const cartMassLabel = document.getElementById('cartMassLabel');
+        const forceArrow = document.getElementById('forceArrow');
+        const arrowSvg = document.getElementById('arrowSvg');
+
+        function updateCalculation() {
+            const force = parseFloat(forceSlider.value);
+            const mass = parseFloat(massSlider.value);
+            const acceleration = (force / mass).toFixed(2);
+
+            forceDisplay.textContent = `${force} N`;
+            massDisplay.textContent = `${mass} kg`;
+            accelerationDisplay.textContent = `${acceleration} m/s²`;
+            cartMassLabel.textContent = `${mass} kg`;
+
+            // Update cart appearance based on mass
+            if (mass > 25) {
+                cartBody.classList.add('heavy');
+            } else {
+                cartBody.classList.remove('heavy');
+            }
+
+            // Update arrow size based on force
+            const arrowWidth = 50 + (force * 1.5);
+            arrowSvg.setAttribute('viewBox', `0 0 ${arrowWidth} 30`);
+            arrowSvg.querySelector('line').setAttribute('x2', arrowWidth - 10);
+
+            // Update explanation
+            let speedDescription = '';
+            if (acceleration < 1) {
+                speedDescription = 'slowly';
+            } else if (acceleration < 3) {
+                speedDescription = 'at a moderate pace';
+            } else if (acceleration < 6) {
+                speedDescription = 'quickly';
+            } else {
+                speedDescription = 'very rapidly';
+            }
+
+            explanationText.textContent = `With ${force} N of force pushing a ${mass} kg object, it accelerates ${speedDescription} at ${acceleration} m/s².`;
+
+            // Update real-world example
+            if (mass < 10) {
+                if (force < 20) {
+                    realWorldExample.textContent = "Like pushing a child on a swing with gentle force - easy to move!";
+                } else {
+                    realWorldExample.textContent = "Like throwing a ball - light object with good force means it goes fast!";
+                }
+            } else if (mass < 30) {
+                if (force < 30) {
+                    realWorldExample.textContent = "Like pushing a shopping cart with some groceries - takes moderate effort.";
+                } else {
+                    realWorldExample.textContent = "Like pushing a shopping cart downhill with help from gravity - moves well!";
+                }
+            } else {
+                if (force < 40) {
+                    realWorldExample.textContent = "Like trying to push a car - heavy object with limited force means slow movement.";
+                } else {
+                    realWorldExample.textContent = "Like pushing a heavy cart with maximum effort - it moves but requires lots of force!";
+                }
+            }
+        }
+
+        function demonstrateMotion() {
+            const force = parseFloat(forceSlider.value);
+            const mass = parseFloat(massSlider.value);
+            const acceleration = force / mass;
+            
+            // Calculate how far to move based on acceleration (visual representation)
+            const distance = Math.min(acceleration * 50, 400);
+            
+            // Animate cart movement
+            cart.style.transform = `translateX(${distance}px)`;
+            
+            // Reset after animation
+            setTimeout(() => {
+                cart.style.transform = 'translateX(0)';
+            }, 2000);
+        }
+
+        // Add event listeners
+        forceSlider.addEventListener('input', updateCalculation);
+        massSlider.addEventListener('input', updateCalculation);
+
+        // Initialize
+        updateCalculation();
+    </script>
+</body>
+</html>

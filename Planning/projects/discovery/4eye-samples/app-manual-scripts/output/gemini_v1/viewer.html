@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Output Viewer - 4eye Analysis</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .tabs {
+            display: flex;
+            background: #f5f5f5;
+            border-bottom: 2px solid #ddd;
+            overflow-x: auto;
+        }
+
+        .tab {
+            padding: 15px 30px;
+            cursor: pointer;
+            border: none;
+            background: none;
+            font-size: 1em;
+            font-weight: 600;
+            color: #666;
+            transition: all 0.3s;
+            white-space: nowrap;
+        }
+
+        .tab:hover {
+            background: #e9e9e9;
+        }
+
+        .tab.active {
+            background: white;
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+        }
+
+        .content {
+            padding: 30px;
+        }
+
+        .sample-view {
+            display: none;
+        }
+
+        .sample-view.active {
+            display: block;
+        }
+
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .section h2 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+
+        .section h3 {
+            color: #555;
+            margin-bottom: 10px;
+            margin-top: 15px;
+            font-size: 1.2em;
+        }
+
+        .metadata {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .metadata-item {
+            background: white;
+            padding: 15px;
+            border-radius: 6px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .metadata-label {
+            font-weight: 600;
+            color: #667eea;
+            font-size: 0.9em;
+            margin-bottom: 5px;
+        }
+
+        .metadata-value {
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .transcript {
+            max-height: 400px;
+            overflow-y: auto;
+            background: white;
+            padding: 15px;
+            border-radius: 6px;
+            font-size: 0.95em;
+            line-height: 1.6;
+        }
+
+        .transcript-line {
+            padding: 8px;
+            margin-bottom: 5px;
+            border-left: 3px solid #e0e0e0;
+            padding-left: 12px;
+        }
+
+        .transcript-line:hover {
+            background: #f5f5f5;
+            border-left-color: #667eea;
+        }
+
+        .timestamp {
+            color: #999;
+            font-size: 0.85em;
+            margin-right: 10px;
+            font-family: monospace;
+        }
+
+        .confidence {
+            color: #4caf50;
+            font-size: 0.85em;
+            float: right;
+        }
+
+        .score {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-weight: 600;
+            font-size: 0.9em;
+        }
+
+        .score.high {
+            background: #4caf50;
+            color: white;
+        }
+
+        .score.medium {
+            background: #ff9800;
+            color: white;
+        }
+
+        .score.low {
+            background: #f44336;
+            color: white;
+        }
+
+        .visualization-card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border: 2px solid #e0e0e0;
+            transition: all 0.3s;
+        }
+
+        .visualization-card:hover {
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+            border-color: #667eea;
+        }
+
+        .visualization-card.recommended {
+            border-color: #4caf50;
+            background: #f1f8f4;
+        }
+
+        .visualization-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .viz-title {
+            font-size: 1.2em;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .viz-badge {
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .viz-badge.very-high {
+            background: #4caf50;
+            color: white;
+        }
+
+        .viz-badge.high {
+            background: #2196f3;
+            color: white;
+        }
+
+        .viz-badge.medium {
+            background: #ff9800;
+            color: white;
+        }
+
+        .viz-description {
+            color: #666;
+            margin-bottom: 10px;
+            line-height: 1.5;
+        }
+
+        .viz-reason {
+            background: #fff3cd;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #856404;
+            border-left: 3px solid #ffc107;
+        }
+
+        .viz-prompt {
+            background: #e8f5e9;
+            padding: 12px;
+            border-radius: 4px;
+            margin-top: 10px;
+            font-size: 0.85em;
+            color: #2e7d32;
+            border-left: 3px solid #4caf50;
+            font-family: monospace;
+            white-space: pre-wrap;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .summary-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            font-size: 1.1em;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .view-viz-btn {
+            background: #667eea;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9em;
+            font-weight: 600;
+            margin-top: 10px;
+            transition: all 0.3s;
+        }
+
+        .view-viz-btn:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 10px;
+            background: white;
+            border-radius: 6px;
+        }
+
+        .stat-label {
+            font-size: 0.8em;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .stat-value {
+            font-size: 1.3em;
+            font-weight: 600;
+            color: #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔍 Gemini Output Analysis Viewer</h1>
+            <p id="subtitle">Interactive viewer for 4eye educational content analysis</p>
+        </header>
+
+        <div class="tabs" id="tabs">
+            <!-- Tabs will be generated dynamically -->
+        </div>
+
+        <div class="content" id="content">
+            <!-- Content will be generated dynamically -->
+        </div>
+    </div>
+
+    <script>
+        // Automatically detect all JSON files - checks both minimal and extra
+        const dataFiles = [
+            'minimal-goodQuality-0.json',
+            'minimal-goodQuality-1.json',
+            'minimal-goodQuality-2.json',
+            'minimal-goodQuality-3.json',
+            'extra-goodQuality-0.json',
+            'extra-goodQuality-1.json',
+            'extra-goodQuality-2.json',
+            'extra-goodQuality-3.json'
+        ];
+
+        let allData = [];
+
+        async function loadData() {
+            try {
+                // Try to load each file, skip if it doesn't exist
+                for (const file of dataFiles) {
+                    try {
+                        const response = await fetch(file);
+                        if (response.ok) {
+                            const data = await response.json();
+                            data._filename = file; // Store filename for reference
+                            allData.push(data);
+                        }
+                    } catch (fileError) {
+                        console.log(`Skipping ${file} (not found)`);
+                    }
+                }
+                
+                if (allData.length === 0) {
+                    throw new Error('No data files found');
+                }
+                
+                // Update subtitle with count
+                document.getElementById('subtitle').textContent = 
+                    `Interactive viewer for 4eye educational content analysis (${allData.length} samples loaded)`;
+                
+                renderTabs();
+                renderContent();
+                activateTab(0);
+            } catch (error) {
+                console.error('Error loading data:', error);
+                document.getElementById('content').innerHTML = `
+                    <div class="section">
+                        <h2>Error Loading Data</h2>
+                        <p>Error: ${error.message}</p>
+                        <p>Please ensure JSON files are in the same directory as this HTML file.</p>
+                        <p>Looking for files like: minimal-goodQuality-0.json or extra-goodQuality-0.json</p>
+                    </div>
+                `;
+            }
+        }
+
+        function renderTabs() {
+            const tabsContainer = document.getElementById('tabs');
+            allData.forEach((data, index) => {
+                const tab = document.createElement('button');
+                tab.className = 'tab';
+                const fileType = data._filename.includes('extra') ? '📋 Extra' : '📄 Minimal';
+                tab.innerHTML = `${data.sample.subject} - ${data.sample.gradeLevel} <small style="opacity: 0.7; font-size: 0.8em;">(${fileType})</small>`;
+                tab.onclick = () => activateTab(index);
+                tabsContainer.appendChild(tab);
+            });
+        }
+
+        function activateTab(index) {
+            const tabs = document.querySelectorAll('.tab');
+            const views = document.querySelectorAll('.sample-view');
+            
+            tabs.forEach((tab, i) => {
+                tab.classList.toggle('active', i === index);
+            });
+            
+            views.forEach((view, i) => {
+                view.classList.toggle('active', i === index);
+            });
+        }
+
+        function formatTimestamp(seconds) {
+            const mins = Math.floor(seconds / 60);
+            const secs = (seconds % 60).toFixed(1);
+            return `${mins}:${secs.padStart(4, '0')}`;
+        }
+
+        function getScoreClass(score) {
+            if (score >= 8) return 'high';
+            if (score >= 5) return 'medium';
+            return 'low';
+        }
+
+        function renderContent() {
+            const contentContainer = document.getElementById('content');
+            
+            allData.forEach((data, index) => {
+                const sampleView = document.createElement('div');
+                sampleView.className = 'sample-view';
+                
+                const sample = data.sample;
+                const response = data.response;
+                const metadata = data.metadata;
+
+                sampleView.innerHTML = `
+                    <div class="section">
+                        <h2>📚 Sample Information</h2>
+                        <div class="metadata">
+                            <div class="metadata-item">
+                                <div class="metadata-label">Subject</div>
+                                <div class="metadata-value">${sample.subject}</div>
+                            </div>
+                            <div class="metadata-item">
+                                <div class="metadata-label">Grade Level</div>
+                                <div class="metadata-value">${sample.gradeLevel}</div>
+                            </div>
+                            <div class="metadata-item">
+                                <div class="metadata-label">Quality Score</div>
+                                <div class="metadata-value">
+                                    <span class="score ${getScoreClass(sample.qualityScore)}">${sample.qualityScore}/10</span>
+                                </div>
+                            </div>
+                            <div class="metadata-item">
+                                <div class="metadata-label">Duration</div>
+                                <div class="metadata-value">${sample.durationSeconds}s</div>
+                            </div>
+                        </div>
+                        <p><strong>Description:</strong> ${sample.description}</p>
+                    </div>
+
+                    <div class="section">
+                        <h2>📝 AI Summary</h2>
+                        <div class="summary-box">
+                            ${response.oneLineSummarization}
+                        </div>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <div class="stat-label">Confidence</div>
+                                <div class="stat-value">${(response.confidence * 100).toFixed(0)}%</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-label">Main Content</div>
+                                <div class="stat-value">${(response.isMainLectureContent_confidence * 100).toFixed(0)}%</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-label">Should Summarize</div>
+                                <div class="stat-value">${response.shouldSummarize ? 'Yes' : 'No'}</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-label">Viz Score</div>
+                                <div class="stat-value">${(response.visualizationEffectivenessScore * 100).toFixed(0)}%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h2>💬 Transcript</h2>
+                        <div class="transcript">
+                            ${sample.dialog.transcriptions.map(t => `
+                                <div class="transcript-line">
+                                    <span class="timestamp">${formatTimestamp(t.timestamp)}</span>
+                                    <span class="confidence">${(t.confidence * 100).toFixed(0)}%</span>
+                                    <div>${t.text}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h2>🎨 Visualization Suggestions</h2>
+                        ${response.visualizationSuggestions.map((viz, vizIndex) => {
+                            // Map to the correct visualization file
+                            // Use the original sample index (0-3) based on filename
+                            const fileMatch = data._filename.match(/(\d+)\.json$/);
+                            const sampleNum = fileMatch ? fileMatch[1] : index;
+                            const vizFile = `visualizations/sample-${sampleNum}-viz-${vizIndex}.html`;
+                            
+                            return `
+                            <div class="visualization-card ${viz.recommendedToDisplay ? 'recommended' : ''}">
+                                <div class="visualization-header">
+                                    <div class="viz-title">${viz.title}</div>
+                                    <span class="viz-badge ${viz.effectiveness.replace('_', '-')}">${viz.effectiveness}</span>
+                                </div>
+                                <div class="viz-description">
+                                    <strong>Type:</strong> ${viz.coreType}<br>
+                                    ${viz.description}
+                                </div>
+                                <div class="viz-reason">
+                                    <strong>Why this works:</strong> ${viz.reasonForSuggestion}
+                                </div>
+                                <details>
+                                    <summary style="cursor: pointer; margin-top: 10px; color: #667eea; font-weight: 600;">
+                                        📋 View Generation Prompt
+                                    </summary>
+                                    <div class="viz-prompt">${viz.promptForGeneration}</div>
+                                </details>
+                                <button class="view-viz-btn" onclick="checkAndOpenViz('${vizFile}')">
+                                    🚀 View Generated Visualization
+                                </button>
+                            </div>
+                        `;
+                        }).join('')}
+                    </div>
+
+                    <div class="section">
+                        <h2>⚙️ Model Metadata</h2>
+                        <div class="metadata">
+                            <div class="metadata-item">
+                                <div class="metadata-label">Model</div>
+                                <div class="metadata-value">${metadata.model}</div>
+                            </div>
+                            <div class="metadata-item">
+                                <div class="metadata-label">Latency</div>
+                                <div class="metadata-value">${(metadata.latencyMs / 1000).toFixed(2)}s</div>
+                            </div>
+                            <div class="metadata-item">
+                                <div class="metadata-label">Total Tokens</div>
+                                <div class="metadata-value">${metadata.tokenUsage.total.toLocaleString()}</div>
+                            </div>
+                            <div class="metadata-item">
+                                <div class="metadata-label">Timestamp</div>
+                                <div class="metadata-value">${new Date(metadata.timestamp).toLocaleString()}</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                contentContainer.appendChild(sampleView);
+            });
+        }
+
+        // Helper function to check if visualization exists before opening
+        async function checkAndOpenViz(vizPath) {
+            try {
+                const response = await fetch(vizPath, { method: 'HEAD' });
+                if (response.ok) {
+                    window.open(vizPath, '_blank');
+                } else {
+                    alert(`Visualization not yet generated for this sample.\n\nFile: ${vizPath}\n\nYou can generate it using the prompt shown above!`);
+                }
+            } catch (error) {
+                alert(`Visualization file not found: ${vizPath}\n\nThis visualization hasn't been generated yet. Use the prompt above to create it!`);
+            }
+        }
+
+        // Load data on page load
+        loadData();
+    </script>
+</body>
+</html>

@@ -1,0 +1,968 @@
+{
+  "output_dir": "/Users/mm/Projects/Media/Phenominal/shorts/v2_edited",
+  "goals": [
+    "teach",
+    "engage",
+    "professional",
+    "funding",
+    "women"
+  ],
+  "layout_notes": {
+    "screen_sources": "1512x982 Zoom composite: PiP cam top-right + UI. Split vertical: cam top / UI bottom.",
+    "vid3": "1280x720 talking-head (no screen share). Vertical center face crop."
+  },
+  "sources": {
+    "godtier": {
+      "file": "/Users/mm/Projects/Media/Phenominal/sources/godtier/video2068306961_godtier.mp4",
+      "layout": "split_pip_ui",
+      "w": 1512,
+      "h": 982,
+      "pip": {
+        "x": 1195,
+        "y": 40,
+        "w": 230,
+        "h": 220
+      },
+      "ui": {
+        "x": 200,
+        "y": 70,
+        "w": 1000,
+        "h": 780
+      }
+    },
+    "gov": {
+      "file": "/Users/mm/Projects/Media/Phenominal/sources/future-gov-war/video1525440693__Future_Gov_War_Phenominal.mp4",
+      "layout": "split_pip_ui",
+      "w": 1512,
+      "h": 982,
+      "pip": {
+        "x": 1195,
+        "y": 40,
+        "w": 230,
+        "h": 220
+      },
+      "ui": {
+        "x": 200,
+        "y": 70,
+        "w": 1000,
+        "h": 780
+      }
+    },
+    "vid3": {
+      "file": "/Users/mm/Projects/Media/Phenominal/sources/vid3/video1036240437.mp4",
+      "layout": "face_vertical",
+      "w": 1280,
+      "h": 720
+    }
+  },
+  "clips": [
+    {
+      "source": "godtier",
+      "id": "01_transform_education",
+      "title": "Education Needs a Rebuild",
+      "hook": "Work, school, and AI can all be better.",
+      "start": "00:01:30",
+      "end": "00:03:10",
+      "tags": [
+        "teach",
+        "funding",
+        "engage"
+      ],
+      "new": true,
+      "layout_mode": "live_pip",
+      "theme": {
+        "palette": "cyan_slate",
+        "layout": "hero_left",
+        "body_mode": "pad_solid",
+        "face_shape": "circle",
+        "ui_opacity": 0.55,
+        "source_code": "GT@1:30",
+        "source_ref": "GT@1:30 \u00b7 video2068306961_godtier.mp4",
+        "origin_id": "4eye-website-walkthrough",
+        "accent_hex": "38BDF8",
+        "pad_hex": "081016"
+      },
+      "description": "Work, school, and AI can all level up. Building the systems that make learning actually progress.",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    {
+      "source": "godtier",
+      "id": "02_info_has_ridiculous_value",
+      "title": "Your Info Has Ridiculous Value",
+      "hook": "Sites track you anyway \u2014 get something back.",
+      "start": "00:12:50",
+      "end": "00:13:40",
+      "tags": [
+        "teach",
+        "engage",
+        "funding"
+      ],
+      "layout_mode": "live_pip",
+      "theme": {
+        "palette": "gold_night",
+        "layout": "stack_bottom",
+        "body_mode": "blur_fill",
+        "face_shape": "rounded",
+        "ui_opacity": 0.63,
+        "source_code": "GT@12:50",
+        "source_ref": "GT@12:50 \u00b7 video2068306961_godtier.mp4",
+        "origin_id": "4eye-website-walkthrough",
+        "accent_hex": "EAB308",
+        "pad_hex": "0E0C08"
+      },
+      "pip": {
+        "x": 1200,
+        "y": 28,
+        "w": 220,
+        "h": 235
+      },
+      "description": "They track you anyway. Take the value back \u2014 data should pay into your growth, not just theirs.",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    {
+      "source": "godtier",
+      "id": "03_gotta_go_to_school",
+      "title": "Nobody Told Me Why School",
+      "hook": "They said go. They never said why.",
+      "start": "00:14:28",
+      "end": "00:15:08",
+      "tags": [
+        "engage",
+        "teach"
+      ],
+      "layout_mode": "live_pip",
+      "theme": {
+        "palette": "cyan_slate",
+        "layout": "corner_stamp",
+        "body_mode": "side_wash",
+        "face_shape": "circle",
+        "ui_opacity": 0.71,
+        "source_code": "GT@14:28",
+        "source_ref": "GT@14:28 \u00b7 video2068306961_godtier.mp4",
+        "origin_id": "4eye-website-walkthrough",
+        "accent_hex": "38BDF8",
+        "pad_hex": "081016"
+      },
+      "description": "They said go. Never said why. Purpose belongs in the classroom \u2014 and in the software.",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    {
+      "source": "godtier",
+      "id": "04_classroom_for_each_student",
+      "title": "A Classroom Built for Each Student",
+      "hook": "Autonomy is missing \u2014 it doesn't have to be.",
+      "start": "00:15:00",
+      "end": "00:16:25",
+      "tags": [
+        "teach",
+        "funding"
+      ],
+      "layout_mode": "graphic_top",
+      "theme": {
+        "palette": "amber_ink",
+        "layout": "hero_right",
+        "body_mode": "pad_solid",
+        "face_shape": "hex",
+        "ui_opacity": 0.79,
+        "source_code": "GT@15:00",
+        "source_ref": "GT@15:00 \u00b7 video2068306961_godtier.mp4",
+        "origin_id": "4eye-website-walkthrough",
+        "accent_hex": "FBBF24",
+        "pad_hex": "120C06"
+      },
+      "face_still": "portrait_space.jpg",
+      "description": "Autonomy is missing. One classroom per mind isn't a fantasy \u2014 it's the product.",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    {
+      "source": "godtier",
+      "id": "05_rewards_map_coins",
+      "title": "Homework \u2192 XP \u2192 Coins",
+      "hook": "Finish the quest. Earn the reward.",
+      "start": "00:17:00",
+      "end": "00:17:50",
+      "tags": [
+        "teach",
+        "engage"
+      ],
+      "layout_mode": "live_pip",
+      "theme": {
+        "palette": "teal_ocean",
+        "layout": "minimal_type",
+        "body_mode": "blur_fill",
+        "face_shape": "circle",
+        "ui_opacity": 0.87,
+        "source_code": "GT@17:00",
+        "source_ref": "GT@17:00 \u00b7 video2068306961_godtier.mp4",
+        "origin_id": "4eye-website-walkthrough",
+        "accent_hex": "2DD4BF",
+        "pad_hex": "061216"
+      },
+      "description": "Finish the quest. Earn the reward. Leaderboards and scores make learning stick.",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    {
+      "source": "godtier",
+      "id": "06_twelve_grades_problem",
+      "title": "12 Grades Is Not Progression",
+      "hook": "One number a year? We can do better.",
+      "start": "00:14:00",
+      "end": "00:14:32",
+      "tags": [
+        "teach",
+        "engage"
+      ],
+      "new": true,
+      "layout_mode": "live_pip",
+      "theme": {
+        "palette": "steel_ice",
+        "layout": "hero_center",
+        "body_mode": "side_wash",
+        "face_shape": "rounded",
+        "ui_opacity": 0.55,
+        "source_code": "GT@14:00",
+        "source_ref": "GT@14:00 \u00b7 video2068306961_godtier.mp4",
+        "origin_id": "4eye-website-walkthrough",
+        "accent_hex": "94A3B8",
+        "pad_hex": "0A0C10"
+      },
+      "description": "One number a year isn't a climb. Real progression needs levels, feedback, and goals that move.",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    {
+      "source": "godtier",
+      "id": "07_need_builders",
+      "title": "I Need Builders",
+      "hook": "Education. Code. Anyone who wants to change everything.",
+      "start": "00:00:00",
+      "end": "00:00:55",
+      "tags": [
+        "funding",
+        "engage"
+      ],
+      "new": true,
+      "layout_mode": "live_pip",
+      "theme": {
+        "palette": "emerald_deep",
+        "layout": "full_bleed",
+        "body_mode": "pad_solid",
+        "face_shape": "circle",
+        "ui_opacity": 0.63,
+        "source_code": "GT@0:00",
+        "source_ref": "GT@0:00 \u00b7 video2068306961_godtier.mp4",
+        "origin_id": "4eye-website-walkthrough",
+        "accent_hex": "34D399",
+        "pad_hex": "06100E"
+      },
+      "description": "Education. Code. Anyone chasing unicorn-scale impact on how we learn and work \u2014 build with me.",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    {
+      "source": "gov",
+      "id": "01_1_mil_vs_win",
+      "title": "Winning Beats the Easy Million",
+      "hook": "I climb because growth motivates \u2014 unicorn room, not the easy out.",
+      "start": "00:06:25",
+      "end": "00:07:10",
+      "tags": [
+        "funding",
+        "engage"
+      ],
+      "layout_mode": "live_pip",
+      "theme": {
+        "palette": "gold_night",
+        "layout": "band_split",
+        "body_mode": "blur_fill",
+        "face_shape": "hex",
+        "ui_opacity": 0.71,
+        "source_code": "GV@6:25",
+        "source_ref": "GV@6:25 \u00b7 video1525440693__Future_Gov_War_Phenominal.mp4",
+        "origin_id": "4eye-app-walkthrough",
+        "accent_hex": "EAB308",
+        "pad_hex": "0E0C08"
+      },
+      "description": "I climb because growth motivates. Leaderboards. Goals. Unicorn opportunity is room to build Web4 \u2014 not the finish line.",
+      "platforms": [
+        "tiktok",
+        "youtube",
+        "instagram"
+      ]
+    },
+    {
+      "source": "gov",
+      "id": "02_shapes_sword_triangle",
+      "title": "Shapes Teach Before Words",
+      "hook": "A sharp triangle means something. Design knows it.",
+      "start": "00:09:00",
+      "end": "00:09:55",
+      "tags": [
+        "teach"
+      ],
+      "layout_mode": "live_pip",
+      "theme": {
+        "palette": "cyan_slate",
+        "layout": "hero_left",
+        "body_mode": "side_wash",
+        "face_shape": "circle",
+        "ui_opacity": 0.79,
+        "source_code": "GV@9:00",
+        "source_ref": "GV@9:00 \u00b7 video1525440693__Future_Gov_War_Phenominal.mp4",
+        "origin_id": "4eye-app-walkthrough",
+        "accent_hex": "38BDF8",
+        "pad_hex": "081016"
+      },
+      "description": "A sharp triangle already means something. Design teaches before the lesson starts.",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    {
+      "source": "gov",
+      "id": "03_invent_a_government",
+      "title": "One Person Can Invent a Government",
+      "hook": "The whole world's changing. Work can too.",
+      "start": "00:13:00",
+      "end": "00:14:05",
+      "tags": [
+        "funding",
+        "teach",
+        "engage"
+      ],
+      "layout_mode": "live_pip",
+      "theme": {
+        "palette": "rose_charcoal",
+        "layout": "stack_bottom",
+        "body_mode": "pad_solid",
+        "face_shape": "rounded",
+        "ui_opacity": 0.87,
+        "source_code": "GV@13:00",
+        "source_ref": "GV@13:00 \u00b7 video1525440693__Future_Gov_War_Phenominal.mp4",
+        "origin_id": "4eye-app-walkthrough",
+        "accent_hex": "FB7185",
+        "pad_hex": "12080C"
+      },
+      "description": "The world's changing. Work can too. One builder with the right systems can rewrite the rules.",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    {
+      "source": "gov",
+      "id": "04_defense_smart_students",
+      "title": "Teach Them \u2014 And Defend Them",
+      "hook": "Smartest students. Real defense. Real stakes.",
+      "start": "00:14:45",
+      "end": "00:15:40",
+      "tags": [
+        "teach",
+        "funding"
+      ],
+      "layout_mode": "graphic_top",
+      "theme": {
+        "palette": "coral_smoke",
+        "layout": "corner_stamp",
+        "body_mode": "blur_fill",
+        "face_shape": "circle",
+        "ui_opacity": 0.55,
+        "source_code": "GV@14:45",
+        "source_ref": "GV@14:45 \u00b7 video1525440693__Future_Gov_War_Phenominal.mp4",
+        "origin_id": "4eye-app-walkthrough",
+        "accent_hex": "FB923C",
+        "pad_hex": "100A0A"
+      },
+      "face_still": "portrait_space.jpg",
+      "description": "Smartest students. Real stakes. Teach hard \u2014 and protect the minds you're training.",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    {
+      "source": "gov",
+      "id": "05_info_has_power",
+      "title": "Information Has Power",
+      "hook": "Broke on purpose. Ideas worth funding.",
+      "start": "00:17:30",
+      "end": "00:18:25",
+      "tags": [
+        "funding",
+        "engage"
+      ],
+      "layout_mode": "live_pip",
+      "theme": {
+        "palette": "amber_ink",
+        "layout": "hero_right",
+        "body_mode": "side_wash",
+        "face_shape": "hex",
+        "ui_opacity": 0.63,
+        "source_code": "GV@17:30",
+        "source_ref": "GV@17:30 \u00b7 video1525440693__Future_Gov_War_Phenominal.mp4",
+        "origin_id": "4eye-app-walkthrough",
+        "accent_hex": "FBBF24",
+        "pad_hex": "120C06"
+      },
+      "description": "Broke on purpose while holding ideas worth funding. Information is leverage \u2014 use it to climb.",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    {
+      "source": "gov",
+      "id": "06_evolve_content_creator",
+      "title": "Evolve as a Creator",
+      "hook": "Dangerous word. Using it anyway.",
+      "start": "00:18:30",
+      "end": "00:19:25",
+      "tags": [
+        "engage",
+        "professional"
+      ],
+      "layout_mode": "live_pip",
+      "theme": {
+        "palette": "teal_ocean",
+        "layout": "minimal_type",
+        "body_mode": "pad_solid",
+        "face_shape": "circle",
+        "ui_opacity": 0.71,
+        "source_code": "GV@18:30",
+        "source_ref": "GV@18:30 \u00b7 video1525440693__Future_Gov_War_Phenominal.mp4",
+        "origin_id": "4eye-app-walkthrough",
+        "accent_hex": "2DD4BF",
+        "pad_hex": "061216"
+      },
+      "description": "Everything kept evolving. I kept needing more tooling to solve bigger problems. Evolve with the work.",
+      "platforms": [
+        "tiktok",
+        "youtube",
+        "instagram"
+      ]
+    },
+    {
+      "source": "gov",
+      "id": "07_spatial_minds",
+      "title": "Spatial Beats Flat Chat",
+      "hook": "Students are losing navigation of the mind.",
+      "start": "00:19:30",
+      "end": "00:20:30",
+      "tags": [
+        "teach"
+      ],
+      "layout_mode": "live_pip",
+      "theme": {
+        "palette": "steel_ice",
+        "layout": "hero_center",
+        "body_mode": "blur_fill",
+        "face_shape": "rounded",
+        "ui_opacity": 0.79,
+        "source_code": "GV@19:30",
+        "source_ref": "GV@19:30 \u00b7 video1525440693__Future_Gov_War_Phenominal.mp4",
+        "origin_id": "4eye-app-walkthrough",
+        "accent_hex": "94A3B8",
+        "pad_hex": "0A0C10"
+      },
+      "description": "Students are losing navigation of the mind. Spatial UI brings the map back.",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    {
+      "source": "gov",
+      "id": "08_color_guides_attention",
+      "title": "Color Can Steer Attention",
+      "hook": "If you don't know this, you're already influenced.",
+      "start": "00:22:15",
+      "end": "00:23:25",
+      "tags": [
+        "teach",
+        "engage"
+      ],
+      "layout_mode": "live_pip",
+      "theme": {
+        "palette": "emerald_deep",
+        "layout": "full_bleed",
+        "body_mode": "side_wash",
+        "face_shape": "circle",
+        "ui_opacity": 0.87,
+        "source_code": "GV@22:15",
+        "source_ref": "GV@22:15 \u00b7 video1525440693__Future_Gov_War_Phenominal.mp4",
+        "origin_id": "4eye-app-walkthrough",
+        "accent_hex": "34D399",
+        "pad_hex": "06100E"
+      },
+      "description": "If you don't know this, you're already being steered. Color is a control surface \u2014 learn it.",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    {
+      "source": "gov",
+      "id": "09_ram_of_the_mind",
+      "title": "Save RAM in the Mind",
+      "hook": "Simplify the UI. Free the brain for the lesson.",
+      "start": "00:23:40",
+      "end": "00:25:00",
+      "tags": [
+        "teach",
+        "professional"
+      ],
+      "layout_mode": "live_pip",
+      "theme": {
+        "palette": "gold_night",
+        "layout": "band_split",
+        "body_mode": "pad_solid",
+        "face_shape": "hex",
+        "ui_opacity": 0.55,
+        "source_code": "GV@23:40",
+        "source_ref": "GV@23:40 \u00b7 video1525440693__Future_Gov_War_Phenominal.mp4",
+        "origin_id": "4eye-app-walkthrough",
+        "accent_hex": "EAB308",
+        "pad_hex": "0E0C08"
+      },
+      "description": "Simplify the UI. Free brain cycles for the actual lesson. Cognitive RAM is the scarce resource.",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    {
+      "source": "gov",
+      "id": "10_rewards_not_crypto_by_default",
+      "title": "Rewards Without Forcing Crypto",
+      "hook": "You decide the currency. Tools either way.",
+      "start": "00:25:00",
+      "end": "00:26:30",
+      "tags": [
+        "teach",
+        "funding"
+      ],
+      "layout_mode": "live_pip",
+      "theme": {
+        "palette": "cyan_slate",
+        "layout": "hero_left",
+        "body_mode": "blur_fill",
+        "face_shape": "circle",
+        "ui_opacity": 0.63,
+        "source_code": "GV@25:00",
+        "source_ref": "GV@25:00 \u00b7 video1525440693__Future_Gov_War_Phenominal.mp4",
+        "origin_id": "4eye-app-walkthrough",
+        "accent_hex": "38BDF8",
+        "pad_hex": "081016"
+      },
+      "description": "You pick the currency. Rewards should motivate the climb \u2014 tools either way.",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    {
+      "source": "gov",
+      "id": "11_who_are_you",
+      "title": "Who Are You \u2014 Really?",
+      "hook": "Nobody knows. Goals aren't even saved.",
+      "start": "00:29:05",
+      "end": "00:30:20",
+      "tags": [
+        "engage",
+        "teach"
+      ],
+      "layout_mode": "graphic_top",
+      "theme": {
+        "palette": "rose_charcoal",
+        "layout": "stack_bottom",
+        "body_mode": "side_wash",
+        "face_shape": "rounded",
+        "ui_opacity": 0.71,
+        "source_code": "GV@29:05",
+        "source_ref": "GV@29:05 \u00b7 video1525440693__Future_Gov_War_Phenominal.mp4",
+        "origin_id": "4eye-app-walkthrough",
+        "accent_hex": "FB7185",
+        "pad_hex": "12080C"
+      },
+      "face_still": "portrait_space.jpg",
+      "description": "Goals aren't even saved. Character details should stick \u2014 know yourself, then level up.",
+      "platforms": [
+        "tiktok",
+        "youtube",
+        "instagram"
+      ]
+    },
+    {
+      "source": "gov",
+      "id": "12_brain_is_a_human_right",
+      "title": "Knowing Your Brain Is a Human Right",
+      "hook": "You don't need neuroscience. You need the symbol. I'm going to check.",
+      "start": "00:31:25",
+      "end": "00:33:13",
+      "tags": [
+        "teach",
+        "funding",
+        "engage"
+      ],
+      "layout_mode": "live_pip",
+      "theme": {
+        "palette": "coral_smoke",
+        "layout": "corner_stamp",
+        "body_mode": "pad_solid",
+        "face_shape": "circle",
+        "ui_opacity": 0.79,
+        "source_code": "GV@31:25",
+        "source_ref": "GV@31:25 \u00b7 video1525440693__Future_Gov_War_Phenominal.mp4",
+        "origin_id": "4eye-app-walkthrough",
+        "accent_hex": "FB923C",
+        "pad_hex": "100A0A"
+      },
+      "description": "You don't need a degree in neuroscience. You need the symbol \u2014 and the right to understand your own mind.",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    {
+      "source": "gov",
+      "id": "13_presence_of_a_leader",
+      "title": "Leaders Have Presence",
+      "hook": "Welcome. Inspired. Connected. Trust.",
+      "start": "00:14:00",
+      "end": "00:14:50",
+      "tags": [
+        "professional",
+        "engage"
+      ],
+      "new": true,
+      "layout_mode": "live_pip",
+      "theme": {
+        "palette": "amber_ink",
+        "layout": "hero_right",
+        "body_mode": "blur_fill",
+        "face_shape": "hex",
+        "ui_opacity": 0.87,
+        "source_code": "GV@14:00",
+        "source_ref": "GV@14:00 \u00b7 video1525440693__Future_Gov_War_Phenominal.mp4",
+        "origin_id": "4eye-app-walkthrough",
+        "accent_hex": "FBBF24",
+        "pad_hex": "120C06"
+      },
+      "description": "Welcome. Inspired. Connected. Trust. Presence is a skill \u2014 and a product surface.",
+      "platforms": [
+        "tiktok",
+        "youtube",
+        "instagram"
+      ]
+    },
+    {
+      "source": "vid3",
+      "id": "01_sponsor_the_look",
+      "title": "Who's Sponsoring the Look?",
+      "hook": "Shirts. Makeup. Hair. Built for the ladies too.",
+      "start": "00:00:00",
+      "end": "00:01:00",
+      "tags": [
+        "women",
+        "funding",
+        "engage"
+      ],
+      "new": true,
+      "theme": {
+        "palette": "teal_ocean",
+        "layout": "minimal_type",
+        "body_mode": "side_wash",
+        "face_shape": "circle",
+        "ui_opacity": 0.55,
+        "source_code": "V3@0:00",
+        "source_ref": "V3@0:00 \u00b7 video1036240437.mp4",
+        "origin_id": "talk-2026-07-15",
+        "accent_hex": "2DD4BF",
+        "pad_hex": "061216"
+      },
+      "description": "Shirts. Makeup. Hair. Built for the ladies too. The look is part of the story \u2014 sponsor the climb.",
+      "platforms": [
+        "tiktok",
+        "youtube",
+        "instagram"
+      ]
+    },
+    {
+      "source": "vid3",
+      "id": "02_irl_is_highest_power",
+      "title": "IRL Is the Highest Level of Power",
+      "hook": "Digital is strong. Live experience hits different.",
+      "start": "00:01:00",
+      "end": "00:01:50",
+      "tags": [
+        "engage",
+        "teach"
+      ],
+      "new": true,
+      "theme": {
+        "palette": "steel_ice",
+        "layout": "hero_right",
+        "body_mode": "pad_solid",
+        "face_shape": "rounded",
+        "ui_opacity": 0.63,
+        "source_code": "V3@1:00",
+        "source_ref": "V3@1:00 \u00b7 video1036240437.mp4",
+        "origin_id": "talk-2026-07-15",
+        "accent_hex": "94A3B8",
+        "pad_hex": "0A0C10"
+      },
+      "description": "Digital is strong. Live experience hits different. Highest level is still in the room.",
+      "platforms": [
+        "tiktok",
+        "youtube",
+        "instagram"
+      ]
+    },
+    {
+      "source": "vid3",
+      "id": "03_shapes_color_mental_health",
+      "title": "Shapes, Color & Mental Health",
+      "hook": "Lines that look like a smile. Design that heals.",
+      "start": "00:05:30",
+      "end": "00:07:00",
+      "tags": [
+        "teach",
+        "engage",
+        "women"
+      ],
+      "new": true,
+      "theme": {
+        "palette": "emerald_deep",
+        "layout": "full_bleed",
+        "body_mode": "blur_fill",
+        "face_shape": "circle",
+        "ui_opacity": 0.71,
+        "source_code": "V3@5:30",
+        "source_ref": "V3@5:30 \u00b7 video1036240437.mp4",
+        "origin_id": "talk-2026-07-15",
+        "accent_hex": "34D399",
+        "pad_hex": "06100E"
+      },
+      "description": "Lines that look like a smile. Design can heal \u2014 or hurt. Treat mental health as a UX problem.",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    {
+      "source": "vid3",
+      "id": "04_ux_is_everything_with_ai",
+      "title": "This UX Stuff Applies to Everything",
+      "hook": "Mind + content + AI = leverage. I want input.",
+      "start": "00:07:30",
+      "end": "00:08:40",
+      "tags": [
+        "teach",
+        "funding"
+      ],
+      "new": true,
+      "theme": {
+        "palette": "gold_night",
+        "layout": "band_split",
+        "body_mode": "side_wash",
+        "face_shape": "hex",
+        "ui_opacity": 0.79,
+        "source_code": "V3@7:30",
+        "source_ref": "V3@7:30 \u00b7 video1036240437.mp4",
+        "origin_id": "talk-2026-07-15",
+        "accent_hex": "EAB308",
+        "pad_hex": "0E0C08"
+      },
+      "description": "Mind + content + AI = leverage. Same rules everywhere. I want your input on the next layer.",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    {
+      "source": "vid3",
+      "id": "05_round_corners_teach_peace",
+      "title": "Rounded Corners Train Peace",
+      "hook": "Sharp vs soft shapes change how people feel.",
+      "start": "00:10:45",
+      "end": "00:12:05",
+      "tags": [
+        "teach",
+        "professional"
+      ],
+      "new": true,
+      "theme": {
+        "palette": "cyan_slate",
+        "layout": "hero_left",
+        "body_mode": "pad_solid",
+        "face_shape": "circle",
+        "ui_opacity": 0.87,
+        "source_code": "V3@10:45",
+        "source_ref": "V3@10:45 \u00b7 video1036240437.mp4",
+        "origin_id": "talk-2026-07-15",
+        "accent_hex": "38BDF8",
+        "pad_hex": "081016"
+      },
+      "description": "Sharp vs soft changes how people feel. Peace can be taught in the geometry.",
+      "platforms": [
+        "tiktok",
+        "youtube"
+      ]
+    },
+    {
+      "source": "vid3",
+      "id": "06_women_shapes_learning",
+      "title": "Gender, Shapes & What You Click",
+      "hook": "Sharp -> rounded. You're learning every tap.",
+      "start": "00:12:00",
+      "end": "00:13:35",
+      "tags": [
+        "women",
+        "teach",
+        "engage"
+      ],
+      "new": true,
+      "theme": {
+        "palette": "rose_charcoal",
+        "layout": "stack_bottom",
+        "body_mode": "blur_fill",
+        "face_shape": "rounded",
+        "ui_opacity": 0.55,
+        "source_code": "V3@12:00",
+        "source_ref": "V3@12:00 \u00b7 video1036240437.mp4",
+        "origin_id": "talk-2026-07-15",
+        "accent_hex": "FB7185",
+        "pad_hex": "12080C"
+      },
+      "description": "Sharp \u2192 rounded. Every tap teaches. Design is curriculum \u2014 whether we admit it or not.",
+      "platforms": [
+        "tiktok",
+        "youtube",
+        "instagram"
+      ]
+    },
+    {
+      "source": "vid3",
+      "id": "07_help_me_build_it",
+      "title": "Help Me Build It",
+      "hook": "Nine million pages. I can't do this alone.",
+      "start": "00:14:00",
+      "end": "00:14:26",
+      "tags": [
+        "funding",
+        "engage"
+      ],
+      "new": true,
+      "theme": {
+        "palette": "coral_smoke",
+        "layout": "corner_stamp",
+        "body_mode": "side_wash",
+        "face_shape": "circle",
+        "ui_opacity": 0.63,
+        "source_code": "V3@14:00",
+        "source_ref": "V3@14:00 \u00b7 video1036240437.mp4",
+        "origin_id": "talk-2026-07-15",
+        "accent_hex": "FB923C",
+        "pad_hex": "100A0A"
+      },
+      "description": "Too much surface area for one person. Builders wanted \u2014 Web4, education, character systems.",
+      "platforms": [
+        "tiktok",
+        "youtube",
+        "instagram"
+      ]
+    },
+    {
+      "source": "vid3",
+      "id": "08_donation_house_story",
+      "title": "Donate Into a House & a Story",
+      "hook": "Three apps to polish. Support that means something.",
+      "start": "00:04:00",
+      "end": "00:05:10",
+      "tags": [
+        "funding",
+        "engage",
+        "women"
+      ],
+      "new": true,
+      "theme": {
+        "palette": "amber_ink",
+        "layout": "hero_right",
+        "body_mode": "pad_solid",
+        "face_shape": "hex",
+        "ui_opacity": 0.71,
+        "source_code": "V3@4:00",
+        "source_ref": "V3@4:00 \u00b7 video1036240437.mp4",
+        "origin_id": "talk-2026-07-15",
+        "accent_hex": "FBBF24",
+        "pad_hex": "120C06"
+      },
+      "description": "Support that means something \u2014 apps polished, a house, a story worth growing into.",
+      "platforms": [
+        "tiktok",
+        "youtube",
+        "instagram"
+      ]
+    }
+  ],
+  "layout_v3": {
+    "default_screen": "talking_primary_top",
+    "top_px": 1180,
+    "bottom_px": 740,
+    "pip_default": {
+      "x": 1195,
+      "y": 40,
+      "w": 230,
+      "h": 220
+    },
+    "notes": "Top=live Zoom talking cam fitted (blur fill, no face chop) or graphic_top. Bottom pad/accent/body_mode + source shortcode from themes.py. PiP cover matches source/clip pip box."
+  },
+  "theme_notes": {
+    "source_codes": "GT/GV/V3@timestamp \u2192 original Zoom file + in-point",
+    "palettes": [
+      "cyan_slate",
+      "amber_ink",
+      "emerald_deep",
+      "rose_charcoal",
+      "teal_ocean",
+      "gold_night",
+      "coral_smoke",
+      "steel_ice"
+    ],
+    "layouts": [
+      "hero_center",
+      "hero_left",
+      "hero_right",
+      "full_bleed",
+      "stack_bottom",
+      "minimal_type",
+      "band_split",
+      "corner_stamp"
+    ],
+    "body_modes": [
+      "pad_solid",
+      "blur_fill",
+      "side_wash"
+    ]
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "current": {
+    "monthlyBurn": 3000,
+    "monthlyBurnDisplay": "Varied $100 – $3,000",
+    "monthlyBurnRange": { "min": 100, "max": 3000 },
+    "monthlyBurnNote": "questioning ability to do $0",
+    "cashDisplayNote": "approximate, all accounts",
+    "creditDisplay": "< $0",
+    "creditNote": "negative — irrelevant",
+    "cashAccounts": [{ "name": "All accounts (approx.)", "balance": 88.17 }],
+    "creditAccounts": [],
+    "incentiveHistory": {
+      "priorBurn": 10000,
+      "summary": "Used to spend ~$10k/mo.",
+      "detail": "Financial incentives were used to motivate me appropriately, but they continuously got put off — and I chased after information, and more, and growth anyway.",
+      "points": [
+        {
+          "text": "Financial incentives motivated me appropriately.",
+          "worked": true
+        },
+        { "text": "They continuously got put off.", "worked": false },
+        {
+          "text": "Chased after information, and more, and growth anyway.",
+          "worked": false
+        }
+      ]
+    }
+  },
+  "spending": [
+    {
+      "category": "essentials",
+      "thisMonth": 1500,
+      "average": 1800
+    },
+    {
+      "category": "business",
+      "thisMonth": 500,
+      "average": 400
+    },
+    {
+      "category": "discretionary",
+      "thisMonth": 300,
+      "average": 500
+    }
+  ],
+  "projectRevenue": [
+    {
+      "projectId": "4up",
+      "potentialIncome": 1000000000,
+      "potentialIncomeDate": "2026-04",
+      "potentialIncomeScale": "medium"
+    },
+    {
+      "projectId": "4eye",
+      "potentialIncome": 1000000000,
+      "potentialIncomeDate": "2026-05",
+      "potentialIncomeScale": "high"
+    },
+    {
+      "projectId": "expanse-services",
+      "potentialIncome": 1000000000,
+      "potentialIncomeDate": "2026-02",
+      "potentialIncomeScale": "high"
+    },
+    {
+      "projectId": "lotties",
+      "potentialIncome": 5000000,
+      "potentialIncomeDate": "2026-03",
+      "potentialIncomeScale": "medium"
+    }
+  ],
+  "fundingGoal": "Become as big as possible as quickly as possible while not running out of money - execute optimally/perfectly.",
+  "resources": [
+    { "label": "Information", "status": "have", "value": "∞" },
+    { "label": "Money", "status": "lf", "value": "LF" },
+    { "label": "Free support", "status": "lf", "value": "LF" },
+    { "label": "Cofounders", "status": "lf", "value": "LF" },
+    { "label": "Wife", "status": "found", "value": "Found (?)" }
+  ],
+  "fundingOptions": [
+    {
+      "id": "fund-vc",
+      "name": "Venture Capital",
+      "description": "Traditional VC funding for high-growth startups",
+      "type": "vc",
+      "potentialAmount": "$1M - $100M+",
+      "timeToFunds": "3-6 months",
+      "pros": [
+        "Large amounts available",
+        "Network & expertise",
+        "Credibility boost",
+        "Can move very fast at scale"
+      ],
+      "cons": [
+        "Equity dilution",
+        "Loss of control",
+        "Pressure for exits",
+        "Time-consuming process"
+      ],
+      "status": "exploring",
+      "priority": 2
+    },
+    {
+      "id": "fund-kickstarter",
+      "name": "Kickstarter / Crowdfunding",
+      "description": "Public crowdfunding for product launches",
+      "type": "crowdfunding",
+      "potentialAmount": "$50K - $5M",
+      "timeToFunds": "1-3 months",
+      "pros": [
+        "No equity given up",
+        "Market validation",
+        "Built-in marketing",
+        "Community building"
+      ],
+      "cons": [
+        "Public commitment",
+        "Fulfillment obligations",
+        "Platform fees",
+        "Requires existing audience/marketing"
+      ],
+      "status": "exploring",
+      "priority": 3
+    },
+    {
+      "id": "fund-revenue",
+      "name": "Revenue / Bootstrap",
+      "description": "Self-fund through product sales and services",
+      "type": "revenue",
+      "potentialAmount": "$5K - $50K/mo",
+      "timeToFunds": "Immediate (upon sales)",
+      "pros": [
+        "Full ownership",
+        "No obligations",
+        "Sustainable",
+        "Forces product-market fit"
+      ],
+      "cons": [
+        "Slower growth",
+        "Limited by current income",
+        "Can't compete with funded competitors"
+      ],
+      "status": "in-progress",
+      "priority": 1
+    },
+    {
+      "id": "fund-angel",
+      "name": "Angel Investors",
+      "description": "High-net-worth individuals investing in early stage",
+      "type": "angel",
+      "potentialAmount": "$25K - $500K",
+      "timeToFunds": "1-3 months",
+      "pros": [
+        "Faster than VC",
+        "More flexible terms",
+        "Mentorship",
+        "Good for seed stage"
+      ],
+      "cons": ["Smaller amounts", "Variable quality", "Still equity dilution"],
+      "status": "exploring",
+      "priority": 4
+    },
+    {
+      "id": "fund-grants",
+      "name": "Grants & Competitions",
+      "description": "Non-dilutive funding from organizations",
+      "type": "grants",
+      "potentialAmount": "$10K - $250K",
+      "timeToFunds": "2-6 months",
+      "pros": [
+        "No equity",
+        "No repayment",
+        "Credibility",
+        "Good for specific verticals (education, AI)"
+      ],
+      "cons": [
+        "Competitive",
+        "Slow process",
+        "Restrictions on use",
+        "Time-consuming applications"
+      ],
+      "status": "not-started",
+      "priority": 5
+    },
+    {
+      "id": "fund-incubator",
+      "name": "Incubator / Accelerator",
+      "description": "Structured programs providing mentorship, resources, and funding",
+      "type": "incubator",
+      "potentialAmount": "$25K - $500K",
+      "timeToFunds": "1-4 months",
+      "pros": [
+        "Structured mentorship",
+        "Network access",
+        "Resources & workspace",
+        "Demo day exposure",
+        "Cohort community"
+      ],
+      "cons": [
+        "Equity stake (typically 5-10%)",
+        "Fixed timeline commitment",
+        "May require relocation",
+        "Competitive admission"
+      ],
+      "status": "exploring",
+      "priority": 6
+    },
+    {
+      "id": "fund-yc",
+      "name": "Y Combinator",
+      "description": "Premier startup accelerator with $500K standard deal and unparalleled network",
+      "type": "incubator",
+      "potentialAmount": "$500K (standard deal)",
+      "timeToFunds": "2-4 months",
+      "pros": [
+        "Top-tier network & alumni",
+        "$500K standard deal",
+        "Demo Day investor access",
+        "Lifetime YC brand",
+        "Office hours with partners",
+        "Post-program support"
+      ],
+      "cons": [
+        "7% equity stake",
+        "Highly competitive (<2% acceptance)",
+        "3-month SF commitment",
+        "Intense program pace",
+        "Application deadlines"
+      ],
+      "status": "exploring",
+      "priority": 3,
+      "deadlines": ["February 9th, 2026", "May 13th, 2026"]
+    },
+    {
+      "id": "fund-wealthy-partner",
+      "name": "Seduce a Wealthy Woman",
+      "description": "Strategic romantic partnership with financial upside",
+      "type": "wealthy-partner",
+      "potentialAmount": "$100K - $∞",
+      "timeToFunds": "3-12 months",
+      "pros": [
+        "Unlimited funding potential",
+        "Emotional support",
+        "Networking opportunities",
+        "Tax benefits",
+        "Lifestyle upgrade"
+      ],
+      "cons": [
+        "Requires charm & charisma",
+        "Long-term commitment",
+        "Prenup negotiations",
+        "May involve in-laws",
+        "Exit strategy complicated"
+      ],
+      "status": "exploring",
+      "priority": 7
+    }
+  ]
+}

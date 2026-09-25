@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="Heart.Evolve ember — Now">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c1917"/>
+      <stop offset="100%" stop-color="#431407"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="600" fill="url(#bg)"/>
+  <g transform="translate(480 310)" fill="none" stroke="#fb923c" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M0 70 C-40 20 -110 -20 -110 -70 C-110 -110 -80 -130 -50 -130 C-20 -130 0 -110 0 -90 C0 -110 20 -130 50 -130 C80 -130 110 -110 110 -70 C110 -20 40 20 0 70 Z"/>
+  </g>
+  <text x="48" y="64" fill="#fdba74" font-family="ui-monospace,Menlo,monospace" font-size="22" font-weight="700">Now · ember</text>
+  <text x="48" y="560" fill="#a8a29e" font-family="ui-sans-serif,system-ui" font-size="18">Same stage — warmer variant</text>
+</svg>

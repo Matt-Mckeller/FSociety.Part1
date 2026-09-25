@@ -1,0 +1,66 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: 4eye-web
+  namespace: four-eye-development
+  labels:
+    app: 4eye-web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: 4eye-web
+  template:
+    metadata:
+      labels:
+        app: 4eye-web
+    spec:
+      serviceAccountName: four-eye-development-frontend
+      containers:
+        - name: web
+          image: us-central1-docker.pkg.dev/four-eye-ai-01/four-eye-development-containers/web:latest
+          ports:
+            - containerPort: 3000
+          env:
+            - name: NODE_ENV
+              value: "development"
+            - name: NEXT_PUBLIC_API_URL
+              value: "https://development.4eye.ai/api/graphql"
+            - name: NEXT_PUBLIC_WS_URL
+              value: "wss://development.4eye.ai/api/graphql"
+            - name: NEXT_PUBLIC_APP_URL
+              value: "https://development.4eye.ai"
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "256Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: 4eye-web
+  namespace: four-eye-development
+spec:
+  selector:
+    app: 4eye-web
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
+---
+apiVersion: gateway.networking.k8s.io/v1
+kind: HTTPRoute
+metadata:
+  name: 4eye-web-route
+  namespace: four-eye-development
+spec:
+  parentRefs:
+    - name: four-eye-development-gateway
+      sectionName: https
+  rules:
+    - backendRefs:
+        - name: 4eye-web
+          port: 80

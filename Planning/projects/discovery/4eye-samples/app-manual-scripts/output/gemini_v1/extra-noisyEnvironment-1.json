@@ -1,0 +1,312 @@
+{
+  "sample": {
+    "subject": "English",
+    "gradeLevel": "6th Grade",
+    "qualityScore": 6,
+    "description": "Reading discussion with classroom chatter",
+    "durationSeconds": 120,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Everyone, please settle down and open your books to chapter 5.",
+          "timestamp": 0,
+          "confidence": 0.81
+        },
+        {
+          "text": "shuffling papers",
+          "timestamp": 5.3,
+          "confidence": 0.29
+        },
+        {
+          "text": "We're going to discuss the main character's decision.",
+          "timestamp": 8.7,
+          "confidence": 0.79
+        },
+        {
+          "text": "whispers",
+          "timestamp": 14.2,
+          "confidence": 0.24
+        },
+        {
+          "text": "Jake, what did you think about what Maya did?",
+          "timestamp": 16.8,
+          "confidence": 0.76
+        },
+        {
+          "text": "Um, I thought she was brave.",
+          "timestamp": 21.5,
+          "confidence": 0.73
+        },
+        {
+          "text": "background talking",
+          "timestamp": 25.9,
+          "confidence": 0.31
+        },
+        {
+          "text": "Brave how? Can you elaborate?",
+          "timestamp": 28.3,
+          "confidence": 0.77
+        },
+        {
+          "text": "She stood up to the bully even though she was scared.",
+          "timestamp": 32.6,
+          "confidence": 0.71
+        },
+        {
+          "text": "desk scraping",
+          "timestamp": 38.4,
+          "confidence": 0.26
+        },
+        {
+          "text": "Good point. Did anyone else notice something interesting?",
+          "timestamp": 41.2,
+          "confidence": 0.74
+        },
+        {
+          "text": "coughing",
+          "timestamp": 47.8,
+          "confidence": 0.22
+        },
+        {
+          "text": "I noticed she asked her friends for help first.",
+          "timestamp": 50.5,
+          "confidence": 0.69
+        },
+        {
+          "text": "Excellent observation, Lily!",
+          "timestamp": 56.2,
+          "confidence": 0.82
+        },
+        {
+          "text": "That shows she values friendship.",
+          "timestamp": 59.7,
+          "confidence": 0.78
+        },
+        {
+          "text": "door opening",
+          "timestamp": 64.3,
+          "confidence": 0.28
+        },
+        {
+          "text": "What do you think the author is trying to teach us?",
+          "timestamp": 67.9,
+          "confidence": 0.75
+        },
+        {
+          "text": "pencil dropping",
+          "timestamp": 74.6,
+          "confidence": 0.19
+        },
+        {
+          "text": "That you don't have to face problems alone?",
+          "timestamp": 77.3,
+          "confidence": 0.68
+        },
+        {
+          "text": "sniffling",
+          "timestamp": 83.1,
+          "confidence": 0.23
+        },
+        {
+          "text": "Yes, and that courage comes in many forms.",
+          "timestamp": 86.5,
+          "confidence": 0.79
+        },
+        {
+          "text": "classroom noise",
+          "timestamp": 92.8,
+          "confidence": 0.31
+        },
+        {
+          "text": "For tomorrow, I want you to write a paragraph about a time you showed courage.",
+          "timestamp": 96.2,
+          "confidence": 0.73
+        },
+        {
+          "text": "zipper sound",
+          "timestamp": 104.7,
+          "confidence": 0.25
+        },
+        {
+          "text": "Make sure it's at least half a page.",
+          "timestamp": 107.5,
+          "confidence": 0.77
+        },
+        {
+          "text": "chairs moving",
+          "timestamp": 113.2,
+          "confidence": 0.27
+        },
+        {
+          "text": "Alright, you can start packing up.",
+          "timestamp": 116.8,
+          "confidence": 0.81
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.78,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "PII_DETECTED",
+        "details": "Student first names ('Jake', 'Lily') were detected in the transcription. These have been included in the analysis as they are central to the classroom interaction.",
+        "recommendation": "Review for compliance with local privacy policies before sharing."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.95,
+    "isSideConversation_confidence": 0.1,
+    "isIrrelevantContent_confidence": 0.25,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "english",
+      "literature",
+      "reading_comprehension",
+      "character_analysis",
+      "theme_identification",
+      "courage",
+      "friendship",
+      "grade_6",
+      "class_discussion"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "The teacher facilitates a 6th-grade class discussion about a character named Maya from a book. Students analyze Maya's decision to confront a bully, identifying her actions as brave. The conversation highlights that Maya's courage was bolstered by first asking her friends for help. The teacher guides the students to extract the central themes: courage comes in many forms, and there is strength in friendship and seeking support. The lesson concludes with a writing assignment asking students to reflect on a personal experience with courage.",
+    "recommendedSummarization": "narrative",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "• Topic: Analysis of character (Maya) in Chapter 5.\n• Key Character Action: Stood up to a bully.\n• Student Observations: Maya was brave; she asked friends for help first.\n• Identified Themes: Courage can mean being scared but doing the right thing; friendship provides strength; you don't have to face problems alone.\n• Homework: Write a paragraph about a time you showed courage."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.8,
+        "text": "In a 6th-grade English class, students discussed a character who showed courage by standing up to a bully after getting help from friends. The key takeaway was that bravery and friendship are interconnected themes."
+      },
+      {
+        "version": "detailed",
+        "comparativeValueToRecommendedModality": 0.95,
+        "text": "A teacher guides a 6th-grade class through a literary analysis of Chapter 5. The focus is on the protagonist Maya's decision-making. A student, Jake, suggests Maya was brave, and upon prompting, clarifies that she stood up to a bully despite her fear. Another student, Lily, adds the crucial observation that Maya first sought support from her friends. The teacher uses these points to build a deeper understanding of the book's themes, concluding that the author wants to show that courage isn't the absence of fear and that relying on friends is a source of strength. This Socratic discussion transitions into a reflective writing prompt about personal courage."
+      }
+    ],
+    "oneLineSummarization": "A class discussion analyzes a book character's bravery, concluding that true courage involves facing fear and seeking support from friends.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.85,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "STORYTELLING",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Imagine being Maya for a moment. Every day, you face this bully, and your stomach twists into knots. You want to say something, but you're scared. But then you look at your friends, and you realize you're not alone in this feeling. You take a deep breath and decide to talk to them first. Sharing the problem makes it feel smaller. With your friends by your side, you find the strength to stand up and say 'stop.' It's still scary, but you're not facing it alone, and that makes all the difference."
+      },
+      {
+        "effectiveness": "high",
+        "type": "PROBLEM_SOLVING",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "Let's break down Maya's problem. Step 1: Identify the challenge - A persistent bully. Step 2: Evaluate the options. Option A: Ignore it (might not work). Option B: Face the bully alone (very scary). Option C: Get help from friends first (builds support). Step 3: Analyze the chosen solution. Maya chose Option C. This strategy combined her own courage with the strength of her friends, leading to a more successful and less isolating outcome. This shows that the best solution often involves teamwork."
+      },
+      {
+        "effectiveness": "high",
+        "type": "SOCIAL",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "Turn to a partner and discuss these questions. First, why do you think it was important for the author to show Maya asking her friends for help before confronting the bully? What would have changed if she had acted alone? Second, think about a time a friend helped you be brave, or you helped a friend. What happened? This shows how the themes in the book connect directly to our own lives and friendships."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "METAPHORS",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.75,
+        "text": "Think of courage as a single stick; it can be snapped easily. But friendship is like taking that stick and bundling it with many others. That bundle is much harder to break. When Maya asked her friends for help, she was building her bundle of sticks. Her courage wasn't just her own anymore; it was combined with the strength of her friends, making her strong enough to face the bully without breaking."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "DECISION_TREE",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "MERMAID_FLOWCHART"
+        ],
+        "title": "Maya's Choice: Which Path to Take?",
+        "reasonForSuggestion": "A decision tree visually simplifies a character's internal conflict and choices. This helps 6th graders understand character motivation and the consequences of different actions in a clear, structured way.",
+        "promptForGeneration": "Create a Mermaid flowchart diagram for a 6th-grade English class that maps out the character Maya's decision process. Use the `graph TD` orientation. Start with a node labeled 'Maya is Facing a Bully'. This should branch to two choices: 'Choice A: Act Alone' and 'Choice B: Ask Friends for Help'. The 'Act Alone' path should lead to a node styled with a dashed border labeled 'Outcome: Feels Scared & Isolated'. The 'Ask Friends for Help' path should lead to a node labeled 'Outcome: Gains Support & Confidence', which then connects to a final, bolded node labeled 'Action: Stands Up to Bully'. Use friendly colors, like blue for choices and green for the positive action."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.9,
+        "coreType": "CONCEPT_MAP",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "MERMAID_MINDMAP"
+        ],
+        "title": "What is Courage?",
+        "reasonForSuggestion": "The central theme is 'courage,' which is an abstract concept. A concept map helps students break down the theme into concrete examples from the text and their own lives, deepening their understanding.",
+        "promptForGeneration": "Generate a Mermaid mindmap diagram for 6th graders about the theme of 'Courage'. The central idea should be 'Courage'. It should have three main branches. Branch 1: 'What it IS' with sub-nodes 'Being scared but doing it anyway' and 'Doing the right thing'. Branch 2: 'What it is NOT' with sub-nodes 'Not being afraid' and 'Acting recklessly'. Branch 3: 'How Maya Showed It' with sub-nodes 'Stood up to a bully' and 'Asked her friends for help'. Use a radial layout and bright, engaging colors suitable for middle schoolers."
+      }
+    ],
+    "purpose": "This discussion teaches students how to analyze literature beyond just the plot. By examining a character's actions and motivations, they learn to identify and understand abstract themes like courage and friendship. This skill is crucial for developing critical thinking and empathy, allowing them to find deeper meaning in stories and connect it to their own lives.",
+    "motivation": "Have you ever been in a situation where you knew what the right thing to do was, but you were too scared to do it? This story shows that's a normal feeling. Learning about characters like Maya gives us a roadmap for our own lives. It shows that being brave doesn't mean you're not afraid, and that one of the smartest, strongest things you can do is ask your friends for help.",
+    "learningValueScore": 0.88,
+    "availableActions": [
+      {
+        "actionLabel": "Character Choices",
+        "reason": "Display a visual decision tree to clarify Maya's options and motivations.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Theme Explorer",
+        "reason": "Show a concept map to break down the abstract idea of 'courage' into understandable parts.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Your Turn",
+        "reason": "Prompt students to connect the story to their own lives, reinforcing the lesson's personal relevance.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Define 'Elaborate'",
+        "reason": "Provide a quick definition for a potentially unfamiliar vocabulary word used by the teacher.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "elaborate": {
+        "definition": "To provide more details or explain something more fully.",
+        "etymology": "From Latin 'elaborare', meaning 'to work out'.",
+        "usage": "The teacher asked the student to elaborate on his answer by giving a specific example from the book.",
+        "simpler": "Explain more."
+      }
+    },
+    "recommendationsToTeacher": [
+      "Consider using a 'Think-Pair-Share' strategy for the next discussion. This gives quieter students time to formulate their ideas before sharing with the larger group.",
+      "To solidify the concept of theme, create a classroom chart with 'Courage' and 'Friendship' as headers. Have students add examples from the book (or their own lives) on sticky notes throughout the unit.",
+      "Connect this literary discussion to social-emotional learning (SEL) goals by explicitly praising the students' identification of help-seeking as a brave and effective strategy."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-26T23:56:43.084Z",
+    "latencyMs": 42707,
+    "tokenUsage": {
+      "input": 7724,
+      "output": 2721,
+      "total": 12834
+    }
+  }
+}

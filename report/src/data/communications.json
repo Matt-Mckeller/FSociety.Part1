@@ -1,0 +1,1082 @@
+{
+  "communications": [
+    {
+      "id": "comm-001",
+      "type": "text",
+      "date": "2025-12-08",
+      "time": null,
+      "from": "469-423-6375",
+      "to": "Narrator",
+      "subject": null,
+      "content": "Brown@sceniccitymedical.org - wanted to follow up on the 49k file from yesterday. [DM SALES NY]",
+      "claimedIdentity": "Brown from Scenic City Medical Equipment",
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-004",
+      "relatedEventIds": ["evt-scenic-city-text-1"],
+      "attachments": [],
+      "interpretation": "First contact from Scenic City Medical. 49k could be code for specific amount or file. DM SALES NY suggests NYC operations or sales division.",
+      "credibilityScore": 3,
+      "notes": "Unsolicited text to personal number. Email domain matches claimed org."
+    },
+    {
+      "id": "comm-002",
+      "type": "text",
+      "date": "2025-12-09",
+      "time": null,
+      "from": "Scenic City Medical Equipment",
+      "to": "Narrator",
+      "subject": null,
+      "content": "Follow-up text after dentist appointment",
+      "claimedIdentity": "Scenic City Medical Equipment",
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-004",
+      "relatedEventIds": ["evt-dentist-encounter", "evt-scenic-city-text-1"],
+      "attachments": [],
+      "interpretation": "Timing correlates with dentist visit. 'Brown' could relate to dental (brown = teeth/cavities). Suggests coordination with dental office or surveillance of movements.",
+      "credibilityScore": 3,
+      "notes": "Timing with dental visit is suspicious"
+    },
+    {
+      "id": "comm-003",
+      "type": "text",
+      "date": "2025-12-09",
+      "time": null,
+      "from": "Scenic City Medical Equipment",
+      "to": "Narrator",
+      "subject": null,
+      "content": "Follow-up text after barbershop",
+      "claimedIdentity": "Scenic City Medical Equipment",
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-004",
+      "relatedEventIds": ["evt-barbershop", "evt-haircut-instagram-call"],
+      "attachments": [],
+      "interpretation": "Second location-triggered text same day. Pattern suggests real-time location tracking. Timing correlates with phone call made about haircut before going to Crisp Cuts.",
+      "credibilityScore": 3,
+      "notes": "Pattern of location-correlated texts emerging. Phone call preceded barbershop visit."
+    },
+    {
+      "id": "comm-004",
+      "type": "text",
+      "date": "2025-12-22",
+      "time": null,
+      "from": "888-315-5390",
+      "to": "Narrator",
+      "subject": null,
+      "content": "Have 49k in working CAP, send email for docs to finalize",
+      "claimedIdentity": "Scenic City Medical Equipment",
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-004",
+      "relatedEventIds": ["evt-scenic-city-text-2"],
+      "attachments": [],
+      "interpretation": "Continued recruitment with specific dollar amount. 49k working capital offer. Different number suggests multiple contacts or rotating numbers.",
+      "credibilityScore": 4,
+      "notes": "Different phone number from first contact"
+    },
+    {
+      "id": "comm-005",
+      "type": "text",
+      "date": "2025-12-23",
+      "time": null,
+      "from": "Scenic City Medical Equipment",
+      "to": "Narrator",
+      "subject": null,
+      "content": "Additional follow-up on move-out day",
+      "claimedIdentity": "Scenic City Medical Equipment",
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-004",
+      "relatedEventIds": ["evt-move-out"],
+      "attachments": [],
+      "interpretation": "Texted on exact day narrator moved out. Either coincidence or awareness of living situation change.",
+      "credibilityScore": 3,
+      "notes": "Timing with move-out notable"
+    },
+    {
+      "id": "comm-006",
+      "type": "outreach",
+      "date": "2025-12-15",
+      "time": null,
+      "from": "Narrator",
+      "to": "Talcove",
+      "subject": "First Contact Attempt",
+      "content": "Initial outreach to Talcove (LinkedIn or email)",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": null,
+      "relatedEventIds": ["evt-airport-attempt"],
+      "relatedPeopleIds": ["person-019"],
+      "attachments": [],
+      "interpretation": "Narrator reaching out to potential government contact during height of anxiety. Talcove has government work background (unemployment eligibility systems).",
+      "credibilityScore": 8,
+      "notes": "Outgoing communication. Talcove could provide government perspective or protection."
+    },
+    {
+      "id": "comm-007",
+      "type": "linkedin",
+      "date": "2025-12-11",
+      "time": null,
+      "from": "Logan",
+      "to": "Narrator",
+      "subject": "LinkedIn Connection",
+      "content": "Connected on LinkedIn after Keystone event",
+      "claimedIdentity": "Logan - Inventor",
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-007",
+      "relatedEventIds": ["evt-keystone-logan"],
+      "relatedPeopleIds": ["person-015"],
+      "attachments": [],
+      "interpretation": "Created verifiable digital trail of connection. Logan's profile could provide more information about his background.",
+      "credibilityScore": 7,
+      "notes": "LinkedIn connection is documented and verifiable"
+    },
+    {
+      "id": "comm-008",
+      "type": "verbal",
+      "date": "2025-11-23",
+      "time": null,
+      "from": "Banker",
+      "to": "Narrator",
+      "subject": "Investment Conversation",
+      "content": "Discussion at bar about investment, breaking into small pieces, being careful what you say to others. Bartender interjected 'coins man, do you want me to invest in you or not.'",
+      "claimedIdentity": "Unknown - presented as investor/banker",
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-005",
+      "relatedEventIds": ["evt-harrahs-day2", "evt-harrahs-day2"],
+      "relatedPeopleIds": ["person-006"],
+      "attachments": [],
+      "interpretation": "Key conversation offering entry into system. 'Small pieces' directly relates to $20 in ones found in apartment. Bartender involvement suggests establishment is part of network.",
+      "credibilityScore": 8,
+      "notes": "On casino cameras. Should be recoverable."
+    },
+    {
+      "id": "comm-009",
+      "type": "verbal",
+      "date": "2025-12-11",
+      "time": null,
+      "from": "Logan",
+      "to": "Narrator",
+      "subject": "Lysol Comment",
+      "content": "Logan randomly said 'Lysol' during conversation at Keystone Colab with no context",
+      "claimedIdentity": "Logan",
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-007",
+      "relatedEventIds": ["evt-keystone-logan"],
+      "relatedPeopleIds": ["person-015"],
+      "relatedItemIds": ["item-017"],
+      "attachments": [],
+      "interpretation": "Definitive evidence of apartment surveillance. Lysol was on nightstand - only way Logan could know is through visual access to apartment.",
+      "credibilityScore": 9,
+      "notes": "Critical evidence. Witness present (Rey)."
+    },
+    {
+      "id": "comm-010",
+      "type": "symbolic",
+      "date": "2025-12-16",
+      "time": null,
+      "from": "Narrator",
+      "to": "Camera/Observers",
+      "subject": "Middle Finger then Thumbs Up",
+      "content": "After returning from the police I showed a middle finger to the camera on the left, then moved it down and to the left and put my right hand up and to the right with a thumbs up.",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-001",
+      "relatedEventIds": ["evt-hotel-room-entry"],
+      "relatedPeopleIds": [],
+      "attachments": [],
+      "interpretation": "Multiple meanings intended: the police situation was bullshit, frustration with the cameras, and that the future was good and a thumbs up. Could be interpreted as 'motherfuckers are going down' or 'the perspective of me being an ass/bad person in the past was being removed and that the future was good.'",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Communication of frustration and future intentions, showing awareness of surveillance",
+          "likelihood": "high"
+        },
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "Past is behind, moving forward positively",
+          "likelihood": "medium"
+        }
+      ],
+      "credibilityScore": 8,
+      "notes": "In Mac apartment lobby, should be on camera"
+    },
+    {
+      "id": "comm-011",
+      "type": "symbolic",
+      "date": "2025-12-16",
+      "time": null,
+      "from": "Narrator",
+      "to": "Camera/Observers",
+      "subject": "Peanuts Thrown Away on Camera",
+      "content": "Took some peanuts and threw them away on camera in the Mac apartment lobby.",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-001",
+      "relatedEventIds": [],
+      "relatedPeopleIds": [],
+      "attachments": [],
+      "interpretation": "Predominantly meant: I've recovered some of my sanity/recovered from anxiety. Could also be interpreted as removing some of the spectators.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Removing spectators/observers, dismissing small players",
+          "likelihood": "medium"
+        },
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "Clearing away distractions, focusing on what matters",
+          "likelihood": "medium"
+        },
+        {
+          "type": "government",
+          "author": "ai",
+          "interpretation": "Could be interpreted as dismissing concern about surveillance",
+          "likelihood": "low"
+        }
+      ],
+      "credibilityScore": 8,
+      "notes": "Mac apartment lobby, on camera"
+    },
+    {
+      "id": "comm-012",
+      "type": "symbolic",
+      "date": "2025-11-27",
+      "time": null,
+      "from": "Unknown",
+      "to": "Narrator",
+      "subject": "Cigarettes Pointed Up at Casino 3",
+      "content": "At Hollywood Casino (Casino 3), the cigarettes were pointed up and to the right.",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-006",
+      "relatedEventIds": ["evt-hollywood-tournament"],
+      "relatedPeopleIds": [],
+      "attachments": [],
+      "interpretation": "This is data related to my logo and company - could be communicating with me specifically. However, could also be coincidental.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Signaling awareness of narrator's company/brand",
+          "likelihood": "low"
+        },
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "Could be investor signaling awareness of Expanse",
+          "likelihood": "low"
+        },
+        {
+          "type": "random",
+          "author": "matt",
+          "interpretation": "Potentially irrelevant, cigarettes just happened to be positioned that way",
+          "likelihood": "high"
+        },
+        {
+          "type": "random",
+          "author": "ai",
+          "interpretation": "Cigarette positioning is typically incidental. Without repeated instances, likely coincidental.",
+          "likelihood": "high"
+        }
+      ],
+      "credibilityScore": 3,
+      "notes": "Labeled as potentially irrelevant or communicating with narrator specifically"
+    },
+    {
+      "id": "comm-013",
+      "type": "symbolic",
+      "date": "2025-12-13",
+      "time": null,
+      "from": "Unknown",
+      "to": "Narrator",
+      "subject": "BOTA Box and Green Paper in Entryway",
+      "content": "In the doorway of my apartment building there was a box with the letters BOTA and a green piece of paper or plastic. Also had a trophy on it.",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-001",
+      "relatedEventIds": ["evt-panera-gray-suit"],
+      "relatedPeopleIds": [],
+      "attachments": [],
+      "interpretation": "Appeared after Panera event. Assumed connection to the dollar bill. DOTA is a game similar to what I played (League of Legends) - it was the seed of the game. Working on gamification for education. Links to green folders and multiple perspectives. Also interpreted Red + BOAT meaning moving to China, or competing with China for IT and education apps.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Connection to green tape on $20, signaling system",
+          "likelihood": "medium"
+        },
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "DOTA/gaming reference relates to gamification work, trophy = success/achievement",
+          "likelihood": "medium"
+        },
+        {
+          "type": "government",
+          "author": "matt",
+          "interpretation": "Red + BOAT could mean competing with China in IT/education",
+          "likelihood": "low"
+        },
+        {
+          "type": "random",
+          "author": "ai",
+          "interpretation": "BOTA could be brand name or resident's item. Apartment lobbies often have random items.",
+          "likelihood": "medium"
+        }
+      ],
+      "credibilityScore": 5,
+      "notes": "Multiple possible interpretations, timing with Panera is notable"
+    },
+    {
+      "id": "comm-014",
+      "type": "symbolic",
+      "date": "2025-12-12",
+      "time": null,
+      "from": "Unknown",
+      "to": "Narrator",
+      "subject": "Back and Body Hurts Clip at Aura",
+      "content": "Given a 'Back and Body Hurts' clip at Aura club after texting.",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": null,
+      "relatedEventIds": [],
+      "relatedPeopleIds": [],
+      "relatedLocationId": "Aura Club",
+      "attachments": [],
+      "interpretation": "Given after texting, could be service offerings, threat, power demonstration, or communication via wire tap texting followup.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Threat or power demonstration",
+          "likelihood": "medium"
+        },
+        {
+          "type": "government",
+          "author": "matt",
+          "interpretation": "Warning/information, communication via wire tap texting followup - seems more likely",
+          "likelihood": "medium"
+        },
+        {
+          "type": "random",
+          "author": "matt",
+          "interpretation": "Random promotional item at club",
+          "likelihood": "medium"
+        },
+        {
+          "type": "random",
+          "author": "ai",
+          "interpretation": "Promotional items at clubs are common. 'Back and Body Hurts' could be spa/massage promo. Timing with texting may be coincidental.",
+          "likelihood": "medium"
+        }
+      ],
+      "credibilityScore": 4,
+      "notes": "Given at Aura club, timing with texting notable"
+    },
+    {
+      "id": "comm-015",
+      "type": "email",
+      "date": null,
+      "time": null,
+      "from": "Narrator",
+      "to": "TransitPros",
+      "subject": "Culture and How to Make People Happy",
+      "content": "Email sent to TransitPros about culture and how to make people happy at work.",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-002",
+      "relatedEventIds": [],
+      "attachments": [],
+      "interpretation": "Shared ideas about workplace culture and motivation. Part of narrator's interest in improving engagement and happiness.",
+      "perspectives": [],
+      "credibilityScore": 9,
+      "notes": "Sent by narrator to previous employer about culture improvements"
+    },
+    {
+      "id": "comm-016",
+      "type": "email",
+      "date": null,
+      "time": null,
+      "from": "Narrator",
+      "to": "Google/Kahoot PMs",
+      "subject": "Desired Company Plans",
+      "content": "Emails sent to higher level PMs at Google and Kahoot regarding narrator's desired company plans for education business.",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": null,
+      "relatedEventIds": [],
+      "attachments": [],
+      "interpretation": "Reached out to potential partners/collaborators about education business plans (Expanse EDU).",
+      "perspectives": [],
+      "credibilityScore": 9,
+      "notes": "Outreach to tech companies about education startup plans"
+    },
+    {
+      "id": "comm-017",
+      "type": "phone",
+      "date": "2025-12-09",
+      "time": null,
+      "from": "Narrator",
+      "to": "Haircut Place",
+      "subject": "Haircut Appointment Inquiry",
+      "content": "Called about getting haircut. Guy gave Instagram. Narrator said 'ok you have instagram I trust you' but then went to Crisp Cuts instead.",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": null,
+      "relatedEventIds": ["evt-barbershop", "evt-haircut-instagram-call"],
+      "attachments": [],
+      "interpretation": "Made phone call in apartment about haircut. Trust comment about Instagram. Ended up going to different place (Crisp Cuts).",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Phone call may have been monitored - trust statement noted",
+          "likelihood": "low"
+        }
+      ],
+      "credibilityScore": 8,
+      "notes": "Called one place but went to Crisp Cuts instead"
+    },
+    {
+      "id": "comm-018",
+      "type": "in_person",
+      "date": "2025-11-27",
+      "time": null,
+      "from": "Hollywood Casino Dealer",
+      "to": "Narrator",
+      "subject": "Let me turn it on",
+      "content": "Dealer at Hollywood Casino said 'let me turn it on for you' at start of green chip tournament.",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-006",
+      "relatedEventIds": ["evt-hollywood-tournament"],
+      "relatedPeopleIds": ["person-021"],
+      "attachments": [],
+      "interpretation": "Statement about 'turning on' the system - suggests controlled poker outcomes that can be activated.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Reference to activating rigged poker system",
+          "likelihood": "high"
+        }
+      ],
+      "credibilityScore": 8,
+      "notes": "Said at start of tournament, before chip rotation experiments"
+    },
+    {
+      "id": "comm-019",
+      "type": "in_person",
+      "date": "2025-11-27",
+      "time": null,
+      "from": "Hollywood Casino Dealer",
+      "to": "Narrator",
+      "subject": "10 of Diamonds Statement",
+      "content": "Dealer said 'be careful showing your hand, you revealed a 10 of diamonds' but narrator did not have or show this card.",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-006",
+      "relatedEventIds": ["evt-hollywood-tournament"],
+      "relatedPeopleIds": ["person-021"],
+      "attachments": [],
+      "interpretation": "Signal or code - not about actual cards. 10 could represent VIP status or identity. Diamonds may reference Diamond Man from Day 1.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Code communicating narrator's status or identity in system",
+          "likelihood": "high"
+        }
+      ],
+      "credibilityScore": 8,
+      "notes": "Narrator did not have this card - deliberate signal, not warning"
+    },
+    {
+      "id": "comm-020",
+      "type": "indirect",
+      "date": "2025-12-16",
+      "time": null,
+      "from": "Sheraton Hotel",
+      "to": "Narrator",
+      "subject": "Name Communication - He's No Rat / He Rats On",
+      "content": "Sheraton -> She Rat On / He's No Rat / He Rats On",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": null,
+      "relatedEventIds": ["evt-hotel-room-entry"],
+      "relatedPeopleIds": [],
+      "attachments": [],
+      "interpretation": "The name 'Sheraton' can be rearranged or interpreted as 'He's No Rat' or 'He Rats On' - possible indirect communication about narrator's status or expectations regarding cooperation with authorities.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Name choice could be signal about narrator's perceived loyalty or warning about consequences of talking to police",
+          "likelihood": "medium"
+        }
+      ],
+      "credibilityScore": 5,
+      "notes": "Wordplay interpretation of hotel name"
+    },
+    {
+      "id": "comm-021",
+      "type": "gesture",
+      "date": "2025-12-16",
+      "time": null,
+      "from": "Narrator",
+      "to": "Camera observers",
+      "subject": "Camera Gesture - Middle Finger to Thumbs Up Angle",
+      "content": "Middle finger on bottom left, thumbs up on top right - forming upward and to the right angle",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-001",
+      "relatedEventIds": ["evt-camera-gestures", "evt-hotel-room-entry"],
+      "relatedPeopleIds": ["person-001"],
+      "attachments": [],
+      "interpretation": "Visual communication after police visit. Middle finger (bottom left) = frustration with police situation/cameras, past problems. Thumbs up (top right) = future is good, moving upward. The angle from bottom-left to top-right represents trajectory from bad past to good future. Could also mean 'motherfuckers are going down' or 'bad person in past being removed'.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Signal that narrator is done with current situation, moving forward positively",
+          "likelihood": "high"
+        }
+      ],
+      "credibilityScore": 8,
+      "notes": "Fully captured on Mac apartment lobby cameras"
+    },
+    {
+      "id": "comm-022",
+      "type": "indirect",
+      "date": "2025-12-15",
+      "time": null,
+      "from": "Mac Properties",
+      "to": "Narrator",
+      "subject": "Doorway Repairs - Casino Entry Change + Marble Intelligence",
+      "content": "Started fixing doorway and brought crane to repair white marble",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-001",
+      "relatedEventIds": ["evt-mac-doorway-repairs", "evt-casino-day-1"],
+      "relatedPeopleIds": [],
+      "attachments": [],
+      "interpretation": "Doorway repairs = symbolic message about changing the entry point for the casino laundering operation (referencing Hollywood Casino coin vending machine that started this - no more coins). Crane + white marble repairs = possible reference to narrator's intelligence (marble/smart).",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Indirect communication about changing laundering entry point and acknowledging narrator's intelligence",
+          "likelihood": "low"
+        },
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "Normal building improvements as I suggested in emails to Mac Properties executives",
+          "likelihood": "high"
+        }
+      ],
+      "credibilityScore": 3,
+      "notes": "Low confidence - could easily be normal maintenance"
+    },
+    {
+      "id": "comm-023",
+      "type": "gesture",
+      "date": "2025-12-12",
+      "time": null,
+      "from": "Narrator",
+      "to": "Camera observers",
+      "subject": "Bag Turn - Time Reference and Direction",
+      "content": "Turned bag to point towards the stairs in lobby after Crow Coffee",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-001",
+      "relatedEventIds": ["evt-lobby-speaker", "evt-crow-coffee"],
+      "relatedPeopleIds": ["person-001"],
+      "attachments": [],
+      "interpretation": "The bag turn was a reference to time and pointing to the stairs, meaning 2-3 days or o'clock. This was responded to the next morning with a large car speaker placed at the exact same location.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Visual communication using bag positioning as time/direction indicator. Response with speaker confirms observation and access to Mac Properties cameras.",
+          "likelihood": "high"
+        }
+      ],
+      "credibilityScore": 8,
+      "notes": "Bag turn captured on lobby cameras, speaker appeared at exact same location next morning"
+    },
+    {
+      "id": "comm-024",
+      "type": "indirect",
+      "date": "2025-12-13",
+      "time": null,
+      "from": "Unknown observer",
+      "to": "Narrator",
+      "subject": "Speaker Placement - Observation Confirmation and Request",
+      "content": "Large car speaker placed at exact location where bag was turned",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-001",
+      "relatedEventIds": ["evt-lobby-speaker", "evt-crow-coffee"],
+      "relatedPeopleIds": [],
+      "attachments": [],
+      "interpretation": "Speaker placement confirms: (1) they are watching, (2) request to talk on mic rather than visually, (3) confirmation of observation capability. Proves observer has access to Mac Properties cameras. Suspected (not confirmed, unknown likelihood) that people may have been waiting outside to transport narrator after the event.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Demonstrating camera access and observation capability. Request for verbal communication instead of visual signals. Suspected transport waiting outside (not confirmed, unknown likelihood).",
+          "likelihood": "high"
+        }
+      ],
+      "credibilityScore": 8,
+      "notes": "People don't leave large car speakers in apartment lobbies randomly. Exact position match is too precise."
+    },
+    {
+      "id": "comm-025",
+      "type": "gesture",
+      "date": "2025-12-13",
+      "time": "12:12",
+      "from": "Narrator",
+      "to": "Observers",
+      "subject": "3 Cups - Growth and Time Symbol",
+      "content": "Set up 3 cups symbolizing growing from small to large",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": null,
+      "relatedEventIds": ["evt-panera-gray-suit"],
+      "relatedPeopleIds": ["person-001"],
+      "attachments": [],
+      "interpretation": "3 cups arranged small to large representing: (1) my logo and growth aspects, (2) time indicator - the first day was mostly out and 2 more days or events remained.",
+      "perspectives": [
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "Visual representation of company logo and growth trajectory",
+          "likelihood": "high"
+        },
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Time signal - 2 more days/events remaining",
+          "likelihood": "medium"
+        }
+      ],
+      "credibilityScore": 7,
+      "notes": "Intentional symbolic arrangement at Panera"
+    },
+    {
+      "id": "comm-026",
+      "type": "gesture",
+      "date": "2025-12-13",
+      "time": "12:12",
+      "from": "Narrator",
+      "to": "Observers",
+      "subject": "Laptop Barrier - Protection and Trap",
+      "content": "Took laptop to corner and formed barrier around it with plates and cups",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": null,
+      "relatedEventIds": ["evt-panera-gray-suit", "evt-microcenter"],
+      "relatedPeopleIds": ["person-001"],
+      "attachments": [],
+      "interpretation": "Laptop barrier communicated multiple things: (1) Planning to protect laptop from personal and business perspective, (2) Planning to get new equipment (which happened at Microcenter), (3) Setting up a trap.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Visual trap setup - baiting observers to target laptop while planning replacement",
+          "likelihood": "high"
+        },
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "Protecting business assets, signaling intent to upgrade equipment",
+          "likelihood": "high"
+        }
+      ],
+      "credibilityScore": 8,
+      "notes": "Barrier setup was followed by Microcenter equipment purchase - plan communicated and executed"
+    },
+    {
+      "id": "comm-027",
+      "type": "symbolic",
+      "date": "2025-12-10",
+      "time": null,
+      "from": "Unknown Organization",
+      "to": "Narrator",
+      "subject": "Lobby Trash Cans and Bed Frames Setup",
+      "content": "3 gray and blue large outdoor trash cans with bed frames across them in apartment lobby. Man claimed to be 'the driver' and was giving directions to someone named Jimmy.",
+      "claimedIdentity": "The Driver",
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-001",
+      "relatedEventIds": ["evt-lobby-trash-cans"],
+      "relatedPeopleIds": ["person-013"],
+      "attachments": [],
+      "interpretation": "Symbolic communication through unusual lobby setup. Driver = transportation offer. Bed frames + trash cans = sexual reference/mockery. Possible threat of blackmail or offer of 'better quality' women. Setup was highly unusual - large outdoor trash cans don't belong in apartment lobbies.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Discrete role communication offering transportation. Bed frames with trash = sex trade reference. Could be threatening blackmail or offering women.",
+          "likelihood": "medium"
+        }
+      ],
+      "credibilityScore": 5,
+      "notes": "Narrator found this distasteful because he is drawn to women who need healing. On lobby cameras."
+    },
+    {
+      "id": "comm-028",
+      "type": "symbolic",
+      "date": "2025-12-10",
+      "time": null,
+      "from": "Unknown",
+      "to": "Narrator",
+      "subject": "Bitcoin Backpack Signal",
+      "content": "Girl with bitcoin logo on backpack walked past gym window while narrator was on treadmill.",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": null,
+      "relatedEventIds": ["evt-gym-bitcoin-backpack"],
+      "relatedPeopleIds": [],
+      "attachments": [],
+      "interpretation": "Possible crypto-related signal or inquiry about narrator's interest in cryptocurrency. Timing and date uncertain. Likely not on camera.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Asking for confirmation of crypto interest",
+          "likelihood": "low"
+        },
+        {
+          "type": "random",
+          "author": "ai",
+          "interpretation": "Bitcoin backpacks are common, likely coincidence",
+          "likelihood": "high"
+        }
+      ],
+      "credibilityScore": 3,
+      "notes": "Exact date and time uncertain. Likely not on camera."
+    },
+    {
+      "id": "comm-029",
+      "type": "verbal",
+      "date": "2025-12-09",
+      "time": "09:00",
+      "from": "Narrator",
+      "to": "Unknown Man at Dentist",
+      "subject": "Dentist Waiting Room Conversation",
+      "content": "Man mentioned 'ultrasonic.' Narrator discussed 'angles and percent between 0 and 100' about teeth. Narrator said 'maybe I would see him again in a few years' before going into appointment.",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-004",
+      "relatedEventIds": ["evt-dentist-encounter", "evt-keystone-logan"],
+      "relatedPeopleIds": ["person-009"],
+      "attachments": [],
+      "interpretation": "Open-ended communication with multiple possible interpretations: money laundering instructions (fingertips/hands), app development speed, equity investment, observation methods (WiFi/radio), or other meanings. The 'few years' comment was later responded to by Logan at Keystone saying he doesn't want to wait years, he wants it now.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "'Angles and percent 0-100' could be interpreted as money laundering instructions. 'Few years' established timeline that Logan later responded to.",
+          "likelihood": "high"
+        },
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "Could relate to app development speed or equity investment percentages.",
+          "likelihood": "medium"
+        }
+      ],
+      "credibilityScore": 7,
+      "notes": "On waiting room camera. Man arrived without appointment and made one on the spot. Communication was witnessed."
+    },
+    {
+      "id": "comm-030",
+      "type": "verbal",
+      "date": "2025-12-11",
+      "time": null,
+      "from": "Logan",
+      "to": "Narrator",
+      "subject": "Response to 'Few Years' Comment at Keystone",
+      "content": "Logan said he doesn't want to wait a few years, he wants it now.",
+      "claimedIdentity": "Logan - Inventor",
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-007",
+      "relatedEventIds": ["evt-keystone-logan", "evt-dentist-encounter"],
+      "relatedPeopleIds": ["person-015"],
+      "attachments": [],
+      "interpretation": "Direct response to narrator's comment at dentist about 'seeing him again in a few years.' This confirms information was relayed from the dentist encounter to Logan, demonstrating communication network between events.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Logan's response confirms he received information about dentist conversation. Shows connected network and urgency.",
+          "likelihood": "high"
+        }
+      ],
+      "credibilityScore": 8,
+      "notes": "On Keystone cameras. Rey witnessed this interaction. LinkedIn connection documented."
+    },
+    {
+      "id": "comm-031",
+      "type": "symbolic",
+      "date": "2025-12-09",
+      "time": null,
+      "from": "Narrator",
+      "to": "Multiple Observers",
+      "subject": "Angles and Percent 0-100 - Cross-Event Communication Pattern",
+      "content": "Narrator's statement about 'angles and percent between 0 and 100' at dentist connects to fingertip data storage observed at casino, blue painter fingertips at Starbucks, and Logan's physics/BTC presentation at Keystone.",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": null,
+      "relatedEventIds": ["evt-dentist-encounter", "evt-hollywood-tournament", "evt-starbucks-blue-painter", "evt-keystone-logan"],
+      "relatedPeopleIds": ["person-001", "person-008", "person-009", "person-015"],
+      "attachments": [],
+      "interpretation": "This communication pattern spans multiple events: At casino (Day 3), narrator was touching different points on fingertips because he saves information to his hands. At Starbucks, blue painter had painted blue fingertips - a possible response/acknowledgment of this behavior. At dentist, narrator said 'angles and percent between 0 and 100' which could be interpreted as: (1) how to utilize fingertips/hands in money laundering system, (2) app development speed 0-100%, (3) equity investment 0-100%, (4) observation capability through WiFi/radio waves 0-100%, (5) many other open-ended interpretations. At Keystone, Logan discussed 'physics' (angles, measurements) and BTC trading (percentages). This represents a connected communication thread across events demonstrating observability and coordinated responses.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Organized observation network tracked fingertip behavior at casino, responded with blue painter at Starbucks, received communication at dentist, and followed up through Logan at Keystone with physics/BTC context.",
+          "likelihood": "high"
+        },
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "The 0-100% could relate to investment percentages, app development milestones, or partnership equity discussions across multiple touchpoints.",
+          "likelihood": "medium"
+        }
+      ],
+      "credibilityScore": 7,
+      "notes": "Cross-event communication pattern. Casino on camera fully, Starbucks partially, Dentist partially (waiting room), Keystone partially with witness (Rey)."
+    },
+    {
+      "id": "comm-032",
+      "type": "behavioral",
+      "date": "2025-11-26",
+      "time": null,
+      "from": "Narrator",
+      "to": "Observers at Poker Table",
+      "subject": "Fingertip Information Storage - Possible Misinterpretation",
+      "content": "Narrator was touching different points on fingertips at the poker table because he saves information to his hands for visual and kinesthetic improvements to memory and cognition.",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": null,
+      "relatedEventIds": ["evt-hollywood-tournament", "evt-starbucks-blue-painter", "evt-dentist-encounter"],
+      "relatedPeopleIds": ["person-001"],
+      "attachments": [],
+      "interpretation": "Narrator's fingertip touching behavior at the poker table is a personal memory/cognition technique. However, this could have been misinterpreted by observers as an attempt to interact with a nonverbal communication system. This misinterpretation, combined with the later 'angles and percent 0-100' conversation at the dentist, could have accidentally built trust with whatever network was observing. The blue painter at Starbucks with painted fingertips may have been a direct response/acknowledgment to this observed behavior.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Observers at casino misinterpreted narrator's memory technique as participation in or knowledge of a nonverbal signaling system. This accidental 'confirmation' may have triggered follow-up engagement.",
+          "likelihood": "high"
+        },
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "The fingertip behavior combined with angles/percent conversation could have been interpreted as understanding of data structures or measurement systems relevant to business.",
+          "likelihood": "medium"
+        }
+      ],
+      "credibilityScore": 8,
+      "notes": "This is a key note: The fingertip behavior is a genuine personal memory technique, not intentional signaling. The misinterpretation and subsequent 'angles and percent 0-100' comment at dentist may have accidentally built trust with the observing network."
+    },
+    {
+      "id": "comm-033",
+      "type": "verbal",
+      "date": "2025-11-29",
+      "time": null,
+      "from": "Blue Painter Man",
+      "to": "Narrator",
+      "subject": "Starbucks Blue Painter Verbal Exchange",
+      "content": "Man with blue painted fingertips entered Starbucks saying 'ope, all in' in eccentric way. Mentioned meth. Showed notebook that was empty with leaves on top that fell off. Table painting with blue paint. Narrator responded by saying his name was Max and leaving.",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": null,
+      "relatedEventIds": ["evt-starbucks-blue-painter", "evt-hollywood-tournament", "evt-harrahs-day2", "evt-apartment-breakin-casino"],
+      "relatedPeopleIds": ["person-001", "person-008"],
+      "attachments": [],
+      "interpretation": "Grooming and teaching encounter. 'Ope, all in' relates to poker and potentially going all-in on laundering operations. Blue painted fingertips responded to narrator's fingertip behavior observed at casino. Meth reference probed for family connection (narrator's father arrested for selling meth) or interest level in operations. Empty notebook with leaves = unknown meaning. Narrator giving fake name 'Max' and leaving showed discomfort.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Deliberate grooming/recruitment attempt with multiple coded references: all-in (poker/laundering), fingertips (observed behavior at casino), meth (family history probe), table painting (poker table). This was a teaching/gauging encounter.",
+          "likelihood": "high"
+        },
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "Blue colors matched Expanse company colors - possible business interest approach, though method seems unlikely for legitimate business.",
+          "likelihood": "low"
+        }
+      ],
+      "credibilityScore": 8,
+      "notes": "On Starbucks cameras (partial). Occurred shortly after casino day 2 and apartment break-in. Exact date uncertain - no purchase made at Starbucks."
+    },
+    {
+      "id": "comm-034",
+      "type": "symbolic",
+      "date": "2025-11-28",
+      "time": null,
+      "from": "Unknown",
+      "to": "Narrator",
+      "subject": "Green Folders on Bed - Real Estate Connection Chain",
+      "content": "Data chain: Observation/data -> Green folders placed on bed -> Asian real estate person conversation at casino downstairs. Green folders specifically placed on the bed (not elsewhere) after casino day 2.",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": null,
+      "relatedEventIds": ["evt-apartment-breakin-casino", "evt-harrahs-day2"],
+      "relatedPeopleIds": ["person-001"],
+      "attachments": [],
+      "interpretation": "Communication chain connecting observed data to physical signaling (green folders on bed) to real estate conversation at casino. Could indicate sex/prostitution angle (folders on bed = explicit placement) or investment/real estate opportunity. The Asian real estate guy at casino seemed to be waiting for something - possibly a response to this signal.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Sex/prostitution signal - green folders placed specifically on bed connects to real estate person. Data observed -> signal placed -> follow-up conversation offered.",
+          "likelihood": "medium"
+        },
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "Investment/real estate opportunity being communicated. Green = money, folders = documents/deals, bed placement = home/property, real estate person = legitimate business angle.",
+          "likelihood": "medium"
+        }
+      ],
+      "credibilityScore": 7,
+      "notes": "Chain: data -> green folders on bed -> real estate conversation. Both interpretations (sex/prostitution vs investment) are plausible given the symbols used."
+    },
+    {
+      "id": "comm-035",
+      "type": "verbal_symbolic",
+      "date": "2025-11-23",
+      "time": null,
+      "from": "Banker",
+      "to": "Narrator",
+      "subject": "Green Chip Investment Offer",
+      "content": "Banker rolled a green chip to narrator while saying 'I want to invest in you.' Narrator went to the green chip poker tournament at Hollywood casino a few days later (see related event Casino Day 3).",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-005",
+      "relatedEventIds": ["evt-harrahs-day2"],
+      "relatedPeopleIds": ["person-001", "person-006"],
+      "attachments": [],
+      "interpretation": "Direct investment offer from banker while rolling green chip (green = money). Combined physical action with verbal statement makes intention clear.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Investment offer in laundering or other criminal operation. Green chip = money, rolling = passing/offering.",
+          "likelihood": "high"
+        },
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "Legitimate investment interest in narrator's business/app.",
+          "likelihood": "medium"
+        }
+      ],
+      "credibilityScore": 9,
+      "notes": "On casino cameras. Green chip rolled simultaneously with verbal statement 'I want to invest in you.'"
+    },
+    {
+      "id": "comm-036",
+      "type": "symbolic",
+      "date": "2025-11-23",
+      "time": null,
+      "from": "Man with Yellow Earbuds Case",
+      "to": "Narrator",
+      "subject": "Yellow Earbuds Case - Don't Use Words Signal",
+      "content": "Man with yellow earbuds case sat down at poker table then left shortly after, replaced by thug-style man.",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": null,
+      "relatedEventIds": ["evt-harrahs-day2"],
+      "relatedPeopleIds": ["person-001"],
+      "attachments": [],
+      "interpretation": "Yellow earbuds case interpreted as signal meaning 'don't use words' - instruction for nonverbal communication only. Yellow = caution/warning, earbuds = audio/words, case = closed/contained = don't use.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Instruction to not use verbal communication - stick to nonverbal signaling system only.",
+          "likelihood": "high"
+        }
+      ],
+      "credibilityScore": 7,
+      "notes": "Man left shortly after sitting down. His departure and replacement by thug-style man could indicate shift in approach or personnel."
+    },
+    {
+      "id": "comm-037",
+      "type": "verbal_symbolic",
+      "date": "2025-11-23",
+      "time": null,
+      "from": "Narrator",
+      "to": "Thug-Style Man",
+      "subject": "All-In Statement Before Losing Chips",
+      "content": "Narrator said 'You know, I don't know that this is a good poker move but...' then went all in and lost chips to thug-style man.",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": null,
+      "relatedEventIds": ["evt-harrahs-day2"],
+      "relatedPeopleIds": ["person-001"],
+      "attachments": [],
+      "interpretation": "Narrator verbally acknowledged the move might not be smart poker but did it anyway. Could be interpreted as willingness to take risks, or signaling awareness that this wasn't about poker. Lost chips to the thug-style man who replaced the yellow earbuds guy.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Statement acknowledged this wasn't a poker decision - possibly signaling understanding of larger context. Chips going to thug-style man could be seen as payment or transfer.",
+          "likelihood": "medium"
+        }
+      ],
+      "credibilityScore": 8,
+      "notes": "On casino cameras. Occurred after yellow earbuds man left and was replaced by thug-style man."
+    },
+    {
+      "id": "comm-038",
+      "type": "verbal_symbolic",
+      "date": "2025-11-22",
+      "time": null,
+      "from": "Narrator",
+      "to": "Unknown observers",
+      "subject": "Large Money Chain",
+      "content": "A chain of symbolic actions that could have been misinterpreted as signaling large money/laundering interest: (1) Casino Day 1: Bought cigarettes, smoked one, left rest on jackpot machine - potential signal for wanting large payout or having large sums. (2) Crow Coffee: Wrote 'unicorn' in notepad - unicorn means $1B+ company but could be misinterpreted as having money to launder. (3) Crow Coffee: Had Slime mug on counter at home during event - 'That Time I Reincarnated as a Slime' = perceived as slime but actually capable/intelligent, PWN = owned. (4) Move-out: Left Slime mug in mailroom as final communication. (5) Panera Gray Suit: Sharpie markings appeared after mentioning sharpies in apartment, confirming surveillance and observation of these symbolic actions.",
+      "claimedIdentity": null,
+      "actualIdentity": null,
+      "relatedOrganizationId": "org-005",
+      "relatedEventIds": ["evt-casino-day-1-coins-entryway", "evt-crow-coffee", "evt-panera-gray-suit", "evt-move-out"],
+      "relatedPeopleIds": ["person-001"],
+      "attachments": [],
+      "interpretation": "These actions formed a pattern that could have been misinterpreted as signaling wealth or laundering interest. Reality: Narrator was working on legitimate startup companies (actual unicorn aspirations), the slime mug was just an anime reference, cigarettes on jackpot was convenience. However, combined with billionaire talk at casino, these may have reinforced a profile of someone with money or ambitions that attracted criminal interest.",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Pattern of signals suggesting large money: jackpot machine placement, unicorn writing, billionaire talk. Built a profile of someone with substantial resources or ambitions worth investigating/recruiting.",
+          "likelihood": "medium"
+        },
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "Narrator legitimately building companies intended to be unicorns. Symbolic items like slime mug were personal interests, not signals. Misinterpretation led to unwanted attention.",
+          "likelihood": "high"
+        },
+        {
+          "type": "random",
+          "author": "matt",
+          "interpretation": "Unrelated coincidences with no pattern.",
+          "likelihood": "low"
+        }
+      ],
+      "credibilityScore": 7,
+      "notes": "Chain spans multiple events and locations. Sharpie surveillance confirmation proves these actions were being observed."
+    }
+  ]
+}

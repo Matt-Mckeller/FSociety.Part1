@@ -1,0 +1,13 @@
+{
+  "name": "whisper-test",
+  "version": "1.0.0",
+  "description": "Test Whisper API with WebM files",
+  "type": "module",
+  "scripts": {
+    "transcribe": "node transcribe-whisper.js"
+  },
+  "dependencies": {
+    "openai": "^4.20.0",
+    "form-data": "^4.0.0"
+  }
+}

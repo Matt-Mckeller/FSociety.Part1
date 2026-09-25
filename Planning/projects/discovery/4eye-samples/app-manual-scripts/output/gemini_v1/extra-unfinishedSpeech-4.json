@@ -1,0 +1,325 @@
+{
+  "sample": {
+    "subject": "Political Science",
+    "gradeLevel": "College - POLI 340",
+    "qualityScore": 4,
+    "description": "International relations lecture with audio glitches during virtual component",
+    "durationSeconds": 160,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "We're discussing theories of international relations today.",
+          "timestamp": 0,
+          "confidence": 0.86
+        },
+        {
+          "text": "Let's start with realism, one of the dominant paradigms.",
+          "timestamp": 6.5,
+          "confidence": 0.84
+        },
+        {
+          "text": "Realists argue that states are the",
+          "timestamp": 13.2,
+          "confidence": 0.78
+        },
+        {
+          "text": "",
+          "timestamp": 18.4,
+          "confidence": 0.1
+        },
+        {
+          "text": "primary actors in international politics.",
+          "timestamp": 21.9,
+          "confidence": 0.8
+        },
+        {
+          "text": "They emphasize power, security, and national",
+          "timestamp": 28.6,
+          "confidence": 0.82
+        },
+        {
+          "text": "connection issues",
+          "timestamp": 34.8,
+          "confidence": 0.31
+        },
+        {
+          "text": "interest as the key drivers of state behavior.",
+          "timestamp": 37.9,
+          "confidence": 0.76
+        },
+        {
+          "text": "In contrast, liberalism focuses on",
+          "timestamp": 44.7,
+          "confidence": 0.81
+        },
+        {
+          "text": "",
+          "timestamp": 50.2,
+          "confidence": 0.09
+        },
+        {
+          "text": "cooperation, international institutions, and",
+          "timestamp": 53.8,
+          "confidence": 0.75
+        },
+        {
+          "text": "Can you repeat that last part",
+          "timestamp": 60.1,
+          "confidence": 0.64
+        },
+        {
+          "text": "economic interdependence.",
+          "timestamp": 63.5,
+          "confidence": 0.71
+        },
+        {
+          "text": "Liberals believe that",
+          "timestamp": 68.9,
+          "confidence": 0.79
+        },
+        {
+          "text": "audio cutting",
+          "timestamp": 73.5,
+          "confidence": 0.25
+        },
+        {
+          "text": "international organizations like the UN can facilitate",
+          "timestamp": 77.2,
+          "confidence": 0.74
+        },
+        {
+          "text": "",
+          "timestamp": 84.6,
+          "confidence": 0.11
+        },
+        {
+          "text": "peaceful resolution of conflicts.",
+          "timestamp": 88.1,
+          "confidence": 0.77
+        },
+        {
+          "text": "Constructivism offers a different",
+          "timestamp": 94.8,
+          "confidence": 0.8
+        },
+        {
+          "text": "perspective, arguing that",
+          "timestamp": 100.3,
+          "confidence": 0.73
+        },
+        {
+          "text": "",
+          "timestamp": 104.7,
+          "confidence": 0.08
+        },
+        {
+          "text": "identities, norms, and ideas shape",
+          "timestamp": 108.5,
+          "confidence": 0.76
+        },
+        {
+          "text": "state interests rather than",
+          "timestamp": 115.2,
+          "confidence": 0.78
+        },
+        {
+          "text": "material factors alone.",
+          "timestamp": 120.6,
+          "confidence": 0.72
+        },
+        {
+          "text": "buffering",
+          "timestamp": 125.8,
+          "confidence": 0.29
+        },
+        {
+          "text": "For example, constructivists would examine how",
+          "timestamp": 129.4,
+          "confidence": 0.75
+        },
+        {
+          "text": "",
+          "timestamp": 136.7,
+          "confidence": 0.1
+        },
+        {
+          "text": "the idea of human rights has evolved and",
+          "timestamp": 140.3,
+          "confidence": 0.74
+        },
+        {
+          "text": "influenced state behavior over time.",
+          "timestamp": 147.1,
+          "confidence": 0.79
+        },
+        {
+          "text": "Next class we'll apply these",
+          "timestamp": 153.9,
+          "confidence": 0.81
+        },
+        {
+          "text": "theories to current",
+          "timestamp": 158.6,
+          "confidence": 0.67
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.75,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "audio_quality",
+        "message": "Significant audio gaps, glitches, and mentions of 'buffering' detected. The transcription is likely incomplete, and key information may be missing."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.95,
+    "isSideConversation_confidence": 0.15,
+    "isIrrelevantContent_confidence": 0.8,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "political_science",
+      "international_relations",
+      "IR_theory",
+      "realism",
+      "liberalism",
+      "constructivism",
+      "college_level",
+      "political_theory"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "The lecture introduces three dominant theories in international relations. First, Realism, which posits that states are the primary actors, driven by the pursuit of power, security, and national interest. Second, Liberalism, which contrasts with Realism by focusing on cooperation, the role of international institutions like the UN, and the pacifying effect of economic interdependence. Third, Constructivism, which offers a different perspective by arguing that state interests and behaviors are shaped not just by material factors, but by shared ideas, norms, and identities, such as the evolving concept of human rights.",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "• Realism: States are the main actors. Focuses on power, security, and national interest.\n• Liberalism: Emphasizes cooperation, international institutions (e.g., the UN), and economic interdependence to achieve peace.\n• Constructivism: Argues that ideas, norms, and identities shape state interests and behavior, not just material factors."
+      },
+      {
+        "version": "detailed",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "This lecture segment provides an overview of three core paradigms in international relations theory. It begins with Realism, explaining its core tenet that states are the most important actors on the world stage. For realists, state behavior is primarily driven by a rational pursuit of power, security, and the national interest in an anarchic system. In contrast, the lecture introduces Liberalism, which highlights the potential for cooperation through international institutions and economic interdependence. Liberals believe organizations like the United Nations can help mediate conflicts peacefully. Finally, the lecture presents Constructivism as an alternative that focuses on non-material factors, arguing that shared norms, ideas, and identities are what truly shape a state's interests and actions over time."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.75,
+        "text": "The lecture contrasts three major international relations theories: Realism (states seek power and security), Liberalism (cooperation is possible via institutions and trade), and Constructivism (ideas and norms shape state interests)."
+      },
+      {
+        "version": "technical",
+        "comparativeValueToRecommendedModality": 0.85,
+        "text": "The discourse outlines three primary paradigms of IR theory. Realism posits a state-centric model where actors in an anarchic system rationally pursue power and security as primary national interests. Liberalism offers a counterpoint, emphasizing the mitigating effects of international institutions, democratic peace, and complex interdependence on state behavior. Constructivism presents a sociological approach, asserting that state interests are endogenously constructed through social interaction, norms, and shared ideational structures, rather than being exogenously given by material factors alone."
+      }
+    ],
+    "oneLineSummarization": "An introduction to international relations theories, comparing Realism's focus on power, Liberalism's on cooperation, and Constructivism's on ideas and norms.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "ASSOCIATIONS",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Think of the world as a game. For Realists, it's a competitive chess match where each player (a state) is only looking out for themselves, trying to gain more power and ensure their own survival. For Liberals, it's more like a team sport where players (states) realize they can achieve better outcomes, like winning a championship (peace and prosperity), by cooperating, following the rules set by a league (the UN), and trading players (economic interdependence). For Constructivists, the game itself is fluid; they argue that the players' beliefs and ideas can actually change the rules of the game over time, such as deciding that certain moves (like violating human rights) are now out of bounds."
+      },
+      {
+        "effectiveness": "high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "To understand global politics, we use different logical frameworks. Framework 1: Realism. Premise: The international system is anarchic. Deduction: States must prioritize self-help. Conclusion: States are driven by a quest for power and security. Framework 2: Liberalism. Premise: States have shared interests. Deduction: Cooperation can be mutually beneficial. Conclusion: International institutions and economic ties foster peace. Framework 3: Constructivism. Premise: Reality is socially constructed. Deduction: State interests are shaped by norms and identity. Conclusion: We must analyze how ideas, like human rights, evolve and influence state actions."
+      },
+      {
+        "effectiveness": "high",
+        "type": "EXPERIENTIAL",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "Let's apply these to a real-world issue: climate change. A Realist might argue that states will only cooperate on climate change if it serves their national interest, perhaps by gaining a technological edge or relative power. A Liberal would point to the Paris Agreement and UN climate conferences as evidence that international institutions can foster cooperation to solve collective problems. A Constructivist would focus on how the growing global norm of environmental responsibility and the identity of being a 'green' nation pressures states to act, even when it's not in their immediate material interest."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "COMPARISON_MATRIX",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "HTML_STATIC",
+          "HIGHLIGHTED_TEXT"
+        ],
+        "title": "Comparing IR Theories: Realism vs. Liberalism vs. Constructivism",
+        "reasonForSuggestion": "A table is the most effective way to directly compare and contrast the core tenets of these three abstract theories, allowing for quick comprehension of their key differences.",
+        "promptForGeneration": "Create an HTML static table to compare three International Relations theories for a college-level Political Science course. The table should have four columns: 'Concept', 'Realism', 'Liberalism', and 'Constructivism'. It should include the following rows: 1. 'Primary Actors': (States), (States, International Orgs, NGOs), (Individuals, Transnational Networks). 2. 'Key Drivers': (Power, Security, National Interest), (Cooperation, Interdependence, Institutions), (Norms, Ideas, Identities). 3. 'View of Int'l System': (Anarchic, competitive), (Interdependent, potential for cooperation), (Socially constructed, evolving). 4. 'Key Thinkers': (Morgenthau, Waltz), (Kant, Keohane), (Wendt, Finnemore). Use clear headings (th) and data cells (td). Style the table with good contrast (e.g., #f2f2f2 for alternating rows) and professional, readable fonts. Highlight the key driver for each theory in bold text."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.85,
+        "coreType": "MERMAID_MINDMAP",
+        "otherCoreType": null,
+        "secondaryTypes": [],
+        "title": "Mind Map of Core International Relations Theories",
+        "reasonForSuggestion": "A mind map provides a strong visual-spatial organization of the theories and their core concepts, helping students to see the structure of each paradigm individually.",
+        "promptForGeneration": "Generate a Mermaid mindmap diagram for a college political science class. The central node should be 'International Relations Theories'. Create three main branches: 'Realism', 'Liberalism', and 'Constructivism'. For the 'Realism' branch, add sub-nodes: 'Focus: Power & Security', 'Actors: States', 'System: Anarchy'. For the 'Liberalism' branch, add sub-nodes: 'Focus: Cooperation', 'Actors: States & Institutions', 'Key: Interdependence'. For the 'Constructivism' branch, add sub-nodes: 'Focus: Ideas & Norms', 'Actors: Individuals & Networks', 'Key: Social Construction'. Use different colors for each of the three main branches to visually distinguish them. Ensure the syntax is valid for Mermaid rendering."
+      }
+    ],
+    "purpose": "These theories are foundational analytical tools in political science. They provide structured frameworks, or 'lenses,' for interpreting the complex interactions between countries. Understanding them allows you to move beyond simply describing world events to analyzing why they happen and predicting potential outcomes, which is a critical skill in political analysis.",
+    "motivation": "Why do some countries go to war while others form alliances? Why is it so hard to solve global problems like climate change? These theories offer competing answers. Learning them is like getting a toolkit for understanding the news. Instead of seeing chaos, you'll start to see patterns and underlying motivations, empowering you to form more sophisticated and informed opinions on the biggest global challenges of our time.",
+    "learningValueScore": 0.85,
+    "availableActions": [
+      {
+        "actionLabel": "Compare Theories",
+        "reason": "Provides a structured visual summary that clarifies the key distinctions between the abstract concepts.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "Apply to Case",
+        "reason": "Connects abstract theory to a real-world event (e.g., the war in Ukraine) to demonstrate practical application.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Key Thinkers",
+        "reason": "Introduces the main scholars associated with each theory, providing avenues for further research.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "paradigm": {
+        "definition": "A typical example, pattern, or model of something; a distinct set of concepts or thought patterns, including theories and research methods.",
+        "context": "In this lecture, Realism, Liberalism, and Constructivism are described as the dominant paradigms in international relations.",
+        "simpler": "A fundamental framework or lens for viewing a subject."
+      },
+      "economic interdependence": {
+        "definition": "A condition in which countries have strong reciprocal economic relationships with each other, meaning they rely on each other for goods, capital, and services.",
+        "context": "Liberalism argues that high economic interdependence between states makes war less likely because it would be mutually destructive to their economies.",
+        "simpler": "When countries' economies are deeply connected through trade."
+      }
+    },
+    "recommendationsToTeacher": [
+      "Due to significant audio glitches, provide students with a written summary or a clear comparison table of the three theories to ensure they did not miss key information.",
+      "For the next class, use a current global event as a case study and ask students to analyze it from the perspective of each of the three theories to solidify their understanding.",
+      "Investigate and resolve the technical issues (e.g., internet connection, microphone quality) that caused the audio problems to improve the learning experience in future virtual sessions."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T00:05:34.904Z",
+    "latencyMs": 36246,
+    "tokenUsage": {
+      "input": 7843,
+      "output": 2894,
+      "total": 12268
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "sample": {
+    "durationSeconds": 300,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "We're watching a French film today.",
+          "timestamp": 0,
+          "confidence": 0.94
+        },
+        {
+          "text": "Try to pick up on the vocabulary we've learned.",
+          "timestamp": 4.3,
+          "confidence": 0.92
+        },
+        {
+          "text": "[French dialogue from movie]",
+          "timestamp": 11.7,
+          "confidence": 0.58
+        },
+        {
+          "text": "[Unclear French audio]",
+          "timestamp": 45.2,
+          "confidence": 0.43
+        },
+        {
+          "text": "[Movie music and French dialogue]",
+          "timestamp": 89.6,
+          "confidence": 0.52
+        },
+        {
+          "text": "[Laughter from movie scene]",
+          "timestamp": 134.8,
+          "confidence": 0.61
+        },
+        {
+          "text": "[French conversation between actors]",
+          "timestamp": 176.3,
+          "confidence": 0.47
+        },
+        {
+          "text": "[Background café sounds in movie]",
+          "timestamp": 218.9,
+          "confidence": 0.38
+        },
+        {
+          "text": "[Emotional French dialogue]",
+          "timestamp": 256.7,
+          "confidence": 0.54
+        },
+        {
+          "text": "[Movie ending credits music]",
+          "timestamp": 289.4,
+          "confidence": 0.49
+        },
+        {
+          "text": "[Teacher] Okay, that's it for today.",
+          "timestamp": 295.1,
+          "confidence": 0.93
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.45,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "Low Quality Audio / Untranscribed Content",
+        "detail": "The majority of the audio consists of untranscribed or low-confidence French dialogue from a movie. The core educational content (the film's dialogue) could not be analyzed."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.1,
+    "isSideConversation_confidence": 0,
+    "isIrrelevantContent_confidence": 0.9,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "language_learning",
+      "french",
+      "listening_comprehension",
+      "vocabulary",
+      "film_studies",
+      "passive_learning"
+    ],
+    "shouldSummarize": false,
+    "shouldSummarizeFalseReason": "The transcription primarily contains untranscribed audio from a movie, with insufficient spoken educational content from the teacher or students to create a meaningful summary.",
+    "waitForMoreContent": false,
+    "summarization": "",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [],
+    "oneLineSummarization": "",
+    "recommendVisualizationToImproveLearning": false,
+    "visualizationEffectivenessScore": 0,
+    "learningModalityText": [],
+    "visualizationSuggestions": [],
+    "purpose": "The purpose of this activity is to enhance listening comprehension and vocabulary recognition in an authentic context. By watching a French film, students are exposed to natural spoken language, intonation, and cultural nuances that are difficult to replicate through textbook exercises alone.",
+    "motivation": "Watching a movie is a fun and engaging way to experience the French language in action! It helps you connect the vocabulary you've learned to real conversations and stories, making the language feel more alive and relevant than just words on a page.",
+    "learningValueScore": 0.6,
+    "availableActions": [
+      {
+        "actionLabel": "List Vocabulary",
+        "reason": "Provide a list of key vocabulary words that might appear in a film to guide listening.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Cultural Context",
+        "reason": "Provide background information on French cinema or the specific film being watched to enhance understanding.",
+        "recommendationPriority": "medium"
+      },
+      {
+        "actionLabel": "Post-Film Quiz",
+        "reason": "Create a quiz based on common French phrases or plot points to assess comprehension.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {},
+    "relatedResearch": [],
+    "recommendationsToTeacher": [
+      "Provide a vocabulary list or key phrases to look for before watching the film to guide student listening and focus their attention.",
+      "Create a follow-up worksheet with questions about the plot, characters, and specific phrases used to assess comprehension and reinforce learning.",
+      "Consider enabling French subtitles (if available) to connect the spoken and written word, which can aid in vocabulary acquisition for different learning styles."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:58:31.423Z",
+    "latencyMs": 22443,
+    "tokenUsage": {
+      "input": 7064,
+      "output": 728,
+      "total": 9591
+    }
+  }
+}

@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Photosynthesis Explorer</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #87CEEB 0%, #98D8C8 100%);
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #2d5016;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #4a7c2c;
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
+
+        .instructions {
+            text-align: center;
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 30px;
+            padding: 15px;
+            background: #fff8dc;
+            border-radius: 8px;
+            border: 2px dashed #ffa500;
+        }
+
+        .diagram-container {
+            position: relative;
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            background: linear-gradient(to bottom, #87CEEB 0%, #8B7355 70%);
+            border-radius: 15px;
+        }
+
+        .plant {
+            position: relative;
+            width: 200px;
+            height: 300px;
+            margin: 0 auto;
+        }
+
+        .stem {
+            position: absolute;
+            width: 30px;
+            height: 150px;
+            background: #228B22;
+            left: 85px;
+            top: 100px;
+            border-radius: 5px;
+        }
+
+        .leaves {
+            position: absolute;
+            width: 150px;
+            height: 100px;
+            background: #32CD32;
+            border-radius: 50%;
+            left: 25px;
+            top: 60px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .roots {
+            position: absolute;
+            width: 120px;
+            height: 80px;
+            left: 40px;
+            top: 230px;
+        }
+
+        .root {
+            position: absolute;
+            width: 8px;
+            background: #654321;
+            border-radius: 4px;
+        }
+
+        .root1 { height: 60px; left: 30px; transform: rotate(-20deg); }
+        .root2 { height: 70px; left: 55px; }
+        .root3 { height: 60px; left: 80px; transform: rotate(20deg); }
+
+        .clickable-icon {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3em;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            border: 4px solid white;
+        }
+
+        .clickable-icon:hover {
+            transform: scale(1.15) rotate(5deg);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .clickable-icon.active {
+            transform: scale(1.2);
+            border-color: #FFD700;
+            box-shadow: 0 0 30px rgba(255, 215, 0, 0.6);
+        }
+
+        .sun-icon {
+            background: #FFD700;
+            top: -60px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .co2-icon {
+            background: #87CEEB;
+            top: 50px;
+            right: -120px;
+        }
+
+        .water-icon {
+            background: #1E90FF;
+            bottom: 20px;
+            left: -120px;
+        }
+
+        .oxygen-icon {
+            background: #90EE90;
+            top: 50px;
+            left: -120px;
+        }
+
+        .glucose-icon {
+            background: #FFE4B5;
+            bottom: 20px;
+            right: -120px;
+        }
+
+        .arrow {
+            position: absolute;
+            stroke-width: 3;
+            fill: none;
+            pointer-events: none;
+        }
+
+        .arrow-in { stroke: #4169E1; }
+        .arrow-out { stroke: #32CD32; }
+
+        .popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0);
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            max-width: 500px;
+            z-index: 1000;
+            transition: transform 0.3s;
+            border: 4px solid #4caf50;
+        }
+
+        .popup.show {
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        .popup-close {
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            font-size: 2em;
+            cursor: pointer;
+            color: #999;
+            line-height: 1;
+        }
+
+        .popup-close:hover {
+            color: #333;
+        }
+
+        .popup-icon {
+            font-size: 4em;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .popup h2 {
+            color: #2d5016;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .popup p {
+            color: #555;
+            line-height: 1.8;
+            font-size: 1.1em;
+        }
+
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            display: none;
+            z-index: 999;
+        }
+
+        .overlay.show {
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .clickable-icon {
+                width: 60px;
+                height: 60px;
+                font-size: 2em;
+            }
+
+            .co2-icon, .oxygen-icon { right: -80px; left: -80px; }
+            .water-icon, .glucose-icon { left: -80px; right: -80px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌿 Interactive Photosynthesis Explorer 🌿</h1>
+        <p class="subtitle">Click on each icon to learn more!</p>
+        <p class="instructions">👆 Click the icons around the plant to discover what each part does in photosynthesis</p>
+
+        <div class="diagram-container">
+            <svg width="100%" height="400" style="position: absolute; top: 0; left: 0; pointer-events: none;">
+                <!-- Animated arrows -->
+                <path d="M 400 40 L 400 150" class="arrow arrow-in" stroke-dasharray="5,5">
+                    <animate attributeName="stroke-dashoffset" from="0" to="10" dur="0.5s" repeatCount="indefinite"/>
+                </path>
+                <path d="M 600 150 L 480 150" class="arrow arrow-in" stroke-dasharray="5,5">
+                    <animate attributeName="stroke-dashoffset" from="0" to="10" dur="0.5s" repeatCount="indefinite"/>
+                </path>
+                <path d="M 200 340 L 340 300" class="arrow arrow-in" stroke-dasharray="5,5">
+                    <animate attributeName="stroke-dashoffset" from="0" to="10" dur="0.5s" repeatCount="indefinite"/>
+                </path>
+                <path d="M 320 150 L 200 150" class="arrow arrow-out" stroke-dasharray="5,5">
+                    <animate attributeName="stroke-dashoffset" from="0" to="10" dur="0.5s" repeatCount="indefinite"/>
+                </path>
+                <path d="M 460 300 L 600 340" class="arrow arrow-out" stroke-dasharray="5,5">
+                    <animate attributeName="stroke-dashoffset" from="0" to="10" dur="0.5s" repeatCount="indefinite"/>
+                </path>
+            </svg>
+
+            <div class="plant">
+                <div class="leaves"></div>
+                <div class="stem"></div>
+                <div class="roots">
+                    <div class="root root1"></div>
+                    <div class="root root2"></div>
+                    <div class="root root3"></div>
+                </div>
+
+                <div class="clickable-icon sun-icon" onclick="showPopup('sun')">☀️</div>
+                <div class="clickable-icon co2-icon" onclick="showPopup('co2')">💨</div>
+                <div class="clickable-icon water-icon" onclick="showPopup('water')">💧</div>
+                <div class="clickable-icon oxygen-icon" onclick="showPopup('oxygen')">🍃</div>
+                <div class="clickable-icon glucose-icon" onclick="showPopup('glucose')">🍬</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay" onclick="closePopup()"></div>
+
+    <div class="popup" id="popup-sun">
+        <span class="popup-close" onclick="closePopup()">×</span>
+        <div class="popup-icon">☀️</div>
+        <h2>Sunlight (Energy)</h2>
+        <p>The sun provides the energy that powers photosynthesis! Without sunlight, plants wouldn't be able to make their food. The light energy is captured by chlorophyll in the plant's leaves.</p>
+    </div>
+
+    <div class="popup" id="popup-co2">
+        <span class="popup-close" onclick="closePopup()">×</span>
+        <div class="popup-icon">💨</div>
+        <h2>Carbon Dioxide (CO₂)</h2>
+        <p>A gas from the air that plants use to make food. Plants absorb carbon dioxide through tiny holes in their leaves called stomata. This is one of the main ingredients for making glucose!</p>
+    </div>
+
+    <div class="popup" id="popup-water">
+        <span class="popup-close" onclick="closePopup()">×</span>
+        <div class="popup-icon">💧</div>
+        <h2>Water (H₂O)</h2>
+        <p>Water is absorbed from the soil through the plant's roots. It travels up through the stem to the leaves where it's used in photosynthesis. Water is essential for creating glucose and oxygen!</p>
+    </div>
+
+    <div class="popup" id="popup-oxygen">
+        <span class="popup-close" onclick="closePopup()">×</span>
+        <div class="popup-icon">🍃</div>
+        <h2>Oxygen (O₂)</h2>
+        <p>Oxygen is released by plants as a byproduct of photosynthesis. This is the same oxygen we breathe! One reason why plants are so important is they clean the air and give us oxygen to survive.</p>
+    </div>
+
+    <div class="popup" id="popup-glucose">
+        <span class="popup-close" onclick="closePopup()">×</span>
+        <div class="popup-icon">🍬</div>
+        <h2>Glucose (Sugar/Food)</h2>
+        <p>Glucose is a type of sugar that plants create during photosynthesis. It's their food! Plants use this energy to grow, make flowers, and produce fruit. Some glucose is stored for later use.</p>
+    </div>
+
+    <script>
+        let currentPopup = null;
+
+        function showPopup(type) {
+            closePopup();
+            const popup = document.getElementById(`popup-${type}`);
+            const overlay = document.getElementById('overlay');
+            const icon = document.querySelector(`.${type}-icon`);
+            
+            popup.classList.add('show');
+            overlay.classList.add('show');
+            icon.classList.add('active');
+            currentPopup = {popup, icon};
+        }
+
+        function closePopup() {
+            if (currentPopup) {
+                currentPopup.popup.classList.remove('show');
+                currentPopup.icon.classList.remove('active');
+                document.getElementById('overlay').classList.remove('show');
+                currentPopup = null;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Periodic Table Diagram</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
+    <link rel="stylesheet" href="https://unpkg.com/@mui/material@latest/dist/material-ui.min.css" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: white;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        #root {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .title {
+            color: #1976d2;
+            font-size: 24px;
+            margin-bottom: 16px;
+            text-align: center;
+            font-weight: 500;
+        }
+        .interactive-container {
+            background: white;
+            border-radius: 8px;
+            padding: 32px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .description {
+            margin-top: 24px;
+            padding: 16px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            color: #424242;
+            line-height: 1.6;
+        }
+        .pizza-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+            margin: 20px 0;
+        }
+        .pizza {
+            width: 300px;
+            height: 300px;
+            position: relative;
+        }
+        .controls {
+            width: 100%;
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            padding: 20px;
+            background: #fafafa;
+            border-radius: 8px;
+        }
+        .fraction-display {
+            font-size: 48px;
+            font-weight: bold;
+            color: #1976d2;
+            text-align: center;
+            margin: 20px 0;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 12px;
+            }
+            .interactive-container {
+                padding: 20px;
+            }
+            .title {
+                font-size: 20px;
+            }
+            .pizza {
+                width: 250px;
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+    <script type="text/babel">
+        const { useState } = React;
+
+        function InteractiveVisualization() {
+            const [numerator, setNumerator] = useState(3);
+            const denominator = 8;
+
+            return (
+                <div>
+                    <h1 className="title">Interactive Periodic Table Diagram</h1>
+                    <div className="interactive-container">
+                        <div className="pizza-container">
+                            <PizzaSVG numerator={numerator} denominator={denominator} />
+                            <div className="controls">
+                                <div>
+                                    <label htmlFor="numerator-slider" style={{display: 'block', marginBottom: '8px', color: '#424242', fontWeight: 500}}>
+                                        Select number of slices (Numerator): {numerator}
+                                    </label>
+                                    <input
+                                        id="numerator-slider"
+                                        type="range"
+                                        min="0"
+                                        max={denominator}
+                                        value={numerator}
+                                        onChange={(e) => setNumerator(parseInt(e.target.value))}
+                                        style={{width: '100%', accentColor: '#1976d2'}}
+                                    />
+                                </div>
+                                <div className="fraction-display">
+                                    <span style={{color: '#d32f2f'}}>{numerator}</span>
+                                    <span style={{color: '#424242'}}> / </span>
+                                    <span style={{color: '#1976d2'}}>{denominator}</span>
+                                </div>
+                                <div style={{textAlign: 'center', color: '#616161'}}>
+                                    <div><strong style={{color: '#d32f2f'}}>Numerator ({numerator}):</strong> Parts we have</div>
+                                    <div><strong style={{color: '#1976d2'}}>Denominator ({denominator}):</strong> Total parts</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="description">
+                            <strong>Why this visualization helps learning:</strong><br/>
+                            The content is a verbal description of a fundamentally visual tool. An interactive diagram allows students to directly see and explore the concepts of rows, columns, groups, and the locations of metals/nonmetals, which is far more effective than text alone.
+                        </div>
+                    </div>
+                </div>
+            );
+        }
+
+        function PizzaSVG({ numerator, denominator }) {
+            const slices = [];
+            const anglePerSlice = 360 / denominator;
+            
+            for (let i = 0; i < denominator; i++) {
+                const startAngle = i * anglePerSlice - 90;
+                const endAngle = startAngle + anglePerSlice;
+                const isFilled = i < numerator;
+                slices.push(
+                    <PizzaSlice 
+                        key={i} 
+                        startAngle={startAngle} 
+                        endAngle={endAngle} 
+                        filled={isFilled}
+                        index={i}
+                    />
+                );
+            }
+
+            return (
+                <svg className="pizza" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="100" cy="100" r="95" fill="#f4d03f" stroke="#d4af37" strokeWidth="2"/>
+                    {slices}
+                    <circle cx="100" cy="100" r="10" fill="#d4af37"/>
+                </svg>
+            );
+        }
+
+        function PizzaSlice({ startAngle, endAngle, filled, index }) {
+            const startRad = startAngle * Math.PI / 180;
+            const endRad = endAngle * Math.PI / 180;
+            const x1 = 100 + 90 * Math.cos(startRad);
+            const y1 = 100 + 90 * Math.sin(startRad);
+            const x2 = 100 + 90 * Math.cos(endRad);
+            const y2 = 100 + 90 * Math.sin(endRad);
+
+            const pathData = `M 100 100 L ${x1} ${y1} A 90 90 0 0 1 ${x2} ${y2} Z`;
+
+            return (
+                <path
+                    d={pathData}
+                    fill={filled ? "#c0392b" : "transparent"}
+                    stroke="#8b4513"
+                    strokeWidth="2"
+                    style={{transition: 'fill 0.3s ease'}}
+                />
+            );
+        }
+
+        ReactDOM.render(<InteractiveVisualization />, document.getElementById('root'));
+    </script>
+</body>
+</html>

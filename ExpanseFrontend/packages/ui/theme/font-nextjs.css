@@ -1,0 +1,132 @@
+/**
+ * Xpens Font Face Definitions for Next.js apps
+ * 
+ * Uses absolute paths to reference fonts from public/font/ directory
+ * The font files are symlinked from packages/ui/theme/font/
+ */
+
+@font-face {
+  font-family: "Xpens";
+  src: url("/font/Xpens-Black.ttf");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Xpens";
+  src: url("/font/Xpens-BlackItalic.ttf");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Xpens";
+  src: url("/font/Xpens-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Xpens";
+  src: url("/font/Xpens-BoldItalic.ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Xpens";
+  src: url("/font/Xpens-ExtraBold.ttf");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Xpens";
+  src: url("/font/Xpens-ExtraBoldItalic.ttf");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Xpens";
+  src: url("/font/Xpens-ExtraLight.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Xpens";
+  src: url("/font/Xpens-ExtraLightItalic.ttf");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Xpens";
+  src: url("/font/Xpens-Italic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Xpens";
+  src: url("/font/Xpens-Light.ttf");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Xpens";
+  src: url("/font/Xpens-LightItalic.ttf");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Xpens";
+  src: url("/font/Xpens-Medium.ttf");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Xpens";
+  src: url("/font/Xpens-MediumItalic.ttf");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Xpens";
+  src: url("/font/Xpens-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Xpens";
+  src: url("/font/Xpens-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Xpens";
+  src: url("/font/Xpens-SemiBoldItalic.ttf");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Xpens";
+  src: url("/font/Xpens-Thin.ttf");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Xpens";
+  src: url("/font/Xpens-ThinItalic.ttf");
+  font-weight: 100;
+  font-style: normal;
+}

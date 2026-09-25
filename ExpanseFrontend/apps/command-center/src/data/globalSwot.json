@@ -1,0 +1,147 @@
+{
+  "globalSwot": {
+    "title": "Expanse Empire",
+    "description": "Global SWOT analysis applying across all Strategic Focus areas",
+    "updatedAt": "2026-02-05",
+    "strengths": [
+      {
+        "id": "global-str-1",
+        "title": "Technical excellence",
+        "description": "Full-stack development, AI/ML, modern architecture skills",
+        "impact": "high"
+      },
+      {
+        "id": "global-str-2",
+        "title": "Clear vision",
+        "description": "Strong sense of what we're building and why",
+        "impact": "high"
+      },
+      {
+        "id": "global-str-3",
+        "title": "AI capabilities",
+        "description": "Deep understanding of AI tools and integration",
+        "impact": "high"
+      },
+      {
+        "id": "global-str-4",
+        "title": "Adaptability",
+        "description": "Can pivot quickly, not locked into one approach",
+        "impact": "medium"
+      },
+      {
+        "id": "global-str-5",
+        "title": "Low overhead",
+        "description": "Solo founder, minimal fixed costs",
+        "impact": "medium"
+      },
+      {
+        "id": "global-str-6",
+        "title": "Domain expertise",
+        "description": "Experience in education, gamification, enterprise software",
+        "impact": "high"
+      }
+    ],
+    "weaknesses": [
+      {
+        "id": "global-wk-1",
+        "title": "Solo founder bandwidth",
+        "description": "One person doing everything limits throughput",
+        "impact": "high"
+      },
+      {
+        "id": "global-wk-2",
+        "title": "No revenue yet",
+        "description": "Starting from zero, unproven business model",
+        "impact": "high"
+      },
+      {
+        "id": "global-wk-3",
+        "title": "Limited marketing experience",
+        "description": "Technical background, less comfort with sales/marketing",
+        "impact": "medium"
+      },
+      {
+        "id": "global-wk-4",
+        "title": "No team",
+        "description": "Missing complementary skills, no backup",
+        "impact": "medium"
+      },
+      {
+        "id": "global-wk-5",
+        "title": "Resource constraints",
+        "description": "Limited capital for hiring, marketing, tools",
+        "impact": "high"
+      }
+    ],
+    "opportunities": [
+      {
+        "id": "global-opp-1",
+        "title": "EdTech market boom",
+        "description": "Education technology sector experiencing rapid growth and investment",
+        "impact": "high"
+      },
+      {
+        "id": "global-opp-2",
+        "title": "AI/LLM revolution",
+        "description": "New capabilities enabling products that weren't possible before",
+        "impact": "high"
+      },
+      {
+        "id": "global-opp-3",
+        "title": "Remote work normalization",
+        "description": "Global talent and customers accessible",
+        "impact": "medium"
+      },
+      {
+        "id": "global-opp-4",
+        "title": "Funding availability",
+        "description": "Investors interested in AI and education",
+        "impact": "medium"
+      },
+      {
+        "id": "global-opp-5",
+        "title": "Platform shifts",
+        "description": "New platforms (AI, VR) create opportunity for new entrants",
+        "impact": "medium"
+      }
+    ],
+    "risks": [
+      {
+        "id": "global-risk-1",
+        "title": "Runway constraints",
+        "description": "Limited time before funds run out",
+        "impact": "high"
+      },
+      {
+        "id": "global-risk-2",
+        "title": "Competition",
+        "description": "Well-funded competitors may move faster",
+        "impact": "medium"
+      },
+      {
+        "id": "global-risk-3",
+        "title": "Market timing",
+        "description": "Window of opportunity may close",
+        "impact": "medium"
+      },
+      {
+        "id": "global-risk-4",
+        "title": "Platform dependencies",
+        "description": "Reliance on OpenAI, cloud providers, etc.",
+        "impact": "medium"
+      },
+      {
+        "id": "global-risk-5",
+        "title": "Regulatory changes",
+        "description": "AI and education regulations evolving",
+        "impact": "low"
+      },
+      {
+        "id": "global-risk-6",
+        "title": "Burnout",
+        "description": "Solo founder fatigue is real",
+        "impact": "medium"
+      }
+    ]
+  }
+}

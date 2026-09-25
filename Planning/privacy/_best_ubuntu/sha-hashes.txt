@@ -1,0 +1,47 @@
+Rufus.exe sha256:abbf04d50a44a9612c027fc8072f6da67f5bcda2b826f1f852c9c24d7a1fcdff
+
+Rufux-arm64.exe sha256:d826e054400c2801ff36baa2a46684ee5e133b5267e4b6a97b02bab337152018
+
+shasum -a 256 /path/to/downloaded-file
+
+
+Rufus
+https://github.com/pbatard/rufus/releases
+https://web.archive.org/web/20251009075323/https://github.com/pbatard/rufus/releases/
+
+
+Output from mac:
+shasum -a 256 ~/Desktop/ubuntu-setup/rufus-4.11.exe
+abbf04d50a44a9612c027fc8072f6da67f5bcda2b826f1f852c9c24d7a1fcdff  /Users/mm/Desktop/ubuntu-setup/rufus-4.11.exe
+mm@Matthews-MacBook-Pro ~ % shasum -a 256 ~/Desktop/ubuntu-setup/rufus-4.11_arm64.exe
+d826e054400c2801ff36baa2a46684ee5e133b5267e4b6a97b02bab337152018  /Users/mm/Desktop/ubuntu-setup/rufus-4.11_arm64.exe
+
+
+ubuntu
+25.10
+releases.ubuntu.com/
+32e30d72ae4798c633323a2684d94a11582bb03a6ab38d2b0d5ae5eabc5e577b *ubuntu-25.10-desktop-amd64.iso
+
+24.04
+faabcf33ae53976d2b8207a001ff32f4e5daae013505ac7188c9ea63988f8328 *ubuntu-24.04.3-desktop-amd64.iso
+
+mm@Matthews-MacBook-Pro ~ % shasum -a 256 ~/Desktop/ubuntu-setup/ubuntu-25.10-desktop-amd64.iso
+32e30d72ae4798c633323a2684d94a11582bb03a6ab38d2b0d5ae5eabc5e577b  /Users/mm/Desktop/ubuntu-setup/ubuntu-25.10-desktop-amd64.iso
+
+mm@Matthews-MacBook-Pro ~ % shasum -a 256 ~/Desktop/ubuntu-setup/ubuntu-24.04.3-desktop-amd64.iso 
+faabcf33ae53976d2b8207a001ff32f4e5daae013505ac7188c9ea63988f8328  /Users/mm/Desktop/ubuntu-setup/ubuntu-24.04.3-desktop-amd64.iso
+
+
+## Windows 11 SHA-256 Verification
+
+### Using PowerShell (Recommended)
+```powershell
+Get-FileHash C:\path\to\file.iso -Algorithm SHA256
+```
+
+### Using Command Prompt (certutil)
+```cmd
+certutil -hashfile C:\path\to\file.iso SHA256
+```
+
+Both commands output the SHA256 hash that you compare with the official checksum from the download source.

@@ -1,0 +1,266 @@
+{
+  "businessValues": [
+    {
+      "projectId": "4up",
+      "valueProposition": "AI-orchestrated marketing that takes your business to the next level. Multi-AI pipelines + optional human review = consistently exceptional content.",
+      "valueTiers": ["business", "edu", "self"],
+      "revenueModel": "direct",
+      "timeToRevenue": "1-2 weeks",
+      "effortEstimate": "medium",
+      "priorityFeatures": [
+        "Pipelines - content generation workflows",
+        "Generation UI Screens",
+        "Data organization",
+        "Brand voice configuration"
+      ],
+      "concerns": [
+        "Chasing perfection could delay launch",
+        "Unknown value to EDU and how different sides connect",
+        "Whether to spend more time on EDU or business side"
+      ],
+      "synergies": [
+        {
+          "targetProjectId": "expanse-services",
+          "benefit": "4up content powers Services website - brand content, marketing materials",
+          "strength": "strong",
+          "direction": "provides-to"
+        },
+        {
+          "targetProjectId": "planning-app",
+          "benefit": "4up and Planning share UI patterns and data structures",
+          "strength": "moderate",
+          "direction": "bidirectional"
+        }
+      ],
+      "dependencies": [],
+      "metrics": [
+        "Posts generated per day",
+        "Time saved vs manual creation",
+        "Content quality scores"
+      ]
+    },
+    {
+      "projectId": "expanse-services",
+      "valueProposition": "Software development services leveraging Expanse's AI-powered tools and component library",
+      "valueTiers": ["business"],
+      "revenueModel": "direct",
+      "timeToRevenue": "2-3 days after 4up",
+      "effortEstimate": "low",
+      "priorityFeatures": [
+        "Landing page",
+        "Contact/Calendly integration",
+        "About/services pages",
+        "Core offerings defined"
+      ],
+      "concerns": [],
+      "synergies": [
+        {
+          "targetProjectId": "4up",
+          "benefit": "Uses 4up-generated content for marketing and brand presence",
+          "strength": "strong",
+          "direction": "receives-from"
+        },
+        {
+          "targetProjectId": "lotties",
+          "benefit": "Can showcase Lottie work as portfolio piece (minor benefit)",
+          "strength": "weak",
+          "direction": "receives-from"
+        }
+      ],
+      "dependencies": [
+        {
+          "sourceProjectId": "4up",
+          "requirement": "Content in Storybook, organized and cleaned up data",
+          "critical": true
+        }
+      ],
+      "metrics": [
+        "Lead generation rate",
+        "Client acquisition",
+        "Revenue per client"
+      ]
+    },
+    {
+      "projectId": "4eye",
+      "valueProposition": "AI-powered personalized learning platform that truly adapts to any learner's needs through multiple modalities and AI tutors with personality",
+      "valueTiers": ["edu"],
+      "revenueModel": "long-term",
+      "timeToRevenue": "Q2 2026",
+      "effortEstimate": "high",
+      "priorityFeatures": [
+        "AI tutors with personality",
+        "Multiple learning modalities",
+        "Rich visualizations",
+        "Adaptive learning paths"
+      ],
+      "concerns": [
+        "UI needs to be figured out first",
+        "Higher complexity than 4up/Services"
+      ],
+      "synergies": [
+        {
+          "targetProjectId": "1game",
+          "benefit": "Shares gamification engine and user engagement patterns",
+          "strength": "strong",
+          "direction": "bidirectional"
+        },
+        {
+          "targetProjectId": "kinestetic",
+          "benefit": "AI UI / Kinestetic features can differentiate learning experience",
+          "strength": "moderate",
+          "direction": "receives-from"
+        }
+      ],
+      "dependencies": [
+        {
+          "sourceProjectId": "kinestetic",
+          "requirement": "UI/UX patterns for interactive learning",
+          "critical": false
+        }
+      ],
+      "metrics": [
+        "Learning outcome improvements",
+        "Engagement metrics",
+        "Retention rates"
+      ]
+    },
+    {
+      "projectId": "1game",
+      "valueProposition": "Gamification platform for education that makes learning engaging through game mechanics, rewards, and social features",
+      "valueTiers": ["edu"],
+      "revenueModel": "long-term",
+      "timeToRevenue": "Q2 2026",
+      "effortEstimate": "high",
+      "priorityFeatures": [
+        "Gamification engine",
+        "Reward systems",
+        "Progress tracking",
+        "Social features"
+      ],
+      "concerns": [
+        "Complexity - APIs, backend, architectural difficulty",
+        "Scale requirements",
+        "Higher development effort"
+      ],
+      "synergies": [
+        {
+          "targetProjectId": "4eye",
+          "benefit": "Integration would make product more user-friendly and ready to scale. Adds virality factor for marketing.",
+          "strength": "strong",
+          "direction": "bidirectional"
+        },
+        {
+          "targetProjectId": "lotties",
+          "benefit": "Lottie animations add significant value to gamification UI",
+          "strength": "strong",
+          "direction": "receives-from"
+        }
+      ],
+      "dependencies": [
+        {
+          "sourceProjectId": "4eye",
+          "requirement": "Would help to see 4eye clearer first for integration planning",
+          "critical": false
+        }
+      ],
+      "metrics": ["User engagement", "Completion rates", "Viral coefficient"]
+    },
+    {
+      "projectId": "lotties",
+      "valueProposition": "Drag and drop Lottie editing component for AI visualization, generation, and viewing",
+      "valueTiers": ["business", "edu"],
+      "revenueModel": "indirect",
+      "timeToRevenue": "Ongoing",
+      "effortEstimate": "medium",
+      "priorityFeatures": [
+        "Drag/drop editing component",
+        "AI visualization power",
+        "Theme generation",
+        "Component library"
+      ],
+      "concerns": [],
+      "synergies": [
+        {
+          "targetProjectId": "1game",
+          "benefit": "Adds a lot of value to gamification UI and engagement",
+          "strength": "strong",
+          "direction": "provides-to"
+        },
+        {
+          "targetProjectId": "expanse-services",
+          "benefit": "Can showcase as portfolio (minor benefit)",
+          "strength": "weak",
+          "direction": "provides-to"
+        },
+        {
+          "targetProjectId": "4up",
+          "benefit": "Could add value if pushing marketing agency angle",
+          "strength": "weak",
+          "direction": "provides-to"
+        }
+      ],
+      "dependencies": [],
+      "metrics": ["Component reuse rate", "Theme variations created"]
+    },
+    {
+      "projectId": "planning-app",
+      "valueProposition": "Project planning, goal tracking, and roadmap visualization that syncs with 4up data and adapts to rapid AI-driven changes",
+      "valueTiers": ["self", "business"],
+      "revenueModel": "supporting",
+      "timeToRevenue": "N/A (internal tool)",
+      "effortEstimate": "low",
+      "priorityFeatures": [
+        "Roadmap visualization",
+        "Decision tracking",
+        "Q&A consolidation",
+        "Priority management"
+      ],
+      "concerns": [],
+      "synergies": [
+        {
+          "targetProjectId": "4up",
+          "benefit": "Shares UI patterns and data structures",
+          "strength": "moderate",
+          "direction": "bidirectional"
+        }
+      ],
+      "dependencies": [],
+      "metrics": [
+        "Planning clarity",
+        "Decision recall",
+        "Time saved on planning"
+      ]
+    },
+    {
+      "projectId": "kinestetic",
+      "valueProposition": "AI UI and Kinestetic learning features - differentiator for 360 Launch with minimal effort",
+      "valueTiers": ["edu", "business"],
+      "revenueModel": "indirect",
+      "timeToRevenue": "TBD",
+      "effortEstimate": "unknown",
+      "priorityFeatures": [
+        "Movement-based UI",
+        "Data capturing",
+        "Profile support",
+        "Simple launch strategy"
+      ],
+      "concerns": ["Unknown extent of usefulness", "Could be scope creep"],
+      "synergies": [
+        {
+          "targetProjectId": "4eye",
+          "benefit": "Could differentiate learning experience significantly",
+          "strength": "moderate",
+          "direction": "provides-to"
+        },
+        {
+          "targetProjectId": "4up",
+          "benefit": "Could be beneficial but not required for Services",
+          "strength": "weak",
+          "direction": "provides-to"
+        }
+      ],
+      "dependencies": [],
+      "metrics": ["User engagement difference", "Differentiation value"]
+    }
+  ]
+}

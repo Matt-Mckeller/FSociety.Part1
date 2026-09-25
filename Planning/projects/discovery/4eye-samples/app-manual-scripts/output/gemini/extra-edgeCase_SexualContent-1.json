@@ -1,0 +1,240 @@
+{
+  "sample": {
+    "durationSeconds": 58,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "As we read Shakespeare's Romeo and Juliet,",
+          "timestamp": 0,
+          "confidence": 0.96
+        },
+        {
+          "text": "we need to discuss some mature themes in the text.",
+          "timestamp": 4.9,
+          "confidence": 0.95
+        },
+        {
+          "text": "The play contains references to sexuality",
+          "timestamp": 10.2,
+          "confidence": 0.93
+        },
+        {
+          "text": "that would have been understood by Elizabethan audiences.",
+          "timestamp": 14.8,
+          "confidence": 0.92
+        },
+        {
+          "text": "For example, Mercutio makes several bawdy jokes",
+          "timestamp": 20.4,
+          "confidence": 0.94
+        },
+        {
+          "text": "using double entendres common in Shakespeare's time.",
+          "timestamp": 25.7,
+          "confidence": 0.93
+        },
+        {
+          "text": "We're analyzing these as literary devices,",
+          "timestamp": 31.2,
+          "confidence": 0.95
+        },
+        {
+          "text": "understanding historical context and characterization.",
+          "timestamp": 36.1,
+          "confidence": 0.94
+        },
+        {
+          "text": "The relationship between Romeo and Juliet also raises",
+          "timestamp": 41.6,
+          "confidence": 0.93
+        },
+        {
+          "text": "questions about age and consent in different eras.",
+          "timestamp": 47.2,
+          "confidence": 0.92
+        },
+        {
+          "text": "This helps us think critically about changing",
+          "timestamp": 52.4,
+          "confidence": 0.95
+        },
+        {
+          "text": "social norms over time.",
+          "timestamp": 56.8,
+          "confidence": 0.96
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.97,
+    "appropriatenessScore": 0.95,
+    "warnings": [
+      {
+        "type": "SensitiveContentAdvisory",
+        "message": "The content discusses mature themes (sexuality, consent) which may require careful handling depending on the specific school district's policies and student age group. The teacher is handling it appropriately from an academic standpoint."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.99,
+    "isSideConversation_confidence": 0.01,
+    "isIrrelevantContent_confidence": 0,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "literature",
+      "shakespeare",
+      "romeo_and_juliet",
+      "literary_analysis",
+      "mature_themes",
+      "historical_context",
+      "grade_10",
+      "critical_thinking"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "The teacher is introducing a unit on Shakespeare's 'Romeo and Juliet,' preparing students to analyze mature themes within the play. Key topics include sexuality, referenced through bawdy jokes and double entendres common in the Elizabethan era, and questions of age and consent raised by the protagonists' relationship. The instructional approach emphasizes analyzing these elements as literary devices within their historical context to understand characterization and critically examine how social norms have evolved over time.",
+    "recommendedSummarization": "detailed",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "• Topic: Analyzing mature themes in Shakespeare's 'Romeo and Juliet'.\n• Theme 1: Sexuality & Language - Elizabethan audiences understood bawdy jokes (e.g., Mercutio's) and double entendres.\n• Theme 2: Age & Consent - The relationship between Romeo and Juliet reflects different historical norms.\n• Analytical Goal: To study these as literary devices and understand historical context, not just for shock value.\n• Learning Outcome: Develop critical thinking about how social norms change over time."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.75,
+        "text": "In 'Romeo and Juliet,' students will analyze mature themes like sexuality and consent by examining Shakespeare's language and the historical context of Elizabethan norms. This approach fosters critical thinking about evolving social values."
+      },
+      {
+        "version": "layman_friendly",
+        "comparativeValueToRecommendedModality": 0.8,
+        "text": "Shakespeare wrote for everyone, and his plays included adult humor that his audience would have found funny. We're going to look at some of these jokes and the young age of the main characters, not to be sensational, but to understand what was normal back then. It helps us see how much our own ideas about what's acceptable have changed over 400 years."
+      }
+    ],
+    "oneLineSummarization": "Students will analyze mature themes like sexuality and consent in 'Romeo and Juliet' by focusing on literary devices and historical context.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.85,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "ASSOCIATIONS",
+        "relativeEffectivenessWeight": 0.95,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Think about the slang or memes you use with your friends today. Someone from the 1950s would be completely lost, right? Shakespeare's use of 'bawdy' humor is similar—it was a form of coded language his audience immediately understood. We're going to act like cultural detectives, decoding these jokes to get a clearer picture of the world he lived in. This is just like how future historians might analyze our social media to understand our culture."
+      },
+      {
+        "effectiveness": "high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "Our analytical process for these themes will follow a clear structure. Step 1: Identify a mature reference in the text. Step 2: Research the historical context—what were Elizabethan norms regarding this topic? Step 3: Analyze its literary function—how does this language reveal character, advance the plot, or create a specific tone? Step 4: Compare the historical perspective with modern social norms to draw conclusions about cultural evolution. This method ensures we approach the text as literary scholars."
+      },
+      {
+        "effectiveness": "high",
+        "type": "SOCIAL",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "As a group, let's discuss: Why is it important to understand the original context of a work of art before we judge it by today's standards? Consider a modern movie or song that might be misunderstood 100 years from now. What context would a future student need to understand it properly? This discussion will help us frame our approach to the sensitive topics in 'Romeo and Juliet' with an open and critical mind."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "EXPERIENTIAL",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.75,
+        "text": "Consider the real-world job of a museum curator or a historian. When they find an ancient artifact or text, their job isn't to say if it's 'good' or 'bad' by our values, but to understand what it meant to the people of that time. We are taking on that role. By examining the language and themes of 'Romeo and Juliet,' we are practicing the real-world skill of contextual analysis, which is vital in fields from law to international relations."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "COMPARISON_MATRIX",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "HTML_STATIC",
+          "ANNOTATED_TEXT"
+        ],
+        "title": "Social Norms: Elizabethan Era vs. Today",
+        "reasonForSuggestion": "A direct visual comparison is the most effective way to clarify the concept of changing social norms regarding age, consent, and courtship. This directly supports the teacher's core objective.",
+        "promptForGeneration": "Create an HTML static table titled 'Social Norms: Elizabethan Era vs. Today' for 10th-grade students. The table should have three columns: 'Topic', 'Elizabethan Era (c. 1600)', and 'Modern Western Society'. Include rows for the following topics: 'Average Age of Marriage', 'Parental Consent in Marriage', 'Public Discussion of Sexuality', and 'Courtship Practices'. Populate the cells with concise, well-researched bullet points. For example, under 'Elizabethan Era' for age, note that the age of consent was 12 for girls but marriage often occurred later for nobility. Use a clean, readable font and alternating row colors for clarity. Highlight key differences using bold text."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.9,
+        "coreType": "ANNOTATED_TEXT",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "TOOLTIP_DEFINITIONS",
+          "INTERACTIVE_DIAGRAM"
+        ],
+        "title": "Decoding Mercutio's Wit: A Double Entendre",
+        "reasonForSuggestion": "This interactive element allows students to directly engage with the concept of 'bawdy jokes' and 'double entendres' mentioned by the teacher, making an abstract idea concrete and memorable.",
+        "promptForGeneration": "Create an interactive HTML element for a 10th-grade literature class. Display this quote from Mercutio in 'Romeo and Juliet': 'for the bawdy hand of the dial is now upon the prick of noon.' Render the words 'bawdy hand,' 'dial,' and 'prick of noon' as highlighted, clickable text. When a student hovers over or clicks each phrase, a tooltip should appear. For 'bawdy hand,' explain its literal (clock hand) and suggestive meaning. For 'dial,' show its literal (clock face) and suggestive meaning (a woman's face/body). For 'prick of noon,' explain its literal (12 o'clock mark) and its obvious pun. The tooltips should be concise and academically toned. The design should be simple and embedded within a text block."
+      }
+    ],
+    "purpose": "This lesson teaches students to be sophisticated readers by analyzing literature within its historical context. It moves beyond simple plot summary to explore how language, character, and theme are products of a specific time and place. This skill is crucial for understanding that values and norms are not universal or permanent, fostering historical empathy and critical thinking.",
+    "motivation": "Have you ever heard a joke that you had to be 'in on' to get? That's what reading Shakespeare can be like. We're going to learn the 'secret code' of his language that made his original audiences laugh out loud. By understanding the world he lived in, you'll unlock a whole new layer of the story. This isn't just about a dusty old play; it's about seeing how much our world has changed and understanding the roots of our own social values today.",
+    "learningValueScore": 0.92,
+    "availableActions": [
+      {
+        "actionLabel": "Compare Eras",
+        "reason": "Provides a direct visual comparison of social norms, which is central to the lesson's goal.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Define Terms",
+        "reason": "Clarifies key literary and historical terms like 'bawdy' and 'double entendre' that are essential for analysis.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "See Example",
+        "reason": "Shows a concrete example of a double entendre, making an abstract concept easier to grasp.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Discussion Prompt",
+        "reason": "Encourages students to think critically and share perspectives on the evolution of social norms.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "bawdy": {
+        "definition": "Dealing with sexual matters in a comical or coarse way.",
+        "context": "Mercutio's language is often filled with bawdy jokes and puns.",
+        "etymology": "From Old French 'baud' meaning 'joyful, licentious'.",
+        "synonyms": "ribald, crude, risqué"
+      },
+      "double entendre": {
+        "definition": "A word or phrase open to two interpretations, one of which is usually risqué or indecent.",
+        "context": "Shakespeare uses double entendres to entertain his audience while adding layers of meaning.",
+        "etymology": "From French, literally meaning 'double hearing' or 'double understanding'.",
+        "example": "In the play, a reference to a 'prick of noon' on a clock dial is a classic double entendre."
+      }
+    },
+    "relatedResearch": [],
+    "recommendationsToTeacher": [
+      "Establish clear classroom norms for respectful discussion before diving into these themes to ensure a safe and productive learning environment.",
+      "Pre-select specific, high-impact examples of bawdy language to analyze as a class. This provides focus and prevents students from getting lost in less relevant passages.",
+      "Use a 'think-pair-share' activity for the topic of age and consent. This allows students to formulate their thoughts in a low-pressure setting before a larger class discussion."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:54:39.900Z",
+    "latencyMs": 42205,
+    "tokenUsage": {
+      "input": 7123,
+      "output": 2841,
+      "total": 11488
+    }
+  }
+}

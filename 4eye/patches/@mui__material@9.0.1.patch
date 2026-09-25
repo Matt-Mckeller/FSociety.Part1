@@ -1,0 +1,18 @@
+diff --git a/useMediaQuery/index.js b/useMediaQuery/index.js
+index cc5bc47b11e677519703604a75830aea93305644..058406b4b09e4cd616ec5408263cccde7c81f1cd 100644
+--- a/useMediaQuery/index.js
++++ b/useMediaQuery/index.js
+@@ -1,3 +1,4 @@
++'use client';
+ "use strict";
+ 
+ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault").default;
+diff --git a/useMediaQuery/index.mjs b/useMediaQuery/index.mjs
+index 9b859bffed5af51455b21f424f79646005e523dc..6588ad593c93598e2e9654945d084865613eb6b9 100644
+--- a/useMediaQuery/index.mjs
++++ b/useMediaQuery/index.mjs
+@@ -1,3 +1,4 @@
++'use client';
+ import { unstable_createUseMediaQuery } from '@mui/system/useMediaQuery';
+ import THEME_ID from "../styles/identifier.mjs";
+ const useMediaQuery = unstable_createUseMediaQuery({

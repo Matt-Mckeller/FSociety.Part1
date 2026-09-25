@@ -1,0 +1,308 @@
+{
+  "sample": {
+    "subject": "Social Studies",
+    "gradeLevel": "7th Grade",
+    "qualityScore": 5,
+    "description": "Debate about school uniforms with students interrupting",
+    "durationSeconds": 100,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Today's debate topic is should schools require uniforms?",
+          "timestamp": 0,
+          "confidence": 0.89
+        },
+        {
+          "text": "Team A will argue for uniforms, Team B against.",
+          "timestamp": 5.4,
+          "confidence": 0.86
+        },
+        {
+          "text": "Team A, you start.",
+          "timestamp": 10.2,
+          "confidence": 0.91
+        },
+        {
+          "text": "Uniforms promote equality because everyone",
+          "timestamp": 13.7,
+          "confidence": 0.72
+        },
+        {
+          "text": "but they're expensive",
+          "timestamp": 16.9,
+          "confidence": 0.54
+        },
+        {
+          "text": "Wait for your turn, Team B.",
+          "timestamp": 18.8,
+          "confidence": 0.84
+        },
+        {
+          "text": "wears the same thing, so there's less bullying about clothes.",
+          "timestamp": 21.5,
+          "confidence": 0.77
+        },
+        {
+          "text": "They also help with school identity and pride.",
+          "timestamp": 27.3,
+          "confidence": 0.81
+        },
+        {
+          "text": "what about self-expression",
+          "timestamp": 32.6,
+          "confidence": 0.59
+        },
+        {
+          "text": "not their turn yet",
+          "timestamp": 34.2,
+          "confidence": 0.48
+        },
+        {
+          "text": "Team B, your rebuttal.",
+          "timestamp": 36.5,
+          "confidence": 0.88
+        },
+        {
+          "text": "Uniforms are expensive and not all families can afford",
+          "timestamp": 40.1,
+          "confidence": 0.75
+        },
+        {
+          "text": "but they last longer",
+          "timestamp": 45.8,
+          "confidence": 0.52
+        },
+        {
+          "text": "multiple sets throughout the year.",
+          "timestamp": 47.6,
+          "confidence": 0.69
+        },
+        {
+          "text": "They also suppress individuality and creativity.",
+          "timestamp": 52.9,
+          "confidence": 0.79
+        },
+        {
+          "text": "Students should be able to express themselves through clothing.",
+          "timestamp": 58.4,
+          "confidence": 0.82
+        },
+        {
+          "text": "within reason though",
+          "timestamp": 64.2,
+          "confidence": 0.56
+        },
+        {
+          "text": "dress codes exist anyway",
+          "timestamp": 65.9,
+          "confidence": 0.61
+        },
+        {
+          "text": "Team A, your response?",
+          "timestamp": 68.3,
+          "confidence": 0.87
+        },
+        {
+          "text": "There are other ways to express creativity like art, music, and",
+          "timestamp": 72.8,
+          "confidence": 0.74
+        },
+        {
+          "text": "not the same thing",
+          "timestamp": 78.1,
+          "confidence": 0.51
+        },
+        {
+          "text": "writing. Uniforms remove distractions and help students focus on learning.",
+          "timestamp": 80.5,
+          "confidence": 0.76
+        },
+        {
+          "text": "studies show no difference",
+          "timestamp": 87.3,
+          "confidence": 0.58
+        },
+        {
+          "text": "Team B, final statement?",
+          "timestamp": 89.7,
+          "confidence": 0.85
+        },
+        {
+          "text": "Research is mixed on academic benefits, but the impact on students' autonomy is clear.",
+          "timestamp": 94.2,
+          "confidence": 0.78
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.88,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "AudioQuality",
+        "detail": "Multiple low-confidence transcriptions (e.g., at 16.9s, 32.6s, 45.8s) indicate student interruptions or crosstalk, which may obscure the main arguments. The core debate points are clear, but classroom management of the debate format could be a focus."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.95,
+    "isSideConversation_confidence": 0.75,
+    "isIrrelevantContent_confidence": 0.05,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "social_studies",
+      "debate",
+      "critical_thinking",
+      "persuasive_argument",
+      "school_uniforms",
+      "grade_7",
+      "student_expression",
+      "equality"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "A 7th-grade class is holding a structured debate on whether schools should require uniforms. The teacher moderates as Team A argues in favor, citing that uniforms promote equality, reduce bullying related to clothing, and enhance school identity. Team B argues against uniforms, highlighting their cost, suppression of student individuality and creativity, and the mixed research on their academic benefits. The debate features several interruptions from opposing sides, which the teacher manages while guiding the discussion through arguments, rebuttals, and final statements.",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.8,
+        "text": "Students debate school uniforms, weighing the benefits of equality and reduced bullying against the drawbacks of high costs and the suppression of personal expression. Both sides present their core arguments in a moderated classroom setting."
+      },
+      {
+        "version": "detailed",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "In a moderated 7th-grade debate, students explore the pros and cons of school uniforms. Team A, arguing for, posits that uniforms create a level playing field, diminishing socioeconomic visibility and bullying over apparel, while fostering school pride. Team B counters that uniforms are a financial burden on families, stifle students' crucial self-expression and creativity, and that their purported academic benefits are not consistently supported by research. The discussion highlights the central conflict between community cohesion and individual autonomy in a school environment."
+      },
+      {
+        "version": "narrative",
+        "comparativeValueToRecommendedModality": 0.85,
+        "text": "The classroom transformed into a debate stage, with the hot topic of school uniforms on the floor. Team A kicked things off, painting a picture of a more equal school where clothing no longer separated students, and pride in their school was visible on every student. But Team B quickly challenged this vision, raising concerns about the cost for families and the loss of a key form of self-expression for young people. As the teams exchanged points and rebuttals, the core of the issue became clear: a classic clash between the values of community and the rights of the individual."
+      }
+    ],
+    "oneLineSummarization": "A 7th-grade class debates school uniforms, arguing the merits of equality and focus versus the importance of individuality and cost.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Let's structure the school uniform debate with clear logic. Premise 1 (For): Uniforms create visual equality, which may reduce social friction. Premise 2 (Against): Uniforms restrict personal expression, a key part of adolescent development. Evidence (For): Uniforms eliminate clothing as a source of bullying. Evidence (Against): Uniforms impose a financial cost on families. Conclusion: The decision requires weighing the societal benefit of equality against the individual's need for expression and the practical economic impact. A logical analysis must consider which of these values a school community prioritizes."
+      },
+      {
+        "effectiveness": "high",
+        "type": "SOCIAL",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "This debate is a perfect starting point for a group discussion. Split into two teams, just like in the recording. One team can brainstorm more reasons FOR uniforms, like safety (identifying intruders) or saving time in the morning. The other team can find more reasons AGAINST, like comfort issues or the fact that bullying can shift to other things like shoes or backpacks. After five minutes, come back together and share your new points. The goal isn't to 'win,' but to understand all sides of the issue your peers care about."
+      },
+      {
+        "effectiveness": "high",
+        "type": "EXPERIENTIAL",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "Think about the clothes you chose to wear today. What do they say about you? Maybe you picked a favorite color, a band t-shirt, or comfortable athletic wear. This is a form of self-expression. Now, imagine you had to wear a specific polo shirt and khaki pants every day. How would that feel? For some, it might be a relief not to worry about what to wear. For others, it might feel like a part of their personality is being hidden. This debate isn't just theoretical; it's about how you get to present yourself to the world every single day at school."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "PROBLEM_SOLVING",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.7,
+        "text": "Let's approach this as a problem to be solved. Problem: How can a school foster both community and individuality? Solution A is uniforms, which prioritizes community but reduces individuality. Solution B is a dress code, which allows more individuality but may not foster as much community identity. Step 1: Identify the school's primary goal (e.g., reduce bullying). Step 2: Evaluate how each solution meets that goal. Step 3: Consider the trade-offs. Is there a hybrid solution, like a dress code with school colors, that could balance both needs?"
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "COMPARISON_MATRIX",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "HTML_STATIC",
+          "HIGHLIGHTED_TEXT"
+        ],
+        "title": "School Uniforms: Arguments For vs. Against",
+        "reasonForSuggestion": "A direct comparison table is the clearest way to organize the arguments of a debate. It allows students to see the opposing viewpoints side-by-side, reinforcing the structure of persuasive argumentation and aiding in comprehension and recall.",
+        "promptForGeneration": "Create an HTML static table with two columns for a 7th-grade audience. The left column header should be 'Arguments FOR Uniforms' with a green background. The right column header should be 'Arguments AGAINST Uniforms' with a red background. Populate the table with the arguments from the transcript. Left column rows: 'Promote Equality', 'Reduce Bullying About Clothes', 'Improve School Identity & Pride', 'Remove Distractions / Help Focus'. Right column rows: 'Are Expensive for Families', 'Suppress Individuality & Creativity', 'Limit Self-Expression', 'Research on Academic Benefits is Mixed'. Use a clean, sans-serif font like Arial, size 16px. Ensure high contrast for readability. Add a title above the table: 'The Great Uniform Debate'."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherSuggestions": 0.85,
+        "coreType": "MERMAID_MINDMAP",
+        "otherCoreType": null,
+        "secondaryTypes": [],
+        "title": "Mind Map of the Uniform Debate",
+        "reasonForSuggestion": "A mind map helps students visually cluster related ideas. It shows the central topic and how the main arguments (Pros/Cons) branch out into specific points, which is excellent for visual learners and for organizing thoughts for an essay.",
+        "promptForGeneration": "Generate a Mermaid mindmap diagram for a 7th-grade social studies class. The central node should be 'School Uniforms'. Create two main branches: 'Pros' and 'Cons'. Under the 'Pros' branch, add sub-nodes for 'Equality', 'Less Bullying', 'School Pride', and 'Focus'. Under the 'Cons' branch, add sub-nodes for 'Cost', 'Less Individuality', 'Stifles Creativity', and 'Unclear Benefits'. Use different colors for the 'Pros' and 'Cons' branches to create a clear visual distinction."
+      }
+    ],
+    "purpose": "This debate serves to develop critical thinking and persuasive communication skills. By analyzing both sides of the school uniform issue, students learn to construct logical arguments, consider counterarguments (rebuttals), and understand that complex issues rarely have simple answers. This process is foundational for civic engagement and effective problem-solving.",
+    "motivation": "This isn't just a school assignment; it's about your life right now. The rules about what you wear to school affect you every single day. This debate gives you the tools to think critically about those rules. Whether you love the idea of uniforms or hate it, learning how to argue your point effectively is a superpower that lets you advocate for yourself and the changes you want to see in the world.",
+    "learningValueScore": 0.9,
+    "availableActions": [
+      {
+        "actionLabel": "See Arguments",
+        "reason": "Display a side-by-side comparison of the pro/con arguments for clarity.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "Take a Poll",
+        "reason": "Engage students by letting them vote on their stance and see class results.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Debate Tips",
+        "reason": "Provide guidelines on respectful debate, like how to state a rebuttal without interrupting.",
+        "recommendationPriority": "medium"
+      },
+      {
+        "actionLabel": "Deeper Dive",
+        "reason": "Explore links to studies and articles about the real-world impact of school uniforms on student performance and well-being.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "rebuttal": {
+        "definition": "An argument or evidence presented to contradict or disprove an opposing point.",
+        "context": "The teacher asks 'Team B, your rebuttal,' inviting them to respond directly to Team A's argument.",
+        "simpler": "A comeback or counter-argument."
+      },
+      "individuality": {
+        "definition": "The qualities that make a person distinct or unique from others.",
+        "context": "Team B argues that uniforms 'suppress individuality' because they don't allow students to express their unique style.",
+        "simpler": "What makes you, you."
+      },
+      "autonomy": {
+        "definition": "The right or condition of self-government; the freedom to make your own choices.",
+        "context": "The final statement mentions the 'impact on students' autonomy,' referring to their ability to choose their own clothing.",
+        "simpler": "The power to choose for yourself."
+      }
+    },
+    "recommendationsToTeacher": [
+      "Use the interruptions as a teachable moment. Pause and review the rules of a structured debate, emphasizing the importance of waiting for one's turn to speak to ensure all arguments are heard clearly.",
+      "Encourage evidence-based arguments. When a student says 'studies show no difference,' prompt them to elaborate on what kind of studies or where they might find that information to strengthen their position.",
+      "As a follow-up activity, have students write a short persuasive paragraph arguing for their personal stance, requiring them to acknowledge and refute one argument from the opposing side."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-26T23:59:56.519Z",
+    "latencyMs": 36578,
+    "tokenUsage": {
+      "input": 7660,
+      "output": 2946,
+      "total": 12110
+    }
+  }
+}

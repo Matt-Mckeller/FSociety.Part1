@@ -1,0 +1,44 @@
+{
+  "name": "expanse.ui",
+  "version": "1.0.2",
+  "description": "A collection of ui modules for Expanse's website(s) and applications.",
+  "scripts": {
+    "build": "tsc --project ../tsconfig.json --outDir ./dist",
+    "build:declarations": "tsc --project ../tsconfig.json --emitDeclarationOnly --outDir ./dist"
+  },
+  "exports": {
+    "./auth": "./auth/index.ts",
+    "./application": "./application/index.ts",
+    "./chat": "./chat/index.ts",
+    "./contact": "./contact/index.ts",
+    "./form": "./form/index.ts",
+    "./game": "./game/index.ts",
+    "./map": "./map/index.ts",
+    "./points": "./points/index.ts",
+    "./theme": "./theme/index.ts",
+    "./theme/font-nextjs.css": "./theme/font-nextjs.css",
+    "./user": "./user/index.ts"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.9.5",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.9",
+    "@mui/lab": "^5.0.0-alpha.165",
+    "@mui/material": "^5.15.9",
+    "@mui/system": "^5.15.9",
+    "@mui/x-date-pickers": "^6.19.4",
+    "classnames": "^2.3.1",
+    "date-fns": "^2.30.0",
+    "expanse.common": "github:expanseservices/common",
+    "expanse.dynamicAssets": "../dynamicAssets",
+    "gsap": "^3.12.5",
+    "jsonwebtoken": "^9.0.2",
+    "next": "^14.1.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "author": "",
+  "license": "Proprietary",
+  "private": true
+}

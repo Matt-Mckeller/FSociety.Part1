@@ -1,0 +1,284 @@
+{
+  "locations": [
+    {
+      "id": "loc-001",
+      "name": "Panera",
+      "type": "coffee_shop",
+      "address": "4700 Pennsylvania Ave, Kansas City, MO 64112",
+      "description": "Coffee shop where strange encounter with man in gray suit occurred. Sharpie markings on wall near usual sitting spot.",
+      "images": [],
+      "eventIds": ["evt-panera-gray-suit"],
+      "notes": ["Sharpie markings appeared on wall around typical seating area", "Pencils incident", "Phone found on floor"]
+    },
+    {
+      "id": "loc-002",
+      "name": "Starbucks",
+      "type": "coffee_shop",
+      "address": "4101 Main St, Kansas City, MO 64111",
+      "description": "Starbucks location visited after casino events. Encounter with blue-fingered painter.",
+      "images": [],
+      "eventIds": ["evt-starbucks-blue-painter"],
+      "notes": ["Did not purchase anything", "Man with blue painted fingertips and notebook with leafs"]
+    },
+    {
+      "id": "loc-003",
+      "name": "Mac Properties Apartment (Unit)",
+      "type": "apartment",
+      "address": "214 E Armour Blvd, Apt 710, Kansas City, Missouri 64111",
+      "description": "Personal apartment unit at Mac Properties on 7th floor. Multiple suspected break-ins and evidence tampering.",
+      "images": [],
+      "eventIds": [],
+      "notes": ["Suspected bugging/tapping", "Evidence of entry after Casino Day 2", "Items moved", "Pot smell appeared after Keystone", "Lightbulb mic suspected in kitchen", "7th floor unit"]
+    },
+    {
+      "id": "loc-004",
+      "name": "Mac Properties Lobby",
+      "type": "apartment",
+      "address": "214 E Armour Blvd, Kansas City, Missouri 64111",
+      "description": "Lobby/entryway of Mac Properties apartment building. Multiple strange observations and symbolic communications.",
+      "images": [],
+      "eventIds": ["evt-lobby-trash-cans", "evt-lobby-speaker", "evt-mailbox-broken"],
+      "notes": ["Trash cans with bed frames", "Large speaker appeared", "Driver encounter", "BOTA box with green paper", "Middle finger then thumbs up to camera", "Peanuts thrown away on camera", "Mailbox lock was missing", "IRS papers with full SSN found"]
+    },
+    {
+      "id": "loc-005",
+      "name": "Mac Properties Gym",
+      "type": "apartment",
+      "address": "214 E Armour Blvd, Kansas City, Missouri 64111",
+      "description": "Gym facility at Mac Properties. Bitcoin backpack girl sighting.",
+      "images": [],
+      "eventIds": ["evt-gym-bitcoin-backpack"],
+      "notes": ["Girl with bitcoin logo backpack walked past window while on treadmill"]
+    },
+    {
+      "id": "loc-006",
+      "name": "Mac Properties Mailroom",
+      "type": "apartment",
+      "address": "301 E Armour Blvd, Kansas City, MO 64111",
+      "description": "Mailroom at Mac Properties. Left steam cleaner and marbles here.",
+      "images": [],
+      "eventIds": [],
+      "notes": ["Gave coffee to mailroom person", "Left steam cleaner and marbles"]
+    },
+    {
+      "id": "loc-007",
+      "name": "Levis",
+      "type": "club",
+      "address": "Westport, Kansas City, MO",
+      "description": "Club in Westport area. Mac Properties ticket mysteriously returned.",
+      "images": [],
+      "eventIds": [],
+      "notes": ["Ticket ended up back in pocket after visit"]
+    },
+    {
+      "id": "loc-008",
+      "name": "Tin Roof",
+      "type": "club",
+      "address": "424 Westport Rd, Kansas City, MO 64111",
+      "description": "Club in Westport area. Met Rey here who later witnessed Logan encounter at Keystone. Cameras were oddly removed at some point - possibly after narrator mentioned observability in apartment. Security level changed drastically over time.",
+      "images": [],
+      "eventIds": [],
+      "notes": ["Met Rey here", "Rey works at Blue Cross Blue Shield", "Rey invited narrator to Keystone event", "Cameras were removed at some point - possibly after narrator mentioned forms of observability in apartment", "Security level changed drastically over time", "Potential for ongoing activities and government observation"]
+    },
+    {
+      "id": "loc-009",
+      "name": "Harrahs Casino",
+      "type": "casino",
+      "address": "1 Riverboat Dr, North Kansas City, MO 64116",
+      "description": "First casino visited. Multiple significant events including coin incident, banker conversation, and storytelling. One of two locations in KC that does poker. Has a much more relaxed security posture than other casinos, which may attract a different crowd.",
+      "images": [],
+      "eventIds": ["evt-casino-day-1-coins-entryway", "evt-harrahs-day2", "evt-harrahs-day2"],
+      "notes": ["Coins from vending machine", "Diamond man encounter", "Dealer mentioned father", "Banker investment offer", "Relaxed security posture", "One of two KC poker locations"]
+    },
+    {
+      "id": "loc-010",
+      "name": "Hollywood Casino",
+      "type": "casino",
+      "address": "777 Hollywood Casino Blvd, Kansas City, KS 66111",
+      "description": "Second casino - Green Chip Poker Tournament location. Mac Properties ticket returned with ID.",
+      "images": [],
+      "eventIds": ["evt-hollywood-tournament"],
+      "notes": ["Green chip tournament", "Dealer said 'let me turn it on'", "Chip rotation system observed", "Mac Properties ticket returned"]
+    },
+    {
+      "id": "loc-011",
+      "name": "Keystone Colab",
+      "type": "business",
+      "address": "800 E 18th St, Kansas City, MO 64108",
+      "description": "Coworking/event space. Data science event where Logan encounter occurred.",
+      "images": [],
+      "eventIds": ["evt-keystone-logan"],
+      "notes": ["Invited by Rey from club", "Logan showed NDA papers and BTC app", "Said 'Lysol' randomly", "Said 'copy paste' in apartment before going"]
+    },
+    {
+      "id": "loc-012",
+      "name": "Aura",
+      "type": "club",
+      "address": "3832 Main St, Kansas City, MO 64111",
+      "description": "Club in Westport area. Location where 'Back and Body Hurts' Tiktok clip was given to narrator.",
+      "images": [],
+      "eventIds": [],
+      "notes": ["Back and Body Hurts clip given here", "Funny clip possibly acknowledging physical discomfort"]
+    },
+    {
+      "id": "loc-013",
+      "name": "Mosaic",
+      "type": "club",
+      "address": "1331 Walnut St, Kansas City, MO 64106",
+      "description": "Club in Westport area.",
+      "images": [],
+      "eventIds": [],
+      "notes": []
+    },
+    {
+      "id": "loc-014",
+      "name": "Crow Coffee",
+      "type": "coffee_shop",
+      "address": "304 E 51st St, Kansas City, MO 64112",
+      "description": "Coffee shop where significant observation event occurred with black male in shades.",
+      "images": [],
+      "eventIds": ["evt-crow-coffee"],
+      "notes": ["Asian man outside on phone", "Large black man with shades and yellow shirt", "White males with smiley face hats after", "Wrote 'unicorn' in notepad"]
+    },
+    {
+      "id": "loc-015",
+      "name": "The Landing",
+      "type": "club",
+      "address": "4115 Mill St, Kansas City, MO",
+      "description": "Club with book titled 'Expanse' on bookshelf. Near Q Club.",
+      "images": [],
+      "eventIds": ["evt-landing-club"],
+      "notes": ["Book titled 'Expanse' on shelf", "People asked multiple times if gay", "Man with Van Eck shirt", "Girl with earmuffs asking what to do"]
+    },
+    {
+      "id": "loc-016",
+      "name": "Q Club",
+      "type": "club",
+      "address": "504 Westport Rd, Kansas City, MO 64111",
+      "description": "New gay club with logo similar to narrator's logo. Projection on ground outside. Opened after a gay man drove narrator home from Levis one night.",
+      "images": [],
+      "eventIds": [],
+      "notes": ["Logo similar to personal company logo", "Near The Landing and Bar Rec", "Opened after gay man drove narrator home from Levis", "This and The Landing initially made narrator think about investor perspective", "Also concerned about potential for framing", "Could also be coincidental"]
+    },
+    {
+      "id": "loc-017",
+      "name": "Lee Plaza Dental",
+      "type": "business",
+      "address": "4320 Wornall Rd # 446, Kansas City, MO 64111",
+      "description": "Asian dentist location. Man showed up claiming same appointment time.",
+      "images": [],
+      "eventIds": ["evt-dentist-encounter"],
+      "notes": ["Camera in waiting room", "Man mentioned 'ultrasonic'", "Text from Scenic City Medical before/after"]
+    },
+    {
+      "id": "loc-018",
+      "name": "Crisp Cuts",
+      "type": "business",
+      "address": "Near Mac Properties, Kansas City",
+      "description": "Barbershop near apartment. Strange haircut encounter.",
+      "images": [],
+      "eventIds": ["evt-barbershop"],
+      "notes": ["Typically empty", "Black staff", "Man with messy hair got edges trimmed for $35", "USB dropped from pocket"]
+    },
+    {
+      "id": "loc-019",
+      "name": "Sheraton Four Points Hotel",
+      "type": "other",
+      "address": "11832 NW Plaza Cir, Kansas City, MO 64153",
+      "description": "Hotel stayed at after leaving apartment. Room entry attempt incident.",
+      "images": [],
+      "eventIds": ["evt-hotel-room-entry"],
+      "notes": ["Someone tried to enter room", "Called 911", "Went to police after"]
+    },
+    {
+      "id": "loc-020",
+      "name": "Microcenter",
+      "type": "business",
+      "address": "9294 Metcalf Ave, Overland Park, KS 66212",
+      "description": "Electronics store where security equipment purchased. GM Trent introduced himself.",
+      "images": [],
+      "eventIds": ["evt-microcenter"],
+      "notes": ["Trent said 'looks like big project'", "Narrator on 7th floor at Mac", "Name changed to Christopher in system", "Phone couldn't activate on AT&T"]
+    },
+    {
+      "id": "loc-021",
+      "name": "Whole Foods Market",
+      "type": "business",
+      "address": "Across from Crow Coffee, Kansas City",
+      "description": "Grocery store visited after Crow Coffee event.",
+      "images": [],
+      "eventIds": [],
+      "notes": []
+    },
+    {
+      "id": "loc-022",
+      "name": "Book and Record Store (Westport)",
+      "type": "business",
+      "address": "4045 Broadway Blvd, Kansas City, MO 64111",
+      "description": "Old-timey store in young area. Wall of lockers for backpacks - unusual for this type of store.",
+      "images": [],
+      "eventIds": ["evt-westport-investigation"],
+      "notes": ["Required backpack in locker", "Said they had theft problems", "Wall of lockers unusual", "Next to suspicious tattoo shop"]
+    },
+    {
+      "id": "loc-023",
+      "name": "Tattoo Shop (Westport)",
+      "type": "business",
+      "address": "Next to 4045 Broadway Blvd, Kansas City, MO 64111",
+      "description": "Tattoo shop with old biker tattoos in young area. Suspicious activity observed.",
+      "images": [],
+      "eventIds": ["evt-westport-investigation"],
+      "notes": ["Only old biker tattoos and one anime", "Woman looked 'fucked up' at 11am", "3 people in back, no one in front", "Next to Book and Record store"]
+    },
+    {
+      "id": "loc-024",
+      "name": "Harrahs Downstairs Bar",
+      "type": "casino",
+      "address": "1 Riverboat Dr, North Kansas City, MO 64116",
+      "description": "Downstairs bar area at Harrahs Casino. Separate from main poker floor. Where narrator asked for 'spice' and had conversation with Asian Real Estate Guy.",
+      "images": [],
+      "eventIds": ["evt-harrahs-day2"],
+      "notes": ["Ordered drink and asked for 'spice'", "Asian man approached", "Separate from poker area"]
+    },
+    {
+      "id": "loc-026",
+      "name": "Capital One ATM",
+      "type": "atm",
+      "address": "430 Nichols Rd, Kansas City, MO 64112",
+      "description": "Capital One ATM location. Groups of people came in after narrator. Napkin appeared on table after getting up.",
+      "images": [],
+      "eventIds": [],
+      "notes": ["Groups came in after narrator", "Napkin appeared on table", "Possible surveillance or coordination"]
+    },
+    {
+      "id": "loc-027",
+      "name": "Airport",
+      "type": "other",
+      "address": "1 Kansas City Blvd, Kansas City, MO 64153",
+      "description": "Kansas City airport. Location of anxiety event on 12/15.",
+      "images": [],
+      "eventIds": ["evt-airport-attempt"],
+      "notes": ["12/15 3:12 PM", "Anxiety in lobby", "Considered leaving town"]
+    },
+    {
+      "id": "loc-028",
+      "name": "Bar Rec",
+      "type": "club",
+      "address": "4120 Pennsylvania Ave, Kansas City, MO 64111",
+      "description": "New club that opened up related to gaming. Near Q Club and The Landing.",
+      "images": [],
+      "eventIds": [],
+      "notes": ["Gaming-related club", "Recently opened", "Near Q Club"]
+    },
+    {
+      "id": "loc-029",
+      "name": "1888 Coffee",
+      "type": "coffee_shop",
+      "address": "3504 Gillham Rd, Kansas City, MO 64111",
+      "description": "Coffee shop where narrator purchased coffee on 12/12 at 2:57 PM, then gave it to Mac Properties mailroom person.",
+      "images": [],
+      "eventIds": ["evt-1888-coffee-mailroom"],
+      "notes": ["Coffee purchased and given to mailroom", "12/12/2025 2:57 PM"]
+    }
+  ]
+}

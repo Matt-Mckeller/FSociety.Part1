@@ -1,0 +1,91 @@
+{
+  "sample": {
+    "subject": "Science",
+    "gradeLevel": "7th Grade",
+    "qualityScore": 9,
+    "description": "Quick explanation of photosynthesis",
+    "durationSeconds": 25,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Remember, photosynthesis is how plants make their own food.",
+          "timestamp": 0,
+          "confidence": 0.98
+        },
+        {
+          "text": "They take in carbon dioxide from the air through tiny holes in their leaves.",
+          "timestamp": 4.8,
+          "confidence": 0.96
+        },
+        {
+          "text": "They also absorb water through their roots.",
+          "timestamp": 10.2,
+          "confidence": 0.97
+        },
+        {
+          "text": "Using energy from sunlight, they convert these into glucose, which is sugar.",
+          "timestamp": 13.5,
+          "confidence": 0.95
+        },
+        {
+          "text": "And as a byproduct, they release oxygen that we breathe.",
+          "timestamp": 19.8,
+          "confidence": 0.98
+        },
+        {
+          "text": "That's why plants are so important for life on Earth!",
+          "timestamp": 23.2,
+          "confidence": 0.97
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.98,
+    "appropriatenessScore": 1,
+    "warnings": [],
+    "isMainLectureContent_confidence": 0.99,
+    "isSideConversation_confidence": 0.01,
+    "isIrrelevantContent_confidence": 0,
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "oneLineSummarization": "Photosynthesis: Plants use sunlight, water, and carbon dioxide to create their own food (glucose) while releasing oxygen we breathe.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "SVG_DIAGRAM",
+        "title": "The Process of Photosynthesis",
+        "description": "A clear visual diagram showing the inputs (sunlight, CO2, water), the plant as the processor, and the outputs (glucose, oxygen).",
+        "reasonForSuggestion": "Visualizing the flow of inputs and outputs makes the abstract chemical process concrete and easier for 7th graders to remember, directly mapping to the teacher's explanation.",
+        "promptForGeneration": "Create a clear, colorful SVG diagram for 7th graders illustrating the process of photosynthesis. The diagram must feature a healthy green plant with leaves and roots. Use arrows to show the inputs: 1) A yellow sun with rays pointing to the leaves, labeled 'Sunlight (Energy)'. 2) An arrow pointing from the air to the leaves, labeled 'Carbon Dioxide (CO2)'. 3) An arrow pointing from the ground up the stem, labeled 'Water (H2O)'. Inside the plant/leaves, show a simple conversion icon (like a gear or recycle symbol) labeled 'Photosynthesis'. Use arrows pointing out from the plant to show the outputs: 1) An arrow pointing away from the leaves into the air, labeled 'Oxygen (O2)'. 2) An arrow pointing to a sugar cube icon near the plant, labeled 'Glucose (Sugar/Food)'. Use simple, friendly icons and bold, readable labels. The style should be educational and engaging, not overly scientific."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.85,
+        "coreType": "HTML_INTERACTIVE",
+        "title": "Interactive Photosynthesis Explorer",
+        "description": "A clickable diagram where students can select each component (sun, water, CO2, oxygen, glucose) to get a simple definition.",
+        "reasonForSuggestion": "Interaction promotes active learning and exploration, allowing students to learn at their own pace and reinforce the vocabulary mentioned in the lecture.",
+        "promptForGeneration": "Generate an interactive HTML visualization of the photosynthesis process for a 7th-grade audience. Create a central image of a plant. Surround it with clickable icons for 'Sunlight', 'Carbon Dioxide', 'Water', 'Oxygen', and 'Glucose'. When a user clicks an icon, a small pop-up or tooltip must appear with a simple definition. For example, clicking 'Carbon Dioxide' shows 'A gas from the air that plants use to make food.' The diagram should visually link the inputs to the plant and the outputs away from it with animated arrows. Use a clean, modern design with clear hover effects on the clickable elements."
+      }
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-26T22:10:20.268Z",
+    "latencyMs": 23906,
+    "tokenUsage": {
+      "input": 3114,
+      "output": 825,
+      "total": 5921
+    }
+  }
+}

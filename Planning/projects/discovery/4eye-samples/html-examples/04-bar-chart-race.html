@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animated Bar Chart Race - Population Growth</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      background: white;
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      max-width: 900px;
+      width: 100%;
+    }
+
+    h1 {
+      text-align: center;
+      color: #1e293b;
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #64748b;
+      margin-bottom: 30px;
+      font-size: 16px;
+    }
+
+    .chart-container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 30px;
+      background: #f8fafc;
+      border-radius: 12px;
+    }
+
+    h3 {
+      text-align: center;
+      color: #1e293b;
+      margin-bottom: 10px;
+    }
+
+    .year-display {
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+      color: #3b82f6;
+      margin-bottom: 30px;
+    }
+
+    .bars {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .bar-row {
+      display: grid;
+      grid-template-columns: 100px 1fr;
+      align-items: center;
+      gap: 15px;
+      transition: order 0.5s ease;
+    }
+
+    .label {
+      font-weight: 600;
+      color: #475569;
+      text-align: right;
+    }
+
+    .bar-wrapper {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .bar {
+      height: 40px;
+      background: var(--color);
+      border-radius: 6px;
+      width: 0%;
+      transition: width 1s ease, background-color 0.3s ease;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .value {
+      font-weight: 600;
+      color: #64748b;
+      min-width: 60px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 12px 30px;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    button:hover {
+      background: #2563eb;
+      transform: scale(1.05);
+    }
+
+    .info {
+      margin-top: 30px;
+      padding: 20px;
+      background: #f1f5f9;
+      border-radius: 12px;
+      color: #475569;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .info strong {
+      color: #1e293b;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📊 Animated Bar Chart Race</h1>
+    <p class="subtitle">Population Growth Over Time</p>
+    
+    <div class="chart-container">
+      <h3>World Population by Region</h3>
+      <div class="year-display">Year: <span id="currentYear">1800</span></div>
+      
+      <div class="bars">
+        <div class="bar-row" data-country="China">
+          <span class="label">China</span>
+          <div class="bar-wrapper">
+            <div class="bar" style="--color: #ef4444" data-value="330"></div>
+            <span class="value">330M</span>
+          </div>
+        </div>
+        
+        <div class="bar-row" data-country="India">
+          <span class="label">India</span>
+          <div class="bar-wrapper">
+            <div class="bar" style="--color: #f59e0b" data-value="200"></div>
+            <span class="value">200M</span>
+          </div>
+        </div>
+        
+        <div class="bar-row" data-country="Europe">
+          <span class="label">Europe</span>
+          <div class="bar-wrapper">
+            <div class="bar" style="--color: #10b981" data-value="195"></div>
+            <span class="value">195M</span>
+          </div>
+        </div>
+        
+        <div class="bar-row" data-country="USA">
+          <span class="label">USA</span>
+          <div class="bar-wrapper">
+            <div class="bar" style="--color: #3b82f6" data-value="5"></div>
+            <span class="value">5M</span>
+          </div>
+        </div>
+      </div>
+      
+      <button onclick="animateChart()">▶️ Play Animation</button>
+    </div>
+
+    <div class="info">
+      <strong>Use Case:</strong> Showing comparative data over time, rankings, population growth, economic data.
+      <br><br>
+      <strong>Features:</strong> Bars grow smoothly, rows reorder based on values, year counter updates, click Play to restart animation.
+      <br><br>
+      <strong>Learning Benefit:</strong> Temporal changes become immediately visible, making trends obvious.
+    </div>
+  </div>
+
+  <script>
+    function animateChart() {
+      // Simulate data changes over time
+      const data = {
+        1800: { China: 330, India: 200, Europe: 195, USA: 5 },
+        1900: { China: 400, India: 285, Europe: 408, USA: 76 },
+        2000: { China: 1270, India: 1053, Europe: 727, USA: 282 },
+        2020: { China: 1439, India: 1380, Europe: 747, USA: 331 }
+      };
+      
+      const years = Object.keys(data);
+      let currentIndex = 0;
+      
+      const interval = setInterval(() => {
+        if (currentIndex >= years.length) {
+          clearInterval(interval);
+          return;
+        }
+        
+        const year = years[currentIndex];
+        document.getElementById('currentYear').textContent = year;
+        
+        const yearData = data[year];
+        const sorted = Object.entries(yearData).sort((a, b) => b[1] - a[1]);
+        
+        sorted.forEach(([country, value], index) => {
+          const row = document.querySelector(`[data-country="${country}"]`);
+          const bar = row.querySelector('.bar');
+          const valueSpan = row.querySelector('.value');
+          
+          row.style.order = index;
+          bar.style.width = `${(value / 15)}%`;
+          bar.style.setProperty('--value', value);
+          valueSpan.textContent = `${value}M`;
+        });
+        
+        currentIndex++;
+      }, 2000);
+    }
+
+    // Auto-start animation
+    setTimeout(animateChart, 1000);
+  </script>
+</body>
+</html>

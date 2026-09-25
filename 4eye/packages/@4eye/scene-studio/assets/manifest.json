@@ -1,0 +1,149 @@
+[
+  {
+    "folder": "00_reference",
+    "filename": "STYLE-REF_uploaded_style_anchor.png",
+    "description": "STYLE-REF uploaded style anchor",
+    "source_path": "/mnt/data/1-1.png",
+    "dimensions": "1672x941"
+  },
+  {
+    "folder": "00_reference",
+    "filename": "REF-01_scene1_character_reference_sheet.png",
+    "description": "REF-01 scene1 character reference sheet",
+    "source_path": "/mnt/data/cinematic_reference_sheet_for_modern_classroom.png",
+    "dimensions": "1672x941"
+  },
+  {
+    "folder": "00_reference",
+    "filename": "REF-02_visual_systems_environment_sheet.png",
+    "description": "REF-02 visual systems environment sheet",
+    "source_path": "/mnt/data/classroom_of_tomorrow_design_reference.png",
+    "dimensions": "1672x941"
+  },
+  {
+    "folder": "01_scene_keyframes",
+    "filename": "S1-A_cold_open_quiet_classroom.png",
+    "description": "S1-A cold open quiet classroom",
+    "source_path": "/mnt/data/quiet_classroom_under_soft_daylight.png",
+    "dimensions": "1672x941"
+  },
+  {
+    "folder": "01_scene_keyframes",
+    "filename": "S1-B_4eye_hud_handoff.png",
+    "description": "S1-B 4eye hud handoff",
+    "source_path": "/mnt/data/futuristic_classroom_with_glowing_holograms.png",
+    "dimensions": "1672x941"
+  },
+  {
+    "folder": "01_scene_keyframes",
+    "filename": "S1-D_engaged_classroom_analytics.png",
+    "description": "S1-D engaged classroom analytics",
+    "source_path": "/mnt/data/futuristic_classroom_with_ar_learning_tools.png",
+    "dimensions": "1672x941"
+  },
+  {
+    "folder": "01_scene_keyframes",
+    "filename": "S1-D2_engaged_classroom_holographic_lessons.png",
+    "description": "S1-D2 engaged classroom holographic lessons",
+    "source_path": "/mnt/data/futuristic_classroom_with_holographic_lessons.png",
+    "dimensions": "1672x941"
+  },
+  {
+    "folder": "01_scene_keyframes",
+    "filename": "S1-F_gear_accumulation_triptych.png",
+    "description": "S1-F gear accumulation triptych",
+    "source_path": "/mnt/data/gear_progression_in_futuristic_classroom.png",
+    "dimensions": "1672x941"
+  },
+  {
+    "folder": "01_scene_keyframes",
+    "filename": "S1-G3_engagement_signals_aligned_progress_bars.png",
+    "description": "S1-G3 engagement signals aligned progress bars",
+    "source_path": "/mnt/data/engagement_sparks_in_classroom_progress.png",
+    "dimensions": "1672x941"
+  },
+  {
+    "folder": "01_scene_keyframes",
+    "filename": "S1-H_friction_to_focus.png",
+    "description": "S1-H friction to focus",
+    "source_path": "/mnt/data/stress_levels_in_a_classroom_standoff.png",
+    "dimensions": "1672x941"
+  },
+  {
+    "folder": "01_scene_keyframes",
+    "filename": "S1-I_lens_2_transition.png",
+    "description": "S1-I lens 2 transition",
+    "source_path": "/mnt/data/futuristic_classroom_with_augmented_reality_hud.png",
+    "dimensions": "1672x941"
+  },
+  {
+    "folder": "02_s1c_gift_sequence",
+    "filename": "S1-C-new1_gift_icon_pre_tap.png",
+    "description": "S1-C-new1 gift icon pre tap",
+    "source_path": "/mnt/data/futuristic_teaching_moment_in_class.png",
+    "dimensions": "1672x941"
+  },
+  {
+    "folder": "02_s1c_gift_sequence",
+    "filename": "S1-C-new2_gift_icon_tap_energy_transfer.png",
+    "description": "S1-C-new2 gift icon tap energy transfer",
+    "source_path": "/mnt/data/interactive_tech_demo_in_the_classroom.png",
+    "dimensions": "1672x941"
+  },
+  {
+    "folder": "02_s1c_gift_sequence",
+    "filename": "S1-C-new3_present_in_4eye_hands.png",
+    "description": "S1-C-new3 present in 4eye hands",
+    "source_path": "/mnt/data/futuristic_classroom_with_interactive_holograms.png",
+    "dimensions": "1672x941"
+  },
+  {
+    "folder": "02_s1c_gift_sequence",
+    "filename": "S1-C-new4_4eye_offers_gift_payoff.png",
+    "description": "S1-C-new4 4eye offers gift payoff",
+    "source_path": "/mnt/data/a_gift_from_the_future.png",
+    "dimensions": "1672x941"
+  },
+  {
+    "folder": "03_alternates_and_iterations",
+    "filename": "S1-C-old1_teacher_hud_pre_tap_old.png",
+    "description": "S1-C-old1 teacher hud pre tap old",
+    "source_path": "/mnt/data/classroom_of_the_future_with_holograms.png",
+    "dimensions": "1672x941"
+  },
+  {
+    "folder": "03_alternates_and_iterations",
+    "filename": "S1-C-old2_teacher_hud_activated_old.png",
+    "description": "S1-C-old2 teacher hud activated old",
+    "source_path": "/mnt/data/interactive_teaching_in_a_futuristic_classroom.png",
+    "dimensions": "1672x941"
+  },
+  {
+    "folder": "03_alternates_and_iterations",
+    "filename": "S1-G_original_engagement_dashboard.png",
+    "description": "S1-G original engagement dashboard",
+    "source_path": "/mnt/data/classroom_engagement_progress_dashboard.png",
+    "dimensions": "1672x941"
+  },
+  {
+    "folder": "03_alternates_and_iterations",
+    "filename": "S1-G2_learning_more_less_time.png",
+    "description": "S1-G2 learning more less time",
+    "source_path": "/mnt/data/futuristic_classroom_with_engagement_and_growth.png",
+    "dimensions": "1672x941"
+  },
+  {
+    "folder": "04_gallery",
+    "filename": "scene1_image_gallery_contact_sheet.png",
+    "description": "scene1 image gallery contact sheet",
+    "source_path": "/mnt/data/scene1_image_gallery_contact_sheet.png",
+    "dimensions": "1356x2394"
+  },
+  {
+    "folder": "04_gallery",
+    "filename": "scene1_image_manifest_previous.md",
+    "description": "scene1 image manifest previous",
+    "source_path": "/mnt/data/scene1_image_manifest.md",
+    "dimensions": ""
+  }
+]

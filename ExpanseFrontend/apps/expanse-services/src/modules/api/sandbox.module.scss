@@ -1,0 +1,6 @@
+.ApiSandbox {
+  flex-grow: 1;
+  & iframe:first-of-type {
+    border-radius: 10px;
+  }
+}

@@ -1,0 +1,458 @@
+{
+  "targetAudiences": [
+    {
+      "id": "students",
+      "name": "Students",
+      "priority": 1,
+      "segments": [
+        {
+          "id": "elementary",
+          "name": "Elementary School Students",
+          "ageRange": "5-11"
+        },
+        {
+          "id": "middle",
+          "name": "Middle School Students",
+          "ageRange": "11-14"
+        },
+        { "id": "high", "name": "High School Students", "ageRange": "14-18" },
+        {
+          "id": "college",
+          "name": "College/University Students",
+          "ageRange": "18-25"
+        }
+      ],
+      "characteristics": [
+        "Interested in games",
+        "Interested in money",
+        "Interested in academic performance",
+        "Interested in competitive sports",
+        "Gen Z and Gen Alpha"
+      ],
+      "platforms": ["TikTok", "Instagram", "YouTube"]
+    },
+    {
+      "id": "teachers",
+      "name": "Teachers & Educators",
+      "priority": 2,
+      "segments": [
+        { "id": "elementary-teachers", "name": "Elementary School Teachers" },
+        { "id": "middle-teachers", "name": "Middle School Teachers" },
+        { "id": "high-teachers", "name": "High School Teachers" },
+        { "id": "college-professors", "name": "College Professors" },
+        { "id": "special-ed", "name": "Special Ed/ADHD Teachers" },
+        { "id": "psychology", "name": "Psychology Teachers" }
+      ],
+      "characteristics": [
+        "Want more tools to keep students engaged",
+        "Need help communicating with parents",
+        "Struggle with traditional punishment methods",
+        "Limited budgets for classroom tools"
+      ],
+      "platforms": ["Facebook", "LinkedIn", "Email"]
+    },
+    {
+      "id": "parents",
+      "name": "Parents & Families",
+      "priority": 3,
+      "segments": [
+        { "id": "proud-parents", "name": "Parents proud of their kids" },
+        { "id": "struggling-parents", "name": "Parents with struggling kids" },
+        { "id": "charter-parents", "name": "Charter school parents" },
+        { "id": "wealthy-parents", "name": "High income area parents" }
+      ],
+      "characteristics": [
+        "Want children to succeed",
+        "Interested in high academic performance",
+        "Interested in competitive sports",
+        "Willing to invest in education"
+      ],
+      "platforms": ["Facebook", "Instagram", "Email"]
+    },
+    {
+      "id": "schools",
+      "name": "Schools & Districts",
+      "priority": 4,
+      "segments": [
+        { "id": "public", "name": "Public Schools" },
+        { "id": "charter", "name": "Charter Schools" },
+        { "id": "private", "name": "Private Schools" },
+        { "id": "colleges", "name": "Colleges & Universities" },
+        { "id": "low-engagement", "name": "Low Engagement Schools" }
+      ],
+      "characteristics": [
+        "Seeking engagement solutions",
+        "Focus on student outcomes",
+        "Budget considerations",
+        "Technology adoption readiness"
+      ]
+    },
+    {
+      "id": "leadership",
+      "name": "Educational Leadership",
+      "priority": 5,
+      "segments": [
+        { "id": "principals", "name": "Principals" },
+        { "id": "superintendents", "name": "Superintendents" },
+        { "id": "assistant-super", "name": "Assistant Superintendents" },
+        { "id": "board", "name": "Board of Education Members" }
+      ]
+    }
+  ],
+  "personas": [
+    {
+      "id": "adhd-student",
+      "name": "The ADHD Student",
+      "role": "student",
+      "description": "A student who struggles with focus and traditional learning methods",
+      "demographics": {
+        "age": "12-18",
+        "education": "Middle or High School"
+      },
+      "goals": [
+        "Stay focused during class",
+        "Complete assignments on time",
+        "Feel successful in school"
+      ],
+      "painPoints": [
+        "Traditional education feels boring",
+        "Struggles to see long-term rewards",
+        "Often feels behind peers",
+        "Low self-esteem from academic struggles"
+      ],
+      "motivations": [
+        "Immediate rewards and recognition",
+        "Visual progress tracking",
+        "Game-like experiences"
+      ],
+      "techSavviness": "high"
+    },
+    {
+      "id": "competitive-student",
+      "name": "The Competitive Student",
+      "role": "student",
+      "description": "A high-achieving student motivated by competition and rankings",
+      "demographics": {
+        "age": "14-22",
+        "education": "High School or College"
+      },
+      "goals": [
+        "Top of the class rankings",
+        "College scholarships",
+        "Recognition for achievements"
+      ],
+      "painPoints": [
+        "Limited visibility into class rankings",
+        "Lack of recognition for hard work",
+        "No tangible rewards for performance"
+      ],
+      "motivations": [
+        "Leaderboards and competition",
+        "Badges and achievements",
+        "Scholarship opportunities"
+      ],
+      "techSavviness": "high"
+    },
+    {
+      "id": "overwhelmed-teacher",
+      "name": "The Overwhelmed Teacher",
+      "role": "teacher",
+      "description": "A dedicated teacher struggling with classroom engagement",
+      "demographics": {
+        "age": "28-55",
+        "experience": "5-20 years teaching"
+      },
+      "goals": [
+        "Increase student engagement",
+        "Reduce behavioral issues",
+        "Communicate better with parents"
+      ],
+      "painPoints": [
+        "Manual reward tracking is time-consuming",
+        "Difficult to motivate disengaged students",
+        "Limited tools for positive reinforcement",
+        "Hard to compete with phones and games"
+      ],
+      "motivations": [
+        "Easy-to-use tools",
+        "Visible student improvement",
+        "Less administrative burden"
+      ],
+      "techSavviness": "medium"
+    },
+    {
+      "id": "concerned-parent",
+      "name": "The Concerned Parent",
+      "role": "parent",
+      "description": "A parent worried about their child's academic performance and engagement",
+      "demographics": {
+        "age": "35-50",
+        "income": "Middle to high income"
+      },
+      "goals": [
+        "Child succeeds academically",
+        "Stay informed about progress",
+        "Support child's education"
+      ],
+      "painPoints": [
+        "Limited visibility into daily performance",
+        "Difficult to motivate child at home",
+        "Feels disconnected from school"
+      ],
+      "motivations": [
+        "Real-time progress updates",
+        "Ways to reward and encourage",
+        "Connection to teachers"
+      ],
+      "techSavviness": "medium"
+    },
+    {
+      "id": "disengaged-student",
+      "name": "The Disengaged Student",
+      "role": "student",
+      "description": "A student who doesn't see the purpose of education",
+      "demographics": {
+        "age": "14-22",
+        "education": "High School or College"
+      },
+      "goals": [
+        "Find purpose in learning",
+        "Feel valued and recognized",
+        "Graduate successfully"
+      ],
+      "painPoints": [
+        "Doesn't see long-term value of education",
+        "Bored with traditional learning",
+        "Low self-esteem",
+        "Feels unworthy of higher education"
+      ],
+      "motivations": [
+        "Immediate tangible rewards",
+        "Social recognition",
+        "Visual progress and growth"
+      ],
+      "techSavviness": "high"
+    }
+  ],
+  "interests": [
+    "Education technology",
+    "Improving student grades",
+    "Improving classroom morale",
+    "Gamification",
+    "Increasing engagement",
+    "Improving attendance",
+    "ADHD support",
+    "PBIS (Positive Behavioral Interventions)",
+    "Mental health",
+    "Psychology",
+    "Reward programs/systems",
+    "Competition",
+    "Motivational content",
+    "Continuous improvement"
+  ],
+  "targetOrder": [
+    "ADHD / Gamification enthusiasts",
+    "Competitive students + struggling students",
+    "Mental health focused",
+    "College students",
+    "High school students"
+  ],
+  "marketingStrategies": {
+    "frameworks": [
+      {
+        "id": "aida",
+        "name": "AIDA Framework",
+        "description": "Attention, Interest, Desire, Action - guides potential customers through decision-making",
+        "steps": [
+          "Attention: Grab with strong opening, headline, or surprising fact",
+          "Interest: Provide relevant information, benefits, or compelling story",
+          "Desire: Highlight uniqueness with emotional appeals, testimonials, features",
+          "Action: Clear CTA - Buy Now, Sign Up, Learn More"
+        ]
+      },
+      {
+        "id": "pas",
+        "name": "Pain-Agitate-Solution",
+        "description": "Identify problem (Pain), amplify it (Agitate), provide solution",
+        "use": "Blog posts, landing pages, sales emails"
+      },
+      {
+        "id": "fab",
+        "name": "Features-Advantages-Benefits",
+        "description": "Emphasize features, advantages they provide, and benefits to customer",
+        "use": "Product descriptions, ad copy"
+      }
+    ],
+    "principles": [
+      {
+        "id": "start-with-why",
+        "name": "Start with Why",
+        "description": "Connect message to deeper purpose. Communicate the reason behind the product to build trust and inspire loyalty."
+      },
+      {
+        "id": "educational-content",
+        "name": "Educational Content",
+        "description": "Provide value by teaching something useful. Positions brand as helpful authority, builds trust, encourages engagement."
+      },
+      {
+        "id": "urgency",
+        "name": "Create Urgency",
+        "description": "Motivate immediate action through scarcity or time sensitivity. Competition features add natural urgency - the sooner students start, the more XP they gain."
+      },
+      {
+        "id": "relatability",
+        "name": "Relatability",
+        "description": "People engage with content reflecting their experiences. Relate complex concepts to things audience understands (e.g., gamification to football/sports)."
+      },
+      {
+        "id": "storytelling",
+        "name": "Storytelling",
+        "description": "Transform information into engaging narrative. Stories make messages relatable and memorable by appealing to emotions."
+      },
+      {
+        "id": "repetition",
+        "name": "Repetition",
+        "description": "Reinforces message, builds recognition and trust. Repeat core messages across channels and formats."
+      },
+      {
+        "id": "agreement-ladder",
+        "name": "Agreement Ladder",
+        "description": "Get small agreements early to increase likelihood of larger agreements later. Start with easy, relatable questions."
+      },
+      {
+        "id": "social-proof",
+        "name": "Social Proof",
+        "description": "Use testimonials, reviews, endorsements to build credibility. Real experiences reduce skepticism."
+      }
+    ],
+    "contentMix": [
+      "Business solutions and problems",
+      "Case studies and success stories",
+      "Industry, role, and location targeting",
+      "Wide target posts + niche audience posts",
+      "Numbers and measurements",
+      "Emotional and human elements"
+    ]
+  },
+  "schoolRoles": {
+    "leadership": [
+      {
+        "role": "Superintendent",
+        "description": "Highest-ranking administrative position, overall leadership"
+      },
+      {
+        "role": "Assistant Superintendent",
+        "description": "Supports superintendent in curriculum, instruction, finance, HR"
+      },
+      {
+        "role": "Principal",
+        "description": "Head administrator of a school, day-to-day operations"
+      },
+      {
+        "role": "Assistant Principal",
+        "description": "Supports principal in discipline, curriculum, instruction"
+      },
+      {
+        "role": "Board of Education Members",
+        "description": "Elected/appointed officials overseeing district policies"
+      }
+    ],
+    "support": [
+      {
+        "role": "Counselors",
+        "description": "Academic, social, and emotional support for students"
+      },
+      {
+        "role": "Librarians",
+        "description": "Manage libraries, information and research assistance"
+      },
+      {
+        "role": "District Office Staff",
+        "description": "Finance, HR, technology, legal specialists"
+      },
+      {
+        "role": "Paraprofessionals",
+        "description": "Assist teachers, especially with special needs students"
+      }
+    ]
+  },
+  "additionalPersonas": [
+    {
+      "id": "grandparent",
+      "name": "The Supportive Grandparent",
+      "role": "family",
+      "description": "Grandparent who wants to support their grandchild's education",
+      "goals": [
+        "Help grandchild succeed",
+        "Stay connected to education",
+        "Provide rewards and encouragement"
+      ],
+      "motivations": [
+        "Family rewards feature",
+        "Progress updates",
+        "Recognition sharing"
+      ]
+    },
+    {
+      "id": "foster-student",
+      "name": "The Foster Care Student",
+      "role": "student",
+      "description": "Student in foster care needing stability and recognition",
+      "goals": [
+        "Feel valued and stable",
+        "Build self-esteem",
+        "Graduate successfully"
+      ],
+      "painPoints": [
+        "Lack of consistent support",
+        "Low self-esteem",
+        "Frequent disruptions"
+      ],
+      "motivations": [
+        "System-provided recognition",
+        "Consistent rewards",
+        "Visual progress"
+      ]
+    },
+    {
+      "id": "charter-parent",
+      "name": "The Charter School Parent",
+      "role": "parent",
+      "description": "Parent who chose charter school for better outcomes",
+      "goals": [
+        "Maximum educational value",
+        "Innovative tools",
+        "Competitive advantage"
+      ],
+      "motivations": [
+        "Cutting-edge features",
+        "Competition elements",
+        "Scholarship opportunities"
+      ]
+    }
+  ],
+  "salesInsights": {
+    "highValueTargets": [
+      {
+        "id": "instant-gratification",
+        "name": "Instant Gratification Appeal",
+        "description": "Features that provide immediate rewards and feedback are highest value for marketing and sales",
+        "application": "Lead with quick wins, visible progress, and immediate rewards in demos and pitches"
+      }
+    ],
+    "highValueTopics": [
+      {
+        "topic": "Future of Jobs & AI",
+        "relevance": "What does the future of business look like? Will humans be amplified or replaced?",
+        "application": "Content marketing, conversations with administrators and parents about preparing students"
+      }
+    ],
+    "culturalConsiderations": [
+      {
+        "insight": "Psychology of Sales by Culture",
+        "description": "Different cultures and regions respond differently to sales approaches",
+        "application": "When generating content for a particular area, include regional and country-based information of followers to help AI cater the content. Important for sales agent AI development."
+      }
+    ]
+  }
+}

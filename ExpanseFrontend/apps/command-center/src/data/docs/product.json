@@ -1,0 +1,480 @@
+{
+  "features": [
+    {
+      "id": "rewards",
+      "name": "Rewards System",
+      "category": "core",
+      "status": "planned",
+      "priority": "core",
+      "description": "Comprehensive reward system including loot boxes, achievements, and various reward types",
+      "valueProposition": "Students receive tangible and intangible rewards for academic progress",
+      "userBenefit": "Increased motivation through immediate gratification and recognition",
+      "details": [
+        "Loot boxes with artwork, gems, and perks",
+        "Multiple reward classifications (scholarships, currency, art, equipment, achievements)",
+        "Configurable by school, family, and classroom",
+        "Rarity system (Common, Uncommon, Rare, Epic, Legendary)"
+      ],
+      "rewardTypes": [
+        "Scholarships",
+        "Classroom rewards",
+        "School rewards",
+        "Family rewards",
+        "System currency",
+        "Digital art/NFTs",
+        "Equipment/gear",
+        "Achievements",
+        "Titles",
+        "Consumables",
+        "Personalization items"
+      ]
+    },
+    {
+      "id": "progression",
+      "name": "Progression & Leveling",
+      "category": "core",
+      "status": "planned",
+      "priority": "core",
+      "description": "Experience-based leveling system with progress bars and checkpoints",
+      "valueProposition": "Visual representation of academic growth over time",
+      "userBenefit": "Students see tangible progress and unlock new content as they level up",
+      "details": [
+        "Overall experience level",
+        "Progress bars with checkpoints (similar to Starbucks rewards)",
+        "Class category levels (Science, Math, English, etc.)",
+        "Team/classroom-based progression",
+        "Evolution points that unlock abilities and content"
+      ],
+      "progressionTypes": [
+        "Experience (overall level)",
+        "Human Attributes (skills)",
+        "Class Category Level",
+        "Evolutions",
+        "Achievements"
+      ]
+    },
+    {
+      "id": "achievements",
+      "name": "Achievements System",
+      "category": "core",
+      "status": "planned",
+      "priority": "core",
+      "description": "Achievement system for celebrating accomplishments and setting goals",
+      "valueProposition": "Recognition and celebration of student accomplishments",
+      "userBenefit": "Sense of accomplishment, goal guidance, and positive reinforcement",
+      "details": [
+        "Predefined achievement requirements",
+        "Progressive achievements (complete 10/100/1000 assignments)",
+        "Consistency achievements (attendance streaks)",
+        "Feature usage achievements",
+        "Battle and competition achievements"
+      ],
+      "examples": [
+        "Attend class for a month without missing",
+        "Earn >90% on 5 assignments in a row",
+        "Complete 100 assignments",
+        "Win 10 battles",
+        "Receive teacher recognition 5 times"
+      ]
+    },
+    {
+      "id": "competition",
+      "name": "Battles & Competition",
+      "category": "engagement",
+      "status": "planned",
+      "priority": "core",
+      "description": "Healthy competition features including battles, leaderboards, and rankings",
+      "valueProposition": "Motivation through competitive elements and teamwork",
+      "userBenefit": "Increased engagement through friendly competition",
+      "details": [
+        "Class vs class competition",
+        "School vs school competition",
+        "Anonymous leaderboards option",
+        "Team-based competitions",
+        "Individual rankings"
+      ]
+    },
+    {
+      "id": "social",
+      "name": "Social Features",
+      "category": "engagement",
+      "status": "planned",
+      "priority": "important",
+      "description": "Social recognition, sharing, and community features",
+      "valueProposition": "Build community and strengthen relationships through shared achievements",
+      "userBenefit": "Social recognition boosts self-esteem and motivation",
+      "details": [
+        "Achievement sharing with family",
+        "Optional social media sharing",
+        "Classroom community feed",
+        "Recognition from teachers and peers"
+      ]
+    },
+    {
+      "id": "personalization",
+      "name": "Personalization & Customization",
+      "category": "engagement",
+      "status": "planned",
+      "priority": "important",
+      "description": "Profile customization, avatars, and personal expression",
+      "valueProposition": "Self-expression and identity building",
+      "userBenefit": "Creative outlet and sense of ownership",
+      "details": [
+        "Customizable profiles",
+        "Avatar creation",
+        "Art collection display",
+        "Title selection",
+        "Theme customization"
+      ]
+    },
+    {
+      "id": "art-nfts",
+      "name": "Art & NFTs",
+      "category": "rewards",
+      "status": "planned",
+      "priority": "important",
+      "description": "Digital art rewards and collectibles",
+      "valueProposition": "Unique, collectible rewards that students can own",
+      "userBenefit": "Artistic expression and valuable digital collectibles"
+    },
+    {
+      "id": "stores",
+      "name": "Stores & Marketplace",
+      "category": "rewards",
+      "status": "planned",
+      "priority": "important",
+      "description": "Multiple store types for redeeming rewards",
+      "valueProposition": "Choice and autonomy in reward selection",
+      "userBenefit": "Students choose rewards that matter to them",
+      "storeTypes": [
+        "System Store",
+        "Teacher Store",
+        "School Store",
+        "Family Store",
+        "Sponsor Store"
+      ]
+    },
+    {
+      "id": "parent-communication",
+      "name": "Parent Communication",
+      "category": "communication",
+      "status": "planned",
+      "priority": "important",
+      "description": "Tools for parent involvement and communication",
+      "valueProposition": "Better home-school connection",
+      "userBenefit": "Parents stay informed and can support their children",
+      "details": [
+        "Progress notifications",
+        "Achievement alerts",
+        "Positive behavior reports",
+        "Family reward management"
+      ]
+    },
+    {
+      "id": "feedback",
+      "name": "Feedback & Recognition",
+      "category": "communication",
+      "status": "planned",
+      "priority": "core",
+      "description": "Teacher-to-student feedback and acknowledgment system",
+      "valueProposition": "Immediate positive reinforcement from teachers",
+      "userBenefit": "Students feel valued and recognized",
+      "details": [
+        "Quick acknowledgment buttons for teachers",
+        "Positive behavior selection",
+        "Customized feedback messages",
+        "AI-enhanced personalized feedback"
+      ]
+    },
+    {
+      "id": "scholarships",
+      "name": "Scholarships",
+      "category": "rewards",
+      "status": "planned",
+      "priority": "core",
+      "description": "Scholarship opportunities and partial scholarship building",
+      "valueProposition": "Real financial impact for academic success",
+      "userBenefit": "Tangible path to higher education funding",
+      "details": [
+        "Full scholarships",
+        "Partial scholarships (build up pieces)",
+        "Scholarship tracking",
+        "Sponsor-funded opportunities"
+      ]
+    },
+    {
+      "id": "quests",
+      "name": "Quests & Goals",
+      "category": "engagement",
+      "status": "planned",
+      "priority": "important",
+      "description": "Goal-setting and quest system for structured progress",
+      "valueProposition": "Clear path to success with guided goals",
+      "userBenefit": "Direction and motivation through structured objectives"
+    },
+    {
+      "id": "notifications",
+      "name": "Notifications & Inbox",
+      "category": "communication",
+      "status": "planned",
+      "priority": "important",
+      "description": "In-app notifications and messaging system",
+      "valueProposition": "Keep users engaged and informed",
+      "userBenefit": "Never miss important updates or achievements"
+    },
+    {
+      "id": "rankings",
+      "name": "Rankings & Performance",
+      "category": "engagement",
+      "status": "planned",
+      "priority": "important",
+      "description": "Leaderboards and performance tracking",
+      "valueProposition": "Visibility into relative performance",
+      "userBenefit": "Motivation through comparative progress"
+    },
+    {
+      "id": "sponsorships",
+      "name": "Sponsorships",
+      "category": "partnerships",
+      "status": "planned",
+      "priority": "nice-to-have",
+      "description": "Corporate sponsorship integration for rewards",
+      "valueProposition": "Enhanced reward options through partnerships",
+      "userBenefit": "Access to real-world rewards from brands"
+    }
+  ],
+  "categories": [
+    {
+      "id": "core",
+      "name": "Core Features",
+      "description": "Essential gamification features"
+    },
+    {
+      "id": "engagement",
+      "name": "Engagement",
+      "description": "Features that drive user engagement"
+    },
+    {
+      "id": "rewards",
+      "name": "Rewards",
+      "description": "Reward and incentive systems"
+    },
+    {
+      "id": "communication",
+      "name": "Communication",
+      "description": "Feedback and messaging features"
+    },
+    {
+      "id": "partnerships",
+      "name": "Partnerships",
+      "description": "External partnership features"
+    }
+  ],
+  "dataCollection": {
+    "description": "Ideas for data collection and alternative metrics that could provide value to students and schools",
+    "concepts": [
+      {
+        "id": "gpa-alternative",
+        "name": "GPA Alternative",
+        "description": "Build a more comprehensive student profile than GPA alone. Collect data on engagement, growth, soft skills, and other factors that better represent student potential.",
+        "benefits": [
+          "More holistic view of student ability",
+          "Captures growth and improvement",
+          "Values soft skills and engagement",
+          "Provides additional context for colleges"
+        ]
+      },
+      {
+        "id": "engagement-metrics",
+        "name": "Engagement Metrics",
+        "description": "Track and quantify student engagement levels over time",
+        "metrics": [
+          "Time on task",
+          "Assignment completion speed",
+          "Extra credit participation",
+          "Voluntary learning activities"
+        ]
+      },
+      {
+        "id": "behavioral-data",
+        "name": "Behavioral Data",
+        "description": "Track positive behavior incidents and recognition patterns",
+        "metrics": [
+          "Teacher recognition frequency",
+          "Peer recognition received",
+          "Collaboration participation",
+          "Helping behavior"
+        ]
+      },
+      {
+        "id": "growth-patterns",
+        "name": "Growth Patterns",
+        "description": "Measure improvement and growth over time, not just absolute performance",
+        "metrics": [
+          "Grade improvement trajectory",
+          "Skill progression",
+          "Recovery from setbacks",
+          "Consistency patterns"
+        ]
+      }
+    ],
+    "privacy": "All data collection must prioritize student privacy and comply with FERPA, COPPA, and other regulations"
+  },
+  "userJourneys": {
+    "coreFlow": {
+      "title": "Core Starter Product Flow",
+      "steps": [
+        "Event activity is identified from monitoring changes in LMS data (submissions, grades)",
+        "Rewardable events are noted and tracked by Expanse",
+        "Student reviews activity in Expanse EDU",
+        "Student redeems rewards for rewardable event activity",
+        "Student receives rewards, recognition, and digital currency",
+        "Student purchases rewards from stores",
+        "Student engages with other features (battles, customization, social)"
+      ]
+    },
+    "parentOnboarding": {
+      "title": "Parent Onboarding Flow",
+      "steps": [
+        "Students invite parents to the application",
+        "Parents create account and add information",
+        "Parents agree to allow data collection for student",
+        "Parents add payment information (optional monthly fee)",
+        "Payment configured to go to students for homework completion",
+        "Parent configures distribution timing and reward amounts",
+        "Parents choose which reward types their student can receive"
+      ]
+    },
+    "additionalJourneys": [
+      "Battles & Competition",
+      "Unlocking Content",
+      "Forming Teams",
+      "Leveling Up",
+      "Viewing History",
+      "Purchasing",
+      "Customizing Profile",
+      "Surveys"
+    ]
+  },
+  "configurationLevels": {
+    "description": "The software will have various configuration settings at multiple levels",
+    "levels": [
+      "Student",
+      "Parent/Family",
+      "Teacher",
+      "Classroom",
+      "School",
+      "District",
+      "Region"
+    ],
+    "exampleConfigurations": [
+      "Enable classroom food rewards",
+      "Enable school event rewards",
+      "Enable scoring features: Grade-based, Tests, Homework",
+      "Reward weights by category (Test vs Homework)",
+      "Enable teacher rewards",
+      "Enable/filter sponsorship rewards",
+      "Teacher reward purchase funding limits",
+      "Parental observability settings",
+      "Grade-based reward eligibility"
+    ]
+  },
+  "negativeReinforcement": {
+    "description": "Optional negative reinforcement/punishment options for schools that want them",
+    "options": [
+      "Reduced coins or fines",
+      "Temporary purchase restrictions",
+      "Fewer available options",
+      "Lower contributions toward school/classroom goals",
+      "Limited earning potential or reduced loot box rewards",
+      "Battle handicaps",
+      "Other consequences as appropriate"
+    ],
+    "note": "Focus is on positive reinforcement, but some schools may want negative options available"
+  },
+  "designConsiderations": {
+    "description": "Key design principles and considerations for product development",
+    "organicAdoption": [
+      "Effective app design should empower students, parents, and teachers to promote the app organically",
+      "Features like student benefits for teacher participation and requests for teachers to create stores drive adoption",
+      "Visibility into class engagement encourages participation"
+    ],
+    "specialEducation": [
+      "Special education considerations may vary by district",
+      "May need to adjust reward settings for special education students",
+      "Consider special education status in reward calculations"
+    ],
+    "classVariations": [
+      "Gym classes may not have assignments but should still grant experience and rewards",
+      "Music and other creative classes have different engagement patterns",
+      "Some classes allow online attendance or note-reading instead of in-person"
+    ],
+    "timing": [
+      "Summer vacation, holidays, exam periods, spring break affect engagement",
+      "May have weeks with less participation and work",
+      "Time off differs between schools and regions",
+      "Apps more likely used during bus rides, between classes, at start of classes, during lunch"
+    ],
+    "policies": [
+      "Different policies at district, school, and teacher levels",
+      "Schools may have different policies on food allowance as rewards",
+      "Important options can get rulings at district level"
+    ],
+    "security": [
+      "Children may not be as secure as parents (leaving screens open, forgetting passwords)",
+      "Some features need added protection (PIN, confirmation codes)",
+      "Payment, trade, and some rewards require higher security"
+    ],
+    "fairness": [
+      "Product design should improve educational experience for everyone",
+      "Financial situations are a key consideration",
+      "Avoid pay-to-win mechanics that disadvantage students"
+    ],
+    "feedback": [
+      "Praising students indiscriminately can lead to false confidence",
+      "Higher grades should earn more experience while still rewarding effort",
+      "Problem solving and making mistakes helps learning",
+      "Challenging goals can be beneficial"
+    ],
+    "internationalDifferences": [
+      "Country differences in processes, procedures, and interests",
+      "Examples: Japan publicly posts grades, physical punishment norms, electronic usage, paper vs online"
+    ]
+  },
+  "dataCollectionDetails": {
+    "description": "Detailed data types that may be collected for analytics and personalization",
+    "coreData": [
+      "Grades and attendance",
+      "Parent reward options and student selections",
+      "Schools, classrooms, students, teachers, staff",
+      "Rankings and performance",
+      "Approximate location based on school",
+      "Course/subject performance",
+      "Classes taken by students",
+      "Grade trends",
+      "Reward preferences",
+      "Assignments and knowledge areas",
+      "Teacher acknowledgements of students",
+      "Performance with/without parental involvement",
+      "Chat messages (if enabled)",
+      "Grade distributions",
+      "App usage time patterns",
+      "Preferred colleges"
+    ],
+    "artRelatedData": [
+      "Color preference",
+      "Art style preference",
+      "Symbol/object preferences"
+    ],
+    "surveys": [
+      "Engagement surveys",
+      "Satisfaction surveys",
+      "Mental health surveys",
+      "Other custom surveys"
+    ],
+    "gpaAlternative": {
+      "description": "Rather than comparing students solely based on GPA, compare based on performance relative to peers for clearer insight",
+      "benefit": "Enables teachers to aim for 70-90% as target on challenging homework rather than 100%"
+    }
+  }
+}

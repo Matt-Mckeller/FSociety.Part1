@@ -1,0 +1,61 @@
+{
+  "id": "string",
+  "title": "string",
+  "type": "image | animation",
+  "subject": ["string"],
+  "setting": ["string"],
+  "style": {
+    "tags": ["string"],
+    "medium": "string",
+    "palette": "warm | cool | neutral | high_contrast | pastel",
+    "texture": ["smooth | grainy | matte | glossy"]
+  },
+  "composition": {
+    "framing": "close_up | wide | macro | flat_lay",
+    "balance": "symmetrical | asymmetrical",
+    "depth": "flat | layered | deep",
+    "focus": "subject | background | balanced",
+    "negative_space": "low | medium | high"
+  },
+  "lighting": {
+    "type": "soft | hard | natural | artificial",
+    "direction": "front | side | back | top | mixed",
+    "exposure": "under | balanced | over",
+    "contrast": "low | medium | high"
+  },
+  "color": {
+    "dominant": ["#hex"],
+    "saturation": "low | medium | high",
+    "contrast": "low | medium | high",
+    "color_cast": "none | warm | cool"
+  },
+  "technical": {
+    "file_type": "jpg | png | svg | lottie | mp4",
+    "resolution": { "width": 1920, "height": 1080 },
+    "duration_seconds": 2.4,
+    "fps": 60,
+    "vector": true,
+    "optimized": true
+  },
+  "animation": {
+    "is_animated": true,
+    "loop": true,
+    "keyframe_density": "low | medium | high",
+    "elements_animated": 12
+  },
+  "quality": {
+    "score": 86,
+    "strengths": ["good_lighting", "clear_focus"],
+    "weaknesses": ["slight_color_cast"]
+  },
+  "improvements": [
+    "reduce_specular_highlights",
+    "increase_color_balance",
+    "simplify_layer_structure"
+  ],
+  "accessibility": {
+    "alt_text": "string",
+    "contrast_ratio": 4.5,
+    "meets_wcag": true
+  }
+}

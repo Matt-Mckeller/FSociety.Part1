@@ -1,0 +1,177 @@
+{
+  "sample": {
+    "durationSeconds": 38,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Now let's talk about photosynthesis.",
+          "timestamp": 0,
+          "confidence": 0.95
+        },
+        {
+          "text": "Plants breathe in oxygen and breathe out carbon dioxide,",
+          "timestamp": 4.2,
+          "confidence": 0.91
+        },
+        {
+          "text": "just like humans but backwards.",
+          "timestamp": 9.1,
+          "confidence": 0.88
+        },
+        {
+          "text": "The green color comes from chlorine,",
+          "timestamp": 12.5,
+          "confidence": 0.87
+        },
+        {
+          "text": "which is the same stuff in pools.",
+          "timestamp": 16.2,
+          "confidence": 0.89
+        },
+        {
+          "text": "This process happens mostly at night",
+          "timestamp": 20.1,
+          "confidence": 0.84
+        },
+        {
+          "text": "because plants don't like too much sun.",
+          "timestamp": 24.6,
+          "confidence": 0.86
+        },
+        {
+          "text": "That's why they grow better in the shade.",
+          "timestamp": 28.9,
+          "confidence": 0.88
+        },
+        {
+          "text": "Any questions? No? Okay moving on.",
+          "timestamp": 33.2,
+          "confidence": 0.92
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.98,
+    "appropriatenessScore": 0.1,
+    "warnings": [
+      {
+        "type": "Factual_Error",
+        "severity": "Critical",
+        "message": "The transcript contains multiple, significant factual errors regarding the process of photosynthesis. This content is scientifically inaccurate and educationally harmful.",
+        "details": [
+          "Incorrectly states plants breathe in oxygen and out carbon dioxide (this is respiration; photosynthesis is the reverse).",
+          "Incorrectly identifies the green pigment as chlorine instead of chlorophyll.",
+          "Incorrectly claims photosynthesis happens at night and that plants prefer shade (photosynthesis requires sunlight)."
+        ]
+      }
+    ],
+    "isMainLectureContent_confidence": 0.98,
+    "isSideConversation_confidence": 0.01,
+    "isIrrelevantContent_confidence": 0.01,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "science",
+      "biology",
+      "photosynthesis",
+      "misinformation",
+      "factual_error",
+      "plant_biology",
+      "elementary_science",
+      "middle_school_science"
+    ],
+    "shouldSummarize": false,
+    "shouldSummarizeFalseReason": "The provided text contains critical factual errors about the process of photosynthesis, making it unsuitable for summarization as educational content. Summarizing it would propagate dangerous misinformation.",
+    "waitForMoreContent": false,
+    "summarization": "",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [],
+    "oneLineSummarization": "",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 1,
+    "learningModalityText": [],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "COMPARISON_MATRIX",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "HIGHLIGHTED_TEXT"
+        ],
+        "title": "Fact vs. Fiction: Photosynthesis Correction",
+        "reasonForSuggestion": "This directly addresses and corrects the specific misinformation from the transcript, which is the highest priority. It provides a clear, side-by-side comparison that helps students unlearn the incorrect information and replace it with scientifically accurate facts.",
+        "promptForGeneration": "Create an HTML table for 5th-grade science students with three columns: 'Claim from Lesson', 'Scientific Fact', and 'Why it Matters'. Row 1: Claim='Plants breathe in oxygen, out CO2'. Fact='Plants take in Carbon Dioxide (CO2) and release Oxygen (O2) during photosynthesis.' Why it Matters='This process creates the oxygen we need to breathe!'. Row 2: Claim='The green color is from chlorine.' Fact='The green color is from a pigment called Chlorophyll.' Why it Matters='Chlorophyll is the special molecule that captures energy from the sun.'. Row 3: Claim='Photosynthesis happens at night.' Fact='Photosynthesis requires sunlight, so it happens during the day.' Why it Matters='No sun means no energy for the plant to make its food.'. Use clear headings, simple icons (e.g., a red 'X' for claims, a green checkmark for facts), and a clean, readable font. Highlight the key terms 'Carbon Dioxide', 'Oxygen', and 'Chlorophyll' in bold."
+      },
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 0.95,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.95,
+        "coreType": "ANIMATED_SVG",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "FLOW_CHART",
+          "ANNOTATED_TEXT"
+        ],
+        "title": "The Correct Process of Photosynthesis",
+        "reasonForSuggestion": "An animated diagram is highly engaging and can clearly illustrate the dynamic process of photosynthesis, reinforcing the correct inputs and outputs and preventing the misunderstandings introduced in the lecture.",
+        "promptForGeneration": "Create an animated SVG diagram for elementary students illustrating photosynthesis. Show a large, friendly-looking plant with roots in the ground and a bright sun in the sky. Step 1: Animate sun rays traveling to the plant's leaves. Label: 'Sunlight (Energy)'. Step 2: Animate CO2 particles from the air entering the leaves. Label: 'Carbon Dioxide (CO2)'. Step 3: Animate water droplets traveling up from the roots to the leaves. Label: 'Water (H2O)'. Step 4: Make the leaves glow green to show the process happening inside. Add a label pointing to a leaf: 'Chlorophyll inside makes this happen!'. Step 5: Animate Oxygen (O2) particles leaving the leaves into the air. Label: 'Oxygen (O2) is released'. Step 6: Animate a sugar cube icon appearing inside the plant. Label: 'Sugar (Food for the plant)'. Use bright, simple colors and clear, large-print labels. The animation should be a continuous, clear loop."
+      }
+    ],
+    "purpose": "Understanding photosynthesis is fundamental to biology because it is the process that converts light energy into chemical energy, forming the base of nearly all food chains on Earth. It explains how plants create their own food and, crucially, how they produce the oxygen that animals and humans need to survive.",
+    "motivation": "Have you ever wondered where the air you breathe comes from, or how a tiny seed grows into a giant tree? The answer is photosynthesis! This amazing process is like a plant's superpower. By learning about it, you understand the secret recipe that plants use to make their own food from sunlight, and in the process, they give us the two things we need most to live: food to eat and oxygen to breathe.",
+    "learningValueScore": 0,
+    "availableActions": [
+      {
+        "actionLabel": "Correct the Facts",
+        "reason": "Provides an immediate, accurate explanation to counteract the dangerous misinformation in the lesson.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "See Correct Diagram",
+        "reason": "A visual aid is the fastest way to correct the flawed mental model a student may have formed from the incorrect lecture.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "Teacher Alert",
+        "reason": "Flags this content for immediate review and correction by an educator due to severe factual inaccuracies.",
+        "recommendationPriority": "very_high"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "Photosynthesis": {
+        "definition": "The process used by plants, algae, and some bacteria to convert light energy into chemical energy, through a process that converts carbon dioxide and water into glucose (sugar/food) and oxygen.",
+        "etymology": "From Greek 'phos' (light) and 'synthesis' (putting together). It literally means 'putting together with light'.",
+        "context": "Photosynthesis is essential for life on Earth as it produces most of the world's oxygen."
+      },
+      "Chlorophyll": {
+        "definition": "The green pigment found in the chloroplasts of plants that is essential for photosynthesis, as it absorbs light energy.",
+        "context": "Chlorophyll is what makes leaves green; it is NOT the same as chlorine, a chemical used to clean pools.",
+        "simpler": "The special green ingredient in leaves that catches sunlight."
+      },
+      "Carbon Dioxide (CO2)": {
+        "definition": "A gas that is a waste product of animal respiration and is used by plants as a raw material for photosynthesis.",
+        "context": "Humans breathe out carbon dioxide, and plants 'breathe it in' to make their food."
+      }
+    },
+    "recommendationsToTeacher": [
+      "CRITICAL INTERVENTION REQUIRED: The information presented on photosynthesis is fundamentally incorrect and must be corrected immediately to prevent lasting student misconceptions. Key errors include reversing gas exchange (CO2/O2), misidentifying chlorophyll as chlorine, and stating the process occurs at night.",
+      "Re-teach the entire concept using a validated scientific diagram or video. Explicitly contrast the incorrect statements with the correct facts, for example, by creating a 'Myth vs. Fact' chart for the class.",
+      "Plan a simple hands-on activity or demonstration, such as observing gas bubbles (oxygen) being released from an aquatic plant under a light source, to provide tangible proof of the correct process."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:45:32.978Z",
+    "latencyMs": 30535,
+    "tokenUsage": {
+      "input": 6992,
+      "output": 1957,
+      "total": 10321
+    }
+  }
+}

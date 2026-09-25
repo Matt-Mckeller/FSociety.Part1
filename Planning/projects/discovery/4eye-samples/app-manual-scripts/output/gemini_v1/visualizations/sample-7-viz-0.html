@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hierarchical Structure of Human Memory</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1300px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4);
+        }
+
+        h1 {
+            text-align: center;
+            color: #5e35b1;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #9575cd;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+
+        .mindmap-container {
+            background: #f5f5f5;
+            padding: 40px;
+            border-radius: 15px;
+            border: 4px solid #7e57c2;
+            margin-bottom: 40px;
+            overflow-x: auto;
+        }
+
+        .mermaid {
+            display: flex;
+            justify-content: center;
+        }
+
+        .legend {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+
+        .legend-item {
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            border-left: 6px solid;
+        }
+
+        .legend-sensory {
+            background: #e8eaf6;
+            border-color: #3f51b5;
+        }
+
+        .legend-shortterm {
+            background: #e0f2f1;
+            border-color: #009688;
+        }
+
+        .legend-longterm {
+            background: #fff3e0;
+            border-color: #ff9800;
+        }
+
+        .legend-item h3 {
+            margin-top: 0;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+        }
+
+        .legend-sensory h3 { color: #3f51b5; }
+        .legend-shortterm h3 { color: #009688; }
+        .legend-longterm h3 { color: #ff9800; }
+
+        .legend-item ul {
+            margin-left: 20px;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .legend-item .stat {
+            background: rgba(0, 0, 0, 0.05);
+            padding: 8px 12px;
+            border-radius: 6px;
+            display: inline-block;
+            margin-top: 10px;
+            font-weight: 600;
+        }
+
+        .examples {
+            margin-top: 40px;
+            padding: 30px;
+            background: linear-gradient(135deg, #f3e5f5 0%, #e1bee7 100%);
+            border-radius: 15px;
+            border: 4px solid #9c27b0;
+        }
+
+        .examples h3 {
+            color: #7b1fa2;
+            margin-bottom: 25px;
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        .examples-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .example-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .example-card h4 {
+            color: #8e24aa;
+            margin-bottom: 12px;
+            font-size: 1.15em;
+        }
+
+        .example-card p {
+            color: #666;
+            line-height: 1.7;
+            margin: 8px 0;
+        }
+
+        .example-card .emoji {
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+
+        .brain-fact {
+            margin-top: 30px;
+            padding: 25px;
+            background: #fff8e1;
+            border-radius: 12px;
+            border-left: 6px solid #ffc107;
+            text-align: center;
+        }
+
+        .brain-fact h4 {
+            color: #f57f17;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .brain-fact p {
+            color: #555;
+            line-height: 1.8;
+            font-size: 1.05em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🧠 Hierarchical Structure of Human Memory</h1>
+        <p class="subtitle">Understanding the Different Memory Systems</p>
+
+        <div class="mindmap-container">
+            <div class="mermaid">
+                mindmap
+                  root((Human Memory))
+                    Sensory Memory
+                      Iconic<br/>Visual
+                      Echoic<br/>Auditory
+                    Short-Term Memory
+                      Working Memory<br/>Capacity ~4 chunks
+                    Long-Term Memory
+                      Explicit<br/>Declarative
+                        Episodic<br/>Events
+                        Semantic<br/>Facts
+                      Implicit<br/>Non-Declarative
+                        Procedural<br/>Skills
+            </div>
+        </div>
+
+        <div class="legend">
+            <div class="legend-item legend-sensory">
+                <h3>🔆 Sensory Memory</h3>
+                <ul>
+                    <li><strong>Function:</strong> Holds raw sensory data</li>
+                    <li><strong>Iconic:</strong> Visual information</li>
+                    <li><strong>Echoic:</strong> Auditory information</li>
+                </ul>
+                <div class="stat">Duration: < 1 second</div>
+                <div class="stat">Capacity: High</div>
+            </div>
+
+            <div class="legend-item legend-shortterm">
+                <h3>💡 Short-Term (Working) Memory</h3>
+                <ul>
+                    <li><strong>Function:</strong> Holds & processes active information</li>
+                    <li><strong>Also called:</strong> Working Memory</li>
+                    <li><strong>Crucial for:</strong> Reasoning, comprehension, learning</li>
+                </ul>
+                <div class="stat">Duration: < 1 minute</div>
+                <div class="stat">Capacity: ~4 chunks</div>
+            </div>
+
+            <div class="legend-item legend-longterm">
+                <h3>📚 Long-Term Memory</h3>
+                <ul>
+                    <li><strong>Function:</strong> Stores information for later retrieval</li>
+                    <li><strong>Two main types:</strong> Explicit & Implicit</li>
+                    <li><strong>Brain structure:</strong> Hippocampus critical for formation</li>
+                </ul>
+                <div class="stat">Duration: Years to lifetime</div>
+                <div class="stat">Capacity: Virtually unlimited</div>
+            </div>
+        </div>
+
+        <div class="examples">
+            <h3>🎯 Real-World Examples</h3>
+            <div class="examples-grid">
+                <div class="example-card">
+                    <h4><span class="emoji">👁️</span>Iconic Memory</h4>
+                    <p><strong>Example:</strong> The brief afterimage you see when you close your eyes after looking at a bright light.</p>
+                    <p><strong>Why it matters:</strong> Lets you see continuous motion instead of discrete frames.</p>
+                </div>
+
+                <div class="example-card">
+                    <h4><span class="emoji">👂</span>Echoic Memory</h4>
+                    <p><strong>Example:</strong> When someone asks "Did you hear what I said?" and you suddenly remember it even though you weren't paying attention.</p>
+                    <p><strong>Why it matters:</strong> Brief audio buffer for processing speech.</p>
+                </div>
+
+                <div class="example-card">
+                    <h4><span class="emoji">🔢</span>Working Memory</h4>
+                    <p><strong>Example:</strong> Remembering a phone number just long enough to dial it, then forgetting it immediately.</p>
+                    <p><strong>Why it matters:</strong> Active workspace for mental tasks.</p>
+                </div>
+
+                <div class="example-card">
+                    <h4><span class="emoji">🎂</span>Episodic Memory</h4>
+                    <p><strong>Example:</strong> Remembering your first day of college, including where you were, how you felt, and what happened.</p>
+                    <p><strong>Type:</strong> Explicit/Declarative (conscious recall)</p>
+                </div>
+
+                <div class="example-card">
+                    <h4><span class="emoji">🌍</span>Semantic Memory</h4>
+                    <p><strong>Example:</strong> Knowing that Paris is the capital of France, or that water boils at 100°C.</p>
+                    <p><strong>Type:</strong> Explicit/Declarative (conscious recall)</p>
+                </div>
+
+                <div class="example-card">
+                    <h4><span class="emoji">🚴</span>Procedural Memory</h4>
+                    <p><strong>Example:</strong> Riding a bike, typing on a keyboard, or tying your shoelaces without consciously thinking about each step.</p>
+                    <p><strong>Type:</strong> Implicit/Non-Declarative (unconscious)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="brain-fact">
+            <h4>🔬 The Famous Case of Patient H.M.</h4>
+            <p>
+                Patient H.M. had his hippocampus surgically removed to treat severe epilepsy. 
+                Afterward, he could no longer form new <strong>explicit</strong> (conscious) long-term memories. 
+                He would forget conversations minutes after they happened and couldn't remember people he met post-surgery. 
+                However, his <strong>implicit</strong> memory remained intact—he could still learn new motor skills, 
+                even though he had no conscious memory of practicing them! This case proved that explicit and implicit 
+                memory systems operate independently and rely on different brain structures.
+            </p>
+        </div>
+    </div>
+
+    <script>
+        mermaid.initialize({ 
+            startOnLoad: true,
+            theme: 'default',
+            themeVariables: {
+                fontFamily: 'Segoe UI, Tahoma, Geneva, Verdana, sans-serif',
+                fontSize: '16px'
+            }
+        });
+    </script>
+</body>
+</html>

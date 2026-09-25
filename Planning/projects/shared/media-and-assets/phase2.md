@@ -1,0 +1,1 @@
+combine all galleries into one

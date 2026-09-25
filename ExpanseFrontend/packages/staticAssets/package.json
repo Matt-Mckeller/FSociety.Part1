@@ -1,0 +1,7 @@
+{
+  "name": "expanse.staticAssets",
+  "version": "1.0.2",
+  "description": "A collection of static assets including images, svgs, video, and other media.",
+  "main": "index.ts",
+  "types": "index.ts"
+}

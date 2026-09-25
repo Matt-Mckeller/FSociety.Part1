@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Flow of Information Through Memory</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #a8e6cf 0%, #dcedc1 100%);
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #2d5016;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #4a7c2c;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+
+        .flow-diagram {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 40px 20px;
+            background: linear-gradient(to right, #fff9e6, #e8f5e9, #f3e5f5);
+            border-radius: 10px;
+            margin-bottom: 30px;
+            overflow-x: auto;
+        }
+
+        .memory-box {
+            min-width: 180px;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+            text-align: center;
+            position: relative;
+            transition: all 0.3s;
+        }
+
+        .memory-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+        }
+
+        .memory-box.sensory-input {
+            background: #ffecb3;
+            border: 3px solid #ffa726;
+        }
+
+        .memory-box.sensory {
+            background: #ffe0b2;
+            border: 3px solid #ff9800;
+        }
+
+        .memory-box.short-term {
+            background: #bbdefb;
+            border: 3px solid #2196f3;
+        }
+
+        .memory-box.long-term {
+            background: #e1bee7;
+            border: 3px solid #9c27b0;
+        }
+
+        .memory-title {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .memory-note {
+            font-size: 0.85em;
+            color: #666;
+            margin-top: 10px;
+            font-style: italic;
+        }
+
+        .arrow {
+            font-size: 3em;
+            color: #4caf50;
+            margin: 0 15px;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.6; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.1); }
+        }
+
+        .arrow-label {
+            position: absolute;
+            top: -30px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #4caf50;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+
+        .arrow-container {
+            position: relative;
+            display: flex;
+            align-items: center;
+        }
+
+        .retrieval-arrow {
+            position: absolute;
+            bottom: -60px;
+            right: 200px;
+            width: 300px;
+        }
+
+        .curved-arrow {
+            stroke: #f44336;
+            stroke-width: 3;
+            fill: none;
+            marker-end: url(#arrowhead-red);
+        }
+
+        .retrieval-label {
+            background: #f44336;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            font-weight: 600;
+            position: absolute;
+            left: 100px;
+            top: -10px;
+        }
+
+        .explanation {
+            margin-top: 80px;
+            padding: 25px;
+            background: #f1f8f4;
+            border-radius: 10px;
+            border-left: 5px solid #4caf50;
+        }
+
+        .explanation h3 {
+            color: #2d5016;
+            margin-bottom: 15px;
+        }
+
+        .explanation p {
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        .explanation ul {
+            color: #555;
+            line-height: 2;
+            margin-left: 20px;
+        }
+
+        @media (max-width: 1000px) {
+            .flow-diagram {
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .arrow {
+                transform: rotate(90deg);
+                margin: 0;
+            }
+
+            .arrow-label {
+                left: auto;
+                right: -70px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔄 The Flow of Information Through Memory 🔄</h1>
+        <p class="subtitle">How Information Moves from Sensation to Long-Term Storage</p>
+
+        <div class="flow-diagram">
+            <div class="memory-box sensory-input">
+                <div class="memory-title">Sensory Input</div>
+                <div style="font-size: 2.5em; margin: 15px 0;">👁️ 👂 👃</div>
+                <div class="memory-note">Visual, auditory, etc.</div>
+            </div>
+
+            <div class="arrow-container">
+                <div class="arrow">→</div>
+            </div>
+
+            <div class="memory-box sensory">
+                <div class="memory-title">Sensory Memory</div>
+                <div style="font-size: 2em; margin: 15px 0;">⚡</div>
+                <div class="memory-note">Duration: &lt; 1 second<br>Capacity: High</div>
+            </div>
+
+            <div class="arrow-container">
+                <div class="arrow">→</div>
+                <div class="arrow-label">Attention</div>
+            </div>
+
+            <div class="memory-box short-term">
+                <div class="memory-title">Short-Term /<br>Working Memory</div>
+                <div style="font-size: 2em; margin: 15px 0;">💭</div>
+                <div class="memory-note">Capacity: ~4 chunks<br>Duration: 20-30 sec</div>
+            </div>
+
+            <div class="arrow-container">
+                <div class="arrow">→</div>
+                <div class="arrow-label">Encoding</div>
+            </div>
+
+            <div class="memory-box long-term">
+                <div class="memory-title">Long-Term Memory</div>
+                <div style="font-size: 2em; margin: 15px 0;">📚</div>
+                <div class="memory-note">Virtually unlimited capacity<br>Years to lifetime</div>
+            </div>
+        </div>
+
+        <svg width="100%" height="80" style="position: relative; margin-top: -40px;">
+            <defs>
+                <marker id="arrowhead-red" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                    <polygon points="0 0, 10 3, 0 6" fill="#f44336"/>
+                </marker>
+            </defs>
+            <path d="M 750 40 Q 600 0, 450 40" class="curved-arrow" stroke-dasharray="5,5">
+                <animate attributeName="stroke-dashoffset" from="0" to="10" dur="0.5s" repeatCount="indefinite"/>
+            </path>
+            <text x="550" y="15" class="retrieval-label">Retrieval</text>
+        </svg>
+
+        <div class="explanation">
+            <h3>🎯 Understanding the Memory Process</h3>
+            <p><strong>The journey of a memory involves several stages:</strong></p>
+            <ul>
+                <li><strong>Sensory Input:</strong> Information enters through our senses (sight, sound, touch, etc.)</li>
+                <li><strong>Sensory Memory:</strong> Brief storage (&lt;1 second) of raw sensory data. Most information is lost here unless we pay attention to it.</li>
+                <li><strong>Attention:</strong> The critical filter! Only information we attend to moves to short-term memory.</li>
+                <li><strong>Short-Term/Working Memory:</strong> Active processing area with limited capacity (~4 chunks) and duration (20-30 seconds). This is where we think and manipulate information.</li>
+                <li><strong>Encoding:</strong> The process of transforming information for long-term storage. Requires rehearsal, elaboration, or making connections.</li>
+                <li><strong>Long-Term Memory:</strong> Permanent storage with virtually unlimited capacity. Can hold information for years or a lifetime.</li>
+                <li><strong>Retrieval:</strong> Bringing information back from long-term memory to working memory when needed.</li>
+            </ul>
+            
+            <p style="margin-top: 20px;"><strong>💡 Key Insight:</strong> Memory is not like a video recording. It's an active, constructive process. Each stage involves transformation and potential loss of information. Understanding this flow helps us develop better learning strategies!</p>
+        </div>
+    </div>
+</body>
+</html>

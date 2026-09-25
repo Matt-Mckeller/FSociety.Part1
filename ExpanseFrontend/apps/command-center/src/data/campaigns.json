@@ -1,0 +1,460 @@
+{
+  "campaigns": [
+    {
+      "id": "4eye",
+      "legendId": "expanse-empire",
+      "title": "4Eye",
+      "description": "AI-powered education platform featuring Audio-to-Visual learning transformation, multimodal experiences, AI tutoring, and comprehensive learning tools.",
+      "currentStatusDescription": "Building AI Chat MVP with context memory and RAG support. Core architecture established.",
+      "status": "in-progress",
+      "priority": "P1",
+      "color": "#4ECDC4",
+      "startDate": "2026-01-01",
+      "targetDate": null,
+      "category": "business",
+      "storylineIds": [
+        "4eye-website",
+        "4eye-ai-tutor",
+        "4eye-ai-ui",
+        "4eye-ai-chat",
+        "4eye-ai-competition",
+        "4eye-accessibility",
+        "4eye-feedback",
+        "4eye-homework",
+        "4eye-lms",
+        "4eye-note-taking",
+        "4eye-person-profile",
+        "4eye-content-gen",
+        "4eye-code-gen",
+        "4eye-library",
+        "4eye-learning-to-learn",
+        "4eye-attention",
+        "4eye-mental-health",
+        "4eye-focus-music",
+        "4eye-lms-integration",
+        "4eye-social",
+        "4eye-symbol-memorization",
+        "4eye-translations",
+        "4eye-presentations",
+        "4eye-knowledge-agents",
+        "4eye-teacher-feedback"
+      ],
+      "goals": [
+        {
+          "id": "4eye-q1-2026",
+          "description": "Launch AI Chat MVP with basic tutoring capabilities",
+          "timeframe": "short",
+          "status": "in-progress",
+          "storylineIds": ["4eye-ai-chat", "4eye-ai-tutor"]
+        },
+        {
+          "id": "4eye-h1-2026",
+          "description": "Complete Audio-to-Visual transformation pipeline",
+          "timeframe": "medium",
+          "status": "not-started"
+        },
+        {
+          "id": "4eye-vision",
+          "description": "Become the leading AI-powered education platform",
+          "timeframe": "long",
+          "status": "not-started"
+        }
+      ],
+      "xpReward": 5000,
+      "targetAllocation": 50
+    },
+    {
+      "id": "1game",
+      "legendId": "expanse-empire",
+      "title": "1Game",
+      "description": "Universal gamification engine providing rewards, achievements, progress tracking, and engagement mechanics for education and beyond.",
+      "currentStatusDescription": "Paused - waiting for 4Eye integration points to be defined.",
+      "status": "paused",
+      "priority": "P2",
+      "color": "#9B59B6",
+      "startDate": "2025-01-01",
+      "targetDate": null,
+      "category": "business",
+      "storylineIds": [
+        "1game-rewards",
+        "1game-progress",
+        "1game-leaderboards",
+        "1game-integration",
+        "1game-4eye-integration"
+      ],
+      "goals": [
+        {
+          "id": "1game-4eye-integration",
+          "description": "Integrate gamification into 4Eye learning experience",
+          "timeframe": "medium",
+          "status": "not-started",
+          "storylineIds": ["1game-4eye-integration"]
+        },
+        {
+          "id": "1game-platform",
+          "description": "Launch standalone gamification platform for third-party apps",
+          "timeframe": "long",
+          "status": "not-started"
+        }
+      ],
+      "xpReward": 3000,
+      "targetAllocation": 5
+    },
+    {
+      "id": "4up",
+      "legendId": "expanse-empire",
+      "title": "4Up",
+      "description": "Marketing automation platform for content generation, brand building, multi-platform publishing, and AI-assisted marketing strategy.",
+      "currentStatusDescription": "Paused - focus on core product development first.",
+      "status": "paused",
+      "priority": "P2",
+      "color": "#FF6B35",
+      "startDate": "2025-01-01",
+      "targetDate": null,
+      "category": "business",
+      "storylineIds": [
+        "4up-content-gen",
+        "4up-brand",
+        "4up-automation",
+        "4up-analytics"
+      ],
+      "goals": [
+        {
+          "id": "4up-mvp",
+          "description": "Build MVP for automated content generation",
+          "timeframe": "medium",
+          "status": "not-started",
+          "storylineIds": ["4up-content-gen"]
+        }
+      ],
+      "xpReward": 2000,
+      "targetAllocation": 5
+    },
+    {
+      "id": "expanse-services",
+      "legendId": "expanse-empire",
+      "title": "Expanse Services",
+      "description": "Professional software development consulting services, gamification consulting, and Uber-style freelance platform for component sales and fixed-fee services.",
+      "currentStatusDescription": "Paused - focus on product development before services.",
+      "status": "paused",
+      "priority": "P3",
+      "color": "#3498DB",
+      "startDate": "2025-01-01",
+      "targetDate": null,
+      "category": "business",
+      "storylineIds": [
+        "expanse-services-consulting",
+        "expanse-services-gamification",
+        "expanse-services-dev",
+        "expanse-services-freelance",
+        "expanse-services-components"
+      ],
+      "goals": [],
+      "xpReward": 2000,
+      "targetAllocation": 2
+    },
+    {
+      "id": "positivity-ai",
+      "legendId": "expanse-empire",
+      "title": "Positivity AI",
+      "description": "App/plugin/AI persona that helps people translate information into positive perspectives. Trains positive mindset and teaches good habits. Not therapy - focuses on mindset training.",
+      "currentStatusDescription": "Concept stage - idea documented, no active development.",
+      "status": "concept",
+      "priority": "P3",
+      "color": "#FFD93D",
+      "startDate": "2026-01-01",
+      "targetDate": null,
+      "category": "business",
+      "storylineIds": [
+        "positivity-core",
+        "positivity-app",
+        "positivity-plugin",
+        "positivity-4eye"
+      ],
+      "goals": [
+        {
+          "id": "positivity-prototype",
+          "description": "Create prototype AI persona for positive reframing",
+          "timeframe": "medium",
+          "status": "not-started"
+        }
+      ],
+      "xpReward": 1500,
+      "targetAllocation": 2
+    },
+    {
+      "id": "lottie-marketplace",
+      "legendId": "expanse-empire",
+      "title": "Lottie Marketplace",
+      "description": "Marketplace for themed Lottie animations with customization tools, theming system, and creator ecosystem.",
+      "currentStatusDescription": "Theming system functional. Paused for higher priority work.",
+      "status": "paused",
+      "priority": "P3",
+      "color": "#E74C3C",
+      "startDate": "2025-01-01",
+      "targetDate": null,
+      "category": "business",
+      "storylineIds": [
+        "lottie-studio",
+        "lottie-marketplace-platform",
+        "lottie-theming",
+        "lottie-components"
+      ],
+      "goals": [
+        {
+          "id": "lottie-studio-mvp",
+          "description": "Launch Lottie Studio for animation theming",
+          "timeframe": "medium",
+          "status": "in-progress",
+          "storylineIds": ["lottie-studio", "lottie-theming"]
+        }
+      ],
+      "xpReward": 2000,
+      "targetAllocation": 3
+    },
+    {
+      "id": "command-center",
+      "legendId": "expanse-empire",
+      "title": "CommandCenter",
+      "description": "AI-powered planning and project management application. Includes gamification, AI assistance, and visualization dashboards.",
+      "currentStatusDescription": "Building campaign page enhancements. Data model stable.",
+      "status": "in-progress",
+      "priority": "P2",
+      "color": "#8B5CF6",
+      "startDate": "2026-01-01",
+      "targetDate": null,
+      "category": "business",
+      "storylineIds": [
+        "command-center-core",
+        "command-center-ai",
+        "command-center-gamification",
+        "command-center-visualization"
+      ],
+      "goals": [
+        {
+          "id": "cc-q1-2026",
+          "description": "Complete campaign and quest management views",
+          "timeframe": "short",
+          "status": "in-progress",
+          "storylineIds": ["command-center-core"]
+        },
+        {
+          "id": "cc-ai-assistant",
+          "description": "Integrate AI assistant for planning help",
+          "timeframe": "medium",
+          "status": "not-started",
+          "storylineIds": ["command-center-ai"]
+        },
+        {
+          "id": "cc-vision",
+          "description": "Become the go-to tool for gamified project management",
+          "timeframe": "long",
+          "status": "not-started"
+        }
+      ],
+      "xpReward": 2000,
+      "targetAllocation": 10
+    },
+    {
+      "id": "learning-ai",
+      "legendId": "expanse-empire",
+      "title": "Learning AI",
+      "description": "AI persona focused on brain expansion and accelerated learning. Targets a wider audience interested in cognitive enhancement and learning optimization.",
+      "currentStatusDescription": "Concept stage - idea documented, related to 4Eye work.",
+      "status": "concept",
+      "priority": "P3",
+      "color": "#00BCD4",
+      "startDate": "2026-01-01",
+      "targetDate": null,
+      "category": "business",
+      "storylineIds": [
+        "learning-ai-persona",
+        "learning-ai-app",
+        "learning-ai-techniques"
+      ],
+      "goals": [],
+      "xpReward": 1500,
+      "targetAllocation": 1
+    },
+    {
+      "id": "shield4",
+      "legendId": "expanse-empire",
+      "title": "Shield4",
+      "description": "Musician portable equipment box. CANCELLED due to low cost of competitor items and market availability.",
+      "currentStatusDescription": "Cancelled - market conditions unfavorable.",
+      "status": "cancelled",
+      "priority": "P4",
+      "color": "#95A5A6",
+      "startDate": "2024-01-01",
+      "targetDate": null,
+      "category": "business",
+      "storylineIds": [],
+      "goals": [],
+      "xpReward": 0,
+      "targetAllocation": 0
+    },
+    {
+      "id": "movie-creation",
+      "legendId": "expanse-empire",
+      "title": "Movie Creation App",
+      "description": "AI-powered movie and video creation application. Concept stage.",
+      "currentStatusDescription": "Concept stage - long-term idea.",
+      "status": "concept",
+      "priority": "P4",
+      "color": "#FF9800",
+      "startDate": "2026-01-01",
+      "targetDate": null,
+      "category": "business",
+      "storylineIds": [
+        "movie-creation-core",
+        "movie-creation-ai"
+      ],
+      "goals": [],
+      "xpReward": 1000,
+      "targetAllocation": 1
+    },
+    {
+      "id": "storybook",
+      "legendId": "expanse-empire",
+      "title": "Storybook",
+      "description": "Shared component library documented in Storybook. Used across multiple campaigns for consistent UI components and design system.",
+      "currentStatusDescription": "Core components documented. Adding new components as needed.",
+      "status": "in-progress",
+      "priority": "P2",
+      "color": "#FF4785",
+      "startDate": "2025-01-01",
+      "targetDate": null,
+      "category": "business",
+      "storylineIds": [
+        "storybook-components",
+        "storybook-docs",
+        "storybook-theming"
+      ],
+      "goals": [
+        {
+          "id": "storybook-coverage",
+          "description": "Document all shared UI components in Storybook",
+          "timeframe": "medium",
+          "status": "in-progress",
+          "storylineIds": ["storybook-components", "storybook-docs"]
+        }
+      ],
+      "xpReward": 1500,
+      "targetAllocation": 5
+    },
+    {
+      "id": "ai-ui",
+      "legendId": "expanse-empire",
+      "title": "AI UI",
+      "description": "Shared AI-powered user interface generation system. Used across 4Eye, CommandCenter, and other applications for intelligent UI creation and adaptation.",
+      "currentStatusDescription": "Concept stage - research ongoing.",
+      "status": "concept",
+      "priority": "P2",
+      "color": "#7C4DFF",
+      "startDate": "2026-01-01",
+      "targetDate": null,
+      "category": "business",
+      "storylineIds": [
+        "ai-ui-generation",
+        "ai-ui-adaptation",
+        "ai-ui-components"
+      ],
+      "goals": [
+        {
+          "id": "ai-ui-prototype",
+          "description": "Build prototype for AI-generated UI components",
+          "timeframe": "medium",
+          "status": "not-started"
+        }
+      ],
+      "xpReward": 2000,
+      "targetAllocation": 3
+    },
+    {
+      "id": "secure-os-pw",
+      "legendId": "expanse-empire",
+      "title": "Secure OS PW Entry",
+      "description": "Secure password entry system at the operating system level. Enhanced security for credential management.",
+      "currentStatusDescription": "Concept stage - research phase.",
+      "status": "concept",
+      "priority": "P3",
+      "color": "#607D8B",
+      "startDate": "2026-01-01",
+      "targetDate": null,
+      "category": "business",
+      "storylineIds": [
+        "secure-os-pw-core",
+        "secure-os-pw-integration"
+      ],
+      "goals": [],
+      "xpReward": 1000,
+      "targetAllocation": 1
+    },
+    {
+      "id": "os-project",
+      "legendId": "expanse-empire",
+      "title": "OS Project",
+      "description": "Operating system project. Long-term ambitious project for custom OS development.",
+      "currentStatusDescription": "Concept stage - long-term moonshot idea.",
+      "status": "concept",
+      "priority": "P4",
+      "color": "#455A64",
+      "startDate": "2026-01-01",
+      "targetDate": null,
+      "category": "business",
+      "storylineIds": [
+        "os-core",
+        "os-ui",
+        "os-security"
+      ],
+      "goals": [],
+      "xpReward": 5000,
+      "targetAllocation": 1
+    },
+    {
+      "id": "personal-excellence",
+      "legendId": "expanse-empire",
+      "title": "Personal Excellence",
+      "description": "Comprehensive personal life management covering health, growth, wealth, relationships, environment, and experiences.",
+      "currentStatusDescription": "Ongoing - maintaining health routines, continuous improvement.",
+      "status": "in-progress",
+      "priority": "P1",
+      "color": "#2ECC71",
+      "startDate": "2026-01-01",
+      "targetDate": null,
+      "category": "personal",
+      "storylineIds": [
+        "personal-health",
+        "personal-mind",
+        "personal-wealth",
+        "personal-relationships",
+        "personal-home",
+        "personal-fun"
+      ],
+      "goals": [
+        {
+          "id": "personal-health-q1",
+          "description": "Maintain consistent exercise and sleep routines",
+          "timeframe": "short",
+          "status": "in-progress",
+          "storylineIds": ["personal-health"]
+        },
+        {
+          "id": "personal-wealth-2026",
+          "description": "Build sustainable income streams",
+          "timeframe": "medium",
+          "status": "in-progress",
+          "storylineIds": ["personal-wealth"]
+        },
+        {
+          "id": "personal-vision",
+          "description": "Achieve balanced, fulfilling life across all dimensions",
+          "timeframe": "long",
+          "status": "in-progress"
+        }
+      ],
+      "xpReward": 3000,
+      "targetAllocation": 11
+    }
+  ]
+}

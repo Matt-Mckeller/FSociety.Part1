@@ -1,0 +1,57 @@
+.git
+.github
+.cursor
+**/.next
+**/node_modules
+**/dist
+**/coverage
+**/.turbo
+**/*tsbuildinfo
+**/storybook-static
+**/.storybook
+**/.screenshots
+
+# Large / external media — served from GCS
+apps/yen/public/media/videos
+apps/yen/public/media/photos
+apps/yen/public/media/docs
+apps/yen/public/media/files
+apps/yen/public/media/heart-evolve
+apps/yen/public/media/docs-shots
+apps/yen/public/mounted
+apps/yen/public/videos
+
+# Unused apps / packages for yen image
+/apps/api
+/apps/labs
+/apps/4up
+/apps/scene-studio
+/packages/@4eye/scene-studio
+/packages/@4eye/ai-sdk
+/packages/@4eye/core
+/packages/@4eye/graphql-schema
+/packages/@expanse/auth
+/packages/@expanse/analytics
+/packages/@expanse/application
+/packages/@expanse/layout-nextjs
+/packages/@expanse/user
+/packages/@expanse/utils
+/packages/@expanse/validation
+/_current
+# Only the repo-root docs/ tree — never apps/yen/src/components/docs
+/docs
+/infrastructure-as-code
+/k8s
+/tools
+
+# Keep secrets and local env out of the image
+**/.env
+**/.env.local
+**/.env.*
+!**/.env.example
+
+# Copied markdown corpus; JSON indexes stay
+apps/yen/src/generated/docs
+
+*.md
+!packages/**/README.md

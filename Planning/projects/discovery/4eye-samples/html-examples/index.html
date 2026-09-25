@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>4eye Visualization Examples - Index</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      background: white;
+      border-radius: 20px;
+      padding: 60px 40px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    }
+
+    h1 {
+      text-align: center;
+      color: #1e293b;
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #64748b;
+      font-size: 18px;
+      margin-bottom: 50px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 30px;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+      border-radius: 16px;
+      padding: 30px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: all 0.3s ease;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-icon {
+      font-size: 48px;
+      margin-bottom: 15px;
+    }
+
+    .card-title {
+      font-size: 22px;
+      font-weight: 700;
+      color: #1e293b;
+      margin-bottom: 10px;
+    }
+
+    .card-description {
+      font-size: 14px;
+      color: #475569;
+      line-height: 1.6;
+      margin-bottom: 15px;
+    }
+
+    .card-use-case {
+      font-size: 13px;
+      color: #64748b;
+      font-style: italic;
+    }
+
+    .info-section {
+      background: #f8fafc;
+      border-radius: 12px;
+      padding: 30px;
+      margin-top: 40px;
+    }
+
+    .info-section h2 {
+      color: #1e293b;
+      margin-bottom: 15px;
+      font-size: 24px;
+    }
+
+    .info-section p {
+      color: #475569;
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+
+    .info-section ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .info-section li {
+      color: #475569;
+      padding: 8px 0;
+      padding-left: 25px;
+      position: relative;
+    }
+
+    .info-section li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: #10b981;
+      font-weight: bold;
+    }
+
+    .tech-stack {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .tech-badge {
+      background: #3b82f6;
+      color: white;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎓 4eye Visualization Examples</h1>
+    <p class="subtitle">Interactive HTML/SVG/CSS Animations for Educational Content</p>
+
+    <div class="grid">
+      <a href="01-timeline.html" class="card">
+        <div class="card-icon">📜</div>
+        <div class="card-title">Animated Timeline</div>
+        <div class="card-description">
+          Progressive reveal of historical events with smooth animations. Line draws from left to right, events fade in sequentially.
+        </div>
+        <div class="card-use-case">Best for: History, chronological sequences, story progression</div>
+      </a>
+
+      <a href="02-flowchart.html" class="card">
+        <div class="card-icon">🔄</div>
+        <div class="card-title">Interactive Flow Chart</div>
+        <div class="card-description">
+          Decision-making visualization with branching paths. Click on nodes to highlight steps in problem-solving process.
+        </div>
+        <div class="card-use-case">Best for: Algorithms, math problems, decision trees, logic flow</div>
+      </a>
+
+      <a href="03-concept-map.html" class="card">
+        <div class="card-icon">🌱</div>
+        <div class="card-title">Concept Map</div>
+        <div class="card-description">
+          Interconnected ideas radiating from central concept. Branches grow organically, connections draw themselves.
+        </div>
+        <div class="card-use-case">Best for: Science concepts, brainstorming, relationship mapping</div>
+      </a>
+
+      <a href="04-bar-chart-race.html" class="card">
+        <div class="card-icon">📊</div>
+        <div class="card-title">Bar Chart Race</div>
+        <div class="card-description">
+          Animated comparison of data over time. Bars grow and reorder dynamically as values change through years.
+        </div>
+        <div class="card-use-case">Best for: Population data, rankings, economic trends, comparisons</div>
+      </a>
+
+      <a href="05-physics-slider.html" class="card">
+        <div class="card-icon">🔧</div>
+        <div class="card-title">Interactive Physics Slider</div>
+        <div class="card-description">
+          Real-time variable manipulation with immediate visual feedback. Adjust force and mass to see acceleration change.
+        </div>
+        <div class="card-use-case">Best for: Physics formulas, math functions, cause-effect relationships</div>
+      </a>
+
+      <a href="06-layered-reveal.html" class="card">
+        <div class="card-icon">🌍</div>
+        <div class="card-title">Layered Reveal</div>
+        <div class="card-description">
+          Click-to-peel layers showing internal structure. Smooth transitions reveal what's beneath each layer.
+        </div>
+        <div class="card-use-case">Best for: Earth layers, anatomy, nested structures, depth concepts</div>
+      </a>
+    </div>
+
+    <div class="info-section">
+      <h2>About These Visualizations</h2>
+      <p>
+        These examples demonstrate the power of HTML/SVG/CSS for educational content enhancement. 
+        All visualizations are built with modern web standards and require no external libraries.
+      </p>
+      
+      <h2 style="margin-top: 25px;">Key Features</h2>
+      <ul>
+        <li>Pure HTML/CSS/JavaScript - no external dependencies</li>
+        <li>Smooth animations using CSS keyframes and transitions</li>
+        <li>Interactive elements with hover and click effects</li>
+        <li>Responsive design that works on all screen sizes</li>
+        <li>Accessibility-friendly with semantic HTML</li>
+        <li>Easily customizable colors, speeds, and behaviors</li>
+      </ul>
+
+      <h2 style="margin-top: 25px;">Technologies Used</h2>
+      <div class="tech-stack">
+        <span class="tech-badge">HTML5</span>
+        <span class="tech-badge">CSS3 Animations</span>
+        <span class="tech-badge">SVG</span>
+        <span class="tech-badge">Vanilla JavaScript</span>
+        <span class="tech-badge">CSS Keyframes</span>
+        <span class="tech-badge">CSS Transitions</span>
+        <span class="tech-badge">Interactive Controls</span>
+      </div>
+
+      <h2 style="margin-top: 25px;">Next Steps for 4eye</h2>
+      <p>
+        These templates can be dynamically populated by AI based on lesson content. The AI would:
+      </p>
+      <ul>
+        <li>Analyze classroom dialog and identify key concepts</li>
+        <li>Determine which visualization type best fits the content</li>
+        <li>Generate the appropriate data structure for the visualization</li>
+        <li>Populate the template with lesson-specific content</li>
+        <li>Customize colors, labels, and interactions based on grade level</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

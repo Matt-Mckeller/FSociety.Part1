@@ -1,0 +1,95 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: 4eye-api
+  namespace: four-eye-production
+  labels:
+    app: 4eye-api
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: 4eye-api
+  template:
+    metadata:
+      labels:
+        app: 4eye-api
+    spec:
+      serviceAccountName: four-eye-production-backend
+      containers:
+        - name: api
+          image: us-central1-docker.pkg.dev/four-eye-ai-01/four-eye-production-containers/api:latest
+          ports:
+            - containerPort: 3001
+          env:
+            - name: NODE_ENV
+              value: "production"
+            - name: API_PORT
+              value: "3001"
+            - name: CORS_ORIGIN
+              value: "https://4eye.ai"
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: 4eye-api-secrets
+                  key: DATABASE_URL
+            - name: REDIS_URL
+              valueFrom:
+                secretKeyRef:
+                  name: 4eye-api-secrets
+                  key: REDIS_URL
+            - name: JWT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: 4eye-api-secrets
+                  key: JWT_SECRET
+          resources:
+            requests:
+              cpu: "250m"
+              memory: "512Mi"
+            limits:
+              cpu: "1"
+              memory: "1Gi"
+          readinessProbe:
+            httpGet:
+              path: /api/health
+              port: 3001
+            initialDelaySeconds: 10
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /api/health
+              port: 3001
+            initialDelaySeconds: 30
+            periodSeconds: 30
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: 4eye-api
+  namespace: four-eye-production
+spec:
+  selector:
+    app: 4eye-api
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3001
+---
+apiVersion: gateway.networking.k8s.io/v1
+kind: HTTPRoute
+metadata:
+  name: 4eye-api-route
+  namespace: four-eye-production
+spec:
+  parentRefs:
+    - name: four-eye-production-gateway
+      sectionName: https
+  rules:
+    - matches:
+        - path:
+            type: PathPrefix
+            value: /api
+      backendRefs:
+        - name: 4eye-api
+          port: 80

@@ -1,0 +1,406 @@
+{
+  "sample": {
+    "durationSeconds": 240,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Alright everyone, today we're doing our experiment on chemical reactions.",
+          "timestamp": 0,
+          "confidence": 0.95
+        },
+        {
+          "text": "Please get into your lab groups and I'll explain the procedure.",
+          "timestamp": 6.3,
+          "confidence": 0.94
+        },
+        {
+          "text": "[Students moving around, scraping chairs]",
+          "timestamp": 11.8,
+          "confidence": 0.71
+        },
+        {
+          "text": "[Student] Did you guys watch that new show last night?",
+          "timestamp": 16.4,
+          "confidence": 0.88
+        },
+        {
+          "text": "[Another student] Oh my gosh yes! It was so good!",
+          "timestamp": 20.1,
+          "confidence": 0.86
+        },
+        {
+          "text": "First, you'll need to measure 50 milliliters",
+          "timestamp": 24.7,
+          "confidence": 0.93
+        },
+        {
+          "text": "[Side talk] I can't believe what happened in episode 3.",
+          "timestamp": 28.9,
+          "confidence": 0.84
+        },
+        {
+          "text": "of the vinegar solution and pour it into the beaker.",
+          "timestamp": 32.5,
+          "confidence": 0.92
+        },
+        {
+          "text": "Make sure you're wearing your safety goggles.",
+          "timestamp": 38.1,
+          "confidence": 0.95
+        },
+        {
+          "text": "[Student] Hey, can I borrow your phone charger later?",
+          "timestamp": 43.6,
+          "confidence": 0.87
+        },
+        {
+          "text": "[Response] Yeah sure, remind me after class.",
+          "timestamp": 47.2,
+          "confidence": 0.85
+        },
+        {
+          "text": "Then, slowly add the baking soda, one teaspoon at a time.",
+          "timestamp": 51.8,
+          "confidence": 0.91
+        },
+        {
+          "text": "[Group conversation] What are you guys doing this weekend?",
+          "timestamp": 58.4,
+          "confidence": 0.83
+        },
+        {
+          "text": "[Multiple responses overlapping]",
+          "timestamp": 62.7,
+          "confidence": 0.68
+        },
+        {
+          "text": "Observe what happens and record your observations.",
+          "timestamp": 66.9,
+          "confidence": 0.94
+        },
+        {
+          "text": "[Student] I'm so tired, I stayed up until 2 AM.",
+          "timestamp": 72.5,
+          "confidence": 0.89
+        },
+        {
+          "text": "[Another] Same! I was texting with Jordan.",
+          "timestamp": 76.8,
+          "confidence": 0.87
+        },
+        {
+          "text": "You should see bubbles forming. This is carbon dioxide gas.",
+          "timestamp": 81.3,
+          "confidence": 0.9
+        },
+        {
+          "text": "[Teacher walking around] Guys, focus on the experiment please.",
+          "timestamp": 87.9,
+          "confidence": 0.92
+        },
+        {
+          "text": "[Continued chatter about weekend plans]",
+          "timestamp": 93.4,
+          "confidence": 0.76
+        },
+        {
+          "text": "Measure the temperature change using your thermometer.",
+          "timestamp": 98.7,
+          "confidence": 0.93
+        },
+        {
+          "text": "[Student] Do we have to write all this down?",
+          "timestamp": 104.2,
+          "confidence": 0.9
+        },
+        {
+          "text": "[Teacher] Yes, in your lab notebooks. Everything I'm saying.",
+          "timestamp": 108.6,
+          "confidence": 0.94
+        },
+        {
+          "text": "[Discussion about video games]",
+          "timestamp": 115.3,
+          "confidence": 0.79
+        },
+        {
+          "text": "This is an endothermic reaction, which means",
+          "timestamp": 120.8,
+          "confidence": 0.91
+        },
+        {
+          "text": "[Student] Did anyone else not study for the math test?",
+          "timestamp": 125.4,
+          "confidence": 0.86
+        },
+        {
+          "text": "[Multiple worried responses]",
+          "timestamp": 129.7,
+          "confidence": 0.74
+        },
+        {
+          "text": "it absorbs heat from the surroundings. You'll notice",
+          "timestamp": 133.2,
+          "confidence": 0.89
+        },
+        {
+          "text": "the beaker feels cooler to the touch.",
+          "timestamp": 138.9,
+          "confidence": 0.92
+        },
+        {
+          "text": "[Student] Can we eat lunch in here today? It's raining.",
+          "timestamp": 143.6,
+          "confidence": 0.88
+        },
+        {
+          "text": "[Teacher] No, you need to go to the cafeteria. Now",
+          "timestamp": 148.1,
+          "confidence": 0.93
+        },
+        {
+          "text": "[Groaning from students about the rain]",
+          "timestamp": 153.7,
+          "confidence": 0.8
+        },
+        {
+          "text": "calculate the change in temperature and record it.",
+          "timestamp": 158.4,
+          "confidence": 0.91
+        },
+        {
+          "text": "[Students discussing lunch plans]",
+          "timestamp": 164.8,
+          "confidence": 0.77
+        },
+        {
+          "text": "When you're done with your calculations, clean up your station.",
+          "timestamp": 170.3,
+          "confidence": 0.94
+        },
+        {
+          "text": "[Student] Is anyone going to the basketball game Friday?",
+          "timestamp": 176.9,
+          "confidence": 0.87
+        },
+        {
+          "text": "[Multiple students responding about the game]",
+          "timestamp": 181.5,
+          "confidence": 0.73
+        },
+        {
+          "text": "Everyone, this is going to be on your quiz next week,",
+          "timestamp": 187.2,
+          "confidence": 0.93
+        },
+        {
+          "text": "so make sure you understand what happened and why.",
+          "timestamp": 192.8,
+          "confidence": 0.92
+        },
+        {
+          "text": "[Continuing side conversations]",
+          "timestamp": 198.6,
+          "confidence": 0.71
+        },
+        {
+          "text": "I can see some groups aren't paying attention.",
+          "timestamp": 204.1,
+          "confidence": 0.94
+        },
+        {
+          "text": "This is your warning. Focus or you'll lose participation points.",
+          "timestamp": 209.7,
+          "confidence": 0.93
+        },
+        {
+          "text": "[Somewhat quieter, but still whispered conversations]",
+          "timestamp": 216.4,
+          "confidence": 0.78
+        },
+        {
+          "text": "Alright, finish up your cleanup and make sure",
+          "timestamp": 222.8,
+          "confidence": 0.92
+        },
+        {
+          "text": "your lab reports are completed for homework.",
+          "timestamp": 228.3,
+          "confidence": 0.93
+        },
+        {
+          "text": "[Bell rings, immediate loud conversations resume]",
+          "timestamp": 234.7,
+          "confidence": 0.65
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.88,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "PII_DETECTED",
+        "details": "The name 'Jordan' was mentioned in a student conversation at timestamp 76.8. While common, it could refer to a specific student."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.65,
+    "isSideConversation_confidence": 0.95,
+    "isIrrelevantContent_confidence": 0.7,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "science",
+      "chemistry",
+      "lab_experiment",
+      "chemical_reactions",
+      "endothermic_reaction",
+      "grade_7",
+      "scientific_method",
+      "classroom_management"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "The teacher provided step-by-step instructions for a science experiment demonstrating an endothermic chemical reaction between vinegar and baking soda. The procedure involved measuring 50ml of vinegar, slowly adding baking soda, and observing the results. Key concepts explained were the formation of carbon dioxide gas (seen as bubbles) and the nature of an endothermic reaction, which absorbs heat and makes the beaker feel cooler. The lesson was heavily fragmented by numerous student side conversations, requiring the teacher to repeatedly call for focus and issue warnings.",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "• Goal: Observe an endothermic chemical reaction.\n• Materials: Vinegar, baking soda, beaker, teaspoon, thermometer, safety goggles.\n• Step 1: Put on safety goggles.\n• Step 2: Pour 50ml of vinegar into the beaker.\n• Step 3: Slowly add baking soda, one teaspoon at a time.\n• Step 4: Observe the bubbles (carbon dioxide gas) that form.\n• Step 5: Measure the temperature change; it should get cooler (endothermic reaction).\n• Step 6: Record all observations and calculations in your lab notebook."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.8,
+        "text": "A teacher guided a lab where students mix vinegar and baking soda. This experiment demonstrates an endothermic reaction, identified by the production of carbon dioxide gas and a measurable drop in temperature."
+      },
+      {
+        "version": "narrative",
+        "comparativeValueToRecommendedModality": 0.75,
+        "text": "In today's science lab, we embarked on a journey to witness chemistry in action. Our mission was to combine simple vinegar and baking soda. As we carefully added the powder to the liquid, a fizzing eruption of bubbles appeared, revealing the creation of a new substance: carbon dioxide gas. But the real surprise came when we touched the beaker. It had grown cold, as if by magic, teaching us a new concept—an endothermic reaction, one that pulls heat from its surroundings to power its transformation."
+      }
+    ],
+    "oneLineSummarization": "A teacher explains a lab on the endothermic reaction between vinegar and baking soda, noting CO2 production and temperature drop amidst constant student chatter.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "PROBLEM_SOLVING",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "To conduct this experiment successfully, follow these exact steps. First, ensure your safety by putting on your goggles. Second, accurately measure 50 milliliters of the vinegar solution using a graduated cylinder and pour it into your beaker. Third, carefully add one teaspoon of baking soda to the vinegar; do this slowly to control the reaction. Fourth, observe the formation of bubbles and the fizzing sound. Finally, place the thermometer in the solution to measure and record the change in temperature. Each step is crucial for accurate results."
+      },
+      {
+        "effectiveness": "high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "The reaction you are observing follows a clear cause-and-effect sequence. When you mix an acid (vinegar) with a base (baking soda), they react to form new substances. This chemical change produces carbon dioxide gas, which is the cause of the bubbles you see. Because breaking the chemical bonds of the reactants requires energy, the reaction absorbs heat energy from the surrounding liquid. The effect of this energy absorption is a measurable decrease in the solution's temperature, which is why we classify it as an endothermic reaction."
+      },
+      {
+        "effectiveness": "high",
+        "type": "EXPERIENTIAL",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "This experiment connects directly to things you might see outside of the classroom. Have you ever used a disposable instant cold pack for a sports injury? Many of them work on this exact principle. Inside the pack are two chemicals that, when mixed by squeezing the pack, start an endothermic reaction. Just like your beaker got cooler, the pack absorbs heat rapidly, becoming cold enough to treat a sprain. This lab shows you the basic chemistry behind a common real-world product."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "VISUAL",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.75,
+        "text": "Picture the clear vinegar solution sitting in your glass beaker. As you sprinkle in the white powder of baking soda, imagine a flurry of activity at the molecular level. The moment the two touch, a cascade of tiny bubbles erupts from the bottom, fizzing and rising to the surface. The liquid, once still, is now a churning, bubbling mixture. If you could see heat, you'd visualize it being sucked out of the liquid and into the reaction, leaving the beaker feeling frosty and cool to the touch."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "STEP_SEQUENCE",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "INFOGRAPHIC",
+          "SVG_DIAGRAM"
+        ],
+        "title": "Lab Procedure: Vinegar & Baking Soda Reaction",
+        "reasonForSuggestion": "Given the high level of distraction, students likely missed key steps. A clear, visual guide to the procedure is critical for ensuring they can perform the experiment correctly and safely.",
+        "promptForGeneration": "Create a 6-panel step-sequence infographic for a 7th-grade science experiment. Use simple, clear icons and minimal text. Panel 1: Icon of safety goggles, Title: '1. Safety First!', Text: 'Wear your goggles.' Panel 2: Icon of a graduated cylinder pouring liquid into a beaker, Title: '2. Measure Vinegar', Text: 'Pour 50mL of vinegar.' Panel 3: Icon of a teaspoon adding powder to the beaker, Title: '3. Add Baking Soda', Text: 'Slowly add 1 tsp.' Panel 4: Icon of a beaker with bubbles, Title: '4. Observe', Text: 'Watch for bubbles (CO2 gas).' Panel 5: Icon of a thermometer in the beaker with a downward arrow, Title: '5. Measure Temp', Text: 'Record the temperature change.' Panel 6: Icon of a notebook and pencil, Title: '6. Record Data', Text: 'Write down all observations.' Use a clean, friendly font and a simple color palette (blue, green, white)."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.9,
+        "coreType": "ANIMATED_SVG",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "ANNOTATED_TEXT"
+        ],
+        "title": "What is an Endothermic Reaction?",
+        "reasonForSuggestion": "The core concept of 'endothermic' is abstract. An animation can make the invisible process of heat absorption tangible and easier for students to understand.",
+        "promptForGeneration": "Create an animated SVG to explain an endothermic reaction for middle schoolers. Show a beaker with blue liquid representing the vinegar solution. A thermometer on the side shows a starting temperature of 22°C. Animate baking soda particles falling in. As they mix, show small 'heat' icons (wavy lines) moving from the liquid *into* the bubbling reaction center. As the heat icons are absorbed, the thermometer's red line should visibly drop to 18°C. Add a simple text label that fades in: 'Endothermic Reaction: Absorbs heat, feels cold.'"
+      }
+    ],
+    "purpose": "This experiment provides a hands-on demonstration of fundamental chemistry principles, including evidence of a chemical change (gas production) and energy transfer in reactions. It teaches the concept of an endothermic reaction, where energy is absorbed from the environment, and builds essential lab skills like measurement, observation, and data recording.",
+    "motivation": "Ever wonder how an instant cold pack for a sports injury gets cold without a freezer? It uses a chemical reaction just like this one! By mixing simple things from your kitchen, you're controlling energy, pulling heat right out of the liquid to make it colder. This isn't just a classroom exercise; it's the science behind everyday products and a first step to understanding how chemical energy works.",
+    "learningValueScore": 0.55,
+    "availableActions": [
+      {
+        "actionLabel": "Lab Steps",
+        "reason": "Provides a clear, visual guide to the procedure that was fragmented by distractions.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "Explain 'Endothermic'",
+        "reason": "Defines the key scientific term of the lesson which students may have missed.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Why Bubbles?",
+        "reason": "Explains the formation of carbon dioxide gas, a primary observation in the experiment.",
+        "recommendationPriority": "high"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "chemical reaction": {
+        "definition": "A process that involves rearrangement of the molecular or ionic structure of a substance, as opposed to a change in physical form.",
+        "simpler": "When you mix things together and they turn into completely new things.",
+        "example": "Mixing vinegar and baking soda creates a chemical reaction that produces gas."
+      },
+      "endothermic reaction": {
+        "definition": "A chemical reaction that absorbs thermal energy (heat) from its surroundings.",
+        "simpler": "A reaction that gets cold because it's sucking in heat.",
+        "etymology": "From Greek 'endo-' (within) and '-thermic' (heat)."
+      },
+      "carbon dioxide": {
+        "definition": "A colorless gas with the formula CO2, produced during this reaction.",
+        "simpler": "The gas that makes the bubbles in soda and in this experiment.",
+        "example": "You could see the carbon dioxide bubbling up after adding the baking soda."
+      }
+    },
+    "recommendationsToTeacher": [
+      "The high volume of off-topic conversation suggests students were disengaged. Before the next lab, consider implementing structured roles within groups (e.g., 'Reader', 'Measurer', 'Recorder') to promote focus and accountability.",
+      "Many students likely missed the core concepts. Use a quick formative assessment, like an exit ticket asking 'What is an endothermic reaction and how did we see one today?', to identify and address learning gaps before the quiz.",
+      "To increase engagement, start the next lesson by connecting this lab to a real-world example. Show a short video of an instant cold pack or self-cooling can to demonstrate the 'wow' factor of endothermic reactions."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T02:00:55.406Z",
+    "latencyMs": 49281,
+    "tokenUsage": {
+      "input": 8640,
+      "output": 2887,
+      "total": 13766
+    }
+  }
+}

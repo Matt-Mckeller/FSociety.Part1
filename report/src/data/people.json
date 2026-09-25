@@ -1,0 +1,654 @@
+{
+  "people": [
+    {
+      "id": "person-001",
+      "name": "Matthew McKeller",
+      "aliases": ["Matthew Shane", "Max"],
+      "role": "Main Character / Narrator",
+      "description": "Main character of the investigation. ADHD/possibly autistic. Very good at nonverbal/visual communication, data associations, and problem solving. Limited working memory. Previously drove for Uber. Working on education and software development businesses (Expanse EDU).",
+      "profileImage": "",
+      "notes": [
+        "Father arrested for selling meth and having a gun",
+        "Went through Chapter 7 bankruptcy",
+        "Owes taxes - views as cheap loan",
+        "Goes to clubs regularly",
+        "Cautious with data/privacy - uses Faraday bags, defensive equipment",
+        "Worked for TransitPros",
+        "Planning multiple businesses including education and software development"
+      ],
+      "eventIds": [],
+      "connectionIds": [],
+      "tags": ["narrator", "main"]
+    },
+    {
+      "id": "person-002",
+      "name": "Casino Day 1 Diamond Man",
+      "aliases": [],
+      "role": "Unknown - VIP?",
+      "description": "Black male, probably 50s, in management. Large hands, short hair, 200-250 lbs muscular. Wearing huge diamond rings on every finger (pyramid shaped, ~1 inch diameter), giant gold watch (5-6 inch diameter), and grill on teeth. Said he started wearing jewelry as a kid.",
+      "profileImage": "",
+      "notes": [
+        "Said he's in management, not lower end work",
+        "Good with people",
+        "Very distinctive appearance - should be on camera"
+      ],
+      "eventIds": ["evt-casino-day-1-coins-entryway"],
+      "connectionIds": [],
+      "tags": ["casino", "unknown", "distinctive"]
+    },
+    {
+      "id": "person-003",
+      "name": "Casino Day 1 Dealer",
+      "aliases": [],
+      "role": "Dealer",
+      "description": "Muscular male, slightly tan, dark hair. Not Mexican or East Asian, possibly Italian. More conversational than typical dealer. Mentioned narrator's father unprompted.",
+      "profileImage": "",
+      "notes": [
+        "Says he gets paid every hand he deals",
+        "Mentioned father could have been mayor",
+        "Said he had been there many years",
+        "Assumed high level management or just a dealer"
+      ],
+      "eventIds": ["evt-casino-day-1-coins-entryway"],
+      "connectionIds": [],
+      "tags": ["casino", "dealer", "harrahs"]
+    },
+    {
+      "id": "person-004",
+      "name": "Casino Dealer - Matthew",
+      "aliases": [],
+      "role": "Dealer",
+      "description": "Dealer at Harrahs Casino Day 2. Name matches narrator's first name.",
+      "profileImage": "",
+      "notes": [
+        "Name matching seems significant",
+        "First dealer on Day 2"
+      ],
+      "eventIds": ["evt-harrahs-day2"],
+      "connectionIds": [],
+      "tags": ["casino", "dealer", "harrahs", "name-match"]
+    },
+    {
+      "id": "person-005",
+      "name": "Casino Dealer - Shane",
+      "aliases": [],
+      "role": "Dealer",
+      "description": "Dealer at Harrahs Casino Day 2. Name matches narrator's middle name.",
+      "profileImage": "",
+      "notes": [
+        "Name matching middle name seems significant",
+        "Second dealer on Day 2"
+      ],
+      "eventIds": ["evt-harrahs-day2"],
+      "connectionIds": [],
+      "tags": ["casino", "dealer", "harrahs", "name-match"]
+    },
+    {
+      "id": "person-006",
+      "name": "The Banker",
+      "aliases": [],
+      "role": "Unknown - Investment offer",
+      "description": "Black male, probably 40s, bald, body weight distribution looked like stress, probably 220 lbs. Didn't seem happy to be doing what he was doing. Man at Harrahs who claimed to be a banker. Made cryptic investment offer. Rolled green chip saying 'I want to invest in you.' Seemed frustrated with narrator's questions.",
+      "profileImage": "",
+      "notes": [
+        "Wouldn't specify what type of banker",
+        "Said 'stop trying to get information out of me'",
+        "Said to be careful what you say to people",
+        "Said 'coins man, do you want me to invest in you or not'",
+        "Said he's 10x smarter than narrator",
+        "Was wearing headphones"
+      ],
+      "eventIds": ["evt-harrahs-day2"],
+      "connectionIds": [],
+      "tags": ["casino", "harrahs", "suspicious", "investment"]
+    },
+    {
+      "id": "person-007",
+      "name": "Real Estate Guy",
+      "aliases": [],
+      "role": "Unknown - Claims Real Estate",
+      "description": "Asian male at Harrahs bar area. Claimed to be in town for casino but works in real estate. Well-groomed friend/partner with tattoos.",
+      "profileImage": "",
+      "notes": [
+        "Possibly gay based on impression",
+        "Wore a suit",
+        "Said 400 million education bill doesn't change anything",
+        "Seemed to be waiting for something",
+        "Strange conversation"
+      ],
+      "eventIds": ["evt-harrahs-day2"],
+      "connectionIds": [],
+      "tags": ["casino", "harrahs", "suspicious"]
+    },
+    {
+      "id": "person-008",
+      "name": "Starbucks Blue Painter",
+      "aliases": [],
+      "role": "Unknown - Signal?",
+      "description": "Slender white male, maybe 150 lbs. Blue painted fingertips matching Expanse company color. Carried notebook with leafs and paintbrush. Eccentric behavior.",
+      "profileImage": "",
+      "notes": [
+        "Said 'ope, all in' in strange way",
+        "Mentioned meth in conversation",
+        "Notebook was empty with leafs on top",
+        "Painted on table and in notebook",
+        "Acting was very obvious/forced",
+        "Should be on camera"
+      ],
+      "eventIds": ["evt-starbucks-blue-painter"],
+      "connectionIds": [],
+      "tags": ["coffee_shop", "suspicious", "signal"]
+    },
+    {
+      "id": "person-009",
+      "name": "Lee Plaza Male",
+      "aliases": [],
+      "role": "Unknown",
+      "description": "Older male at dentist, probably 50s-60s, gray hair. Slightly looked like Mr Robot father. Claimed appointment same time.",
+      "profileImage": "",
+      "notes": [
+        "Said something about ultrasonic",
+        "Should be on camera in waiting room"
+      ],
+      "eventIds": ["evt-dentist-encounter"],
+      "connectionIds": [],
+      "tags": ["business", "suspicious"]
+    },
+    {
+      "id": "person-010",
+      "name": "Haircut Black Male",
+      "aliases": [],
+      "role": "Unknown",
+      "description": "Young black male, probably 20s. Nappy hair that looked ungroomed for long time. Kind of angry looking.",
+      "profileImage": "",
+      "notes": [
+        "Only got edges trimmed despite hair needing more work",
+        "Paid $35 for just edge trim",
+        "Strange timing"
+      ],
+      "eventIds": ["evt-barbershop"],
+      "connectionIds": [],
+      "tags": ["business", "suspicious"]
+    },
+    {
+      "id": "person-011",
+      "name": "Panera Gray Suit Male",
+      "aliases": [],
+      "role": "Unknown - Threat?",
+      "description": "White male, probably 200 lbs, not fit. Wore all gray with face mostly covered. Had very large paper bag with gray bag inside.",
+      "profileImage": "",
+      "notes": [
+        "Started whispering",
+        "Put gray bag on table from large paper bag",
+        "Hard to identify due to covered face",
+        "Sat across from narrator"
+      ],
+      "eventIds": ["evt-panera-gray-suit"],
+      "connectionIds": [],
+      "tags": ["coffee_shop", "suspicious", "threat"]
+    },
+    {
+      "id": "person-012",
+      "name": "Crows Coffee Black Male",
+      "aliases": [],
+      "role": "Unknown - Observer?",
+      "description": "Heavy set black male with shades, probably 250 lbs. Had partially yellow shirt. Went to the bathroom, came out and sat down, had a water with him. Looked at narrator, then left without getting anything.",
+      "profileImage": "",
+      "notes": [
+        "Yellow shirt interpreted as 'wire warning'",
+        "Should be on camera",
+        "Possibly same person as lobby driver (uncertain)"
+      ],
+      "eventIds": ["evt-crow-coffee"],
+      "connectionIds": [],
+      "tags": ["coffee_shop", "suspicious", "observer"]
+    },
+    {
+      "id": "person-013",
+      "name": "Apartment Lobby Driver",
+      "aliases": ["Jimmy's Driver"],
+      "role": "Driver - claimed role",
+      "description": "Larger black male, probably mid 40s, 230-300 lbs. Was directing someone named Jimmy. Had trash cans with bed frames.",
+      "profileImage": "",
+      "notes": [
+        "Said he's 'the driver'",
+        "Possibly same person as Crows Coffee male",
+        "3 trash cans with bed frames across them"
+      ],
+      "eventIds": ["evt-lobby-trash-cans"],
+      "connectionIds": [],
+      "tags": ["apartment", "suspicious", "role-claim"]
+    },
+    {
+      "id": "person-014",
+      "name": "Natalie",
+      "aliases": [],
+      "role": "Mailroom Employee",
+      "description": "Mail room girl at Mac Properties. Very good with nonverbals.",
+      "profileImage": "",
+      "notes": [
+        "Potentially unrelated",
+        "If government perspective, could have been observer"
+      ],
+      "eventIds": [],
+      "connectionIds": [],
+      "tags": ["apartment", "employee", "observer"]
+    },
+    {
+      "id": "person-015",
+      "name": "Logan",
+      "aliases": [],
+      "role": "Keystone Contact",
+      "description": "High black gentleman at Keystone Colab event. Claimed to be inventor. Showed NDA papers, IRS documents, and BTC financial app.",
+      "profileImage": "",
+      "notes": [
+        "Took pictures of screen",
+        "Had bunch of papers including IRS and NDA",
+        "Showed laptop with crypto buy/sell markers",
+        "Said he invented 'physics'",
+        "Randomly said 'Lysol'",
+        "Didn't want to wait years",
+        "Connected on LinkedIn"
+      ],
+      "eventIds": ["evt-keystone-logan"],
+      "connectionIds": [],
+      "tags": ["business", "suspicious", "crypto"]
+    },
+    {
+      "id": "person-016",
+      "name": "Rey",
+      "aliases": [],
+      "role": "Club Contact / Witness",
+      "summary": "Met at Tin Roof club, works at Blue Cross Blue Shield, invited narrator to Keystone event and witnessed Logan encounter.",
+      "description": "Person met at Tin Roof club who invited narrator to Keystone Colab event. Claims to work at Blue Cross Blue Shield. Was present at Keystone event and witnessed the Logan encounter with the NDA papers and BTC app. Important as a witness to key events.",
+      "profileImage": "",
+      "notes": [
+        "Met originally at Tin Roof club",
+        "Works at Blue Cross Blue Shield (claimed)",
+        "Invited narrator to Keystone Colab data science event",
+        "Was present and witnessed Logan showing papers and BTC app",
+        "Potential witness for investigation",
+        "Could be person of interest - how did he know about event?"
+      ],
+      "eventIds": ["evt-keystone-logan"],
+      "connectionIds": ["person-015"],
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "ai",
+          "interpretation": "Could be recruiter or facilitator connecting narrator to organization contacts",
+          "likelihood": "low"
+        },
+        {
+          "type": "business",
+          "author": "ai",
+          "interpretation": "Legitimate networking contact from club scene",
+          "likelihood": "medium"
+        },
+        {
+          "type": "random",
+          "author": "ai",
+          "interpretation": "Normal social connection from club who knew about tech event",
+          "likelihood": "high"
+        }
+      ],
+      "tags": ["club", "contact", "witness", "keystone"]
+    },
+    {
+      "id": "person-017",
+      "name": "Playter",
+      "aliases": [],
+      "role": "Microcenter Employee",
+      "description": "Employee at Microcenter with strange name. Probably unrelated.",
+      "profileImage": "",
+      "notes": [
+        "Unusual name noted"
+      ],
+      "eventIds": ["evt-microcenter"],
+      "connectionIds": [],
+      "tags": ["business", "employee"]
+    },
+    {
+      "id": "person-018",
+      "name": "Trent",
+      "aliases": [],
+      "role": "Claimed to be Microcenter General Manager",
+      "description": "Claimed to be General Manager at Microcenter, but may not be (didn't see a nametag). Introduced himself when narrator was purchasing equipment. Name could have been interpreted as 'Terrorist' from a government perspective (less likely). Also may just have been a regular guy.",
+      "profileImage": "",
+      "notes": [
+        "Said 'looks like you have a big project planned'",
+        "Narrator happens to be on 7th floor at Mac",
+        "May have been related to the events"
+      ],
+      "eventIds": ["evt-microcenter"],
+      "connectionIds": [],
+      "tags": ["business", "employee", "suspicious"]
+    },
+    {
+      "id": "person-019",
+      "name": "Talcove",
+      "aliases": [],
+      "role": "External Contact - Government Connection",
+      "description": "Contact with government connections. Knows people in Secret Service, FBI. Has apps used by police stations. Intelligent, relationship exists.",
+      "profileImage": "",
+      "notes": [
+        "Makes apps for government/police",
+        "Has Secret Service and FBI connections",
+        "First outreach 12/15",
+        "Discussed potential follow-up plans"
+      ],
+      "eventIds": [],
+      "connectionIds": [],
+      "tags": ["contact", "government", "trusted"]
+    },
+    {
+      "id": "person-020",
+      "name": "TransitPros Contacts",
+      "aliases": [],
+      "role": "Employer",
+      "description": "People at TransitPros employer. Strange organization with security concerns.",
+      "profileImage": "",
+      "notes": [
+        "Few employees seen",
+        "Could work remotely",
+        "Accounting separated from software"
+      ],
+      "eventIds": [],
+      "connectionIds": [],
+      "tags": ["employer", "suspicious"]
+    },
+    {
+      "id": "person-021",
+      "name": "Hollywood Casino Dealer",
+      "aliases": [],
+      "role": "Dealer",
+      "description": "Dealer at Hollywood Casino green chip tournament who said 'let me turn it on for you.'",
+      "profileImage": "",
+      "notes": [
+        "Said 'let me turn it on for you' randomly",
+        "Said 'be careful showing your hand, you revealed a 10 of diamonds'",
+        "Narrator did not have or show 10 of diamonds"
+      ],
+      "eventIds": ["evt-hollywood-tournament"],
+      "connectionIds": [],
+      "tags": ["casino", "dealer", "hollywood"]
+    },
+    {
+      "id": "person-022",
+      "name": "Asian Man at Crow Coffee",
+      "aliases": [],
+      "role": "Unknown - Observer?",
+      "description": "Asian man outside Crow Coffee window, on phone, looking in.",
+      "profileImage": "",
+      "notes": [
+        "Was outside looking in through window",
+        "On the phone",
+        "Shortly before black male with shades arrived"
+      ],
+      "eventIds": ["evt-crow-coffee"],
+      "connectionIds": [],
+      "tags": ["coffee_shop", "suspicious", "observer"]
+    },
+    {
+      "id": "person-023",
+      "name": "Woman with Golden Watch Ring",
+      "aliases": [],
+      "role": "Unknown",
+      "description": "Woman at club with ring shaped like golden watch on index finger.",
+      "profileImage": "",
+      "notes": [
+        "Ring shaped like golden watch",
+        "Possibly related to diamond man's watch"
+      ],
+      "eventIds": [],
+      "connectionIds": ["person-002"],
+      "tags": ["club", "uncertain"]
+    },
+    {
+      "id": "person-024",
+      "name": "Westport Business Woman",
+      "aliases": [],
+      "role": "Unknown - Business Owner",
+      "description": "Lady in Westport talked to about marketing and websites. Asked if narrator wearing a wire when asked about selling drugs.",
+      "profileImage": "",
+      "notes": [
+        "Moved from old location to new",
+        "Old location bought out",
+        "Seemed reluctant about certain aspects"
+      ],
+      "eventIds": ["evt-westport-investigation"],
+      "connectionIds": [],
+      "tags": ["westport", "suspicious"]
+    },
+    {
+      "id": "person-025",
+      "name": "Yellow Earbuds Case Man",
+      "aliases": [],
+      "role": "Unknown - Signal?",
+      "description": "Man at Harrahs Day 2 who sat down with very strangely colored yellow earbuds case which he set on the table. Left shortly after sitting.",
+      "profileImage": "",
+      "notes": [
+        "Yellow earbuds case set visibly on table",
+        "Left quickly after sitting",
+        "Yellow could be wire warning signal",
+        "Replaced by thug-like man"
+      ],
+      "eventIds": ["evt-harrahs-day2"],
+      "connectionIds": [],
+      "tags": ["casino", "harrahs", "signal", "warning"]
+    },
+    {
+      "id": "person-026",
+      "name": "Thug-Like Man",
+      "aliases": [],
+      "role": "Unknown",
+      "description": "Different man who sat down at Harrahs Day 2 after Yellow Earbuds Case Man left. Looked more thug-like.",
+      "profileImage": "",
+      "notes": [
+        "Sat down after yellow earbuds man left",
+        "More intimidating appearance"
+      ],
+      "eventIds": ["evt-harrahs-day2"],
+      "connectionIds": ["person-025"],
+      "tags": ["casino", "harrahs", "suspicious"]
+    },
+    {
+      "id": "person-027",
+      "name": "Harrahs Bartender",
+      "aliases": [],
+      "role": "Bartender",
+      "description": "Bartender at Harrahs who said 'coins man, do you want me to invest in you or not' during banker conversation.",
+      "profileImage": "",
+      "notes": [
+        "Made cryptic investment comment about coins",
+        "Part of banker conversation scene",
+        "Brought 2 waters"
+      ],
+      "eventIds": ["evt-harrahs-day2", "evt-harrahs-day2"],
+      "connectionIds": ["person-006"],
+      "tags": ["casino", "harrahs", "employee", "suspicious"]
+    },
+    {
+      "id": "person-028",
+      "name": "Two Female Servers",
+      "aliases": [],
+      "role": "Staff - Observers?",
+      "description": "Two oddly positioned female staff in the back corner during the banker conversation at Harrahs.",
+      "profileImage": "",
+      "notes": [
+        "Positioned strangely in back corner",
+        "Seemed to be watching/observing",
+        "Present during banker investment offer"
+      ],
+      "eventIds": ["evt-harrahs-day2"],
+      "connectionIds": [],
+      "tags": ["casino", "harrahs", "employee", "observer"]
+    },
+    {
+      "id": "person-029",
+      "name": "Real Estate Guy's Partner",
+      "aliases": [],
+      "role": "Unknown - Real Estate?",
+      "description": "Friend or partner of Asian Real Estate Guy at Harrahs. Very well groomed, covered in tattoos.",
+      "profileImage": "",
+      "notes": [
+        "Well groomed appearance",
+        "Covered in tattoos",
+        "With Real Estate Guy at casino"
+      ],
+      "eventIds": ["evt-harrahs-day2"],
+      "connectionIds": ["person-007"],
+      "tags": ["casino", "harrahs", "suspicious"]
+    },
+    {
+      "id": "person-030",
+      "name": "Jimmy",
+      "aliases": [],
+      "role": "Unknown",
+      "description": "Person the Apartment Lobby Driver was giving directions to in the lobby.",
+      "profileImage": "",
+      "notes": [
+        "Driver was directing him",
+        "Part of lobby trash cans scene"
+      ],
+      "eventIds": ["evt-lobby-trash-cans"],
+      "connectionIds": ["person-013"],
+      "tags": ["apartment", "unknown"]
+    },
+    {
+      "id": "person-031",
+      "name": "Smiley Hat Males",
+      "aliases": [],
+      "role": "Unknown - Observers?",
+      "description": "Multiple white males with smiley faces on their hats who came in after the black male at Crow Coffee.",
+      "profileImage": "",
+      "notes": [
+        "Multiple males with matching smiley hats",
+        "Arrived after black male with shades",
+        "Could be coordinated observers"
+      ],
+      "eventIds": ["evt-crow-coffee"],
+      "connectionIds": ["person-012"],
+      "tags": ["coffee_shop", "observer", "suspicious"]
+    },
+    {
+      "id": "person-032",
+      "name": "Radar Friend",
+      "aliases": [],
+      "role": "Friend - Works on Radar",
+      "description": "Friend who works on radar systems. Discussed SCIF project concepts with narrator.",
+      "profileImage": "",
+      "notes": [
+        "Works on radar systems professionally",
+        "Consulted about SCIF/defensive EMF concepts",
+        "Trusted friend"
+      ],
+      "eventIds": [],
+      "connectionIds": [],
+      "tags": ["friend", "technical", "trusted"]
+    },
+    {
+      "id": "person-033",
+      "name": "Tattoo Shop Woman",
+      "aliases": [],
+      "role": "Unknown",
+      "description": "Attractive woman going into the Westport tattoo shop that looked 'pretty fucked up' at around 11am.",
+      "profileImage": "",
+      "notes": [
+        "Appeared intoxicated at early hour",
+        "Going into suspicious tattoo shop",
+        "Westport area"
+      ],
+      "eventIds": ["evt-westport-investigation"],
+      "connectionIds": [],
+      "tags": ["westport", "suspicious"]
+    },
+    {
+      "id": "person-034",
+      "name": "Car Accident Man",
+      "aliases": [],
+      "role": "Unknown",
+      "description": "Man at casino Day 1 who claimed he was in a car accident, his face was hurt, and he was in the hospital - said this after narrator told the loan shark/mayor story.",
+      "profileImage": "",
+      "notes": [
+        "Made claims after loan shark story",
+        "Face injury claim",
+        "Hospital stay claim",
+        "Response seemed significant or coordinated"
+      ],
+      "eventIds": ["evt-casino-day-1-coins-entryway"],
+      "connectionIds": [],
+      "tags": ["casino", "harrahs", "suspicious"]
+    },
+    {
+      "id": "person-035",
+      "name": "Matthew's Father",
+      "aliases": [],
+      "role": "Family - Background",
+      "description": "Narrator's father. Criminal history, ADHD. Was arrested for selling meth and having a gun.",
+      "profileImage": "",
+      "notes": [
+        "Criminal history - selling meth, had gun",
+        "Has ADHD",
+        "Dealer at Harrahs mentioned him unprompted",
+        "Dealer said 'father could have been mayor'"
+      ],
+      "eventIds": [],
+      "connectionIds": ["person-001"],
+      "tags": ["family", "background", "criminal-history"]
+    },
+    {
+      "id": "person-036",
+      "name": "Matthew's Mother",
+      "aliases": [],
+      "role": "Family - Background",
+      "description": "Narrator's mother. Has had mental health struggles including depression and anxiety, but doing better now.",
+      "profileImage": "",
+      "notes": [
+        "Mental health struggles - depression/anxiety",
+        "Doing better now",
+        "Background context for narrator"
+      ],
+      "eventIds": [],
+      "connectionIds": ["person-001"],
+      "tags": ["family", "background"]
+    },
+    {
+      "id": "person-037",
+      "name": "Coworker (Loan Shark Story)",
+      "aliases": [],
+      "role": "Coworker - Story Source",
+      "description": "Coworker who told narrator the story about working for a loan shark who forced people to pay, then worked for police, and the loan shark became mayor. The coworker gave the mayor's son a ticket and got kicked off the police force, then went into IT.",
+      "profileImage": "",
+      "notes": [
+        "Worked for loan shark who forced people to pay",
+        "Then worked for police",
+        "Loan shark became mayor",
+        "Gave mayor's son a ticket",
+        "Got kicked off police force",
+        "Went into IT",
+        "This story triggered significant reaction at casino"
+      ],
+      "eventIds": ["evt-casino-day-1-coins-entryway"],
+      "connectionIds": [],
+      "tags": ["coworker", "story-source", "background"]
+    },
+    {
+      "id": "person-038",
+      "name": "Girl with Bitcoin Backpack",
+      "aliases": [],
+      "role": "Unknown - Observer?",
+      "description": "Girl with a bitcoin logo on her backpack who walked past the gym window while narrator was on treadmill.",
+      "profileImage": "",
+      "notes": [
+        "Bitcoin logo on backpack",
+        "Walked past gym window",
+        "Narrator was on treadmill",
+        "Timing seemed significant"
+      ],
+      "eventIds": ["evt-gym-bitcoin-backpack"],
+      "connectionIds": [],
+      "tags": ["apartment", "gym", "crypto", "observer"]
+    }
+  ]
+}

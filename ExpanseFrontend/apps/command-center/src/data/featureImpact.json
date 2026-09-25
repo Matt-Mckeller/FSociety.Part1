@@ -1,0 +1,710 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-07",
+  
+  "documentation": {
+    "purpose": "Maps features/storylines to their impact on mission goals, enabling data-driven prioritization",
+    "scoringGuide": {
+      "0.0": "No impact on this goal",
+      "0.1-0.3": "Minor/indirect impact",
+      "0.4-0.6": "Moderate impact",
+      "0.7-0.8": "Strong impact",
+      "0.9-1.0": "Critical/primary driver of this goal"
+    },
+    "complexityGuide": {
+      "1": "Simple - days to implement",
+      "2": "Low - 1-2 weeks",
+      "3": "Medium - 2-4 weeks",
+      "4": "High - 1-2 months",
+      "5": "Very High - 2+ months"
+    },
+    "launchRequirements": {
+      "must-have": "Cannot launch without this feature",
+      "should-have": "Strongly recommended for launch",
+      "nice-to-have": "Enhances launch but not required",
+      "future": "Post-launch feature"
+    }
+  },
+
+  "goalDefinitions": {
+    "engagement": "Improve Engagement - Make learning fun and addictive",
+    "mental-health": "Advance Mental Health - Combat youth mental health crisis",
+    "learning": "Enhance Academic Performance - Improve learning outcomes",
+    "growth-mindset": "Instill Growth Mindset - Build identity around improvement"
+  },
+
+  "features": {
+    "4eye-website": {
+      "storylineId": "4eye-website",
+      "name": "4Eye Website",
+      "goalImpact": {
+        "engagement": 0.3,
+        "mental-health": 0.2,
+        "learning": 0.2,
+        "growth-mindset": 0.2
+      },
+      "impactNotes": {
+        "engagement": "First impression and signup flow impacts initial engagement",
+        "mental-health": "Messaging about mental health benefits",
+        "learning": "Communicates learning value proposition",
+        "growth-mindset": "Growth messaging in marketing"
+      },
+      "audienceUnlocks": ["students", "parents", "teachers", "schools"],
+      "audienceNotes": "Website is the gateway for all audiences",
+      "complexity": 3,
+      "timeEstimate": "4-6 weeks",
+      "dependencies": [],
+      "launchRequirement": "must-have",
+      "marketingValue": "high",
+      "revenueImpact": "indirect"
+    },
+
+    "4eye-core": {
+      "storylineId": "4eye-core",
+      "name": "Core Platform",
+      "goalImpact": {
+        "engagement": 0.9,
+        "mental-health": 0.7,
+        "learning": 0.8,
+        "growth-mindset": 0.6
+      },
+      "impactNotes": {
+        "engagement": "Foundation of the entire engagement system",
+        "mental-health": "Core positive reinforcement mechanisms",
+        "learning": "Platform where learning happens",
+        "growth-mindset": "Progress tracking and achievement systems"
+      },
+      "audienceUnlocks": ["students", "parents"],
+      "audienceNotes": "Core platform enables basic student and parent functionality",
+      "complexity": 5,
+      "timeEstimate": "12+ weeks",
+      "dependencies": [],
+      "launchRequirement": "must-have",
+      "marketingValue": "high",
+      "revenueImpact": "direct"
+    },
+
+    "4eye-ai-tutor": {
+      "storylineId": "4eye-ai-tutor",
+      "name": "AI Tutor",
+      "goalImpact": {
+        "engagement": 0.8,
+        "mental-health": 0.6,
+        "learning": 0.95,
+        "growth-mindset": 0.7
+      },
+      "impactNotes": {
+        "engagement": "Personalized interaction keeps students engaged",
+        "mental-health": "Patient, always-available support reduces frustration",
+        "learning": "Primary driver of learning outcomes - adaptive tutoring",
+        "growth-mindset": "Encourages persistence, celebrates progress"
+      },
+      "audienceUnlocks": ["students", "parents", "tutoring"],
+      "audienceNotes": "Key differentiator for tutoring companies",
+      "complexity": 5,
+      "timeEstimate": "10-14 weeks",
+      "dependencies": ["4eye-core"],
+      "launchRequirement": "must-have",
+      "marketingValue": "very-high",
+      "revenueImpact": "direct"
+    },
+
+    "4eye-ai-ui": {
+      "storylineId": "4eye-ai-ui",
+      "name": "AI UI",
+      "goalImpact": {
+        "engagement": 0.7,
+        "mental-health": 0.4,
+        "learning": 0.6,
+        "growth-mindset": 0.3
+      },
+      "impactNotes": {
+        "engagement": "Dynamic, personalized interfaces increase engagement",
+        "mental-health": "Reduced friction and frustration",
+        "learning": "Better UX = more time learning",
+        "growth-mindset": "Adaptive difficulty presentation"
+      },
+      "audienceUnlocks": [],
+      "audienceNotes": "Enhances experience for all, doesn't unlock new audiences",
+      "complexity": 4,
+      "timeEstimate": "6-8 weeks",
+      "dependencies": ["4eye-core"],
+      "launchRequirement": "nice-to-have",
+      "marketingValue": "medium",
+      "revenueImpact": "indirect"
+    },
+
+    "4eye-ai-chat": {
+      "storylineId": "4eye-ai-chat",
+      "name": "AI Chat",
+      "goalImpact": {
+        "engagement": 0.8,
+        "mental-health": 0.7,
+        "learning": 0.8,
+        "growth-mindset": 0.5
+      },
+      "impactNotes": {
+        "engagement": "Conversational interface is highly engaging",
+        "mental-health": "Always available, non-judgmental support",
+        "learning": "Ask questions anytime, get immediate help",
+        "growth-mindset": "Encouragement through dialogue"
+      },
+      "audienceUnlocks": ["students"],
+      "audienceNotes": "Key feature students expect from AI products",
+      "complexity": 4,
+      "timeEstimate": "6-8 weeks",
+      "dependencies": ["4eye-core"],
+      "launchRequirement": "should-have",
+      "marketingValue": "high",
+      "revenueImpact": "direct"
+    },
+
+    "4eye-ai-competition": {
+      "storylineId": "4eye-ai-competition",
+      "name": "AI Competition",
+      "goalImpact": {
+        "engagement": 0.9,
+        "mental-health": 0.4,
+        "learning": 0.6,
+        "growth-mindset": 0.8
+      },
+      "impactNotes": {
+        "engagement": "Competition is extremely engaging for many students",
+        "mental-health": "Can help or hurt - needs careful design",
+        "learning": "Motivation to learn more to compete better",
+        "growth-mindset": "Striving to improve, learning from losses"
+      },
+      "audienceUnlocks": [],
+      "audienceNotes": "Enhances engagement, particularly for competitive students",
+      "complexity": 3,
+      "timeEstimate": "4-6 weeks",
+      "dependencies": ["4eye-core"],
+      "launchRequirement": "nice-to-have",
+      "marketingValue": "high",
+      "revenueImpact": "indirect"
+    },
+
+    "4eye-accessibility": {
+      "storylineId": "4eye-accessibility",
+      "name": "AI Accessibility Tools",
+      "goalImpact": {
+        "engagement": 0.6,
+        "mental-health": 0.8,
+        "learning": 0.7,
+        "growth-mindset": 0.5
+      },
+      "impactNotes": {
+        "engagement": "Removes barriers that prevent engagement",
+        "mental-health": "Inclusion and belonging are critical for mental health",
+        "learning": "Enables learning for those with challenges",
+        "growth-mindset": "Everyone can improve regardless of challenges"
+      },
+      "audienceUnlocks": ["adhd", "diverse-learners"],
+      "audienceNotes": "Critical for ADHD students and diverse learners",
+      "complexity": 4,
+      "timeEstimate": "6-8 weeks",
+      "dependencies": ["4eye-core"],
+      "launchRequirement": "should-have",
+      "marketingValue": "high",
+      "revenueImpact": "indirect"
+    },
+
+    "4eye-feedback": {
+      "storylineId": "4eye-feedback",
+      "name": "AI Feedback Tools",
+      "goalImpact": {
+        "engagement": 0.6,
+        "mental-health": 0.7,
+        "learning": 0.85,
+        "growth-mindset": 0.8
+      },
+      "impactNotes": {
+        "engagement": "Immediate feedback keeps momentum",
+        "mental-health": "Positive, constructive feedback builds confidence",
+        "learning": "Feedback is critical for learning improvement",
+        "growth-mindset": "Shows progress, identifies areas to improve"
+      },
+      "audienceUnlocks": ["teachers"],
+      "audienceNotes": "Major time-saver for teachers",
+      "complexity": 4,
+      "timeEstimate": "6-8 weeks",
+      "dependencies": ["4eye-core", "4eye-homework"],
+      "launchRequirement": "should-have",
+      "marketingValue": "high",
+      "revenueImpact": "direct"
+    },
+
+    "4eye-homework": {
+      "storylineId": "4eye-homework",
+      "name": "AI Homework System",
+      "goalImpact": {
+        "engagement": 0.7,
+        "mental-health": 0.5,
+        "learning": 0.9,
+        "growth-mindset": 0.6
+      },
+      "impactNotes": {
+        "engagement": "Gamified homework increases completion",
+        "mental-health": "Reduced homework anxiety with AI support",
+        "learning": "Direct impact on academic outcomes",
+        "growth-mindset": "Track improvement over assignments"
+      },
+      "audienceUnlocks": ["teachers", "schools"],
+      "audienceNotes": "Key feature for teacher and school adoption",
+      "complexity": 4,
+      "timeEstimate": "8-10 weeks",
+      "dependencies": ["4eye-core"],
+      "launchRequirement": "must-have",
+      "marketingValue": "very-high",
+      "revenueImpact": "direct"
+    },
+
+    "4eye-lms": {
+      "storylineId": "4eye-lms",
+      "name": "AI LMS",
+      "goalImpact": {
+        "engagement": 0.5,
+        "mental-health": 0.3,
+        "learning": 0.7,
+        "growth-mindset": 0.4
+      },
+      "impactNotes": {
+        "engagement": "Organized content improves engagement",
+        "mental-health": "Structure reduces anxiety",
+        "learning": "Proper content organization aids learning",
+        "growth-mindset": "Clear progress through curriculum"
+      },
+      "audienceUnlocks": ["schools"],
+      "audienceNotes": "Required for institutional adoption",
+      "complexity": 5,
+      "timeEstimate": "10-14 weeks",
+      "dependencies": ["4eye-core"],
+      "launchRequirement": "should-have",
+      "marketingValue": "medium",
+      "revenueImpact": "direct"
+    },
+
+    "4eye-note-taking": {
+      "storylineId": "4eye-note-taking",
+      "name": "Note Taking",
+      "goalImpact": {
+        "engagement": 0.5,
+        "mental-health": 0.3,
+        "learning": 0.7,
+        "growth-mindset": 0.4
+      },
+      "impactNotes": {
+        "engagement": "Active note-taking increases engagement",
+        "mental-health": "Personal expression and organization",
+        "learning": "Note-taking improves retention",
+        "growth-mindset": "Building personal knowledge base"
+      },
+      "audienceUnlocks": [],
+      "audienceNotes": "Nice-to-have feature for students",
+      "complexity": 3,
+      "timeEstimate": "4-6 weeks",
+      "dependencies": ["4eye-core"],
+      "launchRequirement": "nice-to-have",
+      "marketingValue": "low",
+      "revenueImpact": "indirect"
+    },
+
+    "4eye-person-profile": {
+      "storylineId": "4eye-person-profile",
+      "name": "Person Profile/Attributes",
+      "goalImpact": {
+        "engagement": 0.7,
+        "mental-health": 0.8,
+        "learning": 0.6,
+        "growth-mindset": 0.9
+      },
+      "impactNotes": {
+        "engagement": "Personalization increases engagement",
+        "mental-health": "Identity building, self-discovery",
+        "learning": "Adaptive paths based on profile",
+        "growth-mindset": "Core to identity-focused growth"
+      },
+      "audienceUnlocks": ["students"],
+      "audienceNotes": "Key differentiator for identity-focused approach",
+      "complexity": 3,
+      "timeEstimate": "4-6 weeks",
+      "dependencies": ["4eye-core"],
+      "launchRequirement": "should-have",
+      "marketingValue": "high",
+      "revenueImpact": "indirect"
+    },
+
+    "4eye-content-gen": {
+      "storylineId": "4eye-content-gen",
+      "name": "Content Generation",
+      "goalImpact": {
+        "engagement": 0.6,
+        "mental-health": 0.4,
+        "learning": 0.8,
+        "growth-mindset": 0.5
+      },
+      "impactNotes": {
+        "engagement": "Fresh, personalized content stays engaging",
+        "mental-health": "Content matched to student level reduces frustration",
+        "learning": "Unlimited practice problems and explanations",
+        "growth-mindset": "Adaptive difficulty progression"
+      },
+      "audienceUnlocks": ["teachers"],
+      "audienceNotes": "Huge time-saver for teachers creating materials",
+      "complexity": 4,
+      "timeEstimate": "6-8 weeks",
+      "dependencies": ["4eye-core"],
+      "launchRequirement": "should-have",
+      "marketingValue": "high",
+      "revenueImpact": "direct"
+    },
+
+    "4eye-code-gen": {
+      "storylineId": "4eye-code-gen",
+      "name": "Code Generation",
+      "goalImpact": {
+        "engagement": 0.5,
+        "mental-health": 0.3,
+        "learning": 0.6,
+        "growth-mindset": 0.4
+      },
+      "impactNotes": {
+        "engagement": "Interactive coding is engaging",
+        "mental-health": "Creative expression through code",
+        "learning": "Learning programming skills",
+        "growth-mindset": "Building and creating"
+      },
+      "audienceUnlocks": [],
+      "audienceNotes": "Niche feature for CS education",
+      "complexity": 3,
+      "timeEstimate": "4-6 weeks",
+      "dependencies": ["4eye-core"],
+      "launchRequirement": "future",
+      "marketingValue": "medium",
+      "revenueImpact": "indirect"
+    },
+
+    "4eye-library": {
+      "storylineId": "4eye-library",
+      "name": "Library",
+      "goalImpact": {
+        "engagement": 0.4,
+        "mental-health": 0.3,
+        "learning": 0.7,
+        "growth-mindset": 0.4
+      },
+      "impactNotes": {
+        "engagement": "Resource access can increase engagement",
+        "mental-health": "Self-directed exploration",
+        "learning": "Access to learning materials",
+        "growth-mindset": "Independent learning"
+      },
+      "audienceUnlocks": [],
+      "audienceNotes": "Supporting feature",
+      "complexity": 3,
+      "timeEstimate": "4-6 weeks",
+      "dependencies": ["4eye-core"],
+      "launchRequirement": "nice-to-have",
+      "marketingValue": "low",
+      "revenueImpact": "indirect"
+    },
+
+    "4eye-learning-to-learn": {
+      "storylineId": "4eye-learning-to-learn",
+      "name": "Learning To Learn",
+      "goalImpact": {
+        "engagement": 0.5,
+        "mental-health": 0.7,
+        "learning": 0.85,
+        "growth-mindset": 0.9
+      },
+      "impactNotes": {
+        "engagement": "Meta-learning skills increase overall engagement",
+        "mental-health": "Understanding how you learn reduces anxiety",
+        "learning": "Core to improving learning outcomes",
+        "growth-mindset": "Belief that learning skills can improve"
+      },
+      "audienceUnlocks": [],
+      "audienceNotes": "Differentiating feature for growth mindset focus",
+      "complexity": 3,
+      "timeEstimate": "4-6 weeks",
+      "dependencies": ["4eye-core"],
+      "launchRequirement": "nice-to-have",
+      "marketingValue": "high",
+      "revenueImpact": "indirect"
+    },
+
+    "4eye-attention": {
+      "storylineId": "4eye-attention",
+      "name": "Learning About Attention",
+      "goalImpact": {
+        "engagement": 0.7,
+        "mental-health": 0.8,
+        "learning": 0.7,
+        "growth-mindset": 0.7
+      },
+      "impactNotes": {
+        "engagement": "Understanding attention improves engagement",
+        "mental-health": "Attention management reduces stress",
+        "learning": "Better focus = better learning",
+        "growth-mindset": "Attention is a skill that can improve"
+      },
+      "audienceUnlocks": ["adhd"],
+      "audienceNotes": "Critical for ADHD students",
+      "complexity": 3,
+      "timeEstimate": "4-6 weeks",
+      "dependencies": ["4eye-core"],
+      "launchRequirement": "nice-to-have",
+      "marketingValue": "high",
+      "revenueImpact": "indirect"
+    },
+
+    "4eye-mental-health": {
+      "storylineId": "4eye-mental-health",
+      "name": "Learning About Mental Health",
+      "goalImpact": {
+        "engagement": 0.4,
+        "mental-health": 0.95,
+        "learning": 0.5,
+        "growth-mindset": 0.7
+      },
+      "impactNotes": {
+        "engagement": "Important content but not primary engagement driver",
+        "mental-health": "Direct, primary impact on mental health goals",
+        "learning": "Learning about mental health",
+        "growth-mindset": "Mental health as something you can improve"
+      },
+      "audienceUnlocks": [],
+      "audienceNotes": "Strong differentiator for mental health focus",
+      "complexity": 3,
+      "timeEstimate": "4-6 weeks",
+      "dependencies": ["4eye-core"],
+      "launchRequirement": "should-have",
+      "marketingValue": "very-high",
+      "revenueImpact": "indirect"
+    },
+
+    "4eye-focus-music": {
+      "storylineId": "4eye-focus-music",
+      "name": "Focus Music App",
+      "goalImpact": {
+        "engagement": 0.5,
+        "mental-health": 0.6,
+        "learning": 0.4,
+        "growth-mindset": 0.3
+      },
+      "impactNotes": {
+        "engagement": "Music can extend session times",
+        "mental-health": "Calming, focus-enhancing audio",
+        "learning": "Improved focus aids learning",
+        "growth-mindset": "Minor impact"
+      },
+      "audienceUnlocks": [],
+      "audienceNotes": "Nice feature for differentiation",
+      "complexity": 2,
+      "timeEstimate": "2-4 weeks",
+      "dependencies": ["4eye-core"],
+      "launchRequirement": "future",
+      "marketingValue": "medium",
+      "revenueImpact": "indirect"
+    },
+
+    "4eye-lms-integration": {
+      "storylineId": "4eye-lms-integration",
+      "name": "LMS Integration",
+      "goalImpact": {
+        "engagement": 0.4,
+        "mental-health": 0.2,
+        "learning": 0.5,
+        "growth-mindset": 0.2
+      },
+      "impactNotes": {
+        "engagement": "Seamless workflow increases adoption",
+        "mental-health": "Reduced friction",
+        "learning": "Data flows between systems",
+        "growth-mindset": "Minor impact"
+      },
+      "audienceUnlocks": ["schools"],
+      "audienceNotes": "Required for many school districts",
+      "complexity": 4,
+      "timeEstimate": "6-8 weeks",
+      "dependencies": ["4eye-core", "4eye-lms"],
+      "launchRequirement": "should-have",
+      "marketingValue": "medium",
+      "revenueImpact": "direct"
+    },
+
+    "4eye-social": {
+      "storylineId": "4eye-social",
+      "name": "AI Social Media",
+      "goalImpact": {
+        "engagement": 0.7,
+        "mental-health": 0.4,
+        "learning": 0.4,
+        "growth-mindset": 0.5
+      },
+      "impactNotes": {
+        "engagement": "Social features are highly engaging",
+        "mental-health": "Needs careful design - can help or hurt",
+        "learning": "Peer learning and discussion",
+        "growth-mindset": "Social proof and peer modeling"
+      },
+      "audienceUnlocks": [],
+      "audienceNotes": "Enhances engagement for social learners",
+      "complexity": 4,
+      "timeEstimate": "6-8 weeks",
+      "dependencies": ["4eye-core"],
+      "launchRequirement": "future",
+      "marketingValue": "medium",
+      "revenueImpact": "indirect"
+    },
+
+    "4eye-symbol-memorization": {
+      "storylineId": "4eye-symbol-memorization",
+      "name": "AI Symbol Memorization",
+      "goalImpact": {
+        "engagement": 0.6,
+        "mental-health": 0.4,
+        "learning": 0.8,
+        "growth-mindset": 0.6
+      },
+      "impactNotes": {
+        "engagement": "Gamified memorization is engaging",
+        "mental-health": "Mastery builds confidence",
+        "learning": "Core learning skill - vocabulary, formulas",
+        "growth-mindset": "Visible progress in memorization"
+      },
+      "audienceUnlocks": [],
+      "audienceNotes": "Valuable for language and science learners",
+      "complexity": 3,
+      "timeEstimate": "4-6 weeks",
+      "dependencies": ["4eye-core"],
+      "launchRequirement": "nice-to-have",
+      "marketingValue": "medium",
+      "revenueImpact": "indirect"
+    },
+
+    "4eye-translations": {
+      "storylineId": "4eye-translations",
+      "name": "AI Translations",
+      "goalImpact": {
+        "engagement": 0.5,
+        "mental-health": 0.6,
+        "learning": 0.7,
+        "growth-mindset": 0.4
+      },
+      "impactNotes": {
+        "engagement": "Enables engagement for non-English speakers",
+        "mental-health": "Inclusion for multilingual students",
+        "learning": "Learning in native language improves outcomes",
+        "growth-mindset": "Minor impact"
+      },
+      "audienceUnlocks": ["multilingual"],
+      "audienceNotes": "Opens market to non-English speakers",
+      "complexity": 3,
+      "timeEstimate": "4-6 weeks",
+      "dependencies": ["4eye-core"],
+      "launchRequirement": "nice-to-have",
+      "marketingValue": "medium",
+      "revenueImpact": "indirect"
+    },
+
+    "4eye-presentations": {
+      "storylineId": "4eye-presentations",
+      "name": "Presentations",
+      "goalImpact": {
+        "engagement": 0.5,
+        "mental-health": 0.4,
+        "learning": 0.6,
+        "growth-mindset": 0.5
+      },
+      "impactNotes": {
+        "engagement": "Creating presentations is engaging",
+        "mental-health": "Creative expression",
+        "learning": "Teaching others reinforces learning",
+        "growth-mindset": "Skill development"
+      },
+      "audienceUnlocks": ["teachers"],
+      "audienceNotes": "Time-saver for teacher presentations",
+      "complexity": 3,
+      "timeEstimate": "4-6 weeks",
+      "dependencies": ["4eye-core", "4eye-content-gen"],
+      "launchRequirement": "nice-to-have",
+      "marketingValue": "medium",
+      "revenueImpact": "indirect"
+    },
+
+    "4eye-knowledge-agents": {
+      "storylineId": "4eye-knowledge-agents",
+      "name": "AI Knowledge Agents",
+      "goalImpact": {
+        "engagement": 0.7,
+        "mental-health": 0.5,
+        "learning": 0.8,
+        "growth-mindset": 0.5
+      },
+      "impactNotes": {
+        "engagement": "Personalized agents are engaging",
+        "mental-health": "Teacher-controlled safety",
+        "learning": "Section-specific expertise",
+        "growth-mindset": "Model continuous learning"
+      },
+      "audienceUnlocks": ["teachers"],
+      "audienceNotes": "Unique feature for teacher control",
+      "complexity": 4,
+      "timeEstimate": "6-8 weeks",
+      "dependencies": ["4eye-core", "4eye-ai-tutor"],
+      "launchRequirement": "nice-to-have",
+      "marketingValue": "high",
+      "revenueImpact": "indirect"
+    },
+
+    "4eye-teacher-feedback": {
+      "storylineId": "4eye-teacher-feedback",
+      "name": "Teacher Feedback on AI Interactions",
+      "goalImpact": {
+        "engagement": 0.4,
+        "mental-health": 0.6,
+        "learning": 0.7,
+        "growth-mindset": 0.5
+      },
+      "impactNotes": {
+        "engagement": "Teacher involvement increases engagement",
+        "mental-health": "Human connection through AI review",
+        "learning": "Teacher insights improve AI responses",
+        "growth-mindset": "Feedback loop for improvement"
+      },
+      "audienceUnlocks": ["teachers"],
+      "audienceNotes": "Addresses teacher concerns about AI oversight",
+      "complexity": 3,
+      "timeEstimate": "4-6 weeks",
+      "dependencies": ["4eye-core", "4eye-ai-chat"],
+      "launchRequirement": "should-have",
+      "marketingValue": "high",
+      "revenueImpact": "indirect"
+    }
+  },
+
+  "aggregations": {
+    "byLaunchRequirement": {
+      "must-have": ["4eye-website", "4eye-core", "4eye-ai-tutor", "4eye-homework"],
+      "should-have": ["4eye-ai-chat", "4eye-accessibility", "4eye-feedback", "4eye-lms", "4eye-person-profile", "4eye-content-gen", "4eye-mental-health", "4eye-lms-integration", "4eye-teacher-feedback"],
+      "nice-to-have": ["4eye-ai-ui", "4eye-ai-competition", "4eye-note-taking", "4eye-library", "4eye-learning-to-learn", "4eye-attention", "4eye-symbol-memorization", "4eye-translations", "4eye-presentations", "4eye-knowledge-agents"],
+      "future": ["4eye-code-gen", "4eye-focus-music", "4eye-social"]
+    },
+    "byPrimaryGoal": {
+      "engagement": ["4eye-core", "4eye-ai-tutor", "4eye-ai-chat", "4eye-ai-competition"],
+      "mental-health": ["4eye-mental-health", "4eye-person-profile", "4eye-accessibility", "4eye-attention"],
+      "learning": ["4eye-ai-tutor", "4eye-homework", "4eye-feedback", "4eye-learning-to-learn"],
+      "growth-mindset": ["4eye-person-profile", "4eye-learning-to-learn", "4eye-ai-competition"]
+    }
+  },
+
+  "metadata": {
+    "campaign": "4eye",
+    "totalFeatures": 25,
+    "scoringMethod": "manual-with-ai-assistance",
+    "lastReviewedBy": "AI Assistant",
+    "notes": "Initial scoring based on feature descriptions and goal alignment analysis. Scores should be refined with user research and validation."
+  }
+}

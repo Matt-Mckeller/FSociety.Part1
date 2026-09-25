@@ -1,0 +1,235 @@
+{
+  "sample": {
+    "durationSeconds": 95,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "We're watching a video about the solar system.",
+          "timestamp": 0,
+          "confidence": 0.95
+        },
+        {
+          "text": "I'll pause to discuss important points.",
+          "timestamp": 4.7,
+          "confidence": 0.94
+        },
+        {
+          "text": "[Video narrator] The solar system formed",
+          "timestamp": 10.3,
+          "confidence": 0.87
+        },
+        {
+          "text": "about 4.6 billion years ago.",
+          "timestamp": 14.8,
+          "confidence": 0.89
+        },
+        {
+          "text": "[Video continues with animation sounds]",
+          "timestamp": 20.4,
+          "confidence": 0.73
+        },
+        {
+          "text": "[Teacher pauses] Notice how the video shows",
+          "timestamp": 35.7,
+          "confidence": 0.92
+        },
+        {
+          "text": "the relative sizes of the planets.",
+          "timestamp": 40.3,
+          "confidence": 0.93
+        },
+        {
+          "text": "Jupiter is much larger than Earth.",
+          "timestamp": 44.8,
+          "confidence": 0.94
+        },
+        {
+          "text": "[Video resumes] The gas giants...",
+          "timestamp": 50.2,
+          "confidence": 0.85
+        },
+        {
+          "text": "[Video audio with music]",
+          "timestamp": 56.8,
+          "confidence": 0.68
+        },
+        {
+          "text": "[Teacher] This part about the asteroid belt",
+          "timestamp": 72.4,
+          "confidence": 0.91
+        },
+        {
+          "text": "will be on Friday's quiz, so take notes.",
+          "timestamp": 77.1,
+          "confidence": 0.92
+        },
+        {
+          "text": "[Video continues]",
+          "timestamp": 82.6,
+          "confidence": 0.71
+        },
+        {
+          "text": "[Video ending music]",
+          "timestamp": 90.3,
+          "confidence": 0.65
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.85,
+    "appropriatenessScore": 1,
+    "warnings": [],
+    "isMainLectureContent_confidence": 0.9,
+    "isSideConversation_confidence": 0.05,
+    "isIrrelevantContent_confidence": 0.05,
+    "isPartialResponse": true,
+    "expectedCompletionTime": 90,
+    "tags": [
+      "science",
+      "astronomy",
+      "solar_system",
+      "planets",
+      "asteroid_belt",
+      "middle_school_science"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": true,
+    "summarization": "The teacher is guiding a class through a video about the solar system. Key points highlighted include its formation 4.6 billion years ago, the vast difference in the relative sizes of planets, specifically comparing Jupiter and Earth, and the location and importance of the asteroid belt. The teacher explicitly states that information about the asteroid belt will be on an upcoming quiz, prompting students to take notes.",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "• Topic: The Solar System (via video).\n• Formation: Began ~4.6 billion years ago.\n• Key Concept 1: Relative sizes of planets are important (e.g., Jupiter is much larger than Earth).\n• Key Concept 2: The asteroid belt is a critical topic for the upcoming Friday quiz."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.85,
+        "text": "A teacher uses a video to explain the solar system, pausing to emphasize the relative sizes of planets like Jupiter and to alert students that the section on the asteroid belt is important for their next quiz."
+      },
+      {
+        "version": "narrative",
+        "comparativeValueToRecommendedModality": 0.7,
+        "text": "The class embarked on a cosmic journey through a video, starting 4.6 billion years in the past with the birth of our solar system. The teacher acted as a guide, pausing the voyage to point out the sheer scale of the planets, making sure everyone appreciated how tiny Earth is next to a giant like Jupiter. The tour then approached a crucial landmark, the asteroid belt, with the teacher giving a clear warning: 'Pay close attention, this will be on your quiz!'"
+      }
+    ],
+    "oneLineSummarization": "A teacher guides students through a video on the solar system, highlighting planet sizes and the asteroid belt's importance for a quiz.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "VISUAL",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Picture our sun at the center. The first four planets are small, rocky worlds. Then, you cross a vast, sparse ring of millions of space rocks – this is the asteroid belt. Beyond that belt are the massive gas giants, with Jupiter being so enormous you could fit all the other planets inside it. This spatial layout helps you understand why the asteroid belt is a key dividing line in our solar system's structure."
+      },
+      {
+        "effectiveness": "high",
+        "type": "ASSOCIATIONS",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "Think of the solar system like a city. The Sun is the central power plant. The inner, rocky planets are like the dense downtown district. The asteroid belt is like a massive, circular highway or greenbelt separating downtown from the suburbs. And the gas giants are the sprawling, huge suburban estates. This analogy helps you remember the order and separation between the inner and outer planets."
+      },
+      {
+        "effectiveness": "high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.8,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.8,
+        "text": "The formation of the solar system followed a logical sequence. First, a cloud of gas and dust collapsed, forming the Sun. Next, the remaining material flattened into a disk. In the hot inner disk, rocky planets like Earth formed. In the colder outer disk, gas giants like Jupiter collected huge amounts of gas. The asteroid belt is leftover material that was prevented from forming a planet due to Jupiter's immense gravity."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "AUDITORY",
+        "relativeEffectivenessWeight": 0.6,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.6,
+        "text": "To remember the planets, we can use a simple phrase where the first letter of each word matches a planet. A classic is: 'My Very Educated Mother Just Served Us Noodles' for Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. The asteroid belt fits right after 'Mother' (Mars), before you get to the 'Just' (Jupiter) part of the meal."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "SPATIAL_DIAGRAM",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "INFOGRAPHIC",
+          "ANNOTATED_TEXT"
+        ],
+        "title": "Our Solar System: Planets and the Asteroid Belt",
+        "reasonForSuggestion": "This directly visualizes the core concepts mentioned: relative planet sizes and the location of the asteroid belt. A spatial diagram is the most effective way to convey this information and serves as an excellent study guide for the quiz.",
+        "promptForGeneration": "Create an infographic-style SVG diagram of the solar system for a middle school science class. Show the Sun on the left and the eight planets in order of their orbits. Depict the relative sizes accurately (e.g., Jupiter significantly larger than Earth). Between Mars and Jupiter, draw a sparse ring labeled 'Asteroid Belt'. Use callout boxes to annotate Earth, Jupiter, and the Asteroid Belt. The Jupiter callout should say 'Largest Planet'. The Earth callout should say 'Our Home'. The Asteroid Belt callout should say 'Important for Friday's Quiz!'. Use a dark background with bright, engaging colors for the planets. Ensure all text is clear, readable, and uses a sans-serif font."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.9,
+        "coreType": "COMPARISON_MATRIX",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "TABLE",
+          "SVG_DIAGRAM"
+        ],
+        "title": "Planet Size Comparison: Earth vs. Jupiter",
+        "reasonForSuggestion": "The teacher specifically called out the size difference between Earth and Jupiter. This visualization isolates and clarifies that single, important data point in a very direct and memorable way.",
+        "promptForGeneration": "Generate an HTML component with two columns for a 6th-grade audience. The left column is titled 'Earth' and the right is 'Jupiter'. In each column, display a simple SVG circle representing the planet, with Jupiter's circle diameter being 11 times larger than Earth's. Below each planet image, list key facts in a simple table: 'Diameter' (Earth: ~12,742 km, Jupiter: ~139,820 km) and 'Fun Fact' (Earth: 'Our home!', Jupiter: 'So big, all other planets could fit inside it!'). Use bold text for titles and a clean, simple layout."
+      }
+    ],
+    "purpose": "Understanding our solar system provides fundamental knowledge about our place in the universe. It's the first step in grasping concepts of gravity, orbits, planetary science, and the conditions necessary for life, forming the basis for all further studies in astronomy and physics.",
+    "motivation": "Have you ever looked up at the night sky and wondered what's out there? This is the story of our cosmic neighborhood. Learning about the giant planets, rocky worlds, and belts of asteroids helps you understand that you live on a unique planet in a vast and incredible system. It's the science behind every sci-fi movie and the dream of every astronaut.",
+    "learningValueScore": 0.88,
+    "availableActions": [
+      {
+        "actionLabel": "Show Diagram",
+        "reason": "Visualize the layout of the solar system to understand the location of the asteroid belt and relative planet sizes.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "Quiz Prep",
+        "reason": "Focus on key facts about the asteroid belt, as the teacher highlighted its importance for the upcoming quiz.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Compare Sizes",
+        "reason": "See a direct visual comparison of Earth and Jupiter to grasp the scale difference mentioned by the teacher.",
+        "recommendationPriority": "high"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "Solar System": {
+        "definition": "The collection of the Sun and all the celestial objects that orbit it, including planets, moons, asteroids, and comets.",
+        "context": "The video provided an overview of our solar system's formation and layout.",
+        "simpler": "Our Sun and everything that travels around it."
+      },
+      "Asteroid Belt": {
+        "definition": "A region of space between the orbits of Mars and Jupiter where most of the solar system's asteroids are found.",
+        "context": "The teacher emphasized that this topic would be on the quiz.",
+        "simpler": "A giant ring of space rocks between the inner and outer planets."
+      }
+    },
+    "recommendationsToTeacher": [
+      "Use an interactive 3D model of the solar system online to allow students to explore the planets and their orbits dynamically.",
+      "Reinforce the concept of scale by using a physical analogy in the classroom, such as comparing a peppercorn (Earth) to a basketball (Jupiter).",
+      "Since the asteroid belt is on the quiz, consider a quick 'think-pair-share' activity where students discuss why a planet didn't form in that location."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:58:07.976Z",
+    "latencyMs": 35552,
+    "tokenUsage": {
+      "input": 7188,
+      "output": 2491,
+      "total": 11028
+    }
+  }
+}

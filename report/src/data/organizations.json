@@ -1,0 +1,384 @@
+{
+  "organizations": [
+    {
+      "id": "org-001",
+      "name": "Mac Properties",
+      "type": "property_management",
+      "description": "Property management company that owns/operates apartment building where narrator lived. Suspected connections to casinos and clubs in Westport area. Also has properties in Chicago. Narrator also sent an email to the 'executives' with a cockroach research prompt and suggestions for improving their laundry room.",
+      "concerns": [
+        "Ticket appeared at casino without being given",
+        "Suspected ownership of clubs and casinos",
+        "Potential camera access across properties",
+        "Water contamination from cockroaches not being addressed. Likely influence over local government/police.",
+        "Doorway repairs started after conversations"
+      ],
+      "knownLocationIds": ["loc-003", "loc-004", "loc-005", "loc-006"],
+      "knownPersonIds": ["person-014"],
+      "eventIds": ["evt-hollywood-tournament"],
+      "perspectives": [
+        {
+          "type": "criminal",
+          "interpretation": "Central organization connecting apartments, clubs, and casinos for potential money laundering operation",
+          "likelihood": "high",
+          "reasoning": "Ticket connection between apartment and casino, camera access, club ownership theories"
+        },
+        {
+          "type": "business",
+          "interpretation": "Large real estate company with diverse holdings",
+          "likelihood": "medium"
+        }
+      ],
+      "websites": ["https://www.macapartments.com"],
+      "notes": [
+        "Address: 214 E Armour",
+        "Also has properties in Chicago",
+        "Outside looks good but inside questionable"
+      ]
+    },
+    {
+      "id": "org-002",
+      "name": "TransitPros",
+      "type": "employer",
+      "description": "Towing software company where narrator worked. Extremely poor security practices. Worked with Copart. Questionable legitimacy. Coworker told me a story of his younger life of working for a loan shark who eventually became mayor. He became a policeman and got kicked off the force after giving his son a ticket. Claims this was in Denver and he moved away from there.",
+      "concerns": [
+        "Terrible code quality and security",
+        "Sending gift cards instead of real payments",
+        "Form entry was terrible",
+        "Had EIN information for many towing vendors with no security",
+        "Did not see actual users on observability implementation",
+        "Accounting separated from software"
+      ],
+      "knownLocationIds": [],
+      "knownPersonIds": ["person-020"],
+      "eventIds": [],
+      "perspectives": [
+        {
+          "type": "criminal",
+          "interpretation": "Potentially a shell company for money laundering",
+          "likelihood": "medium",
+          "reasoning": "Gift cards instead of payments, few visible employees, poor security could be intentional"
+        },
+        {
+          "type": "business",
+          "interpretation": "Just a poorly run organization with no idea how to build software",
+          "likelihood": "high"
+        },
+        {
+          "type": "government",
+          "interpretation": "Cover for observation due to towing industry connection to national security",
+          "likelihood": "low"
+        }
+      ],
+      "websites": [],
+      "notes": [
+        "Primary app called 'Secondary'",
+        "Worked with Copart as primary company",
+        "Narrator learned a lot about engagement, motivation, AI, observability"
+      ]
+    },
+    {
+      "id": "org-003",
+      "name": "Copart",
+      "type": "retail",
+      "description": "Online vehicle auction company. Primary client of TransitPros.",
+      "concerns": [],
+      "knownLocationIds": [],
+      "knownPersonIds": [],
+      "eventIds": [],
+      "perspectives": [
+        {
+          "type": "business",
+          "interpretation": "Legitimate auto auction company",
+          "likelihood": "high"
+        }
+      ],
+      "websites": ["https://www.copart.com"],
+      "notes": ["TransitPros primary client"]
+    },
+    {
+      "id": "org-004",
+      "name": "Scenic City Medical Equipment",
+      "type": "medical",
+      "description": "Organization sending suspicious texts about 49k loan/file. Website does not exist. Texts coincided closely with dentist visits and other events.",
+      "concerns": [
+        "Website brown@sceniccitymedical.org does not exist",
+        "Multiple texts about 49k in working capital",
+        "Timing coincided with dentist appointments and haircut",
+        "Texts said 'DM SALES NY' at end"
+      ],
+      "knownLocationIds": ["loc-017"],
+      "knownPersonIds": [],
+      "eventIds": ["evt-dentist-encounter", "evt-barbershop"],
+      "perspectives": [
+        {
+          "type": "criminal",
+          "interpretation": "Indirect communication method for criminal organization, possibly drug sales or meeting coordination",
+          "likelihood": "high",
+          "reasoning": "Fake website, timing with other events, 'brown' connection to dental"
+        },
+        {
+          "type": "business",
+          "interpretation": "Medical relates to Expanse EDU mental health goals",
+          "likelihood": "low"
+        }
+      ],
+      "websites": [],
+      "notes": [
+        "Phone: 888-315-5390 and 469-423-6375",
+        "Texts on 12/8, 12/9, 12/22, 12/23",
+        "Mentioned 49k file and working capital"
+      ]
+    },
+    {
+      "id": "org-005",
+      "name": "Harrahs Casino",
+      "type": "casino",
+      "description": "Casino in Kansas City where initial significant events occurred. Multiple suspicious encounters and possible money laundering system observed.",
+      "concerns": [
+        "Dealer mentioned narrator's father unprompted",
+        "Banker made cryptic investment offers",
+        "Coins from vending machine to tip jar",
+        "Dealers named Matthew and Shane (narrator's names)",
+        "Real estate guy waiting for something"
+      ],
+      "knownLocationIds": ["loc-009"],
+      "knownPersonIds": ["person-002", "person-003", "person-004", "person-005", "person-006", "person-007"],
+      "eventIds": ["evt-casino-day-1-coins-entryway", "evt-harrahs-day2", "evt-harrahs-day2"],
+      "perspectives": [
+        {
+          "type": "criminal",
+          "interpretation": "Part of money laundering operation using rigged poker tables and nonverbal signaling",
+          "likelihood": "high"
+        }
+      ],
+      "websites": ["https://www.caesars.com/harrahs-kansas-city"],
+      "notes": []
+    },
+    {
+      "id": "org-006",
+      "name": "Hollywood Casino",
+      "type": "casino",
+      "description": "Casino in Kansas City where Green Chip Poker Tournament occurred. Mac Properties ticket mysteriously returned here.",
+      "concerns": [
+        "Dealer said 'let me turn it on for you'",
+        "Chip rotation appeared to affect outcomes",
+        "Mac Properties ticket returned with ID",
+        "Dealer mentioned 10 of diamonds narrator didn't have"
+      ],
+      "knownLocationIds": ["loc-010"],
+      "knownPersonIds": ["person-021"],
+      "eventIds": ["evt-hollywood-tournament"],
+      "perspectives": [
+        {
+          "type": "criminal",
+          "interpretation": "Connected to same laundering system as Harrahs, controlled poker outcomes",
+          "likelihood": "high"
+        }
+      ],
+      "websites": ["https://www.hollywoodcasinokansas.com"],
+      "notes": ["Green chip tournament", "Near Starbucks location"]
+    },
+    {
+      "id": "org-007",
+      "name": "Keystone Colab",
+      "type": "unknown",
+      "description": "Coworking/event space where data science event occurred. Logan encounter happened here.",
+      "concerns": [
+        "Logan showed up with NDA papers and crypto app",
+        "Random mention of 'Lysol' matching apartment item"
+      ],
+      "knownLocationIds": ["loc-011"],
+      "knownPersonIds": ["person-015", "person-016"],
+      "eventIds": ["evt-keystone-logan"],
+      "perspectives": [
+        {
+          "type": "criminal",
+          "interpretation": "Meeting point for recruitment or testing",
+          "likelihood": "medium"
+        },
+        {
+          "type": "business",
+          "interpretation": "Legitimate coworking space, Logan was independent",
+          "likelihood": "medium"
+        }
+      ],
+      "websites": [],
+      "notes": ["Data science event", "Invited by Rey from club"]
+    },
+    {
+      "id": "org-008",
+      "name": "Google",
+      "type": "technology",
+      "description": "Technology company. Narrator worked with Google Classroom integration at Clever Education. Mentioned as potential observer.",
+      "concerns": [],
+      "knownLocationIds": [],
+      "knownPersonIds": [],
+      "eventIds": [],
+      "perspectives": [
+        {
+          "type": "government",
+          "interpretation": "Could be monitoring or involved in observation",
+          "likelihood": "low"
+        }
+      ],
+      "websites": ["https://www.google.com"],
+      "notes": ["Worked on Google Classroom integration", "Sent email to higher level PMs about business plans"]
+    },
+    {
+      "id": "org-009",
+      "name": "Kahoot",
+      "type": "education",
+      "description": "Education technology company. Narrator worked with Kahoot and sent emails to higher level PMs about desired company plans.",
+      "concerns": [],
+      "knownLocationIds": [],
+      "knownPersonIds": [],
+      "eventIds": [],
+      "perspectives": [],
+      "websites": ["https://www.kahoot.com"],
+      "notes": ["Education/learning platform", "Narrator sent emails about company plans"]
+    },
+    {
+      "id": "org-010",
+      "name": "Clever Education",
+      "type": "education",
+      "description": "Education technology company. Narrator worked a short C2C contract integrating with Google Classroom.",
+      "concerns": [],
+      "knownLocationIds": [],
+      "knownPersonIds": [],
+      "eventIds": [],
+      "perspectives": [],
+      "websites": ["https://www.clever.com"],
+      "notes": ["C2C contract", "Google Classroom integration work"]
+    },
+    {
+      "id": "org-011",
+      "name": "Blue Cross Blue Shield",
+      "type": "insurance",
+      "description": "Health insurance company. Rey claims to work here.",
+      "concerns": [],
+      "knownLocationIds": [],
+      "knownPersonIds": ["person-016"],
+      "eventIds": [],
+      "perspectives": [],
+      "websites": ["https://www.bcbs.com"],
+      "notes": ["Rey's claimed employer"]
+    },
+    {
+      "id": "org-012",
+      "name": "Uber",
+      "type": "rideshare",
+      "description": "Rideshare company. Narrator previously drove for Uber. Source of stories told at casino (OnlyFans woman, rifles incident).",
+      "concerns": [],
+      "knownLocationIds": [],
+      "knownPersonIds": [],
+      "eventIds": ["evt-casino-day-1-coins-entryway"],
+      "perspectives": [],
+      "websites": ["https://www.uber.com"],
+      "notes": ["Previous employment", "Source of casino storytelling content"]
+    },
+    {
+      "id": "org-013",
+      "name": "IRS",
+      "type": "government",
+      "description": "Internal Revenue Service. Fake IRS papers received in mail with full SSN visible. Logan also showed papers with IRS on them.",
+      "concerns": [
+        "Fake IRS forms received",
+        "Full SSN visible on papers",
+        "Logan showed IRS papers at Keystone"
+      ],
+      "knownLocationIds": [],
+      "knownPersonIds": ["person-015"],
+      "eventIds": ["evt-keystone-logan"],
+      "perspectives": [
+        {
+          "type": "criminal",
+          "interpretation": "Identity theft or intimidation using fake government documents",
+          "likelihood": "medium"
+        }
+      ],
+      "websites": ["https://www.irs.gov"],
+      "notes": ["Fake forms received", "SSN exposure concern"]
+    },
+    {
+      "id": "org-014",
+      "name": "AT&T",
+      "type": "telecom",
+      "description": "Telecommunications company. Phone purchased at Microcenter was unable to be set up on AT&T network.",
+      "concerns": [
+        "Unlocked Phone couldn't activate on network. Made me start wondering if Microcenter supply chain was compromised."
+      ],
+      "knownLocationIds": ["loc-020"],
+      "knownPersonIds": [],
+      "eventIds": ["evt-microcenter"],
+      "perspectives": [
+        {
+          "type": "government",
+          "interpretation": "Phone blocked or flagged in system",
+          "likelihood": "low"
+        }
+      ],
+      "websites": ["https://www.att.com"],
+      "notes": ["Phone activation failed"]
+    },
+    {
+      "id": "org-015",
+      "name": "1888 Coffee",
+      "type": "coffee_shop",
+      "description": "Coffee shop where narrator purchased coffee on 12/12/2025 at 2:57 PM before giving it to Mac Properties mailroom person.",
+      "concerns": [],
+      "knownLocationIds": ["loc-029"],
+      "knownPersonIds": [],
+      "eventIds": ["evt-1888-coffee-mailroom"],
+      "perspectives": [],
+      "websites": [],
+      "notes": ["Coffee given to mailroom person", "Time: 2:57 PM"]
+    },
+    {
+      "id": "org-016",
+      "name": "Expanse EDU",
+      "type": "education",
+      "description": "Narrator's own education technology company. Focus on improving learning, motivation, engagement, and mental health. Uses coins/rewards system for financial literacy and engagement. Logo colors are blue.",
+      "concerns": [],
+      "knownLocationIds": [],
+      "knownPersonIds": ["person-001"],
+      "eventIds": [],
+      "perspectives": [
+        {
+          "type": "business",
+          "interpretation": "Legitimate education startup with innovative engagement model",
+          "likelihood": "high"
+        }
+      ],
+      "websites": [],
+      "notes": [
+        "Narrator's company",
+        "Education focus",
+        "Coins/rewards system for engagement",
+        "Mental health goals",
+        "Blue company colors",
+        "Financial literacy component"
+      ]
+    },
+    {
+      "id": "org-017",
+      "name": "Kansas City Police Department",
+      "type": "government",
+      "description": "Local police department. Narrator went to Central Police station after hotel room entry attempt and told story to front desk.",
+      "concerns": [
+        "Did not provide ANY help after report, actually asked what I was diagnosed with. Dicks. But good learning experience. Also further reminded me of the need for a new License system and License ID # replacement system."
+      ],
+      "knownLocationIds": [],
+      "knownPersonIds": [],
+      "eventIds": ["evt-hotel-room-entry"],
+      "perspectives": [],
+      "websites": [],
+      "notes": [
+        "Went to Central Police station",
+        "Told story to front desk",
+        "After hotel room entry incident",
+        "Both central station and the main station downtown.",
+        "Probably best to not have a case number but still."
+      ]
+    }
+  ]
+}

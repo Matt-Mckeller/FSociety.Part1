@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Physics Slider - F=ma Demo</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .outer-container {
+      background: white;
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      max-width: 800px;
+      width: 100%;
+    }
+
+    h1 {
+      text-align: center;
+      color: #1e293b;
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+
+    .page-subtitle {
+      text-align: center;
+      color: #64748b;
+      margin-bottom: 30px;
+      font-size: 16px;
+    }
+
+    .slider-demo {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 30px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      border-radius: 16px;
+      color: white;
+    }
+
+    h3 {
+      margin-top: 0;
+      text-align: center;
+    }
+
+    p {
+      text-align: center;
+      opacity: 0.9;
+    }
+
+    .controls {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 12px;
+      margin: 20px 0;
+      backdrop-filter: blur(10px);
+    }
+
+    .control-group {
+      margin-bottom: 20px;
+    }
+
+    .control-group:last-child {
+      margin-bottom: 0;
+    }
+
+    label {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 8px;
+      font-weight: 600;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      height: 8px;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.3);
+      outline: none;
+      cursor: pointer;
+    }
+
+    input[type="range"]::-webkit-slider-thumb {
+      appearance: none;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: white;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      transition: transform 0.2s ease;
+    }
+
+    input[type="range"]::-webkit-slider-thumb:hover {
+      transform: scale(1.2);
+    }
+
+    input[type="range"]::-moz-range-thumb {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: white;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      border: none;
+      transition: transform 0.2s ease;
+    }
+
+    input[type="range"]::-moz-range-thumb:hover {
+      transform: scale(1.2);
+    }
+
+    .visualization {
+      background: rgba(255, 255, 255, 0.95);
+      height: 200px;
+      border-radius: 12px;
+      margin: 20px 0;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .object {
+      position: absolute;
+      top: 50%;
+      left: 50px;
+      transform: translateY(-50%);
+      font-size: 48px;
+      transition: left 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+      filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
+    }
+
+    .force-arrow {
+      position: absolute;
+      left: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+      height: 4px;
+      background: #ef4444;
+      border-radius: 2px;
+      transition: width 0.3s ease;
+    }
+
+    .force-arrow::after {
+      content: '▶';
+      position: absolute;
+      right: -12px;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #ef4444;
+      font-size: 20px;
+    }
+
+    .result {
+      position: absolute;
+      bottom: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #1e293b;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+
+    .equation {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      backdrop-filter: blur(10px);
+    }
+
+    code {
+      font-size: 18px;
+      font-family: 'Monaco', 'Courier New', monospace;
+      color: #fbbf24;
+    }
+
+    .info {
+      margin-top: 30px;
+      padding: 20px;
+      background: #f1f5f9;
+      border-radius: 12px;
+      color: #475569;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .info strong {
+      color: #1e293b;
+    }
+  </style>
+</head>
+<body>
+  <div class="outer-container">
+    <h1>🔧 Interactive Physics Slider</h1>
+    <p class="page-subtitle">Force and Acceleration Demo</p>
+
+    <div class="slider-demo">
+      <h3>Force and Acceleration Demo</h3>
+      <p>Adjust the force to see how it affects acceleration (F = ma)</p>
+      
+      <div class="controls">
+        <div class="control-group">
+          <label>Force (N): <span id="forceValue">10</span></label>
+          <input type="range" id="force" min="0" max="50" value="10" step="1">
+        </div>
+        
+        <div class="control-group">
+          <label>Mass (kg): <span id="massValue">2</span></label>
+          <input type="range" id="mass" min="1" max="10" value="2" step="0.5">
+        </div>
+      </div>
+      
+      <div class="visualization">
+        <div class="object" id="movingObject">
+          <div class="force-arrow" id="forceArrow"></div>
+          📦
+        </div>
+        <div class="result">
+          <strong>Acceleration: <span id="acceleration">5.0</span> m/s²</strong>
+        </div>
+      </div>
+      
+      <div class="equation">
+        <code>a = F / m = <span id="calcForce">10</span> / <span id="calcMass">2</span> = <span id="calcAccel">5.0</span> m/s²</code>
+      </div>
+    </div>
+
+    <div class="info">
+      <strong>Use Case:</strong> Interactive physics/math demonstrations where students can manipulate variables and see immediate effects.
+      <br><br>
+      <strong>Features:</strong> Real-time updates as sliders move, visual feedback (box moves, arrow extends), equation updates dynamically.
+      <br><br>
+      <strong>Learning Benefit:</strong> Immediate cause-and-effect relationship helps students understand formulas intuitively.
+    </div>
+  </div>
+
+  <script>
+    const forceInput = document.getElementById('force');
+    const massInput = document.getElementById('mass');
+    const forceValue = document.getElementById('forceValue');
+    const massValue = document.getElementById('massValue');
+    const acceleration = document.getElementById('acceleration');
+    const movingObject = document.getElementById('movingObject');
+    const forceArrow = document.getElementById('forceArrow');
+    const calcForce = document.getElementById('calcForce');
+    const calcMass = document.getElementById('calcMass');
+    const calcAccel = document.getElementById('calcAccel');
+
+    function updateCalculation() {
+      const f = parseFloat(forceInput.value);
+      const m = parseFloat(massInput.value);
+      const a = (f / m).toFixed(1);
+      
+      forceValue.textContent = f;
+      massValue.textContent = m;
+      acceleration.textContent = a;
+      calcForce.textContent = f;
+      calcMass.textContent = m;
+      calcAccel.textContent = a;
+      
+      // Visual feedback
+      const maxDistance = 600;
+      const distance = Math.min((a / 25) * maxDistance, maxDistance - 100);
+      movingObject.style.left = `${50 + distance}px`;
+      
+      forceArrow.style.width = `${f * 3}px`;
+    }
+
+    forceInput.addEventListener('input', updateCalculation);
+    massInput.addEventListener('input', updateCalculation);
+
+    updateCalculation();
+  </script>
+</body>
+</html>

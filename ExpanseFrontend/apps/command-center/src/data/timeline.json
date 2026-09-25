@@ -1,0 +1,102 @@
+{
+  "timeline": [
+    {
+      "id": "e1",
+      "date": "2026-01-20",
+      "title": "Planning App: Q&A section, roadmap updates, data consolidation",
+      "type": "milestone",
+      "projectId": "planning-app",
+      "status": "in-progress"
+    },
+    {
+      "id": "e2",
+      "date": "2026-01-22",
+      "title": "Planning App Functional",
+      "type": "milestone",
+      "projectId": "planning-app",
+      "status": "planned"
+    },
+    {
+      "id": "e3",
+      "date": "2026-01-26",
+      "title": "4UP Core MVP - Content generation, pipelines working",
+      "type": "milestone",
+      "projectId": "4up",
+      "status": "planned",
+      "description": "Generating High Quality Content. Can spend <5 min a day and have very high quality content ready to post."
+    },
+    {
+      "id": "e4",
+      "date": "2026-01-28",
+      "title": "Services MVP Live - Landing, contact, about pages",
+      "type": "milestone",
+      "projectId": "expanse-services",
+      "status": "planned"
+    },
+    {
+      "id": "e5",
+      "date": "2026-01-30",
+      "title": "LinkedIn & Digital Presence",
+      "type": "milestone",
+      "projectId": "expanse-services",
+      "status": "planned"
+    },
+    {
+      "id": "e6",
+      "date": "2026-02-02",
+      "title": "4UP Polish & Automation",
+      "type": "milestone",
+      "projectId": "4up",
+      "status": "planned"
+    },
+    {
+      "id": "e7",
+      "date": "2026-02-03",
+      "title": "4Eye Development Start",
+      "type": "milestone",
+      "projectId": "4eye",
+      "status": "planned"
+    },
+    {
+      "id": "e8",
+      "date": "2026-02-05",
+      "title": "Services Phase 2: Checkout & Accounts",
+      "type": "milestone",
+      "projectId": "expanse-services",
+      "status": "planned"
+    },
+    {
+      "id": "e9",
+      "date": "2026-02-15",
+      "title": "4Eye MVP Complete + AI Agents & Automation",
+      "type": "milestone",
+      "projectId": "4eye",
+      "status": "planned"
+    },
+    {
+      "id": "e10",
+      "date": "2026-02-20",
+      "title": "Services Phase 3: Component Store",
+      "type": "milestone",
+      "projectId": "expanse-services",
+      "status": "planned"
+    },
+    {
+      "id": "e11",
+      "date": "2026-02-28",
+      "title": "1Game MVP Complete",
+      "type": "milestone",
+      "projectId": "1game",
+      "status": "planned"
+    },
+    {
+      "id": "e12",
+      "date": "2026-03-03",
+      "title": "Income/Funding Secured",
+      "type": "deadline",
+      "projectId": null,
+      "status": "planned",
+      "description": "Critical deadline for sustainable income or funding"
+    }
+  ]
+}

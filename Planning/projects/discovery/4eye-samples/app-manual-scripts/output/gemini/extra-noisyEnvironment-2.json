@@ -1,0 +1,225 @@
+{
+  "sample": {
+    "durationSeconds": 60,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Today we're making collages about our favorite things!",
+          "timestamp": 0,
+          "confidence": 0.84
+        },
+        {
+          "text": "soft music playing",
+          "timestamp": 4.8,
+          "confidence": 0.32
+        },
+        {
+          "text": "You can use magazines, colored paper, and markers.",
+          "timestamp": 7.5,
+          "confidence": 0.78
+        },
+        {
+          "text": "scissors cutting",
+          "timestamp": 13.9,
+          "confidence": 0.28
+        },
+        {
+          "text": "Remember to be creative and have fun with it.",
+          "timestamp": 16.7,
+          "confidence": 0.81
+        },
+        {
+          "text": "glue bottle sound",
+          "timestamp": 22.4,
+          "confidence": 0.24
+        },
+        {
+          "text": "Tommy, that's a great choice of colors!",
+          "timestamp": 25.8,
+          "confidence": 0.76
+        },
+        {
+          "text": "paper tearing",
+          "timestamp": 31.5,
+          "confidence": 0.29
+        },
+        {
+          "text": "If you need more supplies, they're on the back table.",
+          "timestamp": 34.9,
+          "confidence": 0.74
+        },
+        {
+          "text": "chair sliding",
+          "timestamp": 41.2,
+          "confidence": 0.26
+        },
+        {
+          "text": "Emma, I love how you're arranging those pictures!",
+          "timestamp": 44.6,
+          "confidence": 0.79
+        },
+        {
+          "text": "music continues",
+          "timestamp": 50.3,
+          "confidence": 0.31
+        },
+        {
+          "text": "We have about 15 more minutes to finish up.",
+          "timestamp": 53.7,
+          "confidence": 0.77
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.92,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "PII_DETECTED",
+        "details": "Potential student first names ('Tommy', 'Emma') were detected in the transcript. These are used for encouragement and are contextually appropriate but flagged for review."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.1,
+    "isSideConversation_confidence": 0.3,
+    "isIrrelevantContent_confidence": 0.4,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "art",
+      "collage",
+      "creativity",
+      "early_childhood_education",
+      "fine_motor_skills",
+      "classroom_activity",
+      "self-expression"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "The teacher is leading an art class activity focused on making collages. Students are instructed to create a collage about their favorite things using materials like magazines, colored paper, and markers. The teacher encourages creativity and provides logistical information, such as the location of extra supplies and the time remaining for the activity. Throughout the clip, the teacher offers personalized positive reinforcement to students, creating a supportive and engaging atmosphere.",
+    "recommendedSummarization": "concise",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 0.95,
+        "text": "• Activity: Make a collage of your favorite things.\n• Materials: Magazines, colored paper, markers.\n• Goal: Be creative and have fun.\n• Logistics: Extra supplies are on the back table.\n• Time Limit: 15 minutes remaining.\n• Teacher Role: Provides instructions and positive encouragement."
+      },
+      {
+        "version": "narrative",
+        "comparativeValueToRecommendedModality": 0.85,
+        "text": "In a lively classroom filled with the sounds of soft music and crafting, a teacher announces a fun new project: making collages about favorite things. She encourages the students to use their imagination with magazines, paper, and markers. As the children get to work, the teacher walks around, praising Tommy's color choices and Emma's picture arrangement, fostering a warm and creative environment for everyone to express themselves."
+      }
+    ],
+    "oneLineSummarization": "A teacher guides young students through a creative collage-making activity, providing instructions, materials, and positive reinforcement.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.85,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "KINESTHETIC",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Let's get our hands busy! First, feel the smooth, glossy pages of the magazines and the slightly rougher texture of the colored paper. Use your fingers to carefully tear out pictures you love, or practice using your scissors to follow the lines. Squeeze the glue bottle just a little bit to make small dots on your paper, then press your pictures down firmly. Arrange everything on your big paper to create a scene that tells a story about you."
+      },
+      {
+        "effectiveness": "high",
+        "type": "VISUAL",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "Imagine your final collage! It will be a burst of color and shapes that are all about you. You might have a big, bright yellow sun cut from paper in one corner, and a picture of a blue car from a magazine driving across the bottom. Maybe you'll overlap a picture of a dog with a drawing of a sparkly star. Think about how the different colors and textures will look next to each other to make your artwork pop."
+      },
+      {
+        "effectiveness": "high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.8,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.8,
+        "text": "Here is the plan for our art project. Step 1: Think about your favorite things. Step 2: Look through the magazines and colored paper to find pictures and colors that match your ideas. Step 3: Carefully cut or tear out your chosen items. Step 4: Arrange them on your main paper before you glue. Step 5: Once you like the layout, glue everything down. Step 6: Add any final touches with markers."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "STORYTELLING",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.7,
+        "text": "Once there was a blank piece of paper that felt a little lonely. It wished it could be filled with exciting things. A creative artist (that's you!) came along with scissors, glue, and a stack of colorful magazines. The artist found a picture of a roaring dinosaur, a shiny red apple, and a fluffy kitten. One by one, they were glued onto the paper, which wasn't lonely anymore! It was now a beautiful collage, telling the wonderful story of the artist's favorite things."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "STEP_SEQUENCE",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "IMAGE",
+          "ANNOTATED_TEXT"
+        ],
+        "title": "How to Make Your Collage!",
+        "reasonForSuggestion": "A visual step-by-step guide is perfect for young learners, breaking down the task into simple, manageable actions. It supports pre-readers and helps all students work independently.",
+        "promptForGeneration": "Create a 4-step visual sequence for a kindergarten art class on how to make a collage. Use simple, friendly icons and minimal text. Step 1: An icon of a thinking bubble with a star inside, labeled '1. Think!'. Step 2: An icon of scissors cutting paper from a magazine, labeled '2. Cut & Tear'. Step 3: An icon of pictures being arranged on a large sheet of paper, labeled '3. Arrange'. Step 4: An icon of a glue stick and a hand pressing a picture down, labeled '4. Glue!'. Use primary colors and a rounded, playful font. The overall style should be cheerful and encouraging."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.8,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherSuggestions": 0.8,
+        "coreType": "INFOGRAPHIC",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "IMAGE"
+        ],
+        "title": "Our Collage Creation Station",
+        "reasonForSuggestion": "A visual inventory of available materials helps students see their creative options at a glance and can spark new ideas. It also serves as a helpful reference for what they can use.",
+        "promptForGeneration": "Generate a colorful infographic poster for an early elementary classroom titled 'Our Collage Creation Station'. Display stylized, cartoon-like illustrations of the available art supplies. Include: 'Magazines', 'Colored Paper' (show a stack of different colors), 'Markers' (show a rainbow of markers), 'Scissors' (show safety scissors), and 'Glue'. Each item should have a clear, simple label underneath it. Use a bright, cheerful background."
+      }
+    ],
+    "purpose": "This activity is designed to develop crucial fine motor skills through the actions of cutting, tearing, and gluing. It also fosters creativity, decision-making, and self-expression by allowing students to represent their personal interests and 'favorite things' visually. Following the steps to complete the collage helps build foundational skills in executing multi-step instructions.",
+    "motivation": "This is your chance to make a picture that is all about YOU! What do you love most in the world? You can show everyone by finding cool pictures and bright colors to create a unique piece of art. There are no rules for what's right or wrong—just your amazing ideas. Let's have fun and make something beautiful that tells your special story!",
+    "learningValueScore": 0.65,
+    "availableActions": [
+      {
+        "actionLabel": "See Ideas",
+        "reason": "Show a gallery of sample collages to inspire creativity and demonstrate the concept.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Step-by-Step Guide",
+        "reason": "Display a simple visual guide for students who need more structured instructions.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "What is a Collage?",
+        "reason": "Provide a simple, age-appropriate definition of the core art concept.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "collage": {
+        "definition": "A piece of art made by sticking various different materials, such as photographs and pieces of paper, onto a backing.",
+        "simpler": "Making a big picture by gluing lots of smaller pictures and papers together.",
+        "visual_association": "Show an image of a finished, colorful collage made by a child."
+      }
+    },
+    "recommendationsToTeacher": [
+      "Circulate the room to offer specific, positive feedback on student choices (e.g., 'I love how you used the blue paper for the sky') to build confidence and reinforce effort.",
+      "At the end of the activity, hold a 'gallery walk' where students can quietly walk around and see everyone's creations, fostering peer appreciation.",
+      "For students who finish early, provide an extension activity, such as writing or dictating a sentence about why they chose one of the items in their collage."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:34:25.412Z",
+    "latencyMs": 38096,
+    "tokenUsage": {
+      "input": 7150,
+      "output": 2371,
+      "total": 11272
+    }
+  }
+}

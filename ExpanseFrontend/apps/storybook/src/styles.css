@@ -1,0 +1,27 @@
+/* Import shared font definitions from packages/ui
+ * Note: Storybook serves fonts from /font via staticDirs in main.ts
+ */
+@import "../../../packages/ui/theme/font-nextjs.css";
+
+/* Basic Storybook app styles */
+body {
+  font-family: "Xpens", sans-serif;
+  margin: 0;
+}
+
+/* List styles to match expanseEdu */
+ul {
+  list-style: circle;
+}
+
+ol {
+  list-style: decimal;
+}
+
+li {
+  line-height: 1;
+}
+
+.sbdocs {
+  padding: 16px;
+}

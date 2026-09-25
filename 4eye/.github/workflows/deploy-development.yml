@@ -1,0 +1,87 @@
+name: Deploy Development
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'apps/**'
+      - 'packages/**'
+      - 'docker/**'
+      - 'k8s/development/**'
+
+env:
+  PROJECT_ID: 'four-eye-ai-01'
+  REGION: 'us-central1'
+  # Must match the cluster_name in development/01-infrastructure-foundation/terraform.tfvars
+  CLUSTER: 'four-eye-dev-gke'
+  ZONE: 'us-central1-a'
+  WORKLOAD_IDENTITY_PROVIDER: 'projects/${{ secrets.GCP_PROJECT_NUMBER }}/locations/global/workloadIdentityPools/github-actions/providers/github-provider'
+  SERVICE_ACCOUNT: 'four-eye-cicd-pipeline@four-eye-ai-01.iam.gserviceaccount.com'
+
+jobs:
+  build-and-deploy:
+    name: Build and Deploy to Development GKE
+    runs-on: ubuntu-latest
+    permissions:
+      contents: 'read'
+      id-token: 'write'
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Authenticate to Google Cloud
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ env.WORKLOAD_IDENTITY_PROVIDER }}
+          service_account: ${{ env.SERVICE_ACCOUNT }}
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Configure Docker for Artifact Registry
+        run: gcloud auth configure-docker ${{ env.REGION }}-docker.pkg.dev
+
+      - name: Build and Push API Image
+        run: |
+          IMAGE=${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/four-eye-development-containers/api
+          docker build --target production -t ${IMAGE}:${{ github.sha }} -f docker/api.Dockerfile .
+          docker tag ${IMAGE}:${{ github.sha }} ${IMAGE}:latest
+          docker push ${IMAGE}:${{ github.sha }}
+          docker push ${IMAGE}:latest
+
+      - name: Build and Push Web Image
+        run: |
+          IMAGE=${{ env.REGION }}-docker.pkg.dev/${{ env.PROJECT_ID }}/four-eye-development-containers/web
+          docker build --target production -t ${IMAGE}:${{ github.sha }} -f docker/web.Dockerfile .
+          docker tag ${IMAGE}:${{ github.sha }} ${IMAGE}:latest
+          docker push ${IMAGE}:${{ github.sha }}
+          docker push ${IMAGE}:latest
+
+      - name: Get GKE Credentials
+        uses: google-github-actions/get-gke-credentials@v2
+        with:
+          cluster_name: ${{ env.CLUSTER }}
+          location: ${{ env.ZONE }}
+          project_id: ${{ env.PROJECT_ID }}
+
+      - name: Deploy to GKE
+        run: |
+          # Pin images to exact commit SHA (not :latest)
+          sed -i "s/:latest/:${{ github.sha }}/g" k8s/development/web.yaml
+          sed -i "s/:latest/:${{ github.sha }}/g" k8s/development/api.yaml
+
+          kubectl apply -f k8s/development/web.yaml
+          kubectl apply -f k8s/development/api.yaml
+
+          kubectl rollout status deployment/4eye-api -n four-eye-development --timeout=300s
+          kubectl rollout status deployment/4eye-web -n four-eye-development --timeout=300s
+
+      - name: Rollback on Failure
+        if: failure()
+        run: |
+          echo "Deployment failed — rolling back..."
+          kubectl rollout undo deployment/4eye-api -n four-eye-development || true
+          kubectl rollout undo deployment/4eye-web -n four-eye-development || true

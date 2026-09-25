@@ -1,0 +1,65 @@
+{
+  "name": "@expanse/lens",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Animated lens symbol-language: ~12 SVG lens shells composed into 100+ lenses, a 1000+ one-word action vocabulary (pure data), and 4eye-character integration",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": "./src/index.ts",
+    "./core": "./src/core/index.ts",
+    "./shells": "./src/shells/index.ts",
+    "./components": "./src/components/index.ts",
+    "./registry": "./src/registry/index.ts",
+    "./actions": "./src/actions/index.ts"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 3438",
+    "build-storybook": "storybook build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "type-check": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "@mui/material": "^9.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@mui/material": { "optional": true }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@expanse/storybook-config": "workspace:*",
+    "@expanse/theme": "workspace:*",
+    "@mui/icons-material": "^6.0.0",
+    "@mui/material": "^9.0.0",
+    "@storybook/addon-essentials": "^8.0.0",
+    "@storybook/builder-vite": "^8.0.0",
+    "@storybook/react": "^8.0.0",
+    "@storybook/react-vite": "^8.0.0",
+    "@testing-library/react": "^14.0.0",
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@vitejs/plugin-react": "^6.0.1",
+    "jsdom": "^24.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "storybook": "^8.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^4.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "directory": "packages/@expanse/lens"
+  },
+  "keywords": [
+    "4eye",
+    "lens",
+    "symbol-language",
+    "animated-icons",
+    "actions",
+    "svg",
+    "react"
+  ]
+}

@@ -1,0 +1,112 @@
+/* Quick Wins Guide Animations */
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes chatSlideIn {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.qw-fade-in-section {
+  opacity: 0;
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+.qw-stagger-1 { animation-delay: 0.1s; }
+.qw-stagger-2 { animation-delay: 0.2s; }
+.qw-stagger-3 { animation-delay: 0.3s; }
+
+.qw-hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.qw-hover-lift:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15) !important;
+}
+
+.qw-chat-message-animate {
+  animation: chatSlideIn 0.3s ease-out;
+}
+
+.qw-mermaid-container {
+  background: #E3F2FD;
+  border: 1px solid #90CAF9;
+  border-radius: 12px;
+  padding: 16px;
+  margin: 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: auto;
+}
+
+.qw-mermaid-container svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.qw-markdown-content p {
+  margin: 8px 0;
+}
+
+.qw-markdown-content ul,
+.qw-markdown-content ol {
+  margin: 8px 0;
+  padding-left: 24px;
+}
+
+.qw-markdown-content code {
+  background-color: #E3F2FD;
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+}
+
+.qw-markdown-content pre {
+  background-color: #E3F2FD;
+  padding: 12px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+.qw-markdown-content pre code {
+  background-color: transparent;
+  padding: 0;
+}
+
+.qw-markdown-content strong {
+  font-weight: 600;
+}
+
+@media print {
+  .qw-no-print {
+    display: none;
+  }
+}

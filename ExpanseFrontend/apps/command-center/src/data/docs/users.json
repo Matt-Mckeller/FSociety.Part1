@@ -1,0 +1,124 @@
+{
+  "overview": {
+    "summary": "Expanse EDU serves multiple stakeholder groups in the education ecosystem, each with unique needs and motivations",
+    "primaryUsers": ["Students", "Teachers", "Parents"],
+    "secondaryUsers": ["Schools", "Districts", "Universities", "Sponsors"]
+  },
+  "customers": [
+    {
+      "id": "students",
+      "type": "Students",
+      "role": "Primary users of the app",
+      "benefits": [
+        "Rewards",
+        "Social connection",
+        "Growth tracking",
+        "Gamification"
+      ],
+      "motivation": "Gamification, recognition, and improved academic performance",
+      "icon": "🎓"
+    },
+    {
+      "id": "parents",
+      "type": "Parents / Family",
+      "role": "Support students' app use, monitor progress, and participate in reward systems",
+      "benefits": [
+        "Progress monitoring",
+        "Communication with teachers",
+        "Reward participation"
+      ],
+      "motivation": "Tools for encouraging performance, engagement, mental health, positive behavior, and communication with teachers",
+      "icon": "👨‍👩‍👧"
+    },
+    {
+      "id": "teachers",
+      "type": "Teachers",
+      "role": "Facilitate student engagement, assign rewards, and monitor class progress",
+      "benefits": [
+        "Simplified classroom management",
+        "Communication tools",
+        "Data tracking"
+      ],
+      "motivation": "More effective classroom management and student engagement tools",
+      "icon": "👩‍🏫"
+    },
+    {
+      "id": "schools",
+      "type": "Schools",
+      "role": "Oversee implementation, ensure alignment with educational goals, and support teachers",
+      "benefits": [
+        "Improved student engagement",
+        "Better academic outcomes",
+        "Enhanced school reputation"
+      ],
+      "motivation": "Scalable engagement solutions and comprehensive reporting",
+      "icon": "🏫"
+    },
+    {
+      "id": "districts",
+      "type": "Districts / Universities",
+      "role": "Manage onboarding, data integration, and compliance for multiple schools",
+      "benefits": [
+        "Centralized management",
+        "Data integration",
+        "Compliance support"
+      ],
+      "motivation": "Scalable solutions, reporting, and support for large user bases",
+      "icon": "🏛️"
+    },
+    {
+      "id": "sponsors",
+      "type": "Sponsors",
+      "role": "Organizations or businesses providing funding, rewards, or incentives",
+      "benefits": ["Brand visibility", "Community impact", "Education support"],
+      "motivation": "Brand visibility, community impact, and supporting education",
+      "icon": "🤝"
+    }
+  ],
+  "userPersonaAttributes": [
+    "Kids wanting to learn more",
+    "Parents wanting kids to be successful",
+    "Teachers who want more tools to keep their students engaged",
+    "Teachers without money in search of solutions",
+    "Teachers who need help from parents",
+    "Teachers who struggle to communicate with parents",
+    "Teachers who struggle with punishment",
+    "ADHD Students",
+    "Competitive Students",
+    "Varying wealth ranges",
+    "Varying social demographics",
+    "Gamers",
+    "Mental health variations",
+    "Frustrated teachers",
+    "Students struggling to focus",
+    "Bored or disengaged students",
+    "Students who don't see the purpose of education",
+    "Students struggling to finish college",
+    "Students with low self esteem",
+    "Kids in foster care",
+    "Homeless kids"
+  ],
+  "targetSegments": {
+    "grades": {
+      "primary": "6-12 + Higher Ed",
+      "rationale": "Higher value statement, Higher need for engagement"
+    },
+    "schoolTypes": [
+      "Inner city schools with attendance, behavior, and engagement issues",
+      "High-end peak performance competitive schools",
+      "Rural schools (good for starting and refining product)",
+      "State Universities",
+      "Community Colleges",
+      "Private Universities"
+    ],
+    "geographicExpansion": ["Kansas City", "Missouri", "Midwest", "US"]
+  },
+  "parentInsights": {
+    "challenges": [
+      "Parents feel that they have lost their child to technology",
+      "Parents struggling to get children back from digital distraction",
+      "Disconnect between parents and children's digital lives"
+    ],
+    "source": "The Anxious Generation"
+  }
+}

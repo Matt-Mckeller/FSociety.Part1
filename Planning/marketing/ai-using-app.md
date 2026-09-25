@@ -1,0 +1,1 @@
+- Can make a marketing prompt + implementation for creating an ai agent to interact with my app and record itself doing it and post that to social media

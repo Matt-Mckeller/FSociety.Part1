@@ -1,0 +1,125 @@
+{
+  "sample": {
+    "durationSeconds": 35,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Thank you for coming in today, Mrs. Peterson.",
+          "timestamp": 0,
+          "confidence": 0.96
+        },
+        {
+          "text": "I wanted to discuss Jake's progress.",
+          "timestamp": 4.2,
+          "confidence": 0.94
+        },
+        {
+          "text": "His student ID is 847392, and according to",
+          "timestamp": 8.5,
+          "confidence": 0.91
+        },
+        {
+          "text": "his IEP from last year, he needs",
+          "timestamp": 13.2,
+          "confidence": 0.89
+        },
+        {
+          "text": "extended time on tests due to his ADHD diagnosis.",
+          "timestamp": 17.6,
+          "confidence": 0.87
+        },
+        {
+          "text": "I also noticed from his medical file that",
+          "timestamp": 23.1,
+          "confidence": 0.88
+        },
+        {
+          "text": "he takes Adderall at noon, which is why",
+          "timestamp": 27.8,
+          "confidence": 0.86
+        },
+        {
+          "text": "he visits the nurse's office daily.",
+          "timestamp": 32.4,
+          "confidence": 0.9
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.99,
+    "appropriatenessScore": 0,
+    "warnings": [
+      {
+        "type": "PII_DETECTED",
+        "details": "Personally Identifiable Information detected, including a student's first name ('Jake'), a parent's last name ('Mrs. Peterson'), and a student ID number ('847392')."
+      },
+      {
+        "type": "PHI_DETECTED",
+        "details": "Protected Health Information (PHI) detected, including reference to an IEP, a specific medical diagnosis ('ADHD diagnosis'), medical files, and a specific medication ('Adderall')."
+      },
+      {
+        "type": "CONFIDENTIAL_CONVERSATION",
+        "details": "The content appears to be a confidential parent-teacher conference, which should not be recorded or processed by a general analysis system."
+      }
+    ],
+    "isMainLectureContent_confidence": 0,
+    "isSideConversation_confidence": 0.99,
+    "isIrrelevantContent_confidence": 0.01,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "confidential",
+      "PII_detected",
+      "PHI_detected",
+      "parent_teacher_conference",
+      "student_privacy",
+      "special_education",
+      "IEP",
+      "administrative"
+    ],
+    "shouldSummarize": false,
+    "shouldSummarizeFalseReason": "Content is a confidential parent-teacher discussion containing sensitive Personally Identifiable Information (PII) and Protected Health Information (PHI). It is not instructional material and should not be summarized, stored, or displayed.",
+    "waitForMoreContent": false,
+    "summarization": "",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [],
+    "oneLineSummarization": "",
+    "recommendVisualizationToImproveLearning": false,
+    "visualizationEffectivenessScore": 0,
+    "learningModalityText": [],
+    "visualizationSuggestions": [],
+    "purpose": "This content is a confidential administrative discussion between a teacher and a parent regarding a specific student's needs. Its purpose is not for general classroom instruction but for individualized educational planning and should be handled with strict confidentiality.",
+    "motivation": "This content is not intended for a student audience. It highlights the importance of privacy and the confidential nature of personal educational and health information in a school setting.",
+    "learningValueScore": 0,
+    "availableActions": [
+      {
+        "actionLabel": "Flag for Deletion",
+        "reason": "This transcript contains sensitive PII and PHI and should be securely deleted to protect student privacy.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "Review Privacy Settings",
+        "reason": "This content's existence suggests a need to review who has access to recordings and transcripts.",
+        "recommendationPriority": "very_high"
+      }
+    ],
+    "vocabularyEnhancements": null,
+    "relatedResearch": null,
+    "recommendationsToTeacher": [
+      "Immediately ensure this transcript is secured and deleted from any non-compliant systems to protect student privacy.",
+      "Review school and district policies on recording conversations that involve student PII and PHI.",
+      "Utilize secure, FERPA and HIPAA-compliant platforms for managing and discussing sensitive student information."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:50:24.512Z",
+    "latencyMs": 21217,
+    "tokenUsage": {
+      "input": 6966,
+      "output": 788,
+      "total": 9289
+    }
+  }
+}

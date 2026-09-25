@@ -1,0 +1,61 @@
+{
+  "eslint.format.enable": true,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "typescript.suggest.autoImports": true,
+  "telemetry.telemetryLevel": "off",
+  "*.telemetry.enabled": false,
+  "typescript.preferences.importModuleSpecifierPreference": [
+    "relative",
+    "auto"
+  ],
+  "files.eol": "\n",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "vscode-edge-devtools.mirrorEdits": true,
+  "explorer.confirmDelete": false,
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "eslint.alwaysShowStatus": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[graphql]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.tabCompletion": "on",
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#DC2626",
+    "titleBar.activeForeground": "#FFFFFF",
+    "titleBar.inactiveBackground": "#B91C1C",
+    "titleBar.inactiveForeground": "#FFFFFF99",
+    "statusBar.background": "#DC2626",
+    "statusBar.foreground": "#FFFFFF",
+    "statusBar.noFolderBackground": "#B91C1C",
+    "activityBar.background": "#DC262620",
+    "activityBar.foreground": "#DC2626",
+    "activityBar.inactiveForeground": "#DC262699"
+  }
+}

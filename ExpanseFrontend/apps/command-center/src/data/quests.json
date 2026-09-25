@@ -1,0 +1,125 @@
+{
+  "quests": [
+    {
+      "id": "quest-leveling-experience-tracker",
+      "storylineId": "4eye-website",
+      "title": "Leveling Experience Tracker Component",
+      "description": "Create an interactive leveling experience tracker with 3 dashed progress lines and colored gem selections. Gems represent different learning types (visual, auditory, kinesthetic, etc.) and showcase 4Eye's gamified learning approach.",
+      "status": "in-progress",
+      "priority": "P1",
+      "targetDate": null,
+      "color": "#4ECDC4",
+      "successCriteria": [
+        "3 dashed progress lines implemented",
+        "Colored gem selection UI complete",
+        "Gems represent learning types (visual, auditory, kinesthetic)",
+        "Interactive hover/click states",
+        "Responsive design for mobile/desktop",
+        "Integrated into 4Eye website demo section"
+      ],
+      "xpReward": 350
+    },
+    {
+      "id": "quest-4eye-mvp-definition",
+      "storylineId": "4eye-ai-chat",
+      "title": "4Eye MVP Definition",
+      "description": "Define what the MVP is - scope, requirements, success criteria",
+      "status": "in-progress",
+      "priority": "P1",
+      "targetDate": null,
+      "color": "#4ECDC4",
+      "successCriteria": [
+        "Clear scope document",
+        "User stories defined",
+        "Technical requirements listed",
+        "Success metrics established"
+      ],
+      "xpReward": 300
+    },
+    {
+      "id": "quest-4eye-core",
+      "storylineId": "4eye-content-gen",
+      "title": "4Eye Core Experience",
+      "description": "Audio to Visual pipeline - the core learning experience",
+      "status": "not-started",
+      "priority": "P1",
+      "targetDate": null,
+      "color": "#4ECDC4",
+      "successCriteria": [
+        "Audio processing working",
+        "AI generation pipeline functional",
+        "Content creation flow complete",
+        "Context management working"
+      ],
+      "xpReward": 500
+    },
+    {
+      "id": "quest-4eye-uiux",
+      "storylineId": "4eye-ai-ui",
+      "title": "4Eye UI/UX",
+      "description": "User interface - chat input, playback, visual presentation",
+      "status": "not-started",
+      "priority": "P1",
+      "targetDate": null,
+      "color": "#4ECDC4",
+      "successCriteria": [
+        "Chat input interface complete",
+        "Playback interface working",
+        "Visual presentation polished",
+        "Navigation intuitive"
+      ],
+      "xpReward": 400
+    },
+    {
+      "id": "quest-4eye-website",
+      "storylineId": "4eye-ai-chat",
+      "title": "4Eye Website",
+      "description": "Landing page, value proposition, demo, signup flow",
+      "status": "not-started",
+      "priority": "P1",
+      "targetDate": null,
+      "color": "#4ECDC4",
+      "successCriteria": [
+        "Landing page live",
+        "Value proposition clear",
+        "Demo or preview available",
+        "Signup flow working"
+      ],
+      "xpReward": 300
+    },
+    {
+      "id": "quest-planning-optimization",
+      "storylineId": "command-center-core",
+      "title": "Planning Optimization",
+      "description": "Clearer MVP definitions, roadmap, prompts, and requirements",
+      "status": "in-progress",
+      "priority": "P1",
+      "targetDate": null,
+      "color": "#8B5CF6",
+      "successCriteria": [
+        "MVP definitions documented",
+        "Roadmap updated and clear",
+        "AI prompts refined",
+        "Requirements organized"
+      ],
+      "xpReward": 200
+    },
+    {
+      "id": "quest-health-optimization",
+      "storylineId": "personal-health",
+      "title": "Health & Focus Optimization",
+      "description": "Establish healthy routines for peak performance",
+      "status": "in-progress",
+      "priority": "P1",
+      "targetDate": null,
+      "color": "#2ECC71",
+      "successCriteria": [
+        "Good sleep schedule",
+        "Regular exercise",
+        "Clean work environment",
+        "Focus optimization"
+      ],
+      "xpReward": 200
+    }
+  ]
+}

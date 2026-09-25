@@ -1,0 +1,121 @@
+{
+  "channels": [
+    {
+      "id": "podcasts",
+      "name": "Podcasts & YouTube Interviews",
+      "description": "Talk about the state of educational engagement and mental health. Discuss gamification and solutions.",
+      "priority": 1,
+      "targets": [
+        "Andrew Huberman",
+        "Joe Rogan",
+        "Jordan Peterson",
+        "Simon Sinek",
+        "EdTech Insiders"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "conferences",
+      "name": "Conferences & Events",
+      "description": "Present at education and technology conferences",
+      "priority": 2,
+      "targets": ["SXSW", "EdTech conferences", "Education summits"],
+      "status": "planned"
+    },
+    {
+      "id": "word-of-mouth",
+      "name": "Word of Mouth & Social Sharing",
+      "description": "Enable social sharing of achievements, rewards, and progress. Encourage sharing with in-game rewards and badges.",
+      "priority": 1,
+      "features": [
+        "Achievement sharing",
+        "Social media integration",
+        "Referral rewards"
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "marketplaces",
+      "name": "Educational App Marketplaces",
+      "description": "List on app marketplaces like Clever and ClassLink for discoverability and easy integration.",
+      "priority": 2,
+      "targets": ["Clever", "ClassLink", "Google Workspace Marketplace"],
+      "status": "planned"
+    },
+    {
+      "id": "b2b-outreach",
+      "name": "B2B Outreach",
+      "description": "Direct outreach to school districts. Sell to districts first, then individual schools.",
+      "priority": 3,
+      "approach": "Go district by district, establish relationships, get access to data, then expand to each school.",
+      "status": "planned"
+    },
+    {
+      "id": "social-media",
+      "name": "Social Media",
+      "description": "Content creation across platforms targeting different audiences",
+      "priority": 2,
+      "platforms": [
+        {
+          "name": "TikTok",
+          "audience": "Students, Parents",
+          "content": "Educational content, success stories"
+        },
+        {
+          "name": "Instagram",
+          "audience": "Students, Parents",
+          "content": "Visual achievements, progress highlights"
+        },
+        {
+          "name": "LinkedIn",
+          "audience": "Educators, Leadership",
+          "content": "Thought leadership, case studies"
+        },
+        {
+          "name": "Facebook",
+          "audience": "Parents, Teachers",
+          "content": "Community building, updates"
+        }
+      ],
+      "status": "planned"
+    },
+    {
+      "id": "content-marketing",
+      "name": "Backlinks & Articles",
+      "description": "Educational content, blog posts, and guest articles",
+      "priority": 3,
+      "status": "planned"
+    },
+    {
+      "id": "paid-ads",
+      "name": "Paid Advertising",
+      "description": "Targeted advertising campaigns",
+      "priority": 4,
+      "status": "planned"
+    }
+  ],
+  "focusAreas": [
+    "Education & Education Technology",
+    "Psychology & Mental Health",
+    "Games & Gamification",
+    "Competition",
+    "Youth Support",
+    "Social Good",
+    "Self Improvement & Positivity",
+    "Startup & SaaS",
+    "Local/Regional (KC, Missouri, Midwest)",
+    "Technology & Innovation"
+  ],
+  "bigWins": [
+    { "name": "Andrew Huberman", "type": "podcast", "status": "goal" },
+    { "name": "Joe Rogan", "type": "podcast", "status": "goal" },
+    { "name": "Jordan Peterson", "type": "podcast", "status": "goal" },
+    { "name": "Simon Sinek", "type": "interview", "status": "goal" },
+    { "name": "TED Talks", "type": "speaking", "status": "goal" },
+    { "name": "Major Media Coverage", "type": "press", "status": "goal" }
+  ],
+  "cta": {
+    "primary": "Website → Contact + Sign Up",
+    "goal": "Product spreads organically, people come to us"
+  }
+}

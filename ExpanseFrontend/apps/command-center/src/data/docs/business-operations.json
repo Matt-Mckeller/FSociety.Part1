@@ -1,0 +1,446 @@
+{
+  "overview": {
+    "summary": "Business operations covering revenue streams, profit strategy, user acquisition, funding rounds, and exit strategies.",
+    "marketContext": "EdTech market is $150 billion globally, with education sector as a whole worth approximately $6 trillion. Expenditure shifting to non-governmental organizations with focus on US market."
+  },
+  "revenue": {
+    "primary": "Application subscriptions",
+    "strategy": "Initially free for districts, focus on making money from families and teachers.",
+    "streams": [
+      {
+        "id": "subscriptions",
+        "name": "Application Subscriptions",
+        "description": "Primary revenue through subscription model",
+        "priority": "high",
+        "status": "planned"
+      },
+      {
+        "id": "nft-sales",
+        "name": "NFT/Character Sales",
+        "description": "NFT for cash sales, character and profile customization sales, and swag sales. Items purchasable with coins/points or cash. Some items only purchasable with cash (vanity).",
+        "priority": "medium",
+        "status": "planned"
+      },
+      {
+        "id": "battle-passes",
+        "name": "Battle Passes",
+        "description": "Combat profitability through additional battle pass purchases",
+        "priority": "medium",
+        "status": "planned"
+      },
+      {
+        "id": "sponsorships",
+        "name": "Sponsorships",
+        "description": "In-game item sponsorships and brand partnerships",
+        "priority": "medium",
+        "status": "planned"
+      },
+      {
+        "id": "transaction-fees",
+        "name": "Transaction Fees",
+        "description": "Financial transaction fees for paying students for school",
+        "priority": "low",
+        "status": "research"
+      },
+      {
+        "id": "food",
+        "name": "Food Partnerships",
+        "description": "Food-related reward partnerships and integrations",
+        "priority": "low",
+        "status": "idea"
+      }
+    ],
+    "customerLifetimeValue": "To be determined",
+    "userAcquisitionTimelines": {
+      "k12": "https://docs.google.com/spreadsheets/d/16mn0wBHTU0VBkjhU55EsoRX1B4bpcuslezkRP5w2Dqg/edit?gid=132295658#gid=132295658",
+      "higherEd": "https://docs.google.com/spreadsheets/d/16mn0wBHTU0VBkjhU55EsoRX1B4bpcuslezkRP5w2Dqg/edit?gid=1295842690#gid=1295842690"
+    }
+  },
+  "fundingRounds": {
+    "philosophy": "Provide as much value as possible, as quickly as possible. Some value costs a lot to create. Need to balance asking amount with getting funded.",
+    "rounds": [
+      {
+        "id": "seed",
+        "name": "Initial Round (Seed)",
+        "goal": "Build MVP, start audience, get a testable product into school districts, get feedback, establish university relationships for scholarships",
+        "milestones": [
+          "Proof of concept",
+          "Usable product",
+          "University relationships",
+          "Initial marketing traction"
+        ]
+      },
+      {
+        "id": "basic-low",
+        "name": "Basic Necessities Round",
+        "range": "$25k–$100k",
+        "goal": "Self product development",
+        "description": "Ideally grant money, for founder/cofounders and marketing during product development",
+        "team": "Me + expenses, consultants/freelancers, ed.link starter"
+      },
+      {
+        "id": "basic-mid",
+        "name": "Basic Necessities Round (Extended)",
+        "range": "$100k–$500k",
+        "goal": "Self product development + freelance help",
+        "description": "Same as above with more resources for freelance help",
+        "team": "Me + freelancers"
+      },
+      {
+        "id": "growth",
+        "name": "Let's Get Going Round",
+        "range": "$1M–$2M+",
+        "goal": "Team product development, start marketing",
+        "description": "Proof of concept, testable product, value delivery",
+        "team": [
+          "Founder",
+          "CoFounders (Sales/Marketing/B2B)",
+          "Advisors (unpaid/equity)",
+          "Full Time Hires (1-2 Software Engineers, 1 Designer)",
+          "Consultants/Freelancers",
+          "Marketing/Sales/Conference expenses"
+        ]
+      }
+    ],
+    "askingRange": {
+      "minimum": "$1.5M",
+      "ideal": "$3.5M",
+      "stretch": "$5M",
+      "note": "The more raised, the faster development and growth"
+    }
+  },
+  "costStructure": {
+    "estimates": {
+      "founder": "$105k/yr",
+      "juniorEngineer": { "us": "$70k-80k/yr", "overseas": "$40k-50k/yr" },
+      "seniorEngineer": { "us": "$125k-175k/yr", "overseas": "$50k-100k/yr" },
+      "designer": { "us": "$80k-100k/yr", "overseas": "$35k-40k/yr" },
+      "cofounder": "$50k-100k + equity",
+      "benefits": "~$20k/person",
+      "recruitment": "$0-100k",
+      "conferences": "$50k-100k",
+      "digitalMarketing": "$50k-150k",
+      "buffer": "$50k-100k",
+      "edlink": "$6k/yr starter → $30k-100k/yr at 100k users",
+      "hosting": "$10k/yr",
+      "softwareTools": "$5k/yr"
+    },
+    "twoYearTotals": {
+      "overseas": {
+        "low": "$807k",
+        "description": "Me, CoFounder, 1 Junior, 1 Senior, 1 Designer (Overseas)"
+      },
+      "us": {
+        "upper": "$1.33M",
+        "description": "Me, CoFounder, 1 Junior, 1 Senior, 1 Designer (US)"
+      }
+    },
+    "spreadsheet": "https://docs.google.com/spreadsheets/d/16mn0wBHTU0VBkjhU55EsoRX1B4bpcuslezkRP5w2Dqg/edit?gid=2144244055#gid=2144244055"
+  },
+  "teamNeeds": [
+    {
+      "role": "Founder",
+      "responsibilities": [
+        "Business planning",
+        "Development",
+        "Architecture",
+        "Design",
+        "Content",
+        "Marketing"
+      ],
+      "status": "active"
+    },
+    {
+      "role": "Business Advisor",
+      "responsibilities": ["Business advice", "Connections"],
+      "status": "needed"
+    },
+    {
+      "role": "Business Development",
+      "responsibilities": [
+        "Outreach",
+        "Find businesses looking to improve engagement and work culture"
+      ],
+      "timing": "After MVP"
+    },
+    {
+      "role": "Social Media",
+      "responsibilities": [
+        "Post on LinkedIn",
+        "Comment",
+        "Connect",
+        "Generate followers"
+      ],
+      "note": "Can leverage AI"
+    },
+    {
+      "role": "Sales/Marketing CoFounder",
+      "responsibilities": ["Cold calling", "Outreach", "Brand representation"],
+      "status": "needed"
+    }
+  ],
+  "keyResources": {
+    "people": [
+      {
+        "role": "Founder",
+        "status": "active",
+        "skills": ["Development", "Architecture", "Design", "Business Planning"]
+      },
+      {
+        "role": "Advisors",
+        "status": "needed",
+        "skills": ["Business", "Education", "Psychology", "Legal"]
+      },
+      {
+        "role": "Co-Founders",
+        "status": "needed",
+        "skills": ["Sales/Marketing", "B2B Relationships"]
+      },
+      {
+        "role": "Team Members",
+        "status": "future",
+        "skills": ["Engineering", "Design", "Marketing", "Content"]
+      }
+    ],
+    "services": [
+      {
+        "name": "Ed.Link",
+        "purpose": "LMS/SIS Integration",
+        "status": "planned",
+        "cost": "$6k/yr starter"
+      },
+      {
+        "name": "Clever",
+        "purpose": "SSO Dashboard",
+        "status": "planned"
+      },
+      {
+        "name": "ClassLink",
+        "purpose": "Alternative SSO",
+        "status": "planned"
+      }
+    ],
+    "technology": [
+      "Web Application (React/TypeScript)",
+      "Mobile Application (Future)",
+      "Cloud Hosting (AWS/GCP)",
+      "AI/ML Services",
+      "Database Systems"
+    ],
+    "software": [
+      "VS Code / Cursor",
+      "Figma",
+      "GitHub",
+      "Linear (PM)",
+      "Google Workspace"
+    ]
+  },
+  "companyCulture": {
+    "philosophy": "Practice what we preach. If gamification works for students, it should work for the team too.",
+    "experimentalPM": {
+      "description": "Run the company using the same gamification principles we build for students",
+      "concepts": [
+        {
+          "name": "Quests Instead of Tasks",
+          "description": "Frame work items as quests with clear objectives, XP rewards, and narrative context"
+        },
+        {
+          "name": "XP and Leveling",
+          "description": "Team members earn XP for completing work, level up for career progression"
+        },
+        {
+          "name": "Achievement System",
+          "description": "Unlock achievements for milestones, innovation, collaboration, and quality"
+        },
+        {
+          "name": "Loot Drops",
+          "description": "Random rewards for completing tasks - gift cards, days off, equipment"
+        },
+        {
+          "name": "Guild System",
+          "description": "Teams operate as guilds with shared goals and collective rewards"
+        },
+        {
+          "name": "Season System",
+          "description": "Quarterly 'seasons' with themes, battle passes, and seasonal rewards"
+        }
+      ]
+    },
+    "values": [
+      "Practice what we preach",
+      "Continuous improvement",
+      "Fun and engagement",
+      "Transparency and trust",
+      "User-first mindset"
+    ]
+  },
+  "exits": {
+    "philosophy": "Primary goal is to continue growing and scaling the business to be as big as possible, keeping ownership. If acquisition or partnership would help with scaling and providing maximum value to users, it may be an option.",
+    "preferred": "No acquisition - continue independent growth",
+    "options": [
+      {
+        "id": "gaming",
+        "name": "Gaming Company Acquisition",
+        "description": "Acquisition by a gaming company interested in educational games",
+        "likelihood": "medium"
+      },
+      {
+        "id": "lms",
+        "name": "LMS/Large EdTech Company",
+        "description": "Acquisition by learning management system or large educational technology company",
+        "likelihood": "high"
+      },
+      {
+        "id": "big-tech",
+        "name": "Microsoft/Google/Apple",
+        "description": "Acquisition by major technology company with education initiatives",
+        "likelihood": "medium"
+      },
+      {
+        "id": "retail",
+        "name": "Walmart/Amazon",
+        "description": "Acquisition by retail giants with education interests",
+        "likelihood": "low"
+      },
+      {
+        "id": "banking",
+        "name": "Bank Acquisition",
+        "description": "Acquisition by financial institution",
+        "likelihood": "very-low",
+        "note": "Probably not"
+      }
+    ]
+  },
+  "acquisitions": {
+    "philosophy": "Not a necessity at this time, and probably a bit far out. Prefer building for quality but some things are worth finding or acquiring.",
+    "potentialTargets": [
+      {
+        "category": "Feature Acquisitions",
+        "targets": [
+          {
+            "type": "Character Modeling & Avatar/Profile + Gear visuals",
+            "example": "code-algo",
+            "note": "Not a fan of the artstyle but could learn from their approach"
+          },
+          {
+            "type": "Social Network",
+            "note": "Open source options likely exist as well"
+          }
+        ]
+      },
+      {
+        "category": "Company Options",
+        "targets": [
+          {
+            "name": "Storytailor",
+            "description": "Generating AI Stories with art",
+            "note": "Hopefully product improves. Also an option for integration. Probably easy to build."
+          }
+        ]
+      }
+    ]
+  },
+  "engagement": {
+    "stakeholderDemand": "Teachers, principals, parents, districts all want their students engaged.",
+    "currentState": {
+      "engagementLevels": "One-third of students engaged (Gallup 2021)",
+      "trend": "Decreasing engagement as students age",
+      "elementaryVsHighSchool": "74% of fifth graders highly engaged vs only one-third of high schoolers"
+    },
+    "decliningFactors": [
+      "COVID-19 pandemic impacts",
+      "Curriculum misalignment with student interests",
+      "Emotional challenges (stress, anxiety)",
+      "Overemphasis on grades vs meaningful feedback",
+      "Evolving classroom dynamics",
+      "Increased technology use",
+      "Lack of student voice",
+      "Limited real-world connections",
+      "Insufficient support services",
+      "Overcrowded classrooms",
+      "Socioeconomic barriers",
+      "Cultural disconnects",
+      "High-stakes testing pressure",
+      "Teacher burnout",
+      "Bullying and social exclusion",
+      "Lack of extracurricular opportunities"
+    ],
+    "attentionSpan": {
+      "trend": "Average attention span decreased from 12 seconds (2000) to 8 seconds (2013)",
+      "comparison": "Shorter than goldfish's 9-second attention span",
+      "source": "Microsoft 2015 study"
+    },
+    "reducedAttentionCauses": [
+      {
+        "cause": "Constant Stimulation",
+        "detail": "Rapid, fragmented content on TikTok, Snapchat, Instagram overstimulates cognitive processes"
+      },
+      {
+        "cause": "Multitasking/Context Switching",
+        "detail": "16-24 age group engages with multiple screens simultaneously, eroding deep focus capacity"
+      },
+      {
+        "cause": "Dopamine Rewards",
+        "detail": "Instant gratification through likes, notifications, endless scrolling trains brain to seek constant novelty"
+      },
+      {
+        "cause": "Academic Consequences",
+        "detail": "Shorter attention spans linked to poorer test performance, difficulty retaining information"
+      }
+    ],
+    "autonomyEffect": "When individuals have freedom to make choices, they feel more motivated and invested, leading to greater creativity, productivity, and satisfaction",
+    "keyStats": [
+      {
+        "stat": "Engaged students are 2.5x more likely to get excellent grades",
+        "source": "Gallup School Engagement"
+      },
+      {
+        "stat": "Engaged students are 4.5x more likely to be hopeful about the future",
+        "source": "Gallup School Engagement"
+      },
+      {
+        "stat": "47% of students engaged, 29% not engaged, 24% actively disengaged",
+        "source": "2018 Gallup Data"
+      }
+    ]
+  },
+  "gamification": {
+    "overview": "The company as a whole is targeting gamification. This is an important topic.",
+    "elements": [
+      "Badges",
+      "Experience points",
+      "Virtual currency and points",
+      "Achievements",
+      "Character personalization",
+      "Growth tracking",
+      "Micro rewards",
+      "Visual stimulation",
+      "High frequency rewards/feedback"
+    ],
+    "gamingTrends": {
+      "weeklyGamingTime": "7.5 hours (2021, up from 6.6 hours in 2020)",
+      "source": "Statista",
+      "trend": "Younger generations spend more time playing games than ever before"
+    },
+    "platformResearch": [
+      "Mobile",
+      "PlayStation",
+      "Xbox",
+      "Computer",
+      "Nintendo Switch"
+    ],
+    "genreTypes": [
+      "FPS Shooters",
+      "Action/Adventure",
+      "MMO RPG",
+      "Racing/Sports",
+      "Open World/Role Playing",
+      "Battle Royale",
+      "Board Games",
+      "Puzzle Games",
+      "Survival",
+      "Party"
+    ],
+    "microsoftExample": "Microsoft gives points for searching and playing games, buying up gaming companies - good to learn from their approach"
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "currentFocusAreas": [
+    {
+      "id": "focus-1",
+      "title": "4eye MVP",
+      "description": "Primary focus - core audio-to-visual learning experience",
+      "linkedProjectId": "4eye"
+    },
+    {
+      "id": "focus-2",
+      "title": "4eye UI/UX",
+      "description": "Chat input, visual generation, playback interface",
+      "linkedProjectId": "4eye"
+    },
+    {
+      "id": "focus-3",
+      "title": "4eye website",
+      "description": "Landing page and web presence for 4eye",
+      "linkedProjectId": "4eye"
+    },
+    {
+      "id": "focus-4",
+      "title": "Optimizing Planning",
+      "description": "Clearer MVP definitions, roadmap, prompts, and requirements",
+      "linkedProjectId": "planning-app"
+    }
+  ],
+  "productValueOfferings": {
+    "learningKnowledge": {
+      "label": "Learning & Knowledge",
+      "icon": "🎓",
+      "items": [
+        "Multimodal learning",
+        "Self-paced progression",
+        "Improved learning outcomes",
+        "Higher quality information",
+        "Translations",
+        "Vocabulary building",
+        "Nonverbal/Semiotics"
+      ]
+    },
+    "aiPowered": {
+      "label": "AI-Powered",
+      "icon": "🤖",
+      "items": [
+        "AI tutors with personality",
+        "High-value AI utilization",
+        "AI literacy teaching",
+        "Preparing students for AI future"
+      ]
+    },
+    "engagement": {
+      "label": "Engagement",
+      "icon": "🎮",
+      "items": [
+        "Gamification & rewards",
+        "Multiple reward options",
+        "Motivation systems",
+        "Fun & pleasure in learning",
+        "Learning to enjoy school"
+      ]
+    },
+    "accessibility": {
+      "label": "Accessibility",
+      "icon": "♿",
+      "items": [
+        "Individualized learning paths",
+        "Accessibility features",
+        "Self-paced learning"
+      ]
+    }
+  },
+  "humanImpact": {
+    "identityPurpose": {
+      "label": "Identity & Purpose",
+      "icon": "💜",
+      "items": [
+        "Teaching who they are",
+        "Finding purpose",
+        "Understanding the brain",
+        "Figuring out life direction",
+        "What they want to do in life"
+      ]
+    },
+    "healingGrowth": {
+      "label": "Healing & Growth",
+      "icon": "💚",
+      "items": [
+        "Healing",
+        "Teaching positivity",
+        "Growth mindset development",
+        "Learning to enjoy learning",
+        "Being good people"
+      ]
+    },
+    "connection": {
+      "label": "Connection",
+      "icon": "🤝",
+      "items": [
+        "Connecting with each other",
+        "Community building",
+        "Social learning",
+        "Understanding others"
+      ]
+    }
+  },
+  "businessMarketValue": [
+    "Marketing capability",
+    "Revenue potential",
+    "Scalability",
+    "B2B education sales",
+    "Subscription model potential",
+    "Content marketplace opportunity"
+  ],
+  "differentiators": [
+    {
+      "id": "diff-1",
+      "title": "AI UI/UX Innovation",
+      "description": "Novel interaction patterns with AI"
+    },
+    {
+      "id": "diff-2",
+      "title": "Matthew/Storytelling",
+      "description": "Personal brand, inspirational figure, narrative-driven"
+    },
+    {
+      "id": "diff-3",
+      "title": "Food Offering",
+      "description": "Physical/nutritional component - unique in EdTech"
+    },
+    {
+      "id": "diff-4",
+      "title": "New Website Interactivity",
+      "description": "Fresh, engaging web experiences"
+    },
+    {
+      "id": "diff-5",
+      "title": "Holistic Human Approach",
+      "description": "Not just education - identity, purpose, healing, connection"
+    },
+    {
+      "id": "diff-6",
+      "title": "Really Good UX",
+      "description": "Exceptional user experience as core differentiator"
+    }
+  ],
+  "futureOnDeck": [
+    {
+      "id": "future-1",
+      "title": "Job offerings / career pathways",
+      "description": "Post-education career support"
+    },
+    {
+      "id": "future-2",
+      "title": "Kinesthetic learning features",
+      "description": "Movement-based UI and learning"
+    }
+  ]
+}

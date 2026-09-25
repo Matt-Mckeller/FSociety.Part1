@@ -1,0 +1,88 @@
+{
+  "LeftWingOuterFeatherFill": {
+    "id": "LeftWingOuterFeatherFill",
+    "path": "layers[1].shapes[0].it[1].c.k",
+    "originalColor": "#9eb2dc",
+    "group": "LeftWing",
+    "layer": "LeftWingOuterFeather"
+  },
+  "LeftWingUpperFeatherFill": {
+    "id": "LeftWingUpperFeatherFill",
+    "path": "layers[2].shapes[0].it[1].c.k",
+    "originalColor": "#9eb2dc",
+    "group": "LeftWing",
+    "layer": "LeftWingUpperFeather"
+  },
+  "LeftWingMidUpperFeatherFill": {
+    "id": "LeftWingMidUpperFeatherFill",
+    "path": "layers[3].shapes[0].it[1].c.k",
+    "originalColor": "#9eb2dc",
+    "group": "LeftWing",
+    "layer": "LeftWingMidUpperFeather"
+  },
+  "LeftWingMidLowerFeatherFill": {
+    "id": "LeftWingMidLowerFeatherFill",
+    "path": "layers[4].shapes[0].it[1].c.k",
+    "originalColor": "#9eb2dc",
+    "group": "LeftWing",
+    "layer": "LeftWingMidLowerFeather"
+  },
+  "LeftWingInnerFeatherFill": {
+    "id": "LeftWingInnerFeatherFill",
+    "path": "layers[5].shapes[0].it[1].c.k",
+    "originalColor": "#9eb2dc",
+    "group": "LeftWing",
+    "layer": "LeftWingInnerFeather"
+  },
+  "RightWingInnerFeatherFill": {
+    "id": "RightWingInnerFeatherFill",
+    "path": "layers[6].shapes[0].it[1].c.k",
+    "originalColor": "#7f8fc1",
+    "group": "RightWing",
+    "layer": "RightWingInnerFeather"
+  },
+  "RightWingMidLowerFeatherFill": {
+    "id": "RightWingMidLowerFeatherFill",
+    "path": "layers[7].shapes[0].it[1].c.k",
+    "originalColor": "#7f8fc1",
+    "group": "RightWing",
+    "layer": "RightWingMidLowerFeather"
+  },
+  "RightWingMidUpperFeatherFill": {
+    "id": "RightWingMidUpperFeatherFill",
+    "path": "layers[8].shapes[0].it[1].c.k",
+    "originalColor": "#7f8fc1",
+    "group": "RightWing",
+    "layer": "RightWingMidUpperFeather"
+  },
+  "RightWingUpperFeatherFill": {
+    "id": "RightWingUpperFeatherFill",
+    "path": "layers[9].shapes[0].it[1].c.k",
+    "originalColor": "#7f8fc1",
+    "group": "RightWing",
+    "layer": "RightWingUpperFeather"
+  },
+  "RightWingOuterFeatherFill": {
+    "id": "RightWingOuterFeatherFill",
+    "path": "layers[10].shapes[0].it[1].c.k",
+    "originalColor": "#7f8fc1",
+    "group": "RightWing",
+    "layer": "RightWingOuterFeather"
+  },
+  "HaloGradientFill2": {
+    "id": "HaloGradientFill2",
+    "path": "layers[11].shapes[0].it[1].c.k",
+    "originalColor": "#621890",
+    "group": "Halo",
+    "layer": "HaloContainer",
+    "variant": "Inner"
+  },
+  "HaloGradientFill5": {
+    "id": "HaloGradientFill5",
+    "path": "layers[11].shapes[1].it[4].c.k",
+    "originalColor": "#a662d0",
+    "group": "Halo",
+    "layer": "HaloContainer",
+    "variant": "Outer"
+  }
+}

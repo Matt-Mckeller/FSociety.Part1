@@ -1,0 +1,203 @@
+# Lottie Studio GraphQL Schema
+
+# =============================================================================
+# Enums
+# =============================================================================
+
+enum ProcessingStatus {
+  UPLOADED
+  ANALYZING_METADATA
+  METADATA_COMPLETE
+  NAMING_ELEMENTS
+  ELEMENTS_COMPLETE
+  GENERATING_THEMES
+  THEMES_COMPLETE
+  EXPORTED
+  ERROR
+}
+
+enum ProcessingPhase {
+  INITIALIZATION
+  METADATA_ANALYSIS
+  ELEMENT_NAMING
+  THEME_GENERATION
+  EXPORT
+  COMPLETE
+  ERROR
+}
+
+enum ThemeMode {
+  light
+  dark
+}
+
+# =============================================================================
+# Types
+# =============================================================================
+
+type Metadata {
+  animationName: String!
+  alternativeNames: [String!]
+  description: String!
+  tags: [String!]!
+}
+
+type Element {
+  name: String!
+  path: String!
+  description: String!
+  alternativeNames: [String!]
+  originalColor: String
+  elementType: String
+  roleFunction: String
+  visualLevel: String
+  semanticRole: String
+  isThemeable: Boolean!
+  tags: [String!]
+}
+
+type Theme {
+  themeId: String!
+  name: String!
+  description: String!
+  baseColor: String!
+  mode: String!
+  colorsJson: String!
+  skippedElements: [String!]!
+  reasoning: String
+}
+
+type Animation {
+  id: ID!
+  name: String!
+  status: ProcessingStatus!
+  metadata: Metadata
+  elements: [Element!]
+  themes: [Theme!]
+  createdAt: String!
+  updatedAt: String!
+}
+
+type ProcessingProgress {
+  animationId: String!
+  phase: ProcessingPhase!
+  progress: Float!
+  message: String!
+}
+
+# =============================================================================
+# Inputs
+# =============================================================================
+
+input HintsInput {
+  name: String
+  description: String
+  purpose: String
+  tags: [String!]
+}
+
+input UploadAnimationInput {
+  json: String!
+  name: String
+  hints: HintsInput
+}
+
+input PaletteColorsInput {
+  primaryMain: String!
+  primaryDark: String!
+  primaryLight: String!
+  primaryHighSat: String!
+  primaryExtra1: String
+  primaryExtra2: String
+  secondaryMain: String!
+  secondaryLight: String!
+  secondaryDark: String!
+  backgroundDefault: String!
+  backgroundPaper: String!
+  textPrimary: String!
+  textSecondary: String!
+  black: String!
+  white: String!
+  gray: String!
+  gradientStart: String!
+  gradientEnd: String!
+}
+
+input ColorPaletteInput {
+  id: String!
+  baseColor: String!
+  mode: String!
+  name: String!
+  colors: PaletteColorsInput!
+}
+
+input GenerateThemesInput {
+  palettes: [ColorPaletteInput!]!
+  allowCreativeColors: Boolean
+}
+
+# =============================================================================
+# Queries
+# =============================================================================
+
+type Query {
+  """Get a single animation by ID"""
+  animation(id: ID!): Animation
+
+  """Get all animations"""
+  animations: [Animation!]!
+}
+
+# =============================================================================
+# Mutations
+# =============================================================================
+
+input ExportOptionsInput {
+  includeSchema: Boolean
+  includeComponent: Boolean
+  includeThemeConfigs: Boolean
+  includeThemesRegistry: Boolean
+  includeLottieJson: Boolean
+}
+
+type ExportFile {
+  filename: String!
+  path: String!
+  content: String!
+  type: String!
+}
+
+type ExportResult {
+  success: Boolean!
+  files: [ExportFile!]!
+  errors: [String!]
+}
+
+type Mutation {
+  """Upload a new Lottie animation"""
+  uploadAnimation(input: UploadAnimationInput!): Animation!
+
+  """Generate metadata for an animation"""
+  generateMetadata(animationId: ID!): Animation!
+
+  """Generate element names for an animation"""
+  generateElements(animationId: ID!): Animation!
+
+  """Generate themes for an animation"""
+  generateThemes(animationId: ID!, input: GenerateThemesInput!): Animation!
+
+  """Process the full pipeline (metadata -> elements -> themes)"""
+  processFullPipeline(animationId: ID!, input: GenerateThemesInput!): Animation!
+
+  """Export animation files"""
+  exportAnimation(animationId: ID!, options: ExportOptionsInput): ExportResult!
+}
+
+# =============================================================================
+# Subscriptions
+# =============================================================================
+
+type Subscription {
+  """Subscribe to processing progress updates for an animation"""
+  processingProgress(animationId: ID!): ProcessingProgress!
+}

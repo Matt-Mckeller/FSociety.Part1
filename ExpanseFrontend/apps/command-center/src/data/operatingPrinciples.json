@@ -1,0 +1,84 @@
+{
+  "operatingPrinciples": [
+    {
+      "id": "op-separate-companies",
+      "title": "Companies should be SEPARATE",
+      "description": "4up, Services, 4eye, 1game are all separate companies with distinct branding",
+      "type": "rule",
+      "weight": 100,
+      "icon": "🏢"
+    },
+    {
+      "id": "op-launch-sequence",
+      "title": "Launch Sequence",
+      "description": "4eye MVP → TBD",
+      "type": "sequence",
+      "weight": 95,
+      "icon": "🚀"
+    },
+    {
+      "id": "op-money-discipline",
+      "title": "Being responsible with money",
+      "description": "Financial discipline and smart spending decisions",
+      "type": "principle",
+      "weight": 90,
+      "icon": "💰"
+    },
+    {
+      "id": "op-ai-utilization",
+      "title": "Optimally utilizing AI",
+      "description": "Leverage AI to be as productive as possible in all work",
+      "type": "optimization",
+      "weight": 85,
+      "icon": "🤖"
+    },
+    {
+      "id": "op-plans-management",
+      "title": "Maintaining optimal plans & priorities",
+      "description": "Keep plans, priorities, goals and project management in optimal state",
+      "type": "optimization",
+      "weight": 80,
+      "icon": "📋"
+    },
+    {
+      "id": "op-sleep",
+      "title": "Good sleep",
+      "description": "Quality sleep for optimal performance",
+      "type": "habit",
+      "weight": 75,
+      "icon": "😴"
+    },
+    {
+      "id": "op-healthy-food",
+      "title": "Healthy food",
+      "description": "Nutritious eating for energy and health",
+      "type": "habit",
+      "weight": 70,
+      "icon": "🥗"
+    },
+    {
+      "id": "op-clean-air",
+      "title": "Clean air",
+      "description": "Fresh, clean air for health and clarity",
+      "type": "habit",
+      "weight": 65,
+      "icon": "🌬️"
+    },
+    {
+      "id": "op-environment",
+      "title": "Optimized environment",
+      "description": "Environment optimized for focus, health, productivity",
+      "type": "optimization",
+      "weight": 70,
+      "icon": "🏠"
+    },
+    {
+      "id": "op-peace",
+      "title": "Finding peace",
+      "description": "Good places to work and being in peace",
+      "type": "principle",
+      "weight": 60,
+      "icon": "☮️"
+    }
+  ]
+}

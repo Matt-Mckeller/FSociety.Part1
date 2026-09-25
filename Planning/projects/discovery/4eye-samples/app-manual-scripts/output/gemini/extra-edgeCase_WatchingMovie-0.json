@@ -1,0 +1,239 @@
+{
+  "sample": {
+    "durationSeconds": 180,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Alright class, we're watching a documentary",
+          "timestamp": 0,
+          "confidence": 0.94
+        },
+        {
+          "text": "about the Civil Rights Movement.",
+          "timestamp": 4.2,
+          "confidence": 0.95
+        },
+        {
+          "text": "Please take notes on key events and people.",
+          "timestamp": 8.6,
+          "confidence": 0.93
+        },
+        {
+          "text": "[Documentary narrator] In 1955, Rosa Parks",
+          "timestamp": 14.3,
+          "confidence": 0.89
+        },
+        {
+          "text": "refused to give up her seat on a Montgomery bus.",
+          "timestamp": 19.7,
+          "confidence": 0.87
+        },
+        {
+          "text": "[Documentary audio] This act of defiance sparked",
+          "timestamp": 25.4,
+          "confidence": 0.84
+        },
+        {
+          "text": "a boycott that lasted over a year.",
+          "timestamp": 30.1,
+          "confidence": 0.86
+        },
+        {
+          "text": "[Documentary music plays]",
+          "timestamp": 35.8,
+          "confidence": 0.72
+        },
+        {
+          "text": "[Documentary narrator] Martin Luther King Junior",
+          "timestamp": 58.2,
+          "confidence": 0.88
+        },
+        {
+          "text": "emerged as a leader of the movement.",
+          "timestamp": 63.5,
+          "confidence": 0.89
+        },
+        {
+          "text": "[Background sounds and music]",
+          "timestamp": 89.3,
+          "confidence": 0.68
+        },
+        {
+          "text": "[Teacher] Notice how the documentary shows",
+          "timestamp": 142.7,
+          "confidence": 0.91
+        },
+        {
+          "text": "the interconnection between local and national efforts.",
+          "timestamp": 148.2,
+          "confidence": 0.88
+        },
+        {
+          "text": "[Documentary continues]",
+          "timestamp": 154.6,
+          "confidence": 0.71
+        },
+        {
+          "text": "[Teacher] We'll discuss this after the film.",
+          "timestamp": 175.3,
+          "confidence": 0.93
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.88,
+    "appropriatenessScore": 1,
+    "warnings": [],
+    "isMainLectureContent_confidence": 0.9,
+    "isSideConversation_confidence": 0.05,
+    "isIrrelevantContent_confidence": 0.2,
+    "isPartialResponse": true,
+    "expectedCompletionTime": 1200,
+    "tags": [
+      "history",
+      "us_history",
+      "civil_rights_movement",
+      "social_justice",
+      "activism",
+      "rosa_parks",
+      "mlk_jr",
+      "grade_9-12"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": true,
+    "summarization": "The teacher has initiated a lesson on the American Civil Rights Movement by showing a documentary. Students have been instructed to take notes on key figures and events. The initial clip of the documentary introduces the 1955 Montgomery Bus Boycott, identifying Rosa Parks' refusal to give up her seat as the catalyzing act of defiance and noting the emergence of Martin Luther King Jr. as a movement leader. The teacher briefly interjects to guide student focus towards the interconnection of local and national efforts.",
+    "recommendedSummarization": "concise",
+    "additionalSummarizationOptions": [
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "A class begins a documentary on the Civil Rights Movement, focusing initially on Rosa Parks' 1955 protest, the resulting Montgomery Bus Boycott, and the rise of Martin Luther King Jr."
+      },
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "• Lesson Activity: Viewing a documentary on the Civil Rights Movement.\n• Teacher's Instruction: Take notes on key events and people.\n• Key Event: Rosa Parks' refusal to give up her bus seat (1955).\n• Consequence: Sparked the year-long Montgomery Bus Boycott.\n• Key Figure: Martin Luther King Jr. emerged as a leader."
+      },
+      {
+        "version": "narrative",
+        "comparativeValueToRecommendedModality": 0.85,
+        "text": "The lesson opens with the teacher setting the stage for a documentary viewing about the Civil Rights Movement. As the film begins, it highlights a pivotal moment in 1955: Rosa Parks' courageous act of defiance on a Montgomery bus. This single event is shown to be the spark that ignited the famous Montgomery Bus Boycott and brought a powerful new leader, Martin Luther King Jr., to national prominence."
+      }
+    ],
+    "oneLineSummarization": "A class begins watching a documentary on the Civil Rights Movement, starting with Rosa Parks and the Montgomery Bus Boycott.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "STORYTELLING",
+        "relativeEffectivenessWeight": 0.95,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Imagine it's December 1, 1955, in Montgomery, Alabama. A seamstress named Rosa Parks, tired after a long day's work, boards a city bus. When the driver orders her to give up her seat for a white passenger, she makes a quiet but world-changing decision: she refuses. This simple act of defiance wasn't just about a seat; it was a stand for dignity that inspired an entire community. Her courage sparked a 381-day boycott, where Black citizens walked for miles instead of riding segregated buses, ultimately leading to a major victory for civil rights."
+      },
+      {
+        "effectiveness": "high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "The Montgomery Bus Boycott demonstrates a clear cause-and-effect chain. The underlying cause was systemic racial segregation. The direct catalyst was Rosa Parks' arrest for refusing to yield her seat. The immediate effect was the organization of a massive, community-wide boycott of the bus system. The sustained pressure of this year-long protest led to the ultimate outcome: a Supreme Court ruling that declared segregation on public buses unconstitutional. This progression shows how a single act can trigger a series of events leading to significant legal change."
+      },
+      {
+        "effectiveness": "high",
+        "type": "EXPERIENTIAL",
+        "relativeEffectivenessWeight": 0.8,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "The Montgomery Bus Boycott was a powerful real-world example of economic protest. The Black community constituted the vast majority of the bus system's riders, and by withholding their fares collectively, they inflicted significant financial damage on the city's transit authority. This strategy shows that organized, nonviolent action can create tangible leverage to force change. This same principle is used today in consumer boycotts and divestment campaigns, which have their roots in movements like the one in Montgomery."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "SOCIAL",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.75,
+        "text": "Rosa Parks' action was the spark, but a spark needs fuel to become a fire. In groups, discuss what factors allowed her individual act to grow into a year-long movement. Consider the roles of community organizations, churches, and leaders like the young Martin Luther King Jr. in mobilizing thousands of people. What kind of communication and coordination would be necessary to sustain a boycott for over a year?"
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "TIMELINE",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "INTERACTIVE_DIAGRAM",
+          "ANNOTATED_TEXT"
+        ],
+        "title": "Timeline of the Civil Rights Movement",
+        "reasonForSuggestion": "A timeline is essential to place the Montgomery Bus Boycott within the broader sequence of historical events, helping students understand its context and long-term impact.",
+        "promptForGeneration": "Create an interactive HTML timeline for a high school history class about the Civil Rights Movement (1954-1968). Start with the 'Brown v. Board of Education' (1954) ruling. Prominently feature the 'Montgomery Bus Boycott' (Dec 1955 - Dec 1956), and make this entry clickable to reveal a short bio of Rosa Parks. Also include 'March on Washington' (1963), 'Civil Rights Act' (1964), and 'Voting Rights Act' (1965). Each entry must have a date, title, and a one-sentence description. Use a clean, respectful design with high-contrast text for accessibility."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.9,
+        "coreType": "MERMAID_MINDMAP",
+        "otherCoreType": null,
+        "secondaryTypes": [],
+        "title": "Key Connections in the Montgomery Bus Boycott",
+        "reasonForSuggestion": "A mind map can visually organize the key players, actions, and concepts related to the boycott, clarifying the relationships the teacher asked students to notice.",
+        "promptForGeneration": "Generate a Mermaid mindmap diagram for a high school audience. The central node should be 'Montgomery Bus Boycott (1955-56)'. Create three main branches: 'Key Figure' with sub-nodes 'Rosa Parks (Catalyst)' and 'Martin Luther King Jr. (Leader)'; 'Core Strategy' with a sub-node 'Nonviolent Protest'; and 'Outcome' with a sub-node 'Bus Segregation Ruled Unconstitutional'. Use clear labels and a simple hierarchical structure."
+      }
+    ],
+    "purpose": "This lesson introduces the American Civil Rights Movement, a critical period of social and political change in the United States. Understanding these events is fundamental to comprehending the ongoing struggle for racial equality, the power of nonviolent protest, and how citizen action can lead to landmark legal reform.",
+    "motivation": "Have you ever seen an unfair rule and wished you could change it? The story of Rosa Parks shows how one person's refusal to accept injustice can inspire a whole community to act. This isn't just about history; it's about the power you have, and the power communities have, to stand up for what's right and reshape the world for the better.",
+    "learningValueScore": 0.95,
+    "availableActions": [
+      {
+        "actionLabel": "See Timeline",
+        "reason": "Visually places the Montgomery Bus Boycott in the context of the larger movement.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Who was Rosa Parks?",
+        "reason": "Provides a deeper look at the key individual who sparked the boycott.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Explain Boycotts",
+        "reason": "Defines the core protest strategy being discussed and provides other examples.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "Civil Rights Movement": {
+        "definition": "A decades-long struggle by African Americans and their allies to end institutionalized racial discrimination, disenfranchisement, and racial segregation in the United States.",
+        "context": "The movement used nonviolent protest and civil disobedience to achieve its goals.",
+        "simpler": "The fight for equal rights for Black Americans."
+      },
+      "Boycott": {
+        "definition": "A form of protest where a group of people collectively refuse to use, buy, or deal with a person, organization, or country.",
+        "context": "The Montgomery Bus Boycott lasted 381 days and was a highly effective economic protest.",
+        "simpler": "Refusing to buy or use something to make a point."
+      }
+    },
+    "recommendationsToTeacher": [
+      "Pause the film after this introductory segment to check for understanding of key terms like 'boycott' and 'defiance' before proceeding.",
+      "Use a timeline visualization to help students contextualize the 1955 boycott within the broader scope of the Civil Rights Movement that the documentary will cover.",
+      "Prepare a follow-up question to connect the boycott strategy to modern social movements, asking students if they can think of recent examples of economic protest."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:56:50.867Z",
+    "latencyMs": 49109,
+    "tokenUsage": {
+      "input": 7247,
+      "output": 2544,
+      "total": 12740
+    }
+  }
+}

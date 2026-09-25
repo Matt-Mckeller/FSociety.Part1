@@ -1,0 +1,461 @@
+{
+  "selfDeterminationTheory": {
+    "title": "Self-Determination Theory (SDT)",
+    "overview": {
+      "summary": "Self-Determination Theory, proposed by Edward Deci and Richard Ryan, emphasizes the importance of autonomy, competence, and relatedness for motivation.",
+      "source": "https://en.wikipedia.org/wiki/Self-determination_theory"
+    },
+    "coreNeeds": [
+      {
+        "need": "Autonomy",
+        "description": "The need to feel in control of one's own behaviors and goals",
+        "expanseApplication": "Students choose their own customization, set personal goals, and have agency in how they engage with the platform"
+      },
+      {
+        "need": "Competence",
+        "description": "The need to gain mastery of tasks and learn different skills",
+        "expanseApplication": "Leveling systems, skill progression, and visible mastery indicators show students their growing competence"
+      },
+      {
+        "need": "Relatedness",
+        "description": "The need to feel a sense of belonging and attachment to other people",
+        "expanseApplication": "Team battles, peer recognition, and social features create connection and community"
+      }
+    ],
+    "cognitiveEvaluationTheory": {
+      "title": "Cognitive Evaluation Theory (CET)",
+      "description": "Explains the relationship between internal motivation and external rewards",
+      "keyInsight": "When external rewards are controlling, when they pressure individuals to act a certain way, they diminish internal motivation. On the other hand, when external motivations are informational and provide feedback about behaviors, they increase internal motivation.",
+      "expanseDesign": "Expanse rewards are designed to be informational (showing progress, celebrating achievement) rather than controlling (do X to get Y)"
+    },
+    "competenceResearch": {
+      "finding": "Deci found that giving people unexpected positive feedback on a task increases their intrinsic motivation to do it",
+      "mechanism": "Positive feedback fulfilled people's need for competence",
+      "negativeEffect": "Vallerand and Reid found negative feedback has the opposite effect (decreasing intrinsic motivation by taking away from people's need for competence)",
+      "implication": "Expanse focuses on positive reinforcement and celebrating progress rather than highlighting failures"
+    },
+    "additionalBenefits": {
+      "description": "SDT influences the fulfillment of meaning-making, well-being, and finding value within internal growth and motivation",
+      "feedbackEffect": "Giving positive feedback on a task served only to increase people's intrinsic motivation and decreased extrinsic motivation for the task"
+    }
+  },
+  "designDecisions": {
+    "title": "Design Decision Notes",
+    "overview": {
+      "summary": "Key design principles and decisions that guide the development of Expanse EDU's reward and gamification systems."
+    },
+    "customerSatisfaction": {
+      "concept": "Total Quality Management (TQM)",
+      "description": "A core definition of TQM describes a management approach to long-term success through customer satisfaction. In a TQM effort, all members of an organization participate in improving processes, products, services, and the culture in which they work.",
+      "application": "Could implement rewards based on customer satisfaction metrics"
+    },
+    "trust": {
+      "principle": "Employees want to feel trusted",
+      "application": "Give students agency and autonomy rather than micromanaging every action"
+    },
+    "purpose": {
+      "ideas": [
+        "Interface with purpose reminders/icons",
+        "Company reminders for culture/purpose: icons on UI",
+        "Connect daily activities to larger mission and meaning"
+      ]
+    },
+    "avoidControl": {
+      "principle": "Avoid being too controlling with reward systems",
+      "evidence": "There is abundant evidence that interest and performance decline over the long run when people feel they are controlled by incentive systems or any other management system.",
+      "solution": "Reward plans do not need to be controlling - they can encourage and guide rather than mandate"
+    },
+    "teamwork": {
+      "reference": "No Contest: The Case Against Competition",
+      "argument": "Competition is for the marketplace rather than the workplace. The book makes a compelling argument for focusing on teamwork instead of pitting one employee against another.",
+      "application": "Balance individual achievement with team-based goals and rewards"
+    },
+    "companyWideRewards": {
+      "concept": "Company-wide goal milestones earned through all project ticket completions",
+      "application": "School-wide or class-wide goals that everyone contributes to"
+    },
+    "rewardOptions": {
+      "examples": ["Food", "Finding rewards important to the individual"],
+      "personalization": "Perhaps this means selecting preferred art styles, or choosing your reward like Panera",
+      "collaboration": "Team-based reward voting to choose shared rewards"
+    },
+    "importantConsiderations": [
+      "Stats are important - find statistics and important studies to support design decisions",
+      "The design of the reward system would want to avoid controlling users and rather encourage positive behavior",
+      "Providing guidance and goals to achieve that nudge them in the right direction"
+    ],
+    "customization": {
+      "features": [
+        "Ability to organize your profile",
+        "Shop for art and character/avatar personalization",
+        "Custom perks selection"
+      ]
+    },
+    "uiDesignInspiration": {
+      "idea": "Dopamine symbols/chemistry symbols could be included and used in the UI",
+      "rationale": "Visually reinforce the science behind the reward system"
+    },
+    "rewardVariance": {
+      "principle": "Good to have variance in rewards",
+      "rationale": "Unpredictable rewards are more engaging than predictable ones (variable ratio reinforcement)"
+    }
+  },
+  "motivationTheory": {
+    "title": "Motivation Theory & Research",
+    "intrinsicMotivation": {
+      "description": "Intrinsic motivation arises from within an individual. People are driven by interest, satisfaction, and challenge in the task itself.",
+      "benefits": [
+        "Persevere in the face of challenges",
+        "Show creativity and originality",
+        "Learn for the sake of learning"
+      ],
+      "threeElements": {
+        "autonomy": "Freedom to make choices and act independently",
+        "purpose": "Feeling that efforts matter and have meaning",
+        "mastery": "Gaining satisfaction from becoming more skilled"
+      },
+      "promotedBy": "Mastery - Intrinsic motivation is essential to creativity",
+      "quote": {
+        "text": "Appropriate rewards for improved performance have always made good sense, intuitively and practically. They aren't wrong. They aren't intrinsically demotivating.",
+        "author": "Jerry McAdams"
+      },
+      "source": "https://www.verywellmind.com/what-is-intrinsic-motivation-2795385"
+    },
+    "extrinsicMotivation": {
+      "description": "Being motivated by recognition and money",
+      "nuance": "Extrinsic motivation doesn't necessarily hurt intrinsic motivation when designed correctly",
+      "quote": {
+        "text": "Intrinsic motivation—being motivated by challenge and enjoyment—is essential to creativity. But extrinsic motivation—being motivated by recognition and money—doesn't necessarily hurt.",
+        "author": "Teresa M. Amabile"
+      }
+    },
+    "competenceBasedRewards": {
+      "description": "Competence-based learning focuses on mastering specific skills or knowledge rather than simply completing assignments. Rewards can be integrated into this approach to enhance motivation and learning.",
+      "research": "Research suggests that rewards based on competence and mastery can positively impact self-esteem and motivation",
+      "researcher": "Susan Harter",
+      "connection": "Explore studies on intrinsic motivation, which often link competence and mastery to increased motivation"
+    },
+    "moneyAndAmbition": {
+      "quote": {
+        "text": "I am in love with money, so don't be mistaken. But first I want to write good poems. After that, I am anxious as hell to earn money and fame and bring the stars all down.",
+        "author": "Anne Sexton"
+      },
+      "insight": "Purpose and passion come first, but financial rewards are still meaningful motivators"
+    },
+    "goalsAndSetting": {
+      "insight": "Incentives are no substitute for good management and should not be used indiscriminately to remedy problems when more effective solutions exist",
+      "alternatives": "Training and goal setting are examples of effective strategies for improving productivity",
+      "source": "Referenced from Kohn's research"
+    }
+  },
+  "rewardSystemResearch": {
+    "title": "Reward System Research",
+    "overview": {
+      "summary": "Academic research and organizational studies on effective reward systems."
+    },
+    "keyResources": [
+      {
+        "title": "Harvard Business Review on Rethinking Rewards",
+        "link": "https://hbr.org/1993/11/rethinking-rewards",
+        "keyInsight": "By designing compensation schemes that create appropriate incentives, organizations can improve employee motivation"
+      },
+      {
+        "title": "BF Skinner: Operant Conditioning",
+        "concept": "Reward vs punishment - the foundation of behavioral psychology applied to motivation"
+      },
+      {
+        "title": "No Contest: The Case Against Competition",
+        "concept": "Competition is for the marketplace rather than the workplace - focusing on teamwork"
+      },
+      {
+        "title": "Capitalizing on Human Assets",
+        "scope": "Covering one-million employees and 432 compensation plans",
+        "sponsor": "Consortium for Alternative Reward Strategies Research (CARS)"
+      }
+    ],
+    "organizations": [
+      "Consortium for Alternative Reward Strategies Research (CARS)",
+      "Harvard Business Review",
+      "Psychology Today"
+    ],
+    "scientificArticles": [
+      {
+        "title": "Modulatory effects of positive mood and approach motivation on reward processing",
+        "link": "https://link.springer.com/article/10.3758/s13415-019-00764-6",
+        "summary": "Explores the relationship between mood, motivation, and reward processing"
+      },
+      {
+        "title": "Positive Affect Versus Reward: Emotional and Motivational Influences on Cognitive Control",
+        "link": "https://www.frontiersin.org/articles/10.3389/fpsyg.2011.00279/full",
+        "summary": "Discusses the interplay between emotions, rewards, and cognitive control"
+      },
+      {
+        "title": "New Research Suggests Frequent Rewards Can Improve Motivation & Performance at Work",
+        "link": "https://www.biospace.com/new-research-suggests-frequent-rewards-can-improve-motivation-performance-at-work",
+        "summary": "Immediate and frequent rewards can boost intrinsic motivation and performance"
+      }
+    ],
+    "carsResearch": {
+      "title": "CARS Research Findings",
+      "description": "The CARS research looked at more plans in greater depth than any other study",
+      "findings": [
+        "Reward plans work when properly designed and supported",
+        "There can be something in it for everyone",
+        "Rewarding groups of employees (whole plants and offices) is a powerful business strategy",
+        "Median three-to-one return on the cost of rewards",
+        "Employees earn from 2% to 15% of their base pay in incentives or non-cash awards",
+        "No layoffs appear to result from improved performance",
+        "Positive employee-management cooperation and improved information sharing"
+      ]
+    },
+    "winWinPhilosophy": {
+      "principle": "Rewards reinforce a 'win-win' environment",
+      "clarification": "The objective of a reward plan is not to 'control or manipulate' - it is to provide focus and reward improved performance",
+      "quote": {
+        "text": "Incentives are neither all good nor all bad. Although not the right answer in all cases, they can be highly effective motivational tools.",
+        "author": "Donita S. Wolters"
+      }
+    },
+    "frequentRewards": {
+      "topic": "Immediate Satisfaction / Frequent Rewards and Timing",
+      "insight": "The timing and frequency of rewards matters as much as the reward itself"
+    },
+    "approachMotivation": {
+      "definition": "The strength of our desire to pursue rewards is a key component of positive mood",
+      "mechanism": "Our brains predict future rewards and adjust behavior based on whether those predictions match reality"
+    },
+    "moodAndRewards": {
+      "insights": [
+        "Experiencing rewards can be mood-boosting",
+        "Recognizing and celebrating achievements, big or small, not only boosts morale but also drives greater engagement and innovation"
+      ],
+      "todo": "Research mood effect on performance - employers need to do more for mental health"
+    }
+  },
+  "aiUsage": {
+    "title": "AI Usage in Expanse EDU",
+    "overview": {
+      "summary": "Documentation of how Expanse EDU leverages artificial intelligence across various aspects of the platform."
+    },
+    "developmentUseCases": [
+      {
+        "category": "Code Development",
+        "uses": [
+          "Code Generation",
+          "Code Review",
+          "Code Organization",
+          "Code Bug Detection",
+          "E2E test creation, Postman collection or similar",
+          "Code Security Analysis"
+        ],
+        "reference": "See CoPilot Documentation (CoPilot Cookbook): https://docs.github.com/en/copilot/tutorials/copilot-chat-cookbook"
+      }
+    ],
+    "productUseCases": [
+      {
+        "category": "Content & Art",
+        "uses": [
+          "NFT/Digital art generation",
+          "Learning content creation",
+          "Positive reinforcement messages",
+          "Recognition messages"
+        ]
+      },
+      {
+        "category": "Data & Analysis",
+        "uses": [
+          "Data analysis and classification of rewards and classes",
+          "Analyzing user and engagement behavior to suggest features, mechanics, and improvements"
+        ]
+      },
+      {
+        "category": "Communication",
+        "uses": ["Chat Support", "Email Generation", "Chat Monitoring"]
+      },
+      {
+        "category": "Business Operations",
+        "uses": [
+          "Content Generation, Feedback, and General writing",
+          "Roadmapping & ticket definition",
+          "Business plan, and creating documentation",
+          "Organization of Documentation",
+          "Marketing Plan & Strategy",
+          "Research",
+          "Summarizing Books & Articles"
+        ]
+      },
+      {
+        "category": "User Experience",
+        "uses": ["Survey Creation", "Idea generation"]
+      }
+    ],
+    "potentialFutureUses": [
+      "Reward amount optimization",
+      "Personalized learning paths",
+      "Predictive engagement analytics"
+    ]
+  },
+  "inspirationalQuotes": {
+    "title": "Inspirational Quotes & Philosophy",
+    "quotes": [
+      {
+        "quote": "Empty your cup so that it may be filled; become devoid to gain totality.",
+        "author": "Bruce Lee",
+        "relevance": "Openness to learning and growth"
+      },
+      {
+        "quote": "In every job that must be done, there is an element of fun. You find the fun and SNAP! the job's a game.",
+        "author": "Mary Poppins",
+        "source": "https://www.gamify.com/what-is-gamification",
+        "relevance": "Core philosophy of gamification"
+      },
+      {
+        "quote": "Gamification can teach you about yourself and the world we live in. It can teach you how to learn and how to communicate. It can be used to teach anything!",
+        "author": "Matthew",
+        "relevance": "Expanse founder's vision"
+      },
+      {
+        "quote": "Everyone wants to talk about the younger generation being 'lazy'... there's just so much more opportunity for people to do stuff they actually care about. The question for us as business owners is, how will we stand out? A paycheck or fancy job title is no longer enough. How can you add value?",
+        "author": "Gary V",
+        "relevance": "Modern motivation requires purpose and meaning"
+      },
+      {
+        "quote": "There seems to be considerable room for improvement in the happiness of employees while they are at work.",
+        "author": "Professor De Neve",
+        "relevance": "The opportunity for engagement improvement"
+      },
+      {
+        "quote": "People want purpose and meaning from their work. They want to be known for what they're good at. They want to be known for what makes them unique. This is what drives employee engagement.",
+        "source": "https://www.gallup.com/workplace/285674/improve-employee-engagement-workplace.aspx",
+        "relevance": "Core insight on what drives engagement"
+      },
+      {
+        "quote": "The only way to do great work is to love what you do.",
+        "author": "Steve Jobs",
+        "relevance": "Intrinsic motivation and passion"
+      }
+    ]
+  },
+  "rewardSystemExamples": {
+    "title": "Real-World Reward System Examples",
+    "description": "Companies and games that demonstrate effective gamification and reward systems that inform Expanse's approach.",
+    "companies": ["Starbucks", "Smoothie King", "Walmart", "Panera Bread"],
+    "gamesStudy": {
+      "description": "Games are the study of engagement",
+      "insight": "Video game design principles can be applied to education to increase motivation and persistence"
+    },
+    "unlearningConcept": {
+      "title": "Unlearning is the new learning",
+      "source": "https://blog.logicearth.com/en-gb/unlearning-is-the-new-learning",
+      "relevance": "Adaptability and growth mindset"
+    }
+  },
+  "overjustificationEffect": {
+    "title": "Overjustification Effect",
+    "definition": "A psychological phenomenon where providing excessive external rewards for a behavior that is already intrinsically motivating can lead to a reduction in the intrinsic motivation to perform that behavior.",
+    "explanation": "When people are given extrinsic rewards (like money, prizes, or praise) for activities they naturally find enjoyable or fulfilling, their internal desire to engage in those activities may diminish.",
+    "managingStrategies": [
+      {
+        "strategy": "Use Intrinsic Rewards",
+        "description": "Foster environments where intrinsic rewards, like personal growth and satisfaction, are emphasized"
+      },
+      {
+        "strategy": "Balance Rewards",
+        "description": "Provide extrinsic rewards that complement rather than overshadow intrinsic motivations"
+      },
+      {
+        "strategy": "Recognition Over Replacement",
+        "description": "Offer recognition and praise in a way that supports rather than replaces intrinsic motivation, such as acknowledging effort and improvement"
+      }
+    ],
+    "expanseDesign": "Expanse is designed with awareness of this effect - rewards enhance rather than replace the natural satisfaction of learning and achievement"
+  },
+  "negativityBias": {
+    "title": "Negativity Bias",
+    "definition": "A psychological phenomenon where humans have a tendency to notice and give weight to negative experiences or information over positive ones.",
+    "research": "Research indicates that humans do have a tendency towards negativity, often referred to as the 'negativity bias'",
+    "implication": "Educational environments must actively counteract this bias with deliberate positive reinforcement",
+    "expanseApproach": "Expanse emphasizes positive feedback, celebration of achievements, and constructive rather than critical responses to counteract students' natural negativity bias"
+  },
+  "positiveCultureElements": {
+    "title": "Positive Culture Elements",
+    "overview": "Key components for building a positive, engaging culture in educational environments",
+    "leadershipElements": [
+      "Great leadership with visible involvement",
+      "Leading by example with enthusiasm",
+      "Collaborative decision-making involving students and teachers",
+      "Open communication channels"
+    ],
+    "recognitionElements": [
+      "Thank you and recognition practices",
+      "Celebrating mistakes as learning opportunities",
+      "Regular feedback and feedback loops",
+      "Active listening"
+    ],
+    "wellnessElements": [
+      "Promoting health and wellness",
+      "Work-life balance",
+      "Stress relief activities",
+      "Mental health support",
+      "Team activities"
+    ],
+    "trustElements": [
+      "Fostering trust",
+      "Autonomy and empowerment",
+      "Achievable goals with support",
+      "Gratitude practices"
+    ],
+    "innovationElements": [
+      "Innovation time for creative projects",
+      "Idea incubation programs",
+      "Promoting idea sharing",
+      "Continuous learning opportunities",
+      "Mentorship and coaching",
+      "Skill enhancement and education"
+    ],
+    "cultureElements": [
+      "Equal opportunities",
+      "Inclusive culture",
+      "Aligned values between actions and expectations",
+      "Social responsibility and community involvement",
+      "Positive language practices",
+      "Modern tools and technology with tech support"
+    ]
+  },
+  "topicsForFurtherResearch": {
+    "title": "Topics for Further Research",
+    "keywords": [
+      "Mood and goal achievement",
+      "Group incentives",
+      "Gainsharing",
+      "Profit sharing",
+      "Employee recognition",
+      "Employee involvement",
+      "Employee-management cooperation",
+      "Reward strategy",
+      "Employee engagement",
+      "Motivation",
+      "Intrinsic motivation",
+      "Extrinsic Motivation",
+      "Corporate culture",
+      "Quiet Quitting",
+      "Productivity",
+      "Turnover",
+      "Profitability",
+      "Customer satisfaction"
+    ],
+    "researchQuestions": [
+      "How does mood affect performance?",
+      "What is the impact of immediate vs delayed rewards?",
+      "How do approach motivation and positive mood interact?",
+      "What role does customization play in engagement?",
+      "How can reward systems foster creativity?"
+    ],
+    "customization": {
+      "insight": "Create a workplace where individuals feel empowered to showcase their individuality",
+      "humanNeed": "People crave uniqueness and personalization",
+      "designQuestion": "How can we foster a culture that values and supports employee uniqueness?",
+      "solution": "Marketplace approach to customization"
+    }
+  }
+}

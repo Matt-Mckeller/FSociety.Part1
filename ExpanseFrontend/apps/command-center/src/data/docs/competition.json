@@ -1,0 +1,141 @@
+{
+  "overview": {
+    "marketPosition": "High Need, Low Competition",
+    "summary": "The market is underserved, with few solutions addressing positive behavior reinforcement and engagement in education."
+  },
+  "competitors": [
+    {
+      "id": "classdojo",
+      "name": "Class Dojo",
+      "category": "K-8 Engagement",
+      "description": "Dominates K-8 with social features and parent involvement",
+      "marketShare": "1 in 5 US families",
+      "users": "45M+ users",
+      "downloads": "10M+",
+      "funding": [
+        { "round": "Seed", "amount": "$1.7M", "year": "2012" },
+        { "round": "Series A", "amount": "$8.5M", "year": "2014" }
+      ],
+      "strengths": ["Large user base", "Parent involvement", "K-8 focus"],
+      "weaknesses": [
+        "Requires constant device use",
+        "Limited individual recognition",
+        "Basic gamification"
+      ],
+      "url": "https://classdojo.com/"
+    },
+    {
+      "id": "pbis-rewards",
+      "name": "PBIS Rewards",
+      "category": "PBIS App",
+      "description": "Manual PBIS tracking app for schools",
+      "downloads": "100K+",
+      "rating": "Low",
+      "strengths": ["PBIS focused"],
+      "weaknesses": ["Manual", "Poor UX", "Limited features"],
+      "url": "https://www.pbisrewards.com/"
+    },
+    {
+      "id": "minga",
+      "name": "Minga",
+      "category": "PBIS App",
+      "description": "School engagement and PBIS platform",
+      "marketShare": "Thousands of schools/districts",
+      "funding": [{ "round": "Series A", "amount": "$7M", "year": "2024" }],
+      "strengths": ["Recent funding", "Growing"],
+      "weaknesses": ["Manual processes", "Limited gamification"],
+      "url": "https://minga.io/pbis-rewards/"
+    },
+    {
+      "id": "5star",
+      "name": "5 Star Student",
+      "category": "PBIS App",
+      "description": "Student rewards app",
+      "downloads": "100K+",
+      "rating": "1.7",
+      "strengths": [],
+      "weaknesses": ["Very low ratings", "Poor quality"]
+    }
+  ],
+  "traditionalCompetition": [
+    {
+      "type": "Manual Rewards",
+      "description": "Parents pay students for grades, teachers use paper money or snacks, schools host reward events",
+      "limitations": ["Not scalable", "Inconsistent", "Exhausting for teachers"]
+    },
+    {
+      "type": "Honor Roll/GPA",
+      "description": "Traditional academic recognition",
+      "limitations": [
+        "Private comparisons",
+        "No real-time feedback",
+        "Software needed for leaderboards"
+      ]
+    }
+  ],
+  "competitorWeaknesses": [
+    {
+      "area": "Quality & UX",
+      "issue": "Current products lack automation, gamification, and deep engagement features"
+    },
+    {
+      "area": "Innovation",
+      "issue": "Insufficient focus on psychology, social growth, personalization, and valuable rewards"
+    },
+    {
+      "area": "Reward Variety",
+      "issue": "Rely solely on teachers instead of automating and diversifying rewards"
+    },
+    {
+      "area": "Parent Targeting",
+      "issue": "Parents/families are a better revenue source than schools"
+    },
+    {
+      "area": "EdTech Trends",
+      "issue": "Post-COVID, EdTech and PBIS are gaining momentum"
+    }
+  ],
+  "differentiators": [
+    "Homework integration & automation",
+    "Battles, leaderboards, and competition",
+    "Parent involvement and family-focused monetization",
+    "Enhanced marketing and product quality",
+    "Gamification and engagement",
+    "Age-group specific art styles",
+    "School-level rewards without teacher burden"
+  ],
+  "relatedApps": {
+    "gamification": [
+      { "name": "Kahoot", "downloads": "50M", "note": "Quiz-based engagement" },
+      {
+        "name": "Roblox",
+        "downloads": "1B",
+        "note": "Not educational but shows engagement"
+      },
+      { "name": "Docebo", "category": "Workplace learning" }
+    ],
+    "financeRewards": [
+      "PayPal",
+      "Cash App",
+      "Chase Bank",
+      "Amazon",
+      "Hello Fresh",
+      "Dunkin Donuts"
+    ],
+    "games": ["Minecraft EDU", "Fortnite", "WoW", "FFXIV"],
+    "parentApps": [
+      {
+        "name": "Child Rewards",
+        "downloads": "100K+",
+        "url": "https://play.google.com/store/apps/details?id=com.childreward"
+      }
+    ]
+  },
+  "teacherFeedback": [
+    "Class Dojo requires constant device use, limiting classroom mobility",
+    "Whole class rewards can overlook individual achievements",
+    "Manual reward systems are exhausting and costly for teachers",
+    "\"Am I shaping them correctly?\" - Teachers question effectiveness",
+    "\"Wallet getting lighter\" - Costly for teachers personally"
+  ]
+}

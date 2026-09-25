@@ -1,0 +1,188 @@
+{
+  "sample": {
+    "subject": "Art",
+    "gradeLevel": "4th Grade",
+    "qualityScore": 6,
+    "description": "Art class with music and activity sounds",
+    "durationSeconds": 60,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Today we're making collages about our favorite things!",
+          "timestamp": 0,
+          "confidence": 0.84
+        },
+        {
+          "text": "soft music playing",
+          "timestamp": 4.8,
+          "confidence": 0.32
+        },
+        {
+          "text": "You can use magazines, colored paper, and markers.",
+          "timestamp": 7.5,
+          "confidence": 0.78
+        },
+        {
+          "text": "scissors cutting",
+          "timestamp": 13.9,
+          "confidence": 0.28
+        },
+        {
+          "text": "Remember to be creative and have fun with it.",
+          "timestamp": 16.7,
+          "confidence": 0.81
+        },
+        {
+          "text": "glue bottle sound",
+          "timestamp": 22.4,
+          "confidence": 0.24
+        },
+        {
+          "text": "Tommy, that's a great choice of colors!",
+          "timestamp": 25.8,
+          "confidence": 0.76
+        },
+        {
+          "text": "paper tearing",
+          "timestamp": 31.5,
+          "confidence": 0.29
+        },
+        {
+          "text": "If you need more supplies, they're on the back table.",
+          "timestamp": 34.9,
+          "confidence": 0.74
+        },
+        {
+          "text": "chair sliding",
+          "timestamp": 41.2,
+          "confidence": 0.26
+        },
+        {
+          "text": "Emma, I love how you're arranging those pictures!",
+          "timestamp": 44.6,
+          "confidence": 0.79
+        },
+        {
+          "text": "music continues",
+          "timestamp": 50.3,
+          "confidence": 0.31
+        },
+        {
+          "text": "We have about 15 more minutes to finish up.",
+          "timestamp": 53.7,
+          "confidence": 0.77
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.95,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "PII_DETECTED",
+        "details": "Potential student first names ('Tommy', 'Emma') detected. While used for encouragement, this may constitute personally identifiable information.",
+        "severity": "low"
+      }
+    ],
+    "isMainLectureContent_confidence": 0.2,
+    "isSideConversation_confidence": 0.6,
+    "isIrrelevantContent_confidence": 0.2,
+    "isPartialResponse": false,
+    "tags": [
+      "art",
+      "collage",
+      "creativity",
+      "grade_4",
+      "hands-on_activity",
+      "classroom_management",
+      "fine_motor_skills"
+    ],
+    "shouldSummarize": false,
+    "shouldSummarizeFalseReason": "Content consists of brief, in-the-moment instructions and encouragement for a hands-on activity, rather than a cohesive educational concept suitable for summarization. The audio also contains significant background noise.",
+    "waitForMoreContent": false,
+    "summarization": "",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [],
+    "oneLineSummarization": "",
+    "recommendVisualizationToImproveLearning": false,
+    "visualizationEffectivenessScore": 0.1,
+    "learningModalityText": [
+      {
+        "effectiveness": "medium",
+        "type": "VERBAL",
+        "relativeEffectivenessWeight": 0.6,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Today's art project is creating a collage that represents your favorite things. You have a variety of materials available, including magazines, colored paper, and markers. The main goal is to be creative and enjoy the process. If you run out of anything, you can find more supplies at the back table. We will be working on this for about 15 more minutes."
+      },
+      {
+        "effectiveness": "low",
+        "type": "PROBLEM_SOLVING",
+        "relativeEffectivenessWeight": 0.3,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.5,
+        "text": "Problem: How do you create a collage of your favorite things? Step 1: Gather your materials, such as magazines, colored paper, scissors, and glue. Step 2: Think about your favorite things and find or draw pictures that represent them. Step 3: Cut out your images and arrange them on your paper in a creative way. Step 4: Glue everything down to finish your unique piece of art. Remember, there's no single right way to do it!"
+      },
+      {
+        "effectiveness": "low",
+        "type": "KINESTHETIC",
+        "relativeEffectivenessWeight": 0.4,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.65,
+        "text": "Get ready to use your hands to create! Feel the smooth texture of the colored paper and the glossy finish of the magazine pages. Use your scissors to carefully cut along the lines of a picture you like. Arrange your chosen pieces on the paper, moving them around until they look just right. Squeeze the glue bottle and spread it evenly before pressing your pictures down firmly. This is your chance to build something that shows who you are."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "low",
+        "relativeEffectivenessWeight": 0.2,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "STEP_SEQUENCE",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "EMOJI_DIAGRAM"
+        ],
+        "title": "How to Make Your Collage",
+        "reasonForSuggestion": "While the instructions are simple, a visual step-by-step guide could help students who were not listening or need a visual reminder. However, its overall impact is low as the task is straightforward.",
+        "promptForGeneration": "Create a simple, 4-step visual sequence for 4th graders on how to make a collage. Use large, friendly icons or emojis. Step 1: An icon of magazines and scissors with the text 'Gather Materials'. Step 2: A 'thinking cloud' emoji with pictures of a dog, pizza, and soccer ball inside, with the text 'Think of Ideas'. Step 3: An icon of scissors cutting paper and a hand arranging pieces, with the text 'Cut & Arrange'. Step 4: A glue bottle icon and a finished art piece with a star emoji, with the text 'Glue & Finish!'. Use bright, primary colors and a playful font."
+      }
+    ],
+    "purpose": "This activity is designed to foster creativity and self-expression. It allows students to explore concepts of composition, color, and theme in a hands-on manner while also developing important fine motor skills through cutting and pasting.",
+    "motivation": "This is your chance to make something that is 100% about you! What do you love? A favorite animal, a fun game, a delicious food? You get to be the artist and show everyone what makes you special and unique. There are no rules except to have fun and create something you're proud of.",
+    "learningValueScore": 0.25,
+    "availableActions": [
+      {
+        "actionLabel": "Get Ideas",
+        "reason": "Provides inspiration for students who are unsure what to include in their 'favorite things' collage.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "See Examples",
+        "reason": "Shows students finished examples of collages to help them visualize the end goal and different creative possibilities.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Technique Tip",
+        "reason": "Offers a quick tip on a collage technique, such as layering paper or creating textures, to enhance their work.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "recommendationsToTeacher": [
+      "Continue providing specific, positive reinforcement to individual students by name, as this is highly effective for motivation and classroom management.",
+      "Consider creating a 'materials station' with labels to empower students to find what they need independently.",
+      "For students who finish early, suggest they add details with markers or write a few words on the back explaining why they chose their favorite things."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-26T23:57:10.215Z",
+    "latencyMs": 26128,
+    "tokenUsage": {
+      "input": 7159,
+      "output": 1508,
+      "total": 10210
+    }
+  }
+}

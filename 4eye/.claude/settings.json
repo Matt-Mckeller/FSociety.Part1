@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm typecheck)",
+      "Bash(pnpm typecheck *)",
+      "Bash(pnpm tsc --noEmit *)",
+      "Bash(pnpm exec tsc --noEmit *)",
+      "Bash(pnpm --filter @4eye/web exec tsc --noEmit *)",
+      "Bash(curl -s http://localhost:6311/*)",
+      "Bash(curl -s http://localhost:6006/*)",
+      "Bash(curl -s http://localhost:3311/*)",
+      "Bash(pnpm exec playwright screenshot *)",
+      "Bash(npx playwright screenshot *)"
+    ]
+  }
+}

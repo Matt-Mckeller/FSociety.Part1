@@ -1,0 +1,352 @@
+{
+  "sample": {
+    "durationSeconds": 180,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Today we're continuing our unit on the American Revolution.",
+          "timestamp": 0,
+          "confidence": 0.97
+        },
+        {
+          "text": "Last class we discussed the causes. Who remembers the main grievances the colonists had?",
+          "timestamp": 4.5,
+          "confidence": 0.95
+        },
+        {
+          "text": "Taxation without representation.",
+          "timestamp": 10.8,
+          "confidence": 0.98
+        },
+        {
+          "text": "Yes, that's a big one. What else?",
+          "timestamp": 13.2,
+          "confidence": 0.96
+        },
+        {
+          "text": "The Stamp Act and the Tea Act.",
+          "timestamp": 15.9,
+          "confidence": 0.94
+        },
+        {
+          "text": "Good. The British Parliament kept passing laws that affected the colonies without giving them any say.",
+          "timestamp": 18.7,
+          "confidence": 0.96
+        },
+        {
+          "text": "This led to increasing tensions throughout the 1760s and early 1770s.",
+          "timestamp": 25.3,
+          "confidence": 0.95
+        },
+        {
+          "text": "Now, can someone tell me about the Boston Tea Party?",
+          "timestamp": 31.8,
+          "confidence": 0.97
+        },
+        {
+          "text": "It was in 1773, right?",
+          "timestamp": 36.2,
+          "confidence": 0.93
+        },
+        {
+          "text": "Exactly, December 1773. What happened?",
+          "timestamp": 38.5,
+          "confidence": 0.98
+        },
+        {
+          "text": "The colonists dressed as Native Americans and threw tea into the harbor.",
+          "timestamp": 42.1,
+          "confidence": 0.92
+        },
+        {
+          "text": "That's right. They dumped 342 chests of tea, worth about 1.7 million dollars in today's money.",
+          "timestamp": 48.3,
+          "confidence": 0.94
+        },
+        {
+          "text": "This was a direct protest against the Tea Act.",
+          "timestamp": 56.7,
+          "confidence": 0.96
+        },
+        {
+          "text": "How did Britain respond to this?",
+          "timestamp": 60.2,
+          "confidence": 0.98
+        },
+        {
+          "text": "They passed the Intolerable Acts.",
+          "timestamp": 63.8,
+          "confidence": 0.95
+        },
+        {
+          "text": "Correct! The Intolerable Acts, or Coercive Acts, were meant to punish Massachusetts.",
+          "timestamp": 66.5,
+          "confidence": 0.94
+        },
+        {
+          "text": "They closed Boston Harbor until the tea was paid for.",
+          "timestamp": 73.2,
+          "confidence": 0.95
+        },
+        {
+          "text": "They also restricted town meetings and required colonists to house British soldiers.",
+          "timestamp": 78.9,
+          "confidence": 0.93
+        },
+        {
+          "text": "Instead of intimidating the colonists, these acts actually united them.",
+          "timestamp": 85.7,
+          "confidence": 0.96
+        },
+        {
+          "text": "This led to the First Continental Congress in 1774.",
+          "timestamp": 92.1,
+          "confidence": 0.97
+        },
+        {
+          "text": "Delegates from 12 of the 13 colonies met in Philadelphia.",
+          "timestamp": 97.5,
+          "confidence": 0.95
+        },
+        {
+          "text": "Which colony didn't send delegates?",
+          "timestamp": 103.2,
+          "confidence": 0.98
+        },
+        {
+          "text": "Georgia?",
+          "timestamp": 106.5,
+          "confidence": 0.91
+        },
+        {
+          "text": "Yes, Georgia. They were still heavily dependent on British military protection.",
+          "timestamp": 108.3,
+          "confidence": 0.94
+        },
+        {
+          "text": "The Congress organized a boycott of British goods and began preparing for potential conflict.",
+          "timestamp": 115.8,
+          "confidence": 0.95
+        },
+        {
+          "text": "By April 1775, tensions had reached a breaking point.",
+          "timestamp": 123.6,
+          "confidence": 0.96
+        },
+        {
+          "text": "British troops marched to Concord to seize colonial weapons.",
+          "timestamp": 128.9,
+          "confidence": 0.94
+        },
+        {
+          "text": "And that's when the first shots were fired at Lexington.",
+          "timestamp": 134.2,
+          "confidence": 0.97
+        },
+        {
+          "text": "The shot heard round the world, as it came to be known.",
+          "timestamp": 139.5,
+          "confidence": 0.95
+        },
+        {
+          "text": "From that moment on, there was no turning back.",
+          "timestamp": 145.1,
+          "confidence": 0.96
+        },
+        {
+          "text": "The American Revolution had begun.",
+          "timestamp": 149.3,
+          "confidence": 0.98
+        },
+        {
+          "text": "Next class, we'll discuss the major battles and turning points.",
+          "timestamp": 153.7,
+          "confidence": 0.97
+        },
+        {
+          "text": "For homework, I want you to read chapters 6 and 7 and answer the questions at the end.",
+          "timestamp": 159.2,
+          "confidence": 0.94
+        },
+        {
+          "text": "Any questions before we wrap up?",
+          "timestamp": 166.8,
+          "confidence": 0.98
+        },
+        {
+          "text": "No? Alright, see you all on Wednesday.",
+          "timestamp": 170.5,
+          "confidence": 0.97
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.96,
+    "appropriatenessScore": 1,
+    "warnings": [],
+    "isMainLectureContent_confidence": 0.98,
+    "isSideConversation_confidence": 0.02,
+    "isIrrelevantContent_confidence": 0,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "history",
+      "us_history",
+      "american_revolution",
+      "boston_tea_party",
+      "intolerable_acts",
+      "first_continental_congress",
+      "grade_10",
+      "cause_and_effect"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "The lesson reviews the causes of the American Revolution, starting with colonial grievances like 'taxation without representation.' It focuses on the escalating chain of events beginning with the Boston Tea Party in December 1773, where colonists protested the Tea Act by dumping 342 chests of tea into the harbor. The British Parliament's punitive response, the Intolerable Acts, closed Boston Harbor and restricted colonial rights. Instead of quelling rebellion, these acts unified the colonies, leading to the First Continental Congress in 1774 where 12 of the 13 colonies organized a boycott. This escalating tension culminated in April 1775 with the battles of Lexington and Concord, marking the start of the American Revolution.",
+    "recommendedSummarization": "narrative",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "• Grievances: Taxation without representation (Stamp Act, Tea Act).\n• Protest: Boston Tea Party (Dec 1773) - 342 chests of tea destroyed.\n• British Retaliation: The Intolerable (Coercive) Acts were passed to punish Massachusetts.\n• Key Punishments: Boston Harbor closed, town meetings restricted.\n• Colonial Response: The acts united the colonies, leading to the First Continental Congress (1774).\n• Outcome: Organized boycotts and military preparations.\n• War Begins: First shots fired at Lexington and Concord (April 1775)."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.75,
+        "text": "The Boston Tea Party protest against British taxes led to the harsh Intolerable Acts. This punishment, intended to isolate Massachusetts, instead united the American colonies, sparking the First Continental Congress and leading directly to armed conflict at Lexington and Concord."
+      },
+      {
+        "version": "technical",
+        "comparativeValueToRecommendedModality": 0.6,
+        "text": "The transcript details the causal sequence from colonial protest against the Tea Act of 1773 to the commencement of hostilities. The Boston Tea Party served as the proximate cause for Parliament's passage of the Coercive Acts (Intolerable Acts) in 1774. These statutes, particularly the Boston Port Act, triggered an inter-colonial response in the form of the First Continental Congress, which formalized economic resistance and established a framework for collective governance, ultimately precipitating the military engagements at Lexington and Concord in April 1775."
+      }
+    ],
+    "oneLineSummarization": "The Boston Tea Party protest led to Britain's punitive Intolerable Acts, which united the colonies and ignited the American Revolution at Lexington.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Let's trace the clear chain of cause and effect that led to war. The initial cause was British taxation policies like the Tea Act. This led to the effect of colonial protest, specifically the Boston Tea Party. That action, in turn, caused a severe British reaction: the Intolerable Acts. The effect of this punishment was not submission, but unification, leading to the First Continental Congress. The final effect of this unified preparation for conflict was the first battle at Lexington and Concord. Each step is a direct and logical consequence of the one before it."
+      },
+      {
+        "effectiveness": "high",
+        "type": "STORYTELLING",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "Imagine the tension in Boston in 1773. After years of feeling ignored, a group of colonists decided to make a statement Britain couldn't ignore, destroying a fortune in tea. They likely felt a mix of fear and exhilaration, but they couldn't have predicted the fury of the response. When news of the Intolerable Acts arrived—the harbor closed, the government shut down—it was a shock. But instead of breaking their spirit, it forged a new bond with other colonies who thought, 'If it can happen to Boston, it can happen to us.' This shared fear and anger is what brought them together in Philadelphia, setting the stage for the first shots of a long and difficult war."
+      },
+      {
+        "effectiveness": "high",
+        "type": "ASSOCIATIONS",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "Think of the events leading to the Revolution as a series of dominoes. The first domino, 'Taxation without Representation,' was already standing. The Boston Tea Party was the finger that pushed it over. It knocked into the next domino, 'British Anger,' which fell hard onto 'The Intolerable Acts.' That domino's fall was so significant it triggered a whole row at once: 'Colonial Unity,' 'First Continental Congress,' and 'Military Preparation.' The very last domino in the line was 'Lexington and Concord.' Once the first one fell, the chain reaction was almost impossible to stop."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "EXPERIENTIAL",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.7,
+        "text": "This historical chain of events has real-world parallels today. A local community might protest a new law they feel is unfair. The government could respond with harsh penalties to make an example of them. This might lead other communities to support the protestors, fearing similar laws could affect them next. They might organize larger, coordinated protests or economic boycotts. This pattern of protest, crackdown, and wider resistance is a fundamental dynamic in political science and can be seen in movements all over the world, showing how a local issue can escalate into a national one."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "MERMAID_FLOWCHART",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "ANNOTATED_TEXT"
+        ],
+        "title": "From Protest to War: A Cause-and-Effect Flowchart",
+        "reasonForSuggestion": "This content is a perfect example of a causal chain. A flowchart will visually reinforce the step-by-step escalation, making the logical progression from a single protest to the start of a war clear and easy to remember for students.",
+        "promptForGeneration": "Create a vertical Mermaid flowchart for a 10th-grade history class illustrating the path from the Boston Tea Party to the start of the Revolution. Use the 'graph TD' syntax. Start with a node A[\"Protest: Boston Tea Party (Dec 1773)\"]. Connect it to B[\"British Response: Intolerable Acts (1774)\"]. From B, create an arrow to a subgraph labeled 'Key Punishments' containing two parallel nodes: B1[\"Boston Harbor Closed\"] and B2[\"Town Meetings Restricted\"]. Connect the subgraph to C[\"Colonial Reaction: Unification\"]. Connect C to D[\"Action: First Continental Congress (Sep 1774)\"]. Connect D to E[\"Outcome: Boycott & Military Prep\"]. Finally, connect E to F[\"Result: Battles of Lexington & Concord (April 1775)\"]. Style the nodes: Protest in blue, British Response in red, and Colonial Reaction/Outcome in green. Use clear, concise text for each node."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.9,
+        "coreType": "TIMELINE",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "HTML_INTERACTIVE",
+          "TOOLTIP_DEFINITIONS"
+        ],
+        "title": "Timeline of Revolutionary Escalation (1773-1775)",
+        "reasonForSuggestion": "A timeline provides essential chronological context, helping students understand the rapid pace of events. An interactive version allows for exploration of key terms and details without cluttering the main visual.",
+        "promptForGeneration": "Generate an interactive HTML timeline for a high school audience covering the key events from 1773 to 1775. The timeline should be horizontal. Include the following key dates and events: Dec 1773 (Boston Tea Party), March-June 1774 (Intolerable Acts passed), Sep 1774 (First Continental Congress convenes), April 1775 (Lexington & Concord). Each point on the timeline should be a clickable circle. On hover, a tooltip should appear with a 1-2 sentence description of the event. For 'Intolerable Acts,' the tooltip should list the main components (Boston Port Act, etc.). Use a clean, modern design with a clear central line and legible fonts. British actions should be marked in red and colonial actions in blue."
+      }
+    ],
+    "purpose": "This content is academically crucial as it illustrates the concept of political escalation. It demonstrates how a series of actions and reactions between a government and its people can lead to armed conflict. Understanding this specific historical sequence is fundamental to comprehending the origins of the United States, its founding principles, and the justification for its declaration of independence.",
+    "motivation": "Have you ever seen a small argument escalate into a huge fight? That's what happened here on a national scale. This story is about how a protest over something as simple as tea spiraled into the birth of a new country. It shows that actions have consequences, and that standing up to what you see as unfair can have a powerful, world-changing impact. Learning this helps you understand the roots of American identity and the importance of having a voice in your own governance.",
+    "learningValueScore": 0.92,
+    "availableActions": [
+      {
+        "actionLabel": "See Flowchart",
+        "reason": "Visually trace the cause-and-effect chain of events from protest to war.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Define Terms",
+        "reason": "Get clear definitions for key concepts like 'Intolerable Acts' and 'Continental Congress'.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Why no Georgia?",
+        "reason": "Explore the specific reasons why Georgia was the only colony not to attend the First Continental Congress.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "Intolerable Acts": {
+        "definition": "A series of four punitive laws passed by the British Parliament in 1774 after the Boston Tea Party. They were meant to punish the Massachusetts colonists.",
+        "context": "The Intolerable Acts, which closed Boston's port, were the final straw for many colonists.",
+        "also_known_as": "Coercive Acts",
+        "simpler": "The 'punishment laws' Britain passed after the Boston Tea Party."
+      },
+      "First Continental Congress": {
+        "definition": "A meeting of delegates from twelve of the thirteen American colonies that met in 1774 in Philadelphia, Pennsylvania, in response to the Intolerable Acts.",
+        "context": "The First Continental Congress organized a united boycott of British goods.",
+        "simpler": "The first big meeting where the colonies decided to work together against Britain."
+      }
+    },
+    "relatedResearch": [
+      {
+        "topic": "The Role of Georgia in the Pre-Revolutionary Period",
+        "relevance": "Explores the unique circumstances that made Georgia more hesitant to join the revolutionary cause initially."
+      },
+      {
+        "topic": "Primary Source Accounts of the Boston Tea Party",
+        "relevance": "Provides direct insight into the motivations and experiences of the participants."
+      }
+    ],
+    "recommendationsToTeacher": [
+      "Use the student question about Georgia as a 'teachable moment' for a brief mini-research activity on why some colonies were less revolutionary than others.",
+      "Consider a 'perspective-taking' activity: Have students write a short diary entry from the point of view of a Boston merchant after the Intolerable Acts were announced.",
+      "Reinforce the cause-and-effect sequence by asking students to create their own simple flowchart or timeline as a review exercise."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:29:09.493Z",
+    "latencyMs": 41191,
+    "tokenUsage": {
+      "input": 8232,
+      "output": 3137,
+      "total": 12735
+    }
+  }
+}

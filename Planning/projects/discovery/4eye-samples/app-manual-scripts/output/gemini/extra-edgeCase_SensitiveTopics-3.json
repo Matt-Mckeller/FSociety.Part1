@@ -1,0 +1,224 @@
+{
+  "sample": {
+    "durationSeconds": 48,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "This unit covers the theory of evolution,",
+          "timestamp": 0,
+          "confidence": 0.96
+        },
+        {
+          "text": "which is a fundamental concept in biology.",
+          "timestamp": 4.6,
+          "confidence": 0.95
+        },
+        {
+          "text": "I understand some of you may have religious beliefs",
+          "timestamp": 9.3,
+          "confidence": 0.93
+        },
+        {
+          "text": "that differ from this scientific explanation.",
+          "timestamp": 14.2,
+          "confidence": 0.94
+        },
+        {
+          "text": "That's okay. Many people reconcile their faith",
+          "timestamp": 18.9,
+          "confidence": 0.95
+        },
+        {
+          "text": "with scientific understanding in various ways.",
+          "timestamp": 23.6,
+          "confidence": 0.96
+        },
+        {
+          "text": "In this class, we're studying the scientific evidence",
+          "timestamp": 28.4,
+          "confidence": 0.94
+        },
+        {
+          "text": "and mechanisms that biologists use to explain",
+          "timestamp": 33.7,
+          "confidence": 0.95
+        },
+        {
+          "text": "the diversity of life on Earth.",
+          "timestamp": 38.2,
+          "confidence": 0.96
+        },
+        {
+          "text": "You'll be tested on your understanding of the science,",
+          "timestamp": 42.8,
+          "confidence": 0.95
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.95,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "Sensitive Content",
+        "details": "The topic of evolution can be sensitive and may conflict with some students' personal or religious beliefs. The teacher is addressing this proactively and appropriately."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.98,
+    "isSideConversation_confidence": 0.01,
+    "isIrrelevantContent_confidence": 0.01,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "biology",
+      "evolution",
+      "science_education",
+      "scientific_theory",
+      "pedagogy",
+      "high_school",
+      "sensitive_topic"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "The teacher is introducing a unit on the theory of evolution, a core concept in biology. Acknowledging that this scientific explanation may differ from students' religious beliefs, the teacher validates those perspectives and notes that many people reconcile faith and science. The class's focus, however, will be strictly on the scientific evidence and mechanisms biologists use to explain life's diversity. Students will be evaluated on their understanding of this scientific framework.",
+    "recommendedSummarization": "concise",
+    "additionalSummarizationOptions": [
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "This biology unit will cover the scientific theory of evolution. While respecting students' personal beliefs, the class will focus on the scientific evidence and models explaining life's diversity, which is what students will be tested on."
+      },
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "- Unit Topic: The theory of evolution in biology.\n- Acknowledgment: Teacher recognizes potential conflict with students' religious beliefs.\n- Classroom Focus: Studying the scientific evidence and mechanisms for evolution.\n- Evaluation: Students will be tested on their comprehension of the scientific concepts."
+      },
+      {
+        "version": "detailed",
+        "comparativeValueToRecommendedModality": 0.85,
+        "text": "The instructor begins the lesson by announcing the new unit will cover the theory of evolution, which they describe as a fundamental biological concept. They proactively address the potential for conflict with students' personal religious beliefs, stating that it is acceptable to hold differing views and that many individuals find ways to harmonize their faith with scientific knowledge. The instructor clarifies that the scope of the class will be confined to examining the scientific evidence and the specific mechanisms, such as natural selection, that biologists have developed to account for the vast diversity of life on Earth. The basis for assessment will be the students' demonstrated understanding of these scientific principles."
+      }
+    ],
+    "oneLineSummarization": "This biology lesson introduces the theory of evolution, emphasizing a focus on scientific evidence while respecting students' diverse personal beliefs.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.85,
+    "learningModalityText": [
+      {
+        "effectiveness": "high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Premise 1: This is a biology class, and our goal is to understand the foundational principles of this science. Premise 2: The theory of evolution is the central organizing principle of modern biology. Premise 3: Some scientific concepts may intersect with personal belief systems. Conclusion: Therefore, in this class, we will respectfully set aside personal beliefs to focus objectively on the scientific evidence and models for evolution, as is required for a rigorous scientific education. Your evaluation will be based on your understanding of this scientific framework."
+      },
+      {
+        "effectiveness": "high",
+        "type": "SOCIAL",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.95,
+        "text": "As we begin our unit on evolution, let's establish our community norms for discussion. We will approach this topic as scientists, with curiosity and a focus on evidence. It's important that we create a space where everyone feels respected, even if we have different personal beliefs outside this classroom. Our shared goal here is to understand the scientific consensus. Let's agree to ask questions respectfully, challenge ideas with evidence, and listen to understand, not just to respond."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "ASSOCIATIONS",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.75,
+        "text": "Think of our approach to evolution like learning the rules of a specific game, like chess. You might personally prefer checkers, but to pass a chess test, you need to understand how the knight moves and what 'checkmate' means. Similarly, in this biology class, we are learning the 'rules' and evidence of the scientific theory of evolution. Your personal beliefs are valid, but for this 'game' of biology, we need to master the scientific perspective to understand how it explains the living world."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "INFOGRAPHIC",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "ANNOTATED_TEXT"
+        ],
+        "title": "What is a 'Scientific Theory'?",
+        "reasonForSuggestion": "This directly addresses a common misconception that 'theory' means 'guess.' Clarifying this at the start is critical for student understanding and reduces potential resistance to the topic. It establishes the robust, evidence-based nature of a scientific theory.",
+        "promptForGeneration": "Create a simple, clear infographic for a 9th-grade biology class titled 'What is a Scientific Theory?'. Use two columns. Left column titled 'In Everyday Language' with an icon of people talking, and text: 'An idea or a hunch. Example: My theory is that the dog stole the cookies.' Right column titled 'In Science' with an icon of a microscope or DNA helix, and text: 'A well-substantiated explanation of the natural world, based on a body of facts that have been repeatedly confirmed through observation and experiment.' Below the columns, have a summary box: 'A scientific theory isn't a guess—it's the strongest explanation we have!' Use a clean, modern font and a simple color palette (e.g., blue and green). Ensure high contrast for readability."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.9,
+        "coreType": "MERMAID_MINDMAP",
+        "otherCoreType": null,
+        "secondaryTypes": [],
+        "title": "Unit Overview: The Theory of Evolution",
+        "reasonForSuggestion": "A mind map provides a visual roadmap for the entire unit. This helps students organize new information and see how different concepts (like natural selection, fossil evidence, and genetics) will connect, reducing the feeling of being overwhelmed.",
+        "promptForGeneration": "Generate a Mermaid mindmap for a high school biology class. The central node should be 'Theory of Evolution'. Create four main branches: 1) 'Key Evidence' with sub-nodes 'Fossil Record', 'Comparative Anatomy', 'Biogeography', and 'DNA & Genetics'. 2) 'Mechanisms of Change' with sub-nodes 'Natural Selection', 'Genetic Drift', and 'Gene Flow'. 3) 'Historical Context' with sub-nodes 'Charles Darwin' and 'Alfred Russel Wallace'. 4) 'Outcomes' with sub-nodes 'Speciation' and 'Diversity of Life'. Use a standard mindmap layout. Keep text concise."
+      },
+      {
+        "effectiveness": "medium",
+        "relativeEffectivenessWeight": 0.75,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherSuggestions": 0.75,
+        "coreType": "SVG_DIAGRAM",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "ANNOTATED_TEXT"
+        ],
+        "title": "Domains of Inquiry: Science and Faith",
+        "reasonForSuggestion": "This visualization directly supports the teacher's introductory statement about reconciling science and faith. It can help students compartmentalize the different ways of knowing and understand the specific scope of the science classroom.",
+        "promptForGeneration": "Create an SVG diagram with two large, overlapping circles (a Venn diagram). Label the left circle 'Science' and the right circle 'Faith/Philosophy'. Inside the 'Science' circle, list keywords: 'Empirical Evidence', 'Testable Hypotheses', 'How?', 'Natural World'. Inside the 'Faith/Philosophy' circle, list keywords: 'Meaning & Purpose', 'Values & Morality', 'Why?', 'Supernatural'. In the small overlapping section, write 'Human Experience', 'Wonder', 'Ethics'. Add a title at the top: 'Different Questions, Different Tools'. Underneath the diagram, add an annotation: 'In this class, we are using the tools of science to answer scientific questions.'"
+      }
+    ],
+    "purpose": "This introduction sets the stage for learning about the theory of evolution, which is the unifying principle of all biology. Understanding evolution is crucial for comprehending genetics, medicine (like antibiotic resistance), ecology, and the interconnectedness of all life. The purpose is to establish a respectful and focused learning environment to tackle this foundational scientific concept.",
+    "motivation": "Have you ever wondered why there are so many different kinds of animals and plants? Or how a wolf could be related to a poodle? The theory of evolution is the scientific story of how all life on Earth is connected. Learning about it is like being a detective, using clues from fossils, DNA, and living creatures to piece together the history of life. It's a powerful idea that helps us understand where we came from and how the living world constantly changes.",
+    "learningValueScore": 0.9,
+    "availableActions": [
+      {
+        "actionLabel": "What is a 'Theory'?",
+        "reason": "Clarifies the scientific meaning of 'theory' to prevent common misconceptions that hinder learning.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "Unit Roadmap",
+        "reason": "Provides a visual overview of the topics that will be covered, helping students see the big picture.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Discussion Norms",
+        "reason": "Establishes clear guidelines for respectful conversation about a potentially sensitive topic.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "theory (scientific)": {
+        "definition": "In science, a comprehensive explanation of some aspect of nature that is supported by a vast body of evidence. It is not a guess or a hunch, but a robust, testable, and well-supported framework.",
+        "context": "The theory of evolution is a central theory in biology, similar to how the germ theory of disease is central to medicine.",
+        "etymology": "From Greek 'theoria', meaning 'a looking at, viewing, contemplation'.",
+        "simpler": "The strongest, most evidence-backed explanation science can offer."
+      },
+      "evolution": {
+        "definition": "The process by which different kinds of living organisms are thought to have developed and diversified from earlier forms during the history of the earth. The central mechanism for this change is natural selection.",
+        "context": "We will study the evidence for evolution by examining the fossil record and genetic data.",
+        "simpler": "How life changes over very long periods of time."
+      }
+    },
+    "recommendationsToTeacher": [
+      "Immediately follow this introduction with a mini-lesson or visual aid clarifying the scientific definition of 'theory' versus its colloquial use. This will preempt a major source of misunderstanding and resistance.",
+      "Establish and display clear classroom norms for respectful discussion. This creates a safe environment for students to ask questions without fear of judgment.",
+      "Provide a visual 'roadmap' of the unit (like a concept map or timeline) so students can see the logical progression of topics and how they connect, from historical context to modern genetic evidence."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:53:19.210Z",
+    "latencyMs": 41802,
+    "tokenUsage": {
+      "input": 7039,
+      "output": 2897,
+      "total": 11471
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "overview": {
+    "summary": "Mental health challenges among students have reached crisis levels, with Expanse EDU positioned to provide positive interventions",
+    "keyMessage": "Mental health is essential to students' academic success, social-emotional development, and overall well-being - CDC"
+  },
+  "statistics": [
+    {
+      "id": "teen-depression-girls",
+      "stat": "145%",
+      "description": "Increase in girls reporting major depressive episodes (2010-2020)",
+      "source": "US National Survey on Drug Use and Health via The Anxious Generation",
+      "severity": "critical"
+    },
+    {
+      "id": "teen-depression-boys",
+      "stat": "161%",
+      "description": "Increase in boys reporting major depressive episodes (2010-2020)",
+      "source": "US National Survey on Drug Use and Health via The Anxious Generation",
+      "severity": "critical"
+    },
+    {
+      "id": "college-anxiety",
+      "stat": "134%",
+      "description": "Increase in anxiety among US undergraduates since 2010",
+      "source": "American College Health Association",
+      "severity": "critical"
+    },
+    {
+      "id": "college-depression",
+      "stat": "106%",
+      "description": "Increase in depression among US undergraduates since 2010",
+      "source": "American College Health Association",
+      "severity": "critical"
+    },
+    {
+      "id": "college-adhd",
+      "stat": "72%",
+      "description": "Increase in ADHD among US undergraduates since 2010",
+      "source": "American College Health Association",
+      "severity": "high"
+    },
+    {
+      "id": "global-youth",
+      "stat": "1 in 7 (14%)",
+      "description": "10-19 year-olds globally experiencing mental health conditions",
+      "source": "World Health Organization",
+      "severity": "high"
+    },
+    {
+      "id": "us-youth-disorders",
+      "stat": "Nearly 20%",
+      "description": "Children ages 3-17 in the US with mental, emotional, developmental, or behavioral disorders",
+      "source": "National Institutes of Health",
+      "severity": "high"
+    },
+    {
+      "id": "suicidal-behaviors",
+      "stat": "40%+",
+      "description": "Increase in suicidal behaviors among high school students in decade before 2019",
+      "source": "National Institutes of Health",
+      "severity": "critical"
+    },
+    {
+      "id": "lgbtq-depression",
+      "stat": "32.2%",
+      "description": "LGBTQ+ adults meeting criteria for Major Depressive Disorder",
+      "source": "Mental Health Research",
+      "severity": "critical"
+    }
+  ],
+  "keyFindings": [
+    {
+      "finding": "Mental health conditions in youth remain largely unrecognized and untreated",
+      "source": "World Health Organization"
+    },
+    {
+      "finding": "Anxiety, depression, and stress are among the most common mental health concerns reported by college students",
+      "source": "American College Health Association"
+    },
+    {
+      "finding": "A significant percentage of college students report mental health challenges that affect their academic performance",
+      "source": "American College Health Association"
+    }
+  ],
+  "positiveInterventions": {
+    "art": {
+      "finding": "Creative and artistic work can help with mental health",
+      "mechanism": "Art has a positive emotional impact on mood",
+      "source": "NeuroArt research"
+    },
+    "pbis": {
+      "finding": "PBIS leads to 20-40% reduction in disciplinary referrals",
+      "mechanism": "Creates more positive learning environment",
+      "source": "PBIS.org"
+    },
+    "positiveReinforcement": {
+      "finding": "Positive reinforcement makes children feel safe",
+      "mechanism": "Feeling safe at school improves academic performance and productivity",
+      "impact": "Children feel connected to teachers and peers in supportive environment"
+    }
+  },
+  "researchEvidence": {
+    "ghanaStudy": {
+      "finding": "Positive reinforcement significantly impacted pupils' absenteeism behavior",
+      "result": "80% of students became regular at school",
+      "factors": "Parental poverty and lack of reinforcement at home were contributing factors to absenteeism",
+      "source": "ResearchGate, 2020"
+    },
+    "classroomEnvironment": {
+      "finding": "Comfortable and positive classroom environment fostered by positive reinforcement can increase learning and decrease problem behavior",
+      "source": "ResearchGate, 2020"
+    }
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "audiences": [
+    {
+      "id": "students-self-serve",
+      "name": "Students (Self-serve)",
+      "icon": "🎓",
+      "description": "Middle school, high school, and college students seeking help outside of class",
+      "campaignIds": ["4eye"],
+      "priority": 3,
+      "demographics": {
+        "ageRange": "12-24",
+        "segments": ["Middle School", "High School", "College", "Graduate"],
+        "techSavviness": "high",
+        "decisionMaker": false,
+        "payer": "sometimes"
+      },
+      "painPoints": [
+        "Struggling with specific subjects",
+        "Can't get help outside class hours",
+        "Embarrassed to ask questions in class",
+        "Need concepts explained differently",
+        "Studying alone is boring and ineffective",
+        "Test anxiety and preparation stress"
+      ],
+      "valueProposition": [
+        "24/7 AI tutor that never judges",
+        "Explains concepts in multiple ways until you get it",
+        "Makes studying engaging and less boring",
+        "Personalized to your learning style",
+        "Helps with homework without just giving answers"
+      ],
+      "featurePriorities": [
+        { "storylineId": "4eye-ai-chat", "importance": "critical" },
+        { "storylineId": "4eye-ai-tutor", "importance": "critical" },
+        { "storylineId": "4eye-ai-ui", "importance": "high" },
+        { "storylineId": "4eye-symbol-memorization", "importance": "high" },
+        { "storylineId": "4eye-focus-music", "importance": "medium" }
+      ],
+      "willingness": {
+        "toPay": "low-medium",
+        "priceRange": "$0-20/month",
+        "paymentModel": "freemium",
+        "notes": "Students have limited budgets, parents often pay"
+      },
+      "marketSize": {
+        "estimate": "large",
+        "notes": "~75M students in US alone, global market huge"
+      },
+      "acquisition": {
+        "channels": ["TikTok", "Instagram", "YouTube", "Word of mouth", "School clubs"],
+        "cost": "low",
+        "virality": "high",
+        "notes": "Can spread quickly if product is good, social proof matters"
+      },
+      "objections": [
+        "Why not just use ChatGPT?",
+        "Is this cheating?",
+        "Will my school allow this?",
+        "I don't have money for subscriptions"
+      ],
+      "objectionResponses": [
+        "4eye teaches you, not just answers - built for learning",
+        "Focuses on understanding, helps you learn not cheat",
+        "Designed for educational use, transparent with schools",
+        "Free tier available, premium for power users"
+      ]
+    },
+    {
+      "id": "parents",
+      "name": "Parents",
+      "icon": "👪",
+      "description": "Parents of K-12 students who want their children to succeed academically",
+      "campaignIds": ["4eye"],
+      "priority": 1,
+      "demographics": {
+        "ageRange": "30-55",
+        "segments": ["Parents of elementary", "Parents of middle school", "Parents of high school"],
+        "techSavviness": "medium",
+        "decisionMaker": true,
+        "payer": "yes"
+      },
+      "painPoints": [
+        "Can't help with homework (forgot the material or methods changed)",
+        "Worried about child falling behind",
+        "Expensive tutors ($50-150/hour)",
+        "Limited time to help with homework",
+        "Don't know if child is actually learning",
+        "Child is disengaged or hates studying"
+      ],
+      "valueProposition": [
+        "Like having a private tutor available 24/7",
+        "Fraction of the cost of human tutors",
+        "See your child's progress and understanding",
+        "Makes learning engaging so kids actually want to use it",
+        "Adapts to your child's unique learning style",
+        "Peace of mind that your child is getting help"
+      ],
+      "featurePriorities": [
+        { "storylineId": "4eye-ai-tutor", "importance": "critical" },
+        { "storylineId": "4eye-person-profile", "importance": "critical" },
+        { "storylineId": "4eye-feedback", "importance": "high" },
+        { "storylineId": "4eye-homework", "importance": "high" },
+        { "storylineId": "4eye-mental-health", "importance": "medium" }
+      ],
+      "willingness": {
+        "toPay": "high",
+        "priceRange": "$30-100/month",
+        "paymentModel": "subscription",
+        "notes": "Will pay significantly for child's education, compare to tutoring costs"
+      },
+      "marketSize": {
+        "estimate": "large",
+        "notes": "~35M households with K-12 children in US"
+      },
+      "acquisition": {
+        "channels": ["Facebook ads", "Parent groups", "School newsletters", "SEO", "Referrals"],
+        "cost": "medium",
+        "virality": "medium",
+        "notes": "Parent networks spread recommendations, trust is key"
+      },
+      "objections": [
+        "Is screen time good for my child?",
+        "Will this replace real learning?",
+        "Is it safe? Data privacy?",
+        "How is this different from other apps?",
+        "Will my child actually use it?"
+      ],
+      "objectionResponses": [
+        "Educational screen time that builds skills, not passive consumption",
+        "Supplements and enhances classroom learning, doesn't replace",
+        "COPPA compliant, privacy-first, no selling of data",
+        "Personalized AI that adapts, not one-size-fits-all content",
+        "Gamification and engaging UI designed to keep kids coming back"
+      ]
+    },
+    {
+      "id": "teachers-individual",
+      "name": "Teachers (Individual)",
+      "icon": "👨‍🏫",
+      "description": "K-12 and college instructors looking for tools to help with teaching",
+      "campaignIds": ["4eye"],
+      "priority": 2,
+      "demographics": {
+        "ageRange": "25-60",
+        "segments": ["K-12 Teachers", "College Instructors", "Teaching Assistants"],
+        "techSavviness": "medium",
+        "decisionMaker": true,
+        "payer": "sometimes"
+      },
+      "painPoints": [
+        "Overwhelmed with lesson planning and grading",
+        "Can't give every student individual attention",
+        "Students at different levels in same class",
+        "Creating engaging content takes forever",
+        "Homework/quiz creation is tedious",
+        "Burned out, too much administrative work"
+      ],
+      "valueProposition": [
+        "Generate a week's homework in 10 minutes",
+        "AI assistant helps every student simultaneously",
+        "See which students are struggling and why",
+        "Create engaging, personalized content instantly",
+        "More time to actually teach, less admin work",
+        "Differentiate instruction without extra effort"
+      ],
+      "featurePriorities": [
+        { "storylineId": "4eye-homework", "importance": "critical" },
+        { "storylineId": "4eye-content-gen", "importance": "critical" },
+        { "storylineId": "4eye-teacher-feedback", "importance": "critical" },
+        { "storylineId": "4eye-knowledge-agents", "importance": "high" },
+        { "storylineId": "4eye-presentations", "importance": "high" }
+      ],
+      "willingness": {
+        "toPay": "medium",
+        "priceRange": "$20-50/month",
+        "paymentModel": "subscription",
+        "notes": "Often pay out of pocket for classroom tools, budget-conscious"
+      },
+      "marketSize": {
+        "estimate": "medium",
+        "notes": "~3.7M teachers in US, influential for school adoption"
+      },
+      "acquisition": {
+        "channels": ["EdTech communities", "Teacher influencers", "LinkedIn", "Education conferences", "Teachers Pay Teachers"],
+        "cost": "low-medium",
+        "virality": "high",
+        "notes": "Teachers share tools with each other, strong community"
+      },
+      "objections": [
+        "Will this replace me?",
+        "Is it pedagogically sound?",
+        "Will students just cheat with it?",
+        "I don't have time to learn new tools",
+        "My school won't approve it"
+      ],
+      "objectionResponses": [
+        "Amplifies you - handles repetitive tasks so you can focus on teaching",
+        "Built on learning science, transparent methodology",
+        "Designed for learning not answers, you control settings",
+        "Intuitive UI, 5-minute onboarding, immediate value",
+        "Teacher-first tool, can use independently or advocate to admin"
+      ]
+    },
+    {
+      "id": "schools-districts",
+      "name": "Schools & Districts",
+      "icon": "🏫",
+      "description": "School administrators, curriculum coordinators, and district leaders",
+      "campaignIds": ["4eye"],
+      "priority": 4,
+      "demographics": {
+        "ageRange": "35-60",
+        "segments": ["Principals", "Curriculum Directors", "District Superintendents", "IT Directors"],
+        "techSavviness": "medium",
+        "decisionMaker": true,
+        "payer": "yes"
+      },
+      "painPoints": [
+        "Achievement gaps widening",
+        "Teacher burnout and turnover",
+        "Need to show measurable outcomes",
+        "Budget constraints",
+        "Pressure to adopt AI but safely",
+        "One-size-fits-all solutions don't work"
+      ],
+      "valueProposition": [
+        "Personalized learning at scale",
+        "Reduce teacher workload, improve retention",
+        "Clear analytics and outcome tracking",
+        "Cost-effective vs hiring more staff",
+        "Safe, compliant AI designed for education",
+        "Differentiated instruction without extra resources"
+      ],
+      "featurePriorities": [
+        { "storylineId": "4eye-lms", "importance": "critical" },
+        { "storylineId": "4eye-lms-integration", "importance": "critical" },
+        { "storylineId": "4eye-feedback", "importance": "critical" },
+        { "storylineId": "4eye-accessibility", "importance": "high" },
+        { "storylineId": "4eye-teacher-feedback", "importance": "high" }
+      ],
+      "willingness": {
+        "toPay": "high",
+        "priceRange": "$5-50/student/year",
+        "paymentModel": "site-license",
+        "notes": "Budget cycles, procurement process, but significant budgets exist"
+      },
+      "marketSize": {
+        "estimate": "medium",
+        "notes": "~130K K-12 schools in US, long sales cycles but high value"
+      },
+      "acquisition": {
+        "channels": ["Education conferences", "Direct sales", "Pilot programs", "District RFPs", "EdTech consultants"],
+        "cost": "high",
+        "virality": "low",
+        "notes": "Long sales cycle (3-12 months), but high LTV"
+      },
+      "objections": [
+        "Data privacy and student safety",
+        "Integration with existing systems",
+        "Training and adoption challenges",
+        "Budget and procurement process",
+        "Proof of effectiveness"
+      ],
+      "objectionResponses": [
+        "FERPA/COPPA compliant, SOC2, data stays in district",
+        "LMS integrations (Canvas, Blackboard, Google Classroom)",
+        "Comprehensive PD and support included",
+        "Flexible pricing, pilot programs available",
+        "Research-backed, case studies, outcome guarantees"
+      ]
+    },
+    {
+      "id": "tutoring-companies",
+      "name": "Tutoring Companies",
+      "icon": "📚",
+      "description": "Tutoring centers, online tutoring platforms, and private tutoring businesses",
+      "campaignIds": ["4eye"],
+      "priority": 5,
+      "demographics": {
+        "ageRange": "30-55",
+        "segments": ["Kumon/Sylvan franchises", "Online tutoring platforms", "Private tutoring businesses"],
+        "techSavviness": "medium-high",
+        "decisionMaker": true,
+        "payer": "yes"
+      },
+      "painPoints": [
+        "Hard to scale quality tutoring",
+        "Tutor availability and scheduling",
+        "Consistency across tutors",
+        "Content creation for curriculum",
+        "Competition from AI tools directly to consumers"
+      ],
+      "valueProposition": [
+        "Multiply tutor effectiveness 10x",
+        "AI handles routine, tutors handle complex",
+        "Consistent quality across all sessions",
+        "White-label or co-branded options",
+        "Stay competitive in AI era"
+      ],
+      "featurePriorities": [
+        { "storylineId": "4eye-ai-tutor", "importance": "critical" },
+        { "storylineId": "4eye-content-gen", "importance": "critical" },
+        { "storylineId": "4eye-person-profile", "importance": "high" },
+        { "storylineId": "4eye-feedback", "importance": "high" }
+      ],
+      "willingness": {
+        "toPay": "very-high",
+        "priceRange": "Custom enterprise pricing",
+        "paymentModel": "enterprise",
+        "notes": "B2B deal, high value if ROI is clear"
+      },
+      "marketSize": {
+        "estimate": "small",
+        "notes": "~$12B tutoring market in US, fewer buyers but high ticket"
+      },
+      "acquisition": {
+        "channels": ["Direct outreach", "Industry conferences", "Partnerships"],
+        "cost": "high",
+        "virality": "low",
+        "notes": "Relationship-based sales, pilots and case studies important"
+      },
+      "objections": [
+        "Will this cannibalize our business?",
+        "Can we white-label it?",
+        "Integration with our systems",
+        "Data ownership"
+      ],
+      "objectionResponses": [
+        "Enhances tutors, doesn't replace - your brand, your relationships",
+        "Yes, white-label and co-brand options available",
+        "API-first architecture, custom integrations",
+        "Your data stays yours, clear data agreements"
+      ]
+    },
+    {
+      "id": "homeschool-families",
+      "name": "Homeschool Families",
+      "icon": "🏠",
+      "description": "Homeschooling parents who need curriculum and teaching support",
+      "campaignIds": ["4eye"],
+      "priority": 6,
+      "demographics": {
+        "ageRange": "30-50",
+        "segments": ["Full homeschool", "Hybrid/part-time", "Homeschool co-ops"],
+        "techSavviness": "medium",
+        "decisionMaker": true,
+        "payer": "yes"
+      },
+      "painPoints": [
+        "Teaching subjects they don't know well",
+        "Creating structured curriculum",
+        "Keeping kids engaged without classroom peers",
+        "Assessing progress and gaps",
+        "Balancing teaching multiple children"
+      ],
+      "valueProposition": [
+        "Expert AI tutor for every subject",
+        "Structured curriculum with flexibility",
+        "Engaging, interactive learning",
+        "Clear progress tracking and assessments",
+        "Personalized pace for each child"
+      ],
+      "featurePriorities": [
+        { "storylineId": "4eye-ai-tutor", "importance": "critical" },
+        { "storylineId": "4eye-content-gen", "importance": "critical" },
+        { "storylineId": "4eye-person-profile", "importance": "high" },
+        { "storylineId": "4eye-library", "importance": "high" },
+        { "storylineId": "4eye-learning-to-learn", "importance": "medium" }
+      ],
+      "willingness": {
+        "toPay": "high",
+        "priceRange": "$50-150/month",
+        "paymentModel": "subscription",
+        "notes": "Already spending on curriculum, willing to pay for quality"
+      },
+      "marketSize": {
+        "estimate": "growing",
+        "notes": "~3.7M homeschool students in US, growing 2-8% annually"
+      },
+      "acquisition": {
+        "channels": ["Homeschool Facebook groups", "Homeschool conventions", "Homeschool blogs/podcasts", "Curriculum review sites"],
+        "cost": "low-medium",
+        "virality": "high",
+        "notes": "Tight-knit community, recommendations spread fast"
+      },
+      "objections": [
+        "Is the worldview/content appropriate?",
+        "Can I customize the curriculum?",
+        "How does it compare to [competitor]?",
+        "Will it work for multiple children?"
+      ],
+      "objectionResponses": [
+        "Customizable content settings, you control what's taught",
+        "Fully flexible - use our curriculum or supplement yours",
+        "AI-powered personalization vs static content",
+        "Multi-child family plans, individual profiles"
+      ]
+    },
+    {
+      "id": "lifelong-learners",
+      "name": "Lifelong Learners",
+      "icon": "🌱",
+      "description": "Adults learning new skills for career advancement or personal growth",
+      "campaignIds": ["4eye"],
+      "priority": 7,
+      "demographics": {
+        "ageRange": "25-65",
+        "segments": ["Career changers", "Skill upgraders", "Hobbyist learners", "Retirees"],
+        "techSavviness": "medium-high",
+        "decisionMaker": true,
+        "payer": "yes"
+      },
+      "painPoints": [
+        "Learning alone is hard to stick with",
+        "Don't know where to start",
+        "Information overload",
+        "Need flexibility around work/life",
+        "Want efficient, not comprehensive"
+      ],
+      "valueProposition": [
+        "Personal AI tutor for any subject",
+        "Learn at your own pace, your schedule",
+        "Efficient - focus on what you need",
+        "Guided learning paths",
+        "Engaging enough to stick with"
+      ],
+      "featurePriorities": [
+        { "storylineId": "4eye-ai-chat", "importance": "critical" },
+        { "storylineId": "4eye-ai-tutor", "importance": "high" },
+        { "storylineId": "4eye-library", "importance": "high" },
+        { "storylineId": "4eye-translations", "importance": "medium" }
+      ],
+      "willingness": {
+        "toPay": "medium",
+        "priceRange": "$10-30/month",
+        "paymentModel": "subscription",
+        "notes": "Price sensitive, compare to other learning platforms"
+      },
+      "marketSize": {
+        "estimate": "large",
+        "notes": "Massive market but fragmented, competitive"
+      },
+      "acquisition": {
+        "channels": ["Content marketing", "YouTube", "SEO", "Podcast sponsorships"],
+        "cost": "medium",
+        "virality": "low",
+        "notes": "Content-driven acquisition, longer funnel"
+      },
+      "objections": [
+        "Why not Coursera/Udemy/etc?",
+        "Is AI really better than video courses?",
+        "Too many learning apps already"
+      ],
+      "objectionResponses": [
+        "Interactive AI vs passive video - learns your gaps",
+        "Personalized, answers your questions, adapts to you",
+        "All-in-one vs juggling multiple tools"
+      ]
+    }
+  ]
+}

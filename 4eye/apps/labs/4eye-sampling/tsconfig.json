@@ -1,0 +1,71 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "ES2022"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowJs": true,
+    "noEmit": true,
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./*"
+      ],
+      "@expanse/auth": ["../../packages/@expanse/auth/src"],
+      "@expanse/auth/*": ["../../packages/@expanse/auth/src/*"],
+      "@expanse/theme": ["../../packages/@expanse/theme/src"],
+      "@expanse/theme/*": ["../../packages/@expanse/theme/src/*"],
+      "@expanse/ui": ["../../packages/@expanse/ui/src"],
+      "@expanse/ui/*": ["../../packages/@expanse/ui/src/*"],
+      "@expanse/shell": ["../../packages/@expanse/shell/src"],
+      "@expanse/shell/*": ["../../packages/@expanse/shell/src/*"],
+      "@expanse/map": ["../../packages/@expanse/map/src"],
+      "@expanse/map/*": ["../../packages/@expanse/map/src/*"],
+      "@expanse/hud": ["../../packages/@expanse/hud/src"],
+      "@expanse/hud/*": ["../../packages/@expanse/hud/src/*"],
+      "@expanse/user": ["../../packages/@expanse/user/src"],
+      "@expanse/user/*": ["../../packages/@expanse/user/src/*"],
+      "@expanse/analytics": ["../../packages/@expanse/analytics/src"],
+      "@expanse/analytics/*": ["../../packages/@expanse/analytics/src/*"],
+      "@expanse/application": ["../../packages/@expanse/application/src"],
+      "@expanse/application/*": ["../../packages/@expanse/application/src/*"],
+      "@expanse/utils": ["../../packages/@expanse/utils/src"],
+      "@expanse/utils/*": ["../../packages/@expanse/utils/src/*"],
+      "@expanse/validation": ["../../packages/@expanse/validation/src"],
+      "@expanse/validation/*": ["../../packages/@expanse/validation/src/*"],
+      "@expanse/character": ["../../packages/@expanse/character/src"],
+      "@expanse/character/*": ["../../packages/@expanse/character/src/*"],
+      "@4eye/types": ["../../packages/@4eye/types/src"],
+      "@4eye/types/*": ["../../packages/@4eye/types/src/*"],
+      "@4eye/core": ["../../packages/@4eye/core/src"],
+      "@4eye/core/*": ["../../packages/@4eye/core/src/*"],
+      "@4eye/features": ["../../packages/@4eye/features/src"],
+      "@4eye/features/*": ["../../packages/@4eye/features/src/*"],
+      "@4eye/ai-sdk": ["../../packages/@4eye/ai-sdk/src"],
+      "@4eye/ai-sdk/*": ["../../packages/@4eye/ai-sdk/src/*"],
+      "@4eye/graphql-schema": ["../../packages/@4eye/graphql-schema/src"],
+      "@4eye/graphql-schema/*": ["../../packages/@4eye/graphql-schema/src/*"]
+    },
+    "isolatedModules": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

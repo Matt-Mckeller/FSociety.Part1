@@ -1,0 +1,112 @@
+{
+  "sample": {
+    "durationSeconds": 38,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Okay class, I need to update you on the field trip.",
+          "timestamp": 0,
+          "confidence": 0.94
+        },
+        {
+          "text": "Sarah Johnson, your mom called and said you can't go",
+          "timestamp": 4.3,
+          "confidence": 0.91
+        },
+        {
+          "text": "because of your medical appointment at 3pm.",
+          "timestamp": 9.1,
+          "confidence": 0.89
+        },
+        {
+          "text": "Tommy Martinez, I have your new address here,",
+          "timestamp": 14.2,
+          "confidence": 0.87
+        },
+        {
+          "text": "it's 742 Oak Street, apartment 3B.",
+          "timestamp": 18.6,
+          "confidence": 0.86
+        },
+        {
+          "text": "And Emily Chen, your dad's phone number changed,",
+          "timestamp": 23.9,
+          "confidence": 0.88
+        },
+        {
+          "text": "the new one is 555-0147.",
+          "timestamp": 28.4,
+          "confidence": 0.92
+        },
+        {
+          "text": "Make sure your parents sign the permission slips.",
+          "timestamp": 32.7,
+          "confidence": 0.93
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.98,
+    "appropriatenessScore": 0,
+    "warnings": [
+      {
+        "type": "PII_DETECTED",
+        "severity": "CRITICAL",
+        "details": "Multiple instances of sensitive Personally Identifiable Information were detected, including full names, a specific home address, a phone number, and personal medical information. This content poses a severe privacy risk and should be handled with extreme care or deleted.",
+        "data": {
+          "names": [
+            "Sarah Johnson",
+            "Tommy Martinez",
+            "Emily Chen"
+          ],
+          "address": "742 Oak Street, apartment 3B",
+          "phone_number": "555-0147",
+          "medical_info": "medical appointment at 3pm"
+        }
+      }
+    ],
+    "isMainLectureContent_confidence": 0,
+    "isSideConversation_confidence": 0.1,
+    "isIrrelevantContent_confidence": 0.95,
+    "isPartialResponse": false,
+    "tags": [
+      "administrative",
+      "logistics",
+      "field_trip",
+      "PII_detected",
+      "non_instructional",
+      "privacy_concern"
+    ],
+    "shouldSummarize": false,
+    "shouldSummarizeFalseReason": "Content is administrative, non-instructional, and contains multiple instances of sensitive Personally Identifiable Information (PII), including student names, a home address, a phone number, and medical information.",
+    "waitForMoreContent": false,
+    "summarization": "Summarization is not provided. The content consists of administrative announcements containing highly sensitive student PII, including full names, a home address, a phone number, and medical appointment details. This content has no educational value and poses a significant privacy risk.",
+    "recommendedSummarization": "concise",
+    "additionalSummarizationOptions": [],
+    "oneLineSummarization": "Administrative updates containing sensitive student PII; no educational content.",
+    "recommendVisualizationToImproveLearning": false,
+    "visualizationEffectivenessScore": 0,
+    "learningModalityText": [],
+    "visualizationSuggestions": [],
+    "purpose": "This content's purpose is purely administrative: to communicate logistical information about a field trip and student-specific details to the class. It has no academic or educational purpose.",
+    "motivation": "The motivation for students is logistical and immediate: to ensure their permission slips are signed and they are aware of any changes to their field trip status. There is no academic motivation.",
+    "learningValueScore": 0,
+    "availableActions": [],
+    "recommendationsToTeacher": [
+      "CRITICAL: Immediately review and update classroom recording practices to prevent the capture and transmission of sensitive student PII. This type of conversation should occur offline or without being recorded.",
+      "Use secure, private channels (e.g., school information system, direct parent communication) for sharing personal student information, never via verbal announcements in a recorded setting.",
+      "This audio segment should be flagged for immediate deletion from any system to protect student privacy and comply with data protection regulations like FERPA."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:49:38.927Z",
+    "latencyMs": 21408,
+    "tokenUsage": {
+      "input": 6980,
+      "output": 721,
+      "total": 9475
+    }
+  }
+}

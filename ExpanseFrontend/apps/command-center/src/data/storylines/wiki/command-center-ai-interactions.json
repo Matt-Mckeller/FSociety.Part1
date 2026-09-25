@@ -1,0 +1,100 @@
+{
+  "storylineId": "command-center-ai-interactions",
+  "lastUpdated": "2026-02-11",
+  "overview": {
+    "html": "<div style=\"font-family: 'Roboto', sans-serif;\"><h2 style=\"color: #8B5CF6; margin-bottom: 16px;\">AI Interaction Guide</h2><p style=\"color: #666; line-height: 1.6; margin-bottom: 24px;\">A comprehensive guide for using <strong>AI assistants</strong> (GitHub Copilot, Claude, etc.) to manage command center content. This enables rapid content updates, consistent data structures, and frictionless planning through conversational AI.</p><div style=\"background: linear-gradient(135deg, #8B5CF6 0%, #6D28D9 100%); border-radius: 12px; padding: 24px; margin-bottom: 24px;\"><h3 style=\"color: white; margin: 0 0 12px 0;\">🤖 Quick Start</h3><p style=\"color: rgba(255,255,255,0.9); margin: 0;\">Simply tell the AI what you want to add or update. Example: <em>\"Add a storyline called 'User Analytics' to the 4eye campaign\"</em> - the AI will handle file locations, data structure, and bidirectional linking.</p></div><p style=\"color: #999; font-size: 14px;\"><strong>Documentation:</strong> <code>/apps/command-center/src/docs/ADDING_CONTENT_GUIDE.md</code></p></div>",
+    "summary": "Guide for using AI assistants to manage command center content through natural language commands."
+  },
+  "goals": [
+    {
+      "id": "ai-guide-goal-1",
+      "title": "Document All Available Actions",
+      "description": "Create comprehensive documentation of every action AI can perform on command center data",
+      "timeframe": "short",
+      "status": "in-progress",
+      "linkedQuestIds": []
+    },
+    {
+      "id": "ai-guide-goal-2",
+      "title": "Create Request Templates",
+      "description": "Build a library of example phrases and templates that users can copy/adapt for common requests",
+      "timeframe": "short",
+      "status": "in-progress",
+      "linkedQuestIds": []
+    },
+    {
+      "id": "ai-guide-goal-3",
+      "title": "Establish Validation Patterns",
+      "description": "Define what AI should verify after making changes to ensure data integrity",
+      "timeframe": "short",
+      "status": "in-progress",
+      "linkedQuestIds": []
+    },
+    {
+      "id": "ai-guide-goal-4",
+      "title": "Copilot Instructions Integration",
+      "description": "Add command center specific instructions to .github/copilot-instructions.md for automatic context",
+      "timeframe": "medium",
+      "status": "not-started",
+      "linkedQuestIds": []
+    }
+  ],
+  "components": [],
+  "customSections": [
+    {
+      "id": "quick-actions",
+      "title": "⚡ Quick Actions",
+      "html": "<div style=\"font-family: 'Roboto', sans-serif;\"><p style=\"color: #666; margin-bottom: 16px;\">Common requests you can make to AI. Just say these naturally:</p><div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 12px;\"><div style=\"background: #f3e8ff; padding: 16px; border-radius: 8px; border-left: 4px solid #8B5CF6;\"><strong>📖 Add Storyline</strong><br/><span style=\"color: #666; font-size: 13px;\">\"Add a storyline called [name] to [campaign] about [description]\"</span></div><div style=\"background: #e0f2fe; padding: 16px; border-radius: 8px; border-left: 4px solid #0ea5e9;\"><strong>🧭 Add Navigational Variable</strong><br/><span style=\"color: #666; font-size: 13px;\">\"Add a navigational variable: [title] - [description] as a [type]\"</span></div><div style=\"background: #dcfce7; padding: 16px; border-radius: 8px; border-left: 4px solid #22c55e;\"><strong>📝 Create Wiki Page</strong><br/><span style=\"color: #666; font-size: 13px;\">\"Create wiki documentation for [storyline] with goals about [topics]\"</span></div><div style=\"background: #fef3c7; padding: 16px; border-radius: 8px; border-left: 4px solid #f59e0b;\"><strong>🎯 Add Goal</strong><br/><span style=\"color: #666; font-size: 13px;\">\"Add a goal to [campaign/storyline]: [description]\"</span></div><div style=\"background: #fee2e2; padding: 16px; border-radius: 8px; border-left: 4px solid #ef4444;\"><strong>🔄 Update Status</strong><br/><span style=\"color: #666; font-size: 13px;\">\"Update [item] status to [in-progress/completed/paused]\"</span></div><div style=\"background: #f1f5f9; padding: 16px; border-radius: 8px; border-left: 4px solid #64748b;\"><strong>🗂️ Add Custom Section</strong><br/><span style=\"color: #666; font-size: 13px;\">\"Add a section to [storyline] wiki about [topic]\"</span></div></div></div>",
+      "order": 1
+    },
+    {
+      "id": "data-architecture",
+      "title": "📁 Data Architecture Reference",
+      "html": "<div style=\"font-family: 'Roboto', sans-serif;\"><table style=\"width: 100%; border-collapse: collapse; font-size: 14px;\"><thead><tr style=\"background: #f8fafc;\"><th style=\"padding: 12px; text-align: left; border-bottom: 2px solid #e2e8f0;\">Content Type</th><th style=\"padding: 12px; text-align: left; border-bottom: 2px solid #e2e8f0;\">File Location</th><th style=\"padding: 12px; text-align: left; border-bottom: 2px solid #e2e8f0;\">Also Update</th></tr></thead><tbody><tr><td style=\"padding: 12px; border-bottom: 1px solid #e2e8f0;\"><strong>Storyline</strong></td><td style=\"padding: 12px; border-bottom: 1px solid #e2e8f0;\"><code>data/storylines.json</code></td><td style=\"padding: 12px; border-bottom: 1px solid #e2e8f0;\"><code>campaigns.json</code> → storylineIds</td></tr><tr style=\"background: #f8fafc;\"><td style=\"padding: 12px; border-bottom: 1px solid #e2e8f0;\"><strong>Campaign</strong></td><td style=\"padding: 12px; border-bottom: 1px solid #e2e8f0;\"><code>data/campaigns.json</code></td><td style=\"padding: 12px; border-bottom: 1px solid #e2e8f0;\">—</td></tr><tr><td style=\"padding: 12px; border-bottom: 1px solid #e2e8f0;\"><strong>Navigational Variable</strong></td><td style=\"padding: 12px; border-bottom: 1px solid #e2e8f0;\"><code>data/roadmap.json</code> → navigationalVariables</td><td style=\"padding: 12px; border-bottom: 1px solid #e2e8f0;\">—</td></tr><tr style=\"background: #f8fafc;\"><td style=\"padding: 12px; border-bottom: 1px solid #e2e8f0;\"><strong>Wiki Documentation</strong></td><td style=\"padding: 12px; border-bottom: 1px solid #e2e8f0;\"><code>data/storylines/wiki/{id}.json</code></td><td style=\"padding: 12px; border-bottom: 1px solid #e2e8f0;\">—</td></tr><tr><td style=\"padding: 12px; border-bottom: 1px solid #e2e8f0;\"><strong>Quest</strong></td><td style=\"padding: 12px; border-bottom: 1px solid #e2e8f0;\"><code>data/quests.json</code></td><td style=\"padding: 12px; border-bottom: 1px solid #e2e8f0;\">—</td></tr><tr style=\"background: #f8fafc;\"><td style=\"padding: 12px;\"><strong>Objective</strong></td><td style=\"padding: 12px;\"><code>data/objectives.json</code></td><td style=\"padding: 12px;\">—</td></tr></tbody></table><p style=\"color: #999; font-size: 13px; margin-top: 16px;\">Base path: <code>/apps/command-center/src/</code></p></div>",
+      "order": 2
+    },
+    {
+      "id": "storyline-guide",
+      "title": "📖 Adding a Storyline",
+      "html": "<div style=\"font-family: 'Roboto', sans-serif;\"><div style=\"background: #f8fafc; border-radius: 8px; padding: 20px; margin-bottom: 16px;\"><h4 style=\"margin: 0 0 12px 0;\">Required Fields</h4><pre style=\"background: #1e293b; color: #e2e8f0; padding: 16px; border-radius: 8px; overflow-x: auto; font-size: 13px; margin: 0;\">{\n  \"id\": \"campaign-feature-name\",      // kebab-case, prefix with campaign\n  \"name\": \"Feature Name\",             // Display name\n  \"description\": \"Brief description\", // 1-2 sentences\n  \"status\": \"not-started\",            // not-started | in-progress | paused | quest-complete\n  \"priority\": \"P2\",                   // P1 | P2 | P3\n  \"category\": \"business\",             // business | personal\n  \"color\": \"#4ECDC4\",                 // Match campaign color\n  \"icon\": \"Psychology\",               // MUI icon name\n  \"campaignIds\": [\"4eye\"]             // Which campaigns this belongs to\n}</pre></div><div style=\"background: #fef3c7; padding: 16px; border-radius: 8px; border-left: 4px solid #f59e0b;\"><strong>⚠️ Don't Forget:</strong> Add the storyline ID to the campaign's <code>storylineIds</code> array in campaigns.json!</div></div>",
+      "order": 3
+    },
+    {
+      "id": "nav-variable-guide",
+      "title": "🧭 Adding a Navigational Variable",
+      "html": "<div style=\"font-family: 'Roboto', sans-serif;\"><div style=\"background: #f8fafc; border-radius: 8px; padding: 20px; margin-bottom: 16px;\"><h4 style=\"margin: 0 0 12px 0;\">Required Fields</h4><pre style=\"background: #1e293b; color: #e2e8f0; padding: 16px; border-radius: 8px; overflow-x: auto; font-size: 13px; margin: 0;\">{\n  \"id\": \"nav-descriptive-name\",\n  \"title\": \"Short Title (5-7 words)\",\n  \"description\": \"Detailed explanation of the insight or strategy\",\n  \"type\": \"strategy\"  // advantage | opportunity | strategy | insight\n}</pre></div><div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px;\"><div style=\"background: #dcfce7; padding: 12px; border-radius: 8px;\"><strong>advantage</strong><br/><span style=\"color: #666; font-size: 12px;\">Something you have that others don't</span></div><div style=\"background: #e0f2fe; padding: 12px; border-radius: 8px;\"><strong>opportunity</strong><br/><span style=\"color: #666; font-size: 12px;\">External factors to leverage</span></div><div style=\"background: #f3e8ff; padding: 12px; border-radius: 8px;\"><strong>strategy</strong><br/><span style=\"color: #666; font-size: 12px;\">Intentional approach or tactic</span></div><div style=\"background: #fef3c7; padding: 12px; border-radius: 8px;\"><strong>insight</strong><br/><span style=\"color: #666; font-size: 12px;\">Key realization or learning</span></div></div></div>",
+      "order": 4
+    },
+    {
+      "id": "wiki-guide",
+      "title": "📝 Creating Wiki Documentation",
+      "html": "<div style=\"font-family: 'Roboto', sans-serif;\"><div style=\"background: #f8fafc; border-radius: 8px; padding: 20px; margin-bottom: 16px;\"><h4 style=\"margin: 0 0 12px 0;\">Wiki File Structure</h4><pre style=\"background: #1e293b; color: #e2e8f0; padding: 16px; border-radius: 8px; overflow-x: auto; font-size: 13px; margin: 0;\">{\n  \"storylineId\": \"storyline-id\",\n  \"lastUpdated\": \"2026-02-11\",\n  \"overview\": {\n    \"html\": \"&lt;div&gt;Rich HTML overview...&lt;/div&gt;\",\n    \"summary\": \"Plain text for cards/previews\"\n  },\n  \"goals\": [\n    {\n      \"id\": \"goal-1\",\n      \"title\": \"Goal Title\",\n      \"description\": \"What this achieves\",\n      \"timeframe\": \"short\",  // short | medium | long\n      \"status\": \"not-started\",\n      \"linkedQuestIds\": []\n    }\n  ],\n  \"customSections\": [\n    {\n      \"id\": \"section-1\",\n      \"title\": \"Section Title\",\n      \"html\": \"&lt;div&gt;Section content...&lt;/div&gt;\",\n      \"order\": 1\n    }\n  ],\n  \"notes\": \"Optional notes\"\n}</pre></div><p style=\"color: #666; font-size: 14px;\">File location: <code>data/storylines/wiki/{storylineId}.json</code></p></div>",
+      "order": 5
+    },
+    {
+      "id": "validation",
+      "title": "✅ Validation Checklist",
+      "html": "<div style=\"font-family: 'Roboto', sans-serif;\"><p style=\"color: #666; margin-bottom: 16px;\">After making changes, AI should verify:</p><div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px;\"><div style=\"background: #f0fdf4; padding: 16px; border-radius: 8px; border-left: 4px solid #22c55e;\"><strong>✓ JSON Syntax Valid</strong><br/><span style=\"color: #666; font-size: 13px;\">No trailing commas, proper escaping, valid structure</span></div><div style=\"background: #f0fdf4; padding: 16px; border-radius: 8px; border-left: 4px solid #22c55e;\"><strong>✓ IDs Unique</strong><br/><span style=\"color: #666; font-size: 13px;\">No duplicate IDs within the same file</span></div><div style=\"background: #f0fdf4; padding: 16px; border-radius: 8px; border-left: 4px solid #22c55e;\"><strong>✓ Bidirectional Links</strong><br/><span style=\"color: #666; font-size: 13px;\">Storyline ↔ Campaign references match</span></div><div style=\"background: #f0fdf4; padding: 16px; border-radius: 8px; border-left: 4px solid #22c55e;\"><strong>✓ Valid Enums</strong><br/><span style=\"color: #666; font-size: 13px;\">Status, priority, type values are valid options</span></div><div style=\"background: #f0fdf4; padding: 16px; border-radius: 8px; border-left: 4px solid #22c55e;\"><strong>✓ Color Consistency</strong><br/><span style=\"color: #666; font-size: 13px;\">Colors match campaign theme</span></div><div style=\"background: #f0fdf4; padding: 16px; border-radius: 8px; border-left: 4px solid #22c55e;\"><strong>✓ No Errors</strong><br/><span style=\"color: #666; font-size: 13px;\">Run get_errors on modified files</span></div></div></div>",
+      "order": 6
+    },
+    {
+      "id": "campaign-colors",
+      "title": "🎨 Campaign Colors Reference",
+      "html": "<div style=\"font-family: 'Roboto', sans-serif;\"><div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px;\"><div style=\"background: #4ECDC4; padding: 16px; border-radius: 8px; color: white; text-align: center;\"><strong>4Eye</strong><br/><code style=\"background: rgba(0,0,0,0.2); padding: 2px 6px; border-radius: 4px;\">#4ECDC4</code></div><div style=\"background: #9B59B6; padding: 16px; border-radius: 8px; color: white; text-align: center;\"><strong>1Game</strong><br/><code style=\"background: rgba(0,0,0,0.2); padding: 2px 6px; border-radius: 4px;\">#9B59B6</code></div><div style=\"background: #F39C12; padding: 16px; border-radius: 8px; color: white; text-align: center;\"><strong>4Up</strong><br/><code style=\"background: rgba(0,0,0,0.2); padding: 2px 6px; border-radius: 4px;\">#F39C12</code></div><div style=\"background: #E74C3C; padding: 16px; border-radius: 8px; color: white; text-align: center;\"><strong>Expanse Services</strong><br/><code style=\"background: rgba(0,0,0,0.2); padding: 2px 6px; border-radius: 4px;\">#E74C3C</code></div><div style=\"background: #8B5CF6; padding: 16px; border-radius: 8px; color: white; text-align: center;\"><strong>Command Center</strong><br/><code style=\"background: rgba(0,0,0,0.2); padding: 2px 6px; border-radius: 4px;\">#8B5CF6</code></div><div style=\"background: #3498DB; padding: 16px; border-radius: 8px; color: white; text-align: center;\"><strong>Marketing</strong><br/><code style=\"background: rgba(0,0,0,0.2); padding: 2px 6px; border-radius: 4px;\">#3498DB</code></div></div></div>",
+      "order": 7
+    },
+    {
+      "id": "request-templates",
+      "title": "💬 Request Templates",
+      "html": "<div style=\"font-family: 'Roboto', sans-serif;\"><p style=\"color: #666; margin-bottom: 16px;\">Copy and adapt these phrases for common requests:</p><div style=\"background: #f8fafc; padding: 20px; border-radius: 12px;\"><div style=\"margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid #e2e8f0;\"><strong style=\"color: #8B5CF6;\">Add Storyline:</strong><br/><code style=\"background: #e2e8f0; padding: 8px 12px; border-radius: 4px; display: block; margin-top: 8px; font-size: 13px;\">\"Insert a storyline called '[Name]' under the [campaign] campaign. It's about [description]. Create a wiki page with goals for [goal topics].\"</code></div><div style=\"margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid #e2e8f0;\"><strong style=\"color: #0ea5e9;\">Add Navigational Variable:</strong><br/><code style=\"background: #e2e8f0; padding: 8px 12px; border-radius: 4px; display: block; margin-top: 8px; font-size: 13px;\">\"Add this as a navigational variable in the compass: [Title] - [Description]. It's a [strategy/insight/advantage/opportunity].\"</code></div><div style=\"margin-bottom: 16px; padding-bottom: 16px; border-bottom: 1px solid #e2e8f0;\"><strong style=\"color: #22c55e;\">Update Status:</strong><br/><code style=\"background: #e2e8f0; padding: 8px 12px; border-radius: 4px; display: block; margin-top: 8px; font-size: 13px;\">\"Update the [storyline/campaign name] status to [in-progress/completed/paused].\"</code></div><div><strong style=\"color: #f59e0b;\">Add Wiki Section:</strong><br/><code style=\"background: #e2e8f0; padding: 8px 12px; border-radius: 4px; display: block; margin-top: 8px; font-size: 13px;\">\"Add a section to the [storyline] wiki about [topic]. Include [specific content].\"</code></div></div></div>",
+      "order": 8
+    },
+    {
+      "id": "best-practices",
+      "title": "💡 Best Practices",
+      "html": "<div style=\"font-family: 'Roboto', sans-serif;\"><div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;\"><div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; border-radius: 12px; color: white;\"><h4 style=\"margin: 0 0 8px 0;\">🎯 Be Specific About Campaign</h4><p style=\"margin: 0; font-size: 14px; opacity: 0.9;\">Always mention which campaign the content belongs to. This ensures proper linking and color matching.</p></div><div style=\"background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); padding: 20px; border-radius: 12px; color: white;\"><h4 style=\"margin: 0 0 8px 0;\">📋 Describe the Purpose</h4><p style=\"margin: 0; font-size: 14px; opacity: 0.9;\">Include what the feature/concept is FOR. This helps AI write better descriptions and wiki content.</p></div><div style=\"background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 20px; border-radius: 12px; color: white;\"><h4 style=\"margin: 0 0 8px 0;\">🔗 Mention Related Items</h4><p style=\"margin: 0; font-size: 14px; opacity: 0.9;\">If the new content relates to existing storylines or campaigns, mention them for proper cross-referencing.</p></div><div style=\"background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 20px; border-radius: 12px; color: white;\"><h4 style=\"margin: 0 0 8px 0;\">📝 Request Wiki If Needed</h4><p style=\"margin: 0; font-size: 14px; opacity: 0.9;\">If you want detailed documentation, explicitly ask for a wiki page to be created with specific sections.</p></div></div></div>",
+      "order": 9
+    }
+  ],
+  "notes": "2026-02-11: Created as the central guide for AI-assisted command center management. This storyline documents how to use AI assistants to efficiently add and update content in the command center app."
+}

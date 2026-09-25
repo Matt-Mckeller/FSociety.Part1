@@ -1,0 +1,369 @@
+{
+  "sample": {
+    "durationSeconds": 180,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Today we're analyzing the symbolism in The Great Gatsby.",
+          "timestamp": 0,
+          "confidence": 0.96
+        },
+        {
+          "text": "Chapter 3 has some interesting",
+          "timestamp": 5.2,
+          "confidence": 0.94
+        },
+        {
+          "text": "[Student whisper] Did you see the game last night?",
+          "timestamp": 8.7,
+          "confidence": 0.87
+        },
+        {
+          "text": "[Another student] Yeah, it was crazy!",
+          "timestamp": 11.3,
+          "confidence": 0.85
+        },
+        {
+          "text": "elements we should discuss. The green light",
+          "timestamp": 13.8,
+          "confidence": 0.92
+        },
+        {
+          "text": "[Side conversation] I can't believe that final play.",
+          "timestamp": 17.4,
+          "confidence": 0.83
+        },
+        {
+          "text": "represents Gatsby's dreams and aspirations.",
+          "timestamp": 20.6,
+          "confidence": 0.94
+        },
+        {
+          "text": "Can anyone tell me what other symbols",
+          "timestamp": 25.1,
+          "confidence": 0.95
+        },
+        {
+          "text": "[Student] Are we having practice today?",
+          "timestamp": 28.9,
+          "confidence": 0.89
+        },
+        {
+          "text": "[Another student] I think it got cancelled.",
+          "timestamp": 31.7,
+          "confidence": 0.87
+        },
+        {
+          "text": "Excuse me, let's focus please. What symbols do we see?",
+          "timestamp": 34.5,
+          "confidence": 0.93
+        },
+        {
+          "text": "[Student raises hand] The eyes of Doctor T.J. Eckleburg?",
+          "timestamp": 40.2,
+          "confidence": 0.91
+        },
+        {
+          "text": "Excellent! Those represent",
+          "timestamp": 45.8,
+          "confidence": 0.95
+        },
+        {
+          "text": "[Background chatter] Did you finish the math homework?",
+          "timestamp": 48.3,
+          "confidence": 0.81
+        },
+        {
+          "text": "[Response] No, I'll do it at lunch.",
+          "timestamp": 51.6,
+          "confidence": 0.84
+        },
+        {
+          "text": "the eyes of God watching over society.",
+          "timestamp": 53.9,
+          "confidence": 0.93
+        },
+        {
+          "text": "[Multiple side conversations overlapping]",
+          "timestamp": 58.7,
+          "confidence": 0.67
+        },
+        {
+          "text": "Class! Please! This is important for your essay.",
+          "timestamp": 63.4,
+          "confidence": 0.94
+        },
+        {
+          "text": "Now, the parties at Gatsby's mansion",
+          "timestamp": 69.1,
+          "confidence": 0.92
+        },
+        {
+          "text": "[Student] When's the essay due again?",
+          "timestamp": 73.8,
+          "confidence": 0.9
+        },
+        {
+          "text": "[Teacher] Friday. As I was saying, the parties",
+          "timestamp": 76.5,
+          "confidence": 0.93
+        },
+        {
+          "text": "[Loud whisper] Want to get pizza after school?",
+          "timestamp": 80.2,
+          "confidence": 0.86
+        },
+        {
+          "text": "[Response] Can't, I have soccer.",
+          "timestamp": 83.7,
+          "confidence": 0.88
+        },
+        {
+          "text": "symbolize the emptiness of the wealthy lifestyle.",
+          "timestamp": 86.4,
+          "confidence": 0.91
+        },
+        {
+          "text": "[Paper rustling and general chatter]",
+          "timestamp": 92.8,
+          "confidence": 0.72
+        },
+        {
+          "text": "Let's look at page 58 where",
+          "timestamp": 97.3,
+          "confidence": 0.94
+        },
+        {
+          "text": "[Student] I left my book in my locker.",
+          "timestamp": 101.6,
+          "confidence": 0.89
+        },
+        {
+          "text": "[Another student] You can share with me.",
+          "timestamp": 104.9,
+          "confidence": 0.87
+        },
+        {
+          "text": "Fitzgerald describes the party scene. Notice how",
+          "timestamp": 108.2,
+          "confidence": 0.9
+        },
+        {
+          "text": "[Side conversation continues] Thanks. So about this weekend",
+          "timestamp": 114.7,
+          "confidence": 0.82
+        },
+        {
+          "text": "[Response] Yeah, we should definitely hang out.",
+          "timestamp": 118.4,
+          "confidence": 0.84
+        },
+        {
+          "text": "the guests don't even know Gatsby. This is significant because",
+          "timestamp": 121.8,
+          "confidence": 0.89
+        },
+        {
+          "text": "[Multiple conversations] [Unclear chatter]",
+          "timestamp": 128.5,
+          "confidence": 0.64
+        },
+        {
+          "text": "Okay, I'm going to need everyone to settle down now.",
+          "timestamp": 134.2,
+          "confidence": 0.95
+        },
+        {
+          "text": "We only have ten minutes left.",
+          "timestamp": 139.8,
+          "confidence": 0.96
+        },
+        {
+          "text": "[Quieter but still some whispering]",
+          "timestamp": 143.6,
+          "confidence": 0.74
+        },
+        {
+          "text": "For homework, I want you to identify three more symbols",
+          "timestamp": 148.1,
+          "confidence": 0.93
+        },
+        {
+          "text": "and explain their significance in one paragraph each.",
+          "timestamp": 154.7,
+          "confidence": 0.92
+        },
+        {
+          "text": "[Bell rings] [Sudden loud talking and movement]",
+          "timestamp": 161.3,
+          "confidence": 0.69
+        },
+        {
+          "text": "Remember, Friday! Don't forget!",
+          "timestamp": 166.8,
+          "confidence": 0.91
+        },
+        {
+          "text": "[Students leaving, multiple conversations]",
+          "timestamp": 171.4,
+          "confidence": 0.58
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.88,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "Classroom Management",
+        "severity": "High",
+        "message": "The transcription indicates a very high level of student side-conversation and background noise, which significantly disrupts the instructional flow. The teacher repeatedly attempts to regain the class's focus."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.65,
+    "isSideConversation_confidence": 0.9,
+    "isIrrelevantContent_confidence": 0.75,
+    "isPartialResponse": false,
+    "tags": [
+      "literature",
+      "american_literature",
+      "the_great_gatsby",
+      "symbolism",
+      "literary_analysis",
+      "grade_11",
+      "essay_writing"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "The teacher led a fragmented discussion on the symbolism in F. Scott Fitzgerald's 'The Great Gatsby.' Key symbols identified were the green light, representing Gatsby's dreams and aspirations; the eyes of Doctor T.J. Eckleburg, symbolizing the eyes of God watching over a morally bankrupt society; and Gatsby's lavish parties, which signify the emptiness and superficiality of the wealthy lifestyle in the Jazz Age. The lesson was heavily interrupted by student side-conversations, requiring the teacher to frequently redirect the class. The teacher concluded by assigning homework to identify and explain three more symbols in preparation for an essay due on Friday.",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "• Main Topic: Symbolism in 'The Great Gatsby'.\n• Symbol 1: The Green Light - Represents Gatsby's dreams, hope, and aspirations for Daisy.\n• Symbol 2: Eyes of Dr. T.J. Eckleburg - Symbolizes a god-like figure watching over the moral decay of society.\n• Symbol 3: Gatsby's Parties - Represent the superficiality, excess, and emptiness of the Jazz Age elite.\n• Homework: Identify and explain three additional symbols.\n• Upcoming: Essay on the topic is due Friday."
+      },
+      {
+        "version": "detailed",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "In a lesson frequently disrupted by student chatter, the teacher guided a discussion on key symbols in 'The Great Gatsby.' The analysis began with the green light at the end of Daisy's dock, which was explained as a powerful symbol of Gatsby's unattainable dreams and his longing for the past. A student correctly identified the eyes of Doctor T.J. Eckleburg, which the teacher affirmed represent a divine, judgmental presence observing the moral wasteland of the characters' lives. The teacher also explained that Gatsby's extravagant parties, despite their glamour, symbolize the profound loneliness and moral emptiness of the era's wealthy class, noting that guests often don't even know their host. The class concluded with a homework assignment to analyze three more symbols for an upcoming essay."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.8,
+        "text": "The lesson identified key symbols in 'The Great Gatsby': the green light (Gatsby's dreams), Dr. Eckleburg's eyes (God's judgment), and the lavish parties (emptiness of wealth). Students were assigned homework to find more symbols for an upcoming essay."
+      }
+    ],
+    "oneLineSummarization": "A teacher explained key symbols in 'The Great Gatsby' (green light, eyes, parties) for an upcoming essay, despite significant classroom disruptions.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.9,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "VISUAL",
+        "relativeEffectivenessWeight": 0.95,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Picture a dark, misty night across the bay. A single, distant green light is the only thing visible, a tiny beacon of hope. Now, imagine a massive, faded billboard in a desolate, ashen wasteland. Two enormous, blue eyes with giant spectacles stare out from it, watching everything below with a silent, all-knowing gaze. Finally, visualize a mansion exploding with chaotic light and sound, filled with anonymous faces in glittering clothes, all swirling around a host who stands utterly alone in the center of it all. These powerful images are the symbols that tell the true story of the book."
+      },
+      {
+        "effectiveness": "high",
+        "type": "ASSOCIATIONS",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "Think of the green light like a 'read' receipt on a message you desperately want a reply to – it shows you the person is there, but you can't reach them, creating a sense of hopeful longing. The eyes of Dr. T.J. Eckleburg are like a celestial security camera in a world without morals, recording everyone's bad decisions. Gatsby's parties are like a viral social media feed: they look glamorous and full of connections from the outside, but are often shallow, lonely, and lack any real substance for the person at the center of it all."
+      },
+      {
+        "effectiveness": "high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "To analyze a symbol, we follow a logical process. Step 1: Identify a recurring object or image, like the green light. Step 2: Observe the context. Where does it appear? Gatsby is alone, reaching for it across the water. Step 3: Connect it to a character's desires. Gatsby desires Daisy, who lives across the bay. Step 4: Formulate the abstract meaning. Therefore, the green light symbolizes Gatsby's distant, unattainable dream of being with Daisy. We can apply this same four-step process to Eckleburg's eyes and the parties to deduce their deeper meanings."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "MERMAID_MINDMAP",
+        "otherCoreType": null,
+        "secondaryTypes": [],
+        "title": "Symbolism and Themes in The Great Gatsby",
+        "reasonForSuggestion": "A mind map is excellent for helping students organize abstract literary concepts. It visually connects concrete symbols to their deeper, thematic meanings, clarifying complex relationships in a single view.",
+        "promptForGeneration": "Create a Mermaid mindmap for an 11th-grade English class analyzing 'The Great Gatsby'. The central node should be 'The American Dream'. Create three main branches for key symbols: 1) 'The Green Light' with sub-nodes 'Hope', 'The Past', and 'Unattainable Dreams'. 2) 'Eyes of Dr. Eckleburg' with sub-nodes 'Moral Judgment', 'God's Absence', and 'The Wasteland'. 3) 'Gatsby's Parties' with sub-nodes 'Superficiality', 'Jazz Age Excess', and 'Loneliness'. Use color-coding: green for the light, blue for the eyes, and gold for the parties. Ensure the layout is clear and the text is easily readable."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.9,
+        "coreType": "COMPARISON_MATRIX",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "TABLE"
+        ],
+        "title": "Gatsby's World: Illusion vs. Reality",
+        "reasonForSuggestion": "This visualization directly supports the theme of superficiality by forcing students to contrast appearances with the underlying truth. It's a powerful tool for developing critical analysis skills.",
+        "promptForGeneration": "Generate an HTML table with two columns and four rows for an 11th-grade class. The table title should be 'Gatsby's World: Illusion vs. Reality'. Column 1 header: 'The Illusion (What it Seems)'. Column 2 header: 'The Reality (What it Is)'. Row 1: 'Gatsby's Parties' -> 'Glamorous, popular, joyful' vs. 'Empty, lonely, anonymous'. Row 2: 'Gatsby Himself' -> 'Wealthy, powerful, mysterious (Oxford Man)' vs. 'Insecure, criminal, obsessed'. Row 3: 'Daisy Buchanan' -> 'Pure, charming, golden girl' vs. 'Careless, shallow, destructive'. Use a clean, modern design with high-contrast text. Highlight the 'Illusion' column in a light gold color and the 'Reality' column in a light grey."
+      }
+    ],
+    "purpose": "This lesson teaches a fundamental literary analysis skill: understanding symbolism. By learning to recognize how authors use objects and images to convey deeper meanings, students can move beyond surface-level plot summary to engage with the complex themes of a text, such as the critique of the American Dream and social class in 'The Great Gatsby'. This skill is crucial for critical thinking and is applicable to analyzing film, art, and media.",
+    "motivation": "Have you ever used an emoji to show a whole feeling without typing a word? That's a symbol. Authors do the same thing, hiding a book's real secrets in plain sight. Learning to decode symbols in 'The Great Gatsby' is like finding the author's hidden messages about money, love, and loneliness. Once you see it, you can't unsee it, and it makes every book, movie, or song you experience from now on way more interesting.",
+    "learningValueScore": 0.75,
+    "availableActions": [
+      {
+        "actionLabel": "Visualize Symbols",
+        "reason": "Connect abstract symbols to concrete visual representations to improve memory and understanding.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Theme Connections",
+        "reason": "Explore how each symbol reinforces the novel's major themes, like the corruption of the American Dream.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Quiz Me",
+        "reason": "Test your understanding by matching symbols to their meanings in a quick interactive quiz.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "symbolism": {
+        "definition": "The use of objects, characters, or other elements to represent abstract ideas or concepts beyond their literal meaning.",
+        "context": "The green light's symbolism is central to understanding Gatsby's character.",
+        "simpler": "When one thing stands for a bigger idea."
+      },
+      "aspiration": {
+        "definition": "A strong hope or ambition of achieving something, such as a goal or a dream.",
+        "context": "The green light represents Gatsby's aspirations to reunite with Daisy.",
+        "simpler": "A big dream you're reaching for."
+      },
+      "superficiality": {
+        "definition": "A lack of depth, seriousness, or substance; concern with only the surface appearance of things.",
+        "context": "The constant parties highlight the superficiality of the Jazz Age elite.",
+        "simpler": "Being shallow or fake; caring only about looks."
+      }
+    },
+    "recommendationsToTeacher": [
+      "The high level of distraction suggests students may be disengaged. Consider incorporating a short, focused pair-and-share activity where students discuss a potential symbol with a partner before sharing with the class. This can help channel their social energy productively.",
+      "To minimize interruptions about logistics, display a clear agenda at the start of class with key information like 'Essay Due: Friday' visible throughout the period.",
+      "Use a central visual anchor, like a slide or whiteboard list of the key symbols being discussed. This can help redirect student attention back to the core content after an interruption."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T02:00:05.119Z",
+    "latencyMs": 47845,
+    "tokenUsage": {
+      "input": 8388,
+      "output": 2867,
+      "total": 13242
+    }
+  }
+}

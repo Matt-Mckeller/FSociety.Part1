@@ -1,0 +1,221 @@
+{
+  "sample": {
+    "durationSeconds": 52,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "So obviously the Civil War was only about economics,",
+          "timestamp": 0,
+          "confidence": 0.89
+        },
+        {
+          "text": "slavery had nothing to do with it.",
+          "timestamp": 4.8,
+          "confidence": 0.91
+        },
+        {
+          "text": "Anyone who says otherwise is just being politically correct.",
+          "timestamp": 9.3,
+          "confidence": 0.84
+        },
+        {
+          "text": "The North was the aggressor and the South",
+          "timestamp": 15.2,
+          "confidence": 0.86
+        },
+        {
+          "text": "was just defending their way of life.",
+          "timestamp": 19.7,
+          "confidence": 0.88
+        },
+        {
+          "text": "All the textbooks today are biased",
+          "timestamp": 23.9,
+          "confidence": 0.87
+        },
+        {
+          "text": "and don't tell you the real story.",
+          "timestamp": 27.6,
+          "confidence": 0.89
+        },
+        {
+          "text": "But I'm giving you the facts here.",
+          "timestamp": 31.2,
+          "confidence": 0.92
+        },
+        {
+          "text": "You won't find this in your book",
+          "timestamp": 34.8,
+          "confidence": 0.88
+        },
+        {
+          "text": "because they don't want you to know the truth.",
+          "timestamp": 38.5,
+          "confidence": 0.85
+        },
+        {
+          "text": "Just remember what I told you for the test.",
+          "timestamp": 43.7,
+          "confidence": 0.9
+        },
+        {
+          "text": "That's what you need to write.",
+          "timestamp": 47.9,
+          "confidence": 0.91
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.98,
+    "appropriatenessScore": 0.05,
+    "warnings": [
+      {
+        "type": "Historical Misinformation",
+        "severity": "Critical",
+        "details": "The speaker is promoting the 'Lost Cause' narrative, a historically inaccurate and discredited interpretation of the American Civil War. The claims that the war was 'only about economics' and that 'slavery had nothing to do with it' are factually incorrect and contradict overwhelming historical evidence, including the primary source documents from the seceding states themselves."
+      },
+      {
+        "type": "Pedagogical Malpractice",
+        "severity": "Critical",
+        "details": "The speaker instructs students to disregard textbooks, presents false information as 'facts' and 'truth', and explicitly tells them to reproduce this misinformation on a test. This undermines critical thinking, academic integrity, and the educational mission."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.98,
+    "isSideConversation_confidence": 0.01,
+    "isIrrelevantContent_confidence": 0.01,
+    "isPartialResponse": false,
+    "tags": [
+      "history",
+      "american_civil_war",
+      "misinformation",
+      "historical_revisionism",
+      "lost_cause",
+      "inappropriate_content",
+      "pedagogical_concern",
+      "high_school"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "The speaker presents a historically inaccurate 'Lost Cause' narrative of the American Civil War, falsely claiming it was solely about economics and that slavery was not a factor. The speaker dismisses established historical consensus as 'politically correct' and biased, positioning their own incorrect version as the 'real story' and instructing students to repeat these falsehoods on an exam. This content constitutes dangerous misinformation within an educational context.",
+    "recommendedSummarization": "detailed",
+    "additionalSummarizationOptions": [
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.8,
+        "text": "The speaker promotes the false 'Lost Cause' theory, incorrectly stating the Civil War was about economics, not slavery, and telling students to ignore textbooks and repeat this misinformation."
+      },
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "Summary of Speaker's False Claims:\n- The Civil War was only about economics.\n- Slavery was not a cause.\n- The North was the aggressor.\n- Textbooks are biased and hide the 'truth'.\n- Students should repeat these claims on their test."
+      }
+    ],
+    "oneLineSummarization": "Speaker promotes the historically false 'Lost Cause' narrative, claiming the Civil War was about economics, not slavery, and instructs students to repeat this.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.98,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Let's logically deconstruct the speaker's claims using primary evidence. The claim: 'slavery had nothing to do with it.' The evidence: Mississippi's Declaration of Secession states, 'Our position is thoroughly identified with the institution of slavery—the greatest material interest of the world.' Since the states' own words directly contradict the speaker's claim, the logical conclusion is that the speaker's statement is false. The economic argument and the slavery argument are not separate; the Southern economy was fundamentally built upon the institution of slavery."
+      },
+      {
+        "effectiveness": "high",
+        "type": "PROBLEM_SOLVING",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "Problem: How do we determine the true causes of the Civil War? Step 1: Identify the speaker's claims (economics only, North as aggressor). Step 2: Seek primary source evidence to verify these claims. We will consult the official secession documents from Confederate states. Step 3: Analyze the evidence. For example, Texas's declaration cites the federal government's failure to protect the institution of slavery in new territories. Step 4: Compare evidence to the initial claims. The evidence shows slavery was a central, explicitly stated cause. Conclusion: The speaker's claims are a form of historical revisionism, not factual history."
+      },
+      {
+        "effectiveness": "high",
+        "type": "ASSOCIATIONS",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "Claiming the Civil War was about economics and not slavery is like saying a house fire was about heat and not the arson that started it. While economic factors (heat) were present, they were inextricably linked to and driven by the core issue: the institution of slavery (the arson). The Southern 'way of life' and its economy were built on slavery. To separate the two is to ignore the fundamental cause of the conflict and misrepresent the historical reality."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "COMPARISON_MATRIX",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "ANNOTATED_TEXT",
+          "HIGHLIGHTED_TEXT"
+        ],
+        "title": "Fact vs. Fiction: Causes of the Civil War",
+        "reasonForSuggestion": "This directly confronts the misinformation by placing the speaker's false claims alongside verifiable historical facts and primary source evidence, which is the most effective way to correct this type of error.",
+        "promptForGeneration": "Create an HTML table for 8th-10th graders titled 'Fact vs. Fiction: Causes of the Civil War'. The table should have three columns: 'Speaker's Claim', 'Historical Fact', and 'Primary Source Evidence'. Row 1: Claim='War was only about economics.' Fact='While economics were a factor, they were inseparable from the institution of slavery.' Evidence='Quote from Mississippi's secession document: \"Our position is thoroughly identified with the institution of slavery...\"'. Row 2: Claim='Slavery had nothing to do with it.' Fact='Slavery was the central cause of the war.' Evidence='Quote from Confederate VP Alexander Stephens' \"Cornerstone Speech\": \"its foundations are laid, its corner-stone rests, upon the great truth that the negro is not equal to the white man; that slavery... is his natural and normal condition.\"'. Use clear fonts, high contrast colors, and make the 'Historical Fact' column have a green background and the 'Speaker's Claim' column have a light red background."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.9,
+        "coreType": "MERMAID_MINDMAP",
+        "otherCoreType": null,
+        "secondaryTypes": [],
+        "title": "The Real Causes of the American Civil War",
+        "reasonForSuggestion": "A mind map can visually represent the complex and interconnected nature of the actual causes of the Civil War, showing students that historical events rarely have a single, simple cause and correcting the speaker's oversimplification.",
+        "promptForGeneration": "Create a Mermaid mindmap diagram for high school students titled 'Real Causes of the Civil War'. The central node should be 'Civil War Causes'. The main branch should be 'Institution of Slavery', with sub-nodes: 'Economic Reliance (Southern Agrarian Economy)', 'Moral Opposition (Abolitionism)', 'Political Power (Slave vs. Free States)', and 'Westward Expansion (New Territories)'. Create another main branch for 'States' Rights' with a sub-node clarifying 'The right to preserve slavery'. Use color-coding to link related concepts. Ensure the diagram clearly shows slavery as the central, connecting issue."
+      }
+    ],
+    "purpose": "Accurately understanding the causes of the Civil War is critical to comprehending the history of racial inequality, federal power, and regional identity in the United States. It provides the essential foundation for studying the Reconstruction era, the Civil Rights Movement, and ongoing struggles for social justice. The goal is to learn from the past by engaging with historical truth, not by accepting comforting falsehoods.",
+    "motivation": "Challenging misinformation is one of the most important skills you can develop. When someone tells you to ignore books and just trust them, it's a red flag. Learning the real history of the Civil War empowers you to think critically, analyze evidence for yourself, and understand how the echoes of that conflict still shape our world today. This isn't just about dates and names; it's about seeking truth and understanding the complex story of America.",
+    "learningValueScore": 0,
+    "availableActions": [
+      {
+        "actionLabel": "Fact-Check This",
+        "reason": "Directly counter the misinformation with evidence from reputable historical sources.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "See Primary Sources",
+        "reason": "Allows students to see the words of historical figures themselves, providing undeniable evidence against the speaker's claims.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Define 'Lost Cause'",
+        "reason": "Provides context for the specific type of misinformation being presented, teaching students to identify this historical revisionist narrative.",
+        "recommendationPriority": "high"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "Lost Cause Narrative": {
+        "definition": "A discredited historical myth that incorrectly claims the cause of the Confederate states was just and heroic. It downplays or denies the role of slavery as the central cause of the Civil War.",
+        "context": "The speaker's lecture is a clear example of the Lost Cause Narrative.",
+        "simpler": "An incorrect story that tries to make the Confederacy look good by ignoring slavery."
+      },
+      "Historical Revisionism": {
+        "definition": "The reinterpretation of the historical record. While it can be a legitimate academic process of updating history with new evidence, it can also be used illegitimately to distort or deny history for political purposes, as seen here.",
+        "context": "The speaker is engaging in illegitimate historical revisionism.",
+        "simpler": "Changing the story of the past, sometimes for good reasons with new facts, and sometimes for bad reasons to push an agenda."
+      }
+    },
+    "recommendationsToTeacher": [
+      "CRITICAL: Immediate intervention is required. This content promotes a historically inaccurate and harmful 'Lost Cause' narrative. This is a serious pedagogical issue that requires administrative review and curriculum correction.",
+      "Provide students with primary source documents, such as the Confederate states' own declarations of secession, which explicitly state the preservation of slavery as a central cause for the war. This will directly and powerfully counter the misinformation.",
+      "Conduct a lesson on media literacy and identifying historical bias. Use this transcript (anonymized) as a case study in how to critically evaluate sources, especially those that claim to have a 'secret truth' ignored by experts."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:46:14.760Z",
+    "latencyMs": 40777,
+    "tokenUsage": {
+      "input": 7129,
+      "output": 2640,
+      "total": 11669
+    }
+  }
+}

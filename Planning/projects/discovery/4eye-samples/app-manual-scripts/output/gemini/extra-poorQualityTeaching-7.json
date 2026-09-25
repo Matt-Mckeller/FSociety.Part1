@@ -1,0 +1,208 @@
+{
+  "sample": {
+    "durationSeconds": 55,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Today we're learning about ancient Rome.",
+          "timestamp": 0,
+          "confidence": 0.91
+        },
+        {
+          "text": "They had gladiators which is cool.",
+          "timestamp": 4.3,
+          "confidence": 0.89
+        },
+        {
+          "text": "Speaking of fighting, World War 2 happened later.",
+          "timestamp": 8.9,
+          "confidence": 0.85
+        },
+        {
+          "text": "But before that was the Renaissance.",
+          "timestamp": 13.6,
+          "confidence": 0.87
+        },
+        {
+          "text": "Renaissance means rebirth in French.",
+          "timestamp": 17.8,
+          "confidence": 0.88
+        },
+        {
+          "text": "France is in Europe. So is Italy.",
+          "timestamp": 22.1,
+          "confidence": 0.9
+        },
+        {
+          "text": "Italy is shaped like a boot.",
+          "timestamp": 26.3,
+          "confidence": 0.92
+        },
+        {
+          "text": "Boots are important for soldiers.",
+          "timestamp": 30.1,
+          "confidence": 0.89
+        },
+        {
+          "text": "The Roman soldiers were called legionaries.",
+          "timestamp": 34.7,
+          "confidence": 0.88
+        },
+        {
+          "text": "Anyway, there's a video you can watch at home.",
+          "timestamp": 39.9,
+          "confidence": 0.87
+        },
+        {
+          "text": "It's about pyramids I think.",
+          "timestamp": 44.2,
+          "confidence": 0.84
+        },
+        {
+          "text": "Or maybe it was about democracy.",
+          "timestamp": 48.3,
+          "confidence": 0.82
+        },
+        {
+          "text": "We'll do a quiz on Friday.",
+          "timestamp": 51.8,
+          "confidence": 0.9
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.95,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "Low Educational Quality",
+        "message": "The transcribed content is extremely disjointed, jumping between unrelated historical topics (Ancient Rome, WW2, Renaissance) without clear connections or a coherent narrative. This structure is likely to cause confusion and hinder learning."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.4,
+    "isSideConversation_confidence": 0.1,
+    "isIrrelevantContent_confidence": 0.85,
+    "isPartialResponse": false,
+    "tags": [
+      "history",
+      "ancient_rome",
+      "renaissance",
+      "world_war_2",
+      "geography",
+      "mixed_topics",
+      "disorganized_content",
+      "low_clarity"
+    ],
+    "shouldSummarize": false,
+    "shouldSummarizeFalseReason": "The content is a collection of disconnected and random facts across multiple historical periods and subjects. It lacks a central theme or logical progression, making a coherent summary impossible and educationally meaningless.",
+    "waitForMoreContent": false,
+    "summarization": "",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [],
+    "oneLineSummarization": "",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.8,
+    "learningModalityText": [
+      {
+        "effectiveness": "medium",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "To make sense of these topics, we must organize them. First, let's establish a timeline. Ancient Rome existed from roughly 753 BC to 476 AD. Much later, the Renaissance, or 'rebirth' of classical ideas from Rome and Greece, occurred from the 14th to 17th centuries. World War 2 was a modern conflict from 1939 to 1945. The Roman legionaries, Italian geography, and the French language are all connected to these periods, but understanding their chronological order is the first step to connecting them logically."
+      },
+      {
+        "effectiveness": "low",
+        "type": "STORYTELLING",
+        "relativeEffectivenessWeight": 0.4,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.6,
+        "text": "History is a long and winding road. Imagine a Roman legionary marching in his boots across the land that would one day be called Italy, a country shaped like a boot itself! Many centuries later, the people living there would look back at the art and ideas of ancient Rome during a time of 'rebirth' called the Renaissance. This love for history and culture spread across Europe, to places like France. Unfortunately, Europe's long history has also included terrible conflicts, like World War 2, where soldiers once again marched across the continent."
+      },
+      {
+        "effectiveness": "low",
+        "type": "ASSOCIATIONS",
+        "relativeEffectivenessWeight": 0.5,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.7,
+        "text": "Let's try to link these ideas. Think of 'fighting': this connects Roman gladiators, legionaries, and the soldiers of World War 2. Now think of 'Europe': this is the home of ancient Rome, modern Italy (shaped like a boot), and France. The word 'Renaissance' is French for 'rebirth,' and it was a rebirth of ideas from ancient Rome that happened primarily in Italy. While these topics seem random, they are all pieces of the giant puzzle that is European history."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "TIMELINE",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "ANNOTATED_TEXT"
+        ],
+        "title": "Unscrambling History: A Timeline of Mentioned Events",
+        "reasonForSuggestion": "The primary issue with the content is its lack of chronological structure. A timeline would immediately clarify the vast time gaps between the mentioned topics (Rome, Renaissance, WW2) and provide the foundational organization the lesson is missing.",
+        "promptForGeneration": "Create a simple, clear HTML timeline for a middle school audience to organize confusing historical topics. The timeline should span from 500 BC to 2000 AD. Place the following three items on the timeline with their corresponding date ranges: 1) 'Ancient Rome' (c. 753 BC - 476 AD). 2) 'The Renaissance' (c. 1300 - 1600 AD). 3) 'World War 2' (1939 - 1945 AD). Use large, bold text for the titles. Below each title, add a one-sentence description, e.g., 'Home to gladiators and legionaries.' Visually emphasize the massive time gaps between these events to highlight they are not closely related in time. Use a clean, minimalist design."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.85,
+        "coreType": "MERMAID_MINDMAP",
+        "otherCoreType": null,
+        "secondaryTypes": [],
+        "title": "Connecting the Concepts",
+        "reasonForSuggestion": "A mind map can help students visually group the scattered ideas and see potential (or missing) connections between them. It imposes a structure that the original text lacks, turning a list of random facts into an organized set of concepts.",
+        "promptForGeneration": "Generate a Mermaid mindmap to organize the scattered topics from the lesson. The central node should be 'History Topics'. Create four main branches: 1) 'Ancient Rome' with sub-nodes 'Gladiators' and 'Legionaries'. 2) 'Renaissance' with sub-node 'Means Rebirth (French)'. 3) 'Modern History' with sub-node 'World War 2'. 4) 'Geography' with sub-nodes 'Europe', 'France', and 'Italy (Shaped like a boot)'. Use different colors for each main branch to visually separate the distinct subject areas."
+      }
+    ],
+    "purpose": "The apparent goal is to introduce students to a wide range of historical and geographical topics. However, the lack of structure fails to explain why these topics are important or how they connect, which is critical for building a coherent understanding of history as a discipline.",
+    "motivation": "History can feel like a jumble of random facts, but it's actually one big, interconnected story! Learning how to organize these pieces, like putting Ancient Rome on a timeline long before World War 2, is like being a detective. It helps you see the cause-and-effect patterns that shaped our world and understand why things are the way they are today.",
+    "learningValueScore": 0.1,
+    "availableActions": [
+      {
+        "actionLabel": "Create Timeline",
+        "reason": "To visually organize the jumbled historical periods and correct chronological confusion.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "Focus on Rome",
+        "reason": "To return to the lesson's original stated topic and explore it in more detail.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Define Terms",
+        "reason": "To clarify the meaning of key vocabulary like 'Renaissance' and 'legionaries'.",
+        "recommendationPriority": "high"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "Renaissance": {
+        "definition": "A period in European history (roughly 14th-17th centuries) marking the transition from the Middle Ages to modernity, characterized by a 'rebirth' of interest in the art, science, and ideas of ancient Greece and Rome.",
+        "etymology": "From the French word for 'rebirth'.",
+        "context": "The lesson correctly states the meaning but fails to place it chronologically after Ancient Rome."
+      },
+      "legionaries": {
+        "definition": "A soldier in a Roman legion, the primary military unit of the ancient Roman army.",
+        "context": "The lesson connects them to soldiers needing boots, which is a correct, if simplistic, association.",
+        "visual": "Imagine soldiers in armor with shields and short swords."
+      }
+    },
+    "recommendationsToTeacher": [
+      "Structure lessons around a single, clear topic or theme. Avoid jumping between disparate subjects like Ancient Rome and World War 2 in the same introductory segment, as this creates confusion.",
+      "Use a visual aid like a timeline at the beginning of a history lesson to orient students. This helps them understand the chronological context of the events being discussed.",
+      "Establish clear connections between facts. For example, when mentioning the Renaissance, explicitly state that it was a 'rebirth' of ideas *from* Ancient Rome, which occurred over a thousand years later."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:49:16.515Z",
+    "latencyMs": 31961,
+    "tokenUsage": {
+      "input": 7156,
+      "output": 2162,
+      "total": 10605
+    }
+  }
+}

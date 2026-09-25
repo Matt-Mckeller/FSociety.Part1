@@ -1,0 +1,175 @@
+---
+title: Layout Systems/Dictionary
+---
+
+# Layout System Dictionary
+
+> Quick reference for @expanse/shell terminology.  
+> **Full documentation:** [DICTIONARY.md](../../../docs/reference/DICTIONARY.md)
+
+---
+
+## Quick Reference
+
+| Term | Definition |
+|------|------------|
+| **Basic Web Layout** | Traditional web structure with bars that push content |
+| **Spatial Layout** | Full-viewport HUD-based layout with floating controls |
+| **HUD** | Heads-Up Display - floating UI layer over content |
+| **ContentFrame** | Structural shell that insets content with bars |
+| **MapGridNavigation** | 2D grid navigation (x, y coordinates) |
+| **Tile** | Single screen of content at a grid position |
+| **Orb** | Circular action button in the HUD |
+
+---
+
+## Layout Paradigms at a Glance
+
+```
+BASIC WEB LAYOUT:              SPATIAL LAYOUT:
+┌──────────────────┐           ┌──────────────────┐
+│     Header       │           │  [HUD - floats]  │
+├──────┬───────────┤           │                  │
+│ Menu │  Content  │           │  Full Viewport   │
+│      │  (flows)  │           │     Content      │
+├──────┴───────────┤           │                  │
+│     Footer       │           │  [Action Bar]    │
+└──────────────────┘           └──────────────────┘
+  Bars push content              HUD floats on top
+```
+
+---
+
+📖 **See full definitions:** [docs/reference/DICTIONARY.md](../../../docs/reference/DICTIONARY.md)
+
+### Tile
+A content unit positioned on the Map. Each tile represents a full-screen view at a specific position.
+
+| Property | Description |
+|----------|-------------|
+| `id` | Unique identifier |
+| `position` | `{ x, y }` coordinates |
+| `url` | URL path for SEO |
+| `seo` | Title, description, meta |
+| `display` | Label, colors, icon |
+
+### Content Inset
+How Tile content relates to the HUD overlay.
+
+| Mode | Behavior | Use Case |
+|------|----------|----------|
+| `hud-aware` | Content inset to avoid HUD | Most pages |
+| `full-edge` | Content extends to edges | Media, maps |
+| `custom` | Tile specifies exact insets | Fine control |
+
+### HUD Exposure
+Information about how much HUD extends from each edge.
+
+```ts
+interface HudExposure {
+  top: number;
+  bottom: number;
+  left: number;
+  right: number;
+}
+```
+
+---
+
+## HUD Components
+
+### HUD (Heads-Up Display)
+The floating overlay layer in Spatial Layout. Contains action bars, orbs, minimap, and controls.
+
+### Header
+Global context bar at the top. Contains branding, domain switcher, user menu. **NOT** an ActionBar.
+
+### ActionBar
+Edge-positioned bar for actions, navigation, or controls.
+
+| Variant | Purpose | Behavior |
+|---------|---------|----------|
+| **NavBar** | Navigation | Route links |
+| **Toolbar** | Tool selection | Radio (one active) |
+| **SettingsBar** | Toggles | Checkbox (multiple) |
+| **StatusBar** | Display info | Read-only |
+
+### Dock
+Corner-positioned button group container.
+
+| Component | Purpose |
+|-----------|---------|
+| **ActionDock** | Groups buttons at corners |
+
+### ActionOrb
+Floating action button with various shapes.
+
+| Property | Options |
+|----------|---------|
+| Shape | `circle`, `square`, `diamond`, `triangle`, `hexagon` |
+| Variant | `default`, `ai`, `solid`, `ghost`, `glow` |
+| Color | `primary`, `secondary`, `ai`, `success`, `warning`, `error`, `info`, `neutral` |
+
+### OrbCluster
+Groups of ActionOrbs in patterns.
+
+**Patterns:** `bottom-row`, `right-stack`, `left-stack`, `corners`, `radial`, `bottom-arc`, `diagonal-tl`, `diagonal-tr`, `center`, `custom`
+
+### NavigationPad
+D-pad style directional control. Variants: `default`, `hints`, `compact`, `expanded`, `hud`
+
+### Minimap
+Grid overview with current position. Variants: `grid`, `dots`, `blocks`
+
+---
+
+## Architecture Terms
+
+### ScreenOverlay (Legacy → HUD)
+> **Deprecated term.** Now called **HUD**.
+
+The component that provides anchor slots for HUD positioning.
+
+### ContentFrame
+Skeleton providing bar slots that **push** content. Used in Basic Web Layout.
+
+### Slot
+Anchor position for HUD components (e.g., `bottomCenter`, `topRight`).
+
+### Layer
+Stacking order for multiple bars at the same slot.
+
+---
+
+## Storybook Organization
+
+```
+Layout Systems/
+├── Introduction
+├── Architecture
+├── Dictionary (this page)
+│
+├── Basic Web Layout/
+│   ├── Minimal, Dashboard, Documentation, etc.
+│
+├── Spatial Layout/
+│   ├── FullScreenLayout
+│   ├── MapGridNavigation
+│   └── Tiles
+│
+└── HUD Components/
+    ├── Overview
+    ├── Action Bars/
+    ├── Docks/
+    ├── Orbs/
+    └── Navigation/
+```
+
+---
+
+## Related Documentation
+
+- [ARCHITECTURE.md](../../docs/ARCHITECTURE.md) — System design and patterns
+- [CONCEPTS.md](../../docs/CONCEPTS.md) — Core concepts deep dive
+- [MAP_GRID_NAVIGATION.md](../../docs/MAP_GRID_NAVIGATION.md) — Navigation details
+- [LAYOUT_PARADIGM_ARCHITECTURE.md](../../docs/LAYOUT_PARADIGM_ARCHITECTURE.md) — Switching paradigms

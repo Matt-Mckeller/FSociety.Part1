@@ -1,0 +1,35 @@
+{
+  "name": "communication-planner",
+  "version": "1.0.0",
+  "description": "Communication session planning and profile display app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node ./node_modules/next/dist/bin/next dev --port 3015 --hostname localhost",
+    "build": "node ./node_modules/next/dist/bin/next build",
+    "start": "node ./node_modules/next/dist/bin/next start --port 3015",
+    "lint": "node ./node_modules/next/dist/bin/next lint"
+  },
+  "engines": {
+    "node": ">=24.4.0",
+    "npm": ">=9.6.7"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.9",
+    "@mui/material": "^5.15.9",
+    "@mui/material-nextjs": "^7.2.0",
+    "@mui/system": "^5.15.9",
+    "next": "14.1.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.21",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5.8.3"
+  }
+}

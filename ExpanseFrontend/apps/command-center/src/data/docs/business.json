@@ -1,0 +1,428 @@
+{
+  "summary": {
+    "intro": "Expanse empowers our students, teachers, and families giving them modern tools and technology to take education to the next level. Expanse boosts engagement, elevates mental health, and teaches purpose through gamification of the educational system.",
+    "why": "In our world of instant gratification, the rewards of education seem distant and abstract. We are competing with the allure of immediate pleasure, and the dopamine rush of likes and virtual victories. More than half of today's students struggle to find purpose and remain engaged in their education leading to a decline in their overall educational experience. This crisis is reflected in record-low levels of student mental health. The need for change has never been greater.",
+    "what": "Our software takes intrinsic and extrinsic motivation to the next level allowing students to visualize their growth, build self efficacy, and believe in their ability to succeed. Expanse delivers user-friendly reward systems, reinforces positive behaviors, promotes healthy competition, and builds community through social engagement--powered by integration with Learning Management Systems and Student Information Systems.",
+    "who": "Expanse enhances the learning experience for all students while actively engaging teachers, schools, districts, family, and the broader community to drive meaningful outcomes.",
+    "education": "Expanse aims to educate our audiences about engagement, mental health, and learning as a secondary target through content."
+  },
+  "problemsTargeted": {
+    "primary": [
+      {
+        "id": "engagement",
+        "problem": "Engagement",
+        "description": "Students are not engaged in school, and engagement is declining",
+        "story": "A student completes a group project but feels invisible. No recognition, no progress visible, no reward. They disengage and barely complete the next assignment.",
+        "proof": [
+          "47% of students are engaged; 53% are not engaged or actively disengaged (2018 Gallup)",
+          "Students are 2.5x more likely to get excellent grades when engaged",
+          "Students are 4.5x more likely to be hopeful about the future when engaged"
+        ]
+      },
+      {
+        "id": "mental-health",
+        "problem": "Mental Health",
+        "description": "Students are experiencing record-low levels of mental health",
+        "story": "A high school junior constantly compares themselves to peers on social media. Each post triggers self-doubt. School offers little positive reinforcement—just grades that never feel good enough.",
+        "proof": [
+          "Mental health crisis among youth is well-documented",
+          "Social media comparison drives negative self-image",
+          "Schools lack positive reinforcement mechanisms"
+        ]
+      },
+      {
+        "id": "purpose",
+        "problem": "Purpose",
+        "description": "Students don't see the value or purpose in education",
+        "story": "A middle schooler sits in class wondering, 'Why does this matter?' They've never seen how algebra connects to their dream of becoming a game designer. So they zone out.",
+        "proof": [
+          "Students struggle to connect curriculum to real-world applications",
+          "Lack of visible progress toward meaningful goals",
+          "Education rewards are too distant and abstract"
+        ]
+      }
+    ],
+    "secondary": [
+      {
+        "id": "attention-span",
+        "problem": "Shortened Attention Span",
+        "description": "Constant digital stimulation has reduced ability to focus"
+      },
+      {
+        "id": "real-world-disconnect",
+        "problem": "Real-World Disconnect",
+        "description": "Curriculum doesn't connect to student interests or career goals"
+      },
+      {
+        "id": "teacher-burnout",
+        "problem": "Teacher Burnout",
+        "description": "Teachers lack tools for easy recognition and engagement"
+      }
+    ]
+  },
+  "highlights": [
+    {
+      "id": "status",
+      "category": "Status",
+      "items": [
+        "Generating innovative ideas",
+        "Planning & Organizing (Researching, Validating, Drafting, Storytelling, Cleaning, MVP Definition)",
+        "Working towards fundraising proposals"
+      ]
+    },
+    {
+      "id": "main-targets",
+      "category": "Main Targets",
+      "items": [
+        "Improve engagement",
+        "Instill a growth mindset",
+        "Advance mental health",
+        "Enhance academic performance"
+      ]
+    },
+    {
+      "id": "secondary-targets",
+      "category": "Secondary Targets",
+      "items": [
+        "Encourage positive behavior and reinforcement",
+        "Implicitly teach the purpose/value of education",
+        "Improve information retention",
+        "Foster fun and creative expression"
+      ]
+    },
+    {
+      "id": "feature-focus",
+      "category": "Feature Focus",
+      "items": [
+        "Rewards & recognition",
+        "Progression systems",
+        "Faster gratification",
+        "Competition & teamwork",
+        "Gamification techniques"
+      ]
+    },
+    {
+      "id": "user-focus",
+      "category": "User Focus",
+      "items": ["Students", "Teachers/Classrooms", "Schools"]
+    },
+    {
+      "id": "ux-focus",
+      "category": "UX Focus",
+      "items": [
+        "Easy to use and embed in classrooms",
+        "Minimal disruptions/distractions",
+        "Fun mechanics",
+        "Highly configurable/customizable with sensible defaults"
+      ]
+    }
+  ],
+  "pitches": [
+    {
+      "id": "halo-effect",
+      "name": "Halo Effect",
+      "duration": "Tagline",
+      "audience": ["general"],
+      "content": "Next Generation of Education",
+      "tags": ["short", "tagline"]
+    },
+    {
+      "id": "elevator-30s",
+      "name": "30-Second Elevator Pitch",
+      "duration": "30 seconds",
+      "audience": ["investors", "educators"],
+      "content": "Expanse empowers students, teachers, and families with modern tools to take education to the next level. We boost engagement, elevate mental health, and teach purpose through gamification. In a world of instant gratification where education's rewards seem distant, we bring the dopamine rush to learning.",
+      "tags": ["elevator", "quick"]
+    },
+    {
+      "id": "problem-solution",
+      "name": "Problem-Solution Pitch",
+      "duration": "1 minute",
+      "audience": ["investors", "partners"],
+      "content": "More than half of today's students struggle to find purpose and remain engaged in their education. This crisis is reflected in record-low levels of student mental health. Expanse solves this by taking intrinsic and extrinsic motivation to the next level—allowing students to visualize their growth, build self-efficacy, and believe in their ability to succeed. Our software delivers user-friendly reward systems, reinforces positive behaviors, promotes healthy competition, and builds community through social engagement, all powered by seamless LMS and SIS integration.",
+      "tags": ["problem-solution", "detailed"]
+    }
+  ],
+  "valuePropositions": [
+    {
+      "id": "student-rewards",
+      "title": "Rewards & Recognition",
+      "audience": ["students"],
+      "tier": 1,
+      "description": "Tangible and intangible rewards that motivate students",
+      "benefits": [
+        "Money, food, items, perks",
+        "Classroom and school value rewards",
+        "Activity-based rewards",
+        "Competition opportunities",
+        "Social features and recognition"
+      ]
+    },
+    {
+      "id": "student-expression",
+      "title": "Customization & Expression",
+      "audience": ["students"],
+      "tier": 1,
+      "description": "Personal identity and creative expression",
+      "benefits": [
+        "Personalization options",
+        "Goals and achievements",
+        "Progression and growth visualization",
+        "Visual stimulation and fun"
+      ]
+    },
+    {
+      "id": "student-confidence",
+      "title": "Self-Efficacy & Confidence",
+      "audience": ["students"],
+      "tier": 2,
+      "description": "Building belief in one's ability to succeed",
+      "benefits": [
+        "Visual progress tracking",
+        "Achievement recognition",
+        "Surprise rewards",
+        "Self-confidence building"
+      ]
+    },
+    {
+      "id": "all-engagement",
+      "title": "Increased Engagement & Motivation",
+      "audience": ["students", "teachers", "administrators"],
+      "tier": 1,
+      "description": "Core value proposition for all users",
+      "benefits": [
+        "Higher student motivation",
+        "Improved teacher engagement",
+        "Better academic performance",
+        "Sense of purpose"
+      ]
+    },
+    {
+      "id": "all-mental-health",
+      "title": "Improved Mental Health",
+      "audience": ["students", "teachers", "parents"],
+      "tier": 1,
+      "description": "Supporting wellbeing through positive experiences",
+      "benefits": [
+        "Positive reinforcement",
+        "Recognition and achievement",
+        "Artistic expression",
+        "Community building"
+      ]
+    },
+    {
+      "id": "teacher-tools",
+      "title": "Easy-to-Use Teaching Tools",
+      "audience": ["teachers"],
+      "tier": 1,
+      "description": "Simple tools that enhance classroom management",
+      "benefits": [
+        "Improved engagement visibility",
+        "Grade improvement tracking",
+        "Progress monitoring",
+        "Positive behavior reinforcement",
+        "Easy reward distribution"
+      ]
+    },
+    {
+      "id": "automation",
+      "title": "Process Automation",
+      "audience": ["teachers", "administrators"],
+      "tier": 2,
+      "description": "Automating manual reward and recognition processes",
+      "benefits": [
+        "Automated teacher rewards",
+        "Parent communication automation",
+        "Recognition systems",
+        "School-wide reward programs"
+      ]
+    }
+  ],
+  "goals": [
+    {
+      "id": "engagement",
+      "title": "Improving Engagement",
+      "category": "primary",
+      "description": "Interest and curiosity through engaging activities that spark student interest and make learning more enjoyable. Positive classroom atmosphere fosters a growth mindset and reduces dropout rates.",
+      "subGoals": [
+        "Enhanced persistence through rewards and hope",
+        "Increased intrinsic motivation through growth visualization",
+        "Improved focus through quick positive reinforcement",
+        "Improved teacher engagement through simple tools"
+      ],
+      "features": ["rewards", "progression", "leveling", "achievements"]
+    },
+    {
+      "id": "mental-health",
+      "title": "Improving Mental Health",
+      "category": "primary",
+      "description": "Success in the classroom boosts students' confidence. Positive feedback and recognition improve mood. Positive reinforcement, recognition of growth, and rewards lead to better school performance.",
+      "subGoals": [
+        "Add more fun through game mechanics",
+        "Positive reinforcement and growth visualization",
+        "Self expression and personalization",
+        "Social recognition and sharing",
+        "Sense of control and autonomy"
+      ],
+      "features": [
+        "achievements",
+        "art",
+        "social",
+        "customization",
+        "parent-communication"
+      ]
+    },
+    {
+      "id": "academic-performance",
+      "title": "Enhanced Academic Performance",
+      "category": "primary",
+      "description": "Direct correlation between engagement, mental health, and academic outcomes.",
+      "subGoals": [
+        "Improved grades",
+        "Better completion rates",
+        "Increased college access"
+      ]
+    },
+    {
+      "id": "growth-mindset",
+      "title": "Instilling Growth Mindset",
+      "category": "primary",
+      "description": "Teaching students that abilities can be developed through dedication and hard work.",
+      "subGoals": [
+        "Visual progress tracking",
+        "Achievement milestones",
+        "Continuous improvement recognition"
+      ]
+    },
+    {
+      "id": "socialization",
+      "title": "In-Person Socialization",
+      "category": "future",
+      "description": "Future goal potential—people are not connecting in the same way they used to. The online experience allows control but in-person socialization lacks this barrier-free interaction."
+    }
+  ],
+  "missionConcepts": {
+    "description": "Strategic concepts that drive how Expanse achieves its mission",
+    "concepts": [
+      {
+        "id": "double-tapping",
+        "name": "Double Tapping",
+        "description": "Maximize existing student behaviors by gamifying and adding value to actions they already take daily. Instead of forcing new habits, transform what they're already doing (checking grades, completing assignments) into engagement opportunities.",
+        "example": "A student checks their grade → see visual growth, earn points, unlock cosmetics"
+      },
+      {
+        "id": "quicker-gratification",
+        "name": "Quicker Gratification",
+        "description": "Provide positive emotions and gratification in a shorter amount of time than the alternative. Recognize achievements in the moment to create association between productive behavior and positive emotion.",
+        "principle": "Attention spans are declining. Meet users where they are and work toward improvement."
+      },
+      {
+        "id": "tangible-rewards",
+        "name": "Tangible Rewards",
+        "description": "Quantify or gamify actions by providing virtual or real-world rewards for productive academic behaviors.",
+        "examples": [
+          "Points for grades",
+          "Cosmetics for streaks",
+          "Real rewards like food vouchers"
+        ]
+      },
+      {
+        "id": "visual-growth",
+        "name": "Visual Growth",
+        "description": "Bring purpose to school work by making the results of work immediately visible. Watch your avatar grow and improve as your academics improve.",
+        "examples": [
+          "Level up",
+          "Change appearance",
+          "Display progress over time"
+        ]
+      },
+      {
+        "id": "easy-use",
+        "name": "Easy to Use",
+        "description": "Focus on user experience, especially for teachers. Minimize required effort while maximizing reward and engagement value.",
+        "principle": "If it requires extra work, adoption fails. Build around existing workflows."
+      },
+      {
+        "id": "automation",
+        "name": "Automation",
+        "description": "Automate processes that currently require manual effort. Auto-rewards based on data integration, AI-powered recognition suggestions.",
+        "examples": [
+          "Auto-reward when grade improves",
+          "AI suggests recognition",
+          "Behavior tracking"
+        ]
+      },
+      {
+        "id": "sense-of-progression",
+        "name": "Sense of Progression",
+        "description": "Continuous feeling of growth and advancement. Clear path forward with milestones and achievements.",
+        "examples": [
+          "Battle passes",
+          "Leveling systems",
+          "Achievement unlocks",
+          "Story progression"
+        ]
+      },
+      {
+        "id": "competition",
+        "name": "Competition",
+        "description": "Healthy competition drives engagement. Leaderboards, class vs class, school vs school challenges.",
+        "types": [
+          "Individual rankings",
+          "Team competitions",
+          "Class challenges",
+          "School-wide events"
+        ]
+      },
+      {
+        "id": "collaboration",
+        "name": "Collaboration",
+        "description": "Team-based goals and social features that build community and shared success.",
+        "examples": [
+          "Group quests",
+          "Class goals",
+          "Peer recognition",
+          "Shared achievements"
+        ]
+      }
+    ]
+  },
+  "growthStrategy": {
+    "teamBuilding": {
+      "goal": "Finding cofounders/interns/supporters to work with direction for equity",
+      "strategy": "Build websites and clean up content for sharing and directing potential team members",
+      "priority": "high",
+      "approach": "Continue and expand and grow/scale faster with help"
+    },
+    "governmentOpportunities": [
+      {
+        "id": "special-education",
+        "description": "Apps and tools may be required or paid for by government for special education support",
+        "status": "exploration",
+        "potential": "high"
+      }
+    ],
+    "partnershipOpportunities": [
+      {
+        "partner": "AI Providers (Google, OpenAI)",
+        "opportunity": "May allow free usage of services for students",
+        "status": "research",
+        "notes": "Exploratory idea to reduce costs"
+      }
+    ],
+    "productExpansion": [
+      {
+        "id": "lms-creation",
+        "description": "May be able to create an LMS eventually",
+        "timeline": "potentially quick",
+        "status": "exploration"
+      }
+    ],
+    "studentPipeline": {
+      "concept": "Funnel students from EDU into Expanse businesses",
+      "value": "High value when students learn to utilize AI tools and interact with AI",
+      "destinations": ["Expanse Services", "4up", "Other businesses"],
+      "benefit": "Students trained on platform become potential employees/contractors"
+    }
+  }
+}

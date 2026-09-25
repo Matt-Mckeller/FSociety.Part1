@@ -1,0 +1,284 @@
+{
+  "stack": {
+    "languages": [
+      { "name": "TypeScript", "category": "language", "primary": true },
+      { "name": "JavaScript", "category": "language", "primary": false }
+    ],
+    "frameworks": [
+      { "name": "React", "category": "frontend", "primary": true },
+      { "name": "Next.js", "category": "frontend", "primary": true },
+      { "name": "NestJS", "category": "backend", "primary": true },
+      { "name": "Express", "category": "backend", "primary": false },
+      { "name": "Node.js", "category": "runtime", "primary": true }
+    ],
+    "database": [
+      { "name": "PostgreSQL", "category": "database", "primary": true },
+      {
+        "name": "MySQL",
+        "category": "database",
+        "note": "May switch to PostgreSQL"
+      }
+    ],
+    "apis": [
+      { "name": "GraphQL (Apollo)", "category": "api", "primary": true },
+      { "name": "REST APIs", "category": "api", "primary": false }
+    ],
+    "infrastructure": [
+      { "name": "Docker", "category": "containerization" },
+      { "name": "Kubernetes", "category": "orchestration" },
+      { "name": "Terraform", "category": "iac" },
+      { "name": "Google Cloud", "category": "cloud" },
+      { "name": "GitHub CI/CD", "category": "cicd" }
+    ],
+    "ui": [
+      { "name": "MUI Components", "category": "components" },
+      { "name": "Styled Components / Emotion", "category": "styling" },
+      { "name": "GSAP", "category": "animation" },
+      { "name": "Lottie Animations", "category": "animation" },
+      { "name": "SVGs", "category": "graphics" }
+    ],
+    "testing": [
+      {
+        "name": "Jest",
+        "category": "testing",
+        "note": "Unit and integration testing"
+      },
+      {
+        "name": "Playwright",
+        "category": "testing",
+        "note": "End-to-end browser testing"
+      }
+    ],
+    "tools": [
+      { "name": "Prettier", "category": "formatting" },
+      { "name": "ESLint", "category": "linting" },
+      { "name": "Git", "category": "vcs" },
+      { "name": "GitHub Copilot", "category": "ai" }
+    ],
+    "ai": [
+      {
+        "name": "OpenAI GPT",
+        "category": "llm",
+        "note": "Content generation and chat"
+      },
+      {
+        "name": "Google Gemini",
+        "category": "llm",
+        "note": "Multimodal AI capabilities"
+      },
+      {
+        "name": "Anthropic Claude",
+        "category": "llm",
+        "note": "Reasoning and analysis"
+      }
+    ],
+    "communications": [
+      {
+        "name": "Twilio",
+        "category": "messaging",
+        "note": "SMS, voice, and verification"
+      }
+    ]
+  },
+  "architecture": {
+    "overview": "Client-Server architecture with NestJS backend and React/Next.js frontend. Currently monolithic backend with plans for microservices migration.",
+    "patterns": [
+      {
+        "name": "Monolith → Microservices",
+        "description": "Backend built in NestJS as single application, designed to support future microservices migration",
+        "status": "planned"
+      },
+      {
+        "name": "Client-Server Separation",
+        "description": "Frontend separated from backend. Mobile app will share context/utilities but have separate views",
+        "status": "current"
+      },
+      {
+        "name": "Event-Driven",
+        "description": "Events and listeners for scalability, separating jobs into microservices and queues",
+        "status": "planned"
+      },
+      {
+        "name": "Component-Based Frontend",
+        "description": "Modular, reusable, testable components with data separated from view logic",
+        "status": "current"
+      }
+    ],
+    "services": [
+      { "name": "API Gateway", "status": "current" },
+      { "name": "Authentication Service", "status": "current" },
+      { "name": "User Service", "status": "current" },
+      { "name": "Rewards Service", "status": "planned" },
+      { "name": "Gamification Service", "status": "planned" },
+      { "name": "Notifications Service", "status": "planned" },
+      { "name": "Analytics Service", "status": "planned" }
+    ]
+  },
+  "observability": [
+    {
+      "name": "Custom Logging",
+      "description": "Backend logger for custom logging in functions",
+      "status": "current"
+    },
+    {
+      "name": "Custom Analytics Dashboard",
+      "description": "Internal analytics tool for tracking user engagement, learning progress, and platform usage metrics",
+      "status": "planned"
+    },
+    {
+      "name": "Custom Error Tracking",
+      "description": "Proprietary error aggregation and analysis system integrated with alerting",
+      "status": "planned"
+    },
+    {
+      "name": "OpenTelemetry",
+      "description": "Data collection for DB queries, requests, and Node.js metrics",
+      "status": "planned"
+    },
+    {
+      "name": "Frontend Log Viewing",
+      "description": "Frontend logs sent to Grafana",
+      "status": "planned"
+    },
+    {
+      "name": "Session Recording",
+      "description": "Frontend session recording and replays (considering Microsoft tool)",
+      "status": "planned"
+    },
+    {
+      "name": "Trace IDs",
+      "description": "Added to requests by OpenTelemetry, incorporated into logs",
+      "status": "planned"
+    },
+    {
+      "name": "Slack Alerts",
+      "description": "Alerts for errors and important events",
+      "status": "planned"
+    },
+    {
+      "name": "Kubernetes Monitoring",
+      "description": "Linked to Grafana for compute resource monitoring",
+      "status": "planned"
+    },
+    {
+      "name": "Learning Analytics Engine",
+      "description": "Custom ML-powered analytics for tracking student outcomes, identifying at-risk learners, and measuring content effectiveness",
+      "status": "planned"
+    },
+    {
+      "name": "Real-time Metrics Pipeline",
+      "description": "Event streaming pipeline for real-time dashboards and alerting on platform health and user activity",
+      "status": "planned"
+    }
+  ],
+  "integrations": [
+    {
+      "name": "Ed.Link",
+      "category": "lms",
+      "description": "LMS & SIS integration hub connecting to Blackboard, Google Classroom, Moodle, and more. Provides easy syncing of users and classroom information.",
+      "url": "https://www.ed.link",
+      "priority": "core"
+    },
+    {
+      "name": "Stripe",
+      "category": "payments",
+      "description": "Payment processing for subscriptions and purchases",
+      "priority": "core"
+    },
+    {
+      "name": "Unleash",
+      "category": "feature-flags",
+      "description": "Open source feature flagging",
+      "priority": "important"
+    },
+    {
+      "name": "Clever",
+      "category": "marketplace",
+      "description": "Educational app marketplace and SSO",
+      "priority": "important"
+    },
+    {
+      "name": "ClassLink",
+      "category": "marketplace",
+      "description": "Educational app marketplace and SSO",
+      "priority": "important"
+    }
+  ],
+  "security": {
+    "authentication": [
+      "User accounts managed by application and Ed.Link",
+      "Guards and middleware for access control",
+      "Second factor authentication (planned)",
+      "Social login (planned)"
+    ],
+    "compliance": [
+      "COPPA considerations",
+      "FERPA compliance",
+      "Data privacy regulations"
+    ],
+    "features": [
+      "PIN numbers for sensitive actions",
+      "Email/text confirmation codes",
+      "Role-based access control"
+    ],
+    "statusTracking": [
+      { "item": "SSL", "status": "complete" },
+      { "item": "Password Manager", "status": "complete" },
+      {
+        "item": "Production credentials only known by Matt",
+        "status": "complete"
+      },
+      { "item": "Validation", "status": "in-progress" },
+      { "item": "Private GitHub Repos", "status": "complete" },
+      { "item": "Google Cloud", "status": "complete" },
+      { "item": "Cloudfront", "status": "complete" },
+      { "item": "Tests", "status": "not-started" },
+      { "item": "OWASP", "status": "in-progress" },
+      { "item": "VPN/VPC", "status": "not-started" },
+      {
+        "item": "Scanning/Pipeline scans & npm audit",
+        "status": "in-progress"
+      },
+      { "item": "Device Management & Policies", "status": "not-started" },
+      { "item": "Training", "status": "not-started" }
+    ]
+  },
+  "resilience": {
+    "description": "Resilience features for system reliability and disaster recovery",
+    "planned": [
+      "Backups",
+      "Automatic service restarts",
+      "Replicas",
+      "Multi-zone hosting",
+      "Multiple phones for second factor (Matt)"
+    ],
+    "status": "not-implemented"
+  },
+  "status": {
+    "implemented": [
+      "Core API structure",
+      "User authentication",
+      "Database schema",
+      "Frontend component library"
+    ],
+    "inProgress": ["Gamification features", "Reward system", "LMS integration"],
+    "planned": [
+      "Microservices migration",
+      "Mobile application",
+      "Advanced analytics",
+      "Full observability stack"
+    ]
+  },
+  "futureConsiderations": {
+    "encryption": {
+      "note": "Thinking about improving encryption",
+      "status": "exploration",
+      "priority": "medium"
+    },
+    "instantDemands": {
+      "note": "Demands mostly filled instantly",
+      "context": "Current system responsiveness is good",
+      "goal": "Maintain fast response times as system scales"
+    }
+  }
+}

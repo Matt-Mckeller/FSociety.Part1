@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="Heart.Evolve — Becoming">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c1917"/>
+      <stop offset="55%" stop-color="#3f1d2e"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+    <linearGradient id="heartFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff8fab"/>
+      <stop offset="100%" stop-color="#ff5c7a"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="600" fill="url(#bg)"/>
+  <g transform="translate(480 300)">
+    <path d="M0 78 C-48 22 -128 -24 -128 -78 C-128 -122 -94 -146 -58 -146 C-24 -146 0 -122 0 -98 C0 -122 24 -146 58 -146 C94 -146 128 -122 128 -78 C128 -24 48 22 0 78 Z" fill="url(#heartFill)" opacity="0.92"/>
+    <circle cx="-36" cy="-40" r="10" fill="#fff" opacity="0.35"/>
+    <path d="M-160 120 L160 120" stroke="#fda4af" stroke-width="2" opacity="0.35" stroke-dasharray="6 10"/>
+  </g>
+  <text x="48" y="64" fill="#fda4af" font-family="ui-monospace,Menlo,monospace" font-size="22" font-weight="700">Becoming</text>
+  <text x="48" y="560" fill="#fecdd3" font-family="ui-sans-serif,system-ui" font-size="18">Growth in motion — Heart.Evolve()</text>
+</svg>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Flow Chart - Problem Solving</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      background: white;
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      max-width: 900px;
+      width: 100%;
+    }
+
+    h1 {
+      text-align: center;
+      color: #1e293b;
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #64748b;
+      margin-bottom: 40px;
+      font-size: 16px;
+    }
+
+    .flowchart {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .node {
+      cursor: pointer;
+      opacity: 0;
+      animation: nodeAppear 0.5s ease-out forwards;
+    }
+
+    .node[data-step="1"] { animation-delay: 0s; }
+    .node[data-step="2"] { animation-delay: 0.5s; }
+    .node[data-step="3"] { animation-delay: 1s; }
+
+    @keyframes nodeAppear {
+      from {
+        opacity: 0;
+        transform: scale(0.8);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .node:hover rect,
+    .node:hover path {
+      filter: brightness(1.2);
+      transition: all 0.3s ease;
+    }
+
+    .node.active rect,
+    .node.active path {
+      filter: drop-shadow(0 0 10px rgba(59, 130, 246, 0.8));
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { filter: drop-shadow(0 0 10px rgba(59, 130, 246, 0.8)); }
+      50% { filter: drop-shadow(0 0 20px rgba(59, 130, 246, 1)); }
+    }
+
+    .arrow {
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: drawArrow 1s ease-out forwards;
+    }
+
+    @keyframes drawArrow {
+      to { stroke-dashoffset: 0; }
+    }
+
+    text {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      pointer-events: none;
+    }
+
+    .info {
+      margin-top: 40px;
+      padding: 20px;
+      background: #f1f5f9;
+      border-radius: 12px;
+      color: #475569;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .info strong {
+      color: #1e293b;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🔄 Interactive Flow Chart</h1>
+    <p class="subtitle">Step-by-Step Problem Solving with Decision Branches</p>
+    
+    <svg viewBox="0 0 800 600" class="flowchart">
+      <!-- Start -->
+      <g class="node" data-step="1">
+        <rect x="325" y="20" width="150" height="60" rx="30" fill="#10b981" />
+        <text x="400" y="55" text-anchor="middle" fill="white">Start</text>
+      </g>
+      
+      <!-- Arrow -->
+      <path class="arrow" d="M 400 80 L 400 130" stroke="#64748b" stroke-width="3" 
+            marker-end="url(#arrowhead)" />
+      
+      <!-- Decision -->
+      <g class="node" data-step="2">
+        <path d="M 400 130 L 500 180 L 400 230 L 300 180 Z" fill="#f59e0b" />
+        <text x="400" y="185" text-anchor="middle" fill="white">Is x > 0?</text>
+      </g>
+      
+      <!-- Yes path -->
+      <path class="arrow" d="M 500 180 L 600 180 L 600 280" stroke="#64748b" stroke-width="3" 
+            marker-end="url(#arrowhead)" />
+      <text x="550" y="175" fill="#64748b">Yes</text>
+      
+      <g class="node" data-step="3">
+        <rect x="525" y="280" width="150" height="60" rx="10" fill="#3b82f6" />
+        <text x="600" y="315" text-anchor="middle" fill="white">Add x to sum</text>
+      </g>
+      
+      <!-- No path -->
+      <path class="arrow" d="M 300 180 L 200 180 L 200 280" stroke="#64748b" stroke-width="3" 
+            marker-end="url(#arrowhead)" />
+      <text x="250" y="175" fill="#64748b">No</text>
+      
+      <g class="node" data-step="3">
+        <rect x="125" y="280" width="150" height="60" rx="10" fill="#3b82f6" />
+        <text x="200" y="305" text-anchor="middle" fill="white" font-size="14">Use absolute</text>
+        <text x="200" y="325" text-anchor="middle" fill="white" font-size="14">value</text>
+      </g>
+      
+      <!-- Arrow definitions -->
+      <defs>
+        <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+          <polygon points="0 0, 10 3, 0 6" fill="#64748b" />
+        </marker>
+      </defs>
+    </svg>
+
+    <div class="info">
+      <strong>Use Case:</strong> Step-by-step algorithm or math problem solving with decision branches.
+      <br><br>
+      <strong>Features:</strong> Nodes appear sequentially, click on any node to highlight it, arrows draw themselves along paths.
+      <br><br>
+      <strong>Interaction:</strong> Click on any step to highlight and focus on it!
+    </div>
+  </div>
+
+  <script>
+    // Highlight current step in flow
+    const nodes = document.querySelectorAll('.node');
+    nodes.forEach((node, index) => {
+      node.addEventListener('click', () => {
+        nodes.forEach(n => n.classList.remove('active'));
+        node.classList.add('active');
+      });
+    });
+  </script>
+</body>
+</html>

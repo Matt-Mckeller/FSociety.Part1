@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Pizza Fractions</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Comic Sans MS', 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+
+        .pizza-container {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+            position: relative;
+        }
+
+        .pizza {
+            width: 300px;
+            height: 300px;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .pizza-slice {
+            transition: all 0.3s ease;
+            cursor: pointer;
+            stroke: #8B4513;
+            stroke-width: 2;
+        }
+
+        .pizza-slice.whole {
+            fill: #FFD700;
+        }
+
+        .pizza-slice.eaten {
+            fill: #DDD;
+            opacity: 0.3;
+        }
+
+        .pizza-slice:hover:not(.eaten) {
+            transform: scale(1.05);
+            filter: brightness(1.1);
+        }
+
+        .pizza-crust {
+            fill: #D2691E;
+        }
+
+        .fraction-display {
+            text-align: center;
+            font-size: 3em;
+            font-weight: bold;
+            color: #667eea;
+            margin: 30px 0;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .fraction-display .fraction {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .fraction-display .numerator {
+            display: block;
+            border-bottom: 3px solid #333;
+            padding-bottom: 5px;
+        }
+
+        .fraction-display .denominator {
+            display: block;
+            padding-top: 5px;
+        }
+
+        .info-box {
+            background: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: center;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .controls {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 25px;
+        }
+
+        button {
+            padding: 12px 24px;
+            font-size: 1em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            font-family: inherit;
+        }
+
+        .btn-reset {
+            background: #ff6b6b;
+            color: white;
+        }
+
+        .btn-reset:hover {
+            background: #ff5252;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(255, 107, 107, 0.3);
+        }
+
+        .btn-switch {
+            background: #4ecdc4;
+            color: white;
+        }
+
+        .btn-switch:hover {
+            background: #45b7b8;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(78, 205, 196, 0.3);
+        }
+
+        .slice-label {
+            font-size: 0.9em;
+            fill: #333;
+            font-weight: bold;
+            pointer-events: none;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 1.5em;
+            }
+
+            .pizza {
+                width: 250px;
+                height: 250px;
+            }
+
+            .fraction-display {
+                font-size: 2.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🍕 Interactive Pizza Fractions</h1>
+        <p class="subtitle">Click on slices to eat them and see the fraction change!</p>
+        
+        <div class="pizza-container">
+            <svg class="pizza" viewBox="0 0 200 200" id="pizzaSvg">
+                <!-- Pizza base (crust) -->
+                <circle cx="100" cy="100" r="95" class="pizza-crust"/>
+                
+                <!-- Pizza slices will be added by JavaScript -->
+            </svg>
+        </div>
+
+        <div class="fraction-display">
+            <span id="fractionText">
+                <span class="fraction">
+                    <span class="numerator" id="numerator">0</span>
+                    <span class="denominator" id="denominator">4</span>
+                </span>
+            </span>
+            <span style="font-size: 0.5em; color: #666; display: block; margin-top: 10px;">
+                slices eaten
+            </span>
+        </div>
+
+        <div class="info-box" id="infoBox">
+            Click any slice to eat it! You haven't eaten any pizza yet.
+        </div>
+
+        <div class="controls">
+            <button class="btn-reset" onclick="resetPizza()">🔄 Reset Pizza</button>
+            <button class="btn-switch" onclick="switchSlices()">✂️ Change Slices</button>
+        </div>
+    </div>
+
+    <script>
+        let sliceCount = 4;
+        let eatenSlices = new Set();
+
+        function createPizza(slices) {
+            const svg = document.getElementById('pizzaSvg');
+            // Clear existing slices
+            const existingSlices = svg.querySelectorAll('.pizza-slice, .slice-label');
+            existingSlices.forEach(el => el.remove());
+
+            const centerX = 100;
+            const centerY = 100;
+            const radius = 85;
+            const angleStep = (2 * Math.PI) / slices;
+
+            for (let i = 0; i < slices; i++) {
+                const startAngle = (i * angleStep) - (Math.PI / 2);
+                const endAngle = ((i + 1) * angleStep) - (Math.PI / 2);
+
+                const x1 = centerX + radius * Math.cos(startAngle);
+                const y1 = centerY + radius * Math.sin(startAngle);
+                const x2 = centerX + radius * Math.cos(endAngle);
+                const y2 = centerY + radius * Math.sin(endAngle);
+
+                // Create slice path
+                const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                const pathData = `M ${centerX} ${centerY} L ${x1} ${y1} A ${radius} ${radius} 0 0 1 ${x2} ${y2} Z`;
+                path.setAttribute('d', pathData);
+                path.setAttribute('class', 'pizza-slice whole');
+                path.setAttribute('data-slice', i);
+                path.addEventListener('click', () => toggleSlice(i));
+
+                // Add cheese/topping details
+                if (i % 2 === 0) {
+                    path.style.fill = '#FFD700';
+                } else {
+                    path.style.fill = '#FFA500';
+                }
+
+                svg.appendChild(path);
+
+                // Add pepperoni dots (decorative)
+                if (slices <= 8) {
+                    const pepperoniAngle = (startAngle + endAngle) / 2;
+                    const pepperoniDistance = radius * 0.5;
+                    const pepperoniX = centerX + pepperoniDistance * Math.cos(pepperoniAngle);
+                    const pepperoniY = centerY + pepperoniDistance * Math.sin(pepperoniAngle);
+
+                    const pepperoni = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+                    pepperoni.setAttribute('cx', pepperoniX);
+                    pepperoni.setAttribute('cy', pepperoniY);
+                    pepperoni.setAttribute('r', '5');
+                    pepperoni.setAttribute('fill', '#8B0000');
+                    pepperoni.setAttribute('class', 'pizza-slice');
+                    pepperoni.setAttribute('data-slice', i);
+                    pepperoni.style.pointerEvents = 'none';
+                    svg.appendChild(pepperoni);
+                }
+            }
+        }
+
+        function toggleSlice(sliceIndex) {
+            if (eatenSlices.has(sliceIndex)) {
+                eatenSlices.delete(sliceIndex);
+            } else {
+                eatenSlices.add(sliceIndex);
+            }
+            updateDisplay();
+        }
+
+        function updateDisplay() {
+            const slices = document.querySelectorAll('.pizza-slice');
+            slices.forEach(slice => {
+                const sliceNum = parseInt(slice.getAttribute('data-slice'));
+                if (eatenSlices.has(sliceNum)) {
+                    slice.classList.add('eaten');
+                    slice.classList.remove('whole');
+                } else {
+                    slice.classList.remove('eaten');
+                    slice.classList.add('whole');
+                }
+            });
+
+            const eatenCount = eatenSlices.size;
+            document.getElementById('numerator').textContent = eatenCount;
+            document.getElementById('denominator').textContent = sliceCount;
+
+            // Update info text
+            const infoBox = document.getElementById('infoBox');
+            if (eatenCount === 0) {
+                infoBox.textContent = "Click any slice to eat it! You haven't eaten any pizza yet.";
+            } else if (eatenCount === sliceCount) {
+                infoBox.textContent = `You ate the whole pizza! That's ${sliceCount}/${sliceCount} = 1 whole pizza! 🎉`;
+            } else {
+                const remaining = sliceCount - eatenCount;
+                infoBox.textContent = `You ate ${eatenCount} out of ${sliceCount} slices. That's ${eatenCount}/${sliceCount} eaten and ${remaining}/${sliceCount} left!`;
+            }
+        }
+
+        function resetPizza() {
+            eatenSlices.clear();
+            updateDisplay();
+        }
+
+        function switchSlices() {
+            resetPizza();
+            // Cycle through 4, 6, 8, 12 slices
+            if (sliceCount === 4) sliceCount = 6;
+            else if (sliceCount === 6) sliceCount = 8;
+            else if (sliceCount === 8) sliceCount = 12;
+            else sliceCount = 4;
+            
+            createPizza(sliceCount);
+            updateDisplay();
+        }
+
+        // Initialize pizza on load
+        createPizza(sliceCount);
+        updateDisplay();
+    </script>
+</body>
+</html>

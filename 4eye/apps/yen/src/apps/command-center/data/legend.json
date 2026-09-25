@@ -1,0 +1,19 @@
+{
+  "legend": {
+    "id": "expanse-empire",
+    "title": "Gamification of Learning, Education, Work, and Life",
+    "subtitle": "Unlocking human potential through innovative technology, human-centered AI, and engaging experiences.",
+    "description": "Transform how humanity learns, works, and lives to unlock better outcomes across learning, work, health, and life. We empower people to understand the game they're playing, master their real-life controller, and unlock their full potential.",
+    "icon": "🎮",
+    "color": "#FFD700",
+    "createdDate": "2026-01-01"
+  },
+  "primaryGoal": {
+    "id": "education-empire",
+    "title": "Build a Trillion-Dollar Education Empire",
+    "description": "Create transformative AI-powered education and productivity tools that scale globally, empowering millions of learners to unlock their full potential, master their real-life controller and character, understand the game they are playing, and improve their lives.",
+    "icon": "🏆",
+    "color": "#F59E0B",
+    "targetDate": "2030-12-31"
+  }
+}

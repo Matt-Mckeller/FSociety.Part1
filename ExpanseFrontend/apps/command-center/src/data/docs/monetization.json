@@ -1,0 +1,188 @@
+{
+  "overview": {
+    "title": "Monetization Overview",
+    "description": "Expanse EDU generates revenue through multiple streams while maintaining a free tier for schools. The monetization strategy balances sustainability with accessibility.",
+    "principles": [
+      "Free tier always available for core school functionality",
+      "Premium features add value without creating unfair advantages",
+      "Revenue supports platform development and student rewards",
+      "Transparent pricing with no hidden costs"
+    ],
+    "revenueStreams": [
+      { "stream": "Family Subscriptions", "description": "Premium features for parents and students" },
+      { "stream": "Teacher Subscriptions", "description": "Enhanced classroom tools" },
+      { "stream": "District Licenses", "description": "School-wide or district-wide plans" },
+      { "stream": "Real Money Purchases", "description": "Cosmetics and premium items" },
+      { "stream": "Sponsorships", "description": "Brand partnerships and rewards" },
+      { "stream": "Transaction Fees", "description": "Small fees on certain transactions" }
+    ]
+  },
+  "subscriptions": {
+    "title": "Subscription Plans",
+    "description": "Tiered subscription system evolving over time as features and business grow.",
+    "phases": [
+      {
+        "phase": "Phase 1: Family Accounts",
+        "features": [
+          "Unlock family features requiring active subscription",
+          "Grade-based rewards (vs completion-based)",
+          "Additional reward options",
+          "Kids earn additional currency from parent rewards",
+          "Profile and character customization",
+          "Additional battle roles",
+          "More art options",
+          "Ability to add extra coins/gems based on criteria",
+          "Parent notifications"
+        ]
+      }
+    ],
+    "futurePlans": {
+      "teachers": [
+        "Class vs Class battle features",
+        "Additional badge options",
+        "Teacher vs Teacher battles",
+        "Classroom art customization",
+        "Advanced reward configuration",
+        "Expanded classroom store options",
+        "Top achiever highlights"
+      ],
+      "schools": [
+        "Free plan with upgradable subscriptions",
+        "Faster/more frequent syncing",
+        "More reward types",
+        "Ability to text parents",
+        "School vs School battles",
+        "Department vs Department battles",
+        "School-wide battle royale events"
+      ],
+      "general": [
+        "Unlock additional features",
+        "More battle types for accurate rankings",
+        "Increased progression opportunities"
+      ]
+    }
+  },
+  "payments": {
+    "title": "Payments & Billing",
+    "description": "Secure payment processing for subscriptions, in-app purchases, and donations.",
+    "paymentMethods": [
+      "Credit/Debit Cards",
+      "PayPal",
+      "Apple Pay / Google Pay",
+      "Bank Transfers (for districts)"
+    ],
+    "features": [
+      "Secure encrypted transactions",
+      "Automatic subscription renewal",
+      "Prorated upgrades/downgrades",
+      "Invoice generation for schools",
+      "Tax documentation"
+    ],
+    "compliance": [
+      "PCI DSS compliant",
+      "COPPA compliant for minors",
+      "Parental consent required for purchases"
+    ]
+  },
+  "realMoneyPurchases": {
+    "title": "Real Money Purchases",
+    "description": "Optional cosmetic and premium items purchasable with real money.",
+    "purchasableItems": [
+      { "category": "Cosmetics", "examples": ["Profile borders", "Colored names", "Custom backgrounds"] },
+      { "category": "Profile Enhancements", "examples": ["Animated avatars", "Special frames"] },
+      { "category": "NFTs & Art", "examples": ["Unique artwork", "Animated pieces"] },
+      { "category": "Badges", "examples": ["Premium badges", "Limited edition badges"] },
+      { "category": "Avatars", "examples": ["Premium avatar items", "Special characters"] },
+      { "category": "Additional Coins", "examples": ["Coin packs", "Starter bundles"] },
+      { "category": "Boosts", "examples": ["XP boosts", "Coin multipliers"] },
+      { "category": "Consumables", "examples": ["Battle power-ups", "Lucky items"] },
+      { "category": "Equipment", "examples": ["Premium gear", "Rare items"] },
+      { "category": "Name Changes", "examples": ["Username change tokens"] },
+      { "category": "Loot Chances", "examples": ["Additional loot box rolls"] },
+      { "category": "Scholarship Chances", "examples": ["Extra lottery entries"] }
+    ],
+    "philosophy": "All purchases are cosmetic or convenience-based; no pay-to-win mechanics for core features"
+  },
+  "scholarships": {
+    "title": "Scholarship System",
+    "description": "University and institutional partnerships providing real scholarship opportunities to students.",
+    "value": {
+      "student": "Varies - can be life-changing",
+      "family": "Very High",
+      "teacher": "High",
+      "profit": "Some"
+    },
+    "implementation": {
+      "difficulty": "Easy to Hard (depends on scale)",
+      "scale": "Global with local options"
+    },
+    "scholarshipTypes": [
+      "Full scholarships from partner universities",
+      "Partial scholarships (combinable)",
+      "Micro-scholarships (frequent, smaller amounts)",
+      "Discount codes for institutions",
+      "Competition winnings"
+    ],
+    "essenceSystem": {
+      "description": "Alternative to direct scholarships for flexibility",
+      "features": [
+        "Convert unwanted scholarships to essence",
+        "Use essence toward preferred universities",
+        "Lottery ticket purchases with essence",
+        "Guaranteed minimum wins through essence"
+      ]
+    },
+    "distribution": [
+      "Higher scholarship opportunities for high-ELO students",
+      "Opportunities available for all performance levels",
+      "Location-based scholarship matching",
+      "Student preference consideration"
+    ],
+    "marketingValue": "Early scholarship opportunities serve as powerful marketing tactic"
+  },
+  "sponsorships": {
+    "title": "Sponsorship System",
+    "description": "Brand partnerships providing rewards and generating revenue.",
+    "globalSponsors": {
+      "description": "Large brands providing nationwide/worldwide rewards",
+      "examples": [
+        "Large scholarships ($1k-$10k+)",
+        "Gift cards (Starbucks, Amazon, etc.)",
+        "Subscriptions (Spotify, streaming services)",
+        "Makeup and cosmetics",
+        "Apparel and fashion",
+        "Free software trials",
+        "Food and beverage"
+      ],
+      "implementation": "Easy-Moderate",
+      "value": "High",
+      "profit": "Some from advertising"
+    },
+    "localSponsors": {
+      "description": "Community businesses providing location-specific rewards",
+      "examples": [
+        "Zoo tickets",
+        "Amusement park passes",
+        "Restaurant free meals",
+        "Movie tickets",
+        "Concert tickets",
+        "Spa services (massages, nails, haircuts)",
+        "Local swag and merchandise",
+        "School supplies"
+      ],
+      "implementation": "Moderate-Hard",
+      "challenges": [
+        "Approval process",
+        "Finding/soliciting sponsors",
+        "Tracking distance to rewards",
+        "Managing reward types"
+      ]
+    },
+    "rewardDistribution": [
+      "Some purchasable with coins",
+      "Some require special tickets",
+      "Some through loot boxes",
+      "Some for competition winners"
+    ]
+  }
+}

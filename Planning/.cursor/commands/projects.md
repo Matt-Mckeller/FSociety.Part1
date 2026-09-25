@@ -1,0 +1,1 @@
+See /Users/mm/Projects/Planning/.github/copilot-instructions.md for instructions

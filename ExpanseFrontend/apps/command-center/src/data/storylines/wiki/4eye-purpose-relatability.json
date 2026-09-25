@@ -1,0 +1,70 @@
+{
+  "storylineId": "4eye-purpose-relatability",
+  "lastUpdated": "2026-02-11",
+  "overview": {
+    "html": "<div style=\"font-family: 'Roboto', sans-serif;\"><h2 style=\"color: #4ECDC4; margin-bottom: 16px;\">Purpose Relatability</h2><p style=\"color: #666; line-height: 1.6; margin-bottom: 24px;\">A learning methodology that bridges knowledge gaps by <strong>translating unfamiliar concepts into familiar domains</strong>. When learners struggle with abstract or technical topics, transform the concept into a context they already understand, then build back to the original material.</p><div style=\"background: linear-gradient(135deg, #4ECDC4 0%, #44A08D 100%); border-radius: 12px; padding: 24px; margin-bottom: 24px;\"><h3 style=\"color: white; margin: 0 0 12px 0;\">🧠 Core Principle</h3><p style=\"color: rgba(255,255,255,0.9); margin: 0;\">Understanding gaps are bridged through <strong>transformations and associations</strong>. Find a parallel in a domain the learner knows, teach the concept there, then map it back to the target domain.</p></div></div>",
+    "summary": "Learning methodology that translates unfamiliar concepts into familiar domains to bridge understanding gaps through transformations and associations."
+  },
+  "goals": [
+    {
+      "id": "pr-goal-1",
+      "title": "Define Transformation Framework",
+      "description": "Create a systematic approach for identifying parallel domains and mapping concepts between them",
+      "timeframe": "short",
+      "status": "not-started",
+      "linkedQuestIds": []
+    },
+    {
+      "id": "pr-goal-2",
+      "title": "Build Domain Association Database",
+      "description": "Create a structured database of common domains (education, sports, cooking, gaming, etc.) with mappable concepts",
+      "timeframe": "medium",
+      "status": "not-started",
+      "linkedQuestIds": []
+    },
+    {
+      "id": "pr-goal-3",
+      "title": "AI-Powered Relatability Engine",
+      "description": "Develop AI capabilities to automatically detect learner knowledge gaps and generate appropriate domain transformations",
+      "timeframe": "medium",
+      "status": "not-started",
+      "linkedQuestIds": []
+    },
+    {
+      "id": "pr-goal-4",
+      "title": "Integrate with Person Profile",
+      "description": "Use learner interests and background from profiles to select optimal transformation domains",
+      "timeframe": "long",
+      "status": "not-started",
+      "linkedQuestIds": []
+    }
+  ],
+  "components": [],
+  "customSections": [
+    {
+      "id": "example",
+      "title": "📚 Example: Machine Learning",
+      "html": "<div style=\"font-family: 'Roboto', sans-serif;\"><div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;\"><div style=\"background: #ffebee; padding: 20px; border-radius: 8px; border-left: 4px solid #f44336;\"><h4 style=\"margin: 0 0 8px 0; color: #c62828;\">❌ Challenge</h4><p style=\"color: #666; margin: 0; font-size: 14px;\">Learning machine learning with no computer science background. Concepts like neural networks, training data, and model optimization feel completely foreign.</p></div><div style=\"background: #e3f2fd; padding: 20px; border-radius: 8px; border-left: 4px solid #2196f3;\"><h4 style=\"margin: 0 0 8px 0; color: #1565c0;\">🔄 Transformation</h4><p style=\"color: #666; margin: 0; font-size: 14px;\">Translate into the <strong>education space</strong> - a shared learning environment where students collaboratively learn from examples, get feedback, and improve over time.</p></div><div style=\"background: #e8f5e9; padding: 20px; border-radius: 8px; border-left: 4px solid #4caf50;\"><h4 style=\"margin: 0 0 8px 0; color: #2e7d32;\">✅ Result</h4><p style=\"color: #666; margin: 0; font-size: 14px;\">ML concepts become accessible: Neural network = classroom, Training = studying examples, Optimization = getting better grades, Model = student knowledge.</p></div></div></div>",
+      "order": 1
+    },
+    {
+      "id": "methodology",
+      "title": "🔬 Methodology",
+      "html": "<div style=\"font-family: 'Roboto', sans-serif;\"><div style=\"background: #f5f5f5; padding: 20px; border-radius: 12px;\"><ol style=\"color: #333; margin: 0; padding-left: 24px; line-height: 2;\"><li><strong>Identify the Gap</strong> - What concept is the learner struggling with?</li><li><strong>Analyze the Learner</strong> - What domains does this learner already understand well?</li><li><strong>Find Parallels</strong> - What aspects of the target concept exist in familiar domains?</li><li><strong>Transform</strong> - Teach the concept using the familiar domain language and examples</li><li><strong>Map Back</strong> - Gradually introduce the real terminology and connect to the original domain</li><li><strong>Reinforce</strong> - Practice moving between domains to solidify understanding</li></ol></div></div>",
+      "order": 2
+    },
+    {
+      "id": "domains",
+      "title": "🎯 Common Transformation Domains",
+      "html": "<div style=\"font-family: 'Roboto', sans-serif;\"><div style=\"display: flex; flex-wrap: wrap; gap: 12px;\"><div style=\"background: #4ECDC4; color: white; padding: 10px 18px; border-radius: 20px; font-weight: 500;\">🎓 Education</div><div style=\"background: #9B59B6; color: white; padding: 10px 18px; border-radius: 20px; font-weight: 500;\">🎮 Gaming</div><div style=\"background: #E74C3C; color: white; padding: 10px 18px; border-radius: 20px; font-weight: 500;\">⚽ Sports</div><div style=\"background: #F39C12; color: white; padding: 10px 18px; border-radius: 20px; font-weight: 500;\">🍳 Cooking</div><div style=\"background: #3498DB; color: white; padding: 10px 18px; border-radius: 20px; font-weight: 500;\">🎵 Music</div><div style=\"background: #2ECC71; color: white; padding: 10px 18px; border-radius: 20px; font-weight: 500;\">💰 Finance</div><div style=\"background: #1ABC9C; color: white; padding: 10px 18px; border-radius: 20px; font-weight: 500;\">🏗️ Construction</div><div style=\"background: #34495E; color: white; padding: 10px 18px; border-radius: 20px; font-weight: 500;\">🎬 Movies/Stories</div></div><p style=\"color: #999; font-size: 13px; margin-top: 16px;\">The best domain is one the learner already knows well and enjoys thinking about.</p></div>",
+      "order": 3
+    },
+    {
+      "id": "integration",
+      "title": "🔗 Integration Points",
+      "html": "<div style=\"font-family: 'Roboto', sans-serif;\"><div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 12px;\"><div style=\"background: #e8f5e9; padding: 16px; border-radius: 8px;\"><strong>🧑 Person Profile</strong><br/><span style=\"color: #666; font-size: 13px;\">Use learner interests to auto-select transformation domains</span></div><div style=\"background: #e3f2fd; padding: 16px; border-radius: 8px;\"><strong>🤖 AI Tutor</strong><br/><span style=\"color: #666; font-size: 13px;\">AI detects gaps and generates transformations in real-time</span></div><div style=\"background: #fff3e0; padding: 16px; border-radius: 8px;\"><strong>📊 Learning Modes</strong><br/><span style=\"color: #666; font-size: 13px;\">Combine with triadic understanding and visual learning</span></div><div style=\"background: #fce4ec; padding: 16px; border-radius: 8px;\"><strong>📚 Content Generation</strong><br/><span style=\"color: #666; font-size: 13px;\">Auto-generate relatable examples for any subject</span></div></div></div>",
+      "order": 4
+    }
+  ],
+  "notes": "2026-02-11: Created as a dedicated storyline for the Purpose Relatability learning methodology."
+}

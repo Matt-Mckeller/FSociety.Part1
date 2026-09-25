@@ -1,0 +1,23 @@
+node_modules/
+dist/
+build/
+.cache/
+*.log
+.env
+.env.local
+.DS_Store
+
+# generated db lives in gallery folder, not here, but ignore strays
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# asset library — transient and binary-derived files
+assets/.thumbs/
+assets/05_videos/*.mp4
+assets/05_videos/*.poster.jpg
+assets/07_generated/
+assets/library.db
+assets/.DS_Store
+assets/.cache/

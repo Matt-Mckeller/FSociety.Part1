@@ -1,0 +1,15 @@
+{
+  "name": "expanse.experimental",
+  "version": "0.0.1",
+  "description": "Experimental components and features for the Expanse ecosystem",
+  "private": true,
+  "main": "index.ts",
+  "types": "index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./FourUpLogo": "./FourUpLogo/index.ts"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0"
+  }
+}

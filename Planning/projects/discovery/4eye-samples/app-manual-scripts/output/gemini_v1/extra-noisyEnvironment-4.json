@@ -1,0 +1,342 @@
+{
+  "sample": {
+    "subject": "Literature",
+    "gradeLevel": "College - ENG 315",
+    "qualityScore": 6,
+    "description": "Discussion seminar in busy student center with ambient noise",
+    "durationSeconds": 150,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Let's discuss the symbolism in The Great Gatsby.",
+          "timestamp": 0,
+          "confidence": 0.81
+        },
+        {
+          "text": "coffee machine grinding",
+          "timestamp": 5.2,
+          "confidence": 0.26
+        },
+        {
+          "text": "The green light is obviously significant. What does it represent?",
+          "timestamp": 8.9,
+          "confidence": 0.76
+        },
+        {
+          "text": "background conversations",
+          "timestamp": 15.4,
+          "confidence": 0.32
+        },
+        {
+          "text": "Gatsby's dreams and hopes, especially for Daisy.",
+          "timestamp": 19.1,
+          "confidence": 0.74
+        },
+        {
+          "text": "chair scraping",
+          "timestamp": 25.7,
+          "confidence": 0.24
+        },
+        {
+          "text": "Good. It's also about the American Dream itself.",
+          "timestamp": 28.6,
+          "confidence": 0.79
+        },
+        {
+          "text": "The unattainable nature of it.",
+          "timestamp": 34.2,
+          "confidence": 0.77
+        },
+        {
+          "text": "people walking by",
+          "timestamp": 38.9,
+          "confidence": 0.29
+        },
+        {
+          "text": "Exactly. What about the eyes of Doctor T.J. Eckleburg?",
+          "timestamp": 42.5,
+          "confidence": 0.73
+        },
+        {
+          "text": "dishes clattering",
+          "timestamp": 49.3,
+          "confidence": 0.21
+        },
+        {
+          "text": "They're like the eyes of God watching over the moral wasteland.",
+          "timestamp": 52.8,
+          "confidence": 0.71
+        },
+        {
+          "text": "Interesting interpretation. The billboard represents",
+          "timestamp": 59.6,
+          "confidence": 0.78
+        },
+        {
+          "text": "group laughter nearby",
+          "timestamp": 65.2,
+          "confidence": 0.33
+        },
+        {
+          "text": "the loss of spiritual values in the 1920s.",
+          "timestamp": 68.9,
+          "confidence": 0.72
+        },
+        {
+          "text": "phone ringing",
+          "timestamp": 75.4,
+          "confidence": 0.23
+        },
+        {
+          "text": "The Valley of Ashes is another crucial symbol.",
+          "timestamp": 79.1,
+          "confidence": 0.77
+        },
+        {
+          "text": "It represents the moral and social decay",
+          "timestamp": 85.3,
+          "confidence": 0.75
+        },
+        {
+          "text": "music playing",
+          "timestamp": 90.8,
+          "confidence": 0.28
+        },
+        {
+          "text": "hidden beneath the glamorous surface of the era.",
+          "timestamp": 94.5,
+          "confidence": 0.73
+        },
+        {
+          "text": "The contrast between East Egg and West Egg is also symbolic.",
+          "timestamp": 101.2,
+          "confidence": 0.76
+        },
+        {
+          "text": "announcements over PA",
+          "timestamp": 108.6,
+          "confidence": 0.31
+        },
+        {
+          "text": "Old money versus new money, inherited wealth versus earned wealth.",
+          "timestamp": 112.9,
+          "confidence": 0.74
+        },
+        {
+          "text": "door opening and closing",
+          "timestamp": 120.5,
+          "confidence": 0.27
+        },
+        {
+          "text": "Fitzgerald uses these symbols to critique American society.",
+          "timestamp": 124.8,
+          "confidence": 0.78
+        },
+        {
+          "text": "The parties at Gatsby's mansion represent",
+          "timestamp": 131.4,
+          "confidence": 0.76
+        },
+        {
+          "text": "footsteps",
+          "timestamp": 137.1,
+          "confidence": 0.25
+        },
+        {
+          "text": "the emptiness and superficiality of the upper class.",
+          "timestamp": 140.6,
+          "confidence": 0.72
+        },
+        {
+          "text": "For next time, think about the significance of the season changes in the novel.",
+          "timestamp": 147.3,
+          "confidence": 0.77
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.85,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "AUDIO_QUALITY",
+        "message": "Significant background noise (coffee machine, conversations, clattering) was detected, leading to fragmented transcription and lower confidence scores. The core educational content was extracted, but some context may be missing."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.9,
+    "isSideConversation_confidence": 0.05,
+    "isIrrelevantContent_confidence": 0.4,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "literature",
+      "american_literature",
+      "the_great_gatsby",
+      "symbolism",
+      "literary_analysis",
+      "college_level",
+      "fitzgerald",
+      "american_dream"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "The discussion provides a literary analysis of key symbols in F. Scott Fitzgerald's 'The Great Gatsby.' It identifies the green light as a symbol of Gatsby's unattainable dreams for Daisy and the broader American Dream. The eyes of Doctor T.J. Eckleburg are interpreted as a god-like observer witnessing the moral decay and loss of spiritual values in the 1920s. The Valley of Ashes represents the hidden social and moral decay beneath the era's glamour. The contrast between East Egg (old money) and West Egg (new money) symbolizes societal divisions. Finally, Gatsby's extravagant parties are seen as a representation of the upper class's superficiality, all contributing to Fitzgerald's critique of American society.",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "• Green Light: Symbolizes Gatsby's hopes, dreams for Daisy, and the unattainable American Dream.\n• Eyes of Dr. T.J. Eckleburg: Represent a god-like presence watching over a moral wasteland and the loss of spiritual values.\n• Valley of Ashes: Represents the social and moral decay hidden beneath the wealthy facade.\n• East Egg vs. West Egg: Symbolizes the conflict between 'old money' (inherited) and 'new money' (earned).\n• Gatsby's Parties: Illustrate the emptiness and superficiality of the 1920s upper class."
+      },
+      {
+        "version": "detailed",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "This seminar segment focuses on deconstructing the rich symbolism in 'The Great Gatsby.' The green light at the end of Daisy's dock is identified as the primary symbol of Gatsby's yearning for the past and his idealized version of Daisy, which also extends to represent the elusive and ultimately corruptible American Dream. The looming eyes of Doctor T.J. Eckleburg on the billboard are analyzed as a secular substitute for God, silently judging the moral emptiness of the characters in the Valley of Ashes—a location that itself symbolizes the grim industrial reality and decay that the opulent lifestyles of the Eggs attempt to ignore. The geographical division between East Egg and West Egg is noted as a crucial symbol for the class distinction between established, inherited wealth and the newly rich. The analysis concludes by framing Gatsby's lavish parties not as celebrations, but as symbols of the profound loneliness and superficiality of the era's high society."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.8,
+        "text": "The discussion analyzes key symbols in 'The Great Gatsby,' including the green light (unattainable dreams), Eckleburg's eyes (moral judgment), the Valley of Ashes (social decay), and East/West Egg (class division) to understand Fitzgerald's critique of the American Dream."
+      }
+    ],
+    "oneLineSummarization": "Analysis of key symbols in The Great Gatsby—the green light, Eckleburg's eyes, and the Valley of Ashes—reveals Fitzgerald's critique of the American Dream's superficiality and moral decay.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "VISUAL",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Picture a map of the novel's world. On one side, you have the pristine, white palaces of East Egg, radiating an aura of established tradition. Across the bay lies West Egg, glittering with new, ostentatious mansions. Connecting these worlds of wealth to the bustling city is a desolate, grey landscape: the Valley of Ashes. A giant pair of eyes on a billboard stares down from above this wasteland. And far across the water, a single, tiny point of green light pulses, a beacon of an impossible future that is forever out of reach. Each visual element occupies a specific space, creating a geography of morality and social class."
+      },
+      {
+        "effectiveness": "high",
+        "type": "ASSOCIATIONS",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "To understand these symbols, connect them to the context of the 'Roaring Twenties.' Gatsby's parties are the epitome of the era's excess and newfound consumerism, yet they lack genuine connection, much like an endless social media feed today. The Valley of Ashes is the hidden consequence of this industrial boom—the pollution and poverty that society prefers not to see, similar to the unseen labor behind modern convenience. The eyes of Dr. T.J. Eckleburg are like a forgotten moral compass, an old advertisement whose original meaning is lost, leaving only a haunting sense of being watched in an era that has largely abandoned spiritual guidance."
+      },
+      {
+        "effectiveness": "high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "Fitzgerald constructs a logical argument through his use of symbols. Premise 1: The American Dream is based on the idea of attainable success. Premise 2: The green light represents this dream, but it is always distant and ultimately unattainable for Gatsby. Conclusion A: Therefore, the American Dream is an illusion. Furthermore, Premise 3: A healthy society requires a moral foundation. Premise 4: The Valley of Ashes and the vacant eyes of Eckleburg represent the decay of this foundation. Conclusion B: Therefore, the society depicted is morally bankrupt. By linking these symbolic proofs, Fitzgerald builds a comprehensive critique of 1920s American society."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "STORYTELLING",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.7,
+        "text": "Imagine a man named Gatsby who builds a colossal castle just to be closer to a single green light across a dark bay. This light is his everything—a memory of a lost love, a promise of a perfect future. But to reach it, he must navigate a world divided. On one side live the effortlessly wealthy, born into privilege. On the other, those who, like him, scrambled to the top. And between them all lies a valley of ash, a grim reminder of the decay their glittering world is built upon, all watched over by the giant, judging eyes from a forgotten billboard. His story is a quest for that light, revealing that the closer he gets, the more he realizes the world around him is hollow."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "MERMAID_MINDMAP",
+        "otherCoreType": null,
+        "secondaryTypes": [],
+        "title": "Symbolism in The Great Gatsby",
+        "reasonForSuggestion": "A mind map is the most effective way to visually organize the distinct symbols discussed and connect them to a central theme. It clarifies the hierarchical relationship between Fitzgerald's overall critique and the specific literary devices he uses to build it.",
+        "promptForGeneration": "Create a Mermaid mindmap for a college literature class analyzing symbolism in 'The Great Gatsby'. The central node should be 'Fitzgerald's Critique of the American Dream'. Create four main branches. Branch 1: 'The Green Light' with sub-nodes 'Gatsby's Hope for Daisy', 'The Unattainable Future', 'Idealism vs. Reality'. Branch 2: 'Eyes of Dr. T.J. Eckleburg' with sub-nodes 'The Gaze of God?', 'Moral Judgment', 'Loss of Spiritual Values'. Branch 3: 'Geographical Symbols' with two sub-branches: 'Valley of Ashes' (sub-nodes: 'Moral & Social Decay', 'The Working Class') and 'The Eggs' (sub-nodes: 'East Egg: Old Money', 'West Egg: New Money'). Branch 4: 'Social Symbols' with sub-node 'Gatsby's Parties' (sub-nodes: 'Superficiality', 'The Jazz Age Excess', 'Loneliness'). Use a sophisticated, academic color palette (e.g., deep blues, grays, and a single contrasting color like gold or green)."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.9,
+        "coreType": "AI_GENERATED",
+        "otherCoreType": "Infographic",
+        "secondaryTypes": [
+          "SPATIAL_DIAGRAM",
+          "ANNOTATED_TEXT"
+        ],
+        "title": "The Moral Geography of Gatsby",
+        "reasonForSuggestion": "A spatial diagram or infographic can visually represent the novel's key locations, helping students understand how geography functions symbolically. This moves beyond abstract concepts to a concrete, map-like visualization.",
+        "promptForGeneration": "Generate an infographic titled 'The Moral Geography of The Great Gatsby' for a college-level audience. Create a stylized map layout. On the right, depict 'East Egg' with imagery of classical, stately mansions and yachts (label: 'Old Money, Inherited Status'). On the left, depict 'West Egg' with imagery of more lavish, modern, 'nouveau riche' mansions (label: 'New Money, Self-Made'). Between them and a distant depiction of New York City, create a gray, industrial area labeled 'The Valley of Ashes' with smoke and a dilapidated billboard featuring large, blue eyes (label: 'Moral Decay, The Unseen Poor'). Draw a dotted line from Gatsby's mansion in West Egg across the water to a single green light on a dock in East Egg (label: 'The Unattainable Dream'). Use a 1920s Art Deco design style. Keep text concise and impactful."
+      },
+      {
+        "effectiveness": "medium",
+        "relativeEffectivenessWeight": 0.75,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherSuggestions": 0.75,
+        "coreType": "COMPARISON_MATRIX",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "TABLE"
+        ],
+        "title": "East Egg vs. West Egg: A Symbolic Divide",
+        "reasonForSuggestion": "A simple table or matrix provides a clear, structured way to compare and contrast the two primary settings, reinforcing the symbolic division between old and new money that is central to the novel's social critique.",
+        "promptForGeneration": "Create an HTML table comparing East Egg and West Egg from 'The Great Gatsby'. The table should have three columns: 'Attribute', 'East Egg', and 'West Egg'. Include the following rows: 'Source of Wealth' (East Egg: 'Inherited, Old Money'; West Egg: 'Earned, New Money'), 'Core Values' (East Egg: 'Tradition, Discretion, Social Grace'; West Egg: 'Extravagance, Ambition, Spectacle'), 'Key Residents' (East Egg: 'Tom & Daisy Buchanan'; West Egg: 'Jay Gatsby, Nick Carraway'), and 'Symbolic Meaning' (East Egg: 'Established Aristocracy, Moral Carelessness'; West Egg: 'The American Dream, Social Mobility, Emptiness'). Use clear headings and a clean, academic design with good cell padding and alignment."
+      }
+    ],
+    "purpose": "Analyzing literary symbolism is a critical skill that teaches you to look beyond the surface of a text. By understanding how authors like Fitzgerald use objects, colors, and places to represent complex ideas, you learn to uncover deeper layers of meaning and appreciate the author's critique of society, human nature, and historical moments.",
+    "motivation": "The themes in 'The Great Gatsby' are timeless. It explores the dizzying pursuit of wealth, the illusion of the 'perfect life,' and the feeling that what you desire most is just out of reach. Understanding these symbols helps you see how we still chase our own 'green lights' today and question whether achieving them truly brings happiness. This isn't just about a book from the 1920s; it's about understanding the dreams and disillusionments that still drive our culture.",
+    "learningValueScore": 0.92,
+    "availableActions": [
+      {
+        "actionLabel": "Map Symbols",
+        "reason": "Visually organize the symbols and their connections to the novel's main themes.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Author's Intent",
+        "reason": "Explore how F. Scott Fitzgerald's own life and experiences influenced the novel's critique of wealth and society.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Character Links",
+        "reason": "Analyze how each major character (Gatsby, Daisy, Tom, Nick) relates to these key symbols.",
+        "recommendationPriority": "medium"
+      },
+      {
+        "actionLabel": "Modern Parallels",
+        "reason": "Discuss a modern film, song, or event that uses similar symbolism to critique contemporary society.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "symbolism": {
+        "definition": "The use of objects, people, or concepts to represent ideas or qualities that are more complex than their literal meaning.",
+        "context": "Fitzgerald's use of symbolism is central to the novel's message.",
+        "simpler": "When something stands for a bigger idea."
+      },
+      "superficiality": {
+        "definition": "A lack of depth of character or serious thought; concern only with the obvious or surface-level aspects of something.",
+        "context": "The lavish parties at Gatsby's mansion represent the superficiality of the upper class.",
+        "simpler": "Being shallow or fake."
+      },
+      "moral wasteland": {
+        "definition": "A metaphorical place or society characterized by a lack of ethical principles, spiritual values, and compassion.",
+        "context": "The eyes of Dr. T.J. Eckleburg watch over the moral wasteland of the Valley of Ashes.",
+        "simpler": "A place where people have lost their sense of right and wrong."
+      }
+    },
+    "recommendationsToTeacher": [
+      "The audio quality is poor, causing fragmentation. Consider providing a written summary or using a visual aid, like the recommended mind map, to ensure all students grasped the connections between the different symbols.",
+      "Capitalize on the discussion by transitioning into a small group activity where students identify and analyze a 'minor' symbol in the novel (e.g., the weather, automobiles, colors like white and yellow) and present their findings.",
+      "Pose a follow-up discussion question: 'If Fitzgerald were writing Gatsby today, what modern symbols might he use to critique our society?' to connect the literary analysis to the students' contemporary world."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-26T23:58:38.081Z",
+    "latencyMs": 43223,
+    "tokenUsage": {
+      "input": 7841,
+      "output": 3712,
+      "total": 13090
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "en": {
+    "sections": {
+      "executiveSummary": {
+        "sectionLabel": "Executive Summary",
+        "value": "A software development expert with 10 years of experience across diverse organizations, ranging from global enterprises to startup environments. Experienced in both hands-on software development and leading software teams. Specialized in Web Applications, APIs, and Integrations and adept at managing projects, collaborating with cross-functional teams, and delivering high-quality software solutions. My ability to simplify complex technical concepts and translate them into clear, understandable terms enables effective collaboration, improves decision-making, and ultimately leads to successful projects."
+      },
+      "productSkillHighlights": {
+        "sectionLabel": "Technical Skill Highlights",
+        "subsections": {
+          "coreProductManagement": {
+            "sectionLabel": "Core Product Management",
+            "values": [
+              "Agile/Scrum Methodology",
+              "Stakeholder Management",
+              "Requirements Definition",
+              "User Story and Ticket Creation",
+              "Roadmap Development",
+              "Prioritization",
+              "Estimation",
+              "SWOT Analysis"
+            ]
+          },
+          "researchPlanningAndReporting": {
+            "sectionLabel": "Research Planning and Reporting",
+            "values": [
+              "Market Research",
+              "Competitive Analysis",
+              "Product Research",
+              "Status Reports",
+              "Status Updates",
+              "Presentations and Demonstrations",
+              "Release Notes",
+              "Security Policies",
+              "Troubleshooting"
+            ]
+          },
+          "technicalDocumentationAndUserDocumentation": {
+            "sectionLabel": "Technical Documentation and User Documentation",
+            "values": [
+              "Technical Specifications",
+              "System Architecture Diagrams",
+              "Data Models and ERD Diagrams",
+              "Data Dictionaries",
+              "API Documentation",
+              "Build and Deployment Guides",
+              "Code Documentation",
+              "Business Process Documentation",
+              "User Manuals",
+              "Quick Start Guides",
+              "FAQ",
+              "Release Notes"
+            ]
+          },
+          "productivityAndCollaborativeTools": {
+            "sectionLabel": "Productivity and Collaborative Tools",
+            "values": [
+              "Project Management Platforms (e.g., Confluence, Jira, Trello)",
+              "General Productivity Tools (MS Office, GSuite, Slack, Teams)",
+              "Marketing and Analytics Tools (e.g., Mailchimp, Google Analytics)",
+              "Password Managers",
+              "CMS",
+              "CRM"
+            ]
+          },
+          "databasesAndData": {
+            "sectionLabel": "Databases and Data",
+            "values": [
+              "Data Analysis",
+              "Data Visualization",
+              "Database Management",
+              "Data Formats (e.g., JSON, XML, BLOB)",
+              "SQL and NoSQL Databases",
+              "Data Querying",
+              "Reporting"
+            ]
+          },
+          "designAndUserExperience": {
+            "sectionLabel": "Design and User Experience",
+            "values": [
+              "Wireframing and Mockups (Figma, Adobe Photoshop & Illustrator)",
+              "User Flows",
+              "Personas",
+              "Data Visualization",
+              "SVG Animations",
+              "Web Animations",
+              "Responsive Design",
+              "User Interface Design",
+              "Web Accessibility (WCAG)",
+              "Component Libraries",
+              "Material Design"
+            ]
+          },
+          "technicalProductExpertise": {
+            "sectionLabel": "Technical Product Expertise",
+            "values": [
+              "API Design (REST, GraphQL, CLI)",
+              "Software Engineering Lifecycle",
+              "Software Architecture",
+              "Web Application Development",
+              "Cloud Hosting and Services",
+              "Developer Tooling",
+              "Open Source",
+              "Webhooks",
+              "Version Control"
+            ]
+          },
+          "testingAndQualityAssurance": {
+            "sectionLabel": "Testing and Quality Assurance",
+            "values": [
+              "Automated Testing",
+              "Manual Testing",
+              "Responsive Testing",
+              "Test Case Definition",
+              "Regression Testing",
+              "API Testing",
+              "e2e Testing",
+              "Test Cases",
+              "Test Plans",
+              "Bug Reports"
+            ]
+          },
+          "infrastructureAndCloud": {
+            "sectionLabel": "Infrastructure and Cloud",
+            "values": [
+              "Cloud and Self Hosting",
+              "CLI",
+              "Logs",
+              "Access Control",
+              "Containers",
+              "Serverless",
+              "Storage",
+              "Pipelines and CI/CD"
+            ]
+          },
+          "aiAndMachineLearning": {
+            "sectionLabel": "AI and Machine Learning",
+            "values": [
+              "OpenAI Integrations",
+              "Gemini Integrations",
+              "Document Scanning AI",
+              "Text Recognition",
+              "Image Labeling",
+              "Image Captioning",
+              "Vertex Vision AI",
+              "Gemini Vision",
+              "Safety Content Detection",
+              "Identity Proofing"
+            ]
+          }
+        }
+      },
+      "workExperience": {
+        "sectionLabel": "Work Experience",
+        "values": [
+          {
+            "company": "EXPANSE SERVICES / CONTRACTING",
+            "location": "Remote",
+            "startDate": "2020-03-01T00:00:00Z",
+            "endDate": "2024-03-01T00:00:00Z",
+            "title": "Software Development Consultant",
+            "summary": "Collaborating on contracts with a variety of organizations through my personal LLC and agencies. Building custom web applications in a variety of environments utilizing modern JavaScript and Cloud Hosting.",
+            "description": [
+              {
+                "label": "Technology Migration Project Lead",
+                "text": "Contracted by MDU RESOURCES GROUP, INC to lead a team of three to implement cutting-edge technology and agile methodologies. We modernized legacy applications which integrated point-of-sale technology, web APIs, and general ledger accounting, while also identifying data anomalies.",
+                "nestLevel": 0
+              },
+              {
+                "label": "Agile Implementation and Team Leadership",
+                "text": "Introduced Agile Development and Scrum at MDU, leading the transition to Agile workflows. Facilitated standups, sprint planning, retrospectives, backlog grooming, and testing, fostering team collaboration and efficiency. Managed the product backlog and delivered engaging demos, ensuring stakeholders and users remained informed and aligned on project progress.",
+                "nestLevel": 1
+              },
+              {
+                "label": "Stakeholder Collaboration and Requirement Prioritization",
+                "text": "Partnered with a diverse, distributed team—including Directors, Vice Presidents, Architects, Managers, Business Analysts, and End Users—to gather, refine, and prioritize project requirements. Fostered alignment between technical and business teams, ensuring clarity and feasibility of deliverables.",
+                "nestLevel": 1
+              },
+              {
+                "label": "Roadmap Development and Visual Planning",
+                "text": "Translated prioritized requirements into features, epics, and roadmap/release versions. Designed and created detailed mockups to provide clear visual representation of product plans and user workflows, facilitating alignment across teams and stakeholders.",
+                "nestLevel": 1
+              },
+              {
+                "label": "Mission-Critical Ed Tech Project",
+                "text": "Contracted by CLEVER to integrate with Google Classroom. Implemented a game changing onboarding process that harnessed the power of Clever's cutting-edge data solutions, enabling Google Classroom rostering for 60% of school districts nationwide (Lots of data, Google Quality and Processes). Participated in and learned from Google’s User Experience Research sessions.",
+                "nestLevel": 0
+              },
+              {
+                "label": "Frontend Web Integration Project",
+                "text": "Contracted by NRG ENERGY to update their frontend enrollment form process (User Facing).",
+                "nestLevel": 0
+              },
+              {
+                "label": "ECommerce Project",
+                "text": "Contracted by RYERSON to develop a tailored checkout process with custom components, integrating pricing and purchasing with ERP systems for Ryerson (Ecommerce, User Facing).",
+                "nestLevel": 0
+              },
+              {
+                "label": "Iterative Application Development and Self-Education",
+                "text": "Started the development of a web application's foundational structure, selecting MUI, styled components, and a minimalist design approach as the preferred solutions. Enhanced expertise in AI code generation, serverless techniques, and repository modularization. Migrating to nest js for microservices and architecture. Additionally, gained experience in product management, design, system infrastructure, mdm, identity and access management platforms, Google Workspace, etc.",
+                "nestLevel": 0
+              }
+            ]
+          },
+          {
+            "company": "LEXISNEXIS RISK SOLUTIONS",
+            "location": "Boca Raton, FL",
+            "startDate": "2018-01-01T00:00:00Z",
+            "endDate": "2020-03-01T00:00:00Z",
+            "title": "Senior Software Engineer",
+            "summary": "Partnering with a team of more than 12 technology professionals in an agile scrum environment, we developed the “Risk Intelligence Network,” a high-priority fraud analytics platform for the U.S.",
+            "description": [
+              {
+                "label": "Strategic Communicator & Dedicated Learner",
+                "text": "Proactively pursued continuous improvement through Udemy’s online learning platform ranking as a top performer in the company. Showcased effective communication abilities by delivering a presentation titled “How the Risk Intelligence Network is Built” to an audience of ~120 at the 2019 annual LexisNexis Government Conference.",
+                "nestLevel": 0
+              },
+              {
+                "label": "Cross Functional Collaboration & Technical Documentation",
+                "text": "Discussed implementation risks and full spectrum design decisions with our remote team of designers, developers, quality assurance, product managers, and architects. Refined story requirements, re-compartmentalized user stories, and estimated story points.",
+                "nestLevel": 0
+              },
+              {
+                "label": "API Design, Development, and Technical Documentation",
+                "text": "Designed and constructed robust RESTful web API services, seamlessly integrating with numerous internal APIs and data sources. Documented APIs, database schemas, and integrations with internal authentication and backend services.",
+                "nestLevel": 0
+              },
+              {
+                "label": "Expertise in Data Solutions and Quality Assurance",
+                "text": "Developed deep expertise in enterprise-scale reporting, data visualizations, and analytics through the creation of a feature-rich web application. Applied advanced testing methodologies, achieving 100% code coverage on the backend via unit testing while also including e2e testing, API and integration testing, health checks, regression testing, and more to ensure data integrity and system reliability.",
+                "nestLevel": 0
+              }
+            ]
+          },
+          {
+            "company": "REAL EQUITY MANAGEMENT",
+            "location": "Columbia, MO",
+            "startDate": "2014-06-01T00:00:00Z",
+            "endDate": "2017-12-01T00:00:00Z",
+            "title": "Software Engineer / Product Manager",
+            "summary": "Joined an 8-figure student housing company as its first software engineer, spearheading ground-up web application development and directing proprietary software engineering to streamline processes, fostering company growth and cross-state expansion in a collaborative environment.",
+            "description": [
+              {
+                "label": "Digital Transformation",
+                "text": "Led a digital transformation initiative by developing software applications for Electronic Document Signing, Inventory Management Software, Appointment Scheduling, and Lead Tracking. Virtually eliminating the need for traditional pen-and-paper documents and manual inventory spreadsheets with custom software.",
+                "nestLevel": 0
+              },
+              {
+                "label": "Project Leadership, Product Planning, and Reporting",
+                "text": "Routinely met with stakeholders and department directors, providing progress updates, company status, and directional changes. Drove project development from minimum viable product through to production system release, gathering requirements, defining project technical scope, creating simple roadmaps, and managing project timelines.",
+                "nestLevel": 0
+              },
+              {
+                "label": "User Experience Research",
+                "text": "Conducted user experience research sessions and observed users performing various tasks and navigating user journeys. Additionally, provided end-user training, solicited feedback, and facilitated ongoing improvement of company applications.",
+                "nestLevel": 0
+              },
+              {
+                "label": "Documentation, Integrity, and Compliance",
+                "text": "Created software documentation including technical documents, product features, training manuals, and release notes. Ensured data integrity and compliance with security standards for handling sensitive payment-related and personal data by implementing web application security best practices, supported by thorough collaboration, research, and documentation. Partnered with the legal team to define and gain approval for privacy and security policies, covering application use, data management, quality assurance, and logging procedures.",
+                "nestLevel": 0
+              },
+              {
+                "label": "Document Signing and Document Storage",
+                "text": "Architected solutions that not only automated inventory management but also facilitated secure creation, digital signing, and storage of PDF versions of the companies' leases and related documents, providing a versatile solution for multiple business processes. Reduced application processing time by >30% and minimized error rates. Achieved an estimated annual cost savings of 120,000$ and enabled employees to focus on higher-priority tasks.",
+                "nestLevel": 0
+              }
+            ]
+          }
+        ]
+      },
+      "education": {
+        "sectionLabel": "Education",
+        "school": "Missouri University of Science and Technology",
+        "location": "Rolla, MO",
+        "startYear": "2010",
+        "endYear": "2014",
+        "degree": "Computer Science",
+        "additionalCourses": ""
+      }
+    }
+  }
+}

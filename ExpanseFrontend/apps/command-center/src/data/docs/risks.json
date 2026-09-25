@@ -1,0 +1,347 @@
+{
+  "risks": [
+    {
+      "id": "complex-product",
+      "title": "Complex Application and Product",
+      "category": "Development",
+      "severity": "medium",
+      "question": "The product is complicated and complex, developing it may require significant resources, knowledge, and time.",
+      "response": "Matt has extensive knowledge, and some features are complex but we don't need to develop all complexity first. Can build highly desirable features for lower cost initially. High profit potential far exceeds development cost.",
+      "impact": "Unknown - manageable with proper prioritization",
+      "mitigations": [
+        "Matt's technical knowledge",
+        "Agile development processes",
+        "Cutting edge technology and AI tools",
+        "Prioritization of high-value MVP features",
+        "High profit to cost ratio"
+      ]
+    },
+    {
+      "id": "ai-education",
+      "title": "AI Use In Education",
+      "category": "Product",
+      "severity": "low",
+      "question": "Will the product increase the use of AI in the classroom by increasing desire to perform and gain rewards?",
+      "response": "Features can help combat AI use rather than support it. More effort/energy to perform tasks = less likely to use AI. The goal is learning, and product gives students more motivation to try harder.",
+      "impact": "Moderately Negative to Highly Positive",
+      "mitigations": [
+        "Weight rewards higher for tests/quizzes",
+        "Features for acknowledging and reinforcing non-AI use",
+        "Teaching Growth Mindset",
+        "More motivation to learn and put effort into assignments"
+      ]
+    },
+    {
+      "id": "low-performers",
+      "title": "Low Performers Gap",
+      "category": "Product",
+      "severity": "low",
+      "question": "Does this product increase the gap between low performers and high performers?",
+      "response": "Product is designed for all users. Low performing students likely receive less positive reinforcement and are more likely to respond positively to it. Specific features can ensure all students receive recognition.",
+      "impact": "Positive",
+      "mitigations": [
+        "Observe and measure outcomes",
+        "Discretely design competitions to ensure all users are recognized",
+        "MVP acknowledgements for all students"
+      ]
+    },
+    {
+      "id": "school-approval",
+      "title": "School Approval Barrier",
+      "category": "Marketing",
+      "severity": "high",
+      "question": "Can students log in and share data, or is teacher/school approval required?",
+      "response": "Schools generally need to approve data sharing before students can access LMS tools. This limits direct advertising to students and parents.",
+      "impact": "Limits direct marketing to students and parents",
+      "mitigations": [
+        "Encourage parents/students to request software approval from schools",
+        "Track which schools are requesting access",
+        "Large following can make it easier to sell to schools",
+        "Target specific geographic areas",
+        "Broaden outreach beyond just parents and students"
+      ]
+    },
+    {
+      "id": "integration-difficulty",
+      "title": "Integration Difficulty",
+      "category": "Technology",
+      "severity": "medium",
+      "question": "There are many different LMS/SIS systems, some self-hosted. Are there unknown complexities?",
+      "response": "Ed.Link handles most of this for the United States. Other countries may use different software that may not be supported yet.",
+      "impact": "US should be fine, some international limitations",
+      "mitigations": [
+        "United States coverage is comprehensive",
+        "Deal with missing software as it comes",
+        "Work with Ed.Link or build integrations ourselves"
+      ]
+    },
+    {
+      "id": "edlink-stability",
+      "title": "Ed.Link Integration Stability",
+      "category": "Technology",
+      "severity": "medium",
+      "question": "What happens if Ed.Link sells, goes under, or disappears?",
+      "response": "Ed.Link is used by many applications including big names and doing well. They've started an integration with Clever. Assuming long-term reliability.",
+      "impact": "Could be really bad if something happened to the integration platform",
+      "mitigations": [
+        "Can build integrations separately if needed",
+        "Only need a few core features, mostly read data",
+        "Could switch to supporting only key platforms"
+      ]
+    },
+    {
+      "id": "privacy-compliance",
+      "title": "Privacy, Security, Legal, and Compliance",
+      "category": "Legal",
+      "severity": "high",
+      "question": "Security and privacy is challenging when handling student data. Countries may have different requirements.",
+      "response": "Matt has extensive security and privacy career experience from Clever EDU (half of US student data) and LexisNexis Risk Solutions (government identity data). Certifications for SOC, COPPA, FERPA will be needed.",
+      "impact": "Compliance requirements become necessity, especially for under-13 students",
+      "mitigations": [
+        "Hire additional compliance support as needed",
+        "Get compliance certifications as soon as possible",
+        "Ed.Link helps with privacy/security for integrations",
+        "Start with students above age 13",
+        "Implement parent approval features"
+      ]
+    },
+    {
+      "id": "competition-mental-health",
+      "title": "Competition & Mental Health",
+      "category": "Product",
+      "severity": "medium",
+      "question": "Can competition features negatively impact mental health and add frustration?",
+      "response": "Benefits outweigh cons. Product designed to promote mental health. Frustration from challenge can be good for engagement when used properly.",
+      "impact": "Unknown - designed for positive outcomes",
+      "mitigations": [
+        "Good product design",
+        "Team-based features",
+        "Abstraction from individual performance using teams, luck, skill, roles",
+        "Behind-the-scenes algorithms for optimal matchups"
+      ]
+    },
+    {
+      "id": "socioeconomic-diversity",
+      "title": "Differing Socioeconomic Backgrounds",
+      "category": "Product",
+      "severity": "medium",
+      "question": "Will certain features be desired by one location and not another? Will money as reward be viewed negatively?",
+      "response": "Features will be configurable by school. Rewards are customizable and allow users to choose what they want.",
+      "impact": "Unknown - mitigated by configuration",
+      "mitigations": [
+        "Feature flags at school, parent, student, teacher, classroom, district, region level",
+        "Money may not be primary marketed reward",
+        "Let social conversation carry reward details"
+      ]
+    },
+    {
+      "id": "distraction",
+      "title": "Product Distraction",
+      "category": "Product",
+      "severity": "low",
+      "question": "Can the application be distracting in school?",
+      "response": "This app won't be THE problem. Some classroom usage may be desired. App is designed to improve focus and motivation.",
+      "impact": "Minimal",
+      "mitigations": [
+        "Good classroom management",
+        "Optional usage timeframes if necessary",
+        "App designed to improve engagement"
+      ]
+    },
+    {
+      "id": "data-integrity",
+      "title": "Assignment Classification & Data Integrity",
+      "category": "Technology",
+      "severity": "medium",
+      "question": "Can we tell which assignments are tests vs homework? Are grades trustable?",
+      "response": "Some classifications available, some not. Some misclassified. Some entries are junk or unclear.",
+      "impact": "Unknown - requires adaptive design",
+      "mitigations": [
+        "Design product to count general completion",
+        "Compare relative grades/scores",
+        "Implement AI/Algorithms for classification",
+        "User-assisted classification (students, teachers, employees)"
+      ]
+    },
+    {
+      "id": "untested-product",
+      "title": "Untested Product",
+      "category": "Validation",
+      "severity": "medium",
+      "question": "The product has not yet been tested so data and proof is missing.",
+      "response": "Utilize information, emotional appeal, and the need for solution.",
+      "impact": "Potentially harder entry barrier getting started",
+      "mitigations": [
+        "Get the data through pilots",
+        "Keep pushing - it will work out",
+        "Sales and marketing efforts"
+      ]
+    },
+    {
+      "id": "measuring-engagement",
+      "title": "Difficulty Measuring Engagement",
+      "category": "Validation",
+      "severity": "low",
+      "question": "How do we prove the solution works?",
+      "response": "Surveys, feedback, statistics on grades/standardized testing/attendance should be sufficient. A/B testing, self-reported mood, attention duration measurements.",
+      "impact": "N/A - sufficient methods exist",
+      "mitigations": [
+        "A/B Testing",
+        "Surveys and feedback",
+        "Data collection & studies",
+        "Standardized test scores comparison"
+      ]
+    },
+    {
+      "id": "gender-appeal",
+      "title": "Gender & Demographic Appeal",
+      "category": "Product",
+      "severity": "low",
+      "question": "Does the product appeal to all users? Do males disproportionately benefit?",
+      "response": "Design is intentionally simple and appeals to all audiences. Psychology base appeals to all users. Girls may prefer social/customization aspects, boys may prefer battles, but girls are often more competitive in education.",
+      "impact": "Unknown - designed for universal appeal",
+      "mitigations": [
+        "Target core psychology applying to all humans",
+        "Monitor gender differences",
+        "Implement features benefiting both genders"
+      ]
+    },
+    {
+      "id": "edlink-features",
+      "title": "Ed.Link Feature Limitations",
+      "category": "Technology",
+      "severity": "low",
+      "question": "Why does Clever LMS Connect not support Blackboard but does support Canvas, Schoology, and Google Classroom?",
+      "response": "Unknown reasons. Possibly to evaluate potential, build a solution, and consider buyout. Clever is also opening up their API.",
+      "impact": "Unknown/Moderate",
+      "mitigations": [
+        "Many platforms have existing contracts",
+        "Clever is opening up API as alternative",
+        "Can build direct integrations if needed"
+      ]
+    },
+    {
+      "id": "integration-pricing",
+      "title": "Integration Pricing for Free Users",
+      "category": "Business",
+      "severity": "low",
+      "question": "If we don't know which users will use the software, do we pay for every user even non-users when integrating with schools?",
+      "response": "Negotiations can be had and pricing is not too bad. Companies are willing to negotiate.",
+      "impact": "Unknown",
+      "mitigations": [
+        "Companies willing to negotiate pricing",
+        "Integration pricing relatively affordable",
+        "Can adjust pricing model if needed"
+      ]
+    },
+    {
+      "id": "compute-costs",
+      "title": "Compute & Integration Costs",
+      "category": "Technology",
+      "severity": "low",
+      "question": "How much will it cost to run syncing and for integrations? How does it impact the business model?",
+      "response": "Compute is TBD but integrations seem manageable and scale with user base. Ed.Link can negotiate. When compute becomes a cost issue, there will likely be surplus funds.",
+      "impact": "Minor/Moderate",
+      "mitigations": [
+        "Observe and measure",
+        "Build optimized software",
+        "Adjust sync timelines appropriately",
+        "Use events to sync instead of full syncs"
+      ]
+    },
+    {
+      "id": "syncing-costs",
+      "title": "Syncing & Operational Costs",
+      "category": "Technology",
+      "severity": "low",
+      "question": "How much does syncing cost, how long does it take, and how frequently can we sync?",
+      "response": "Current sync for entire school takes a few minutes locally. Many optimization options exist. May not be costly at all.",
+      "impact": "Each user/school costs some money to operate",
+      "mitigations": [
+        "Optimize sync timeframes",
+        "Event-based syncing vs full syncs",
+        "Optimize based on current compute usage",
+        "Run compute locally before cloud scaling"
+      ]
+    },
+    {
+      "id": "knowledge-gaps",
+      "title": "Knowledge Gaps in Target Areas",
+      "category": "Marketing",
+      "severity": "medium",
+      "question": "Many people don't understand gamification, mental health, engagement, or positive reinforcement deeply.",
+      "response": "People understand problems exist and basics. They trust figures and data. PBIS is already implemented in many schools, especially higher quality ones.",
+      "impact": "Unknown",
+      "mitigations": [
+        "Teach and educate audience",
+        "Get influencers who agree",
+        "Prove it with data and feedback"
+      ]
+    },
+    {
+      "id": "password-security",
+      "title": "Password Security for Kids",
+      "category": "Technology",
+      "severity": "low",
+      "question": "Kids forget passwords or may need easier passwords. How do we handle this?",
+      "response": "Integration with Clever and other SSO platforms handles this. Can add phone 2FA for higher security features.",
+      "impact": "Unknown",
+      "mitigations": [
+        "SSO/LMS account integration",
+        "Custom second factor implementations",
+        "Required authentication levels based on features used"
+      ]
+    },
+    {
+      "id": "internationalization",
+      "title": "Internationalization & Platform Differences",
+      "category": "Technology",
+      "severity": "medium",
+      "question": "What impact do cultural differences and varying tools/platforms have globally?",
+      "response": "Much support already exists for global platforms. Many popular LMS/SIS systems are used globally. Can integrate additional platforms as needed.",
+      "impact": "Need for additional work in future",
+      "mitigations": [
+        "Foundation supports many countries already",
+        "Reward system designed for all cultures (customizable)",
+        "Features can be enabled/disabled by region",
+        "Cloud hosting in different countries as needed"
+      ]
+    },
+    {
+      "id": "setup-effort",
+      "title": "Setup Effort & PM Skills",
+      "category": "Product",
+      "severity": "low",
+      "question": "What impact will teachers without good planning/organizational skills have on adoption?",
+      "response": "Product designed to be as easy as possible to setup with guidance. Beneficial to all teachers and students.",
+      "impact": "Unknown",
+      "mitigations": [
+        "Simple onboarding",
+        "Guided setup process",
+        "Sensible defaults"
+      ]
+    },
+    {
+      "id": "teacher-bias",
+      "title": "Teacher Bias Towards Students",
+      "category": "Product",
+      "severity": "medium",
+      "question": "If a teacher has positive or negative bias toward certain students, what impact will this have?",
+      "response": "Bias exists regardless of application. The tool should bring light to these things. More research needed for feature design.",
+      "impact": "Slightly Negative",
+      "mitigations": [
+        "Transparency features",
+        "Research and thoughtful feature design",
+        "Monitoring and reporting tools"
+      ]
+    }
+  ],
+  "riskCategories": [
+    { "id": "development", "name": "Development", "icon": "⚙️" },
+    { "id": "product", "name": "Product", "icon": "📦" },
+    { "id": "marketing", "name": "Marketing", "icon": "📢" },
+    { "id": "technology", "name": "Technology", "icon": "💻" },
+    { "id": "legal", "name": "Legal", "icon": "⚖️" },
+    { "id": "validation", "name": "Validation", "icon": "✅" }
+  ]
+}

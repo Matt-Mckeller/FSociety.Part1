@@ -1,0 +1,56 @@
+{
+  "pageTitle": "Agile Process",
+  "threeStepProcess": {
+    "sectionTitle": "My Process",
+    "descriptionParagraphs": [
+      "My three phase process guides your project from concept to fruition. Start by creating a plan, drafting initial designs to clarify vision, and then continuously iterate with agile development cycles to bring your project to life with a focus on continuous improvement and adaptability."
+    ],
+    "graphicHeadings": {
+      "desktop": {
+        "headings": ["Plan", "Design", "Build"],
+        "subHeadings": [
+          "Needs Assessment",
+          "Wireframes & Mockups",
+          "Agile Iterations"
+        ]
+      },
+      "mobile": {
+        "headings": ["Plan", "Design", "Build"],
+        "subHeadings": ["Assessment", "Mockups", "Agile Cycles"]
+      }
+    }
+  },
+  "collaborativeDesignProcess": {
+    "titleText": "Next-Generation Collaborative Experiences",
+    "bodyText": "Real-time collaboration and Figma's multiplayer tools bring your design ideas to life."
+  },
+  "communicationProcess": {
+    "titleText": "Excellent Communication",
+    "old": "24/7 Access to progress updates through collaborative tools and regularly scheduled meetings tailored to your needs.",
+    "bodyText": "Seamless communication tailored to both technical and non-technical audiences, ensuring clarity, transparency, and alignment throughout the project lifecycle."
+  },
+  "estimationProcess": {
+    "titleText": "Point Estimations",
+    "bodyText": "Requirements are converted into tickets, estimated using points, tracked, and prioritized in an accessible location, streamlining communication, improving predictability, and maximizing project results."
+  },
+  "fullServiceProcess": {
+    "titleText": "Full Service Agile Development",
+    "bodyText": "Your Vision. My Expertise. Whether launching a new product, enhancing existing systems, or solving complex challenges, I deliver tailored solutions that streamline processes, boost productivity, and support your business growth."
+  },
+  "modernToolsProcess": {
+    "titleText": "State-of-the-Art Tools",
+    "bodyText": "Delivering high-quality, scalable, reliable solutions—faster."
+  },
+  "modularArchitectureProcess": {
+    "titleText": "Modular Architecture",
+    "bodyText": "Achieve flexibility and deliver results faster by leveraging components, microservices, and modern design patterns to build scalable solutions."
+  },
+  "scrumBoardProcess": {
+    "titleText": "Interactive Progress Tracking with Scrum Boards",
+    "bodyText": "Get real-time updates on active development anytime, anywhere."
+  },
+  "sprintProcess": {
+    "titleText": "Truly Agile",
+    "bodyText": "Game-changing speed and adaptation with 2 week iterations."
+  }
+}

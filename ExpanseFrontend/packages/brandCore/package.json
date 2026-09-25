@@ -1,0 +1,38 @@
+{
+  "name": "@expanse/brand-core",
+  "version": "0.1.0",
+  "description": "Expanse brand primitives, composites, and theming system",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./primitives": "./src/primitives/index.ts",
+    "./composites": "./src/composites/index.ts",
+    "./utils": "./src/utils/index.ts",
+    "./context": "./src/context/index.ts"
+  },
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "sideEffects": false,
+  "peerDependencies": {
+    "@mui/material": ">=5.0.0",
+    "@mui/system": ">=5.0.0",
+    "gsap": ">=3.0.0",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "directory": "packages/brandCore"
+  },
+  "keywords": [
+    "brand",
+    "ui",
+    "primitives",
+    "svg",
+    "logo",
+    "react"
+  ]
+}

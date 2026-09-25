@@ -1,0 +1,209 @@
+{
+  "sample": {
+    "durationSeconds": 240,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Today we're watching the 1996 film version",
+          "timestamp": 0,
+          "confidence": 0.95
+        },
+        {
+          "text": "of Romeo and Juliet to compare with the text.",
+          "timestamp": 4.8,
+          "confidence": 0.94
+        },
+        {
+          "text": "[Movie audio] Two households, both alike in dignity...",
+          "timestamp": 12.4,
+          "confidence": 0.82
+        },
+        {
+          "text": "[Movie dialogue continues]",
+          "timestamp": 28.7,
+          "confidence": 0.69
+        },
+        {
+          "text": "[Sound of sword fight in movie]",
+          "timestamp": 56.3,
+          "confidence": 0.64
+        },
+        {
+          "text": "[Movie character] A plague on both your houses!",
+          "timestamp": 89.6,
+          "confidence": 0.79
+        },
+        {
+          "text": "[Movie music swells]",
+          "timestamp": 103.2,
+          "confidence": 0.58
+        },
+        {
+          "text": "[Movie dialogue between characters]",
+          "timestamp": 134.8,
+          "confidence": 0.71
+        },
+        {
+          "text": "[Teacher] Pay attention to how the director",
+          "timestamp": 187.5,
+          "confidence": 0.92
+        },
+        {
+          "text": "uses modern settings for a classic story.",
+          "timestamp": 192.9,
+          "confidence": 0.9
+        },
+        {
+          "text": "[Movie continues with romantic scene]",
+          "timestamp": 201.3,
+          "confidence": 0.67
+        },
+        {
+          "text": "[Movie dialogue] But soft, what light...",
+          "timestamp": 218.7,
+          "confidence": 0.76
+        },
+        {
+          "text": "[Background movie audio]",
+          "timestamp": 234.2,
+          "confidence": 0.62
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.95,
+    "appropriatenessScore": 1,
+    "warnings": [],
+    "isMainLectureContent_confidence": 0.2,
+    "isSideConversation_confidence": 0.05,
+    "isIrrelevantContent_confidence": 0.75,
+    "isPartialResponse": false,
+    "expectedCompletionTime": 900,
+    "tags": [
+      "literature",
+      "shakespeare",
+      "romeo_and_juliet",
+      "film_analysis",
+      "comparative_analysis",
+      "high_school_english",
+      "dramatic_adaptation",
+      "media_literacy"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": true,
+    "summarization": "The teacher is initiating a comparative analysis activity for a literature class. Students are instructed to watch the 1996 film adaptation of \"Romeo and Juliet\" and compare it to the original Shakespearean text. The primary focus of the analysis is to observe and understand how the director utilizes modern settings and cinematic techniques to reinterpret the classic story.",
+    "recommendedSummarization": "concise",
+    "additionalSummarizationOptions": [
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "Students are watching the 1996 \"Romeo and Juliet\" movie to compare its modern adaptation with the original play, focusing on the director's use of contemporary settings."
+      },
+      {
+        "version": "detailed",
+        "comparativeValueToRecommendedModality": 0.85,
+        "text": "The lesson activity involves viewing Baz Luhrmann's 1996 film version of \"Romeo and Juliet.\" The teacher has directed the students to engage in a comparative study, contrasting the film's interpretation with the source text. A key point of analysis highlighted by the teacher is the director's choice to place the classic narrative within a modern context, encouraging students to consider the impact of this creative decision."
+      },
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "• Activity: Watch the 1996 film version of \"Romeo and Juliet\".\n• Goal: Compare the film adaptation to the original play text.\n• Key Focus: Analyze the director's use of modern settings for a classic story."
+      }
+    ],
+    "oneLineSummarization": "Students are watching the 1996 \"Romeo and Juliet\" film to analyze its modern adaptation in comparison to Shakespeare's original play.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "PROBLEM_SOLVING",
+        "relativeEffectivenessWeight": 0.95,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Your task is to analyze how a classic play is adapted into a modern film. Step 1: As you watch, identify at least three key scenes (e.g., the party, the balcony scene, the final duel). Step 2: For each scene, take notes on the director's choices regarding setting, costumes, music, and camera work. Step 3: Compare these choices directly to the equivalent scene in Shakespeare's written text. Step 4: Formulate a conclusion: Do these modern choices enhance or detract from the play's original themes?"
+      },
+      {
+        "effectiveness": "high",
+        "type": "SOCIAL",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "As you watch the film, prepare for a group discussion. Think about how you would answer the following questions: Did the modern setting make the story more or less powerful for you? Which character's portrayal was most different from how you imagined them while reading? Be ready to share a specific example from the film to support your opinion and discuss it with your peers after the movie."
+      },
+      {
+        "effectiveness": "high",
+        "type": "EXPERIENTIAL",
+        "relativeEffectivenessWeight": 0.8,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "Connect the film's themes of feuding families and forbidden love to modern-day examples you've seen in the news, other movies, or even your own community. How does director Baz Luhrmann's choice of a modern, gang-like setting for the Montagues and Capulets make these timeless conflicts feel more immediate and relatable to our world today? Consider how the director uses familiar elements like cars and cityscapes to bridge the 400-year gap."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "COMPARISON_MATRIX",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "HTML_INTERACTIVE",
+          "ANNOTATED_TEXT"
+        ],
+        "title": "Romeo & Juliet: Text vs. 1996 Film Analysis",
+        "reasonForSuggestion": "A structured comparison matrix is the most effective tool for this analytical task. It guides students to organize their observations systematically, ensuring they compare equivalent elements across both mediums.",
+        "promptForGeneration": "Create an interactive HTML table for a 10th-grade English class to compare Shakespeare's 'Romeo and Juliet' with the 1996 film. The table should have three columns: 'Literary/Cinematic Element', 'Shakespeare's Text (c. 1597)', and 'Baz Luhrmann's Film (1996)'. Create rows for the following elements: 'Setting', 'Prologue Delivery', 'Character Costumes', 'The Capulet Party', 'The Balcony Scene', and 'Mercutio's Death'. The cells in the second and third columns should be editable text areas for student input. Use a clean, modern font. The header row should be bold and have a light gray background."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherSuggestions": 0.85,
+        "coreType": "MERMAID_MINDMAP",
+        "otherCoreType": null,
+        "secondaryTypes": [],
+        "title": "Director's Choices in the 1996 Adaptation",
+        "reasonForSuggestion": "A mind map helps students visually cluster the director's specific creative choices, linking them back to the central goal of modernizing the play. It's excellent for brainstorming and seeing connections.",
+        "promptForGeneration": "Generate a Mermaid mindmap diagram for high school students analyzing the 1996 'Romeo and Juliet' film. The central node should be 'Modernizing Shakespeare'. Create three main branches: 1) 'Visual Style' with sub-nodes for 'Vibrant Colors', 'Quick-cut Editing', and 'Gang-style Costumes'. 2) 'Setting & Props' with sub-nodes for 'Verona Beach Setting', 'Swords as 'Sword' brand guns', and 'Gas Station Duel'. 3) 'Sound & Music' with sub-nodes for 'Modern Pop/Rock Soundtrack' and 'Newscast Prologue'. Use clear, concise labels."
+      }
+    ],
+    "purpose": "This activity teaches critical analysis and media literacy. By comparing the original text to a modern film adaptation, you learn how a core story can be reinterpreted through different artistic mediums. This develops your skill in identifying an artist's choices and understanding how those choices impact a story's theme, characters, and overall message.",
+    "motivation": "Have you ever thought a movie based on a book 'got it wrong' or 'did it better'? This is your chance to be the critic! You'll see how a director took a 400-year-old play and made it feel like a modern action movie. This shows that classic stories aren't just old words on a page; they're powerful tales that can be retold in exciting new ways, and you get to decide if the director's vision was successful.",
+    "learningValueScore": 0.7,
+    "availableActions": [
+      {
+        "actionLabel": "Compare Scenes",
+        "reason": "Provides a structured tool to help organize observations between the text and film.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Key Themes",
+        "reason": "Lists major themes like love, hate, and fate to track across both versions.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Director's Toolkit",
+        "reason": "Explains cinematic techniques (e.g., camera angles, soundtrack) to look for.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "recommendationsToTeacher": [
+      "Provide students with a guided viewing worksheet or a graphic organizer (like a T-chart or Venn diagram) to structure their note-taking during the film.",
+      "Pause the film at key moments (e.g., after the gas station fight or the balcony scene) to ask targeted questions about specific directorial choices, ensuring students remain focused on the analytical task.",
+      "Plan a follow-up Socratic seminar or a think-pair-share activity to allow students to discuss their comparisons and debate the effectiveness of the film adaptation."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:57:31.419Z",
+    "latencyMs": 39548,
+    "tokenUsage": {
+      "input": 7157,
+      "output": 2245,
+      "total": 11508
+    }
+  }
+}

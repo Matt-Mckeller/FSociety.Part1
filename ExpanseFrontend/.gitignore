@@ -1,0 +1,34 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Lower level .gitignore files are included
+node_modules
+notes/*
+apps/archive
+apps/archive/*
+
+# dependencies
+/node_modules
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# typescript
+*.tsbuildinfo
+
+# next.js
+.next
+
+# logging
+logs/
+/logs/
+
+.env*
+!.env.example
+/docs/*
+# Generated Veo clips - regenerable, too large for git
+/apps/command-center/public/films/*/

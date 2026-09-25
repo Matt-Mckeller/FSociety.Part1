@@ -1,0 +1,16 @@
+export const enum EXPANSE_PRIVACY_POLICY_SECTIONS {
+  COLLECTED_INFORMATION = "collected-information",
+  HOW_WE_USE_INFORMATION = "how-we-use-information",
+  DO_WE_SHARE_INFORMATION = "do-we-share-information",
+  COOKIES_AND_TRACKING = "cookies-and-tracking",
+  SOCAL_LOGINS = "social-logins",
+  HOW_LONG_DO_WE_KEEP_INFORMATION = "how-long-do-we-keep-information",
+  INFORMATION_SECURITY = "information-security",
+  INFORMATION_AND_MINORS = "information-and-minors",
+  PRIVACY_RIGHTS = "privacy-rights",
+  DO_NOT_TRACK = "do-not-track",
+  CALIFORNIA_PRIVACY_RIGHTS = "california-prviacy-rights",
+  NOTICE_UPDATES = "notice-updates",
+  CONTACT_US = "contact-us",
+  VIEWING_YOUR_DATA = "viewing-your-data",
+}

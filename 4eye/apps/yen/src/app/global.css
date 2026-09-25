@@ -1,0 +1,32 @@
+/*
+  Site-wide chrome that has to exist before any component mounts.
+
+  Kept minimal on purpose: the theme owns appearance, and this file is imported
+  by the root layout, so anything added here is downloaded by every route
+  including the lean documentation pages.
+*/
+
+/*
+  Skip link. The home page opens with a sticky find rail and the inner pages
+  with a back link and a record tab strip, so a keyboard or screen-reader
+  visitor tabbed through the same navigation on every page before reaching any
+  content. Visible only when focused.
+*/
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 100;
+  padding: 12px 18px;
+  background: #1c1917;
+  color: #fafaf9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  font-size: 14.5px;
+  font-weight: 650;
+  text-decoration: none;
+  border-bottom-right-radius: 8px;
+}
+
+.skip-link:focus {
+  left: 0;
+}

@@ -1,0 +1,967 @@
+{
+  "overview": {
+    "summary": "Field research case study from immersive observation at a low-engagement KCPS high school, documenting real challenges and informing product design.",
+    "context": "Spent months as a co-teacher observing English classrooms across different grade levels, taking detailed notes on engagement, mental health, social environments, teaching methods, and problems.",
+    "keyQuote": "Progress emerges when we tend to the shadows, not just celebrate the light.",
+    "privacyNote": "All student and staff names in this case study are pseudonyms. Observations are de-identified field notes, not education records."
+  },
+  "highlightGroups": [
+    {
+      "id": "attendance-movement",
+      "label": "Attendance & Hallways",
+      "summary": "Where students were, when they were not in class",
+      "items": [
+        "Hallway classrooms - students skipping entire classes to roam halls",
+        "Exceptionally large groups arriving hours late daily",
+        "Students traveling between classes, attending non-assigned classes"
+      ]
+    },
+    {
+      "id": "safety-conduct",
+      "label": "Safety & Conduct",
+      "summary": "Incidents that stopped learning for the whole room",
+      "items": [
+        "Fights and violence from boredom",
+        "Students being physically dragged from classrooms by peers",
+        "Teachers scared of students, reluctant to call parents"
+      ]
+    },
+    {
+      "id": "in-class-engagement",
+      "label": "In-Class Engagement",
+      "summary": "What students did instead of the assigned work",
+      "items": [
+        "Students watching Netflix/YouTube/games instead of working",
+        "FaceTime calls during class",
+        "Students ignoring teacher requests",
+        "Poor classroom management, students on floors"
+      ]
+    },
+    {
+      "id": "teaching-practice",
+      "label": "Teaching Practice",
+      "summary": "Instructional and motivational gaps observed in staff",
+      "items": [
+        "Teachers playing Netflix instead of teaching",
+        "Frustrated teachers who had given up hope",
+        "Disorganized teachers with confusing content",
+        "Mindset of 'punishment is the only thing that works on these kids'",
+        "Focus on auditory reinforcement without visual reminders or rewards",
+        "Unawareness that goals motivate people beyond just grades"
+      ]
+    },
+    {
+      "id": "curriculum-support",
+      "label": "Curriculum & Support Gaps",
+      "summary": "Structural mismatches between the system and the students",
+      "items": [
+        "Curriculum years ahead of actual student capabilities",
+        "Extreme knowledge gaps between students",
+        "High number of special education students being left behind",
+        "Damaging cultural lessons affecting mental health",
+        "Inadequate IT support and maintenance"
+      ]
+    }
+  ],
+  "concerns": [
+    {
+      "issue": "Systemic Blame",
+      "description": "People think poor engagement is only systemic - due to background and poverty - rather than looking deeper. Same students behaved entirely different from one class to another."
+    },
+    {
+      "issue": "Cultural Content Misuse",
+      "description": "Improper usage of culturally sensitive topics like slavery was frequently a concern. Example quote from teacher: 'One of the best ways to keep something from a black person is to put it in a book'"
+    },
+    {
+      "issue": "Fight Interest",
+      "description": "Nothing seemed more interesting than fights. Information spread via social media, texting, word of mouth. Students rushed out of classrooms to watch. Highly detrimental to engagement."
+    }
+  ],
+  "narratives": [
+    {
+      "id": "chance-to-thrive",
+      "title": "A Chance to Thrive",
+      "status": "written",
+      "sourceDoc": "narratives/a-chance-to-thrive.md",
+      "summary": "Highlights state of engagement through storytelling - a lone scholar trying to focus while classroom chaos surrounds them.",
+      "themes": [
+        "Engagement crisis",
+        "Teacher overwhelm",
+        "Student determination",
+        "Growth mindset"
+      ],
+      "narrative": [
+        "The classroom, at first glance, resembled a deserted space more than a learning environment — except for a lone scholar in a red sports jersey at the center of the room. Upon further inspection, the students could be found sprawled on the floor, lost in video calls, conversations, and the endless scroll of social media, oblivious to the overwhelmed teacher at the front. Yet the young scholar, armed with quiet determination to push forward, strained to focus on the lecture.",
+        "Despite their efforts, the teacher continued lecturing — each word drifting into a void of indifference, unheard and unanswered. In a desperate attempt to regain control, a student was sent from the room — a brief disruption before attention returned to screens and side conversations.",
+        "The sense of disconnect lingered in the air, heavy and unresolved.",
+        "As the bell rang, the teacher, visibly defeated, offered an apology to the student in red. The student met their gaze, offering a small shrug. “It’s tough for everyone right now. I get it. There’s always tomorrow.” — before limping out the door, their injured leg a visible reminder of their struggles both seen and unseen.",
+        "The teacher managed a faint smile, but their eyes lingered on the emptying classroom. How many dreams were being quietly set aside, how much potential left unrealized, in moments like these?"
+      ],
+      "keyMoment": "As the bell rang, the teacher offered an apology. The student met their gaze: 'It's tough for everyone right now. I get it. There's always tomorrow.' - limping out the door, their injured leg a visible reminder of struggles both seen and unseen.",
+      "symbolism": [
+        "Red sports jersey - the student is scholar and athlete; both forms of potential are being eroded",
+        "The injured leg - struggles both seen and unseen",
+        "Students on the floor, on screens - attention captured by everything except the lesson",
+        "Lecture drifting into indifference - over-reliance on auditory instruction"
+      ],
+      "craftNotes": [
+        "The main character is deliberately gender-neutral so any student can be seen in them",
+        "Neither student nor teacher understands the chaos around them - the failure is environmental, not personal",
+        "Reliance on lengthy, teacher-authored auditory material is shown rather than stated",
+        "Written to say what board members have been reluctant to admit, without assigning blame",
+        "Symbolic of the author's own childhood"
+      ],
+      "alternateScene": {
+        "title": "Difficulty Enacting Punishment",
+        "note": "A second true scene recorded in the same source document, showing the other side of the same failure - a teacher who cannot enforce a boundary.",
+        "narrative": [
+          "Winter break had just ended and a teacher returned to class hoping for improved engagement and behavior — a fresh start, having announced expectations before the extended break. The students immediately returned to their default behavior.",
+          "The teacher had had enough. Steam bursting from his ears, face as red as a tomato, he decided it was time to make an example. He had addressed the class as a whole multiple times: “I’ve had enough of your talking, rudeness — I’m trying to give a lesson and this has to stop,” followed by “I’m going to call security for real. I don’t want to, but I will do it!”",
+          "Picking out two students at the front of the class who kept talking, the teacher said “Leave the class.” The student refused, and instead moved to a different spot in the room. Stressed and anxious, armed with a desire to keep their job and improve the situation, the teacher’s voice trembled and their hands shook: “That’s it! I’m calling security!”",
+          "The teacher made their way to the phone and called security to request a student be removed. The students darted out before security could even arrive. The rest — still spread around the room on the floor, laying down, on their phones — commented: “Wow. Teacher actually did it.”",
+          "The teacher then commented about how they hadn’t wanted to do it but felt forced. Later in the class they began to feel guilty for pulling the trigger, and apologized directly to the student’s friend, and subtly to the class as a whole."
+        ]
+      },
+      "callToAction": "Depicts the dire need for solutions and information"
+    },
+    {
+      "id": "kidnapped-from-education",
+      "title": "Kidnapped From Education",
+      "alsoKnownAs": "The Bodyguards",
+      "status": "draft",
+      "statusNote": "Author's own assessment: writing quality is mediocre and the sequence is confusing. Clarify before external use.",
+      "sourceDoc": "narratives/kidnapped-from-education.md",
+      "summary": "Documents security failures and classroom disruptions - students being physically dragged from classrooms while security officers laugh.",
+      "themes": [
+        "Security failures",
+        "Classroom disruption",
+        "Teacher safety",
+        "Lost potential"
+      ],
+      "narrative": [
+        "There was a palpable tension in the third-floor hallway. Inside a classroom, a teacher began his lesson, a plea for twenty minutes of focused attention hanging in the air. The jammed printer denied him the paper copies the students preferred — a small but telling loss in a day of many. He needed to get through his presentation, not wanting to take up too much of “their time.”",
+        "The classroom door became a revolving portal. Students drifted in and out, some heading to the coat closet to grab their personal scents and spray them, oblivious to their disruption. Then came the dragging. Multiple students picked up a young girl by her hands and legs and dragged her out into the hallway. A security officer, present and observed by the students, laughed along with the others, underscoring their disregard for his presence. This wasn’t an isolated incident. The same officer had previously been seen playfully fighting with a student, blurring the lines between protector and participant.",
+        "Later, the teacher — armed with two students appearing as if they were his personal bodyguards — left the room to retrieve something. Meanwhile, I reflected on the fact that one of the students had mentioned she wished security would take their roles more seriously.",
+        "The teacher returned. A while later, the dragging happened again. And another student, hyped up by the activity, was seen crawling out of the classroom into the hallway, then returning with a scraped knee — a reminder of the damage done to their education.",
+        "At the end of class, the teacher, his face showing a clear recognition of my displeasure, acknowledged the day’s turmoil with a simple, “That was a bit much.” Later, in a conversation with the dean of culture — a man whom I wonder, is he blind to the chaos or fully aware of it? — I overheard the teacher offering a standard cover, pretending everything was fine, before I headed back downstairs to my room. It feels to me as if there is an unseen fear, a constant undercurrent of unease, which permeates the school but pools more heavily in certain areas. The students, deserving of a safe and nurturing learning environment, were instead subjected to a performance of chaos."
+      ],
+      "keyIssues": [
+        "Compromised learning environment - frequent disruption undermines engagement and progress",
+        "Teacher safety and support lacking - teachers rely on informal student relationships for order",
+        "Inadequate security practices - no clear protocols, inappropriate conduct with students",
+        "Lack of accountability - no effective hall pass system, no data tracking, expectations unenforced",
+        "Consequences of inaction - diminished potential, higher dropout risk, pervasive instability"
+      ],
+      "symbolism": [
+        "Teacher walking with students for protection - distrust in security",
+        "Student crawling - slow educational progress",
+        "Jammed printer - need for improved IT systems",
+        "Students moving between classes - need for hall pass systems and procedures",
+        "A student leaving for job training - potential stolen, opportunity lost",
+        "Fear, frustration, and teacher guilt at being unable to protect students"
+      ],
+      "craftNotes": [
+        "The title carries deliberate subtext - students 'kidnapped' from their education - written with care around sensitive historical reference",
+        "An experiment in supplying heavy detail to AI during drafting; the author flags it as possibly too much"
+      ],
+      "weightFactors": [
+        "Students moving class to class directly reduces engagement and learning",
+        "Teacher confidence drives engagement; room-to-room movement erodes their sense of control",
+        "Fights greatly disrupt engagement - frequency spiked before the winter break",
+        "Continuous hall-freeze announcements interrupt instruction",
+        "Continuous negativity degrades student mental health and worldview",
+        "Impact on engagement for these students is high - though targeted coteaching guidance is working"
+      ],
+      "provenance": {
+        "date": "2025-01-24",
+        "note": "The exact timing and order of the dragging incidents is uncertain. The author did not witness the officer's involvement in the hallway directly - that account came from students."
+      },
+      "callToAction": "Advocate for improved security processes, procedures, and training, backed by actionable movement data"
+    },
+    {
+      "id": "planting-roots",
+      "title": "Planting Roots - The Ascent",
+      "status": "concept",
+      "statusNote": "Concept only - no prose drafted yet. The one forward-looking story in the set.",
+      "sourceDoc": "narratives/planting-roots-the-ascent.md",
+      "summary": "A seed embarks on a journey to find the perfect environment to thrive. From searching for fertile soil to growing into a fruit-bearing plant, the narrative illustrates growth that nourishes and heals.",
+      "themes": [
+        "Discovering purpose",
+        "Healing and restoration",
+        "Overcoming adversity",
+        "Importance of knowledge and learning",
+        "Perseverance and resilience",
+        "Growth mindset",
+        "Struggle, triumph, and fulfillment",
+        "Positive reinforcement",
+        "Mental health"
+      ],
+      "symbolism": [
+        "A seed searching for fertile soil - a student searching for the right environment",
+        "Fruit-bearing growth - learning that goes on to nourish and heal others",
+        "Underdog rising to compete with the best"
+      ],
+      "keyMoment": "This story mirrors a personal journey: overcoming challenges, learning to focus, developing a love for learning, and empowering others.",
+      "callToAction": "This story is still unfolding. Interested in helping write the next chapter?"
+    },
+    {
+      "id": "light-at-the-end",
+      "title": "The Light at The End Of The Tunnel",
+      "status": "written",
+      "sourceDoc": "narratives/the-light-at-the-end-of-the-tunnel.md",
+      "summary": "A fight intervention scene depicting security response, environmental decay, and the path to transformation through patience and consistent encouragement.",
+      "themes": [
+        "Behavior redirection",
+        "Positive reinforcement",
+        "Environmental impact",
+        "Security role",
+        "Healing past trauma"
+      ],
+      "narrative": [
+        "I stood in front of my locked classroom door in the science hallway, waiting for security to let me in. As I waited I began to hear muffled sounds of anger and pent-up frustration drifting from the corner, voices creeping around it. As the figures came darting into view, I began to understand what was happening and gained a clearer perspective on the events unfolding in front of me.",
+        "A single student, overflowing with energy, chased a group through the middle of the hall, her screams echoing the force of her movement. Their fight and disruptive behavior drew the attention of every neighboring classroom.",
+        "The student, having a lengthy track record of engagements, encouraged quick activity. One, two, three — security moved in. The lead guard grabbed the aggressor and pinned her against the wall, about a fifth of the way down the hall. He readied his pepper spray, his hand wavering over the button, a surge of adrenaline accompanying the unwanted anticipation of its use. The other officers and teachers converged on the scene, managing the gathering crowd and directing them back to their designated areas.",
+        "The student remained pinned to the wall and looked to her left, the direction she’d come from. The wall was bare, marred by cracked paint and bite-sized holes — a testament to past struggles. To her right, the lockers: some bolted shut, others mangled beyond repair. That’s when she saw me. I raised the paper attendance sheets in my hands to cover my eyes from the pepper spray, just in case.",
+        "With time and patience, the lead guard’s consistent encouragement began to take hold. A flicker of understanding, and a hint of change appeared in her eyes. Her rush of excitement faded, her posture softened, and her breathing steadied. She was gently guided to a calmer space — one that offered a chance to regroup and begin again.",
+        "My door clicked open, and I stepped inside for my planning period, ready to devise plans for growing and healing the next generation. As I sat down, the weight of the morning’s events pressed on me. I knew that real change would require more than discipline — it would take positive reinforcement, leadership, and a system to help students redirect their energy and heal their pain.",
+        "I looked at the attendance sheets in my hands. Each name was a story, and each day was a chance to guide a student toward a brighter future. But these stories are not unique to one classroom; they are part of a much larger narrative that calls for systemic change and innovative solutions across our society and the world."
+      ],
+      "keyMoment": "A flicker of understanding, and a hint of change appeared in her eyes. Her rush of excitement faded, her posture softened, and her breathing steadied.",
+      "keyIssues": [
+        "Fighting from boredom and need for stimulation",
+        "Visual environment reflects past chaos (cracked paint, damaged lockers)",
+        "Security guards struggle with use of force decisions",
+        "Need for positive reinforcement over punishment"
+      ],
+      "symbolism": [
+        "Cracked paint and bite marks on her left - past trauma and emotional damage",
+        "Damaged lockers on her right - a potential future of confinement",
+        "Attendance sheets - each name is a story",
+        "The guard's hand wavering over the pepper spray - the internal struggle over using force",
+        "Muffled audio around the corner, clarity arriving with the visuals - auditory instruction carries less than visual"
+      ],
+      "craftNotes": [
+        "Sound is deliberately degraded until visuals enter the scene - the prose itself argues the case for visual over auditory communication",
+        "The student is placed physically between her past (left wall) and a possible future (right lockers)",
+        "Security is written as wanting to help rather than punish, to build empathy for officers as well as students",
+        "Symbolic of the author's own upbringing - punishment-heavy, rarely positively reinforced - and of finding goals as the way out"
+      ],
+      "callToAction": "Redirect the human appetite for competition and conflict into healthier outlets, backed by positive reinforcement and leadership"
+    }
+  ],
+  "personas": [
+    {
+      "id": "auditory-focus",
+      "name": "Auditory Focus Student",
+      "background": "Hard life, lost close friends, moved many times, been locked up before graduating high school",
+      "behaviors": [
+        "Often slept through class",
+        "Watched videos with speakers on",
+        "Refused written assignments"
+      ],
+      "whatWorked": "One-on-one dedicated time with questions asked verbally, him responding verbally, with answers written down for him",
+      "attributes": [
+        "Loud",
+        "High Energy",
+        "Loves exercise and sports",
+        "Confident"
+      ]
+    },
+    {
+      "id": "visual-focus",
+      "name": "Visual Focus Student",
+      "behaviors": [
+        "Typically refused work",
+        "Acknowledged understanding verbally but wrote something different"
+      ],
+      "whatWorked": "Walking through content visually - annotating, drawing connections, adding icons, writing demonstration content",
+      "problem": "Number of visual examples given by teacher: 0"
+    },
+    {
+      "id": "mental-health-parent",
+      "name": "Mental Health Student (Parent Call)",
+      "situation": "Student refusing assignments, parent called in class",
+      "observation": "Parent began threatening to beat the student. When parent came, the girl cried and cried.",
+      "lesson": "Punishment approach can be traumatic"
+    },
+    {
+      "id": "mental-health-writing",
+      "name": "Mental Health Student (Writing)",
+      "situation": "Given assignment, student chose to write about mental health struggles",
+      "insight": "Didn't feel comfortable talking to parents about mental health"
+    },
+    {
+      "id": "autistic-avoidant",
+      "name": "Autistic Student",
+      "situation": "Struggled to understand content but was really smart yet misunderstood",
+      "observation": "Frequently picked on by teacher who openly admitted she couldn't stand him. Student refused to come to class because of unfair treatment."
+    },
+    {
+      "id": "validation-impact",
+      "name": "Validation Impact Student",
+      "before": "Neglecting assignment, preferred to sit and do nothing",
+      "intervention": "Visiting him, asking understanding, giving example, guiding next step, validating response with smile and verbal confirmation",
+      "after": "Gained confidence to continue assignment AND took on leadership role to help classmates"
+    },
+    {
+      "id": "teacher-a",
+      "name": "Teacher A",
+      "situation": "Observed teacher with classroom management challenges, pursuing masters degree",
+      "behaviors": [
+        "Low self-confidence and high anxiety",
+        "Struggles with saying No",
+        "Initially used TV shows as lesson material",
+        "Eats lunch with students daily"
+      ],
+      "observation": "May struggle with mental health, potentially worsened by classroom challenges. Was making progress but experienced setbacks.",
+      "lesson": "Teachers need support through role-play scenarios, assertiveness training, and protected time for lesson planning. Physical exercise and reclaiming classroom authority could help."
+    },
+    {
+      "id": "student-a-special-ed",
+      "name": "Student A (Special Ed)",
+      "background": "Student at Lee Summit Central School for troubled students with special learning/attention needs",
+      "behaviors": [
+        "Super energetic, constantly talking",
+        "Disruptive but playful and apologetic",
+        "Excellent at crosswords (1/5 to 1/10 normal time)",
+        "Built Lego sets with narration",
+        "Acted out movies (Angry Birds)"
+      ],
+      "observation": "Needed medication but was smart and creative. Highly influenced by visual feedback. Only quiet when receiving physical comfort (back massage during group circle).",
+      "whatWorked": "Physical comfort, visual/hands-on activities, dedicated attention"
+    },
+    {
+      "id": "student-b-special-ed",
+      "name": "Student B (Special Ed)",
+      "background": "Very quiet student at Lee Summit Central, initially napped under desk",
+      "behaviors": [
+        "Very quiet initially",
+        "Napped under desk at start of day",
+        "Drew pictures when comfortable"
+      ],
+      "observation": "Warmed up significantly through collaborative art. When I added a tree to their truck drawing, they added land, road, and sky. Said 'I use nice words' at end of day.",
+      "whatWorked": "Collaborative art, patience, kind words, non-verbal activities to build connection"
+    }
+  ],
+  "teacherObservations": [
+    {
+      "issue": "Verbally Abusive/Demeaning",
+      "description": "Teacher made fun of students for wrong answers. Control maintained by insulting students rather than encouraging achievement."
+    },
+    {
+      "issue": "Varying Coteaching Roles",
+      "description": "Each classroom differed, roles had to be figured out with each teacher. Many problems with coteachers and teachers getting along."
+    },
+    {
+      "issue": "Teachers Without Formal Training",
+      "description": "Teachers that don't understand value of grades, goals, and combination of visual/verbal/kinesthetic information"
+    },
+    {
+      "issue": "Fear of Punishment",
+      "description": "Teachers scared to implement punishment, reluctant to call parents even though it worked"
+    }
+  ],
+  "lessonsLearned": [
+    "Higher need for teacher and staff education in this environment",
+    "Higher need for hall pass system that is actually implemented",
+    "Most application features should work in this environment",
+    "Security becomes more relevant in these schools",
+    "Too many fights - fighting becomes relevant data point",
+    "Special education students struggle even more with engagement",
+    "Need to consider special education status in reward calculations",
+    "Clarified ideal vs non-ideal market - product fits multiple markets",
+    "Marketing strategy varies at different engagement levels",
+    "Deeper understanding of teacher variety and factors impacting performance"
+  ],
+  "recommendations": [
+    {
+      "id": "bathroom-tags",
+      "title": "Bathroom Tags",
+      "description": "Large colored tags for each room as visible passes - makes hall pass usage immediately visible"
+    },
+    {
+      "id": "focus-music",
+      "title": "Focus Music",
+      "description": "Use instrumental music in classrooms, controlled by teachers or district - helps with attention and focus"
+    },
+    {
+      "id": "smaller-chunks",
+      "title": "Smaller Lesson Chunks",
+      "description": "Break content into smaller, more digestible pieces - improves comprehension and engagement"
+    },
+    {
+      "id": "visual-reinforcements",
+      "title": "Visual Reinforcements",
+      "description": "More signs, progress tracking for attendance, increased security presence, improved hall pass processes"
+    },
+    {
+      "id": "social-segments",
+      "title": "Social Activity Structure",
+      "description": "Breaking classes into multiple segments benefits behavior and social learning"
+    },
+    {
+      "id": "daily-expectations",
+      "title": "Daily Reiteration of Classroom Expectations",
+      "description": "Have students read classroom expectations daily and consistently uphold them"
+    }
+  ],
+  "thingsWentWell": [
+    {
+      "observation": "Social Engagement",
+      "description": "Classes being broken down into sections with opportunity for social discussion among classmates"
+    },
+    {
+      "observation": "Daily Rule Reading",
+      "description": "Picking a student to point out and read a classroom rule(s) daily"
+    },
+    {
+      "observation": "Coteacher Role",
+      "description": "Being able to observe the classroom, learn from, and give feedback to the named classroom teacher"
+    },
+    {
+      "observation": "StudySync Engagement",
+      "description": "Students who were disengaged with blanket assignments were more actively engaged with StudySync work"
+    },
+    {
+      "observation": "Physical Activity Outlets",
+      "description": "Stand, stretch, circular motions with shoulders, get a drink - potentially part of brain breaks"
+    }
+  ],
+  "additionalObservations": [
+    {
+      "observation": "Reading Intervention Success",
+      "description": "Content adjusts to student capabilities, is self-paced, and broken into manageable chunks. Most students improve and test out."
+    },
+    {
+      "observation": "Creative Outlets Help",
+      "description": "Classes like English and music often have better behavior, possibly due to creative outlets"
+    },
+    {
+      "observation": "Dojo App Usage",
+      "description": "Some schools use apps like ClassDojo for rewards and positive reinforcement"
+    },
+    {
+      "observation": "IEP Awareness Gap",
+      "description": "Teachers are often unaware of students' IEPs and how to support them"
+    },
+    {
+      "observation": "Book Selection Issues",
+      "description": "Limited book variety, students may choose books above their level to avoid embarrassment"
+    },
+    {
+      "observation": "Technology Usage",
+      "description": "Good use of phones for accessing Google Classroom, but some IT support gaps"
+    }
+  ],
+  "observationStyle": {
+    "approach": "Unknown variable whom seems trusted, with whom people are honest and open",
+    "notes": [
+      "Level of trust grows with time",
+      "Involvement with special needs students enabled additional insight",
+      "What is seen tells more than what is said",
+      "Mistakes and problems reveal even more",
+      "Time for reflection and planning is important"
+    ]
+  },
+  "events": [
+    {
+      "id": "kcps-southeast-high",
+      "date": "2024-Q4",
+      "location": "Southeast High School, KCPS",
+      "schoolType": "high",
+      "title": "Multi-Month Immersive Observation",
+      "summary": "Spent months as a co-teacher observing English classrooms across different grade levels at a low-engagement KCPS high school, documenting engagement, mental health, social environments, teaching methods, and systemic problems.",
+      "keyLearnings": [
+        "Same students behaved entirely different from one class to another",
+        "Teachers scared to implement punishment or call parents",
+        "Fights are highly disruptive and spread via social media",
+        "Visual communication severely underutilized",
+        "Students skip classes due to boredom and toxic teacher relationships",
+        "Special education students struggle even more with engagement",
+        "Reading intervention programs with self-paced content work well"
+      ],
+      "questionsRaised": [
+        "How to balance district curriculum with actual student capabilities?",
+        "How to improve security protocols without creating prison-like environment?",
+        "What role can technology play in visual reinforcement?"
+      ]
+    },
+    {
+      "id": "border-star-elementary",
+      "date": "2024-12-10",
+      "location": "Border Star Montessori, KC",
+      "schoolType": "montessori",
+      "title": "Elementary Montessori Substitute Day",
+      "summary": "First elementary school and Montessori experience. Multi-grade classroom (1st, 2nd, 3rd) with varying student levels and a paraprofessional absence created significant challenges.",
+      "timeline": [
+        { "phase": "Arrival", "description": "Found classroom with janitor's help, located lesson plans in folder for multi-month maternity leave" },
+        { "phase": "Breakfast", "description": "Sugary muffins and pop tarts distributed, students well-rehearsed on cleanup" },
+        { "phase": "Computer Lab", "description": "Trip down hall to computer lab" },
+        { "phase": "Teacher Discussion", "description": "Confusion about iReady testing - subs cannot administer these tests" },
+        { "phase": "Math Crisis", "description": "Three grade levels on different chapters, students refused math, individual progress gaps discovered" },
+        { "phase": "Recess", "description": "Ball argument quickly resolved by another teacher" },
+        { "phase": "After Recess", "description": "Emergency lesson plans distributed, eventually shifted to iPad usage" },
+        { "phase": "Dismissal", "description": "Smooth bus and pickup process" }
+      ],
+      "keyLearnings": [
+        "Multi-grade classrooms create significant teaching complexity",
+        "Students at different points even within same grade level",
+        "Classroom management techniques needed every 20-30 minutes",
+        "Should have used buddy room system for disruptive students",
+        "Time management with individual students is critical",
+        "Peer tutoring could keep advanced students engaged"
+      ],
+      "questionsRaised": [
+        "Are elementary students motivated by leaderboards/rankings?",
+        "How to manage students who finish early without causing jealousy?",
+        "How to balance individual attention without disrupting class flow?"
+      ],
+      "studentsObserved": [
+        {
+          "name": "Student G (Elementary)",
+          "behaviors": ["Visibly stressed about work", "Behind on basics including reading and vocabulary", "Required significant 1:1 attention"],
+          "insights": ["Other students became resentful when they received attention", "Struggled with written letter assignments", "Usually worked on simple books or iPad apps"],
+          "whatWorked": "Suggesting they read books instead, though this caused other students to want alternatives too"
+        },
+        {
+          "name": "Students H, I & J",
+          "behaviors": ["Louder and more mobile than others", "Resistant to work", "Contributed to overall disruption"],
+          "insights": ["Should have utilized buddy room system", "Needed earlier intervention"]
+        }
+      ]
+    },
+    {
+      "id": "lee-summit-special-ed",
+      "date": "2024-12",
+      "location": "Lee Summit Central School",
+      "schoolType": "special-ed",
+      "title": "Special Education Observation Day",
+      "summary": "A special education classroom at a school for troubled students and those with special learning/attention needs. Provided unique insights into diverse learning needs and brain development variables.",
+      "keyLearnings": [
+        "Physical comfort (back massage) helped one student stop constant interrupting",
+        "Visual scanning abilities can coexist with attention problems",
+        "Quiet students may warm up significantly over time with patience",
+        "Coloring inside lines is an indicator of fine motor development",
+        "Students crave attention and validation",
+        "Collaborative art activities build connection"
+      ],
+      "studentsObserved": [
+        {
+          "name": "Student A",
+          "behaviors": ["Super energetic", "Constantly talking and interrupting", "Disruptive but playful and apologetic", "Good at crosswords (1/5 to 1/10 normal time)", "Acted out Angry Birds movie", "Built SpongeBob Lego set with narration"],
+          "insights": ["Needed medication but was smart and creative", "Highly influenced by visual feedback, facial expressions, clothes", "Excellent visual scanning abilities", "Mood problems present", "Only quiet when receiving physical comfort (back massage)"],
+          "whatWorked": "Physical comfort during group circle, visual/hands-on activities"
+        },
+        {
+          "name": "Student B",
+          "behaviors": ["Very quiet", "Napped under desk at start", "Drew a picture of a truck"],
+          "insights": ["Warmed up over collaborative drawing activity", "Added land, road, and sky when I added a tree to their picture", "Said 'I use nice words' at end of day"],
+          "whatWorked": "Collaborative art, patience, kind words"
+        },
+        {
+          "name": "Student C",
+          "behaviors": ["Many mood outbursts throughout day", "Emotional overwhelm with homework"],
+          "insights": ["Student A picked on them during outbursts and admitted they 'just like doing it'", "Wanted attention like other students"]
+        },
+        {
+          "name": "Student D",
+          "behaviors": ["Wanted attention"],
+          "insights": ["Engaged well with visual scanning/finding pieces game"],
+          "whatWorked": "Visual scanning games, dedicated attention"
+        },
+        {
+          "name": "Student E (Special Ed)",
+          "behaviors": ["Sweet and fun", "Very distractible", "Randomly got up to mess with others", "Tried to insert themselves into conversations"],
+          "insights": ["Knew shapes and colors auditorially and visually", "Struggled with letters", "Was improving and liked to draw"],
+          "whatWorked": "Working through homework together, drawing activities"
+        },
+        {
+          "name": "Student F",
+          "behaviors": ["Was removed from class"],
+          "insights": ["Did not get opportunity to observe"]
+        }
+      ]
+    }
+  ],
+  "classroomManagement": [
+    {
+      "id": "daily-report",
+      "strategy": "Daily Report Writing",
+      "schoolLevel": ["elementary", "middle", "high"],
+      "description": "Write a report at the end of the day summarizing events and leave notes for the teacher",
+      "effectiveness": "high"
+    },
+    {
+      "id": "name-on-board",
+      "strategy": "Name on Board",
+      "schoolLevel": ["elementary", "middle"],
+      "description": "Public accountability by writing disruptive students' names on the board",
+      "effectiveness": "medium"
+    },
+    {
+      "id": "positive-discipline",
+      "strategy": "Positive Discipline & Rewards",
+      "schoolLevel": ["elementary", "middle", "high"],
+      "description": "Focus on rewards rather than punishment - rewards create lasting behavioral change",
+      "effectiveness": "high"
+    },
+    {
+      "id": "report-threats",
+      "strategy": "Teacher Report Threats",
+      "schoolLevel": ["high"],
+      "description": "Threats of good or bad reports to the teacher can motivate high school students",
+      "effectiveness": "medium"
+    },
+    {
+      "id": "office-referral",
+      "strategy": "Office Referral / Officer Call",
+      "schoolLevel": ["middle", "high"],
+      "description": "Send to office or call officer for serious disruptions",
+      "effectiveness": "medium"
+    },
+    {
+      "id": "recess-adjustment",
+      "strategy": "Recess Time Adjustment",
+      "schoolLevel": ["elementary"],
+      "description": "Add or subtract minutes from recess based on behavior",
+      "effectiveness": "high"
+    },
+    {
+      "id": "candy-rewards",
+      "strategy": "Candy Rewards",
+      "schoolLevel": ["elementary"],
+      "description": "Tangible treats as immediate positive reinforcement",
+      "effectiveness": "high"
+    },
+    {
+      "id": "lights-off",
+      "strategy": "Lights Off Technique",
+      "schoolLevel": ["elementary", "middle"],
+      "description": "Turn off lights to signal need for attention and quiet",
+      "effectiveness": "medium"
+    },
+    {
+      "id": "clapping-patterns",
+      "strategy": "Clapping Patterns",
+      "schoolLevel": ["elementary", "middle"],
+      "description": "Use rhythmic clapping to regain attention",
+      "effectiveness": "medium"
+    },
+    {
+      "id": "call-response",
+      "strategy": "Call-and-Response",
+      "schoolLevel": ["elementary", "middle"],
+      "description": "'Class, Class' style call-and-response to get attention",
+      "effectiveness": "medium"
+    },
+    {
+      "id": "breathing-exercises",
+      "strategy": "Breathing Exercises",
+      "schoolLevel": ["elementary", "middle", "high"],
+      "description": "Quick breathing exercises and quiet time to reset energy",
+      "effectiveness": "medium"
+    },
+    {
+      "id": "buddy-room",
+      "strategy": "Buddy Room System",
+      "schoolLevel": ["elementary", "middle"],
+      "description": "Send disruptive students to another classroom temporarily",
+      "effectiveness": "high"
+    }
+  ],
+  "engagementInsights": [
+    {
+      "id": "visual-guides",
+      "category": "enablers",
+      "insight": "Visual guides and examples remove difficulty and improve engagement significantly",
+      "evidence": "Students who received visual annotations and demonstrations completed work; those with verbal-only instruction struggled"
+    },
+    {
+      "id": "small-steps",
+      "category": "enablers",
+      "insight": "Breaking content into small steps and providing examples makes it accessible",
+      "evidence": "Overwhelming math assignments led to refusal; chunked content improved participation"
+    },
+    {
+      "id": "difficulty-barrier",
+      "category": "barriers",
+      "insight": "Difficulty understanding requirements adds barriers to engagement",
+      "evidence": "Confusing teacher-made content caused students to think it was their fault they didn't understand"
+    },
+    {
+      "id": "reading-calming",
+      "category": "resets",
+      "insight": "Reading sessions can be calming and tiring, resetting energy levels",
+      "evidence": "Students after short assignment and 10 minute reading did not participate in brain break phone time"
+    },
+    {
+      "id": "stimulation-focus",
+      "category": "enablers",
+      "insight": "Stimulating content (loud music, surprises) can increase focus and energy",
+      "evidence": "Loud music and surprising elements got students pumped up and focused"
+    },
+    {
+      "id": "resource-resets",
+      "category": "resets",
+      "insight": "Activities that reset the resource pool help: Gym, Music, Reading, Meditation, Snacks, Brain breaks",
+      "evidence": "Physical activity outlets (stand, stretch, get drink) helped with behavior"
+    },
+    {
+      "id": "universal-interests",
+      "category": "interests",
+      "insight": "Universal student interests: Games, Sports, Social Media, Music, Family, Money, Drama, Fights",
+      "evidence": "Nothing seemed more interesting than fights; information spread rapidly via social media"
+    },
+    {
+      "id": "gender-interests",
+      "category": "interests",
+      "insight": "Girls liked cosmetics and video calls; Boys liked sports, shooters, and general games",
+      "evidence": "Observed during unstructured time and content preferences"
+    },
+    {
+      "id": "short-form-video",
+      "category": "enablers",
+      "insight": "Short form videos engage students effectively",
+      "evidence": "Students more engaged with StudySync work than blanket assignments"
+    },
+    {
+      "id": "validation-impact",
+      "category": "enablers",
+      "insight": "Recognition and validation transforms behavior - students gain confidence and become leaders",
+      "evidence": "Student who received smile and verbal confirmation gained confidence to complete assignment AND help classmates"
+    },
+    {
+      "id": "fight-interest",
+      "category": "barriers",
+      "insight": "Fights are more captivating than any content; information spreads rapidly and disrupts entire school",
+      "evidence": "Students rushed out of classrooms to watch fights; even teachers were interested in hearing results"
+    },
+    {
+      "id": "purpose-lacking",
+      "category": "barriers",
+      "insight": "Students lack understanding of purpose - 'When am I ever going to need this?'",
+      "evidence": "Commonly expressed frustration about relevance of content"
+    },
+    {
+      "id": "creative-outlets",
+      "category": "enablers",
+      "insight": "Classes with creative outlets (English, Music) often have better behavior",
+      "evidence": "Observed better engagement in creative vs purely academic settings"
+    },
+    {
+      "id": "social-segments",
+      "category": "enablers",
+      "insight": "Breaking classes into sections with social discussion opportunity benefits behavior",
+      "evidence": "Social engagement segments improved overall class behavior"
+    },
+    {
+      "id": "daily-expectations",
+      "category": "enablers",
+      "insight": "Having students read classroom expectations daily and consistently upholding them works",
+      "evidence": "Teachers who did this had better classroom control"
+    }
+  ],
+  "improvementRecommendations": [
+    {
+      "id": "rewards-focus",
+      "title": "Reward Systems & Positive Reinforcement",
+      "description": "Shift focus from punishment to rewards and positive reinforcement for attendance, behavior, and engagement",
+      "budgetTier": "$",
+      "priority": "high",
+      "category": "rewards"
+    },
+    {
+      "id": "info-displays",
+      "title": "Informational Displays",
+      "description": "More signs, progress tracking for attendance, visual reminders of expectations",
+      "budgetTier": "$",
+      "priority": "medium",
+      "category": "environment"
+    },
+    {
+      "id": "bathroom-tags",
+      "title": "Bathroom Tags",
+      "description": "Large colored tags for each room as visible passes - makes hall pass usage immediately visible",
+      "budgetTier": "$",
+      "priority": "medium",
+      "category": "security"
+    },
+    {
+      "id": "it-equipment",
+      "title": "IT Equipment (Laptops & Chargers)",
+      "description": "Provide backup laptops and chargers in classrooms to prevent IT gaps",
+      "budgetTier": "$$",
+      "priority": "high",
+      "category": "it"
+    },
+    {
+      "id": "paint-color",
+      "title": "Paint and Color Improvements",
+      "description": "Improving paint combinations along with other interior improvements such as student art",
+      "budgetTier": "$$",
+      "priority": "medium",
+      "category": "environment"
+    },
+    {
+      "id": "focus-music",
+      "title": "Focus Music",
+      "description": "Use instrumental music in classrooms, controlled by teachers or district - helps with attention and focus",
+      "budgetTier": "$",
+      "priority": "medium",
+      "category": "environment"
+    },
+    {
+      "id": "lighting",
+      "title": "Lighting Improvements",
+      "description": "Better lighting to improve environment and reduce fatigue",
+      "budgetTier": "$$$",
+      "priority": "medium",
+      "category": "environment"
+    },
+    {
+      "id": "locker-repair",
+      "title": "Locker Repairs",
+      "description": "Fix damaged lockers - current state serves as visual reminder of past chaos",
+      "budgetTier": "$$$",
+      "priority": "low",
+      "category": "environment"
+    },
+    {
+      "id": "remodels",
+      "title": "High-Level Remodels",
+      "description": "Funding for design and structural improvements, potentially using improvements as rewards for student teams",
+      "budgetTier": "$$$$",
+      "priority": "low",
+      "category": "environment"
+    },
+    {
+      "id": "security-training",
+      "title": "Security Training",
+      "description": "Training for security on proper protocols, professionalism, and effective student interaction",
+      "budgetTier": "unknown",
+      "priority": "high",
+      "category": "security"
+    },
+    {
+      "id": "security-protocols",
+      "title": "Improved Security Protocols",
+      "description": "Stricter standards with more guidance - officers should be symbols of stability and safety, not participants in chaos",
+      "budgetTier": "$",
+      "priority": "high",
+      "category": "security"
+    },
+    {
+      "id": "teacher-training",
+      "title": "Teacher Education & Training",
+      "description": "Role-playing for punishment scenarios, classroom management, assertiveness training",
+      "budgetTier": "$$",
+      "priority": "high",
+      "category": "training"
+    },
+    {
+      "id": "leadership-presence",
+      "title": "More Leadership Presence",
+      "description": "Increase visible leadership involvement from principals, VPs, and district",
+      "budgetTier": "$",
+      "priority": "high",
+      "category": "leadership"
+    },
+    {
+      "id": "phone-ban",
+      "title": "Temporary Phone Ban",
+      "description": "Ban phone usage temporarily to regain control, with reinstatement as reward for improved behavior",
+      "budgetTier": "$",
+      "priority": "medium",
+      "category": "it"
+    },
+    {
+      "id": "assigned-seating",
+      "title": "Assigned Seating Enforcement",
+      "description": "Implement and consistently enforce assigned seating to support classroom management",
+      "budgetTier": "$",
+      "priority": "high",
+      "category": "training"
+    }
+  ],
+  "specialEdInsights": [
+    {
+      "id": "physical-comfort",
+      "observation": "Physical comfort (back massage) was the only thing that stopped constant interrupting during group circle",
+      "student": "Student A",
+      "implication": "Tactile input can be calming for students who struggle with verbal self-regulation"
+    },
+    {
+      "id": "visual-scanning",
+      "observation": "Excellent visual scanning abilities coexisted with attention/focus problems",
+      "student": "Student A",
+      "implication": "Strengths in one cognitive area don't predict abilities in others - need individualized assessment"
+    },
+    {
+      "id": "collaborative-art",
+      "observation": "Quiet students warmed up through collaborative art activities",
+      "student": "Student B",
+      "implication": "Non-verbal activities can build connection before verbal communication is comfortable"
+    },
+    {
+      "id": "kind-words-impact",
+      "observation": "Student noticed and commented on kind words at end of day",
+      "student": "Student B",
+      "implication": "Positive language has lasting impact even on seemingly disengaged students"
+    },
+    {
+      "id": "mood-outbursts",
+      "observation": "Homework and academic challenges triggered emotional overwhelm",
+      "student": "Student C",
+      "implication": "Academic frustration and emotional regulation are interconnected - need support for both"
+    },
+    {
+      "id": "attention-seeking",
+      "observation": "Multiple students displayed attention-seeking behaviors",
+      "implication": "Systematic attention distribution prevents negative attention-seeking"
+    },
+    {
+      "id": "motor-skills",
+      "observation": "Ability to color inside lines was an indicator of fine motor development",
+      "implication": "Simple activities can serve as informal assessments"
+    },
+    {
+      "id": "auditory-visual-split",
+      "observation": "Student knew shapes and colors auditorially and visually but struggled with letters",
+      "student": "Student E (Special Ed)",
+      "implication": "Different symbolic systems (shapes vs letters) may develop at different rates"
+    }
+  ],
+  "brainDevelopmentVariables": [
+    { "id": "verbal-comm", "name": "Verbal Communication", "observations": ["Some students excelled verbally but struggled with written expression"] },
+    { "id": "nonverbal-comm", "name": "Nonverbal Communication", "observations": ["Body language and facial expressions highly influential"] },
+    { "id": "patterns-shapes", "name": "Patterns and Shapes", "observations": ["Recognition varied significantly between students"] },
+    { "id": "colors", "name": "Colors", "observations": ["Generally well-developed even in struggling students"] },
+    { "id": "speech", "name": "Speech", "observations": ["Processing speed varied"] },
+    { "id": "math-problem-solving", "name": "Math and Problem Solving", "observations": ["Crossword puzzle completion times varied 5-10x between students"] },
+    { "id": "memory-ram", "name": "Memory and Working Memory", "observations": ["Some students needed constant reminders"] },
+    { "id": "sequences", "name": "Sequences", "observations": ["Following multi-step instructions challenging for some"] },
+    { "id": "sizes", "name": "Size Concepts", "observations": ["Relative size understanding varied"] },
+    { "id": "directions", "name": "Directions", "observations": ["Left/right and spatial concepts challenged some students"] },
+    { "id": "motor-skills", "name": "Motor Skills", "observations": ["Fine motor shown in coloring inside lines"] },
+    { "id": "processing-speed", "name": "Processing Speed", "observations": ["Wide variation in completing similar tasks"] },
+    { "id": "reading", "name": "Reading", "observations": ["Drastic learning gaps - some high schoolers at pre-5th grade levels"] },
+    { "id": "visual-scanning", "name": "Visual Scanning", "observations": ["Some students exceptionally fast at finding/matching"] },
+    { "id": "emotions", "name": "Emotional Regulation", "observations": ["Mood outbursts, frustration management varied widely"] },
+    { "id": "stimulation", "name": "Stimulation and Excitement", "observations": ["Different thresholds for engagement"] },
+    { "id": "motivation", "name": "Motivational", "observations": ["Goals and rewards affected students differently"] },
+    { "id": "social", "name": "Social Preferences", "observations": ["Some thrived in groups, others needed isolation"] }
+  ],
+  "stateOfEducation": {
+    "headline": "The State of Education",
+    "subtitle": "This isn't one school's failure. It's the system's.",
+    "statements": [
+      "Teachers are alone in rooms built for compliance, not learning.",
+      "Kids fall through cracks the schedule was never designed to close.",
+      "Security responds to fights the environment provoked in the first place.",
+      "\"Individualized attention\" means one adult and thirty kids competing for it.",
+      "Every budget conversation is about buildings. None of them are about people.",
+      "The kids who need the most support get the least consistent adults."
+    ],
+    "closingStatement": "We didn't build Expanse because a classroom was broken. We built it because the system around that classroom never gave anyone a chance to fix it."
+  }
+}

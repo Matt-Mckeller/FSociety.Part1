@@ -1,0 +1,56 @@
+{
+  "name": "four-eye",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@10.29.2",
+  "workspaces": [
+    "apps/*",
+    "apps/labs/*",
+    "packages/@expanse/*",
+    "packages/@4eye/*"
+  ],
+  "scripts": {
+    "dev": "docker compose up",
+    "dev:api": "npm run dev --workspace=apps/api",
+    "dev:web": "npm run dev --workspace=apps/labs/4eye-sampling",
+    "dev:yen": "npm run dev --workspace=apps/yen",
+    "dev:mockup": "npm run dev --workspace=apps/4eye-web-mockup",
+    "dev:mobile": "npm run start --workspace=apps/labs/4eye-mobile",
+    "build": "npm run build --workspace=apps/api && npm run build --workspace=apps/labs/4eye-sampling",
+    "build:yen": "npm run build --workspace=apps/yen",
+    "deploy:yen": "bash docker/deploy-yen-cloudrun.sh all",
+    "deploy:yen:build": "bash docker/deploy-yen-cloudrun.sh build",
+    "deploy:yen:release": "bash docker/deploy-yen-cloudrun.sh release",
+    "deploy:yen:media": "bash docker/deploy-yen-cloudrun.sh media",
+    "lint": "npm run lint --workspaces --if-present",
+    "depcruise": "depcruise --config .dependency-cruiser.cjs --no-progress packages/@expanse/map/src packages/@expanse/shell/src packages/@expanse/hud/src packages/@expanse/theme/src packages/@expanse/ui/src",
+    "test": "npm run test --workspaces --if-present",
+    "db:migrate": "npm run migration:run --workspace=apps/api",
+    "db:seed": "npm run seed --workspace=apps/api"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "dependencies": {
+    "zod": "^4.3.6"
+  },
+  "pnpm": {
+    "overrides": {
+      "@types/react": "18.3.28",
+      "@types/react-dom": "18.3.7",
+      "@mui/material": "9.0.1",
+      "@mui/system": "9.0.1",
+      "@mui/icons-material": "9.0.1",
+      "@mui/utils": "9.0.1",
+      "@mui/private-theming": "9.0.1",
+      "@mui/styled-engine": "9.0.0",
+      "@mui/types": "9.0.0"
+    },
+    "patchedDependencies": {
+      "@mui/material@9.0.1": "patches/@mui__material@9.0.1.patch"
+    }
+  },
+  "devDependencies": {
+    "dependency-cruiser": "^17.4.3"
+  }
+}

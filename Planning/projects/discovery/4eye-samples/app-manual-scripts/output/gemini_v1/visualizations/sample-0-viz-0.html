@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Road to Revolution: A Timeline of Events</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(to bottom, #f4e8d8 0%, #e8d5b7 100%);
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #faf6f0;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            border: 3px solid #8b7355;
+        }
+
+        h1 {
+            text-align: center;
+            color: #3d2817;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #6b5544;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+
+        .timeline {
+            position: relative;
+            padding: 40px 0;
+        }
+
+        .timeline-line {
+            position: absolute;
+            top: 80px;
+            left: 50px;
+            right: 50px;
+            height: 4px;
+            background: linear-gradient(to right, #8b4513, #d2691e, #8b4513);
+            z-index: 1;
+        }
+
+        .timeline-events {
+            position: relative;
+            z-index: 2;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 50px;
+        }
+
+        .event {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            cursor: pointer;
+            transition: transform 0.3s;
+        }
+
+        .event:hover {
+            transform: translateY(-5px);
+        }
+
+        .event-marker {
+            width: 30px;
+            height: 30px;
+            background: #8b4513;
+            border: 4px solid #faf6f0;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            transition: all 0.3s;
+        }
+
+        .event:hover .event-marker {
+            background: #d2691e;
+            transform: scale(1.2);
+        }
+
+        .event-date {
+            font-weight: bold;
+            color: #3d2817;
+            margin-bottom: 5px;
+            font-size: 1.1em;
+        }
+
+        .event-title {
+            font-size: 0.95em;
+            color: #5d4a3a;
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .event-details {
+            display: none;
+            background: white;
+            border: 2px solid #8b4513;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+        }
+
+        .event-details.active {
+            display: block;
+            animation: fadeIn 0.3s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .event-details h3 {
+            color: #3d2817;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #d2691e;
+            padding-bottom: 5px;
+        }
+
+        .event-details p {
+            color: #5d4a3a;
+            line-height: 1.6;
+        }
+
+        .arrow {
+            font-size: 2em;
+            color: #8b4513;
+            align-self: center;
+            margin-top: 10px;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #8b4513;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            cursor: pointer;
+            font-size: 1.2em;
+            line-height: 1;
+        }
+
+        .close-btn:hover {
+            background: #d2691e;
+        }
+
+        @media (max-width: 768px) {
+            .timeline-events {
+                flex-direction: column;
+                padding: 0 20px;
+            }
+
+            .timeline-line {
+                left: 30px;
+                right: auto;
+                width: 4px;
+                height: 100%;
+                top: 0;
+                background: linear-gradient(to bottom, #8b4513, #d2691e, #8b4513);
+            }
+
+            .event {
+                flex-direction: row;
+                align-items: flex-start;
+                margin-bottom: 30px;
+            }
+
+            .event-marker {
+                margin-right: 20px;
+                margin-bottom: 0;
+            }
+
+            .arrow {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🏛️ Road to Revolution 🏛️</h1>
+        <p class="subtitle">A Timeline of Events Leading to American Independence</p>
+
+        <div class="timeline">
+            <div class="timeline-line"></div>
+            <div class="timeline-events">
+                <div class="event" onclick="toggleEvent(0)">
+                    <div class="event-marker"></div>
+                    <div class="event-date">1773</div>
+                    <div class="event-title">The Tea Act</div>
+                </div>
+
+                <span class="arrow">→</span>
+
+                <div class="event" onclick="toggleEvent(1)">
+                    <div class="event-marker"></div>
+                    <div class="event-date">Dec 1773</div>
+                    <div class="event-title">Boston Tea Party</div>
+                </div>
+
+                <span class="arrow">→</span>
+
+                <div class="event" onclick="toggleEvent(2)">
+                    <div class="event-marker"></div>
+                    <div class="event-date">1774</div>
+                    <div class="event-title">Intolerable Acts</div>
+                </div>
+
+                <span class="arrow">→</span>
+
+                <div class="event" onclick="toggleEvent(3)">
+                    <div class="event-marker"></div>
+                    <div class="event-date">Sept 1774</div>
+                    <div class="event-title">First Continental Congress</div>
+                </div>
+
+                <span class="arrow">→</span>
+
+                <div class="event" onclick="toggleEvent(4)">
+                    <div class="event-marker"></div>
+                    <div class="event-date">April 1775</div>
+                    <div class="event-title">Battles of Lexington & Concord</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="event-0" class="event-details">
+            <button class="close-btn" onclick="closeEvent(0)">×</button>
+            <h3>The Tea Act (1773)</h3>
+            <p>The British Parliament passed the Tea Act, granting the British East India Company a monopoly on tea sales in the American colonies. This act was one of many that imposed taxation without colonial representation, fueling growing resentment among the colonists.</p>
+        </div>
+
+        <div id="event-1" class="event-details">
+            <button class="close-btn" onclick="closeEvent(1)">×</button>
+            <h3>Boston Tea Party (December 1773)</h3>
+            <p>Colonists dressed as Native Americans and threw 342 chests of tea into Boston Harbor, worth about $1.7 million in today's money. This was a direct protest against the Tea Act and became one of the most iconic acts of colonial resistance.</p>
+        </div>
+
+        <div id="event-2" class="event-details">
+            <button class="close-btn" onclick="closeEvent(2)">×</button>
+            <h3>The Intolerable Acts (1774)</h3>
+            <p>Also known as the Coercive Acts, these laws were meant to punish Massachusetts for the Boston Tea Party. They closed Boston Harbor until the tea was paid for, restricted town meetings, and required colonists to house British soldiers. Instead of intimidating the colonists, these acts united them against British rule.</p>
+        </div>
+
+        <div id="event-3" class="event-details">
+            <button class="close-btn" onclick="closeEvent(3)">×</button>
+            <h3>First Continental Congress (September 1774)</h3>
+            <p>Delegates from 12 of the 13 colonies (all except Georgia) met in Philadelphia. They organized a boycott of British goods and began preparing for potential conflict. This gathering demonstrated colonial unity in response to British oppression.</p>
+        </div>
+
+        <div id="event-4" class="event-details">
+            <button class="close-btn" onclick="closeEvent(4)">×</button>
+            <h3>Battles of Lexington & Concord (April 1775)</h3>
+            <p>British troops marched to Concord to seize colonial weapons. The first shots were fired at Lexington - "the shot heard round the world." This marked the beginning of armed conflict and the American Revolution. From this moment on, there was no turning back.</p>
+        </div>
+    </div>
+
+    <script>
+        let currentEvent = null;
+
+        function toggleEvent(eventId) {
+            const eventDetails = document.getElementById(`event-${eventId}`);
+            
+            // Close previously open event
+            if (currentEvent !== null && currentEvent !== eventId) {
+                document.getElementById(`event-${currentEvent}`).classList.remove('active');
+            }
+
+            // Toggle current event
+            if (currentEvent === eventId) {
+                eventDetails.classList.remove('active');
+                currentEvent = null;
+            } else {
+                eventDetails.classList.add('active');
+                currentEvent = eventId;
+                
+                // Scroll to the event details
+                setTimeout(() => {
+                    eventDetails.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }, 100);
+            }
+        }
+
+        function closeEvent(eventId) {
+            document.getElementById(`event-${eventId}`).classList.remove('active');
+            if (currentEvent === eventId) {
+                currentEvent = null;
+            }
+        }
+    </script>
+</body>
+</html>

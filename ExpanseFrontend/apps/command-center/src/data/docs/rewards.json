@@ -1,0 +1,359 @@
+{
+  "overview": {
+    "summary": "Comprehensive reward system combining in-app gamification with real-world incentives to drive student engagement",
+    "philosophy": "Intermittent reward schedules maintain engagement while supporting healthy dopamine levels"
+  },
+  "lootBoxes": {
+    "description": "Receive loot boxes that include artwork, gems, and perks by submitting assignments and attending class",
+    "rarityLevels": ["Common", "Uncommon", "Rare", "Epic", "Legendary"]
+  },
+  "rewardClassifications": [
+    { "id": "scholarship", "name": "Scholarship", "icon": "🎓" },
+    { "id": "classroom", "name": "Classroom", "icon": "📚" },
+    { "id": "school", "name": "School", "icon": "🏫" },
+    { "id": "family", "name": "Family", "icon": "👨‍👩‍👧" },
+    { "id": "subscription", "name": "Subscription", "icon": "📺" },
+    { "id": "integration", "name": "Integration Partnership", "icon": "🔗" },
+    { "id": "sponsorship", "name": "Sponsorship", "icon": "🤝" },
+    { "id": "system-currency", "name": "System Currency", "icon": "💰" },
+    { "id": "system-art", "name": "System Art", "icon": "🎨" },
+    { "id": "system-equipment", "name": "System Equipment", "icon": "⚔️" },
+    { "id": "system-achievement", "name": "System Achievement", "icon": "🏆" },
+    { "id": "system-experience", "name": "System Experience", "icon": "⭐" }
+  ],
+  "rewardMediums": [
+    {
+      "id": "digital",
+      "name": "Digital",
+      "description": "In-game, app-based, virtual goods"
+    },
+    {
+      "id": "physical",
+      "name": "Physical",
+      "description": "Tangible items, mailed rewards"
+    },
+    {
+      "id": "experience",
+      "name": "Experience",
+      "description": "Events, trips, activities"
+    },
+    {
+      "id": "financial",
+      "name": "Financial",
+      "description": "Money, scholarships, gift cards"
+    },
+    {
+      "id": "social",
+      "name": "Social",
+      "description": "Recognition, shout-outs, leaderboards"
+    },
+    {
+      "id": "educational",
+      "name": "Educational",
+      "description": "Courses, books, learning tools"
+    }
+  ],
+  "realLifeRewards": {
+    "financial": [
+      "Scholarships",
+      "Partial scholarship pieces (combine into full)",
+      "Charitable donations as reward selection",
+      "Starbucks gift cards",
+      "Coupons",
+      "School-sponsored rewards at district discounts"
+    ],
+    "educational": [
+      "Free online courses (Udemy, library)",
+      "Free eBooks and audiobooks",
+      "Free tutor lessons",
+      "Educational activities",
+      "Book coupons/tokens",
+      "University tours",
+      "Life lessons and inspirational quotes"
+    ],
+    "experiences": [
+      "School events (free snacks, game tickets, movie in auditorium)",
+      "Board game nights",
+      "Music classes / extracurricular samples",
+      "Park visits",
+      "Movie nights, bowling trips",
+      "Parties, show and tell, creative time",
+      "Movie tickets",
+      "Lunch with teacher",
+      "Choosing your seat"
+    ],
+    "recognition": [
+      "Student of the week",
+      "Wall of fame",
+      "Honors programs",
+      "Peer recognition",
+      "Positive home notes to parents",
+      "Visual recognition on hallway screens"
+    ],
+    "healthWellness": ["Gym memberships", "Yoga classes", "Meditation classes"],
+    "food": [
+      "Candy, gum",
+      "Popcorn",
+      "DoorDash lunch (lottery)",
+      "Classroom snacks",
+      "Free cafeteria snacks"
+    ],
+    "physical": [
+      "Treasure box toys",
+      "Stickers, tattoos (printable/mailable)",
+      "Collectible cards",
+      "Trading cards",
+      "Expanse swag (cups, shirts, pens)",
+      "School swag"
+    ]
+  },
+  "inGameRewards": {
+    "currency": [
+      "Coins",
+      "Gems",
+      "Lottery tickets (general and specific)",
+      "Guaranteed purchase items"
+    ],
+    "achievements": [
+      "Performance-based achievements",
+      "Good behavior achievements",
+      "Academic milestone achievements",
+      "Social milestone achievements"
+    ],
+    "recognition": [
+      "Custom classroom rewards",
+      "Honors programs",
+      "Wall of fame"
+    ]
+  },
+  "visualStimulation": {
+    "description": "Animations and art serve as automatic rewards enhancing engagement",
+    "examples": [
+      "Characters celebrating achievements",
+      "Visual progress during leveling",
+      "Reward progress bars",
+      "Loot box opening animations",
+      "Level-up animations",
+      "Customized one-of-a-kind artwork based on preferences"
+    ]
+  },
+  "customRewards": {
+    "parent": [
+      "Money",
+      "Car",
+      "Shopping trip",
+      "Travel",
+      "Day without chores",
+      "Friend pajama party",
+      "Game time"
+    ],
+    "classroom": [
+      "Snacks",
+      "Game time passes",
+      "Homework passes",
+      "Stickers and stamps",
+      "Treasure box",
+      "Field trips",
+      "Movie days",
+      "Pizza days"
+    ]
+  },
+  "integrationRewards": {
+    "subscriptions": [
+      "Spotify subscription",
+      "YouTube trial",
+      "Educational platform subscriptions",
+      "Book/audiobook subscriptions"
+    ],
+    "digitalAssets": [
+      "Steam games",
+      "Game free trials",
+      "Roblox integration",
+      "Minecraft integration",
+      "Fortnite skins",
+      "PlayStation/Xbox/Nintendo rewards"
+    ],
+    "freeTrials": ["Online courses", "Movie rentals"]
+  },
+  "seasonalRewards": {
+    "description": "Special rewards offered during holidays or limited-time events"
+  },
+  "schoolImprovements": {
+    "description": "Use environment improvements as collective rewards",
+    "examples": [
+      "Hallway improvements",
+      "Field upgrades",
+      "Classroom paint",
+      "Gym equipment"
+    ],
+    "mechanism": "Students vote for which rewards they want, form teams to complete improvements"
+  },
+  "rewardDataModel": {
+    "description": "Technical data model for reward system implementation",
+    "coreFields": [
+      {
+        "field": "rewardClassification",
+        "values": [
+          "Scholarship",
+          "Classroom",
+          "School",
+          "Family",
+          "Subscription",
+          "IntegrationPartnership",
+          "Sponsorship",
+          "SystemCurrency",
+          "SystemArt",
+          "SystemEquipment",
+          "SystemAchievement",
+          "SystemLotteryTicket",
+          "SystemExperience",
+          "SystemGems",
+          "SystemTitle",
+          "SystemConsumable",
+          "SystemEssence",
+          "SystemPersonalization",
+          "SystemRecognition",
+          "SystemPerk",
+          "SystemBadge",
+          "SystemBuff"
+        ],
+        "notes": "Many classifications have associated variants, e.g., SystemEquipment -> Armor, Helmet, etc."
+      },
+      {
+        "field": "rewardAudience",
+        "values": [
+          "Student",
+          "Teacher",
+          "Family",
+          "Classroom",
+          "School",
+          "District"
+        ]
+      },
+      {
+        "field": "rewardProvider",
+        "values": [
+          "Expanse",
+          "Teacher",
+          "School",
+          "Family",
+          "District",
+          "Community",
+          "Sponsors",
+          "SystemLottery",
+          "SystemQuest",
+          "SystemScheduled"
+        ]
+      },
+      {
+        "field": "rewardRarityClass",
+        "values": ["Common", "Uncommon", "Rare", "Epic", "Legendary"],
+        "description": "Rewards have a rarity system attached - quality and % chance of receiving varies"
+      },
+      {
+        "field": "rewardRarityValue",
+        "description": "Numeric representation of difficulty to obtain (not returned to frontend)"
+      },
+      {
+        "field": "rewardDistributionType",
+        "values": [
+          "LootBox",
+          "Quest",
+          "Gift",
+          "Lottery",
+          "Auction",
+          "Store",
+          "Event"
+        ],
+        "storeVariants": [
+          "SystemStore",
+          "GameStore",
+          "PersonalizationStore",
+          "ArtStore",
+          "FamilyStore",
+          "TeacherStore",
+          "SchoolStore"
+        ],
+        "eventVariants": [
+          "LevelEvent",
+          "BattleEvent",
+          "LoginEvent",
+          "CheckInEvent"
+        ]
+      },
+      {
+        "field": "rewardDistributionTimeline",
+        "types": ["Instant", "Scheduled", "Delay"],
+        "value": "Date or milliseconds"
+      },
+      {
+        "field": "rewardTags",
+        "values": ["InGame", "RealLife", "Digital", "Physical"]
+      }
+    ],
+    "quantityFields": [
+      {
+        "field": "quantityRemaining",
+        "description": "How many of this item to give out in total"
+      },
+      {
+        "field": "quantityAvailableToUser",
+        "description": "How many the user currently has"
+      },
+      {
+        "field": "quantityMaxPurchasable",
+        "description": "Maximum purchasable per user"
+      },
+      {
+        "field": "quantityMaxStack",
+        "description": "Maximum instances a user can own at a time"
+      }
+    ],
+    "financialFields": [
+      {
+        "field": "costToProvider",
+        "description": "Financial value of cost to provide the reward"
+      },
+      {
+        "field": "costToAcquire",
+        "description": "Financial value to acquire (coins, gems, etc.)"
+      },
+      {
+        "field": "valueToCustomer",
+        "description": "Perceived financial value to the receiver"
+      }
+    ],
+    "redemptionEvents": {
+      "description": "Special handling required for different reward types",
+      "considerations": [
+        "Create redeemable coupon",
+        "Send email notification",
+        "Add item to system automatically",
+        "Third party API integration call",
+        "Add to wallet, inventory, profile, titles, achievements",
+        "Send chat notification about obtaining reward",
+        "Notify parents",
+        "Ask user questions (display achievement publicly, share to social media)"
+      ]
+    },
+    "storageAndVisibility": [
+      {
+        "field": "rewardStorageLocation",
+        "description": "Where the reward is stored in the system"
+      },
+      {
+        "field": "rewardVisibility",
+        "values": ["Public", "PrivateToOwner", "Shared"],
+        "notes": "May be implemented by configuration, classification type, and UI"
+      },
+      {
+        "field": "isUnique",
+        "description": "Whether this is a one-of-a-kind reward"
+      },
+      {
+        "field": "isTradeable",
+        "description": "Whether users can trade this reward"
+      }
+    ]
+  }
+}

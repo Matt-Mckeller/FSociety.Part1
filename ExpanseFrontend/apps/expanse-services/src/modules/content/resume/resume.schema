@@ -1,0 +1,70 @@
+/*
+WIP
+
+Content
+    Title
+    Text
+    Original Purpose
+    Creation Date
+    Tags[]
+
+Work Experience
+    Company Name
+    Title
+    Start Date
+    End Date
+    Is Current Role
+    Location
+    1:M Work Details
+    Summary
+
+Work Detail Group
+    {name: 'Standard', entries: [Work Detail Entry]}
+    {name: 'Minimal', entries: [Work Detail Entry]}
+    {name: 'Frontend Minimal', entries: [Work Detail Entry]}
+    {name: 'Backend Minimal', entries: [Work Detail Entry]}
+
+Work Detail Entry
+    Label
+    Description
+
+Skills
+    Competency level
+    Years of experience
+    Label
+    Category
+        Association Attribute: Primary
+        APIs
+        Databases
+        Languages
+        Infrastructure And Cloud
+        Testing
+
+College Education
+    School Name
+    Description
+    Start Date
+    End Date
+
+Online Courses
+    School Name
+    Course Name
+    Start Date
+    End Date
+    Description
+
+Github Projects
+    Project Name
+    Project Url
+    Description
+
+Experience Summaries
+
+Tags
+    Frontend
+    Backend
+    Databases
+    Data
+    Data Visualization
+
+*/

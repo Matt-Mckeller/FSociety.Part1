@@ -1,0 +1,1 @@
+export {REGISTER_ANALYTICS_EVENT} from './registerAnalyticsEvent'

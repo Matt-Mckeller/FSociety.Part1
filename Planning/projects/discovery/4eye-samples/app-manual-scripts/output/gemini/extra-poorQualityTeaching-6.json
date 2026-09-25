@@ -1,0 +1,210 @@
+{
+  "sample": {
+    "durationSeconds": 42,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Okay I'm going to read chapter 7 to you.",
+          "timestamp": 0,
+          "confidence": 0.94
+        },
+        {
+          "text": "Quote. The periodic table is arranged in rows and columns.",
+          "timestamp": 4.9,
+          "confidence": 0.89
+        },
+        {
+          "text": "Each element has an atomic number",
+          "timestamp": 11.2,
+          "confidence": 0.9
+        },
+        {
+          "text": "which represents the number of protons.",
+          "timestamp": 15.6,
+          "confidence": 0.88
+        },
+        {
+          "text": "Elements in the same group share similar properties.",
+          "timestamp": 20.3,
+          "confidence": 0.87
+        },
+        {
+          "text": "End quote. Next paragraph. Quote.",
+          "timestamp": 26.1,
+          "confidence": 0.91
+        },
+        {
+          "text": "Metals are found on the left side",
+          "timestamp": 29.8,
+          "confidence": 0.89
+        },
+        {
+          "text": "while nonmetals are on the right. End quote.",
+          "timestamp": 34.2,
+          "confidence": 0.9
+        },
+        {
+          "text": "This will be on the test so write it down.",
+          "timestamp": 38.7,
+          "confidence": 0.92
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.96,
+    "appropriatenessScore": 1,
+    "warnings": [],
+    "isMainLectureContent_confidence": 0.98,
+    "isSideConversation_confidence": 0.01,
+    "isIrrelevantContent_confidence": 0.01,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "science",
+      "chemistry",
+      "periodic_table",
+      "elements",
+      "atomic_structure",
+      "grade_8",
+      "grade_9"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "The teacher is reading key definitions about the periodic table from a textbook. The core concepts covered are its structure (rows and columns), the meaning of the atomic number (number of protons), the significance of groups (elements sharing similar properties), and the general location of metals (left) versus nonmetals (right). The teacher emphasizes the importance of this information by stating it will be on an upcoming test.",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "• The periodic table is organized into rows and columns.\n• An element's atomic number equals its number of protons.\n• Elements in the same column (group) share similar properties.\n• Metals are generally located on the left side of the table.\n• Nonmetals are generally located on the right side."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.85,
+        "text": "The periodic table arranges elements in rows and columns by atomic number. Elements in the same group have similar properties, with metals on the left and nonmetals on the right."
+      },
+      {
+        "version": "narrative",
+        "comparativeValueToRecommendedModality": 0.75,
+        "text": "To understand the building blocks of our universe, we use a special chart called the periodic table. It's carefully arranged in rows and columns, with each element assigned an atomic number that tells us how many protons it has. If you look down any column, you'll find a family of elements, called a group, that all behave in similar ways. The chart also gives us a map, showing the metals clustered on the left side and the nonmetals over on the right."
+      }
+    ],
+    "oneLineSummarization": "The periodic table organizes elements by atomic number, with groups sharing properties and metals/nonmetals in distinct regions.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.98,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "VISUAL",
+        "relativeEffectivenessWeight": 0.95,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Picture a large grid with many boxes, organized neatly into rows that go across and columns that go up and down. This is the periodic table. The left side of this grid is filled with elements we call metals, which are often shiny and conductive. As your eyes move to the right side, you'll find the nonmetals. Each column, or 'group,' is like a family; all the elements living in that column share similar characteristics and behaviors, making them predictable."
+      },
+      {
+        "effectiveness": "high",
+        "type": "ASSOCIATIONS",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.95,
+        "text": "Think of the periodic table like a well-organized library. The rows are like different floors, and the columns, or 'groups,' are like specific sections such as 'Fiction' or 'History.' Just as all the books in the 'History' section share a common theme, all the elements in a single group share similar chemical properties. The atomic number is like each book's unique library card number, ensuring everything is in its proper order. The division between metals and nonmetals is like separating the fiction from the non-fiction sections."
+      },
+      {
+        "effectiveness": "high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "The periodic table is constructed based on a set of logical rules. Rule 1: Elements are ordered sequentially by their atomic number, which is the count of protons. Rule 2: The table is structured into horizontal rows and vertical columns. Rule 3: Elements with similar chemical behaviors are placed in the same vertical column, known as a 'group'. Rule 4: There is a general spatial classification: elements on the left are metals, while elements on the right are nonmetals. Following these rules allows us to predict an element's properties based on its position."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "HTML_INTERACTIVE",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "ANNOTATED_TEXT",
+          "HIGHLIGHTED_TEXT"
+        ],
+        "title": "Interactive Periodic Table Diagram",
+        "reasonForSuggestion": "The content is a verbal description of a fundamentally visual tool. An interactive diagram allows students to directly see and explore the concepts of rows, columns, groups, and the locations of metals/nonmetals, which is far more effective than text alone.",
+        "promptForGeneration": "Create an interactive HTML and CSS diagram of a simplified periodic table for middle school chemistry. The diagram should visually distinguish between metals and nonmetals using color (e.g., metals in blue, nonmetals in yellow). When a user hovers over a column (group), highlight the entire column and display a tooltip that says 'Group: Elements in this column share similar properties.' When a user hovers over a row, highlight it and show a tooltip 'Row'. When a user clicks on an element (e.g., Carbon, C, atomic number 6), display a pop-up with its details: 'Element: Carbon', 'Atomic Number: 6', 'Protons: 6', 'Type: Nonmetal'. The design should be clean, with clear labels and legible fonts."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.8,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherSuggestions": 0.8,
+        "coreType": "MERMAID_MINDMAP",
+        "otherCoreType": null,
+        "secondaryTypes": [],
+        "title": "Periodic Table Organization",
+        "reasonForSuggestion": "A mind map helps students organize the hierarchical relationship between the concepts mentioned, from the overall table down to the properties of individual elements, reinforcing the logical structure.",
+        "promptForGeneration": "Generate a Mermaid mindmap diagram to summarize the structure of the periodic table for a 9th-grade science class. The root node should be 'Periodic Table'. It should have three main branches: 1) 'Structure' with sub-nodes 'Rows' and 'Columns (Groups)'. The 'Columns (Groups)' node should have a further sub-node 'Share Similar Properties'. 2) 'Element Identity' with a sub-node 'Atomic Number' which connects to 'Number of Protons'. 3) 'Element Types' with sub-nodes 'Metals (Left Side)' and 'Nonmetals (Right Side)'. Use clear and concise text for each node."
+      }
+    ],
+    "purpose": "This lesson introduces the fundamental organizing principle of all chemistry. The periodic table is the 'map' of all known elements, allowing us to understand their properties, predict how they will react, and see the patterns that govern the entire physical world. Mastering this concept is the first step to understanding how everything around us is constructed.",
+    "motivation": "Have you ever organized a collection, like video games, books, or trading cards? You group them by type to make them easier to find and understand. The periodic table does the exact same thing for the building blocks of the universe! Learning its layout is like getting a cheat code to understand why some materials are shiny, why others are gases, and what makes up everything you see and touch.",
+    "learningValueScore": 0.92,
+    "availableActions": [
+      {
+        "actionLabel": "See the Table",
+        "reason": "Displaying a visual of the periodic table is essential to understanding this location-based information.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "Define Terms",
+        "reason": "Provides clear definitions for key vocabulary like 'atomic number' and 'group'.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Quiz Me",
+        "reason": "Allows students to quickly check their recall of the facts that the teacher noted will be on the test.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "atomic number": {
+        "definition": "The number of protons in the nucleus of an atom, which determines the chemical properties of an element and its place in the periodic table.",
+        "context": "Each element has a unique atomic number, like a unique ID.",
+        "simpler": "The element's ID number, telling you how many protons it has."
+      },
+      "group": {
+        "definition": "A column of elements in the periodic table. Elements in a group have similar chemical properties.",
+        "context": "Elements in the same group share similar properties.",
+        "simpler": "A 'family' of elements in the same column that act alike."
+      }
+    },
+    "relatedResearch": [
+      {
+        "topic": "Dmitri Mendeleev",
+        "relevance": "Explore the history of how the periodic table was developed and how Mendeleev famously left gaps for elements that hadn't been discovered yet."
+      },
+      {
+        "topic": "Metalloids",
+        "relevance": "Investigate the elements that sit on the border between metals and nonmetals and have properties of both."
+      }
+    ],
+    "recommendationsToTeacher": [
+      "Immediately supplement this dictation with a large, color-coded visual of the periodic table to connect the verbal descriptions to their spatial locations.",
+      "Ask students to find a specific element (e.g., Oxygen) and identify its atomic number, group, and whether it's a metal or nonmetal to check for understanding.",
+      "Since this information was explicitly marked for a test, consider a quick formative assessment like a 'think-pair-share' where students explain one fact about the table to a partner."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:48:43.549Z",
+    "latencyMs": 39575,
+    "tokenUsage": {
+      "input": 7002,
+      "output": 2531,
+      "total": 11368
+    }
+  }
+}

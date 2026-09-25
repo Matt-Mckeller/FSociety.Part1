@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cause and Effect: Path to War</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(to bottom, #f4e8d8 0%, #e8d5b7 100%);
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #faf6f0;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+            border: 3px solid #8b7355;
+        }
+
+        h1 {
+            text-align: center;
+            color: #3d2817;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #6b5544;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+
+        .mermaid {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            border: 2px solid #8b7355;
+        }
+
+        .legend {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            border: 2px solid #8b7355;
+        }
+
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .legend-box {
+            width: 40px;
+            height: 30px;
+            border-radius: 4px;
+            border: 2px solid #333;
+        }
+
+        .legend-box.british {
+            background: #ffcccc;
+            border-color: #cc0000;
+        }
+
+        .legend-box.colonial {
+            background: #ccddff;
+            border-color: #0066cc;
+        }
+
+        .legend-box.conflict {
+            background: #ffeecc;
+            border-color: #ff9900;
+        }
+
+        .legend-text {
+            font-weight: 600;
+            color: #3d2817;
+        }
+
+        .description {
+            margin-top: 30px;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            border: 2px solid #8b7355;
+            line-height: 1.8;
+            color: #3d2817;
+        }
+
+        .description h3 {
+            color: #8b4513;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚔️ Cause and Effect: Path to War ⚔️</h1>
+        <p class="subtitle">How British Actions Led to Colonial Reactions</p>
+
+        <div class="mermaid">
+            graph TD
+                A[British Policy: Tea Act<br/>1773] --> B{Colonial Protest:<br/>Boston Tea Party<br/>Dec 1773}
+                B --> C[British Punishment:<br/>Intolerable Acts<br/>1774]
+                C --> D{Colonial Unification:<br/>First Continental Congress<br/>Sept 1774}
+                D --> E[Armed Conflict:<br/>Lexington & Concord<br/>April 1775]
+                
+                style A fill:#ffcccc,stroke:#cc0000,stroke-width:3px,color:#000
+                style C fill:#ffcccc,stroke:#cc0000,stroke-width:3px,color:#000
+                style B fill:#ccddff,stroke:#0066cc,stroke-width:3px,color:#000
+                style D fill:#ccddff,stroke:#0066cc,stroke-width:3px,color:#000
+                style E fill:#ffeecc,stroke:#ff9900,stroke-width:4px,color:#000,font-weight:bold
+        </div>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-box british"></div>
+                <span class="legend-text">British Actions</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-box colonial"></div>
+                <span class="legend-text">Colonial Reactions</span>
+            </div>
+            <div class="legend-item">
+                <div class="legend-box conflict"></div>
+                <span class="legend-text">Armed Conflict</span>
+            </div>
+        </div>
+
+        <div class="description">
+            <h3>Understanding the Chain of Events</h3>
+            <p>This flowchart illustrates how each major action by the British government led to a specific reaction from the American colonists, creating a chain reaction that ultimately resulted in war.</p>
+            <p><strong>The Pattern:</strong> British policies → Colonial protest → British punishment → Colonial unity → Armed resistance</p>
+            <p>Notice how instead of subduing the colonies, harsh British responses actually strengthened colonial resolve and unity, leading inevitably to open conflict.</p>
+        </div>
+    </div>
+
+    <script>
+        mermaid.initialize({ 
+            startOnLoad: true,
+            theme: 'base',
+            themeVariables: {
+                fontFamily: 'Georgia, serif',
+                fontSize: '16px'
+            }
+        });
+    </script>
+</body>
+</html>

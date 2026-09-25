@@ -1,0 +1,62 @@
+---
+title: Layout Systems/Overview
+---
+
+# Layout Systems
+
+> Overview of the two layout paradigms in @expanse/shell.  
+> **Full documentation:** [Architecture README](../../../docs/architecture/README.md)
+
+---
+
+## Two Paradigms
+
+### Basic Web Layout
+Traditional web layouts where **bars push content**.
+
+```
+┌────────────────────────────────────────────┐
+│                  Header                    │
+├────────┬───────────────────────┬───────────┤
+│ Drawer │     PAGE CONTENT      │  Sidebar  │
+├────────┴───────────────────────┴───────────┤
+│                  Footer                    │
+└────────────────────────────────────────────┘
+```
+
+**Use for:** Websites, dashboards, documentation, admin panels  
+**Navigation:** URL routes (`/about`, `/settings`)
+
+### Spatial Layout
+Application-style layouts where **HUD floats over content**.
+
+```
+┌────────────────────────────────────────────┐
+│         Header (global context)            │  ← HUD
+├────────────────────────────────────────────┤
+│                                            │
+│              TILE CONTENT                  │  ← Full viewport
+│            (position: x:2, y:3)            │
+├────────────────────────────────────────────┤
+│ [Minimap]     [Action Bar]                 │  ← HUD
+└────────────────────────────────────────────┘
+```
+
+**Use for:** Games, immersive experiences, presentations  
+**Navigation:** MapGridNavigation - grid positions, arrow keys, swipes
+
+---
+
+## Quick Comparison
+
+| Aspect | Basic Web | Spatial |
+|--------|-----------|---------|
+| Chrome | ContentFrame | HUD |
+| Navigation | URL routes | x,y positions |
+| Bars | Push content | Float on top |
+| Scrolling | Yes | No (per tile) |
+
+---
+
+📖 **Detailed architecture:** [docs/architecture/README.md](../../../docs/architecture/README.md)  
+📖 **Terminology:** [Dictionary](./Dictionary) | [docs/reference/DICTIONARY.md](../../../docs/reference/DICTIONARY.md)

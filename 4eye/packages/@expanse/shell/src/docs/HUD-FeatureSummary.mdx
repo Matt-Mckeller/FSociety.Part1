@@ -1,0 +1,65 @@
+---
+title: Layout Systems/HUD Components/Feature Summary
+---
+
+# HUD Feature Summary
+
+> Quick overview of HUD components and features.  
+> **Full planning docs:** [hud-summary.md](../../../docs/planning/hud-summary.md)
+
+---
+
+## Core Goal
+
+Build a layout system that can **toggle between Basic Web Layout and Spatial Layout**.
+
+```
+BASIC WEB LAYOUT:              SPATIAL HUD:
+┌──────────────────┐           ┌────────────────────────────┐
+│ [Nav] [Nav]      │           │ [Status] [Domain▼] [☀️🔍] │
+├──────────────────┤           ├────────────────────────────┤
+│ ┌─────┐          │           │                   Minimap  │
+│ │Menu │ Content  │           │      Content               │
+│ │ > A │          │           │                   Controls │
+│ └─────┘          │           │        [Orbs]              │
+└──────────────────┘           └────────────────────────────┘
+  Text menus, linear             Spatial, visual, gamified
+```
+
+---
+
+## Key Components
+
+| Component | Purpose |
+|-----------|---------|
+| **Header** | Global context - domain, goals, profile status |
+| **Orbs** | Context-dependent action buttons |
+| **ActionBar** | Page-level navigation and actions |
+| **Minimap** | Grid overview for spatial navigation |
+| **ProfileStatusDisplay** | Gamification metrics (coins, XP, level) |
+
+---
+
+## HUD Presets
+
+| Preset | Use Case |
+|--------|----------|
+| Desktop Default | Full features, general browsing |
+| Mobile Default | Minimal header, essential orbs |
+| Presentation | Clean, large status, minimal distractions |
+| Learning Focus | Goals prominent, progress visible |
+
+---
+
+## Implementation Status
+
+**Implemented:** ActionOrb, OrbCluster, ActionBar, Toolbar, Minimap, HUD, NavigationPad
+
+**Needed:** Header, HeaderContextProvider, Expandable Orbs, AI Input Bar, Presets
+
+---
+
+📖 **Full documentation:**
+- [hud-summary.md](../../../docs/planning/hud-summary.md) - What to build
+- [hud-plan.md](../../../docs/planning/hud-plan.md) - Architecture details
+- [hud-roadmap.md](../../../docs/planning/hud-roadmap.md) - Implementation phases

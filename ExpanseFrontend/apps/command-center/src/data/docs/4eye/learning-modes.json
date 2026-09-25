@@ -1,0 +1,708 @@
+{
+  "meta": {
+    "title": "Learning Modes",
+    "description": "Interactive learning techniques for memory, learning, recall, understanding, association, AI comprehension, brain optimization, and organization",
+    "lastUpdated": "2026-02-07",
+    "version": "1.1.0"
+  },
+  "overview": {
+    "title": "Learning Modes Overview",
+    "summary": "A comprehensive system of interactive learning techniques designed to enhance memory, learning efficiency, recall, understanding, association, AI comprehension, brain function, and mental organization. Learning modes leverage how the brain naturally learns—through connection, pattern recognition, and multi-sensory engagement.",
+    "keyPrinciple": "Learning modes can be INPUT components (exercises, interactions where users create/engage) or FEEDBACK/DISPLAY components (visualizations, progress indicators that show information).",
+    "coreBenefits": [
+      "Memory - Stronger retention through connected learning",
+      "Learning - Accelerated acquisition of new knowledge",
+      "Recall - Multiple pathways for retrieving information",
+      "Understanding - Deep comprehension vs surface memorization",
+      "Association - Linking new knowledge to existing networks",
+      "AI - Understanding how AI thinks and learning with AI assistance",
+      "The Brain - Working with natural cognitive processes",
+      "Organization - Structured mental frameworks for knowledge"
+    ],
+    "benefits": [
+      {
+        "id": "memory",
+        "title": "Memory Enhancement",
+        "description": "Multiple connection points create stronger memory traces through associative networks. When concepts are linked in triads, they form redundant pathways that resist forgetting.",
+        "scienceLink": "Associative memory networks in the hippocampus",
+        "icon": "Psychology",
+        "howItHelps": [
+          "Creates multiple 'hooks' for each piece of information",
+          "Builds redundant neural pathways",
+          "Leverages spatial and relational memory systems",
+          "Transforms isolated facts into connected knowledge"
+        ]
+      },
+      {
+        "id": "learning",
+        "title": "Accelerated Learning",
+        "description": "Structured connection-building accelerates the learning process by giving new information immediate context and relevance.",
+        "scienceLink": "Schema theory and prior knowledge activation",
+        "icon": "School",
+        "howItHelps": [
+          "New information has immediate anchors to existing knowledge",
+          "Reduces time spent on rote memorization",
+          "Creates 'aha moments' through connection discovery",
+          "Builds learning momentum as knowledge web grows"
+        ]
+      },
+      {
+        "id": "recall",
+        "title": "Improved Recall",
+        "description": "Connected concepts provide multiple retrieval pathways—if you forget one path, others remain. Triadic connections create triangulated access to memories.",
+        "scienceLink": "Retrieval cue research and encoding specificity",
+        "icon": "Refresh",
+        "howItHelps": [
+          "Multiple routes to the same information",
+          "Context-dependent recall through associations",
+          "Reduced tip-of-tongue failures",
+          "Faster retrieval through stronger connections"
+        ]
+      },
+      {
+        "id": "understanding",
+        "title": "Deeper Understanding",
+        "description": "Seeing relationships between concepts builds true comprehension, not just surface-level memorization. Understanding emerges from the connections, not the isolated facts.",
+        "scienceLink": "Schema theory in cognitive psychology",
+        "icon": "Lightbulb",
+        "howItHelps": [
+          "Shifts from 'what' to 'why' and 'how'",
+          "Reveals underlying principles and patterns",
+          "Enables transfer to new situations",
+          "Creates flexible, adaptable knowledge"
+        ]
+      },
+      {
+        "id": "association",
+        "title": "Association Building",
+        "description": "Linking new information to existing knowledge makes learning stick. Every new concept becomes part of your growing knowledge network.",
+        "scienceLink": "Elaborative encoding and depth of processing",
+        "icon": "Hub",
+        "howItHelps": [
+          "Integrates new knowledge with existing mental models",
+          "Creates rich, meaningful connections",
+          "Prevents isolated 'fact islands' in memory",
+          "Builds increasingly powerful knowledge networks"
+        ]
+      },
+      {
+        "id": "ai-comprehension",
+        "title": "Understanding AI",
+        "description": "Learning modes help users understand how AI systems think, process information, and make connections—demystifying artificial intelligence through hands-on interaction.",
+        "scienceLink": "AI literacy and computational thinking",
+        "icon": "SmartToy",
+        "howItHelps": [
+          "Visualizes how AI makes connections between concepts",
+          "Demonstrates AI reasoning through interactive exercises",
+          "Builds intuition for AI capabilities and limitations",
+          "Prepares learners for AI-augmented futures"
+        ]
+      },
+      {
+        "id": "ai-enhanced",
+        "title": "AI-Enhanced Learning",
+        "description": "AI can suggest connections, generate exercises, adapt difficulty in real-time, and identify gaps in understanding—personalizing the learning experience.",
+        "scienceLink": "Adaptive learning systems and intelligent tutoring",
+        "icon": "AutoAwesome",
+        "howItHelps": [
+          "Personalized difficulty adjustment",
+          "Intelligent gap detection in knowledge",
+          "Automated exercise generation from content",
+          "Real-time feedback and suggestions"
+        ]
+      },
+      {
+        "id": "brain-aligned",
+        "title": "Brain-Aligned Learning",
+        "description": "Works with natural cognitive processes rather than against them. Designed around how the brain actually encodes, stores, and retrieves information.",
+        "scienceLink": "Cognitive load theory and working memory",
+        "icon": "Memory",
+        "howItHelps": [
+          "Respects working memory limitations (3 points, not 7+)",
+          "Leverages pattern recognition strengths",
+          "Uses multi-sensory encoding",
+          "Aligns with natural attention rhythms"
+        ]
+      },
+      {
+        "id": "organization",
+        "title": "Mental Organization",
+        "description": "Creates structured mental frameworks that organize knowledge into coherent, navigable systems. Transforms chaotic information into ordered understanding.",
+        "scienceLink": "Chunking and hierarchical knowledge structures",
+        "icon": "AccountTree",
+        "howItHelps": [
+          "Creates clear mental categories and hierarchies",
+          "Reduces cognitive clutter and confusion",
+          "Enables efficient knowledge navigation",
+          "Builds structured frameworks for new information"
+        ]
+      },
+      {
+        "id": "metacognition",
+        "title": "Metacognitive Awareness",
+        "description": "Helps learners understand their own thinking and learning processes. Builds awareness of how they learn best.",
+        "scienceLink": "Metacognition and self-regulated learning",
+        "icon": "Visibility",
+        "howItHelps": [
+          "Reveals personal learning patterns",
+          "Identifies strengths and weaknesses",
+          "Develops self-monitoring skills",
+          "Enables strategic learning choices"
+        ]
+      }
+    ]
+  },
+  "triadicUnderstanding": {
+    "title": "Triadic Understanding (3-Point Learning)",
+    "description": "Connect 3 data points to build deeper understanding through triangulation",
+    "icon": "Hub",
+    "priority": "high",
+    "componentTypes": ["input", "display"],
+    "concept": {
+      "summary": "Present information in connected triads where each data point reinforces and illuminates the others. The triangular structure creates a stable foundation for understanding.",
+      "visualization": {
+        "description": "Three points forming a triangle, with connections between all points",
+        "ascii": "     [Point 1]\n        /\\\n       /  \\\n      /    \\\n     /______\\\n[Point 2]  [Point 3]"
+      }
+    },
+    "whyThreePoints": [
+      {
+        "reason": "Triangulation",
+        "explanation": "Three points create a stable foundation for understanding, just like a tripod is stable"
+      },
+      {
+        "reason": "Pattern Recognition",
+        "explanation": "Humans naturally recognize patterns in threes (beginning-middle-end, rule of threes)"
+      },
+      {
+        "reason": "Cognitive Load",
+        "explanation": "Manageable cognitive load—not too few (shallow), not too many (overwhelming)"
+      },
+      {
+        "reason": "Narrative Structure",
+        "explanation": "Natural storytelling flow: setup, development, resolution"
+      },
+      {
+        "reason": "Validation",
+        "explanation": "The third point validates or challenges the relationship between the first two"
+      }
+    ],
+    "implementations": [
+      {
+        "id": "concept-triangles",
+        "name": "Concept Triangles",
+        "description": "Link three related concepts that together explain a larger idea",
+        "examples": [
+          { "triangle": ["DNA", "RNA", "Protein"], "domain": "Biology" },
+          {
+            "triangle": ["Problem", "Solution", "Market"],
+            "domain": "Business"
+          },
+          { "triangle": ["Cause", "Event", "Effect"], "domain": "History" },
+          { "triangle": ["Input", "Process", "Output"], "domain": "Systems" },
+          {
+            "triangle": ["Hypothesis", "Experiment", "Conclusion"],
+            "domain": "Science"
+          }
+        ],
+        "useCase": "Teaching foundational concepts that have clear relationships"
+      },
+      {
+        "id": "perspective-triangles",
+        "name": "Perspective Triangles",
+        "description": "Show three different viewpoints on the same topic",
+        "examples": [
+          {
+            "triangle": ["Scientist View", "Engineer View", "Ethicist View"],
+            "domain": "STEM Ethics"
+          },
+          {
+            "triangle": [
+              "Past Understanding",
+              "Present Knowledge",
+              "Future Implications"
+            ],
+            "domain": "Historical Analysis"
+          },
+          {
+            "triangle": ["Individual", "Community", "Society"],
+            "domain": "Social Studies"
+          }
+        ],
+        "useCase": "Developing critical thinking and perspective-taking"
+      },
+      {
+        "id": "evidence-triangles",
+        "name": "Evidence Triangles",
+        "description": "Support claims with three types of evidence",
+        "examples": [
+          {
+            "triangle": ["Statistical Data", "Case Study", "Expert Opinion"],
+            "domain": "Research"
+          },
+          {
+            "triangle": [
+              "Primary Source",
+              "Secondary Analysis",
+              "Real-world Application"
+            ],
+            "domain": "Academic Writing"
+          }
+        ],
+        "useCase": "Teaching argumentation and evidence-based reasoning"
+      },
+      {
+        "id": "learning-path-triangles",
+        "name": "Learning Path Triangles",
+        "description": "Connect prerequisite → current topic → next concept",
+        "examples": [
+          {
+            "triangle": [
+              "What you knew",
+              "What you're learning",
+              "What comes next"
+            ],
+            "domain": "Progress Tracking"
+          },
+          {
+            "triangle": ["Foundation", "Current Skill", "Advanced Application"],
+            "domain": "Skill Building"
+          }
+        ],
+        "useCase": "Creating sense of progress and showing learning trajectory"
+      }
+    ],
+    "userExperience": {
+      "interactiveVisualization": [
+        "Animated triangle that 'builds' as user explores each point",
+        "Hover/click to see connections between points",
+        "Points light up or animate when connections are understood",
+        "Central 'insight' area reveals the 'aha moment' when complete"
+      ],
+      "learningFlow": [
+        {
+          "step": 1,
+          "action": "Present first data point",
+          "detail": "Introduce concept A with context"
+        },
+        {
+          "step": 2,
+          "action": "Introduce second point with connection to first",
+          "detail": "Show how A relates to B"
+        },
+        {
+          "step": 3,
+          "action": "Complete triangle with third point",
+          "detail": "C ties A and B together"
+        },
+        {
+          "step": 4,
+          "action": "Reveal the insight",
+          "detail": "The 'aha moment' emerges from the connections"
+        }
+      ]
+    }
+  },
+  "learningModeCategories": [
+    {
+      "id": "visual-modes",
+      "name": "Visual Learning Modes",
+      "description": "Diagrams, animations, infographics, and spatial representations",
+      "icon": "Visibility",
+      "priority": "high",
+      "componentTypes": ["display", "input"],
+      "techniques": [
+        "Mind maps and concept maps",
+        "Animated explanations",
+        "Color-coded information",
+        "Spatial arrangements",
+        "Interactive diagrams",
+        "Progress visualizations",
+        "Knowledge webs",
+        "Flowcharts and decision trees"
+      ],
+      "inputModes": [
+        "Drag-and-drop concept mapping",
+        "Draw-to-learn sketching",
+        "Visual sorting exercises",
+        "Diagram completion"
+      ],
+      "displayModes": [
+        "Animated concept reveals",
+        "Visual progress trees",
+        "Knowledge webs",
+        "Relationship diagrams"
+      ]
+    },
+    {
+      "id": "kinesthetic-modes",
+      "name": "Kinesthetic Learning Modes",
+      "description": "Movement, interaction, and hands-on engagement",
+      "icon": "TouchApp",
+      "priority": "medium",
+      "componentTypes": ["input"],
+      "techniques": [
+        "Drag-and-drop exercises",
+        "Gesture-based interactions",
+        "Build-it-yourself activities",
+        "Physical simulations",
+        "Interactive manipulatives",
+        "Swipe and tap patterns",
+        "Assembly challenges"
+      ],
+      "benefits": [
+        "Engages motor memory for stronger retention",
+        "Active rather than passive learning",
+        "Higher engagement through physical interaction",
+        "Multiple sensory pathways activated"
+      ]
+    },
+    {
+      "id": "auditory-modes",
+      "name": "Auditory Learning Modes",
+      "description": "Audio explanations, discussions, and verbal processing",
+      "icon": "Hearing",
+      "priority": "medium",
+      "componentTypes": ["input", "display"],
+      "techniques": [
+        "Audio explanations and narration",
+        "Verbal repetition exercises",
+        "Discussion prompts",
+        "Read-aloud options",
+        "Podcast-style content",
+        "Voice recording for self-explanation",
+        "Rhythm and music mnemonics"
+      ]
+    },
+    {
+      "id": "feedback-exercises",
+      "name": "Feedback & Exercise Modes",
+      "description": "Quick, cheap exercises that provide immediate feedback",
+      "icon": "Feedback",
+      "priority": "high",
+      "componentTypes": ["input", "display"],
+      "exerciseTypes": [
+        {
+          "name": "Quick Checks",
+          "description": "Simple true/false or multiple choice for rapid feedback",
+          "effort": "low",
+          "value": "high",
+          "timeToComplete": "10-30 seconds"
+        },
+        {
+          "name": "Connection Builders",
+          "description": "Match related concepts or complete the triangle",
+          "effort": "low",
+          "value": "high",
+          "timeToComplete": "30-60 seconds"
+        },
+        {
+          "name": "Fill-in Recall",
+          "description": "Complete the missing piece from memory",
+          "effort": "low",
+          "value": "high",
+          "timeToComplete": "15-45 seconds"
+        },
+        {
+          "name": "Sort & Categorize",
+          "description": "Organize items into categories",
+          "effort": "medium",
+          "value": "high",
+          "timeToComplete": "1-2 minutes"
+        },
+        {
+          "name": "Sequence Building",
+          "description": "Put steps or events in correct order",
+          "effort": "medium",
+          "value": "high",
+          "timeToComplete": "1-2 minutes"
+        }
+      ],
+      "feedbackPrinciples": [
+        {
+          "principle": "Immediate Response",
+          "description": "Feedback within 1 second of action",
+          "why": "Strengthens connection between action and outcome"
+        },
+        {
+          "principle": "Clear Indication",
+          "description": "Obvious right/wrong signal (visual + optional audio)",
+          "why": "Eliminates ambiguity, builds confidence"
+        },
+        {
+          "principle": "Explanation",
+          "description": "Brief explanation of why the answer was right or wrong",
+          "why": "Transforms errors into learning opportunities"
+        },
+        {
+          "principle": "Encouragement",
+          "description": "Positive framing that encourages retry",
+          "why": "Maintains motivation and growth mindset"
+        },
+        {
+          "principle": "Progress Tracking",
+          "description": "Visual progress toward mastery",
+          "why": "Creates sense of accomplishment and momentum"
+        }
+      ]
+    }
+  ],
+  "gamification": {
+    "title": "Gamification Integration",
+    "description": "Learning modes can be gamified to increase engagement, motivation, and retention",
+    "elements": [
+      {
+        "element": "Triangle Completion",
+        "description": "Complete the triangle challenges with XP rewards",
+        "mechanic": "Find or place the third concept to complete the triad",
+        "reward": "XP + visual celebration",
+        "difficulty": "Scales from obvious to challenging connections"
+      },
+      {
+        "element": "Connection Chains",
+        "description": "Build chains of connected concepts for combo bonuses",
+        "mechanic": "Each correct connection adds to your chain multiplier",
+        "reward": "Combo multiplier increases XP",
+        "difficulty": "Longer chains require deeper knowledge"
+      },
+      {
+        "element": "Knowledge Web",
+        "description": "Visualize growing web of understanding over time",
+        "mechanic": "Unlock new nodes as concepts connect",
+        "reward": "Visual web grows, badges for milestones",
+        "difficulty": "Self-paced exploration"
+      },
+      {
+        "element": "Speed Rounds",
+        "description": "Quick-fire exercises with time bonuses",
+        "mechanic": "Answer correctly within time limit for bonus points",
+        "reward": "Time bonus XP",
+        "difficulty": "Time pressure adds challenge"
+      },
+      {
+        "element": "Achievement Badges",
+        "description": "Unlock badges for learning milestones",
+        "mechanic": "Complete specific learning challenges",
+        "reward": "Collectible badges, profile recognition",
+        "difficulty": "Varied difficulty tiers"
+      },
+      {
+        "element": "Daily Streaks",
+        "description": "Maintain learning streaks for bonus rewards",
+        "mechanic": "Consecutive days of exercise completion",
+        "reward": "Streak bonuses, streak shields",
+        "difficulty": "Consistency over time"
+      }
+    ]
+  },
+  "componentTypes": {
+    "title": "Component Implementation",
+    "inputComponents": {
+      "title": "Input Components (User Creates/Interacts)",
+      "description": "Components where users actively engage and provide input",
+      "components": [
+        {
+          "id": "triangle-builder",
+          "name": "TriangleBuilder",
+          "description": "User places 3 concepts to form a meaningful triangle",
+          "interaction": "Drag concepts to vertices, system validates connections",
+          "status": "concept",
+          "difficulty": "User creates connections"
+        },
+        {
+          "id": "concept-matcher",
+          "name": "ConceptMatcher",
+          "description": "Match pairs or groups of related concepts",
+          "interaction": "Drag lines between related items",
+          "status": "concept",
+          "difficulty": "Medium - finding relationships"
+        },
+        {
+          "id": "sequence-sorter",
+          "name": "SequenceSorter",
+          "description": "Arrange items in correct order",
+          "interaction": "Drag-and-drop ordering",
+          "status": "concept",
+          "difficulty": "Medium - understanding order"
+        },
+        {
+          "id": "fill-the-gap",
+          "name": "FillTheGap",
+          "description": "Complete missing information in a concept map",
+          "interaction": "Type or select missing elements",
+          "status": "concept",
+          "difficulty": "Low to Medium - recall"
+        }
+      ]
+    },
+    "displayComponents": {
+      "title": "Display/Feedback Components (System Shows)",
+      "description": "Components that visualize information and provide feedback",
+      "components": [
+        {
+          "id": "triangle-viewer",
+          "name": "TriangleViewer",
+          "description": "Animated triangle that builds as user explores each point",
+          "visualization": "Points light up, connections animate when made",
+          "status": "concept"
+        },
+        {
+          "id": "knowledge-web",
+          "name": "KnowledgeWeb",
+          "description": "Growing network of connected concepts",
+          "visualization": "Nodes and edges showing learned relationships",
+          "status": "concept"
+        },
+        {
+          "id": "progress-tree",
+          "name": "ProgressTree",
+          "description": "Tree structure showing learning path progress",
+          "visualization": "Branches unlock as concepts are mastered",
+          "status": "concept"
+        },
+        {
+          "id": "feedback-pulse",
+          "name": "FeedbackPulse",
+          "description": "Immediate visual feedback on exercise completion",
+          "visualization": "Color and animation indicating success/failure",
+          "status": "concept"
+        }
+      ]
+    }
+  },
+  "aiIntegration": {
+    "title": "AI Integration Opportunities",
+    "description": "How AI enhances learning modes",
+    "capabilities": [
+      {
+        "capability": "Connection Suggestion",
+        "description": "AI suggests meaningful connections between concepts the learner has studied",
+        "example": "After learning about photosynthesis and respiration, AI suggests connecting them to energy cycles"
+      },
+      {
+        "capability": "Triangle Generation",
+        "description": "AI creates triadic exercises based on course content",
+        "example": "AI generates 'complete the triangle' exercises from textbook chapters"
+      },
+      {
+        "capability": "Adaptive Difficulty",
+        "description": "AI adjusts exercise complexity based on performance",
+        "example": "If user struggles, AI simplifies; if user excels, AI increases challenge"
+      },
+      {
+        "capability": "Gap Detection",
+        "description": "AI identifies missing connections in the learner's knowledge web",
+        "example": "AI notices user understands A and C but not how B connects them"
+      },
+      {
+        "capability": "Personalized Mode Selection",
+        "description": "AI recommends learning modes based on individual learning style and performance",
+        "example": "User performs better with visual modes, AI prioritizes those"
+      },
+      {
+        "capability": "Content Adaptation",
+        "description": "AI adjusts content presentation based on engagement patterns",
+        "example": "If attention wanes, AI switches to more interactive mode"
+      }
+    ]
+  },
+  "relatedScience": {
+    "title": "Related Learning Science",
+    "concepts": [
+      {
+        "name": "Hegelian Dialectic",
+        "description": "Thesis → Antithesis → Synthesis",
+        "relevance": "Natural triadic structure for understanding complex topics through opposition and resolution"
+      },
+      {
+        "name": "Bloom's Taxonomy",
+        "description": "Levels of cognitive learning from remember to create",
+        "relevance": "Different modes target different cognitive levels"
+      },
+      {
+        "name": "Dual Coding Theory",
+        "description": "Visual and verbal information processed through different channels",
+        "relevance": "Multiple modes strengthen encoding through multiple pathways"
+      },
+      {
+        "name": "Spaced Repetition",
+        "description": "Review at optimal intervals for long-term retention",
+        "relevance": "Triangles can be reviewed over time for deeper encoding"
+      },
+      {
+        "name": "Elaborative Interrogation",
+        "description": "Asking 'why' and 'how' questions deepens understanding",
+        "relevance": "Triads naturally prompt 'how does this connect?' questions"
+      },
+      {
+        "name": "Cognitive Load Theory",
+        "description": "Working memory has limited capacity",
+        "relevance": "Three points is optimal—not too few, not too many"
+      },
+      {
+        "name": "Schema Theory",
+        "description": "Knowledge organized in mental frameworks",
+        "relevance": "Triangles help build and reinforce schema"
+      }
+    ]
+  },
+  "tips": [
+    {
+      "id": "tip-1",
+      "title": "Start with Three",
+      "content": "When learning something new, immediately try to connect it to two other things you know. This creates a triangle that's easier to remember than isolated facts.",
+      "category": "memory",
+      "audience": "learners"
+    },
+    {
+      "id": "tip-2",
+      "title": "Match Mode to Content",
+      "content": "Use visual modes for spatial/relational content, kinesthetic modes for processes and procedures, and auditory modes for narrative/sequential information.",
+      "category": "technique",
+      "audience": "educators"
+    },
+    {
+      "id": "tip-3",
+      "title": "Low-Effort, High-Value",
+      "content": "Quick 10-second exercises done frequently are more effective than long study sessions. Look for ways to test yourself in small moments throughout the day.",
+      "category": "efficiency",
+      "audience": "learners"
+    },
+    {
+      "id": "tip-4",
+      "title": "Complete the Triangle",
+      "content": "When you know two related concepts, actively search for the third that connects them. This 'complete the triangle' mindset builds stronger knowledge networks.",
+      "category": "memory",
+      "audience": "learners"
+    },
+    {
+      "id": "tip-5",
+      "title": "Input Before Display",
+      "content": "Have learners try to make connections (input) before showing them the answer (display). This effort strengthens encoding even if they get it wrong.",
+      "category": "technique",
+      "audience": "educators"
+    }
+  ],
+  "openQuestions": [
+    "Should triangles be presented all at once or revealed progressively?",
+    "Can users create their own triangles as a learning activity?",
+    "How does this integrate with AI tutoring suggestions?",
+    "What types of content work best with triadic models?",
+    "How to handle topics with more than 3 key points?",
+    "What's the optimal ratio of input vs display components?",
+    "How to measure learning mode effectiveness?"
+  ],
+  "changelog": [
+    {
+      "date": "2026-02-07",
+      "version": "1.0.0",
+      "changes": [
+        "Initial documentation created",
+        "Triadic understanding system documented",
+        "Learning mode categories defined",
+        "Gamification integration outlined",
+        "Component types specified"
+      ]
+    }
+  ]
+}

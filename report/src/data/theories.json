@@ -1,0 +1,114 @@
+{
+  "theories": [
+    {
+      "id": "theory-001",
+      "title": "Casino Money Laundering System & Organized Crime Entryway",
+      "description": "Casinos (Harrahs and Hollywood) operate interconnected money laundering systems where chips serve as untraceable currency. VIP-looking individuals (Diamond Man, Banker) recruit high-risk individuals who showed interest in unconventional finance. The vending machine coins, tip jar ritual, and poker chip movements are all part of a signaling system. The rigged poker tournament at Hollywood demonstrates control over outcomes for those 'in the system.'",
+      "perspective": "criminal",
+      "supportingEvidenceIds": ["evt-casino-day-1-coins-entryway", "evt-harrahs-day2", "evt-hollywood-tournament", "evt-harrahs-day2"],
+      "supportingPeopleIds": ["person-002", "person-003", "person-006", "person-021"],
+      "supportingLocationIds": ["loc-009", "loc-010"],
+      "supportingItemIds": ["item-003", "item-007"],
+      "contradictingEvidence": [
+        "No direct admission or documentation",
+        "Could be coincidence with dealer names"
+      ],
+      "confidenceRating": 10,
+      "notes": "Multiple independent data points converge on this theory. The 'Matthew' and 'Shane' dealer names matching narrator's full name is statistically unlikely. There is potential for follow-up to confirm or investigate further."
+    },
+    {
+      "id": "theory-002",
+      "title": "Nonverbal Chip Signaling System",
+      "description": "Poker chip movements serve as a nonverbal communication system that controls game outcomes. Rotating chips twice then flipping signals 'all in.' This explains why dealers can 'turn it on' for players and how the narrator won against statistical odds. The '10 of diamonds' comment was likely status code (VIP/diamond tier), not about actual cards shown.",
+      "perspective": "criminal",
+      "supportingEvidenceIds": ["evt-hollywood-tournament", "evt-starbucks-blue-painter", "evt-keystone-logan", "evt-dentist-encounter"],
+      "supportingPeopleIds": ["person-021", "person-008", "person-015"],
+      "supportingLocationIds": ["loc-010", "loc-002", "loc-011"],
+      "supportingItemIds": ["item-003"],
+      "contradictingEvidence": [
+        "Standard poker variance could explain wins"
+      ],
+      "confidenceRating": 9,
+      "notes": "Confirmed by follow-up events: Starbucks blue painter had painted fingertips and said 'ope, all in' - direct reference to poker table signals. Keystone Logan continued the pattern. Dentist 'angles and percent 0-100' conversation further connects. The correlation between chip rotation and opponents going all-in is strong evidence."
+    },
+    {
+      "id": "theory-003",
+      "title": "Mac Properties Casino/Club Ownership - Ticket Evidence & Camera Observation",
+      "description": "Mac Properties owns or has business relationships with local casinos and clubs (Levis, The Landing, Q Club). Two ticket-related events strongly suggest an interconnected system: (1) The Mac Properties ticket appearing at Hollywood Casino front desk without being given - narrator uses RFID wallet requiring button press to release cards, so this was impossible without external access. (2) Both the Levis club ticket AND the Mac Properties ticket mysteriously returned to narrator's pocket after the Levis visit. The pattern of tickets appearing/disappearing suggests coordinated tracking across Mac Properties, Levis, and Hollywood Casino. The clubs serve as additional recruitment/observation venues. Lobby symbols and items (speaker, trash cans) are communication from management about resident activities. Mac Properties has camera access to lobby and mailroom - the speaker appearing at exact location where bag was pointed confirms this.",
+      "perspective": "multiple",
+      "supportingEvidenceIds": ["evt-hollywood-tournament", "evt-levi-ticket-return", "evt-lobby-speaker", "evt-lobby-trash-cans", "evt-move-out", "evt-1888-coffee-mailroom"],
+      "supportingPeopleIds": ["person-014"],
+      "supportingLocationIds": ["loc-003", "loc-004", "loc-009", "loc-010", "loc-015", "loc-007", "loc-016"],
+      "supportingItemIds": ["item-001", "item-016"],
+      "contradictingEvidence": [
+        "No public records linking Mac Properties to casinos",
+        "Ticket could have fallen out with ID previously - BUT narrator uses RFID wallet with button release"
+      ],
+      "confidenceRating": 8,
+      "notes": "Two key ticket events: (1) Mac Properties ticket at Hollywood Casino (on camera, RFID wallet makes accident impossible), (2) Both Levis ticket AND Mac Properties ticket returning to pocket after Levis visit. Lobby camera observation confirmed by: (1) Speaker appearing at exact location bag was pointed toward stairs, (2) Trash cans with bed frames setup in lobby, (3) Coffee gift to mailroom observable through building cameras. Move-out clues left open for follow-up: symbolic items in mailroom (Slime mug, Dawn soap, coins, marbles, steam cleaner) and mail-based verification system requiring 2 of 3 responses from Casino/Mac Properties/Levis to determine drop location or open secure communication channel."
+    },
+    {
+      "id": "theory-004",
+      "title": "Apartment Under Active Surveillance",
+      "description": "The Mac Properties apartment has multiple surveillance mechanisms: possible camera in kitchen lightbulb (didn't power off as expected), audio surveillance (Lysol mentioned by Logan without context - Lysol was on nightstand), and regular physical entry (weed smell, items moved, green folders appeared). The mailbox lock being removed and IRS papers with SSN left exposed suggests either identity theft preparation or framing.",
+      "perspective": "criminal",
+      "supportingEvidenceIds": ["evt-keystone-logan", "evt-apartment-weed-smell", "evt-mailbox-broken", "evt-lightbulb-mic", "evt-harrahs-day2"],
+      "supportingPeopleIds": ["person-015"],
+      "supportingLocationIds": ["loc-003", "loc-006"],
+      "supportingItemIds": ["item-017", "item-008", "item-019", "item-021"],
+      "contradictingEvidence": [
+        "Could be normal building maintenance",
+        "Weed smell could come from neighbors",
+        "Lysol mention could be coincidence"
+      ],
+      "confidenceRating": 8,
+      "notes": "The Lysol mention is the strongest evidence - highly specific item mentioned without context. Critical detail: Lysol was in the same location where money was placed at the time Logan mentioned it and the day before. This confirms real-time or near-real-time visual surveillance of the apartment interior."
+    },
+    {
+      "id": "theory-006",
+      "title": "Legitimate Business/Investment Interest",
+      "description": "The narrator is actively developing multiple real businesses: (1) work reinvention with gamification and alternative pay structures, (2) education reinvention using AI for personalized learning and mental health, (3) automated marketing platform. This business activity could have attracted legitimate investor interest. The Banker conversation could have been about legal investment. Logan at Keystone had NDA papers and BTC financial software for legitimate business purposes. The observation could be due diligence on a potential partner/investee, albeit through unconventional methods.",
+      "perspective": "business",
+      "supportingEvidenceIds": ["evt-harrahs-day2", "evt-keystone-logan", "evt-casino-day-1-coins-entryway"],
+      "supportingPeopleIds": ["person-006", "person-015"],
+      "supportingLocationIds": ["loc-011"],
+      "supportingItemIds": ["item-009"],
+      "contradictingEvidence": [
+        "Methods are highly unusual for legitimate business",
+        "Apartment entry is not standard due diligence",
+        "Casino setting unusual for business recruitment"
+      ],
+      "confidenceRating": 5,
+      "notes": "Narrator has real, active business ventures (not just ideas) that could attract investor attention. The Harrahs storytelling about wanting to be a billionaire and working on multiple businesses to help kids learn would attract business-minded observers. Could be hybrid - legitimate interest pursued through unconventional or illegitimate means. TransitPros connection could also be legitimate towing industry interest if that company is real."
+    },
+    {
+      "id": "theory-007",
+      "title": "Government Observation",
+      "description": "Federal or state government agencies are observing the narrator, possibly due to TransitPros work, Google work, or financial activity patterns. The smiley face hats at Crow Coffee could relate to the TransitPros 'government and Google' email. The lightbulb mic could be agency surveillance. Talcove is positioned for potential debrief.",
+      "perspective": "government",
+      "supportingEvidenceIds": ["evt-crow-coffee", "evt-lightbulb-mic", "evt-starbucks-blue-painter"],
+      "supportingPeopleIds": ["person-019", "person-012"],
+      "supportingLocationIds": ["loc-014"],
+      "supportingItemIds": [],
+      "contradictingEvidence": [
+        "Methods seem too chaotic for federal agency",
+        "Private actors or a combination seem more likely"
+      ],
+      "confidenceRating": 4,
+      "notes": "Less likely but should be tracked. Would explain professional-level surveillance capability. Talcove connection could be relevant if he's cooperating."
+    },
+    {
+      "id": "theory-008",
+      "title": "Multi-Interpretation Follow-Up Strategy",
+      "description": "The narrator deliberately created ambiguous signals that could be interpreted by multiple parties (criminal, business, government) to leave doors open for follow-up from any angle interested. Writing 'unicorn' at Crow Coffee combined with the Slime mug visible at home created a multi-layered message: could be misinterpreted as having money to launder (not true), or as building billion-dollar legitimate companies (true), or as transformation/rebirth symbolism. The Slime mug references the anime about being reborn as something perceived as weak but becoming incredibly powerful - reflecting narrator's experience of being perceived as a 'slime' but actually being very capable and intelligent. Dawn soap adds layers: cleaning/new beginnings, Pwn (ownership/control), Chess (strategic thinking). This creates an opportunity for follow-up from any observing party along their perspective of interest.",
+      "perspective": "multiple",
+      "supportingEvidenceIds": ["evt-crow-coffee", "evt-move-out", "evt-microcenter"],
+      "supportingPeopleIds": [],
+      "supportingLocationIds": ["loc-014", "loc-003"],
+      "supportingItemIds": ["item-010", "item-011"],
+      "contradictingEvidence": [],
+      "confidenceRating": 10,
+      "notes": "Narrator purchased Slime mug because it resonated personally - reflects experiences of being underestimated while being capable. The multi-interpretation nature creates opportunity for follow-up from any perspective. Slime mug was visible during apartment surveillance (proven by Lysol reference), meaning observers saw the symbolism. Combined Slime + Dawn + unicorn creates layered messaging interpretable by criminal (laundering), business (billion-dollar companies), or government (transformation/power) perspectives."
+    }
+  ]
+}

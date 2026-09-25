@@ -1,0 +1,20 @@
+{
+  "name": "@expanse/types",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Convenience re-exports of common types from @expanse packages",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@expanse/auth": "workspace:*",
+    "@expanse/theme": "workspace:*",
+    "@expanse/user": "workspace:*",
+    "@expanse/validation": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

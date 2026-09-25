@@ -1,0 +1,144 @@
+{
+  "projects": [
+    {
+      "id": "4up",
+      "name": "4Up",
+      "description": "Marketing automation, brand, content generation",
+      "status": "active",
+      "priority": "P2",
+      "category": "business",
+      "color": "#FF6B35",
+      "icon": "Campaign"
+    },
+    {
+      "id": "4eye",
+      "name": "4Eye",
+      "description": "Educational AI assistant (Audio → Visual, Learning Modalities)",
+      "status": "active",
+      "priority": "P1",
+      "category": "business",
+      "color": "#4ECDC4",
+      "icon": "Visibility"
+    },
+    {
+      "id": "1game",
+      "name": "1Game",
+      "description": "Gamification, rewards, progress tracking",
+      "status": "planned",
+      "priority": "P2",
+      "category": "business",
+      "color": "#9B59B6",
+      "icon": "SportsEsports"
+    },
+    {
+      "id": "expanse-services",
+      "name": "Expanse Services",
+      "description": "Software development services",
+      "status": "active",
+      "priority": "P1",
+      "category": "business",
+      "color": "#3498DB",
+      "icon": "Code"
+    },
+    {
+      "id": "lotties",
+      "name": "Lotties",
+      "description": "Animation assets and marketplace",
+      "status": "active",
+      "priority": "P2",
+      "category": "business",
+      "color": "#E74C3C",
+      "icon": "Animation"
+    },
+    {
+      "id": "personal",
+      "name": "Personal",
+      "description": "Health, finances, location, personal goals",
+      "status": "ongoing",
+      "priority": "P1",
+      "category": "personal",
+      "color": "#2ECC71",
+      "icon": "Person"
+    },
+    {
+      "id": "privacy-security",
+      "name": "Privacy & Security",
+      "description": "Security, equipment, protection",
+      "status": "planned",
+      "priority": "P3",
+      "category": "personal",
+      "color": "#95A5A6",
+      "icon": "Security"
+    },
+    {
+      "id": "kinestetic",
+      "name": "AI UI & Kinestetic Learning",
+      "description": "Movement, physical learning, kinesthetic experiences",
+      "status": "planned",
+      "priority": "P1",
+      "category": "business",
+      "color": "#F97316",
+      "icon": "FitnessCenter"
+    },
+    {
+      "id": "planning-app",
+      "name": "Planning App",
+      "description": "Project planning, goal tracking, and roadmap visualization tool",
+      "status": "active",
+      "priority": "P1",
+      "category": "business",
+      "color": "#8B5CF6",
+      "icon": "Map"
+    },
+    {
+      "id": "code-architecture",
+      "name": "High Level Code Architecture",
+      "description": "Code organization, shared types, and cross-project infrastructure",
+      "status": "active",
+      "priority": "P2",
+      "category": "business",
+      "color": "#06B6D4",
+      "icon": "Architecture"
+    },
+    {
+      "id": "food-cube",
+      "name": "Food Cube",
+      "description": "Food and nutrition management system",
+      "status": "planned",
+      "priority": "P3",
+      "category": "personal",
+      "color": "#22C55E",
+      "icon": "Restaurant"
+    },
+    {
+      "id": "water-pills",
+      "name": "Water Pills",
+      "description": "Hydration and supplement tracking system",
+      "status": "planned",
+      "priority": "P3",
+      "category": "personal",
+      "color": "#0EA5E9",
+      "icon": "WaterDrop"
+    },
+    {
+      "id": "4eye-nutrition-tracker",
+      "name": "4Eye Nutrition Tracker",
+      "description": "AI-powered nutrition tracking and dietary analysis",
+      "status": "planned",
+      "priority": "P2",
+      "category": "business",
+      "color": "#F59E0B",
+      "icon": "MonitorHeart"
+    },
+    {
+      "id": "banking",
+      "name": "Banking",
+      "description": "Personal finance and banking management",
+      "status": "planned",
+      "priority": "P2",
+      "category": "personal",
+      "color": "#10B981",
+      "icon": "AccountBalance"
+    }
+  ]
+}

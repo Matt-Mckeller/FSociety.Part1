@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "4eye",
+    "slug": "4eye-mobile",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.foureye.mobile"
+    },
+    "android": {
+      "package": "com.foureye.mobile"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

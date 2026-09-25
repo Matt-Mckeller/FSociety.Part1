@@ -1,0 +1,26 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Playground Dev Server",
+			"type": "shell",
+			"command": "npm run dev --workspace=playground",
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Run Lotties Dev Server",
+			"type": "shell",
+			"command": "npm install && npm run dev --workspace=lotties",
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Run Presentation App Dev Server",
+			"type": "shell",
+			"command": "npm run dev --workspace=apps/presentationApp",
+			"isBackground": true,
+			"group": "build"
+		}
+	]
+}

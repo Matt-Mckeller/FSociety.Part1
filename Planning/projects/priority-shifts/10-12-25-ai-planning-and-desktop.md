@@ -1,0 +1,7 @@
+- Realized I can use AI to help plan and organize my notes etc, and answer questions
+    - This felt like a big impact
+    - Concern: Changing priorities over time, tmi, etc
+- Wondering if Ai could help set priorities and update roadmaps etc
+- Also realizing that large scale planning could be incredible if I can define the highest level vision and see if that works. But, I still haven't fully tested yet, and I'm wondering if errors start happening when projects get too big or if its ok. 
+- Also realized that the instructions could be highly beneficial
+- Also realized that being able to work front and backend together may help move faster and have better direction

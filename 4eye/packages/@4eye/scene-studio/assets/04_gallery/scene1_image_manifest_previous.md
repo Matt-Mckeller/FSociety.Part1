@@ -1,0 +1,23 @@
+# Scene 1 Image Manifest
+
+- **STYLE-REF** — Uploaded style anchor: `1-1.png`
+- **REF-1** — Scene 1 character reference sheet: `cinematic_reference_sheet_for_modern_classroom.png`
+- **REF-2** — Visual systems + environment sheet: `classroom_of_tomorrow_design_reference.png`
+- **S1-A** — Cold open / quiet classroom: `quiet_classroom_under_soft_daylight.png`
+- **S1-B** — 4eye / HUD handoff: `futuristic_classroom_with_glowing_holograms.png`
+- **S1-C** — Original teacher HUD interaction: `futuristic_classroom_with_interactive_holograms.png`
+- **S1-D** — Engaged classroom analytics: `futuristic_classroom_with_ar_learning_tools.png`
+- **S1-D2** — Engaged classroom / holographic lessons: `futuristic_classroom_with_holographic_lessons.png`
+- **S1-E** — Students awaken: `futuristic_classroom_with_holographic_lessons.png`
+- **S1-F** — Gear accumulation: `gear_progression_in_futuristic_classroom.png`
+- **S1-G** — Engagement signals - original: `classroom_engagement_progress_dashboard.png`
+- **S1-G2** — Engagement signals - learning more in less time: `futuristic_classroom_with_engagement_and_growth.png`
+- **S1-G3** — Engagement signals - aligned bars: `engagement_sparks_in_classroom_progress.png`
+- **S1-H** — Friction to focus: `stress_levels_in_a_classroom_standoff.png`
+- **S1-I** — Lens 2 transition: `futuristic_classroom_with_augmented_reality_hud.png`
+- **S1-C-old1** — Teacher HUD pre-tap old: `classroom_of_the_future_with_holograms.png`
+- **S1-C-old2** — Teacher HUD activated old: `interactive_teaching_in_a_futuristic_classroom.png`
+- **S1-C-new1** — Gift icon pre-tap: `futuristic_teaching_moment_in_class.png`
+- **S1-C-new2** — Gift icon tap + energy transfer: `interactive_tech_demo_in_the_classroom.png`
+- **S1-C-new3** — Gift appears in 4eye hands: `futuristic_classroom_with_interactive_holograms.png`
+- **S1-C-new4** — 4eye offers gift payoff: `a_gift_from_the_future.png`

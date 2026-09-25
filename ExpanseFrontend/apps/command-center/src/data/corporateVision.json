@@ -1,0 +1,139 @@
+{
+  "corporateVision": {
+    "sectionDescription": "Strategic direction, not tactical execution — this is the north star that guides priorities, decisions, and long-term planning.",
+    "missionStatement": "Gamification of Learning, Education, Work, and Life — unlocking human potential through innovative technology, human-centered AI, and engaging experiences.",
+    "coreValues": [
+      "Excellence in everything we do",
+      "Unlocking and achieving human potential",
+      "Improving the learning experience worldwide",
+      "Driving engagement and motivation",
+      "Promoting health and wellness",
+      "Delivering exceptional entertainment and fulfillment",
+      "Making a positive global impact",
+      "Fostering understanding through multiple perspectives",
+      "Helping people discover their purpose and navigate their path",
+      "Building human-centered AI that appeals to and relates to humans"
+    ],
+    "strategicTimeline": {
+      "2026": "Achieve unicorn status (billion-dollar valuation)"
+    },
+    "strategicObjectives": {
+      "financialGoals": {
+        "title": "Financial Goals",
+        "icon": "💰",
+        "currentFocus": "Immediate revenue & funding",
+        "items": [
+          "Immediate: Secure income and/or funding quickly",
+          "Near-term: First paying customers across products",
+          "Mid-term: Sustainable, diversified revenue streams",
+          "Long-term: Scale to hundreds of billions in revenue"
+        ]
+      },
+      "marketPositionBrand": {
+        "title": "Market Position & Brand",
+        "icon": "🏆",
+        "currentFocus": "Building flagship products",
+        "items": [
+          "Launch 4eye, 4up, Expanse Services as category leaders",
+          "Become the #1 global symbol for Learning & Gamification",
+          "Build a user base of billions across all countries",
+          "Create the #1 most-used applications in our categories"
+        ]
+      },
+      "competitivePosition": {
+        "title": "Competitive Position",
+        "icon": "🎯",
+        "currentFocus": "MVP execution & differentiation",
+        "items": [
+          "Execute MVPs with exceptional UX as differentiator",
+          "Lead in AI UI/UX innovation",
+          "Achieve Fortune 500 status",
+          "Lead the industry in innovation and market share"
+        ]
+      }
+    },
+    "strategicPillars": [
+      {
+        "id": "pillar-1",
+        "title": "Gamification, Learning & Education",
+        "icon": "🎮",
+        "description": "We are building an umbrella corporation focused on revolutionizing how people learn, work, and live through gamification principles.",
+        "items": [
+          "Deliver an overwhelmingly positive effect on the lives of billions",
+          "Provide unprecedented opportunity, knowledge, and fulfillment",
+          "Build products and services that users love and advocate for"
+        ]
+      },
+      {
+        "id": "pillar-2",
+        "title": "Innovation, Technology & Human-Centered AI",
+        "icon": "🚀",
+        "description": "Building technology that appeals to and relates to humans — things humans naturally enjoy and connect with.",
+        "items": [
+          "Play a major role in shaping the future for the good of humanity",
+          "Improve the entertainment aspect of work, education, and life",
+          "Pioneer new forms of entertainment and enhance existing ones",
+          "Develop full-immersion virtual reality systems for education, entertainment, and experience",
+          "Lead in AI and robotics integration for enhanced human capability",
+          "Create AI that understands and resonates with human emotions, preferences, and experiences"
+        ]
+      },
+      {
+        "id": "pillar-3",
+        "title": "Entertainment & Media",
+        "icon": "🎬",
+        "description": "Creating content and experiences that captivate and educate.",
+        "items": [
+          "Produce world-renowned content across multiple formats",
+          "Build presence across social media, public speaking, conferences, podcasts, and other media channels",
+          "Create new entertainment paradigms that combine education with engagement"
+        ]
+      },
+      {
+        "id": "pillar-4",
+        "title": "Robotics & Automation",
+        "icon": "🤖",
+        "description": "Enhancing human capability, not replacing human purpose.",
+        "items": [
+          "Leverage and contribute to the development of AI-powered robotics",
+          "Automate to enhance human capability, not replace human purpose"
+        ]
+      }
+    ],
+    "leadershipCulture": {
+      "founderVision": "An inspirational, influential leader dedicated to education, motivation, and entertainment — committed to being the best and helping others achieve the same.",
+      "organizationalValues": [
+        "Relentless pursuit of excellence",
+        "User-centric product development",
+        "Long-term thinking and sustainable growth",
+        "Positive global impact as a core metric of success"
+      ]
+    },
+    "safetySecurityCompliance": [
+      "Commitment to operational security and data privacy",
+      "Ethical business practices and regulatory compliance",
+      "Protection of intellectual property and company assets"
+    ],
+    "longTermVision": "Build an enduring organization that outlasts any individual — creating systems, products, and impact that benefit humanity for generations to come.",
+    "strategicNotes": [
+      {
+        "id": "sn-1",
+        "title": "AI Provider Negotiations",
+        "description": "Negotiate discounted rates for training models",
+        "category": "partnerships"
+      },
+      {
+        "id": "sn-2",
+        "title": "AI Provider Support",
+        "description": "Get additional support and funding from AI providers",
+        "category": "funding"
+      },
+      {
+        "id": "sn-3",
+        "title": "Tesla Partnership",
+        "description": "Partnership with Tesla for future robotics and automation initiatives",
+        "category": "partnerships"
+      }
+    ]
+  }
+}

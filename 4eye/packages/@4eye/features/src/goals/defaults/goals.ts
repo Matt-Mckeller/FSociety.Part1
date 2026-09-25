@@ -1,0 +1,58 @@
+import type { Goal } from "@4eye/types";
+
+export const DEFAULT_GOALS: Goal[] = [
+  {
+    id: "goal-focus",
+    word: "Focus",
+    symbol: "Lightning",
+    symbolColor: "amber",
+    category: "cognitive",
+    domain: "default",
+    description: "Concentrate attention on a single task",
+  },
+  {
+    id: "goal-rest",
+    word: "Rest",
+    symbol: "Moon",
+    symbolColor: "blue",
+    category: "health",
+    domain: "default",
+    description: "Recover energy",
+  },
+  {
+    id: "goal-connect",
+    word: "Connect",
+    symbol: "Heart",
+    symbolColor: "pink",
+    category: "social",
+    domain: "default",
+    description: "Engage with people",
+  },
+  {
+    id: "goal-create",
+    word: "Create",
+    symbol: "Star",
+    symbolColor: "purple",
+    category: "purpose",
+    domain: "default",
+    description: "Make something new",
+  },
+  {
+    id: "goal-learn",
+    word: "Learn",
+    symbol: "AutoStories",
+    symbolColor: "blue",
+    category: "cognitive",
+    domain: "learning",
+    description: "Acquire new knowledge or skills",
+  },
+  {
+    id: "goal-ship",
+    word: "Ship",
+    symbol: "Arrow",
+    symbolColor: "green",
+    category: "behavioral",
+    domain: "work",
+    description: "Deliver a working result",
+  },
+];

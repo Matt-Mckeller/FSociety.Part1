@@ -1,0 +1,101 @@
+{
+  "sample": {
+    "durationSeconds": 28,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Okay kids just start running around and do whatever.",
+          "timestamp": 0,
+          "confidence": 0.92
+        },
+        {
+          "text": "Try to do flips and cartwheels if you want.",
+          "timestamp": 4.8,
+          "confidence": 0.89
+        },
+        {
+          "text": "I'll be over here checking my phone.",
+          "timestamp": 9.3,
+          "confidence": 0.9
+        },
+        {
+          "text": "If someone gets hurt just come tell me.",
+          "timestamp": 13.7,
+          "confidence": 0.88
+        },
+        {
+          "text": "Try not to run into each other too much.",
+          "timestamp": 18.2,
+          "confidence": 0.87
+        },
+        {
+          "text": "We've got about 40 minutes so just have fun.",
+          "timestamp": 23.1,
+          "confidence": 0.91
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.98,
+    "appropriatenessScore": 0.1,
+    "warnings": [
+      {
+        "type": "SupervisionConcern",
+        "severity": "High",
+        "details": "The speaker, presumably a teacher, instructs children to perform physical activities like 'flips and cartwheels' while explicitly stating they will be disengaged ('checking my phone'). This indicates a severe lack of active supervision, posing a significant safety risk to the children."
+      },
+      {
+        "type": "ProfessionalConductWarning",
+        "severity": "High",
+        "details": "The statement 'I'll be over here checking my phone' demonstrates unprofessional conduct and a disregard for student safety and engagement."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.01,
+    "isSideConversation_confidence": 0.05,
+    "isIrrelevantContent_confidence": 0.95,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "classroom_management",
+      "unstructured_play",
+      "physical_activity",
+      "teacher_instruction",
+      "supervision_concern",
+      "safety_warning",
+      "unprofessional_conduct"
+    ],
+    "shouldSummarize": false,
+    "shouldSummarizeFalseReason": "The content consists of non-educational instructions for unstructured playtime and contains no academic concepts to summarize. It primarily raises significant concerns about classroom supervision and student safety.",
+    "waitForMoreContent": false,
+    "summarization": "",
+    "recommendedSummarization": "concise",
+    "additionalSummarizationOptions": [],
+    "oneLineSummarization": "",
+    "recommendVisualizationToImproveLearning": false,
+    "visualizationEffectivenessScore": 0,
+    "learningModalityText": [],
+    "visualizationSuggestions": [],
+    "purpose": "This content has no academic purpose. It consists of instructions for unstructured physical activity with a concerning lack of direct supervision.",
+    "motivation": "There is no educational motivation in this content. The instructions are for recreational activity, not for learning a specific skill or concept under guided instruction.",
+    "learningValueScore": 0,
+    "availableActions": [],
+    "vocabularyEnhancements": null,
+    "relatedResearch": [],
+    "recommendationsToTeacher": [
+      "FLAG FOR IMMEDIATE REVIEW: This transcript indicates a serious lapse in professional supervision. The teacher's stated intention to be on their phone while students perform potentially risky physical activities is a major safety and liability concern.",
+      "Establish clear safety rules and boundaries for any unstructured or free-play time. Instructions like 'do whatever' are too vague and can lead to accidents.",
+      "Active supervision is critical during physical activities. The supervising adult should be attentive, mobile, and engaged with the students, not distracted by personal devices."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:48:02.971Z",
+    "latencyMs": 20516,
+    "tokenUsage": {
+      "input": 6880,
+      "output": 648,
+      "total": 8927
+    }
+  }
+}

@@ -1,0 +1,489 @@
+---
+title: Layout Systems/Keyboard Navigation
+---
+
+# Keyboard Navigation Guide
+
+**Complete reference for keyboard controls and shortcuts.**
+
+---
+
+## Overview
+
+The @expanse/shell system is built with **keyboard-first navigation** in mind. All features are accessible via keyboard without requiring a mouse.
+
+---
+
+## Primary Navigation Keys
+
+### Arrow Keys (Recommended)
+
+The primary navigation method uses arrow keys:
+
+| Key | Action | Description |
+|-----|--------|-------------|
+| `←` | Move Left | Navigate one tile to the left |
+| `→` | Move Right | Navigate one tile to the right |
+| `↑` | Move Up | Navigate one tile up |
+| `↓` | Move Down | Navigate one tile down |
+
+**Example:**
+```
+Current position: (2, 2)
+Press → → ↓
+New position: (4, 3)
+```
+
+---
+
+### WASD Keys (Alternative)
+
+Alternative keyboard layout popular in gaming:
+
+| Key | Action | Description |
+|-----|--------|-------------|
+| `W` | Move Up | Navigate one tile up |
+| `A` | Move Left | Navigate one tile to the left |
+| `S` | Move Down | Navigate one tile down |
+| `D` | Move Right | Navigate one tile to the right |
+
+**When to use WASD:**
+- Gaming-style applications
+- One-handed navigation
+- Preference for clustered keys
+- Accessibility needs
+
+---
+
+## Special Navigation Keys
+
+### Home Key
+
+```
+Key: Home
+Action: Jump to home position
+```
+
+Returns to the configured home position (typically center of grid).
+
+**Example:**
+```tsx
+const config = {
+  dimensions: {
+    homePosition: { x: 2, y: 2 },  // Home is at center
+  },
+};
+
+// From any position, pressing Home returns to (2, 2)
+```
+
+---
+
+### Backspace / Delete
+
+```
+Key: Backspace (or Delete on Mac)
+Action: Go back to previous position
+```
+
+Navigate backwards through position history (like browser back button).
+
+**Example:**
+```
+Visit sequence: (1,1) → (2,1) → (2,2)
+Press Backspace: Return to (2,1)
+Press Backspace: Return to (1,1)
+```
+
+---
+
+## Grid Behavior
+
+### Wrap-Around Mode
+
+When enabled, moving past the grid edge wraps to the opposite side:
+
+```tsx
+const config = {
+  dimensions: {
+    width: 5,
+    height: 5,
+    wrapAround: true,  // Enable wrap-around
+  },
+};
+```
+
+**Horizontal Wrapping:**
+```
+Position: (4, 2) [rightmost tile]
+Press →
+New position: (0, 2) [wraps to left edge]
+```
+
+**Vertical Wrapping:**
+```
+Position: (2, 4) [bottom tile]
+Press ↓
+New position: (2, 0) [wraps to top edge]
+```
+
+### Boundary Mode
+
+When wrap-around is disabled, movement is blocked at edges:
+
+```tsx
+const config = {
+  dimensions: {
+    width: 5,
+    height: 5,
+    wrapAround: false,  // Disable wrap-around
+  },
+};
+```
+
+**Edge Behavior:**
+```
+Position: (4, 2) [rightmost tile]
+Press →
+Result: No movement (at edge)
+```
+
+---
+
+## Keyboard Shortcuts Summary
+
+### Quick Reference Table
+
+| Category | Key | Action |
+|----------|-----|--------|
+| **Navigation** | ← → ↑ ↓ | Move in direction |
+| **Navigation** | W A S D | Alternative movement |
+| **Quick Jump** | Home | Jump to home position |
+| **History** | Backspace | Go back in history |
+| **Browser** | Tab | Focus next element |
+| **Browser** | Shift+Tab | Focus previous element |
+| **Accessibility** | Enter/Space | Activate focused button |
+
+---
+
+## Accessibility Features
+
+### Keyboard Focus
+
+All interactive elements are keyboard-accessible:
+
+1. **Tab Navigation** - Cycle through controls
+2. **Visual Focus Indicators** - Clear outline on focused elements
+3. **Skip Links** - Jump to main content
+
+### ARIA Labels
+
+All navigation buttons include descriptive ARIA labels:
+
+```tsx
+<button aria-label="Move up">↑</button>
+<button aria-label="Move down">↓</button>
+<button aria-label="Move left">←</button>
+<button aria-label="Move right">→</button>
+<button aria-label="Go to home position">⌂</button>
+<button aria-label="Go back">←</button>
+```
+
+### Screen Reader Support
+
+- Position changes are announced
+- Tile titles are read on navigation
+- Button states are communicated
+
+---
+
+## Custom Keyboard Handlers
+
+### Adding Custom Keys
+
+Extend keyboard support with custom handlers:
+
+```tsx
+import { useNavigation } from '@expanse/shell';
+import { useEffect } from 'react';
+
+function CustomKeyboardHandler() {
+  const { moveTo } = useNavigation();
+  
+  useEffect(() => {
+    const handleKeyPress = (e: KeyboardEvent) => {
+      // Custom key: Press '1' to jump to position (0, 0)
+      if (e.key === '1') {
+        moveTo({ x: 0, y: 0 });
+      }
+      
+      // Custom key: Press '5' to jump to center
+      if (e.key === '5') {
+        moveTo({ x: 2, y: 2 });
+      }
+    };
+    
+    window.addEventListener('keydown', handleKeyPress);
+    return () => window.removeEventListener('keydown', handleKeyPress);
+  }, [moveTo]);
+  
+  return null;
+}
+```
+
+### Disabling Default Keys
+
+Prevent default keyboard behavior:
+
+```tsx
+useEffect(() => {
+  const handleKeyPress = (e: KeyboardEvent) => {
+    // Disable arrow keys from scrolling the page
+    if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) {
+      e.preventDefault();
+    }
+  };
+  
+  window.addEventListener('keydown', handleKeyPress);
+  return () => window.removeEventListener('keydown', handleKeyPress);
+}, []);
+```
+
+---
+
+## Keyboard + Mouse Combinations
+
+### Click to Navigate + Keyboard
+
+Users can combine mouse clicks with keyboard navigation:
+
+1. **Click on Minimap** - Jump to specific tile
+2. **Use Arrow Keys** - Fine-tune position
+3. **Click NavigationPad** - Alternative to keyboard
+
+### Touch + Keyboard
+
+On touch devices with keyboards:
+
+1. **Touch NavigationPad** - Navigate with fingers
+2. **Switch to Keyboard** - Use arrow keys for precision
+3. **Hybrid Approach** - Best of both worlds
+
+---
+
+## Best Practices
+
+### Do's ✅
+
+- **Always provide keyboard alternatives** for mouse actions
+- **Show keyboard hints** in UI (e.g., "Press ← → to navigate")
+- **Test with keyboard only** during development
+- **Use standard keys** (arrows) for intuitive UX
+- **Prevent default behaviors** that conflict with navigation
+- **Provide focus indicators** for current element
+- **Support both arrow and WASD** for flexibility
+
+### Don'ts ❌
+
+- **Don't rely solely on mouse** for critical features
+- **Don't hijack standard browser shortcuts** (Ctrl+T, etc.)
+- **Don't forget Tab navigation** for controls
+- **Don't remove focus outlines** without alternatives
+- **Don't block standard keyboard flows** unnecessarily
+
+---
+
+## Debugging Keyboard Issues
+
+### Check Key Events
+
+Log keyboard events to debug:
+
+```tsx
+useEffect(() => {
+  const handleKeyPress = (e: KeyboardEvent) => {
+    console.log({
+      key: e.key,
+      code: e.code,
+      ctrlKey: e.ctrlKey,
+      shiftKey: e.shiftKey,
+      altKey: e.altKey,
+    });
+  };
+  
+  window.addEventListener('keydown', handleKeyPress);
+  return () => window.removeEventListener('keydown', handleKeyPress);
+}, []);
+```
+
+### Test Focus Management
+
+Verify focus is working correctly:
+
+```tsx
+useEffect(() => {
+  const handleFocus = (e: FocusEvent) => {
+    console.log('Focused element:', e.target);
+  };
+  
+  window.addEventListener('focusin', handleFocus);
+  return () => window.removeEventListener('focusin', handleFocus);
+}, []);
+```
+
+---
+
+## Keyboard Navigation Patterns
+
+### Dashboard Pattern
+
+Ideal for dashboard-style apps:
+
+```
+Grid Layout:
+┌─────┬─────┬─────┐
+│  1  │  2  │  3  │  Use ← → to switch sections
+├─────┼─────┼─────┤
+│  4  │  5  │  6  │  Use ↑ ↓ to navigate vertically
+├─────┼─────┼─────┤
+│  7  │  8  │  9  │  Press Home to return to center
+└─────┴─────┴─────┘
+
+Recommend: Show navigation hints on first visit
+```
+
+### Portfolio Pattern
+
+Common for creative showcases:
+
+```
+Grid Layout (Sparse):
+     ┌─────┐
+     │ Bio │          Press → to view projects
+     └─────┘
+           ┌─────┐   Press ↓ to see more
+           │ Proj│   Press Home to return to bio
+           └─────┘
+
+Recommend: Minimap to show full structure
+```
+
+### Game Pattern
+
+Popular for interactive experiences:
+
+```
+Grid Layout (Dense):
+┌─┬─┬─┬─┬─┐
+│█│ │ │ │█│  WASD for movement
+├─┼─┼─┼─┼─┤  Arrow keys for movement
+│ │ │H│ │ │  H = Home position
+├─┼─┼─┼─┼─┤
+│█│ │ │ │█│  █ = Obstacles (skip)
+├─┼─┼─┼─┼─┤
+│ │ │ │ │ │
+└─┴─┴─┴─┴─┘
+
+Recommend: WASD primary, wrap-around enabled
+```
+
+---
+
+## Performance Considerations
+
+### Debouncing Rapid Key Presses
+
+Prevent performance issues from key mashing:
+
+```tsx
+import { debounce } from 'lodash';
+
+const debouncedMove = debounce((direction) => {
+  move(direction);
+}, 50); // 50ms debounce
+```
+
+### Animation During Navigation
+
+Ensure smooth animations don't block keyboard input:
+
+```tsx
+const handleKeyPress = (e: KeyboardEvent) => {
+  // Cancel ongoing animation before starting new one
+  gsap.killTweensOf(element);
+  
+  // Start new navigation animation
+  animateToPosition(newPosition);
+};
+```
+
+---
+
+## Browser Support
+
+### Key Event Compatibility
+
+| Browser | Arrow Keys | WASD | Home | Backspace |
+|---------|-----------|------|------|-----------|
+| Chrome 90+ | ✅ | ✅ | ✅ | ✅ |
+| Firefox 88+ | ✅ | ✅ | ✅ | ✅ |
+| Safari 14+ | ✅ | ✅ | ✅ | ✅ |
+| Edge 90+ | ✅ | ✅ | ✅ | ✅ |
+
+### Known Issues
+
+- **Safari iOS**: No keyboard on touch-only devices
+- **Firefox**: Home key may scroll to top (prevent default)
+- **Opera**: Some special keys may conflict
+
+---
+
+## Examples
+
+### Minimal Keyboard Setup
+
+```tsx
+import { NavigationProvider, MinimalLayout } from '@expanse/shell';
+
+function App() {
+  return (
+    <NavigationProvider config={gridConfig}>
+      <MinimalLayout preset="floating-controls" />
+    </NavigationProvider>
+  );
+}
+
+// That's it! Keyboard navigation is automatic.
+```
+
+### Custom Keyboard Shortcuts
+
+```tsx
+function AppWithCustomKeys() {
+  const { moveTo, moveUp, moveDown } = useNavigation();
+  
+  useEffect(() => {
+    const handleKey = (e: KeyboardEvent) => {
+      switch(e.key) {
+        case 'j': moveDown(); break;        // Vim-style
+        case 'k': moveUp(); break;          // Vim-style
+        case 'g': moveTo({ x: 0, y: 0 }); break;  // Go to top
+        case 'G': moveTo({ x: 4, y: 4 }); break;  // Go to bottom
+      }
+    };
+    
+    window.addEventListener('keydown', handleKey);
+    return () => window.removeEventListener('keydown', handleKey);
+  }, [moveTo, moveUp, moveDown]);
+  
+  return <MinimalLayout />;
+}
+```
+
+---
+
+## Related Documentation
+
+- **[Introduction](/?path=/docs/documentation-introduction--docs)** - Getting started
+- **[Architecture](/?path=/docs/documentation-architecture--docs)** - System design
+- **[NavigationPad](/?path=/docs/features-navigation-navigationpad--docs)** - Visual controls

@@ -1,0 +1,102 @@
+{
+  "platforms": [
+    {
+      "id": "ig-feed-4x5",
+      "label": "Instagram Feed",
+      "placement": "feed",
+      "network": "instagram",
+      "width": 1080,
+      "height": 1350,
+      "ratio": "4:5",
+      "fit": "cover",
+      "blurb": "Portrait feed / carousel — Instagram’s preferred post size."
+    },
+    {
+      "id": "ig-story-9x16",
+      "label": "Instagram Story",
+      "placement": "story",
+      "network": "instagram",
+      "width": 1080,
+      "height": 1920,
+      "ratio": "9:16",
+      "fit": "cover",
+      "blurb": "Full-bleed Stories & Highlights — not the same as 4×5 feed."
+    },
+    {
+      "id": "ig-reel-9x16",
+      "label": "Instagram Reel cover",
+      "placement": "reel",
+      "network": "instagram",
+      "width": 1080,
+      "height": 1920,
+      "ratio": "9:16",
+      "fit": "cover",
+      "blurb": "Reel still / cover frame — same canvas as Stories."
+    },
+    {
+      "id": "ig-square-1x1",
+      "label": "Instagram Square",
+      "placement": "feed-square",
+      "network": "instagram",
+      "width": 1080,
+      "height": 1080,
+      "ratio": "1:1",
+      "fit": "cover",
+      "blurb": "Classic square feed post."
+    },
+    {
+      "id": "linkedin-portrait",
+      "label": "LinkedIn portrait",
+      "placement": "post",
+      "network": "linkedin",
+      "width": 1080,
+      "height": 1350,
+      "ratio": "4:5",
+      "fit": "cover",
+      "blurb": "Portrait LinkedIn image post (matches IG feed)."
+    },
+    {
+      "id": "x-post-16x9",
+      "label": "X / Twitter post",
+      "placement": "post",
+      "network": "x",
+      "width": 1600,
+      "height": 900,
+      "ratio": "16:9",
+      "fit": "cover",
+      "blurb": "Landscape post image for X."
+    },
+    {
+      "id": "yt-thumb-16x9",
+      "label": "YouTube thumbnail",
+      "placement": "thumbnail",
+      "network": "youtube",
+      "width": 1280,
+      "height": 720,
+      "ratio": "16:9",
+      "fit": "cover",
+      "blurb": "Standard YouTube thumbnail."
+    }
+  ],
+  "sourceKinds": [
+    {
+      "id": "ig-feed-4x5",
+      "match": { "width": 1080, "height": 1350 },
+      "label": "Already IG Feed 4×5",
+      "note": "Correct for Instagram feed posts — wrong for Stories (needs 9:16)."
+    },
+    {
+      "id": "ai-portrait-2x3",
+      "match": { "width": 1024, "height": 1536 },
+      "label": "AI portrait 2:3",
+      "note": "Midjourney / Flux default — not a social publish size."
+    },
+    {
+      "id": "ig-story-9x16",
+      "match": { "width": 1080, "height": 1920 },
+      "label": "Already IG Story 9:16",
+      "note": "Correct for Instagram Stories / Reels covers."
+    }
+  ],
+  "defaultExportPlatforms": ["ig-feed-4x5", "ig-story-9x16"]
+}

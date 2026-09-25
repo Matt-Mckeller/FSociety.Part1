@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="Heart.Evolve — Destination">
+  <defs>
+    <linearGradient id="bg" x1="0.2" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#0c4a39"/>
+      <stop offset="50%" stop-color="#1c1917"/>
+      <stop offset="100%" stop-color="#7f1d3d"/>
+    </linearGradient>
+    <radialGradient id="bloom" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#ff8fab" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ff5c7a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="960" height="600" fill="url(#bg)"/>
+  <rect width="960" height="600" fill="url(#bloom)"/>
+  <g transform="translate(480 290)">
+    <path d="M0 90 C-55 28 -145 -20 -145 -82 C-145 -132 -105 -160 -62 -160 C-26 -160 0 -134 0 -106 C0 -134 26 -160 62 -160 C105 -160 145 -132 145 -82 C145 -20 55 28 0 90 Z" fill="#ff5c7a"/>
+    <path d="M0 90 C-55 28 -145 -20 -145 -82 C-145 -132 -105 -160 -62 -160 C-26 -160 0 -134 0 -106 C0 -134 26 -160 62 -160 C105 -160 145 -132 145 -82 C145 -20 55 28 0 90 Z" fill="none" stroke="#fff" stroke-width="3" opacity="0.35"/>
+    <circle cx="0" cy="-20" r="120" fill="none" stroke="#4fe0b0" stroke-width="2" opacity="0.35"/>
+  </g>
+  <text x="48" y="64" fill="#fecdd3" font-family="ui-monospace,Menlo,monospace" font-size="22" font-weight="700">Destination</text>
+  <text x="48" y="560" fill="#e7e5e4" font-family="ui-sans-serif,system-ui" font-size="18">Where this is going — bond + growth made visible</text>
+</svg>

@@ -1,0 +1,375 @@
+{
+  "id": "string",
+  "version": "string",
+  "title": {
+    "value": "string",
+    "description": "Human-friendly title for the asset",
+    "example": "Product Hero Shot - Blue Headphones"
+  },
+  "summary": {
+    "value": "string",
+    "description": "One-sentence summary of content or purpose",
+    "example": "Close-up product shot for marketing banner"
+  },
+  "metadata": {
+    "author": "string",
+    "created_at": "YYYY-MM-DDTHH:MM:SSZ",
+    "source": "string",
+    "license": "string",
+    "tags": ["string"],
+    "intended_use": ["string"],
+    "description": "Metadata fields describing provenance, tags, and intended use",
+    "example": {
+      "author": "Jane Doe",
+      "created_at": "2025-10-10T14:23:00Z",
+      "source": "in-house/photo-studio",
+      "license": "CC-BY-4.0",
+      "tags": ["product", "headphones", "hero"],
+      "intended_use": ["ecommerce", "banner"]
+    }
+  },
+  "content": {
+    "subject": ["string"],
+    "setting": ["string"],
+    "narrative": "string",
+    "semantic_names": {
+      "description": "Map of semantic names to element IDs / layer names (very useful for Lottie/animation)",
+      "map": {
+        "string": "string"
+      },
+      "example": {
+        "button_cta": "layer_12",
+        "logo": "group_3",
+        "left_earcup": "shape_ear_left"
+      }
+    },
+    "example": {
+      "subject": ["product", "headphones"],
+      "setting": ["studio", "controlled_lighting"],
+      "narrative": "Show product in a premium, isolated studio setting emphasizing materials"
+    }
+  },
+  "style": {
+    "style_tags": ["string"],
+    "style_description": "string",
+    "medium": ["string"],
+    "color_palette": {
+      "type": "string",
+      "primary_colors": ["#hex"],
+      "secondary_colors": ["#hex"]
+    },
+    "texture": ["string"],
+    "visual_language": ["string"],
+    "example": {
+      "style_tags": ["realistic", "minimalist"],
+      "style_description": "Realistic product render with minimal props",
+      "medium": ["photograph", "3d_render"],
+      "color_palette": {
+        "type": "cool",
+        "primary_colors": ["#0A2540"],
+        "secondary_colors": ["#7FB0FF"]
+      },
+      "texture": ["matte", "soft_reflection"],
+      "visual_language": ["geometric", "clean"]
+    }
+  },
+  "composition": {
+    "framing": "string",
+    "focus": ["string"],
+    "subject_placement": "string",
+    "depth": "string",
+    "negative_space": "string",
+    "balance": "string",
+    "leading_lines": "boolean",
+    "clutter_level": "string",
+    "hierarchy": "string",
+    "recommended_improvements": ["string"],
+    "example": {
+      "framing": "close_up",
+      "focus": ["left_earcup"],
+      "subject_placement": "rule_of_thirds",
+      "depth": "shallow",
+      "negative_space": "ample",
+      "balance": "asymmetric",
+      "leading_lines": true,
+      "clutter_level": "low",
+      "hierarchy": "strong_primary_subject",
+      "recommended_improvements": [
+        "increase_negative_space",
+        "move_subject_slightly_right"
+      ]
+    }
+  },
+  "lighting": {
+    "lighting_type": ["string"],
+    "key_light": {
+      "intensity": "string",
+      "direction": "string",
+      "hardness": "string"
+    },
+    "fill_light": {
+      "intensity": "string",
+      "direction": "string"
+    },
+    "backlight": {
+      "present": "boolean",
+      "purpose": "string"
+    },
+    "exposure": "string",
+    "contrast": "string",
+    "highlights_shadows": "string",
+    "color_temperature": "string",
+    "lighting_issues": ["string"],
+    "recommended_improvements": ["string"],
+    "example": {
+      "lighting_type": ["studio", "soft"],
+      "key_light": {
+        "intensity": "medium",
+        "direction": "45deg_left_top",
+        "hardness": "soft"
+      },
+      "fill_light": { "intensity": "low", "direction": "front" },
+      "backlight": {
+        "present": true,
+        "purpose": "separate_subject_from_background"
+      },
+      "exposure": "well_exposed",
+      "contrast": "medium",
+      "highlights_shadows": "balanced",
+      "color_temperature": "5600K",
+      "lighting_issues": ["minor_specular_glare_on_cup"],
+      "recommended_improvements": [
+        "reduce_specular_highlight",
+        "add_soft_fill_right"
+      ]
+    }
+  },
+  "color": {
+    "dominant_colors": ["#hex"],
+    "palette_style": "string",
+    "saturation": "string",
+    "contrast_level": "string",
+    "color_cast": "string",
+    "color_accessibility": {
+      "contrast_ratio": "number",
+      "meets_wcag": "boolean"
+    },
+    "recommended_improvements": ["string"],
+    "example": {
+      "dominant_colors": ["#0A2540", "#7FB0FF"],
+      "palette_style": "cool_complementary",
+      "saturation": "moderate",
+      "contrast_level": "high",
+      "color_cast": "none",
+      "color_accessibility": { "contrast_ratio": 4.5, "meets_wcag": true },
+      "recommended_improvements": [
+        "desaturate_background",
+        "increase_text_contrast"
+      ]
+    }
+  },
+  "technical": {
+    "file_type": "string",
+    "dimensions": {
+      "width": "number",
+      "height": "number",
+      "units": "string"
+    },
+    "dpi": "number",
+    "duration_seconds": "number or null",
+    "frame_rate": "number or null",
+    "resolution_quality": "string",
+    "render_engine": "string",
+    "compression": {
+      "type": "string",
+      "level": "string",
+      "artifacts": ["string"]
+    },
+    "noise_artifacts": ["string"],
+    "alpha_channel": "boolean",
+    "vector": "boolean",
+    "lottie_specific": {
+      "version": "string",
+      "preserve_names": "boolean",
+      "optimizations_applied": ["string"],
+      "total_layers": "number",
+      "named_elements_count": "number"
+    },
+    "recommended_improvements": ["string"],
+    "example": {
+      "file_type": "svg",
+      "dimensions": { "width": 1920, "height": 1080, "units": "px" },
+      "dpi": 72,
+      "duration_seconds": null,
+      "frame_rate": null,
+      "resolution_quality": "high",
+      "render_engine": "n/a",
+      "compression": {
+        "type": "gzip",
+        "level": "medium",
+        "artifacts": ["none"]
+      },
+      "noise_artifacts": [],
+      "alpha_channel": true,
+      "vector": true,
+      "lottie_specific": {
+        "version": "5.7.4",
+        "preserve_names": true,
+        "optimizations_applied": ["remove_unused_nodes", "minify_paths"],
+        "total_layers": 28,
+        "named_elements_count": 18
+      },
+      "recommended_improvements": [
+        "flatten_some_groups_for_performance",
+        "reduce_path_points"
+      ]
+    }
+  },
+  "accessibility": {
+    "alt_text": "string",
+    "long_description": "string",
+    "language": "string",
+    "readability": {
+      "contrast_ratio": "number",
+      "meets_wcag": "boolean"
+    },
+    "interaction_accessibility": {
+      "keyboard_focusable": "boolean",
+      "aria_labels_provided": "boolean"
+    },
+    "recommended_improvements": ["string"],
+    "example": {
+      "alt_text": "Blue premium wireless headphones on a dark blue background",
+      "long_description": "A close-up photo emphasizing the left earcup of a matte blue wireless headphone with soft studio lighting and ample negative space to the right.",
+      "language": "en-US",
+      "readability": { "contrast_ratio": 4.8, "meets_wcag": true },
+      "interaction_accessibility": {
+        "keyboard_focusable": false,
+        "aria_labels_provided": false
+      },
+      "recommended_improvements": [
+        "add_aria_labels_for_interactive_regions",
+        "provide_keyboard_focus_for_controls"
+      ]
+    }
+  },
+  "animation": {
+    "is_animated": "boolean",
+    "type": ["string"],
+    "duration_seconds": "number or null",
+    "fps": "number or null",
+    "loop": "boolean",
+    "easing_profile": ["string"],
+    "keyframe_density": "string",
+    "animated_elements_summary": [
+      {
+        "semantic_name": "string",
+        "element_id": "string",
+        "properties_animated": ["string"],
+        "timing": {
+          "start": "number",
+          "end": "number",
+          "easing": "string"
+        }
+      }
+    ],
+    "performance_notes": ["string"],
+    "recommended_improvements": ["string"],
+    "example": {
+      "is_animated": true,
+      "type": ["lottie", "svg_animation"],
+      "duration_seconds": 2.4,
+      "fps": 60,
+      "loop": true,
+      "easing_profile": ["easeInOutCubic"],
+      "keyframe_density": "medium",
+      "animated_elements_summary": [
+        {
+          "semantic_name": "logo_spin",
+          "element_id": "group_3",
+          "properties_animated": ["rotation", "opacity"],
+          "timing": { "start": 0, "end": 2.4, "easing": "easeInOutCubic" }
+        }
+      ],
+      "performance_notes": [
+        "good_playback_mobile",
+        "slight_overdraw_on_old_devices"
+      ],
+      "recommended_improvements": [
+        "reduce_keyframe_density",
+        "convert_some_shapes_to_raster_for_mobile"
+      ]
+    }
+  },
+  "quality_assessment": {
+    "overall_score": "number (0-100)",
+    "confidence": "number (0-1)",
+    "strengths": ["string"],
+    "weaknesses": ["string"],
+    "action_priority": [
+      {
+        "priority": "high|medium|low",
+        "issue": "string",
+        "action": "string"
+      }
+    ],
+    "example": {
+      "overall_score": 87,
+      "confidence": 0.92,
+      "strengths": ["clean_composition", "good_lighting"],
+      "weaknesses": ["minor_specular", "excessive_background_saturation"],
+      "action_priority": [
+        {
+          "priority": "high",
+          "issue": "specular_glare",
+          "action": "reduce_specular_highlight"
+        },
+        {
+          "priority": "medium",
+          "issue": "background_saturation",
+          "action": "desaturate_background"
+        }
+      ]
+    }
+  },
+  "improvement_plan": {
+    "immediate": ["string"],
+    "short_term": ["string"],
+    "long_term": ["string"],
+    "estimated_effort": {
+      "immediate": "low|medium|high",
+      "short_term": "low|medium|high",
+      "long_term": "low|medium|high"
+    },
+    "example": {
+      "immediate": [
+        "reduce_specular_highlight",
+        "crop_for_stronger_rule_of_thirds"
+      ],
+      "short_term": ["adjust_color_balance", "export_webp_for_website"],
+      "long_term": [
+        "re-shoot_with_diffused_key_light",
+        "refactor_lottie_layers_for_performance"
+      ],
+      "estimated_effort": {
+        "immediate": "low",
+        "short_term": "medium",
+        "long_term": "high"
+      }
+    }
+  },
+  "audit_trail": [
+    {
+      "timestamp": "YYYY-MM-DDTHH:MM:SSZ",
+      "actor": "string",
+      "action": "string",
+      "notes": "string"
+    }
+  ],
+  "custom_fields": {
+    "description": "Freeform map for organization-specific keys",
+    "map": {
+      "string": "any"
+    }
+  }
+}

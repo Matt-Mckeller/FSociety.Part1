@@ -1,0 +1,36 @@
+{
+  "name": "@expanse/theme",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Multi-theme MUI system with 4 color themes (primary, blue, green, orange) × 2 modes (light, dark)",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src",
+    "type-check": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "@mui/material": "^9.0.0",
+    "@mui/system": "^9.0.0",
+    "gsap": "^3.12.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "gsap": "^3.12.0",
+    "js-cookie": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/js-cookie": "^3.0.0",
+    "typescript": "^5.0.0",
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}

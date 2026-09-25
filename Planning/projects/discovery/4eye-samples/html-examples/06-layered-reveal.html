@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layered Reveal - Earth's Layers</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .outer-container {
+      background: white;
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      max-width: 700px;
+      width: 100%;
+    }
+
+    h1 {
+      text-align: center;
+      color: #1e293b;
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+
+    .page-subtitle {
+      text-align: center;
+      color: #64748b;
+      margin-bottom: 30px;
+      font-size: 16px;
+    }
+
+    .layers-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 30px;
+      text-align: center;
+    }
+
+    h3 {
+      color: #1e293b;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #64748b;
+      margin-bottom: 20px;
+    }
+
+    .earth {
+      width: 400px;
+      height: 400px;
+      margin: 30px auto;
+      position: relative;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+
+    .layer {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      border-radius: 50%;
+      background: var(--color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+      transform-origin: center;
+    }
+
+    .layer[data-layer="4"] { z-index: 4; }
+    .layer[data-layer="3"] { z-index: 3; transform: scale(0.75); }
+    .layer[data-layer="2"] { z-index: 2; transform: scale(0.5); }
+    .layer[data-layer="1"] { z-index: 1; transform: scale(0.25); }
+
+    .layer:hover {
+      filter: brightness(1.1);
+    }
+
+    .layer.hidden {
+      transform: scale(1.3) !important;
+      opacity: 0;
+      pointer-events: none;
+    }
+
+    .layer-label {
+      color: white;
+      font-weight: 600;
+      font-size: 18px;
+      text-align: center;
+      opacity: 0;
+      animation: fadeIn 0.5s ease-out forwards;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+
+    @keyframes fadeIn {
+      to { opacity: 1; }
+    }
+
+    .layer-label small {
+      display: block;
+      font-size: 12px;
+      margin-top: 5px;
+      opacity: 0.9;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 24px;
+      background: #3b82f6;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    button:hover {
+      background: #2563eb;
+      transform: scale(1.05);
+    }
+
+    .info {
+      margin-top: 30px;
+      padding: 20px;
+      background: #f1f5f9;
+      border-radius: 12px;
+      color: #475569;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .info strong {
+      color: #1e293b;
+    }
+  </style>
+</head>
+<body>
+  <div class="outer-container">
+    <h1>🌍 Layered Reveal</h1>
+    <p class="page-subtitle">Earth's Layers - Click to Peel Away</p>
+
+    <div class="layers-container">
+      <h3>Earth's Layers</h3>
+      <p>Click on layers to reveal what's beneath</p>
+      
+      <div class="earth">
+        <div class="layer" data-layer="4" style="--color: #10b981">
+          <span class="layer-label">Crust<br><small>0-100 km</small></span>
+        </div>
+        <div class="layer" data-layer="3" style="--color: #f59e0b">
+          <span class="layer-label">Mantle<br><small>100-2900 km</small></span>
+        </div>
+        <div class="layer" data-layer="2" style="--color: #ef4444">
+          <span class="layer-label">Outer Core<br><small>2900-5150 km</small></span>
+        </div>
+        <div class="layer" data-layer="1" style="--color: #dc2626">
+          <span class="layer-label">Inner Core<br><small>5150-6371 km</small></span>
+        </div>
+      </div>
+      
+      <button onclick="resetLayers()">🔄 Reset Layers</button>
+    </div>
+
+    <div class="info">
+      <strong>Use Case:</strong> Peeling back layers to show internal structure - earth, human body, onion-style concepts.
+      <br><br>
+      <strong>Features:</strong> Click any layer to make it disappear, smooth scale and fade transitions, reset button to start over.
+      <br><br>
+      <strong>Learning Benefit:</strong> Progressive disclosure helps students understand nested structures and depth relationships.
+    </div>
+  </div>
+
+  <script>
+    const layers = document.querySelectorAll('.layer');
+
+    layers.forEach(layer => {
+      layer.addEventListener('click', () => {
+        layer.classList.add('hidden');
+      });
+    });
+
+    function resetLayers() {
+      layers.forEach(layer => {
+        layer.classList.remove('hidden');
+      });
+    }
+  </script>
+</body>
+</html>

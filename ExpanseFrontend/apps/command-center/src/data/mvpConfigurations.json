@@ -1,0 +1,284 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-07",
+
+  "documentation": {
+    "purpose": "Saved MVP configurations for comparison and planning",
+    "usage": "Each configuration represents a potential launch scope with selected features",
+    "computedFields": "goalCoverage and other metrics are calculated from selected features"
+  },
+
+  "configurations": [
+    {
+      "id": "mvp-minimum",
+      "name": "Absolute Minimum MVP",
+      "description": "The smallest possible launch - only must-have features to validate core concept",
+      "createdDate": "2026-02-07",
+      "lastModified": "2026-02-07",
+      "createdBy": "AI Assistant",
+      "selectedFeatures": [
+        "4eye-website",
+        "4eye-ai-tutor",
+        "4eye-homework"
+      ],
+      "computed": {
+        "totalComplexity": 12,
+        "estimatedTimeWeeks": 24,
+        "goalCoverage": {
+          "engagement": 0.63,
+          "mental-health": 0.47,
+          "learning": 0.87,
+          "growth-mindset": 0.43,
+          "overall": 0.61
+        },
+        "audiencesUnlocked": ["students", "parents", "teachers", "schools"],
+        "launchReadinessScore": 65
+      },
+      "notes": "Bare minimum to test product-market fit. Missing AI Chat which is highly engaging.",
+      "targetAudiences": ["students", "teachers"],
+      "risks": [
+        "May feel incomplete without chat feature",
+        "Limited engagement without competition/social features"
+      ],
+      "assumptions": [
+        "Core AI tutor is compelling enough on its own",
+        "Teachers will adopt homework system quickly"
+      ]
+    },
+    {
+      "id": "mvp-recommended",
+      "name": "Recommended MVP",
+      "description": "Balanced MVP with all must-haves plus key should-haves for strong launch",
+      "createdDate": "2026-02-07",
+      "lastModified": "2026-02-07",
+      "createdBy": "AI Assistant",
+      "selectedFeatures": [
+        "4eye-website",
+        "4eye-ai-tutor",
+        "4eye-ai-chat",
+        "4eye-homework",
+        "4eye-feedback",
+        "4eye-person-profile",
+        "4eye-mental-health"
+      ],
+      "computed": {
+        "totalComplexity": 25,
+        "estimatedTimeWeeks": 40,
+        "goalCoverage": {
+          "engagement": 0.76,
+          "mental-health": 0.75,
+          "learning": 0.86,
+          "growth-mindset": 0.67,
+          "overall": 0.76
+        },
+        "audiencesUnlocked": ["students", "parents", "teachers", "schools"],
+        "launchReadinessScore": 85
+      },
+      "notes": "Strong balance of engagement, learning, and mental health features. Includes identity/profile for growth mindset.",
+      "targetLaunchDate": "2026-Q3",
+      "targetAudiences": ["students", "parents", "teachers"],
+      "risks": [
+        "Timeline may be aggressive",
+        "Need strong content for mental health module"
+      ],
+      "assumptions": [
+        "AI chat and tutor can share infrastructure",
+        "Person profile accelerates engagement"
+      ]
+    },
+    {
+      "id": "mvp-engagement-focus",
+      "name": "Engagement-Focused MVP",
+      "description": "Prioritizes maximum engagement - includes competition and gamification features",
+      "createdDate": "2026-02-07",
+      "lastModified": "2026-02-07",
+      "createdBy": "AI Assistant",
+      "selectedFeatures": [
+        "4eye-website",
+        "4eye-ai-tutor",
+        "4eye-ai-chat",
+        "4eye-ai-competition",
+        "4eye-homework",
+        "4eye-person-profile"
+      ],
+      "computed": {
+        "totalComplexity": 22,
+        "estimatedTimeWeeks": 36,
+        "goalCoverage": {
+          "engagement": 0.85,
+          "mental-health": 0.55,
+          "learning": 0.82,
+          "growth-mindset": 0.72,
+          "overall": 0.74
+        },
+        "audiencesUnlocked": ["students", "parents", "teachers", "schools"],
+        "launchReadinessScore": 80
+      },
+      "notes": "Maximum engagement through competition. May need to add mental health features post-launch.",
+      "targetAudiences": ["students", "competitive-learners"],
+      "risks": [
+        "Competition can hurt mental health if poorly designed",
+        "May attract wrong user type initially"
+      ],
+      "assumptions": [
+        "Competition drives viral growth",
+        "Can add mental health features in v2"
+      ]
+    },
+    {
+      "id": "mvp-mental-health-focus",
+      "name": "Mental Health-Focused MVP",
+      "description": "Prioritizes mental health and wellbeing features for differentiation",
+      "createdDate": "2026-02-07",
+      "lastModified": "2026-02-07",
+      "createdBy": "AI Assistant",
+      "selectedFeatures": [
+        "4eye-website",
+        "4eye-ai-tutor",
+        "4eye-ai-chat",
+        "4eye-homework",
+        "4eye-accessibility",
+        "4eye-person-profile",
+        "4eye-mental-health",
+        "4eye-attention"
+      ],
+      "computed": {
+        "totalComplexity": 28,
+        "estimatedTimeWeeks": 44,
+        "goalCoverage": {
+          "engagement": 0.71,
+          "mental-health": 0.85,
+          "learning": 0.80,
+          "growth-mindset": 0.70,
+          "overall": 0.76
+        },
+        "audiencesUnlocked": ["students", "parents", "teachers", "schools", "adhd", "diverse-learners"],
+        "launchReadinessScore": 82
+      },
+      "notes": "Strong mental health positioning. Unlocks underserved ADHD/accessibility markets. Longer timeline but stronger differentiation.",
+      "targetAudiences": ["students", "adhd", "mental-health-conscious-parents"],
+      "risks": [
+        "Longer development timeline",
+        "Mental health content requires expert review"
+      ],
+      "assumptions": [
+        "Mental health focus resonates with parents",
+        "Accessibility features accelerate school adoption"
+      ]
+    },
+    {
+      "id": "mvp-teacher-focused",
+      "name": "Teacher-Focused MVP",
+      "description": "Prioritizes teacher adoption with LMS integration and content tools",
+      "createdDate": "2026-02-07",
+      "lastModified": "2026-02-07",
+      "createdBy": "AI Assistant",
+      "selectedFeatures": [
+        "4eye-website",
+        "4eye-ai-tutor",
+        "4eye-ai-chat",
+        "4eye-homework",
+        "4eye-feedback",
+        "4eye-content-gen",
+        "4eye-lms",
+        "4eye-lms-integration",
+        "4eye-teacher-feedback"
+      ],
+      "computed": {
+        "totalComplexity": 35,
+        "estimatedTimeWeeks": 52,
+        "goalCoverage": {
+          "engagement": 0.67,
+          "mental-health": 0.52,
+          "learning": 0.84,
+          "growth-mindset": 0.53,
+          "overall": 0.65
+        },
+        "audiencesUnlocked": ["students", "parents", "teachers", "schools"],
+        "launchReadinessScore": 75
+      },
+      "notes": "B2B focused - makes teachers the champions. Longer timeline but stronger institutional adoption path.",
+      "targetLaunchDate": "2026-Q4",
+      "targetAudiences": ["teachers", "schools"],
+      "risks": [
+        "Long development timeline",
+        "LMS integration complexity",
+        "May not resonate with students initially"
+      ],
+      "assumptions": [
+        "Teachers will drive student adoption",
+        "LMS integration is key for school deals"
+      ]
+    },
+    {
+      "id": "mvp-full-vision",
+      "name": "Full Vision MVP",
+      "description": "All must-have and should-have features for comprehensive launch",
+      "createdDate": "2026-02-07",
+      "lastModified": "2026-02-07",
+      "createdBy": "AI Assistant",
+      "selectedFeatures": [
+        "4eye-website",
+        "4eye-ai-tutor",
+        "4eye-ai-ui",
+        "4eye-ai-chat",
+        "4eye-accessibility",
+        "4eye-feedback",
+        "4eye-homework",
+        "4eye-lms",
+        "4eye-person-profile",
+        "4eye-content-gen",
+        "4eye-mental-health",
+        "4eye-lms-integration",
+        "4eye-teacher-feedback"
+      ],
+      "computed": {
+        "totalComplexity": 50,
+        "estimatedTimeWeeks": 72,
+        "goalCoverage": {
+          "engagement": 0.75,
+          "mental-health": 0.78,
+          "learning": 0.87,
+          "growth-mindset": 0.68,
+          "overall": 0.77
+        },
+        "audiencesUnlocked": ["students", "parents", "teachers", "schools", "adhd", "diverse-learners"],
+        "launchReadinessScore": 95
+      },
+      "notes": "Comprehensive launch with all core features. Long timeline but strongest market position.",
+      "targetLaunchDate": "2027-Q1",
+      "targetAudiences": ["all"],
+      "risks": [
+        "Very long development timeline",
+        "Market may move while building",
+        "Team burnout risk"
+      ],
+      "assumptions": [
+        "Funding/runway supports extended development",
+        "Market will wait for comprehensive solution"
+      ]
+    }
+  ],
+
+  "presets": {
+    "quickLaunch": {
+      "description": "Fastest path to market",
+      "configurationId": "mvp-minimum"
+    },
+    "balanced": {
+      "description": "Best balance of scope and speed",
+      "configurationId": "mvp-recommended"
+    },
+    "differentiated": {
+      "description": "Strongest market differentiation",
+      "configurationId": "mvp-mental-health-focus"
+    }
+  },
+
+  "metadata": {
+    "campaign": "4eye",
+    "totalConfigurations": 6,
+    "lastComparisonDate": "2026-02-07",
+    "notes": "Initial configurations created for launch strategy planning. Computed metrics should be recalculated when feature impact scores change."
+  }
+}

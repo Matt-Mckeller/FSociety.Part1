@@ -1,0 +1,17 @@
+/* Import shared font definitions from packages/ui */
+@import "expanse.ui/theme/font-nextjs.css";
+
+body {
+  font-family: "Xpens", sans-serif;
+}
+
+/* Probably should be moved to MUI */
+ul {
+  list-style: "circle";
+}
+ol {
+  list-style: "number";
+}
+li {
+  line-height: "1";
+}

@@ -1,0 +1,15 @@
+src/generated/
+.next/
+
+# Build output of scripts/build-docs-index.mjs. It was tracked, which meant every
+# title and summary in the corpus was readable from the repo without building or
+# visiting the site — and it went stale against the index it is meant to mirror.
+public/docs-search.json
+
+# Video files are large and live outside the repo. Posters are committed so the
+# page still looks finished on a fresh clone, with the players idle until played.
+public/media/videos/
+public/media/photos/
+public/media/docs/
+public/mounted/
+public/media/files/

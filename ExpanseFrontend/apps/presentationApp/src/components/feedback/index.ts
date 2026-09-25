@@ -1,0 +1,1 @@
+export { FeedbackInputBar } from './FeedbackInputBar';

@@ -1,0 +1,452 @@
+{
+  "collegeReadiness": {
+    "title": "College Readiness & Retention",
+    "overview": {
+      "summary": "Approximately 32.9% of undergraduate students in the U.S. drop out of college each year, posing a significant challenge for the education sector.",
+      "source": "Research.com / educationdata.org"
+    },
+    "keyConcerns": [
+      {
+        "concern": "Significant Dropout Rates",
+        "description": "College dropout rates remain high, with many students not completing their degrees. Multiple sources confirm a substantial percentage leave before graduation."
+      },
+      {
+        "concern": "First-Year Challenges",
+        "description": "The first year is especially critical, as a notable portion of students drop out before their sophomore year."
+      },
+      {
+        "concern": "Institutional Variations",
+        "description": "Community colleges generally have higher dropout rates than four-year universities. For-profit institutions tend to exhibit higher dropout rates compared to public or non-profit colleges."
+      }
+    ],
+    "dropoutFactors": [
+      {
+        "factor": "Financial difficulties",
+        "description": "Major reason for leaving college"
+      },
+      {
+        "factor": "Family disconnect & independence",
+        "description": "Students often struggle to balance newfound independence, work, and social life"
+      },
+      {
+        "factor": "Lack of engagement",
+        "description": "Disconnection from the college experience"
+      },
+      {
+        "factor": "Academic challenges",
+        "description": "Difficulty adapting to college-level coursework"
+      },
+      {
+        "factor": "Personal and family issues",
+        "description": "Life circumstances interfering with studies"
+      },
+      {
+        "factor": "Mental health",
+        "description": "Increased stress and anxiety"
+      }
+    ],
+    "pandemicImpact": {
+      "persistentChallenges": "Student engagement, particularly in areas reliant on in-person interaction, has not fully returned to pre-pandemic levels. This includes challenges in collaborative learning, student-faculty interactions, and a sense of community.",
+      "learningBehaviors": "There have been shifts in study habits and learning strategies, with increased reliance on digital resources and potentially less time spent in traditional library settings. The pandemic accelerated the adoption of online and hybrid learning, which has both benefits and drawbacks in terms of engagement.",
+      "socialEngagement": "Social engagement, crucial for college students' development, has been significantly affected. Opportunities for informal interactions and community building have been reduced, impacting students' sense of belonging.",
+      "mentalHealthConcerns": "Increased mental health challenges among college students further contribute to disengagement. Stress, anxiety, and isolation can make it difficult for students to focus and participate in academic activities.",
+      "variedImpacts": "The impact of the pandemic on engagement varies among different student populations, with first-year students often facing greater challenges. Students' living situations, access to technology, and individual circumstances also play a role."
+    },
+    "expanseRelevance": "Expanse EDU's gamification and engagement strategies could help address college retention by building engagement habits in K-12 that transfer to higher education."
+  },
+  "parentEngagement": {
+    "title": "Parent Engagement & Disconnect",
+    "overview": {
+      "summary": "Parents feel a growing disconnect from their children, particularly as digital technology creates barriers to communication and shared experiences.",
+      "source": "The Anxious Generation by Jonathan Haidt"
+    },
+    "keyInsights": [
+      {
+        "insight": "Lost Connection",
+        "quote": "Parents feel that they have lost their child",
+        "source": "Anxious Generation"
+      },
+      {
+        "insight": "Swept Away",
+        "quote": "Parents who feel that their children were in some sense swept away, and who are now struggling to get them back",
+        "source": "Anxious Generation"
+      }
+    ],
+    "expanseOpportunity": "Expanse EDU can provide a bridge between parents and students through shared visibility into progress, achievements, and goals. Parent-configured rewards create collaborative goal-setting opportunities."
+  },
+  "socialMediaResearch": {
+    "title": "Social Media Impact Research",
+    "overview": {
+      "summary": "Research on social media's impact on youth, including usage patterns, gender differences, and platform design changes that affected engagement."
+    },
+    "keyFindings": [
+      {
+        "finding": "Underage Instagram Usage",
+        "stat": "40% of American children under 13 have created Instagram accounts",
+        "implication": "Despite age restrictions, platforms are widely used by children"
+      },
+      {
+        "finding": "Gender Preferences",
+        "insight": "Social media may be more appealing to girls while video games are more appealing to boys",
+        "implication": "Different engagement strategies may be needed for different demographics"
+      },
+      {
+        "finding": "Platform Design Changes",
+        "detail": "2009 saw the arrival of the 'like' and 'retweet' (or 'share') buttons",
+        "implication": "These features fundamentally changed how social validation works online"
+      }
+    ],
+    "expanseApproach": "Expanse EDU uses gamification principles from gaming (appealing across genders) while incorporating positive social validation features in a controlled, educational context."
+  },
+  "socialDynamics": {
+    "title": "Social Dynamics & Development",
+    "overview": {
+      "summary": "Research on how social interaction, play, and peer relationships affect development and learning."
+    },
+    "keyFindings": [
+      {
+        "finding": "Loneliness Increasing at School",
+        "detail": "Reports of 'I feel lonely at school,' 'I feel like an outsider (or left out of things) at school,' and 'I make friends easily at school' have increased",
+        "source": "PISA"
+      },
+      {
+        "finding": "Learning from Each Other",
+        "insight": "Our planet-changing trait was the ability to learn from each other",
+        "source": "Anxious Generation"
+      },
+      {
+        "finding": "Play Is Beneficial",
+        "insight": "Play requires suppression of the drive to dominate and enables the formation of long-lasting cooperative bonds",
+        "source": "Anxious Generation"
+      },
+      {
+        "finding": "Developing Loss Tolerance",
+        "insight": "Over time, they develop the social skills necessary for life in a democratic society, including self-governance, joint decision making, and accepting the outcome when you lose a contest",
+        "source": "Anxious Generation"
+      },
+      {
+        "finding": "Decreasing Daily Meetups",
+        "detail": "Percentage of U.S. students (8th, 10th, and 12th grade) who meet up with friends 'almost every day' outside school has decreased",
+        "source": "Monitoring the Future"
+      },
+      {
+        "finding": "Synchrony in Play",
+        "insight": "As children get older, they go beyond turn taking to find joy in perfect synchrony, doing the same thing at the same time as their partner. Girls especially come to delight in singing songs together, jumping rope together, or playing rhyming and clapping games",
+        "source": "Anxious Generation"
+      },
+      {
+        "finding": "Trust Games",
+        "insight": "A trust game in which a group makes the most money if they all cooperate across many rounds",
+        "source": "Anxious Generation"
+      }
+    ],
+    "expanseRelevance": "Expanse EDU's team battles, cooperative quests, and social recognition features are designed to foster positive social development in a structured, supportive environment."
+  },
+  "purposeAndMotivation": {
+    "title": "Purpose & Motivation in Education",
+    "overview": {
+      "summary": "Research shows that student motivation is deeply tied to perceived purpose and relevance of their education.",
+      "source": "Walton Family Foundation, Gallup, ECMC Group"
+    },
+    "keyFindings": [
+      {
+        "finding": "Lack of Motivation",
+        "stat": "Less than half of middle and high school students reported feeling motivated to go to school",
+        "source": "2024 Walton Family Foundation and Gallup survey",
+        "cause": "Lack of motivation is often linked to students not seeing the relevance of their coursework to their lives and future goals"
+      },
+      {
+        "finding": "Underserved Population Skepticism",
+        "stat": "Less than half (45%) of students from traditionally underserved populations (low-income, first-generation, BIPOC) believe education after high school is necessary, compared to 52% of all high schoolers",
+        "source": "2022 ECMC Group survey",
+        "implication": "Significant disconnect between current schooling and perceived future needs"
+      },
+      {
+        "finding": "Relevance Drives Achievement",
+        "insight": "When learning is connected to students' interests and future aspirations, they find their schoolwork more meaningful and tend to have higher academic achievement"
+      }
+    ],
+    "expanseApproach": "Expanse EDU connects learning to tangible rewards, visible progress, and real-world outcomes (scholarships, skills) to make education's value concrete and immediate."
+  },
+  "employeeSatisfaction": {
+    "title": "Employee Engagement Research",
+    "overview": {
+      "summary": "Research on employee happiness and engagement, which parallels student engagement and provides insights into motivation strategies.",
+      "relevance": "These findings inform how Expanse applies similar principles to student engagement"
+    },
+    "happinessAndGoals": {
+      "description": "Goals provide a sense of purpose and meaning in life, which can contribute to positive emotions.",
+      "benefits": [
+        "Purpose and Meaning: Goals provide a sense of purpose and meaning in life",
+        "Increased Motivation: Goals motivate us to take action and persevere through challenges",
+        "Improved Self-Esteem: Achieving goals boosts self-esteem and confidence",
+        "Positive Reinforcement: When we achieve goals, we often receive positive reinforcement"
+      ],
+      "expanseApplication": "Leveling, additional reward achievement, customization goals, achievement goals"
+    },
+    "impactOnWork": {
+      "keyStatistic": "Companies with happy employees make 3x more money",
+      "summary": "The correlation between employee happiness and company profitability is undeniable. Numerous studies have shown that companies with high employee morale significantly outperform those with low morale.",
+      "benefits": [
+        "Increased productivity: Happy employees are typically 12-20% more productive",
+        "Reduced turnover: High employee satisfaction leads to lower turnover rates",
+        "Improved customer satisfaction: Happy employees provide better customer service",
+        "Enhanced innovation: A positive work environment fosters creativity and problem-solving",
+        "Higher stock prices: Companies with strong employee engagement see higher valuations"
+      ]
+    },
+    "gallupResearch": {
+      "title": "Gallup's State of the Workplace Report",
+      "description": "Gallup has conducted extensive research on employee engagement and its impact on business outcomes.",
+      "keyFindings": [
+        "Engaged employees are more productive, less likely to leave, and drive higher customer satisfaction",
+        "Companies with high employee engagement outperform competitors in profitability and customer loyalty",
+        "Engagement is linked to lower turnover, absenteeism, and safety incidents"
+      ],
+      "engagementDifferences": {
+        "absenteeism": "81% difference",
+        "turnoverHighTurnoverOrgs": "18% difference",
+        "turnoverLowTurnoverOrgs": "43% difference",
+        "qualityDefects": "41% difference",
+        "customerLoyalty": "10% difference",
+        "productivitySales": "18% difference",
+        "profitability": "23% difference"
+      },
+      "source": "https://www.gallup.com/workplace/236927/employee-engagement-drives-growth.aspx"
+    },
+    "hbrResearch": {
+      "title": "Harvard Business Review Research",
+      "keyFindings": [
+        "Engaged employees are more innovative and creative",
+        "High levels of employee engagement contribute to a strong company culture",
+        "Investing in employee well-being leads to improved engagement and productivity"
+      ]
+    },
+    "oxfordStudy": {
+      "finding": "Happy workers are 13% more productive with the same amount of time put in",
+      "methodology": "Based on a study from Oxford University studying 11 call centers throughout Europe",
+      "source": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3470734"
+    },
+    "environmentImpact": {
+      "insight": "A nice environment can also improve the workplace",
+      "consideration": "Dress code (well dressed vs casual) also impacts culture, performance, and atmosphere"
+    }
+  },
+  "surveyStrategies": {
+    "title": "Survey & Analytics Strategies",
+    "overview": {
+      "summary": "Approaches for gathering feedback and measuring engagement, satisfaction, and performance."
+    },
+    "surveyTypes": [
+      {
+        "type": "Engagement Surveys",
+        "purpose": "Measure perceived impact on engagement",
+        "metrics": ["Perceived impact", "Engagement levels"]
+      },
+      {
+        "type": "Mood Surveys",
+        "purpose": "Track teacher and student mood and perceived impact",
+        "metrics": ["Teacher mood", "Student mood", "Perceived impact"]
+      },
+      {
+        "type": "Performance Surveys",
+        "purpose": "Assess perceived performance and compare to actual metrics",
+        "metrics": ["Perceived performance", "Grades/attendance YOY"]
+      },
+      {
+        "type": "Pulse Surveys",
+        "purpose": "Quickly assess student/teacher morale, satisfaction, and engagement on a regular basis"
+      },
+      {
+        "type": "User Satisfaction Surveys",
+        "purpose": "Gauge overall satisfaction and identify areas for improvement"
+      },
+      {
+        "type": "Reward Preference Surveys",
+        "purpose": "Directly assess preferences for specific reward types"
+      },
+      {
+        "type": "Feedback Surveys",
+        "purpose": "Gather insights from managers about preferences and effectiveness of current reward programs"
+      },
+      {
+        "type": "Recommendation Surveys",
+        "purpose": "Gather ideas and recommendations for system improvement"
+      }
+    ],
+    "sampleQuestions": [
+      "What type of rewards would motivate you to perform better?",
+      "How important are [classification] rewards to you? / Rank them",
+      "What do you value most in a workplace?",
+      "What do you think would improve morale and motivation?",
+      "What are the biggest problems you encounter when trying to improve your engagement?",
+      "Are the existing software solutions for behavior, reward, and engagement satisfactory? Why or why not?",
+      "What are some of the best informational assets and solutions regarding engagement that you have found?"
+    ],
+    "suggestionBoxes": {
+      "purpose": "Provide an anonymous platform for employees/students to share ideas and feedback"
+    },
+    "incentives": {
+      "approach": "Earn rewards for filling out surveys",
+      "rationale": "Providing value to users who contribute feedback"
+    }
+  },
+  "engagementResearch": {
+    "title": "Student Engagement Research",
+    "overview": {
+      "summary": "Teachers, principals, parents, and districts all want their students engaged. Student engagement is shaped by a variety of interconnected factors.",
+      "solution": "Reversing the decline in engagement calls for a holistic strategy that emphasizes engaging instruction, supports student well-being, and connects learning to students' real-world experiences."
+    },
+    "decliningFactors": {
+      "primary": [
+        "Ongoing impacts of the COVID-19 pandemic, including disrupted learning and reduced social interaction",
+        "Curriculum misalignment with students' interests and perceived relevance",
+        "Emotional challenges such as stress, anxiety, and feeling undervalued",
+        "Overemphasis on grades rather than meaningful feedback",
+        "Evolving classroom dynamics and increased technology use"
+      ],
+      "additional": [
+        "Lack of Student Voice: Students often feel disengaged when they have little input",
+        "Limited Real-World Connections: Curriculum that doesn't connect to students' lives or future goals",
+        "Insufficient Support Services: Lack of access to counseling, mental health, or academic support",
+        "Overcrowded Classrooms: Large class sizes reduce individual attention",
+        "Socioeconomic Barriers: Financial stress, food insecurity, and unstable home environments",
+        "Cultural Disconnects: Curriculum and school culture that don't reflect students' backgrounds",
+        "High-Stakes Testing Pressure: Excessive focus on standardized tests creates stress",
+        "Teacher Burnout: Disengaged or overwhelmed teachers struggle to inspire students",
+        "Bullying and Social Exclusion: Negative peer interactions make school feel unsafe",
+        "Lack of Extracurricular Opportunities: Limited access to clubs, sports, or creative outlets"
+      ]
+    },
+    "keyStatistics": [
+      {
+        "stat": "One-third of students engaged",
+        "source": "Gallup Student Poll (2021)",
+        "trend": "Decreasing engagement as students age"
+      },
+      {
+        "stat": "74% of fifth graders are highly engaged vs ~33% of high schoolers",
+        "source": "Gallup surveys",
+        "implication": "Massive engagement drop-off as students progress through school"
+      },
+      {
+        "stat": "47% engaged, 29% not engaged, 24% actively disengaged",
+        "source": "2018 Gallup Data",
+        "breakdown": "Less than half are actively engaged"
+      },
+      {
+        "stat": "Engaged students are 2.5x more likely to say they get excellent grades",
+        "source": "Gallup School Engagement"
+      },
+      {
+        "stat": "Engaged students are 4.5x more likely to be hopeful about the future",
+        "source": "Gallup School Engagement"
+      }
+    ],
+    "attentionSpan": {
+      "trend": "Average human attention span decreased from 12 seconds in 2000 to 8 seconds in 2013",
+      "comparison": "Shorter than a goldfish's reported 9-second attention span",
+      "source": "Microsoft study (2015)",
+      "causes": [
+        {
+          "cause": "Constant Stimulation",
+          "detail": "Continuous stream of rapid, fragmented content on platforms like TikTok, Snapchat, and Instagram overstimulates cognitive processes"
+        },
+        {
+          "cause": "Multitasking and Context Switching",
+          "detail": "Young people (16-24) often engage with multiple screens simultaneously, eroding capacity for deep, sustained focus"
+        },
+        {
+          "cause": "Dopamine Rewards",
+          "detail": "Digital platforms provide instant gratification through likes, notifications, and endless scrolling, training the brain to seek constant novelty"
+        }
+      ],
+      "academicConsequences": "Shorter attention spans are linked to poorer test performance, difficulty retaining long-term information, and struggles in connecting ideas into cohesive understanding"
+    },
+    "autonomyEffect": "When individuals have the freedom to make choices and take ownership of their work, they often feel more motivated and invested in their tasks. This sense of control fosters a deeper connection to their work, leading to greater creativity, productivity, and overall satisfaction.",
+    "mentalHealthConnection": {
+      "finding": "Poor mental health (mainly depression and anxiety) is associated with significant lost productivity due to both absenteeism and presenteeism",
+      "source": "Journal of Occupational and Environmental Medicine",
+      "johnsHopkins": "When employees are psychologically healthy they tend to be more motivated, engaged, and productive in their work"
+    }
+  },
+  "gamingResearch": {
+    "title": "Gaming & Gamification Research",
+    "overview": {
+      "summary": "Research on gaming trends, popularity, and gamification strategies that inform Expanse EDU's approach."
+    },
+    "trends": [
+      {
+        "trend": "Increasing Gaming Time",
+        "detail": "Americans' weekly time spent gaming with others increased from 6.6 hours in 2020 to 7.5 hours in 2021",
+        "source": "Statista"
+      },
+      {
+        "trend": "Younger Generations",
+        "insight": "Younger generations spend more time playing games than ever before"
+      }
+    ],
+    "platforms": [
+      "Mobile",
+      "PlayStation",
+      "Xbox",
+      "PC/Computer",
+      "Nintendo Switch"
+    ],
+    "gameTypes": [
+      "FPS Shooters",
+      "Action/Adventure",
+      "MMO RPG",
+      "Racing/Sports",
+      "Open World/Role Playing",
+      "Battle Royale",
+      "Board Games",
+      "Puzzle Games",
+      "Survival",
+      "Party Games"
+    ],
+    "gamificationElements": [
+      "Badges",
+      "Experience points",
+      "Virtual currency and points",
+      "Achievements",
+      "Character personalization",
+      "Growth tracking",
+      "Micro rewards",
+      "Visual stimulation",
+      "High frequency rewards/feedback"
+    ],
+    "microsoftExample": {
+      "description": "Microsoft gives points for searching and playing games",
+      "strategy": "They are buying up a lot of gaming companies",
+      "insight": "Good to learn from what they are doing with gamification"
+    },
+    "researchQuestions": [
+      "Boys vs Girls - what they prefer",
+      "How long spent playing games",
+      "Variations in gaming across countries",
+      "Can one loss counteract wins?",
+      "Science of gaming and learning"
+    ]
+  },
+  "furtherReading": {
+    "title": "Research Resources & Further Reading",
+    "academicStudies": [
+      {
+        "title": "Goal Setting and Task Performance: A Meta-Analysis",
+        "authors": "Edwin A. Locke and Gary P. Latham",
+        "publication": "Journal of Applied Psychology, 1990",
+        "keyFindings": "Strong positive relationship between specific, challenging goals and performance",
+        "link": "https://www.sciencedirect.com/science/article/abs/pii/0749597887900458"
+      }
+    ],
+    "topics": [
+      "Extrinsic motivation impact on learning",
+      "Psychology of how the brain develops through different courses",
+      "Which part of the brain levels up when taking calculus",
+      "Learning about brain development from different classes"
+    ],
+    "books": ["Anxious Generation by Jonathan Haidt"],
+    "influencers": ["Andrew Huberman"]
+  }
+}

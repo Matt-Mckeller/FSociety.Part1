@@ -1,0 +1,494 @@
+{
+  "attentionScience": {
+    "title": "Attention Science",
+    "overview": {
+      "summary": "Attention is a limited, consumable resource that directly impacts learning, memory, and engagement. Understanding attention mechanics is fundamental to designing effective educational experiences.",
+      "keyInsight": "Learning and memory are direct consequences of attentional processing: the more attention is directed toward something, the more likely it is to be learned and remembered."
+    },
+    "resourcePoolModel": {
+      "title": "Attention as a Resource Pool",
+      "description": "Your attention is a finite resource that gets spent and consumed throughout the day, but can be rebuilt through intentional practices.",
+      "depleting": {
+        "title": "Factors That Deplete Attention",
+        "factors": [
+          {
+            "factor": "Caffeine (Coffee)",
+            "effect": "Provides short-term boost but depletes overall pool"
+          },
+          {
+            "factor": "Sugar",
+            "effect": "Quick energy spike followed by attention crash"
+          },
+          {
+            "factor": "Loud Music/Noise",
+            "effect": "Chips away at attention without conscious awareness"
+          },
+          {
+            "factor": "Multitasking",
+            "effect": "Context switching rapidly drains attention reserves"
+          },
+          {
+            "factor": "Digital Notifications",
+            "effect": "Constant interruptions prevent deep focus"
+          }
+        ]
+      },
+      "replenishing": {
+        "title": "Factors That Replenish Attention",
+        "factors": [
+          {
+            "factor": "Exercise",
+            "effect": "Physical activity restores cognitive resources"
+          },
+          {
+            "factor": "Meditation",
+            "effect": "Mindfulness practice rebuilds attention capacity"
+          },
+          {
+            "factor": "Quality Sleep",
+            "effect": "Essential for attention restoration and memory consolidation"
+          },
+          {
+            "factor": "Healthy Nutrition",
+            "effect": "Proper fuel supports sustained attention"
+          },
+          {
+            "factor": "Nature Exposure",
+            "effect": "Time in nature reduces mental fatigue"
+          }
+        ]
+      }
+    },
+    "moodConnection": {
+      "title": "Mood Affects Attention",
+      "description": "Your emotional state directly impacts your ability to focus. Excitement and purpose significantly increase attention capacity.",
+      "principles": [
+        {
+          "principle": "Emotional Investment",
+          "description": "Whether or not you're excited to pursue something plays a significant role in how much attention you can dedicate to it"
+        },
+        {
+          "principle": "Goal-Driven Focus",
+          "description": "Goals provide purpose, contribute to positive emotions, and motivate action—leading to accomplishment and satisfaction"
+        },
+        {
+          "principle": "Interest Amplification",
+          "description": "Personal interest in a subject can multiply available attention resources"
+        }
+      ]
+    },
+    "learningConnection": {
+      "title": "Attention in Learning",
+      "keyFinding": "Learning and memory are direct consequences of attentional processing: the more attention is directed or devoted toward something, the more likely it is that it will be later learned and remembered.",
+      "source": "Negativity Bias Research (Wikipedia)",
+      "implications": [
+        "Design learning experiences that capture and maintain attention",
+        "Use gamification to increase emotional investment in content",
+        "Break complex topics into attention-sized chunks",
+        "Provide variety to prevent attention fatigue",
+        "Connect new learning to existing interests"
+      ],
+      "expanseApplication": "Expanse uses gamification, rewards, and visual progress to increase emotional investment in learning, thereby increasing attention and improving retention."
+    },
+    "practicalTakeaways": {
+      "title": "Mastery Through Practice",
+      "description": "True mastery of focus, attention, and mood comes through purposeful implementation, consistent practice, and improved understanding of how we learn.",
+      "techniques": [
+        {
+          "technique": "Visualize Learning",
+          "description": "Create mental pictures of what you're trying to learn"
+        },
+        {
+          "technique": "Link Concepts",
+          "description": "Connect new information to existing knowledge"
+        },
+        {
+          "technique": "Multiple Perspectives",
+          "description": "See concepts from multiple angles to strengthen understanding"
+        },
+        {
+          "technique": "Deliberate Practice",
+          "description": "Focused, intentional practice rather than passive exposure"
+        }
+      ]
+    }
+  },
+  "feedbackSystems": {
+    "title": "Feedback Systems",
+    "overview": {
+      "summary": "Effective feedback is a cornerstone of learning, particularly valuable when students make errors or demonstrate gaps in understanding.",
+      "keyInsight": "Feedback achieves great results especially when students make errors or demonstrate a lack of understanding, presenting an opportunity for deeper learning and positive growth."
+    },
+    "roleInLearning": {
+      "title": "Feedback in Learning",
+      "description": "Learning involves feedback, which can include reinforcement (such as rewards) or criticism and corrective action. Feedback helps ensure learners continue to focus on content and make progress.",
+      "types": [
+        {
+          "type": "Positive Reinforcement",
+          "purpose": "Encourage repetition of successful behaviors",
+          "example": "Rewards, praise, recognition for good work"
+        },
+        {
+          "type": "Corrective Feedback",
+          "purpose": "Guide improvement without discouragement",
+          "example": "Specific suggestions for how to improve"
+        },
+        {
+          "type": "Progress Indicators",
+          "purpose": "Show advancement toward goals",
+          "example": "Visual progress bars, level-ups, achievement unlocks"
+        },
+        {
+          "type": "Comparative Feedback",
+          "purpose": "Provide context for performance",
+          "example": "Leaderboards, class averages, personal bests"
+        }
+      ]
+    },
+    "errorOpportunity": {
+      "title": "Errors as Learning Opportunities",
+      "description": "When students make errors, it presents a crucial opportunity for deeper learning and positive growth through targeted feedback.",
+      "principles": [
+        "Frame errors as natural part of learning process",
+        "Provide specific, actionable guidance for improvement",
+        "Celebrate the attempt, not just the result",
+        "Use errors to identify knowledge gaps",
+        "Build resilience through constructive error handling"
+      ]
+    },
+    "expanseApproach": {
+      "title": "Expanse Feedback Philosophy",
+      "principles": [
+        "Immediate feedback on actions and progress",
+        "Visual celebration of achievements",
+        "Gentle guidance when errors occur",
+        "Focus on growth over perfection",
+        "Personalized feedback based on individual progress"
+      ]
+    }
+  },
+  "positiveReinforcement": {
+    "title": "Positive Reinforcement in Learning",
+    "overview": {
+      "summary": "Positive reinforcement plays a significant role in learning by encouraging students to repeat good behaviors, build confidence, strengthen bonds, and develop positive motivation for success."
+    },
+    "benefits": [
+      {
+        "benefit": "Encourages Good Behavior",
+        "description": "Positive reinforcement helps students associate good memories with their past choices, making them more likely to repeat those choices.",
+        "mechanism": "Memory association between action and positive outcome"
+      },
+      {
+        "benefit": "Builds Confidence",
+        "description": "Positive reinforcement helps students feel more confident, leading to increased academic growth. This confidence encourages students to take risks, such as trying more difficult problems or exploring new topics.",
+        "mechanism": "Self-efficacy development through success recognition"
+      },
+      {
+        "benefit": "Promotes Positive Motivation",
+        "description": "Positive reinforcement helps students develop a positive motivation for success, as opposed to the fear of failure that negative reinforcement can spark.",
+        "mechanism": "Intrinsic motivation cultivation vs. avoidance motivation"
+      },
+      {
+        "benefit": "Strengthens Bonds",
+        "description": "Positive reinforcement helps create stronger bonds between teachers and students.",
+        "mechanism": "Trust and relationship building through recognition"
+      },
+      {
+        "benefit": "Promotes Good Choices",
+        "description": "Positive reinforcement helps students feel encouraged to make choices that lead to favorable outcomes.",
+        "mechanism": "Decision-making improvement through reward association"
+      }
+    ],
+    "vsNegativeReinforcement": {
+      "title": "Positive vs. Negative Motivation",
+      "positive": {
+        "approach": "Motivation toward success",
+        "effect": "Students pursue goals because they want to achieve",
+        "outcome": "Intrinsic motivation, creativity, persistence"
+      },
+      "negative": {
+        "approach": "Motivation away from failure",
+        "effect": "Students work to avoid punishment",
+        "outcome": "Anxiety, avoidance behaviors, limited risk-taking"
+      }
+    },
+    "expanseImplementation": {
+      "title": "How Expanse Uses Positive Reinforcement",
+      "methods": [
+        "Visual celebrations for achievements",
+        "Progressive reward systems",
+        "Recognition from peers and teachers",
+        "Customizable rewards that matter to individual students",
+        "Immediate positive feedback on good choices"
+      ]
+    }
+  },
+  "learningAgility": {
+    "title": "Learning & Unlearning for Mastery",
+    "overview": {
+      "summary": "True mastery requires understanding foundations, not just using finished products. Unlearning and relearning builds adaptability and the ability to create custom solutions.",
+      "keyQuestion": "If one only ever knows the final product, do they fully comprehend and appreciate the ingredients and purpose of the solution?"
+    },
+    "offTheShelfProblem": {
+      "title": "The Problem with 'Off the Shelf' Solutions",
+      "description": "Using only finished products without understanding their foundations limits true comprehension and adaptability.",
+      "foodAnalogy": {
+        "example": "Consider premade foods, like microwavable chicken. If we only consume it without preparing it ourselves, do we truly understand its ingredients and the rationale behind its preparation?",
+        "lesson": "Understanding the core ingredients and their individual contributions enables customization and optimization"
+      },
+      "softwareAnalogy": {
+        "example": "If we only know frameworks or turn designs into code, do we really understand the design or the problems the framework is solving?",
+        "lesson": "Deep understanding of fundamentals enables better solutions and adaptability"
+      }
+    },
+    "understandingCore": {
+      "title": "Understanding the Core",
+      "description": "To fully appreciate any solution, break it down into core ingredients and understand each component's purpose.",
+      "chickenExample": {
+        "ingredients": ["chicken", "breading", "oil", "salt"],
+        "questions": [
+          "How does the chicken taste by itself?",
+          "What does adding breading do without oil?",
+          "What's the purpose of the oil?",
+          "How much salt is optimal?"
+        ],
+        "outcome": "By understanding each ingredient and its impact, we can create custom solutions optimized for specific needs"
+      }
+    },
+    "benefitsOfMastery": {
+      "title": "Benefits of True Mastery",
+      "benefits": [
+        {
+          "benefit": "Adaptability",
+          "description": "Adjust to feedback and personal preferences"
+        },
+        {
+          "benefit": "Innovation",
+          "description": "Expand upon foundations to create unique solutions"
+        },
+        {
+          "benefit": "Problem-Solving",
+          "description": "Understand the full picture to address root causes"
+        },
+        {
+          "benefit": "Teaching Ability",
+          "description": "Explain concepts at multiple levels of abstraction"
+        }
+      ]
+    },
+    "keyQuestion": {
+      "question": "Are you limited to one dish, or do you possess a broad range of skills ready for a global audience?",
+      "implication": "True mastery opens unlimited possibilities"
+    }
+  },
+  "progressTracking": {
+    "title": "Progress & Motivation Systems",
+    "overview": {
+      "summary": "Visible progress is a powerful motivator. Our brains are wired to seek completion and advancement, making progress tracking an essential component of sustained engagement."
+    },
+    "progressPrinciples": [
+      {
+        "principle": "Visibility",
+        "description": "Progress must be visible to be motivating",
+        "implementation": "Progress bars, level indicators, achievement displays"
+      },
+      {
+        "principle": "Granularity",
+        "description": "Frequent small milestones maintain engagement",
+        "implementation": "Daily goals, micro-achievements, streak counters"
+      },
+      {
+        "principle": "Comparability",
+        "description": "Progress relative to goals and peers provides context",
+        "implementation": "Leaderboards, personal bests, goal completion rates"
+      },
+      {
+        "principle": "Celebration",
+        "description": "Acknowledging progress reinforces continued effort",
+        "implementation": "Visual celebrations, notifications, rewards"
+      }
+    ],
+    "expanseProgressFeatures": [
+      "Real-time progress visualization",
+      "Multiple progress dimensions (academic, behavioral, social)",
+      "Personal goal tracking",
+      "Class and school-wide progress displays",
+      "Historical progress comparisons"
+    ]
+  },
+  "rewardPsychology": {
+    "title": "Reward Psychology & Habit Building",
+    "overview": {
+      "summary": "Our brains love repeating activities that reward us. By using reward systems strategically, we can train ourselves to choose better habits by making them more rewarding."
+    },
+    "brainAndRewards": {
+      "title": "How the Brain Responds to Rewards",
+      "description": "Our brains are wired to repeat activities that provide rewards. This fundamental mechanism can be leveraged to build positive habits.",
+      "insight": "Homework or daily work might not feel as rewarding as watching TV or buying new items. But what if we could tip the scales in our favor?"
+    },
+    "habitFormation": {
+      "title": "Reward-Based Habit Formation",
+      "description": "By associating rewards with desired behaviors, we can make those behaviors more appealing and likely to be repeated.",
+      "technique": {
+        "step1": "Identify the behavior you want to make a habit",
+        "step2": "Complete the activity",
+        "step3": "Immediately reward yourself",
+        "step4": "Notice the increased motivation when you associate rewards with tasks",
+        "result": "Over time, the behavior becomes intrinsically rewarding"
+      }
+    },
+    "practicalExamples": [
+      {
+        "habit": "Write a LinkedIn post",
+        "reward": "Treat yourself to something you enjoy",
+        "outcome": "Content creation becomes associated with positive feelings"
+      },
+      {
+        "habit": "Hit the gym",
+        "reward": "Small indulgence after workout",
+        "outcome": "Exercise becomes more appealing"
+      },
+      {
+        "habit": "Complete homework",
+        "reward": "Game time or social activity",
+        "outcome": "Academic work feels more worthwhile"
+      }
+    ],
+    "expanseApproach": {
+      "title": "How Expanse Leverages Reward Psychology",
+      "methods": [
+        "Immediate rewards for completed tasks",
+        "Variable reward schedules for sustained engagement",
+        "Personalized rewards that matter to individual students",
+        "Social rewards through recognition and leaderboards",
+        "Progress-based rewards for cumulative achievements"
+      ]
+    },
+    "relatedContent": {
+      "videoReference": "https://youtu.be/WQ40hNdZmfQ?si=x2SqbhY1QCnYluOQ"
+    }
+  },
+  "purposeAndMission": {
+    "title": "Purpose & Mission in Learning",
+    "overview": {
+      "summary": "The difference in output between a group of people who show up to do a job and a group of people who show up to accomplish a mission is nearly unfathomable."
+    },
+    "jobVsMission": {
+      "title": "Job Mentality vs. Mission Mentality",
+      "comparison": {
+        "job": {
+          "mindset": "Complete assigned tasks",
+          "motivation": "External (payment, requirements)",
+          "engagement": "Minimal necessary effort",
+          "outcome": "Adequate results"
+        },
+        "mission": {
+          "mindset": "Accomplish meaningful goal",
+          "motivation": "Internal (purpose, impact)",
+          "engagement": "Maximum discretionary effort",
+          "outcome": "Exceptional results"
+        }
+      },
+      "implication": "Helping students find purpose and mission in their education dramatically increases engagement and outcomes"
+    },
+    "expansePurpose": {
+      "title": "Expanse Mission Connection",
+      "approach": [
+        "Connect daily tasks to larger goals and meaning",
+        "Help students visualize their future success",
+        "Create community and shared purpose",
+        "Celebrate contributions to collective achievement",
+        "Make the invisible benefits of education visible"
+      ]
+    }
+  },
+  "contentPhilosophy": {
+    "title": "Content Philosophy & Educational Insights",
+    "coreBeliefs": [
+      {
+        "id": "content-quality-level",
+        "title": "Content Quality & Level Matching",
+        "insight": "The quality of content and whether it's at the student's level is a major factor in engagement",
+        "application": "Advertising piece for Expanse EDU - personalized, level-appropriate content drives engagement"
+      },
+      {
+        "id": "human-value",
+        "title": "Value of Human Performance",
+        "insight": "Even if AI can do it better than humans, we still like watching humans do things and compete. Gaming proves this - AI bots are already way better than humans could be but people still prefer watching actual humans.",
+        "application": "Balance AI assistance with human achievement celebration"
+      },
+      {
+        "id": "future-vision",
+        "title": "Future of Human AI Interaction",
+        "insight": "Future is games, entertainment, observability, teaching, customization, personalization, and engagement. Teaching students to understand what it means to be human helps them adapt, improve mental health, and prepare for jobs.",
+        "application": "Core product direction and messaging - the human AI overall"
+      },
+      {
+        "id": "standardized-testing-critique",
+        "title": "Standardized Testing Paradox",
+        "insight": "People criticize AI for being judged based on standardized tests, yet this is exactly what humans are trained on.",
+        "application": "Opportunity for alternative assessment methods that measure true understanding"
+      },
+      {
+        "id": "iq-eq-improvement",
+        "title": "IQ/EQ Over Memorization",
+        "insight": "Improving general IQ, ability to understand and operate within reality, and the human AI may be higher value than memorizing information. Improving emotional intelligence and communication are highly valuable.",
+        "application": "Design features that develop reasoning, emotional intelligence, and soft skills"
+      },
+      {
+        "id": "ai-information-flow",
+        "title": "AI as Information Bridge",
+        "insight": "AI improves flow of information to humans and improves information flow from human to human, as does improved education.",
+        "application": "Position AI as communication enabler, not replacement"
+      },
+      {
+        "id": "question-asking-culture",
+        "title": "Question-Asking Culture Barrier",
+        "insight": "Students don't feel like they should ask questions. In China/Eastern culture they may feel they're imposing on teacher's time. Asking questions is one of the best times for learning - we are primed to learn in this regard.",
+        "application": "Create safe spaces for questions, normalize inquiry, anonymous question options"
+      },
+      {
+        "id": "purpose-understanding",
+        "title": "Missing Purpose & Value Understanding",
+        "insight": "Students haven't yet learned the value of their education. They are missing purpose and understanding of the need for income to pay rent, get food, and how education translates into a better future. Also relating information to what they are interested in.",
+        "application": "Connect learning to real-world outcomes and personal interests"
+      },
+      {
+        "id": "software-opportunity",
+        "title": "Educational Software Gap",
+        "insight": "Outdated technology and poor quality educational software. Need for better software. Opportunity for massively improved learning and better experiences. China is very behind in some areas of software development (but so is a lot of the world).",
+        "application": "Market positioning and expansion opportunity - superior software experience"
+      },
+      {
+        "id": "industry-innovation",
+        "title": "Universal Innovation Potential",
+        "insight": "Every industry has the potential to be innovated.",
+        "application": "Mindset for expansion and feature development - no limits"
+      },
+      {
+        "id": "politics-in-testing",
+        "title": "Regional Testing Content",
+        "learning": "Politics is on tests in China",
+        "application": "Consider regional curriculum requirements when expanding internationally"
+      }
+    ]
+  },
+  "healthAndFocus": {
+    "title": "Health, Diet & Focus Connection",
+    "insights": [
+      {
+        "id": "music-binaural",
+        "title": "Music & Binaural Beats",
+        "insight": "Music alignment with binaural beats and mind-body connection is highly important for focus.",
+        "application": "Consider audio/music features for focus enhancement, study playlists"
+      },
+      {
+        "id": "diet-allergens",
+        "title": "Diet & Allergen Impact on Focus",
+        "insight": "Healthy diet and avoiding allergens dramatically impacts our ability to focus and produce high quality work. Examples: dairy allergies, sugar excess, wheat/gluten allergies, pet dander exposure.",
+        "recommendations": ["Healthy foods", "Avoid allergens", "Clean environment", "Clean cats if needed"],
+        "application": "Potential health/nutrition tracking features, educational content about focus and diet"
+      }
+    ]
+  }
+}

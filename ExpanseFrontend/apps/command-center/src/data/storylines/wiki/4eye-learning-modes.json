@@ -1,0 +1,217 @@
+{
+  "storylineId": "4eye-learning-modes",
+  "lastUpdated": "2026-02-07",
+  "overview": {
+    "html": "<div style=\"font-family: 'Roboto', sans-serif;\"><h2 style=\"color: #4ECDC4; margin-bottom: 16px;\">Learning Modes</h2><p style=\"color: #666; line-height: 1.6; margin-bottom: 24px;\">A comprehensive system of interactive learning techniques designed to enhance <strong>memory</strong>, <strong>learning</strong>, <strong>recall</strong>, <strong>understanding</strong>, <strong>association</strong>, <strong>AI comprehension</strong>, <strong>brain function</strong>, and <strong>mental organization</strong>.</p><div style=\"background: linear-gradient(135deg, #4ECDC4 0%, #44A08D 100%); border-radius: 12px; padding: 24px; margin-bottom: 24px;\"><h3 style=\"color: white; margin: 0 0 12px 0;\">🧠 Core Concept</h3><p style=\"color: rgba(255,255,255,0.9); margin: 0;\">Leverage how the brain naturally learns—through connection, pattern recognition, and multi-sensory engagement. Learning modes can be <strong>INPUT</strong> components (exercises, interactions) or <strong>DISPLAY</strong> components (visualizations, feedback).</p></div><h3 style=\"color: #333; margin-bottom: 12px;\">📖 Full Documentation</h3><p style=\"color: #666; line-height: 1.8;\">See the <a href=\"/docs/documentation?section=4eye-learning-modes\" style=\"color: #4ECDC4; text-decoration: none; font-weight: 600;\">Documentation → 4eye Product → Learning Modes</a> for comprehensive details including:</p><ul style=\"color: #666; line-height: 1.8;\"><li><strong>Triadic Understanding</strong> - Connect 3 data points for deeper learning</li><li><strong>Visual Modes</strong> - Diagrams, animations, spatial representations</li><li><strong>Kinesthetic Modes</strong> - Movement, interaction, hands-on engagement</li><li><strong>Feedback Exercises</strong> - Quick, cheap exercises with immediate feedback</li><li><strong>Gamification</strong> - XP, achievements, streaks, knowledge webs</li><li><strong>AI Integration</strong> - Adaptive difficulty, gap detection, personalization</li></ul></div>",
+    "summary": "Interactive learning techniques including triadic understanding, visual modes, kinesthetic modes, and memory-enhancing exercises that work with how the brain naturally learns."
+  },
+  "goals": [
+    {
+      "id": "lm-goal-1",
+      "title": "Design Triadic Understanding System",
+      "description": "Define data model, visual design, and interaction patterns for 3-point learning connections",
+      "timeframe": "short",
+      "status": "not-started",
+      "linkedQuestIds": ["quest-triadic-understanding-design"]
+    },
+    {
+      "id": "lm-goal-2",
+      "title": "Prototype Visual Learning Components",
+      "description": "Build first versions of TriangleViewer and KnowledgeWeb display components",
+      "timeframe": "short",
+      "status": "not-started",
+      "linkedQuestIds": []
+    },
+    {
+      "id": "lm-goal-3",
+      "title": "Create Exercise Library",
+      "description": "Build collection of quick, cheap input exercises with immediate feedback",
+      "timeframe": "medium",
+      "status": "not-started",
+      "linkedQuestIds": []
+    },
+    {
+      "id": "lm-goal-4",
+      "title": "Integrate with AI Tutor",
+      "description": "Connect learning modes to AI system for adaptive difficulty and personalized recommendations",
+      "timeframe": "medium",
+      "status": "not-started",
+      "linkedQuestIds": []
+    },
+    {
+      "id": "lm-goal-5",
+      "title": "Interest-Relevant Content System",
+      "description": "Generate learning exercises using topics the user is interested in (sports, games, music, etc.) to increase engagement and relevance",
+      "timeframe": "medium",
+      "status": "not-started",
+      "linkedQuestIds": []
+    },
+    {
+      "id": "lm-goal-6",
+      "title": "Engagement Features Integration",
+      "description": "Add streaks, challenges, leaderboards, and social sharing to make learning modes addictively engaging",
+      "timeframe": "medium",
+      "status": "not-started",
+      "linkedQuestIds": []
+    }
+  ],
+  "components": [
+    {
+      "id": "triangle-builder",
+      "name": "TriangleBuilder",
+      "description": "INPUT: User creates concept triangles by connecting 3 related data points",
+      "storybookUrl": null,
+      "status": "concept"
+    },
+    {
+      "id": "triangle-viewer",
+      "name": "TriangleViewer",
+      "description": "DISPLAY: Animated visualization of triadic relationships with progressive reveal",
+      "storybookUrl": null,
+      "status": "concept"
+    },
+    {
+      "id": "knowledge-web",
+      "name": "KnowledgeWeb",
+      "description": "DISPLAY: Growing network visualization of connected concepts over time",
+      "storybookUrl": null,
+      "status": "concept"
+    },
+    {
+      "id": "quick-exercise",
+      "name": "QuickExercise",
+      "description": "INPUT: Rapid feedback exercises (10-30 seconds) for memory and recall",
+      "storybookUrl": null,
+      "status": "concept"
+    },
+    {
+      "id": "feedback-pulse",
+      "name": "FeedbackPulse",
+      "description": "DISPLAY: Immediate visual/audio feedback on exercise completion",
+      "storybookUrl": null,
+      "status": "concept"
+    },
+    {
+      "id": "interest-adapter",
+      "name": "InterestAdapter",
+      "description": "AI: Transforms generic exercises into interest-relevant versions (e.g., math with basketball stats, history with video game lore)",
+      "storybookUrl": null,
+      "status": "concept"
+    },
+    {
+      "id": "engagement-tracker",
+      "name": "EngagementTracker",
+      "description": "DISPLAY: Streaks, daily goals, challenge progress, and engagement metrics visualization",
+      "storybookUrl": null,
+      "status": "concept"
+    }
+  ],
+  "customSections": [
+    {
+      "id": "key-benefits",
+      "title": "Key Benefits",
+      "html": "<div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 12px;\"><div style=\"background: #e8f5e9; padding: 12px; border-radius: 8px; border-left: 4px solid #4caf50;\"><strong>🧠 Memory</strong><br/><span style=\"font-size: 13px; color: #666;\">Stronger retention through connected learning</span></div><div style=\"background: #e3f2fd; padding: 12px; border-radius: 8px; border-left: 4px solid #2196f3;\"><strong>📚 Learning</strong><br/><span style=\"font-size: 13px; color: #666;\">Accelerated knowledge acquisition</span></div><div style=\"background: #fff3e0; padding: 12px; border-radius: 8px; border-left: 4px solid #ff9800;\"><strong>🔄 Recall</strong><br/><span style=\"font-size: 13px; color: #666;\">Multiple retrieval pathways</span></div><div style=\"background: #fce4ec; padding: 12px; border-radius: 8px; border-left: 4px solid #e91e63;\"><strong>💡 Understanding</strong><br/><span style=\"font-size: 13px; color: #666;\">Deep comprehension vs memorization</span></div><div style=\"background: #f3e5f5; padding: 12px; border-radius: 8px; border-left: 4px solid #9c27b0;\"><strong>🔗 Association</strong><br/><span style=\"font-size: 13px; color: #666;\">Link new to existing knowledge</span></div><div style=\"background: #e0f7fa; padding: 12px; border-radius: 8px; border-left: 4px solid #00bcd4;\"><strong>🤖 AI</strong><br/><span style=\"font-size: 13px; color: #666;\">Understanding AI + AI-enhanced learning</span></div><div style=\"background: #fff8e1; padding: 12px; border-radius: 8px; border-left: 4px solid #ffc107;\"><strong>🧬 The Brain</strong><br/><span style=\"font-size: 13px; color: #666;\">Works with natural cognitive processes</span></div><div style=\"background: #efebe9; padding: 12px; border-radius: 8px; border-left: 4px solid #795548;\"><strong>📋 Organization</strong><br/><span style=\"font-size: 13px; color: #666;\">Structured mental frameworks</span></div></div>",
+      "order": 1
+    },
+    {
+      "id": "component-types",
+      "title": "Component Types",
+      "html": "<div style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 24px;\"><div style=\"border-left: 4px solid #4ECDC4; padding-left: 16px;\"><h4 style=\"margin: 0 0 8px 0;\">📥 Input Components</h4><p style=\"color: #666; margin: 0;\">User actively creates, interacts, builds. Examples: TriangleBuilder, ConceptMatcher, SequenceSorter, FillTheGap exercises.</p></div><div style=\"border-left: 4px solid #FF6B6B; padding-left: 16px;\"><h4 style=\"margin: 0 0 8px 0;\">📤 Display/Feedback Components</h4><p style=\"color: #666; margin: 0;\">System shows, visualizes, responds. Examples: TriangleViewer, KnowledgeWeb, ProgressTree, FeedbackPulse animations.</p></div></div>",
+      "order": 2
+    },
+    {
+      "id": "interest-relevance",
+      "title": "Interest-Relevant Learning",
+      "html": "<div style=\"background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 20px; color: white;\"><h4 style=\"margin: 0 0 12px 0;\">🎯 Personalized by Interest</h4><p style=\"margin: 0 0 16px 0; opacity: 0.9;\">AI transforms generic exercises into content using topics the learner loves:</p><div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 8px;\"><div style=\"background: rgba(255,255,255,0.15); padding: 8px 12px; border-radius: 6px;\">🏀 Sports stats → Math</div><div style=\"background: rgba(255,255,255,0.15); padding: 8px 12px; border-radius: 6px;\">🎮 Game lore → History</div><div style=\"background: rgba(255,255,255,0.15); padding: 8px 12px; border-radius: 6px;\">🎵 Music theory → Physics</div><div style=\"background: rgba(255,255,255,0.15); padding: 8px 12px; border-radius: 6px;\">🎬 Movies → Literature</div><div style=\"background: rgba(255,255,255,0.15); padding: 8px 12px; border-radius: 6px;\">🐾 Animals → Biology</div><div style=\"background: rgba(255,255,255,0.15); padding: 8px 12px; border-radius: 6px;\">🚀 Space → Chemistry</div></div></div>",
+      "order": 3
+    },
+    {
+      "id": "engagement-features",
+      "title": "Engagement Features",
+      "html": "<div style=\"display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px;\"><div style=\"background: #fff3e0; padding: 16px; border-radius: 8px; text-align: center;\"><div style=\"font-size: 32px; margin-bottom: 8px;\">🔥</div><strong>Daily Streaks</strong><br/><span style=\"font-size: 13px; color: #666;\">Keep the fire alive with consecutive days</span></div><div style=\"background: #e8f5e9; padding: 16px; border-radius: 8px; text-align: center;\"><div style=\"font-size: 32px; margin-bottom: 8px;\">🎯</div><strong>Daily Challenges</strong><br/><span style=\"font-size: 13px; color: #666;\">Fresh challenges every day</span></div><div style=\"background: #e3f2fd; padding: 16px; border-radius: 8px; text-align: center;\"><div style=\"font-size: 32px; margin-bottom: 8px;\">🏆</div><strong>Leaderboards</strong><br/><span style=\"font-size: 13px; color: #666;\">Compete with friends and classmates</span></div><div style=\"background: #fce4ec; padding: 16px; border-radius: 8px; text-align: center;\"><div style=\"font-size: 32px; margin-bottom: 8px;\">🎁</div><strong>Rewards</strong><br/><span style=\"font-size: 13px; color: #666;\">Earn XP, badges, and unlockables</span></div><div style=\"background: #f3e5f5; padding: 16px; border-radius: 8px; text-align: center;\"><div style=\"font-size: 32px; margin-bottom: 8px;\">📤</div><strong>Share Progress</strong><br/><span style=\"font-size: 13px; color: #666;\">Show off achievements to friends</span></div><div style=\"background: #e0f7fa; padding: 16px; border-radius: 8px; text-align: center;\"><div style=\"font-size: 32px; margin-bottom: 8px;\">⏱️</div><strong>Speed Bonuses</strong><br/><span style=\"font-size: 13px; color: #666;\">Extra points for quick answers</span></div></div>",
+      "order": 4
+    }
+  ],
+  "notes": "2026-02-07: Initial concept created. Full documentation available in Docs → 4eye Product → Learning Modes. Key insight: triadic (3-point) connections leverage natural pattern recognition for stronger memory encoding. Benefits: Memory, Learning, Recall, Understanding, Association, AI comprehension, Brain alignment, Organization. Features: Interest-relevant content adaptation, engagement mechanics (streaks, challenges, leaderboards). UI Patterns: Can utilize chips and display text with overlays to prompt user input or show contextual information for understanding—lightweight UI elements that don't interrupt flow. Audio feedback can enhance engagement (sound effects, voice narration, music cues). Reference anime-style UI for inspiration: dynamic text reveals, dramatic emphasis moments, satisfying interaction sounds.",
+
+  "planningSections": [
+    {
+      "id": "overview-goals",
+      "title": "Overview & Goals",
+      "content": "<div><h4>Core Vision</h4><p>Learning Modes is a comprehensive system of interactive learning techniques designed to enhance memory, learning, recall, understanding, association, AI comprehension, brain function, and mental organization.</p><h4>Primary Goals</h4><ol><li><strong>Design Triadic Understanding System</strong> - Define data model, visual design, and interaction patterns for 3-point learning connections</li><li><strong>Prototype Visual Learning Components</strong> - Build first versions of TriangleViewer and KnowledgeWeb display components</li><li><strong>Create Exercise Library</strong> - Build collection of quick, cheap input exercises with immediate feedback</li><li><strong>Integrate with AI Tutor</strong> - Connect learning modes to AI system for adaptive difficulty and personalized recommendations</li></ol></div>",
+      "order": 1,
+      "collapsible": false,
+      "defaultExpanded": true
+    },
+    {
+      "id": "research-decisions",
+      "title": "Research & Decisions",
+      "content": "<div><h4>Learning Science Research</h4><ul><li><strong>Triadic Connections</strong> - 3-point connections leverage natural pattern recognition for stronger memory encoding</li><li><strong>Spaced Repetition</strong> - Optimal intervals for long-term retention</li><li><strong>Active Recall</strong> - Testing strengthens memory more than passive review</li><li><strong>Interest-Based Learning</strong> - Engagement increases when content aligns with personal interests</li></ul><h4>Key Design Decisions</h4><ul><li>Use INPUT components for active exercises (TriangleBuilder, ConceptMatcher)</li><li>Use DISPLAY components for visualization/feedback (KnowledgeWeb, FeedbackPulse)</li><li>Prioritize 'quick and cheap' exercises (10-30 seconds) for high engagement</li><li>Audio feedback enhances satisfaction and retention</li></ul></div>",
+      "order": 2,
+      "collapsible": true,
+      "defaultExpanded": false
+    },
+    {
+      "id": "use-cases",
+      "title": "Use Cases & User Journeys",
+      "content": "<div><h4>Student Learning Journeys</h4><ul><li><strong>Quick Practice</strong> - Student completes 5-minute daily exercises during commute</li><li><strong>Deep Study</strong> - Student builds knowledge web while studying for exam</li><li><strong>Homework Help</strong> - AI adapts exercises to match homework topics</li></ul><h4>Teacher Use Cases</h4><ul><li><strong>Assignment Creation</strong> - Teacher creates triadic exercises for class</li><li><strong>Progress Monitoring</strong> - Teacher views knowledge webs to identify gaps</li><li><strong>Differentiation</strong> - AI adjusts difficulty per student</li></ul></div>",
+      "order": 3,
+      "collapsible": true,
+      "defaultExpanded": false
+    }
+  ],
+
+  "developmentSections": [
+    {
+      "id": "technical-context",
+      "title": "Technical Context",
+      "content": "<div><h4>Data Models</h4><ul><li><strong>TriadicConnection</strong> - { id, conceptA, conceptB, conceptC, relationshipType, strength }</li><li><strong>Exercise</strong> - { id, type, prompt, options, correctAnswer, feedback, estimatedTime }</li><li><strong>KnowledgeNode</strong> - { id, concept, connections[], strength, lastPracticed }</li></ul><h4>APIs Used</h4><ul><li>OpenAI/Gemini for interest-based content generation</li><li>Analytics API for engagement tracking</li><li>User Profile API for interest preferences</li></ul><h4>Architecture Notes</h4><ul><li>Components are stateless; state managed via React Query + Zustand</li><li>Animations powered by Framer Motion</li><li>Audio feedback via Web Audio API</li></ul></div>",
+      "order": 1,
+      "collapsible": false,
+      "defaultExpanded": true
+    },
+    {
+      "id": "test-cases",
+      "title": "Test Cases",
+      "content": "<div><h4>Unit Tests</h4><ul><li>TriangleBuilder - correctly links 3 concepts</li><li>QuickExercise - renders options and handles selection</li><li>FeedbackPulse - triggers animation on correct/incorrect</li></ul><h4>Integration Tests</h4><ul><li>Exercise flow - complete exercise → save progress → update XP</li><li>Knowledge web - add connection → persist → render on reload</li></ul><h4>E2E Tests</h4><ul><li>Daily streak flow - login → complete exercise → streak increments</li><li>Leaderboard update - complete exercise → score updates → rank changes</li></ul></div>",
+      "order": 2,
+      "collapsible": true,
+      "defaultExpanded": false
+    },
+    {
+      "id": "code-generation-context",
+      "title": "Code Generation Context",
+      "content": "<div><h4>AI Prompt Context</h4><p>When generating code for Learning Modes components:</p><ul><li>Use TypeScript with strict mode</li><li>Follow MUI component patterns</li><li>Include Framer Motion for animations</li><li>Add Web Audio API for sound feedback</li><li>Export Storybook stories for each component</li></ul><h4>Example Component Structure</h4><pre>// TriangleBuilder.tsx\ninterface Props {\n  concepts: Concept[]\n  onComplete: (triangle: TriadicConnection) => void\n  feedback?: 'immediate' | 'delayed'\n}</pre></div>",
+      "order": 3,
+      "collapsible": true,
+      "defaultExpanded": false
+    }
+  ],
+
+  "operationsSections": [
+    {
+      "id": "deployment",
+      "title": "Deployment Notes",
+      "content": "<div><h4>Environment Requirements</h4><ul><li>Node.js 18+ for build</li><li>CDN for audio files and animations</li><li>Redis for leaderboard caching</li></ul><h4>Feature Flags</h4><ul><li><code>ENABLE_TRIADIC_EXERCISES</code> - Toggle triadic exercise types</li><li><code>ENABLE_AUDIO_FEEDBACK</code> - Toggle sound effects</li><li><code>ENABLE_LEADERBOARDS</code> - Toggle competitive features</li></ul></div>",
+      "order": 1,
+      "collapsible": false,
+      "defaultExpanded": true
+    },
+    {
+      "id": "maintenance",
+      "title": "Maintenance Considerations",
+      "content": "<div><h4>Monitoring</h4><ul><li>Track exercise completion rates</li><li>Monitor AI content generation latency</li><li>Alert on streak reset errors</li></ul><h4>Known Issues</h4><ul><li>Audio may not play on iOS without user interaction first</li><li>Large knowledge webs (500+ nodes) may need virtualization</li></ul><h4>Update Cadence</h4><ul><li>Exercise content: Weekly refresh</li><li>AI models: Quarterly evaluation</li><li>Engagement features: Monthly iteration</li></ul></div>",
+      "order": 2,
+      "collapsible": true,
+      "defaultExpanded": false
+    },
+    {
+      "id": "analytics",
+      "title": "Analytics Integration",
+      "content": "<div><h4>Key Metrics</h4><ul><li><strong>DAU/MAU</strong> - Daily/monthly active learners</li><li><strong>Exercise Completion Rate</strong> - % of started exercises completed</li><li><strong>Streak Retention</strong> - Users maintaining 7+ day streaks</li><li><strong>Knowledge Growth</strong> - New connections added per user per week</li></ul><h4>Events to Track</h4><ul><li><code>exercise_started</code> - { exerciseType, difficulty, interestArea }</li><li><code>exercise_completed</code> - { timeSpent, correct, xpEarned }</li><li><code>streak_milestone</code> - { days, rewards }</li><li><code>knowledge_connection_created</code> - { conceptA, conceptB, conceptC }</li></ul></div>",
+      "order": 3,
+      "collapsible": true,
+      "defaultExpanded": false
+    }
+  ]
+}

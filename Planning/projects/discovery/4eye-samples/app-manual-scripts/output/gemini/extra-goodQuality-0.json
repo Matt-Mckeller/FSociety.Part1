@@ -1,0 +1,241 @@
+{
+  "sample": {
+    "durationSeconds": 45,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Alright class, let's talk about fractions today.",
+          "timestamp": 0,
+          "confidence": 0.98
+        },
+        {
+          "text": "Who can tell me what a fraction represents?",
+          "timestamp": 3.2,
+          "confidence": 0.97
+        },
+        {
+          "text": "Yes, Emma?",
+          "timestamp": 5.8,
+          "confidence": 0.99
+        },
+        {
+          "text": "A fraction is a part of a whole.",
+          "timestamp": 7.1,
+          "confidence": 0.96
+        },
+        {
+          "text": "Excellent! That's exactly right.",
+          "timestamp": 10.2,
+          "confidence": 0.98
+        },
+        {
+          "text": "Now, if I have a pizza cut into 8 slices and I eat 3 slices, what fraction did I eat?",
+          "timestamp": 12.5,
+          "confidence": 0.95
+        },
+        {
+          "text": "3 out of 8!",
+          "timestamp": 20.3,
+          "confidence": 0.97
+        },
+        {
+          "text": "Perfect! We write that as 3 over 8, or three-eighths.",
+          "timestamp": 22.1,
+          "confidence": 0.98
+        },
+        {
+          "text": "The top number is called the numerator, and the bottom number is the denominator.",
+          "timestamp": 26.8,
+          "confidence": 0.96
+        },
+        {
+          "text": "Can everyone say numerator?",
+          "timestamp": 32.5,
+          "confidence": 0.99
+        },
+        {
+          "text": "Numerator!",
+          "timestamp": 34.8,
+          "confidence": 0.95
+        },
+        {
+          "text": "And denominator?",
+          "timestamp": 36.2,
+          "confidence": 0.99
+        },
+        {
+          "text": "Denominator!",
+          "timestamp": 38,
+          "confidence": 0.96
+        },
+        {
+          "text": "Great! Now let's practice with some examples on the board.",
+          "timestamp": 40.5,
+          "confidence": 0.97
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.95,
+    "appropriatenessScore": 1,
+    "warnings": [],
+    "isMainLectureContent_confidence": 0.98,
+    "isSideConversation_confidence": 0.02,
+    "isIrrelevantContent_confidence": 0,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "mathematics",
+      "fractions",
+      "numerator",
+      "denominator",
+      "elementary_math",
+      "grade_4",
+      "introduction"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": true,
+    "summarization": "The teacher introduces the concept of fractions as representing a 'part of a whole.' Using a relatable example of a pizza cut into 8 slices, the teacher explains that eating 3 slices represents the fraction 3/8. The lesson then defines the key vocabulary: the 'numerator' as the top number (the parts you have) and the 'denominator' as the bottom number (the total parts). The class reinforces this vocabulary through a call-and-response activity before the teacher prepares to move on to more examples.",
+    "recommendedSummarization": "layman_friendly",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "• A fraction is a part of a whole.\n• Example: A pizza has 8 total slices (the whole). Eating 3 slices is a part.\n• This is written as the fraction 3/8 (three-eighths).\n• Top number (3) is the Numerator.\n• Bottom number (8) is the Denominator."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.75,
+        "text": "A teacher explains that fractions are parts of a whole, using an example of eating 3 out of 8 pizza slices. The terms numerator (top number) and denominator (bottom number) are introduced and defined."
+      },
+      {
+        "version": "narrative",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "Today's math adventure started with a delicious question about pizza! We learned that if a pizza has 8 slices in total, and you get to eat 3 of them, you've just experienced a fraction. That specific fraction is called 'three-eighths.' We discovered the secret code for writing fractions: the top number, or 'numerator,' tells us how many slices we ate, and the bottom number, the 'denominator,' tells us how many slices there were to begin with."
+      }
+    ],
+    "oneLineSummarization": "A teacher introduces fractions as parts of a whole using a pizza example, defining the numerator and the denominator.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.98,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "VISUAL",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Picture a round pizza, perfectly divided into 8 equal, triangular slices. Now, imagine taking 3 of those slices away and putting them on your plate. You can see the empty space left behind. The 3 slices on your plate are the 'numerator,' and the original 8 total slices that made up the whole pizza are the 'denominator.' The image of the partial pizza clearly shows what '3 out of 8' looks like."
+      },
+      {
+        "effectiveness": "very_high",
+        "type": "STORYTELLING",
+        "relativeEffectivenessWeight": 0.95,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.95,
+        "text": "Once upon a time, in a hungry classroom, a teacher brought a magical pizza that could teach math! This pizza was cut into 8 perfect slices. The teacher, being very generous, ate 3 whole slices. The question arose: how much of the magic pizza was gone? The class discovered it wasn't a whole pizza anymore, but a part of it. They named this part 'three-eighths,' a fraction that told the delicious story of the 3 slices that were eaten out of the 8 that once were."
+      },
+      {
+        "effectiveness": "high",
+        "type": "KINESTHETIC",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "Let's try this with our hands. Take a piece of paper and pretend it's a pizza. First, fold it in half, then in half again, and one more time. When you open it, you should see 8 equal sections. This is your whole pizza, your denominator. Now, with a crayon, color in 3 of those sections. The colored parts are your numerator. You've just physically created the fraction 3/8!"
+      },
+      {
+        "effectiveness": "medium",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.7,
+        "text": "To understand a fraction, we follow a logical process. Step 1: Identify the total number of equal parts that make up a single whole object. This value is the denominator. In the pizza example, this is 8. Step 2: Identify the number of parts we are focusing on. This value is the numerator. In the example, this is 3. Step 3: Express this relationship as Numerator / Denominator. Therefore, the logical representation is 3/8."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "INTERACTIVE_DIAGRAM",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "SVG_DIAGRAM",
+          "HTML_INTERACTIVE",
+          "ANNOTATED_TEXT"
+        ],
+        "title": "Interactive Pizza Fractions",
+        "reasonForSuggestion": "Fractions are an inherently visual concept. An interactive pizza allows students to directly manipulate the numerator and denominator from the lesson's example, creating a strong connection between the abstract numbers and a concrete visual representation.",
+        "promptForGeneration": "Create an interactive HTML and SVG visualization for 4th-grade math students. It should display a pizza cut into 8 slices. Below the pizza, have two labels: 'Numerator' and 'Denominator'. The Denominator should be fixed at 8. The Numerator should be a slider or stepper control that goes from 0 to 8. As the user changes the numerator value (e.g., to 3), 3 of the 8 pizza slices should become colored in (e.g., red) to show they've been 'eaten'. A large text label below should dynamically update to show the fraction in number form (e.g., '3 / 8'). The numerator and denominator in the label should be clearly annotated. Use bright, engaging colors and a simple, clear font. Make the interaction smooth and responsive."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.85,
+        "coreType": "MERMAID_DIAGRAM",
+        "otherCoreType": "CUSTOM",
+        "secondaryTypes": [
+          "CONCEPT_MAP"
+        ],
+        "title": "What is a Fraction?",
+        "reasonForSuggestion": "A concept map helps solidify the relationship between the new vocabulary words and the overall concept. It visually organizes the hierarchy of the information presented in the lesson.",
+        "promptForGeneration": "Create a Mermaid diagram, using the flowchart or graph syntax, to build a concept map for 4th graders. The central concept should be a box labeled 'Fraction (A Part of a Whole)'. It should have two main branches. Branch 1 points to a box labeled 'Numerator (Top Number)' which has a sub-label 'Tells HOW MANY parts we have'. Branch 2 points to a box labeled 'Denominator (Bottom Number)' with a sub-label 'Tells how many parts in the WHOLE'. Include a third branch from 'Fraction' to an example box: 'Example: 3/8', which then connects to both the Numerator ('3 slices eaten') and Denominator ('8 total slices'). Use rounded boxes and clear arrows."
+      }
+    ],
+    "purpose": "This lesson introduces the fundamental concept of fractions, which is a critical building block in mathematics. Understanding how to represent parts of a whole is the first step towards learning about decimals, percentages, ratios, and more advanced topics like algebra. It's how we begin to describe numbers that aren't whole numbers.",
+    "motivation": "Have you ever had to share a cookie, a video game, or a pizza with friends? Fractions are the language of sharing fairly! Learning about them helps you understand how to divide things up, talk about parts of your favorite things, and make sure everyone gets their fair share. It's a math skill you'll use every day, from cooking in the kitchen to playing at recess.",
+    "learningValueScore": 0.9,
+    "availableActions": [
+      {
+        "actionLabel": "Show Pizza",
+        "reason": "Display an interactive visual aid that directly matches the teacher's example, reinforcing the core concept.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "Define Terms",
+        "reason": "Provide clear, simple definitions for the new vocabulary words 'numerator' and 'denominator' with visual cues.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Try Another",
+        "reason": "Present a new, simple fraction problem (e.g., a chocolate bar with 4 squares) to check for understanding.",
+        "recommendationPriority": "high"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "fraction": {
+        "definition": "A number that represents a part of a whole object or set.",
+        "context": "If I eat 3 slices of an 8-slice pizza, the fraction I ate is 3/8.",
+        "simpler": "A piece of something, not the whole thing."
+      },
+      "numerator": {
+        "definition": "The top number in a fraction. It shows how many parts of the whole are being considered.",
+        "context": "In the fraction 3/8, the numerator is 3.",
+        "mnemonic": "The Numerator is 'up North' (on top)."
+      },
+      "denominator": {
+        "definition": "The bottom number in a fraction. It shows the total number of equal parts the whole is divided into.",
+        "context": "In the fraction 3/8, the denominator is 8.",
+        "mnemonic": "The Denominator is 'down' below."
+      }
+    },
+    "recommendationsToTeacher": [
+      "Use physical manipulatives, like fraction circles or colored blocks, to provide a hands-on learning experience that complements the pizza example.",
+      "Check for understanding by asking students to create their own fraction stories using different objects (e.g., a box of crayons, a group of friends).",
+      "Explicitly address the common misconception where students mix up the numerator and denominator. Reinforce the 'part' vs. 'whole' relationship for each term."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:28:27.298Z",
+    "latencyMs": 37553,
+    "tokenUsage": {
+      "input": 7210,
+      "output": 2727,
+      "total": 11451
+    }
+  }
+}

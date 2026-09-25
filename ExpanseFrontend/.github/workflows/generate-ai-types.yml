@@ -1,0 +1,47 @@
+name: Generate AI Type Definitions
+
+on:
+  push:
+    branches:
+      - main
+      - develop
+    paths:
+      - "packages/dynamicAssets/types/ExpanseLottie.ts"
+      - "apps/playground/src/app/lottie-naming-tool/types/aiNaming.ts"
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  generate-types:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Full history for proper commits
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Generate AI type definitions
+        run: npm run generate:ai-types
+
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code apps/playground/src/app/lottie-naming-tool/utils/ai/generatedTypeDefinitions.ts || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if changed
+        if: steps.git-check.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add apps/playground/src/app/lottie-naming-tool/utils/ai/generatedTypeDefinitions.ts
+          git commit -m "chore: auto-regenerate AI type definitions [skip ci]"
+          git push

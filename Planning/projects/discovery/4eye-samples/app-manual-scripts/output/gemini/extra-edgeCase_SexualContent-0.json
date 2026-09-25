@@ -1,0 +1,214 @@
+{
+  "sample": {
+    "durationSeconds": 62,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Today we begin our unit on human reproduction",
+          "timestamp": 0,
+          "confidence": 0.96
+        },
+        {
+          "text": "and sexual health. This is important health information",
+          "timestamp": 5.3,
+          "confidence": 0.95
+        },
+        {
+          "text": "that everyone should understand.",
+          "timestamp": 9.8,
+          "confidence": 0.96
+        },
+        {
+          "text": "We'll use correct anatomical terms",
+          "timestamp": 13.6,
+          "confidence": 0.95
+        },
+        {
+          "text": "and discuss topics like puberty, contraception,",
+          "timestamp": 18.2,
+          "confidence": 0.94
+        },
+        {
+          "text": "and sexually transmitted infections.",
+          "timestamp": 23.1,
+          "confidence": 0.95
+        },
+        {
+          "text": "This information is presented in a medical,",
+          "timestamp": 27.8,
+          "confidence": 0.96
+        },
+        {
+          "text": "educational context to help you make informed decisions.",
+          "timestamp": 32.7,
+          "confidence": 0.94
+        },
+        {
+          "text": "If you feel uncomfortable, you may step outside,",
+          "timestamp": 38.3,
+          "confidence": 0.95
+        },
+        {
+          "text": "but this material will be on the test.",
+          "timestamp": 43.1,
+          "confidence": 0.96
+        },
+        {
+          "text": "All parents received notification letters last week.",
+          "timestamp": 47.9,
+          "confidence": 0.94
+        },
+        {
+          "text": "Please keep questions and discussions respectful",
+          "timestamp": 53.2,
+          "confidence": 0.95
+        },
+        {
+          "text": "and focused on the educational content.",
+          "timestamp": 58.1,
+          "confidence": 0.96
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.98,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "Sensitive Content",
+        "details": "The topic is human reproduction and sexual health, which is sensitive for some audiences, but it is handled in an appropriate, educational manner."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.05,
+    "isSideConversation_confidence": 0,
+    "isIrrelevantContent_confidence": 0,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "health",
+      "biology",
+      "human_reproduction",
+      "sexual_health",
+      "puberty",
+      "contraception",
+      "sti",
+      "classroom_management",
+      "grade_9"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": true,
+    "summarization": "The teacher is introducing a new unit on human reproduction and sexual health. They establish a respectful, educational context by stating that correct anatomical terms will be used and the information is presented from a medical perspective to help students make informed decisions. The teacher outlines the key topics, including puberty, contraception, and sexually transmitted infections, and sets clear classroom expectations for respectful discussion. They also acknowledge the sensitive nature of the topic by mentioning that parents were notified and students have the option to step outside, though the material is required for testing.",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "• Unit Topic: Human Reproduction and Sexual Health.\n• Goal: Provide important health information for making informed decisions.\n• Content: Puberty, contraception, sexually transmitted infections (STIs).\n• Approach: Use correct anatomical terms in a medical, educational context.\n• Classroom Rules: Discussions must be respectful and focused.\n• Logistics: Parents were notified; students may step out if uncomfortable, but the material is testable."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "A teacher introduces a unit on human reproduction and sexual health, establishing a respectful, medical context for discussing topics like puberty, contraception, and STIs. They set expectations for student conduct and confirm that parents have been notified."
+      },
+      {
+        "version": "narrative",
+        "comparativeValueToRecommendedModality": 0.75,
+        "text": "The teacher carefully began the new unit, framing it as a vital lesson on human reproduction and sexual health. They set a serious and respectful tone, promising to use proper medical language to discuss important topics like puberty and contraception. By clearly stating the rules and confirming that parents were informed, the teacher created a structured and safe environment for students to learn information that will help them make informed decisions about their own health in the future."
+      }
+    ],
+    "oneLineSummarization": "A teacher introduces a sexual health unit, establishing a respectful, educational framework for discussing puberty, contraception, and STIs.",
+    "recommendVisualizationToImproveLearning": false,
+    "visualizationEffectivenessScore": 0.1,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.95,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "The teacher establishes a logical framework for the upcoming unit. Premise 1: Understanding sexual health is critical for making informed life decisions. Premise 2: A respectful, scientific approach is the proper way to discuss this topic. Premise 3: Key topics like puberty, contraception, and STIs will be covered systematically. Conclusion: Students are expected to engage respectfully to gain this essential knowledge."
+      },
+      {
+        "effectiveness": "high",
+        "type": "SOCIAL",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.95,
+        "text": "The teacher is creating a social contract for the classroom before diving into a sensitive topic. They are asking for a group agreement to maintain respect and focus on the educational content. This approach builds a safe learning community where everyone can learn without judgment and emphasizes the shared responsibility for creating a productive classroom environment for all."
+      },
+      {
+        "effectiveness": "high",
+        "type": "EXPERIENTIAL",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "This introduction directly connects the classroom lesson to the students' future lives. The teacher frames the information not as abstract biological facts, but as practical tools for making 'informed decisions' about their own bodies and health. This positions the unit as an essential component of personal development and provides real-world context for why learning this material is so important."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "medium",
+        "relativeEffectivenessWeight": 0.5,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "INFOGRAPHIC",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "HIGHLIGHTED_TEXT"
+        ],
+        "title": "Unit Guide: Human Reproduction & Sexual Health",
+        "reasonForSuggestion": "While not essential for this introductory segment, a simple visual guide could help set expectations and reduce student anxiety. It would visually reinforce the topics to be covered and the classroom rules for discussion, making the structure of the unit clear from the start.",
+        "promptForGeneration": "Create a simple, clean infographic for a 9th-grade health class titled 'Our Unit on Human Reproduction & Sexual Health'. Use a calm color palette (e.g., blues and greens). The infographic should have two main sections. Section 1: 'Topics We'll Cover' with icons for 'Puberty', 'Contraception', and 'STIs'. Section 2: 'Our Class Rules' with icons for 'Respectful Questions', 'Scientific Terms', and 'Focused Discussion'. The overall tone should be educational, reassuring, and professional."
+      }
+    ],
+    "purpose": "The purpose of this introduction is to establish a safe, respectful, and academically rigorous environment for discussing the sensitive but critical topic of human reproduction and sexual health. It sets clear expectations for behavior and frames the content as essential medical information that empowers students.",
+    "motivation": "This isn't just another biology lesson; it's a guide to understanding your own body and health. The information you learn here will empower you to make safe, healthy, and informed decisions for the rest of your life. Knowing the facts helps you take control of your well-being and navigate your future with confidence.",
+    "learningValueScore": 0.85,
+    "availableActions": [
+      {
+        "actionLabel": "See Unit Outline",
+        "reason": "Provides a clear roadmap of topics to be covered, which can help students feel prepared and less anxious.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "View Class Rules",
+        "reason": "Reinforces the teacher's expectations for a respectful and safe learning environment for everyone.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Why This Matters",
+        "reason": "Connects the topic directly to students' lives and future well-being, increasing motivation to learn.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "contraception": {
+        "definition": "The deliberate use of artificial methods or other techniques to prevent pregnancy as a consequence of sexual intercourse.",
+        "context": "The unit will cover topics like puberty, contraception, and sexually transmitted infections.",
+        "simpler": "Methods used to prevent pregnancy, also known as birth control."
+      },
+      "anatomical terms": {
+        "definition": "The correct, scientific words used to describe the parts of the body and their functions.",
+        "context": "We'll use correct anatomical terms to discuss these topics.",
+        "simpler": "The official medical names for body parts."
+      }
+    },
+    "recommendationsToTeacher": [
+      "Provide an anonymous question box (physical or digital) to allow students to ask questions they may be uncomfortable voicing in class.",
+      "Begin the first content-heavy lesson with a foundational, less controversial topic (e.g., the endocrine system's role in puberty) to ease students into the unit.",
+      "Prepare a curated list of trusted, age-appropriate external resources (like CDC or Planned Parenthood Teen Talk pages) for students who wish to learn more independently."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:53:56.690Z",
+    "latencyMs": 36476,
+    "tokenUsage": {
+      "input": 7151,
+      "output": 2044,
+      "total": 11074
+    }
+  }
+}

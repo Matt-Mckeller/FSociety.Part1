@@ -1,0 +1,5 @@
+export { PresentationCanvas } from "./PresentationCanvas"
+export { SlideOrbBar } from "./SlideOrbBar"
+export { gamingTheme, gamingColors, slideStyles } from "./themes/gamingTheme"
+export * from "./slides"
+export * from "./hooks"

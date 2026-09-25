@@ -1,0 +1,104 @@
+{
+  "questlines": [
+    {
+      "id": "4up",
+      "name": "4Up",
+      "description": "Marketing automation, brand, content generation",
+      "status": "in-progress",
+      "priority": "P1",
+      "category": "business",
+      "color": "#FF6B35",
+      "icon": "Campaign"
+    },
+    {
+      "id": "4eye",
+      "name": "4Eye",
+      "description": "Educational AI assistant (Audio → Visual, Learning Modalities)",
+      "status": "not-started",
+      "priority": "P1",
+      "category": "business",
+      "color": "#4ECDC4",
+      "icon": "Visibility"
+    },
+    {
+      "id": "1game",
+      "name": "1Game",
+      "description": "Gamification, rewards, progress tracking",
+      "status": "not-started",
+      "priority": "P2",
+      "category": "business",
+      "color": "#9B59B6",
+      "icon": "SportsEsports"
+    },
+    {
+      "id": "expanse-services",
+      "name": "Expanse Services",
+      "description": "Software development services",
+      "status": "not-started",
+      "priority": "P1",
+      "category": "business",
+      "color": "#3498DB",
+      "icon": "Code"
+    },
+    {
+      "id": "lotties",
+      "name": "Lotties",
+      "description": "Animation assets and marketplace",
+      "status": "not-started",
+      "priority": "P2",
+      "category": "business",
+      "color": "#E74C3C",
+      "icon": "Animation"
+    },
+    {
+      "id": "personal",
+      "name": "Personal",
+      "description": "Health, finances, location, personal goals",
+      "status": "in-progress",
+      "priority": "P1",
+      "category": "personal",
+      "color": "#2ECC71",
+      "icon": "Person"
+    },
+    {
+      "id": "privacy-security",
+      "name": "Privacy & Security",
+      "description": "Security, equipment, protection",
+      "status": "not-started",
+      "priority": "P3",
+      "category": "personal",
+      "color": "#95A5A6",
+      "icon": "Security"
+    },
+    {
+      "id": "kinestetic",
+      "name": "AI UI & Kinestetic Learning",
+      "description": "Movement, physical learning, kinesthetic experiences",
+      "status": "not-started",
+      "priority": "P2",
+      "category": "business",
+      "color": "#F97316",
+      "icon": "FitnessCenter"
+    },
+    {
+      "id": "planning-app",
+      "name": "Planning App",
+      "description": "Quest planning, objective tracking, and journey visualization tool",
+      "status": "in-progress",
+      "priority": "P1",
+      "category": "business",
+      "color": "#8B5CF6",
+      "icon": "Map"
+    },
+    {
+      "id": "code-architecture",
+      "name": "High Level Code Architecture",
+      "description": "Code organization, shared types, and cross-project infrastructure",
+      "status": "in-progress",
+      "priority": "P2",
+      "category": "business",
+      "color": "#06B6D4",
+      "icon": "Architecture"
+    }
+  ]
+}

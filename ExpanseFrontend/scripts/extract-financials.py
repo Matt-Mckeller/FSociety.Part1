@@ -1,0 +1,416 @@
+#!/usr/bin/env python3
+"""Extract financial data from Excel spreadsheet and output as JSON."""
+import openpyxl
+import json
+import os
+
+# Get the path to the Excel file
+script_dir = os.path.dirname(os.path.abspath(__file__))
+project_root = os.path.dirname(script_dir)
+excel_path = os.path.join(project_root, 'Financial_Information_Expanse_EDU_And_Projections.xlsx')
+
+wb = openpyxl.load_workbook(excel_path, data_only=True)
+
+# Student counts and market data
+student_counts = {
+    "lmsProviders": [
+        {"name": "Blackboard", "users": "150 Million+", "regions": "80 countries", "notes": "Used by more than half of US institutions"},
+        {"name": "Google Classroom", "users": "150 Million+", "notes": "Up from 40 million in 2020-2021"},
+        {"name": "Canvas", "users": "30 Million+", "customers": "7000+ global"},
+        {"name": "Moodle", "users": "432 Million", "notes": "Free platform, global user base"}
+    ],
+    "usStudentCounts": {
+        "total": 75000000,
+        "higherEd": 19000000,
+        "k12Public": 49600000,
+        "k12Private": 5500000,
+        "lmsUsageRate": 0.93
+    },
+    "studentDistribution": [
+        {"segment": "K-5 (Elementary)", "k12Distribution": 0.4, "totalDistribution": 0.32},
+        {"segment": "6-8 (Middle School)", "k12Distribution": 0.25, "totalDistribution": 0.2},
+        {"segment": "9-12 (High School)", "k12Distribution": 0.35, "totalDistribution": 0.28},
+        {"segment": "Higher Education", "k12Distribution": None, "totalDistribution": 0.2}
+    ],
+    "lmsUsers": {
+        "us": {
+            "initialFocus": 47430000,
+            "secondaryFocus": 22320000,
+            "total": 69750000
+        },
+        "global": {
+            "initialFocus": 1011840000,
+            "secondaryFocus": 476160000,
+            "total": 1488000000,
+            "higherEd": 232500000
+        }
+    },
+    "pricing": {
+        "freemium": {
+            "target": {"monthly": 0.25, "yearly": 3},
+            "lower": {"monthly": 0.1, "yearly": 1.2}
+        },
+        "membership": {"monthly": 5.99}
+    }
+}
+
+# Total Addressable Market
+tam = {
+    "userCounts": {
+        "monthly": {
+            "lmsStudentK12": 1242897,
+            "teacherK12": 77681,
+            "higherEdStudent": 306200,
+            "higherEdTeacher": 17011,
+            "hsStudent": 435014,
+            "hsTeacher": 27188
+        },
+        "us": {
+            "lmsStudentK12": 55800000,
+            "teacherK12": 3487500,
+            "higherEdStudent": 11160000,
+            "higherEdTeacher": 620000,
+            "hsStudent": 19530000,
+            "hsTeacher": 1220625
+        },
+        "global": {
+            "lmsStudentK12": 1488000000,
+            "teacherK12": 93000000,
+            "higherEdStudent": 232500000,
+            "higherEdTeacher": 12916667,
+            "hsStudent": 520800000,
+            "hsTeacher": 32550000
+        }
+    },
+    "pricingTiers": [
+        {
+            "name": "T1 Primary",
+            "freemiumMonthly": 0.1,
+            "freemiumYearly": 1.2,
+            "membershipMonthly": 5.99,
+            "teacherMembershipMonthly": 5.99
+        },
+        {
+            "name": "T1 Secondary",
+            "freemiumMonthly": 0.25,
+            "freemiumYearly": 3,
+            "membershipMonthly": 5.99,
+            "teacherMembershipMonthly": 5.99,
+            "notes": "Higher cost to schools, profit focus"
+        }
+    ],
+    "revenueStreams": [
+        {"stream": "Family Memberships", "assumption": "10% at $5.99/m for 12 months"},
+        {"stream": "Teacher Memberships", "assumption": "10% at $5.99/m for 12 months"},
+        {"stream": "School/District Fees", "assumption": "Per-user freemium model"}
+    ],
+    "assumedTeacherRatio": "16:1 or 18:1"
+}
+
+# K-12 User Acquisition
+user_acquisition_k12 = {
+    "accuracyLevel": "Low - need market/user feedback",
+    "goals": [
+        "Charge schools to cover operating costs",
+        "Utilize funding to build product and acquire users",
+        "Enable memberships when best implementation option is clear"
+    ],
+    "membershipTimeline": {
+        "earliest": "Slightly before bigger funding round",
+        "expected": "6 months after bigger funding round",
+        "latest": "1-2 years after bigger funding round"
+    },
+    "variables": {
+        "studentsPerSchool": 1000,
+        "schoolsPerDistrict": 5,
+        "studentsPerClassroom": 16,
+        "classesPerDayTeacher": 6,
+        "classroomsPerSchool": 62,
+        "percentStudentsUsingApp": "10% to 100%",
+        "percentTeachersUsingApp": "10% to 100%",
+        "percentStudentsForParents": "10% to 20%",
+        "percentStudentsPerTeacher": "30% to 100%"
+    },
+    "hsVariables": {
+        "schoolsPerDistrict": 1,
+        "classroomsPerSchool": 55
+    }
+}
+
+# Higher Ed User Acquisition
+user_acquisition_higher_ed = {
+    "institutionCategories": [
+        {
+            "name": "Large Public Universities (R1)",
+            "description": "Extensive research, large student body, multiple colleges",
+            "studentsPerSchool": {"min": 5000, "max": 30000},
+            "schoolsPerUniversity": {"min": 10, "max": 20},
+            "classroomSizes": {
+                "introLecture": {"min": 100, "max": 500},
+                "upperLevel": {"min": 20, "max": 50},
+                "graduate": {"min": 10, "max": 20}
+            },
+            "classesPerWeek": {"undergrad": {"min": 3, "max": 5}, "grad": {"min": 2, "max": 4}}
+        },
+        {
+            "name": "Medium-Sized Public Universities",
+            "description": "Focus on teaching and research, moderate student body",
+            "studentsPerSchool": {"min": 5000, "max": 15000},
+            "schoolsPerUniversity": {"min": 5, "max": 10},
+            "classroomSizes": {
+                "introLecture": {"min": 50, "max": 200},
+                "upperLevel": {"min": 20, "max": 40},
+                "graduate": {"min": 10, "max": 20}
+            },
+            "classesPerWeek": {"undergrad": {"min": 3, "max": 5}, "grad": {"min": 2, "max": 4}}
+        },
+        {
+            "name": "Private Universities",
+            "description": "Vary in size and focus, can be research-intensive",
+            "studentsPerSchool": {"min": 1000, "max": 10000},
+            "schoolsPerUniversity": {"min": 3, "max": 15},
+            "classroomSizes": {
+                "introLecture": {"min": 15, "max": 50},
+                "upperLevel": {"min": 15, "max": 50},
+                "graduate": {"min": 15, "max": 50}
+            },
+            "classesPerWeek": {"undergrad": {"min": 3, "max": 5}, "grad": {"min": 2, "max": 4}}
+        },
+        {
+            "name": "Liberal Arts Colleges",
+            "description": "Focus on undergraduate education, small student body",
+            "studentsPerSchool": {"min": 1000, "max": 3000},
+            "schoolsPerUniversity": {"min": 1, "max": 1},
+            "classroomSizes": {
+                "introLecture": {"min": 15, "max": 30},
+                "upperLevel": {"min": 15, "max": 30},
+                "graduate": {"min": 15, "max": 30}
+            },
+            "classesPerWeek": {"undergrad": {"min": 4, "max": 6}, "grad": {"min": 4, "max": 6}}
+        },
+        {
+            "name": "Community Colleges",
+            "description": "Focus on associate's degrees and vocational training",
+            "studentsPerSchool": {"min": 1000, "max": 10000},
+            "schoolsPerUniversity": {"min": 1, "max": 1},
+            "classroomSizes": {
+                "introLecture": {"min": 20, "max": 40},
+                "upperLevel": {"min": 20, "max": 40},
+                "graduate": {"min": 20, "max": 40}
+            },
+            "classesPerWeek": {"undergrad": {"min": 2, "max": 4}, "grad": {"min": 2, "max": 4}}
+        }
+    ]
+}
+
+# Team/Hiring Timeline
+team_acquisition = {
+    "phases": [
+        {
+            "name": "Early Low Budget",
+            "roles": [
+                "Consulting/Freelance Designer",
+                "Consulting/Freelance Developer(s)",
+                "Equity Sales/Marketing/Customer Support CoFounder",
+                "SIEM Setup, Risk Management, Compliance, Monitoring"
+            ]
+        },
+        {
+            "name": "First Hires",
+            "roles": [
+                "Senior Developer(s)",
+                "Junior Developer(s)",
+                "Web Designer (or developer with design skills)",
+                "Contracted/Consulting Animator or hybrid with design",
+                "IT Support: Helps with Monitoring, SOC related tasks"
+            ]
+        },
+        {
+            "name": "Ready to Sell",
+            "roles": [
+                "More developers as needed",
+                "B2B Marketing & Sales",
+                "Conference Sales",
+                "Digital Marketing & Content Creation",
+                "Customer Support as needed",
+                "CFO / Fractional CFO",
+                "CMO"
+            ]
+        }
+    ]
+}
+
+# Integration/API Costs
+integration_costs = {
+    "items": [
+        {
+            "name": "LMS Integrations",
+            "negotiable": True,
+            "baseCost": "10c/m/person to 1c/m/person",
+            "byScale": {
+                "users_0_5k": 6000,
+                "users_5k_10k": 12000,
+                "users_10k_100k": 60000,
+                "users_1M": 300000,
+                "users_25M": 3000000
+            },
+            "accuracy": "Somewhat Accurate"
+        },
+        {
+            "name": "Clever / Dashboard & Secure Sync",
+            "negotiable": True,
+            "baseCost": "$2k/school - $11k for 50 schools",
+            "byScale": {
+                "users_0_5k": "2k-11k",
+                "users_5k_10k": "2k-11k",
+                "users_10k_100k": 22000,
+                "users_1M": 220000,
+                "users_25M": 2000000
+            },
+            "accuracy": "Not very accurate"
+        },
+        {
+            "name": "Infrastructure + Compute",
+            "negotiable": "Kind of",
+            "baseCost": "Complicated",
+            "byScale": {
+                "users_0_5k": "<1k/yr",
+                "users_5k_10k": "1k/yr",
+                "users_10k_100k": "8k/yr",
+                "users_1M": "30k-60k/yr",
+                "users_25M": "750k-2M/yr"
+            },
+            "accuracy": "Depends on features",
+            "notes": "AWS vs GCP pricing varies"
+        },
+        {"name": "Texting (Twilio)", "baseCost": "~$0.0083/SMS"},
+        {"name": "Payments (Stripe)", "baseCost": "2.9% + 30¢ per transaction"},
+        {"name": "Feature Flagging (LaunchDarkly)", "baseCost": "$10/m per 1k MAU + $10/m per Service Connection"}
+    ],
+    "exampleCalculations": {
+        "kcps": {
+            "students": 14435,
+            "costAt10cPerStudent": {"monthly": 1443.5, "yearly": 17322},
+            "costAt1cPerStudent": {"monthly": 144.35, "yearly": 1732.2},
+            "teacherCost16to1": {"at10c": {"monthly": 96.23, "yearly": 1154.8}},
+            "featureFlagCost": {"monthly": 144.35, "yearly": 1732.2}
+        }
+    },
+    "infrastructureComparison": {
+        "googleCloud": {"description": "2 average instances + mysql", "monthlyCost": 761.98},
+        "aws": {"description": "2 average instances + mysql", "monthlyCost": 906.45, "notes": "SQL more expensive, EC2 cheaper"}
+    }
+}
+
+# Software/SaaS Costs
+software_costs = {
+    "items": [
+        {"category": "Mobile Device Management (MDM)", "examples": "Microsoft Intune, Jamf Pro", "costPerUserMonth": "$5 - $15", "notes": "Cost varies by features and device count"},
+        {"category": "Project Management", "examples": "Jira, Confluence / Atlassian", "costPerUserMonth": "$10 - $40", "notes": "Tiered pricing based on features"},
+        {"category": "Atlassian Guard", "examples": "Access Control/SSO for Jira", "costPerUserMonth": "$30/m for 1-10 users total", "notes": "Varied pricing"},
+        {"category": "Google Workspace", "examples": "Business Standard, Enterprise", "costPerUserMonth": "$12 - $30", "notes": "Pricing varies by storage and features"},
+        {"category": "1Password", "examples": "Business, Teams", "costPerUserMonth": "$3 - $8", "notes": "Secure password management"},
+        {"category": "Chat AI (Internal)", "examples": "Slack AI, Microsoft Teams Premium", "costPerUserMonth": "$5 - $15", "notes": "AI features like summarization"},
+        {"category": "CRM / Salesforce", "examples": "Salesforce Sales Cloud, HubSpot CRM", "costPerUserMonth": "$25 - $150+", "notes": "Highly variable based on edition"},
+        {"category": "Stock Assets", "examples": "Adobe Stock, Shutterstock", "costPerUserMonth": "$20 - $50", "notes": "Subscription based"},
+        {"category": "AI Generation & Chat", "examples": "ChatGPT Plus, Midjourney", "costPerUserMonth": "$20 - $50"},
+        {"category": "Figma", "examples": "Professional, Organization", "costPerUserMonth": "$12 - $45", "notes": "Tiered by collaboration features"},
+        {"category": "Adobe Suite", "examples": "Creative Cloud All Apps", "costPerUserMonth": "$60 - $90", "notes": "Higher for business plans"},
+        {"category": "SSO", "examples": "Okta", "costPerUserMonth": "$6 - $17", "notes": "Single sign-on for all apps"},
+        {"category": "Windsurf AI Editor", "examples": "Windsurf", "costPerUserMonth": "$15 - $30+"},
+        {"category": "Claude AI", "examples": "Claude Pro", "costPerUserMonth": "$17+/dev"},
+        {"category": "Social Media Tools", "examples": "Buffer, Hootsuite", "costPerUserMonth": "$5 - $99", "notes": "Hootsuite more popular at $99/m, Buffer alternative"},
+        {"category": "VPN", "examples": "Nord Layer, OpenVPN", "notes": "Desired for security"},
+        {"category": "AI Note Taker", "examples": "Notion", "notes": "Must be private, not sell data"},
+        {"category": "GitHub", "examples": "GitHub Enterprise"},
+        {"category": "GitHub Copilot", "examples": "GitHub Copilot", "costPerUserMonth": "$10 - $20"}
+    ]
+}
+
+# Marketing Costs
+marketing_costs = {
+    "earlyMvp": [
+        {"activity": "Conferences & Travel", "cost": "$1500-3k per or $0 if presenting", "aiAssisted": False, "owner": "varies"},
+        {"activity": "Podcasts / Interviews", "cost": "Free (hopefully)", "aiAssisted": True, "owner": "i"},
+        {"activity": "Influencer Shares", "cost": "Varies or free", "aiAssisted": True, "owner": "i"},
+        {"activity": "SEO", "cost": "TBD", "aiAssisted": True, "owner": "i / freelance"},
+        {"activity": "Search Engine Ads", "cost": "$0 initially", "aiAssisted": True, "segments": {"b2b": 0, "b2teacher": 0, "b2student": 0, "b2parent": 0}},
+        {"activity": "Social Media Ads", "cost": "$0 initially", "aiAssisted": True, "segments": {"b2b": 0, "b2teacher": 0, "b2student": 0, "b2parent": 0}},
+        {"activity": "Social Media Content", "aiAssisted": True, "owner": "i + others"},
+        {"activity": "Video Creation", "aiAssisted": True, "owner": "?"},
+        {"activity": "Video Editing", "cost": "cheap", "aiAssisted": True, "owner": "freelance"},
+        {"activity": "Graphic Design / Illustration", "cost": "cheap", "aiAssisted": True, "owner": "i/freelance + ai + stock"},
+        {"activity": "Models / Actors", "cost": "later", "aiAssisted": "Partial"},
+        {"activity": "Events", "cost": "varies", "owner": "?"},
+        {"activity": "B2B Outreach", "aiAssisted": True, "owner": "cofounder / sales / i"}
+    ],
+    "earlyMiddle": [
+        {"activity": "Domain: expanse.com", "cost": "Unknown, currently in use"},
+        {"activity": "Commercial / Animation", "cost": "TBD, need time"}
+    ],
+    "staffNeeds": [
+        {"role": "Marketing Staff", "notes": "PT/Intern or diamond cofounder"},
+        {"role": "Sales Staff"}
+    ]
+}
+
+# Staff Costs
+staff_costs = {
+    "note": "Long term list for reference, most not needed initially",
+    "roles": [
+        {"title": "CEO / Chief Executive Game Master", "gameTerminology": "Matthew", "seniorUS": "50k/yr min, varies", "notes": "Chief Technomancer, Chief Product Architect"},
+        {"title": "CMO / Marketing Lead", "gameTerminology": "AOE DOT Specialist"},
+        {"title": "COO / Operations", "gameTerminology": "Frontline Support"},
+        {"title": "CFO / Finance", "gameTerminology": "Guild Bank Master"},
+        {"title": "Director of Sales", "gameTerminology": "Single Target Burst DPS"},
+        {"title": "Head of IT / IT Support"},
+        {"title": "Software Engineer", "gameTerminology": "Mages", "seniorUS": "$125k-175k (max $250k)", "midUS": "$70k-80k", "entryUS": "$50-60k", "seniorOverseas": "$50-100k", "midOverseas": "$40k-50k", "entryOverseas": "$30-50k"},
+        {"title": "DevOps", "gameTerminology": "Rogues", "seniorUS": "$125k-175k (max $250k)", "midUS": "$70k-80k"},
+        {"title": "Designer/Animator", "gameTerminology": "Blade Dancers", "seniorUS": "$80-100k", "midUS": "$60-90k", "entryUS": "$40-60k", "seniorOverseas": "$35-40k"},
+        {"title": "Data Scientist", "seniorUS": "$125k-175k (max $250k)", "midUS": "$70k-80k", "entryUS": "$50-60k"},
+        {"title": "Machine Learning Specialist", "seniorUS": "More than Sr Engineer", "notes": "Needed later"},
+        {"title": "Product Management", "seniorUS": "$90-150k+", "midUS": "$60-90k", "entryUS": "$60-90k"},
+        {"title": "Quality Assurance", "seniorUS": "$100k+", "midUS": "$70-100k", "entryUS": "$45-70k", "seniorOverseas": "$35-40k"},
+        {"title": "Cyber Security", "gameTerminology": "Tank/Support Hybrid", "seniorUS": "$130k+", "midUS": "$90-130k", "entryUS": "$60-90k"},
+        {"title": "IT Support", "seniorUS": "$80k+", "midUS": "$60-80k", "entryUS": "$40-60k"},
+        {"title": "Marketing", "notes": "Digital, B2B, Inbound, Conferences", "seniorUS": "$90k+", "midUS": "$60-90k", "entryUS": "$40-60k"},
+        {"title": "Sales", "notes": "Closers, varies", "seniorUS": "$90k+", "midUS": "$60-90k", "entryUS": "$40-60k"},
+        {"title": "Customer Service / Technical Support", "seniorUS": "$50-60k", "midUS": "$45-50k", "entryUS": "$35-45k"},
+        {"title": "Training, Onboarding, Retention", "seniorUS": "$60-75k+", "midUS": "$50-60k", "entryUS": "$45-50k"},
+        {"title": "HR/Recruitment", "seniorUS": "$70-90k+", "midUS": "$60-70k", "entryUS": "$40-60k"},
+        {"title": "Consultants", "notes": "Varies"},
+        {"title": "Staffing Agencies", "notes": "Varies"}
+    ]
+}
+
+# Physical Costs
+physical_costs = {
+    "items": [
+        {"item": "Dev Laptop", "cost": 1799, "type": "Macbook 1tb or Lenovo Laptop"},
+        {"item": "Work Profile On Phone", "cost": None},
+        {"item": "Starter Laptops", "cost": "300-500", "type": "Older Macbooks 2018-2022"},
+        {"item": "Hosting Machine", "cost": None, "type": "Used desktop with Linux maybe"},
+        {"item": "Designer Laptop", "cost": 1799, "type": "Macbook 1tb"},
+        {"item": "General Laptop", "cost": 1599, "type": "Macbook 512gb"},
+        {"item": "Office Space", "cost": None, "type": "Ideally remote. Matt's Apartment: $1150/m + utilities"},
+        {"item": "Office Equipment", "cost": None, "type": "Ideally remote"},
+        {"item": "Domain expanse.com", "cost": "Unknown", "notes": "Currently used but unknown if for sale"},
+        {"item": "Domain expanse.ai", "cost": "For bidding, min $315k listed"}
+    ]
+}
+
+# Combine all data
+all_data = {
+    "studentCounts": student_counts,
+    "tam": tam,
+    "userAcquisitionK12": user_acquisition_k12,
+    "userAcquisitionHigherEd": user_acquisition_higher_ed,
+    "teamAcquisition": team_acquisition,
+    "integrationCosts": integration_costs,
+    "softwareCosts": software_costs,
+    "marketingCosts": marketing_costs,
+    "staffCosts": staff_costs,
+    "physicalCosts": physical_costs
+}
+
+print(json.dumps(all_data, indent=2))

@@ -1,0 +1,105 @@
+{
+  "goals": [
+    {
+      "id": "g-4up-automation",
+      "epicId": "mvp-launch",
+      "title": "4Up Content Automation Working",
+      "description": "Automatically generate and schedule high-quality content",
+      "targetDate": "2026-01-26",
+      "status": "in-progress",
+      "projectId": "4up",
+      "successCriteria": [
+        "Can generate content in <5 min/day",
+        "Posts to all major platforms",
+        "Consistent brand image"
+      ]
+    },
+    {
+      "id": "g-4eye-classroom",
+      "epicId": "mvp-launch",
+      "title": "4Eye Classroom MVP",
+      "description": "Basic classroom functionality with AI assistance",
+      "targetDate": "2026-02-15",
+      "status": "not-started",
+      "projectId": "4eye",
+      "successCriteria": [
+        "Chat and whisper working",
+        "Context management functional",
+        "QR code access working"
+      ]
+    },
+    {
+      "id": "g-services-website",
+      "epicId": "mvp-launch",
+      "title": "Expanse Services Website Live",
+      "description": "Professional website with core offerings. Phased: MVP (landing/contact) → Checkout/Accounts → Component Store",
+      "targetDate": "2026-01-28",
+      "status": "not-started",
+      "projectId": "expanse-services",
+      "successCriteria": [
+        "MVP: Landing page with offerings deployed",
+        "MVP: Contact form / Calendly booking working",
+        "MVP: Core service offerings defined",
+        "Phase 2: Checkout for packages (Feb 5)",
+        "Phase 3: Component store (Feb 20)"
+      ]
+    },
+    {
+      "id": "g-first-customer",
+      "epicId": "revenue-funding",
+      "title": "First Paying Customer",
+      "description": "Acquire first paying customer for any product",
+      "targetDate": "2026-02-15",
+      "status": "not-started",
+      "projectId": "expanse-services",
+      "successCriteria": [
+        "Signed contract",
+        "Payment received",
+        "Delivery started"
+      ]
+    },
+    {
+      "id": "g-component-library",
+      "epicId": "platform-infrastructure",
+      "title": "Component Library Ready",
+      "description": "Reusable UI components across all apps",
+      "targetDate": "2026-02-28",
+      "status": "planned",
+      "projectId": "lotties",
+      "successCriteria": [
+        "Core components built",
+        "Storybook documentation",
+        "Used in at least 2 apps"
+      ]
+    },
+    {
+      "id": "g-health-optimization",
+      "epicId": "personal-excellence",
+      "title": "Health & Focus Optimized",
+      "description": "Establish healthy routines for peak performance",
+      "targetDate": null,
+      "status": "in-progress",
+      "projectId": "personal",
+      "successCriteria": [
+        "Good sleep schedule",
+        "Regular exercise",
+        "Clean work environment"
+      ]
+    },
+    {
+      "id": "g-1game-mvp",
+      "epicId": "mvp-launch",
+      "title": "1Game MVP",
+      "description": "Gamification and rewards system with progress tracking",
+      "targetDate": "2026-02-28",
+      "status": "not-started",
+      "projectId": "1game",
+      "successCriteria": [
+        "Core gamification mechanics working",
+        "Points and rewards system functional",
+        "Progress tracking dashboard",
+        "Integration with at least one other app"
+      ]
+    }
+  ]
+}

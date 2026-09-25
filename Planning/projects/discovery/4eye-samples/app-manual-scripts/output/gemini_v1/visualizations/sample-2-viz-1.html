@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big O Complexity Cheat Sheet</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        thead {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        th {
+            padding: 20px;
+            text-align: left;
+            font-size: 1.1em;
+            font-weight: 600;
+        }
+
+        tbody tr {
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        tbody tr:nth-child(even) {
+            background: #f9f9f9;
+        }
+
+        tbody tr:hover {
+            background: #f0f4ff;
+            transform: scale(1.01);
+            box-shadow: 0 2px 8px rgba(102, 126, 234, 0.2);
+        }
+
+        td {
+            padding: 18px 20px;
+            font-size: 1em;
+            color: #333;
+        }
+
+        .notation {
+            font-family: 'Courier New', monospace;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .name {
+            font-weight: 600;
+            color: #555;
+        }
+
+        .growth-rate {
+            color: #666;
+        }
+
+        .example {
+            color: #555;
+            font-style: italic;
+        }
+
+        .impact {
+            font-weight: 600;
+            padding: 6px 12px;
+            border-radius: 20px;
+            display: inline-block;
+        }
+
+        .impact.excellent {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .impact.good {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+
+        .impact.moderate {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .impact.poor {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .note {
+            margin-top: 30px;
+            padding: 20px;
+            background: #e8f5e9;
+            border-radius: 10px;
+            border-left: 5px solid #4caf50;
+        }
+
+        .note h3 {
+            color: #2d5016;
+            margin-bottom: 10px;
+        }
+
+        .note p {
+            color: #4a7c2c;
+            line-height: 1.8;
+        }
+
+        @media (max-width: 768px) {
+            table {
+                font-size: 0.9em;
+            }
+
+            th, td {
+                padding: 12px 10px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Big O Complexity Cheat Sheet 📚</h1>
+        <p class="subtitle">Your Quick Reference Guide to Algorithm Efficiency</p>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Notation</th>
+                    <th>Name</th>
+                    <th>Growth Rate</th>
+                    <th>Example from Lecture</th>
+                    <th>Practical Impact</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="notation">O(1)</td>
+                    <td class="name">Constant</td>
+                    <td class="growth-rate">Flat</td>
+                    <td class="example">Accessing array by index</td>
+                    <td><span class="impact excellent">Extremely fast</span></td>
+                </tr>
+                <tr>
+                    <td class="notation">O(log n)</td>
+                    <td class="name">Logarithmic</td>
+                    <td class="growth-rate">Very slow</td>
+                    <td class="example">Binary search</td>
+                    <td><span class="impact excellent">Very efficient for large data</span></td>
+                </tr>
+                <tr>
+                    <td class="notation">O(n)</td>
+                    <td class="name">Linear</td>
+                    <td class="growth-rate">Proportional</td>
+                    <td class="example">Simple loop through array</td>
+                    <td><span class="impact good">Scales predictably</span></td>
+                </tr>
+                <tr>
+                    <td class="notation">O(n log n)</td>
+                    <td class="name">N log N</td>
+                    <td class="growth-rate">Super-linear</td>
+                    <td class="example">Merge sort, Quick sort</td>
+                    <td><span class="impact moderate">Standard for efficient sorting</span></td>
+                </tr>
+                <tr>
+                    <td class="notation">O(n²)</td>
+                    <td class="name">Quadratic</td>
+                    <td class="growth-rate">Exponential</td>
+                    <td class="example">Nested loops (all pairs)</td>
+                    <td><span class="impact poor">Becomes unusable for large datasets</span></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="note">
+            <h3>🎯 Key Takeaways from the Lecture</h3>
+            <p><strong>1. Focus on worst-case:</strong> When analyzing algorithms, we focus on the worst-case scenario to guarantee maximum time.</p>
+            <p><strong>2. Scale matters:</strong> With 1 million records, O(n²) performs 1 trillion operations (days), while O(n log n) only performs ~20 million (seconds).</p>
+            <p><strong>3. Foundation of scalable software:</strong> Choosing the right algorithm is crucial for building software that can handle growth.</p>
+            <p><strong>4. Input size is key:</strong> Big O describes how runtime grows as input size increases, not the exact runtime.</p>
+        </div>
+    </div>
+</body>
+</html>

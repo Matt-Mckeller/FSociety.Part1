@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Plant's Day: Photosynthesis in Action</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', 'Chalkboard SE', 'Marker Felt', cursive;
+            background: linear-gradient(to bottom, #87ceeb 0%, #98d8e8 50%, #8b7355 50%, #6b5344 100%);
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 25px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            text-align: center;
+            color: #2e7d32;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #66bb6a;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        .animation-container {
+            position: relative;
+            width: 100%;
+            height: 600px;
+            background: linear-gradient(to bottom, #e3f2fd 0%, #e8f5e9 100%);
+            border-radius: 20px;
+            overflow: hidden;
+            border: 5px solid #4caf50;
+        }
+
+        .sun {
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            width: 80px;
+            height: 80px;
+            background: radial-gradient(circle, #fff9c4 0%, #fdd835 100%);
+            border-radius: 50%;
+            box-shadow: 0 0 30px #fdd835;
+        }
+
+        .sun-ray {
+            position: absolute;
+            top: 70px;
+            left: 70px;
+            width: 3px;
+            height: 150px;
+            background: linear-gradient(to bottom, #fdd835, transparent);
+            transform-origin: top;
+            animation: rayAnimation 3s ease-in-out infinite;
+        }
+
+        .sun-ray:nth-child(2) { animation-delay: 0.3s; left: 90px; }
+        .sun-ray:nth-child(3) { animation-delay: 0.6s; left: 50px; }
+
+        @keyframes rayAnimation {
+            0%, 100% { opacity: 0.3; }
+            50% { opacity: 1; }
+        }
+
+        .plant {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .roots {
+            width: 120px;
+            height: 100px;
+            position: absolute;
+            bottom: -80px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .root {
+            position: absolute;
+            width: 4px;
+            background: #6d4c41;
+            transform-origin: top;
+        }
+
+        .root:nth-child(1) { height: 80px; left: 50%; transform: translateX(-50%); }
+        .root:nth-child(2) { height: 60px; left: 30%; transform: translateX(-50%) rotate(-20deg); }
+        .root:nth-child(3) { height: 60px; left: 70%; transform: translateX(-50%) rotate(20deg); }
+
+        .stem {
+            width: 12px;
+            height: 200px;
+            background: linear-gradient(to right, #558b2f, #7cb342);
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 6px;
+        }
+
+        .leaf {
+            width: 150px;
+            height: 100px;
+            background: linear-gradient(135deg, #66bb6a 0%, #43a047 100%);
+            position: absolute;
+            top: -50px;
+            left: -75px;
+            border-radius: 50% 0% 50% 0%;
+            transform: rotate(-15deg);
+            border: 3px solid #2e7d32;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .leaf-glow {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.5), transparent);
+            border-radius: 50% 0% 50% 0%;
+            opacity: 0;
+            animation: glowAnimation 6s ease-in-out 4s infinite;
+        }
+
+        @keyframes glowAnimation {
+            0%, 100% { opacity: 0; }
+            50% { opacity: 1; }
+        }
+
+        .molecule {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 10px;
+            font-weight: bold;
+            opacity: 0;
+        }
+
+        .co2 {
+            background: #9e9e9e;
+            color: white;
+            top: 150px;
+            right: 100px;
+            animation: co2Animation 6s ease-in-out infinite;
+        }
+
+        @keyframes co2Animation {
+            0%, 100% { opacity: 0; transform: translate(0, 0); }
+            15% { opacity: 1; transform: translate(0, 0); }
+            30% { opacity: 1; transform: translate(-250px, 50px); }
+            35% { opacity: 0; transform: translate(-250px, 50px); }
+        }
+
+        .water {
+            background: #42a5f5;
+            color: white;
+            bottom: 50px;
+            left: 100px;
+            animation: waterAnimation 6s ease-in-out infinite;
+        }
+
+        @keyframes waterAnimation {
+            0%, 100% { opacity: 0; transform: translate(0, 0); }
+            35% { opacity: 0; transform: translate(0, 0); }
+            40% { opacity: 1; transform: translate(0, 0); }
+            55% { opacity: 1; transform: translate(300px, -150px); }
+            60% { opacity: 0; transform: translate(300px, -150px); }
+        }
+
+        .glucose {
+            background: #ec407a;
+            color: white;
+            top: 250px;
+            left: 50%;
+            animation: glucoseAnimation 6s ease-in-out infinite;
+        }
+
+        @keyframes glucoseAnimation {
+            0%, 100% { opacity: 0; transform: translate(-50%, 0) scale(0); }
+            60%, 70% { opacity: 0; transform: translate(-50%, 0) scale(0); }
+            75%, 95% { opacity: 1; transform: translate(-50%, 0) scale(1); }
+            100% { opacity: 0; transform: translate(-50%, 0) scale(0); }
+        }
+
+        .oxygen {
+            background: #26c6da;
+            color: white;
+            top: 200px;
+            left: 50%;
+            animation: oxygenAnimation 6s ease-in-out infinite;
+        }
+
+        @keyframes oxygenAnimation {
+            0%, 100% { opacity: 0; transform: translate(-50%, 0); }
+            70%, 80% { opacity: 0; transform: translate(-50%, 0); }
+            85% { opacity: 1; transform: translate(-50%, 0); }
+            100% { opacity: 0; transform: translate(200px, -100px); }
+        }
+
+        .label-container {
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .label {
+            padding: 15px;
+            border-radius: 12px;
+            text-align: center;
+            font-weight: bold;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .label-co2 {
+            background: #e0e0e0;
+            color: #424242;
+        }
+
+        .label-water {
+            background: #e1f5fe;
+            color: #01579b;
+        }
+
+        .label-glucose {
+            background: #fce4ec;
+            color: #880e4f;
+        }
+
+        .label-oxygen {
+            background: #e0f7fa;
+            color: #006064;
+        }
+
+        .label-sun {
+            background: #fff9c4;
+            color: #f57f17;
+        }
+
+        .instructions {
+            text-align: center;
+            margin-top: 30px;
+            padding: 25px;
+            background: #f3e5f5;
+            border-radius: 15px;
+            border: 3px solid #9c27b0;
+        }
+
+        .instructions h3 {
+            color: #7b1fa2;
+            margin-bottom: 15px;
+        }
+
+        .instructions p {
+            line-height: 1.8;
+            color: #555;
+            font-size: 1.05em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌱 A Plant's Day: Photosynthesis in Action 🌞</h1>
+        <p class="subtitle">Watch the Magic Happen!</p>
+
+        <div class="animation-container">
+            <div class="sun"></div>
+            <div class="sun-ray"></div>
+            <div class="sun-ray"></div>
+            <div class="sun-ray"></div>
+
+            <div class="plant">
+                <div class="roots">
+                    <div class="root"></div>
+                    <div class="root"></div>
+                    <div class="root"></div>
+                </div>
+                <div class="stem"></div>
+                <div class="leaf">
+                    <div class="leaf-glow"></div>
+                </div>
+            </div>
+
+            <div class="molecule co2">CO₂</div>
+            <div class="molecule co2" style="animation-delay: 1s; right: 150px; top: 100px;"></div>
+            
+            <div class="molecule water">H₂O</div>
+            <div class="molecule water" style="animation-delay: 0.5s; left: 150px;"></div>
+            
+            <div class="molecule glucose">C₆H₁₂O₆</div>
+            <div class="molecule oxygen">O₂</div>
+            <div class="molecule oxygen" style="animation-delay: 0.3s; left: 45%;"></div>
+        </div>
+
+        <div class="label-container">
+            <div class="label label-sun">
+                ☀️ <strong>Sunlight</strong><br>
+                Provides energy
+            </div>
+            <div class="label label-co2">
+                💨 <strong>Carbon Dioxide (CO₂)</strong><br>
+                Enters through leaf pores
+            </div>
+            <div class="label label-water">
+                💧 <strong>Water (H₂O)</strong><br>
+                Travels from roots
+            </div>
+            <div class="label label-glucose">
+                🧊 <strong>Glucose (Sugar)</strong><br>
+                Plant food created
+            </div>
+            <div class="label label-oxygen">
+                💨 <strong>Oxygen (O₂)</strong><br>
+                Released for us to breathe
+            </div>
+        </div>
+
+        <div class="instructions">
+            <h3>🔄 The Animation Sequence</h3>
+            <p>
+                <strong>1.</strong> Sunlight rays hit the leaf from above<br>
+                <strong>2.</strong> Carbon dioxide (CO₂) molecules float from the air into the leaf<br>
+                <strong>3.</strong> Water (H₂O) travels up from the roots through the stem<br>
+                <strong>4.</strong> The leaf glows green as the magic happens inside<br>
+                <strong>5.</strong> Glucose (C₆H₁₂O₆) is created and stays in the leaf<br>
+                <strong>6.</strong> Oxygen (O₂) is released back into the air<br><br>
+                <em>Watch closely as the animation loops to see the full process!</em>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

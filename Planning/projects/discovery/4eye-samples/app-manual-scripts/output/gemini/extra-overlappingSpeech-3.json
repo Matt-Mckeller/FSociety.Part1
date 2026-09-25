@@ -1,0 +1,423 @@
+{
+  "sample": {
+    "durationSeconds": 200,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Today we're discussing Sartre's concept of existence precedes essence.",
+          "timestamp": 0,
+          "confidence": 0.86
+        },
+        {
+          "text": "What does this mean in practical terms?",
+          "timestamp": 6.4,
+          "confidence": 0.84
+        },
+        {
+          "text": "We're not born with a predetermined",
+          "timestamp": 11.2,
+          "confidence": 0.71
+        },
+        {
+          "text": "but we create ourselves",
+          "timestamp": 14.5,
+          "confidence": 0.63
+        },
+        {
+          "text": "Hold on, I think",
+          "timestamp": 16.8,
+          "confidence": 0.58
+        },
+        {
+          "text": "Let Jessica finish her thought.",
+          "timestamp": 19.3,
+          "confidence": 0.82
+        },
+        {
+          "text": "We create ourselves through our choices and actions.",
+          "timestamp": 23.7,
+          "confidence": 0.79
+        },
+        {
+          "text": "But doesn't society constrain",
+          "timestamp": 29.4,
+          "confidence": 0.64
+        },
+        {
+          "text": "genetics play a role",
+          "timestamp": 31.8,
+          "confidence": 0.56
+        },
+        {
+          "text": "One at a time, please. Marcus?",
+          "timestamp": 34.2,
+          "confidence": 0.83
+        },
+        {
+          "text": "Society does constrain us, but Sartre argues we're still radically free.",
+          "timestamp": 38.9,
+          "confidence": 0.78
+        },
+        {
+          "text": "We can always choose how to respond.",
+          "timestamp": 46.3,
+          "confidence": 0.81
+        },
+        {
+          "text": "But that's not realistic",
+          "timestamp": 51.7,
+          "confidence": 0.62
+        },
+        {
+          "text": "what about people in poverty",
+          "timestamp": 54.2,
+          "confidence": 0.59
+        },
+        {
+          "text": "oppression",
+          "timestamp": 56.8,
+          "confidence": 0.47
+        },
+        {
+          "text": "That's a valid critique. Emma, go ahead.",
+          "timestamp": 59.3,
+          "confidence": 0.8
+        },
+        {
+          "text": "Sartre has been criticized for ignoring material conditions and systemic oppression.",
+          "timestamp": 64.8,
+          "confidence": 0.77
+        },
+        {
+          "text": "His philosophy seems very individualistic.",
+          "timestamp": 72.5,
+          "confidence": 0.79
+        },
+        {
+          "text": "But doesn't authenticity require",
+          "timestamp": 78.2,
+          "confidence": 0.66
+        },
+        {
+          "text": "facing our situation honestly",
+          "timestamp": 81.1,
+          "confidence": 0.68
+        },
+        {
+          "text": "even if limited",
+          "timestamp": 83.7,
+          "confidence": 0.54
+        },
+        {
+          "text": "Good point. Authenticity is about",
+          "timestamp": 86.5,
+          "confidence": 0.81
+        },
+        {
+          "text": "acknowledging our freedom within constraints.",
+          "timestamp": 91.8,
+          "confidence": 0.76
+        },
+        {
+          "text": "This connects to bad faith",
+          "timestamp": 97.4,
+          "confidence": 0.73
+        },
+        {
+          "text": "which is what exactly",
+          "timestamp": 100.2,
+          "confidence": 0.61
+        },
+        {
+          "text": "self-deception",
+          "timestamp": 102.5,
+          "confidence": 0.58
+        },
+        {
+          "text": "Yes, bad faith is deceiving ourselves about our freedom.",
+          "timestamp": 105.1,
+          "confidence": 0.82
+        },
+        {
+          "text": "Pretending we have no choice when we actually do.",
+          "timestamp": 111.6,
+          "confidence": 0.8
+        },
+        {
+          "text": "Like the waiter example",
+          "timestamp": 117.3,
+          "confidence": 0.72
+        },
+        {
+          "text": "identifying too much with the role",
+          "timestamp": 120.5,
+          "confidence": 0.69
+        },
+        {
+          "text": "Exactly. The waiter who completely becomes",
+          "timestamp": 124.2,
+          "confidence": 0.78
+        },
+        {
+          "text": "his role is in bad faith.",
+          "timestamp": 129.8,
+          "confidence": 0.75
+        },
+        {
+          "text": "He's denying his transcendence, his ability to be more than just a waiter.",
+          "timestamp": 134.6,
+          "confidence": 0.81
+        },
+        {
+          "text": "But we all play roles",
+          "timestamp": 141.5,
+          "confidence": 0.7
+        },
+        {
+          "text": "how can we avoid bad faith",
+          "timestamp": 144.3,
+          "confidence": 0.64
+        },
+        {
+          "text": "in everyday life",
+          "timestamp": 146.9,
+          "confidence": 0.59
+        },
+        {
+          "text": "That's the challenge. We need to maintain awareness",
+          "timestamp": 149.7,
+          "confidence": 0.79
+        },
+        {
+          "text": "that we're choosing to play these roles.",
+          "timestamp": 156.2,
+          "confidence": 0.77
+        },
+        {
+          "text": "This leads to angst",
+          "timestamp": 161.8,
+          "confidence": 0.73
+        },
+        {
+          "text": "the anxiety of freedom",
+          "timestamp": 164.6,
+          "confidence": 0.68
+        },
+        {
+          "text": "responsibility",
+          "timestamp": 167.1,
+          "confidence": 0.55
+        },
+        {
+          "text": "Right. Existential angst comes from recognizing our radical freedom",
+          "timestamp": 170.3,
+          "confidence": 0.8
+        },
+        {
+          "text": "and the weight of responsibility that comes with it.",
+          "timestamp": 177.9,
+          "confidence": 0.78
+        },
+        {
+          "text": "For next week, read Beauvoir's response to Sartre.",
+          "timestamp": 184.6,
+          "confidence": 0.83
+        },
+        {
+          "text": "She offers important feminist critiques.",
+          "timestamp": 190.8,
+          "confidence": 0.81
+        },
+        {
+          "text": "Great discussion today, everyone.",
+          "timestamp": 196.2,
+          "confidence": 0.85
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.92,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "PII_DETECTED",
+        "details": "Potential student first names detected ('Jessica', 'Marcus', 'Emma'). Recommend anonymizing for privacy."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.95,
+    "isSideConversation_confidence": 0.05,
+    "isIrrelevantContent_confidence": 0,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "philosophy",
+      "existentialism",
+      "sartre",
+      "existence_precedes_essence",
+      "bad_faith",
+      "authenticity",
+      "radical_freedom",
+      "ethics",
+      "undergraduate_level"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "The classroom discussion explores Jean-Paul Sartre's core existentialist concept that 'existence precedes essence,' meaning humans are born without a predetermined purpose and must define themselves through their choices and actions. Students debate the idea of 'radical freedom,' questioning its applicability in the face of societal constraints like poverty and oppression. The conversation then moves to the concepts of 'authenticity' (acknowledging freedom within constraints) and 'bad faith' (self-deception about one's freedom), using Sartre's famous example of a waiter who over-identifies with his role. The discussion concludes by linking this freedom to 'existential angst,' the profound anxiety and responsibility that comes with creating one's own meaning.",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "• Main Idea: Sartre's 'Existence Precedes Essence' - We create our own purpose.\n• Core Concept: Radical Freedom - We are always free to choose our response to our situation.\n• Counterpoint: Students raised critiques about the limits of freedom due to societal and material conditions.\n• Key Term: Bad Faith - Deceiving ourselves about our freedom, pretending we have no choice (e.g., the waiter who is only a waiter).\n• Key Term: Authenticity - Honestly facing our situation and acknowledging our freedom within it.\n• Consequence: Existential Angst - The anxiety that comes from the weight of total freedom and responsibility."
+      },
+      {
+        "version": "narrative",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "The class embarked on a journey into Sartre's philosophy, starting with the radical idea that we arrive in the world as blank slates, destined to write our own stories. This notion of total freedom was challenged by students, who wondered how free someone can truly be when faced with poverty or oppression. This led to a crucial distinction: even when our options are limited, we are free in how we face them. To deny this freedom is to live in 'bad faith,' like an actor who forgets they are more than just their role. Embracing this difficult truth, while frightening, is the path to an authentic life."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.8,
+        "text": "This discussion covers Sartre's existentialist philosophy, where humans define their own essence through choices. It contrasts this 'radical freedom' with societal constraints, defining 'bad faith' as the denial of this freedom and 'angst' as the anxiety it produces."
+      }
+    ],
+    "oneLineSummarization": "A philosophical discussion on Sartre's existentialism, covering how we create our own purpose, the self-deception of 'bad faith,' and the resulting anxiety of freedom.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "METAPHORS",
+        "relativeEffectivenessWeight": 0.95,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Sartre argues that a human is not like a paper knife. A craftsman designs the paper knife with a clear purpose, or 'essence,' before it is ever created, or 'exists.' For humans, Sartre flips this script: we simply 'exist' first, thrown into the world like a blank canvas without a pre-drawn sketch. Every choice we make is a brushstroke, and we are solely responsible for the final painting. 'Bad faith' is pretending the brush is painting by itself, while 'authenticity' is grabbing the brush and consciously, if anxiously, creating our masterpiece."
+      },
+      {
+        "effectiveness": "high",
+        "type": "PROBLEM_SOLVING",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.95,
+        "text": "Problem: According to Sartre, how can a person live an authentic life and avoid 'bad faith'? Step 1: Acknowledge your fundamental freedom. Recognize that there is no pre-written script for your life. Step 2: Identify your constraints. Be honest about your situation—societal pressures, personal history, etc. Step 3: Analyze your choices. For any action, ask: 'Am I doing this because I'm choosing to, or because I'm pretending I have no other option?' Step 4: Act with awareness. Choose to play your roles (student, employee, friend) consciously, without letting them define your entire being. This constant self-awareness is the key to authenticity."
+      },
+      {
+        "effectiveness": "high",
+        "type": "EXPERIENTIAL",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "Consider your presence on social media. You might craft a persona that is happy, successful, and adventurous. If you start believing that this curated role is your true self and feel trapped by it, you're acting in 'bad faith.' You're denying your freedom to be complex, to have bad days, or to change. An authentic approach would be to recognize that your profile is a role you are choosing to play. You are the person choosing the filters and writing the captions; you are not the profile itself. This awareness, that you are the free consciousness behind the role, is the core of Sartre's idea."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "SOCIAL",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.75,
+        "text": "Let's turn this into a group discussion. Break into pairs. Partner A will describe a common daily role (e.g., a barista, a retail worker, a student in a boring class). Partner B will then describe how that person could perform their role in 'bad faith,' fully identifying with the role and denying their freedom. Then, switch, and Partner A will describe how the same person could perform the role 'authentically,' aware that they are a free individual choosing to fulfill these duties. What's the difference in their mindset and actions?"
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "MERMAID_MINDMAP",
+        "otherCoreType": null,
+        "secondaryTypes": [],
+        "title": "Sartre's Existentialism: A Concept Map",
+        "reasonForSuggestion": "This topic involves several interconnected abstract concepts. A mind map provides a clear visual structure, showing how core ideas like freedom lead to consequences like angst and how they relate to choices between authenticity and bad faith.",
+        "promptForGeneration": "Create a Mermaid mindmap for a high school or undergraduate philosophy class. The central node should be 'Sartre's Existentialism'. Create four main branches: 1) 'Core Principle' with a sub-node 'Existence Precedes Essence (We create ourselves)'. 2) 'The Human Condition' with sub-nodes 'Radical Freedom (We are always choosing)' and 'Total Responsibility'. 3) 'The Central Choice' with two sub-branches: 'Authenticity (Embracing freedom)' and 'Bad Faith (Denying freedom/Self-deception)' which has a sub-node 'Example: The Waiter'. 4) 'The Emotional Consequence' with a sub-node 'Angst (Anxiety of freedom)'. Use different colors for each of the four main branches to enhance clarity."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.9,
+        "coreType": "FLOW_CHART",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "ANNOTATED_TEXT"
+        ],
+        "title": "The Path to Authenticity vs. Bad Faith",
+        "reasonForSuggestion": "A flow chart can effectively model the decision-making process that Sartre describes. It turns an abstract internal struggle into a concrete, step-by-step visual, making it easier for students to grasp the distinction between the two paths.",
+        "promptForGeneration": "Generate a vertical Mermaid flowchart for a philosophy class. Start with a box labeled 'A Choice/Situation Arises'. An arrow points down to a diamond shape (decision point) labeled 'Acknowledge Freedom?'. From this diamond, two paths emerge. The 'No' path leads to a box labeled 'BAD FAITH', with sub-text 'Pretend you have no choice. Blame circumstances. Over-identify with a role.' The 'Yes' path leads to a box labeled 'AUTHENTICITY', with sub-text 'Acknowledge you are choosing. Accept responsibility.' From the 'AUTHENTICITY' box, an arrow points to a final box labeled 'Experience Angst (The weight of your freedom)'. Style the 'BAD FAITH' path in red and the 'AUTHENTICITY' path in green."
+      },
+      {
+        "effectiveness": "medium",
+        "relativeEffectivenessWeight": 0.75,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherSuggestions": 0.75,
+        "coreType": "COMPARISON_MATRIX",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "TABLE"
+        ],
+        "title": "Bad Faith vs. Authenticity in Daily Life",
+        "reasonForSuggestion": "Applying these abstract concepts to concrete, relatable scenarios is crucial for student understanding. A comparison matrix makes the differences in mindset and action explicit and easy to compare.",
+        "promptForGeneration": "Create an HTML table with three columns: 'Scenario', 'Response in Bad Faith', and 'Authentic Response'. Populate it with at least two rows for a high school audience. Row 1 Scenario: 'Working a boring summer job.' Bad Faith Response: '\"This job is my life. I am just a cashier. I have no choice but to be here.\"' Authentic Response: '\"I am a free person choosing to work this job right now for the money. This role does not define my entire being.\"' Row 2 Scenario: 'Choosing a college major.' Bad Faith Response: '\"I have to be a doctor because my parents expect it. It is my destiny.\"' Authentic Response: '\"I feel pressure from my parents, but I recognize I have the freedom to choose my own path, and I must take responsibility for that choice.\"' Use clear headings and styling to differentiate the columns."
+      }
+    ],
+    "purpose": "This discussion introduces a foundational concept in 20th-century philosophy: existentialism. Understanding that 'existence precedes essence' challenges deterministic views of human nature and highlights the profound role of individual freedom, choice, and responsibility in creating a meaningful life. It provides a powerful framework for analyzing human behavior, ethics, and the search for purpose.",
+    "motivation": "Have you ever felt trapped by the expectations of others, or that you're just playing a part? Sartre's philosophy is a toolkit for breaking free. It argues that you are the author of your own life's story, not just an actor reading a script. Understanding these ideas can empower you to make more conscious choices, question the roles you play, and take ownership of your future. It's a challenging idea, but it's also incredibly liberating—it means your potential is not fixed, and your life is yours to create.",
+    "learningValueScore": 0.95,
+    "availableActions": [
+      {
+        "actionLabel": "Explain 'Bad Faith'",
+        "reason": "This is a key but often misunderstood term. A clear explanation with examples is crucial for comprehension.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Real-World Example",
+        "reason": "Connects abstract philosophy to students' concrete daily experiences, such as school, jobs, or social pressures.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Debate Prompt",
+        "reason": "Encourages critical thinking by having students argue for or against the realism of 'radical freedom' in modern society.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Who was Sartre?",
+        "reason": "Provides historical and biographical context for the philosopher, which can help in understanding his ideas.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "Existence precedes essence": {
+        "definition": "The philosophical concept that a person first exists, and only then do they define their own nature or 'essence' through their actions and choices. There is no predetermined purpose or human nature.",
+        "simpler": "You are not born with a purpose; you create your purpose by living.",
+        "context": "This is the central tenet of Sartre's existentialism."
+      },
+      "Bad Faith (mauvaise foi)": {
+        "definition": "A form of self-deception where one denies their own freedom and responsibility, pretending to be an object or to be defined by a role or situation.",
+        "simpler": "Lying to yourself about having no choice.",
+        "example": "A waiter who acts as if he is nothing more than a waiter, denying his consciousness and freedom beyond that role."
+      },
+      "Angst": {
+        "definition": "A deep, profound anxiety that arises from the recognition of one's total freedom and the immense responsibility that comes with it.",
+        "simpler": "The scary feeling you get when you realize you're completely in charge of your life.",
+        "context": "Sartre saw angst not as a negative condition to be cured, but as an essential part of the authentic human experience."
+      }
+    },
+    "recommendationsToTeacher": [
+      "Capitalize on the student's critique regarding systemic oppression. This is a perfect bridge to the assigned reading on Simone de Beauvoir, who expanded on existentialism to address the 'situation' of women.",
+      "Consider a 'think-pair-share' activity where students identify a role they play in their own lives and analyze how they could approach it with authenticity versus in bad faith. This makes the concept personal and concrete.",
+      "Use the 'waiter' example as a springboard for a creative writing prompt: 'Write a short internal monologue of someone at their job, first from a perspective of bad faith, and then from an authentic perspective.'"
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:39:04.883Z",
+    "latencyMs": 51020,
+    "tokenUsage": {
+      "input": 8521,
+      "output": 3591,
+      "total": 14005
+    }
+  }
+}

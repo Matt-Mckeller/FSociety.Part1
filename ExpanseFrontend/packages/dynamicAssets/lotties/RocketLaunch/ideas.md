@@ -1,0 +1,7 @@
+- Window frame color updated to a shade for expanding
+- Window sizing and order updated to match growing/expanse
+- Eyes/mouth/face
+- Both characters with thumbs
+- Expanse character instead of human characters
+- 1 2 3 pattern for windows
+- Shoe color

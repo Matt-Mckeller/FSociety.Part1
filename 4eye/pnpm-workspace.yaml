@@ -1,0 +1,6 @@
+packages:
+  - 'apps/*'
+  - 'apps/labs/*'
+  - 'packages/@expanse/*'
+  - 'packages/@4eye/*'
+  - 'packages/@yen/*'

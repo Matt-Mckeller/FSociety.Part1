@@ -1,0 +1,494 @@
+{
+  "sample": {
+    "durationSeconds": 300,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Good morning class. Today we're solving systems of equations.",
+          "timestamp": 0,
+          "confidence": 0.96
+        },
+        {
+          "text": "Open your textbooks to page 147.",
+          "timestamp": 5.4,
+          "confidence": 0.95
+        },
+        {
+          "text": "[Sound of books opening, some chatter]",
+          "timestamp": 9.8,
+          "confidence": 0.73
+        },
+        {
+          "text": "We'll use the substitution method first. Who remembers",
+          "timestamp": 14.2,
+          "confidence": 0.93
+        },
+        {
+          "text": "what that means from last week?",
+          "timestamp": 19.6,
+          "confidence": 0.94
+        },
+        {
+          "text": "[Student] Is there going to be a fire drill today?",
+          "timestamp": 23.8,
+          "confidence": 0.89
+        },
+        {
+          "text": "[Teacher] I don't know. Focus on math please. Anyone?",
+          "timestamp": 27.3,
+          "confidence": 0.92
+        },
+        {
+          "text": "[Student] You solve for one variable and substitute it?",
+          "timestamp": 32.7,
+          "confidence": 0.9
+        },
+        {
+          "text": "Correct! Let's look at example 1. We have x plus y equals 10",
+          "timestamp": 38.2,
+          "confidence": 0.91
+        },
+        {
+          "text": "and x minus y equals 2.",
+          "timestamp": 44.6,
+          "confidence": 0.93
+        },
+        {
+          "text": "[Student interrupting] Mr. Johnson, can I go to the bathroom?",
+          "timestamp": 48.9,
+          "confidence": 0.91
+        },
+        {
+          "text": "[Teacher] After we finish this example. So if we add",
+          "timestamp": 52.4,
+          "confidence": 0.92
+        },
+        {
+          "text": "[Another student] What page are we on again?",
+          "timestamp": 57.8,
+          "confidence": 0.88
+        },
+        {
+          "text": "[Teacher] 147. If we add these equations together",
+          "timestamp": 61.2,
+          "confidence": 0.93
+        },
+        {
+          "text": "the y terms cancel out. What do we get?",
+          "timestamp": 66.7,
+          "confidence": 0.94
+        },
+        {
+          "text": "[Student] Wait, why are we adding them?",
+          "timestamp": 71.3,
+          "confidence": 0.89
+        },
+        {
+          "text": "[Another student] When's the field trip again?",
+          "timestamp": 75.1,
+          "confidence": 0.87
+        },
+        {
+          "text": "[Teacher sighs] The field trip is next month. And we're adding because",
+          "timestamp": 78.6,
+          "confidence": 0.9
+        },
+        {
+          "text": "that's the elimination method. Let's stay focused.",
+          "timestamp": 85.2,
+          "confidence": 0.93
+        },
+        {
+          "text": "Two x equals 12, so x equals?",
+          "timestamp": 90.7,
+          "confidence": 0.95
+        },
+        {
+          "text": "[Student] Six!",
+          "timestamp": 94.8,
+          "confidence": 0.96
+        },
+        {
+          "text": "[Another student] Did we have homework last night? I forgot.",
+          "timestamp": 97.3,
+          "confidence": 0.86
+        },
+        {
+          "text": "[Teacher] Yes, you did. And yes, x equals 6. Now substitute",
+          "timestamp": 102.1,
+          "confidence": 0.91
+        },
+        {
+          "text": "[Student] Can we work with partners on this?",
+          "timestamp": 108.6,
+          "confidence": 0.88
+        },
+        {
+          "text": "that back into the first equation.",
+          "timestamp": 112.4,
+          "confidence": 0.93
+        },
+        {
+          "text": "[Teacher] Not right now. So 6 plus y equals 10.",
+          "timestamp": 117.8,
+          "confidence": 0.92
+        },
+        {
+          "text": "Therefore, y equals?",
+          "timestamp": 123.1,
+          "confidence": 0.95
+        },
+        {
+          "text": "[Multiple students] Four!",
+          "timestamp": 126.4,
+          "confidence": 0.89
+        },
+        {
+          "text": "[Student] Is this going to be on the test?",
+          "timestamp": 129.7,
+          "confidence": 0.9
+        },
+        {
+          "text": "[Another] When is the test?",
+          "timestamp": 133.2,
+          "confidence": 0.91
+        },
+        {
+          "text": "[Teacher] Everything is on the test. The test is Friday.",
+          "timestamp": 136.8,
+          "confidence": 0.93
+        },
+        {
+          "text": "Now let's try a harder one. Example 2 on the board.",
+          "timestamp": 143.4,
+          "confidence": 0.94
+        },
+        {
+          "text": "[Writing on board sounds]",
+          "timestamp": 148.9,
+          "confidence": 0.81
+        },
+        {
+          "text": "[Student] My pencil broke. Does anyone have a pencil?",
+          "timestamp": 153.7,
+          "confidence": 0.88
+        },
+        {
+          "text": "[Multiple students responding about pencils]",
+          "timestamp": 158.2,
+          "confidence": 0.76
+        },
+        {
+          "text": "[Teacher] There are pencils on my desk. This system is",
+          "timestamp": 163.8,
+          "confidence": 0.91
+        },
+        {
+          "text": "2x plus 3y equals 12 and 4x minus y equals 5.",
+          "timestamp": 170.3,
+          "confidence": 0.89
+        },
+        {
+          "text": "Which method should we use here?",
+          "timestamp": 176.8,
+          "confidence": 0.94
+        },
+        {
+          "text": "[Student] Can we use our calculators?",
+          "timestamp": 181.2,
+          "confidence": 0.9
+        },
+        {
+          "text": "[Teacher] Not for this part. Think about the coefficients.",
+          "timestamp": 184.7,
+          "confidence": 0.92
+        },
+        {
+          "text": "[Student] Substitution because we can solve for y easy in the second one?",
+          "timestamp": 191.3,
+          "confidence": 0.87
+        },
+        {
+          "text": "Excellent reasoning! Let's do that. Solve the second equation for y.",
+          "timestamp": 197.8,
+          "confidence": 0.9
+        },
+        {
+          "text": "[Student] Is it true we're getting a new principal?",
+          "timestamp": 204.6,
+          "confidence": 0.86
+        },
+        {
+          "text": "[Multiple students start discussing the principal]",
+          "timestamp": 209.1,
+          "confidence": 0.74
+        },
+        {
+          "text": "[Teacher firmly] Hey! We're doing math right now. After class",
+          "timestamp": 214.7,
+          "confidence": 0.91
+        },
+        {
+          "text": "we can talk about school news. From 4x minus y equals 5",
+          "timestamp": 221.3,
+          "confidence": 0.89
+        },
+        {
+          "text": "we get y equals 4x minus 5. Everyone follow?",
+          "timestamp": 227.8,
+          "confidence": 0.92
+        },
+        {
+          "text": "[Some yes responses, some unclear chatter]",
+          "timestamp": 233.4,
+          "confidence": 0.78
+        },
+        {
+          "text": "Now substitute that into the first equation.",
+          "timestamp": 238.9,
+          "confidence": 0.93
+        },
+        {
+          "text": "[Student] Wait, I'm confused. Can you explain again?",
+          "timestamp": 244.6,
+          "confidence": 0.89
+        },
+        {
+          "text": "[Another student] What are we supposed to be doing for homework?",
+          "timestamp": 249.2,
+          "confidence": 0.87
+        },
+        {
+          "text": "[Teacher] Let me finish this example, then I'll explain homework.",
+          "timestamp": 253.8,
+          "confidence": 0.92
+        },
+        {
+          "text": "2x plus 3 times, open parenthesis, 4x minus 5",
+          "timestamp": 260.4,
+          "confidence": 0.88
+        },
+        {
+          "text": "[Student] How much time is left in class?",
+          "timestamp": 266.7,
+          "confidence": 0.9
+        },
+        {
+          "text": "[Teacher] About five minutes. Let's wrap this up.",
+          "timestamp": 270.3,
+          "confidence": 0.93
+        },
+        {
+          "text": "This simplifies to 2x plus 12x minus 15 equals 12.",
+          "timestamp": 276.8,
+          "confidence": 0.89
+        },
+        {
+          "text": "So 14x equals 27, and x equals 27 over 14.",
+          "timestamp": 283.4,
+          "confidence": 0.87
+        },
+        {
+          "text": "[Bell rings] [Immediate loud chatter and packing sounds]",
+          "timestamp": 289.7,
+          "confidence": 0.68
+        },
+        {
+          "text": "[Teacher loudly] Homework is problems 1 through 15! Write it down!",
+          "timestamp": 294.2,
+          "confidence": 0.9
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.92,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "Classroom Management Issue",
+        "detail": "The transcript indicates a high level of student disengagement and frequent off-topic interruptions, which significantly disrupt the instructional flow. The teacher struggles to maintain focus on the core lesson.",
+        "severity": "high"
+      },
+      {
+        "type": "Potential PII",
+        "detail": "The name 'Mr. Johnson' was detected. While it appears to be a teacher's name, which is generally lower risk than a student's, it is flagged for review.",
+        "severity": "low"
+      }
+    ],
+    "isMainLectureContent_confidence": 0.85,
+    "isSideConversation_confidence": 0.95,
+    "isIrrelevantContent_confidence": 0.2,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "mathematics",
+      "algebra",
+      "systems_of_equations",
+      "elimination_method",
+      "substitution_method",
+      "problem_solving",
+      "grade_9",
+      "classroom_management"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "The teacher attempts to lead a lesson on solving systems of linear equations for a middle or early high school math class. The lesson is severely fragmented by constant student interruptions and off-topic questions regarding fire drills, bathroom breaks, field trips, homework, and school news. The teacher introduces two methods: elimination, demonstrated with the example 'x + y = 10' and 'x - y = 2', and substitution, demonstrated with '2x + 3y = 12' and '4x - y = 5'. Despite the chaotic environment, the teacher successfully walks through solving the first system to find x=6 and y=4, and begins solving the second system before the class ends.",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.8,
+        "text": "The lesson covered solving systems of linear equations using both the elimination method (for x+y=10, x-y=2) and the substitution method (for 2x+3y=12, 4x-y=5). The instruction was frequently interrupted by off-topic student questions."
+      },
+      {
+        "version": "detailed",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "In a challenging classroom environment with numerous distractions, the teacher guided students through solving systems of equations. The lesson began with the elimination method, where adding two equations (x+y=10 and x-y=2) cancelled out a variable, leading to the solution (6, 4). The teacher then transitioned to the substitution method for a more complex system (2x+3y=12 and 4x-y=5), explaining how to isolate 'y' in one equation and substitute it into the other. The core mathematical concepts were presented, though the learning process was significantly hampered by classroom management issues."
+      },
+      {
+        "version": "narrative",
+        "comparativeValueToRecommendedModality": 0.95,
+        "text": "Mr. Johnson tried to navigate the tricky waters of algebra, introducing systems of equations. His plan was to first review substitution, but a simple example (x+y=10, x-y=2) lent itself better to the elimination method. As he guided the class toward the solution of (6, 4), a barrage of questions about everything from fire drills to field trips threatened to derail the lesson. Pushing forward, he introduced a tougher problem requiring substitution, but just as the students began to grapple with the steps, the bell rang, leaving the solution hanging in the air and a homework assignment shouted over the noise."
+      }
+    ],
+    "oneLineSummarization": "A math lesson on solving systems of equations using elimination and substitution methods was heavily disrupted by frequent off-topic student questions.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "PROBLEM_SOLVING",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Let's solve the second problem step-by-step using the substitution method. Our system is: (A) 2x + 3y = 12 and (B) 4x - y = 5. Step 1: Isolate a variable. Equation (B) is perfect for isolating 'y'. Add 'y' to both sides and subtract 5 from both sides to get y = 4x - 5. Step 2: Substitute. Now, replace the 'y' in equation (A) with our new expression. This gives us 2x + 3(4x - 5) = 12. Step 3: Solve for 'x'. Distribute the 3 to get 2x + 12x - 15 = 12. Combine the 'x' terms to get 14x - 15 = 12. Add 15 to both sides: 14x = 27. Finally, divide by 14 to find x = 27/14. Step 4: Find 'y'. Substitute this x-value back into our easy equation, y = 4x - 5, to find the value for y."
+      },
+      {
+        "effectiveness": "high",
+        "type": "VISUAL",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "Imagine each equation is a straight line on a graph. The first equation, x + y = 10, is a line sloping downwards. The second equation, x - y = 2, is a line sloping upwards. Solving the 'system' means finding the one exact point where these two lines cross. By adding the equations, we eliminated the 'y' dimension and found the x-coordinate of that intersection point is 6. Plugging that back in, we find the y-coordinate is 4. So, the solution (6, 4) is the precise location where these two linear paths meet."
+      },
+      {
+        "effectiveness": "high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "The core principle is reducing two equations with two unknowns into one equation with one unknown. We have two methods to achieve this. The Elimination Method is logical when you see variables with opposite coefficients (like +y and -y), because adding them will make them disappear. The Substitution Method is logical when one variable is already isolated or can be easily isolated (like the '-y' in the second example). The choice of method is strategic: pick the one that requires the least amount of work to eliminate one of the variables first."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "METAPHORS",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.75,
+        "text": "Think of solving a system of equations like being a detective with two clues. The first clue is 'x + y = 10' and the second is 'x - y = 2'. Neither clue alone tells you what x and y are. But by combining the clues (adding them together), a key piece of information cancels out, and you reveal that 2x = 12. Suddenly, you've cracked part of the code: x must be 6. Once you have that key piece of information, you can use it with either of the original clues to find the final answer for y."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "STEP_SEQUENCE",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "ANIMATED_SVG",
+          "ANNOTATED_TEXT"
+        ],
+        "title": "Solving Systems: Elimination Method",
+        "reasonForSuggestion": "A step-by-step visual breakdown is essential to combat the verbal distractions in the classroom. It provides a clear, persistent reference for students who may have missed a spoken instruction, reinforcing the logical flow of the process.",
+        "promptForGeneration": "Create an animated SVG step-sequence for 9th-grade algebra students solving the system: x + y = 10 and x - y = 2 using the elimination method. Step 1: Display the two equations stacked vertically. Step 2: Animate a plus sign appearing to the left, and a line underneath the equations. Step 3: Animate the '+y' and '-y' terms glowing and then fading out, showing they cancel. Step 4: Animate 'x' and 'x' combining to '2x', and '10' and '2' combining to '12'. Display the resulting equation: 2x = 12. Step 5: Show dividing both sides by 2 to get the final answer 'x = 6', which should be highlighted. Use clear, sans-serif font and color-code the x, y, and constant terms."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.9,
+        "coreType": "COMPARISON_MATRIX",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "TABLE"
+        ],
+        "title": "Which Method to Use: Elimination vs. Substitution",
+        "reasonForSuggestion": "Students seemed confused about why a certain method was being used. This visualization directly addresses that confusion by providing clear criteria for choosing the most efficient strategy, promoting higher-level thinking.",
+        "promptForGeneration": "Generate an HTML table for a 9th-grade math class that compares the Elimination and Substitution methods for solving systems of equations. The table should have three columns: 'Criteria', 'Elimination Method', and 'Substitution Method'. Row 1 ('Best used when...'): For Elimination, 'Equations are in standard form (Ax + By = C) and have opposite or identical coefficients.' For Substitution, 'One variable is already isolated (y=...) or has a coefficient of 1 or -1.' Row 2 ('Example'): Provide a simple example for each. For Elimination, use '3x + 2y = 7' and '5x - 2y = 1'. For Substitution, use 'y = 2x + 1' and '4x + 2y = 8'. Use bold headers and alternating row colors for readability."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherSuggestions": 0.85,
+        "coreType": "AI_GENERATED",
+        "otherCoreType": "Graph of intersecting lines",
+        "secondaryTypes": [
+          "SPATIAL_DIAGRAM",
+          "ANNOTATED_TEXT"
+        ],
+        "title": "Visualizing the Solution",
+        "reasonForSuggestion": "This connects the abstract algebraic process to a concrete geometric concept. Seeing the solution as a physical point of intersection can create a powerful 'aha' moment for visual learners and deepen understanding for all students.",
+        "promptForGeneration": "Generate a 2D graph image for a 9th-grade algebra class. Plot two lines on a Cartesian plane with axes labeled 'x' and 'y'. The first line should represent x + y = 10 (passing through (0,10) and (10,0)). The second line should represent x - y = 2 (passing through (0,-2) and (2,0)). Make the lines distinct colors (e.g., blue and red). Clearly label the point of intersection and annotate it with its coordinates: '(6, 4) - The Solution'. Title the graph 'Solution to a System of Equations'."
+      }
+    ],
+    "purpose": "This lesson introduces a fundamental algebraic skill: solving for multiple unknown variables when given multiple relationships between them. This is a critical building block for higher-level math and science, as it teaches how to handle constraints and find a unique solution that satisfies all conditions.",
+    "motivation": "Ever had to compare two different pricing plans, like for a cell phone or a gym membership, to see which is a better deal? That's a system of equations! This math helps you find the exact point where two different scenarios are equal, allowing you to make the smartest decision. It's the tool you use to find the 'break-even' point for a business or the optimal solution in many real-world puzzles.",
+    "learningValueScore": 0.85,
+    "availableActions": [
+      {
+        "actionLabel": "Step-by-Step",
+        "reason": "Walks through the problem-solving process slowly to prevent confusion, which is high in this class.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "Why This Method?",
+        "reason": "Explains the strategic thinking behind choosing substitution vs. elimination, a key point of confusion.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Visualize It",
+        "reason": "Shows the equations as intersecting lines on a graph, providing a visual anchor for the abstract concept.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Practice Problem",
+        "reason": "Offers a chance for students to apply the learned method immediately to check for understanding.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "system of equations": {
+        "definition": "A set of two or more equations with the same set of unknown variables, for which a common solution is sought.",
+        "simpler": "A puzzle with multiple clues (equations) you have to solve at the same time."
+      },
+      "substitution method": {
+        "definition": "A method of solving a system of equations by solving one equation for one variable and then substituting that expression into the other equation.",
+        "simpler": "Solving one clue for a variable, then plugging that answer into the other clue."
+      },
+      "elimination method": {
+        "definition": "A method of solving a system of equations by adding or subtracting the equations to eliminate one of the variables.",
+        "simpler": "Combining the clues in a way that makes one of the mystery variables disappear."
+      }
+    },
+    "recommendationsToTeacher": [
+      "Address classroom management to reduce interruptions. Consider a 'parking lot' on the board for off-topic questions to be answered at the end of class, allowing the lesson to maintain momentum.",
+      "Explicitly teach the criteria for choosing between the substitution and elimination methods. Use a comparison chart to help students decide which method is more efficient for a given problem.",
+      "Incorporate more visual and interactive elements, such as graphing the equations or using animated step-by-step guides. In a highly distractible environment, a strong visual anchor can help maintain student focus far better than a purely verbal lecture."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T02:01:46.317Z",
+    "latencyMs": 49907,
+    "tokenUsage": {
+      "input": 9311,
+      "output": 3621,
+      "total": 14632
+    }
+  }
+}

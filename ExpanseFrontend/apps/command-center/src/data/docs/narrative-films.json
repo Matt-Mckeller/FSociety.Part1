@@ -1,0 +1,228 @@
+{
+  "meta": {
+    "purpose": "Shot lists for turning the KCPS case study narratives into generated video. Paste-ready into Flow; structured to drive the Veo API later.",
+    "source": "Expanse-Edu-Docs/ExpanseEdu/research/case-studies/kcps/narratives/*.md",
+    "treatmentDecision": "Faithful figurative where the material allows, testing the safety boundary empirically rather than assuming it.",
+    "verifyBeforeWiring": [
+      "Current Veo model id and whether 8s is still the native clip length",
+      "person_generation parameter values and regional availability",
+      "Per-second pricing, and whether audio generation is billed separately",
+      "Whether clip extension / stitching is available for >8s continuous shots"
+    ],
+    "promptConventions": {
+      "casting": "High school scenes specify 17-18 year old students. KCPS high school students span 14-18; casting the upper end is both accurate to a senior classroom and reduces minor-generation refusals.",
+      "negative": "no on-screen text, no captions, no watermarks, no logos, no subtitles",
+      "styleBase": "Documentary realism, handheld or slow motorized camera, natural available light, muted desaturated palette. Shot on 35mm, shallow depth of field."
+    }
+  },
+  "films": [
+    {
+      "narrativeId": "planting-roots",
+      "title": "Planting Roots - The Ascent",
+      "treatment": "symbolic",
+      "policyRisk": "none",
+      "policyNote": "No people in any frame. Nothing here to refuse.",
+      "why": "The only forward-looking story in the set, and currently Concept status with no prose. Animating it creates missing content rather than re-telling what is already written. Start here.",
+      "totalSeconds": 32,
+      "shots": [
+        {
+          "n": 1,
+          "seconds": 8,
+          "shot": "Depleted ground",
+          "prompt": "Extreme macro, shallow depth of field. A single dry seed rests on cracked grey depleted soil that stretches to the horizon. Cold overcast light, no sun. Fine dust drifts across the frame. The seed is completely still. Very slow push-in. Documentary realism, 35mm, muted desaturated palette. No people, no on-screen text.",
+          "audio": "Thin high wind. A distant muffled indoor drone, as if heard through a wall.",
+          "encodes": ["A seed searching for fertile soil - a student searching for the right environment"]
+        },
+        {
+          "n": 2,
+          "seconds": 8,
+          "shot": "The search",
+          "prompt": "Low tracking shot at ground level following a seed tumbling and skittering across barren cracked earth, driven by wind. It passes dry stalks and broken ground. Ahead, the soil gradually darkens and becomes richer. Overcast light beginning to warm at the edges. Handheld documentary feel, 35mm, shallow focus. No people, no on-screen text.",
+          "audio": "Wind gusting. Small scrapes of the seed across hard ground. The distant drone begins to fade.",
+          "encodes": ["Discovering one's place and purpose", "Underdog rising to compete with the best"]
+        },
+        {
+          "n": 3,
+          "seconds": 8,
+          "shot": "Taking root",
+          "prompt": "Split-level macro shot, cross-section: below ground, pale roots push down through dark fertile earth, threading past small stones; above ground, a single green shoot breaks the surface and unfolds its first leaves. Time-lapse growth. Cold light warming to golden across the shot. 35mm, shallow depth of field, documentary realism. No people, no on-screen text.",
+          "audio": "Soil shifting and settling. A low sustained tone rising in pitch. Faint birdsong entering.",
+          "encodes": ["Healing and restoration - emerging stronger than before", "Perseverance and resilience"]
+        },
+        {
+          "n": 4,
+          "seconds": 8,
+          "shot": "Bearing fruit",
+          "prompt": "Slow crane up and back from a mature fruit-bearing plant heavy with ripe fruit, its branches wide. Warm golden late-afternoon light rakes through the leaves. Seeds drift outward from the frame on the breeze, catching the light, travelling toward more open ground. Rich saturated color, 35mm, shallow depth of field. No people, no on-screen text.",
+          "audio": "Warm layered ambience, leaves moving, birdsong, a distant sound of children playing far off.",
+          "encodes": ["Fruit-bearing growth - learning that goes on to nourish and heal others", "Struggle, triumph, and fulfillment"]
+        }
+      ]
+    },
+    {
+      "narrativeId": "chance-to-thrive",
+      "title": "A Chance to Thrive",
+      "treatment": "figurative",
+      "policyRisk": "uncertain",
+      "policyNote": "This is the real filter experiment. A classroom of students, no violence of any kind. If Veo returns this, faithful figurative treatment is viable for the case study. If it refuses, the constraint is minors-in-frame generally, not the violent content - and everything else goes symbolic.",
+      "why": "The strongest writing in the corpus, and the only narrative whose full arc contains nothing a filter should object to.",
+      "totalSeconds": 40,
+      "shots": [
+        {
+          "n": 1,
+          "seconds": 8,
+          "shot": "The deserted room",
+          "prompt": "Wide static shot of a high school classroom from the back, shot at desk height. At first glance the room reads as empty. A single 17-18 year old student in a red sports jersey sits upright at the center, leaning forward, concentrating hard on the front of the room. Fluorescent overhead light, institutional beige walls. Documentary realism, 35mm, muted desaturated palette. No on-screen text, no captions.",
+          "audio": "A teacher's voice, steady and even, speaking without pause. Under it, a low scatter of chatter and notification chimes.",
+          "encodes": ["Red sports jersey - the student is scholar and athlete", "Students on the floor, on screens - attention captured by everything except the lesson"]
+        },
+        {
+          "n": 2,
+          "seconds": 8,
+          "shot": "The reveal",
+          "prompt": "Slow dolly forward through the same high school classroom, camera lowering toward floor level. Revealed on the floor between and behind the desks: 17-18 year old students sprawled and slumped against cabinets, faces lit blue by phone screens, one holding a phone up on a video call, others talking to each other. They do not look up. The upright student in the red jersey stays sharp in the background. Handheld documentary feel, 35mm, shallow depth of field, muted palette. No on-screen text.",
+          "audio": "Overlapping phone audio, a video call voice, laughter, scrolling taps. The teacher's voice continues underneath, unanswered.",
+          "encodes": ["Students sprawled on the floor, lost in video calls, conversations, and the endless scroll"]
+        },
+        {
+          "n": 3,
+          "seconds": 8,
+          "shot": "Into the void",
+          "prompt": "Medium shot of a tired high school teacher at the front of a classroom, mid-40s, speaking to the room while gesturing at a dense wall of text on the board behind them. They are small in the frame, the board large. No one in the foreground responds. Handheld, slight drift. Institutional fluorescent light, muted desaturated palette, 35mm. No on-screen text on the board, illegible writing only, no captions.",
+          "audio": "The teacher's voice, clear but flattening into the room's noise. A chair scrapes. A door opens and closes.",
+          "encodes": ["Lecture drifting into indifference - over-reliance on auditory instruction", "Reliance on lengthy, teacher-authored material shown rather than stated"]
+        },
+        {
+          "n": 4,
+          "seconds": 8,
+          "shot": "The apology",
+          "prompt": "Two-shot at the end of class. The teacher stands beside the desk of the 17-18 year old student in the red sports jersey, shoulders lowered, saying something quietly. The student looks up and meets their eyes, then gives a small shrug and a slight rueful smile. Warm low afternoon light through classroom blinds. Shallow depth of field, 35mm, documentary realism. No on-screen text.",
+          "audio": "The bell ringing and fading. Chairs, bags, footsteps leaving. Two quiet voices, words indistinct.",
+          "encodes": ["The key moment - 'It's tough for everyone right now. I get it. There's always tomorrow.'"],
+          "note": "The line itself is the narrative's key moment. Consider burning it in as a caption in post rather than asking Veo to render legible speech."
+        },
+        {
+          "n": 5,
+          "seconds": 8,
+          "shot": "Limping out",
+          "prompt": "Static wide shot from inside the classroom looking at the doorway. The student in the red sports jersey walks out with a pronounced limp, favoring one leg, and disappears into the corridor light. Hold on the empty classroom - overturned chairs, scattered desks, a dark board. In the background the teacher stands still, watching the doorway, managing a faint smile. Muted desaturated palette, 35mm, documentary realism. No on-screen text.",
+          "audio": "Uneven footsteps receding. Corridor noise swelling then muffling as the door swings shut. Silence in the room.",
+          "encodes": ["The injured leg - struggles both seen and unseen", "How many dreams were being quietly set aside, in moments like these?"]
+        }
+      ]
+    },
+    {
+      "narrativeId": "light-at-the-end",
+      "title": "The Light at The End Of The Tunnel",
+      "treatment": "figurative with symbolic core",
+      "policyRisk": "expected-refusal-on-shot-3",
+      "policyNote": "Shots 1, 2, 4 and 5 should pass. Shot 3 is written around the restraint rather than depicting it - see heldBack.",
+      "why": "Carries the single best craft device in the corpus: sound is deliberately degraded until visuals enter the scene. That was a prose device trapped on the page; Veo generates native audio, so shots 1-2 can actually execute it.",
+      "totalSeconds": 40,
+      "shots": [
+        {
+          "n": 1,
+          "seconds": 8,
+          "shot": "Muffled",
+          "prompt": "Static shot on a locked classroom door in an empty school science hallway, seen from the perspective of someone waiting. Cold fluorescent light, one tube flickering. Nothing moves. The corridor bends away out of frame to the right. Slightly long lens, compressed depth, muted institutional palette, 35mm documentary realism. No people in frame, no on-screen text.",
+          "audio": "CRITICAL - this shot is the thesis. Angry raised voices and pent-up frustration, heavily muffled and distorted, as if bleeding around a corner through concrete. Words completely indistinct. Low, indistinct, emotionally loaded.",
+          "encodes": ["Muffled audio around the corner - auditory instruction carries less than visual"]
+        },
+        {
+          "n": 2,
+          "seconds": 8,
+          "shot": "Clarity arrives",
+          "prompt": "Fast whip pan from the classroom door toward the corridor bend as figures come darting into view at speed, running down the center of the hall away from and past camera. Handheld, sudden acceleration in camera movement, focus snapping in. Doors along the corridor opening as people look out. Cold fluorescent light, muted palette, 35mm. Motion blur. No on-screen text.",
+          "audio": "The muffled distortion resolves instantly into sharp clarity - shouting, running footfalls, doors banging open. The sound arrives WITH the image, not before it.",
+          "encodes": ["As visual elements enter the scene, the pace quickens and understanding becomes clearer", "Fights draw the attention of every neighboring classroom"]
+        },
+        {
+          "n": 3,
+          "seconds": 8,
+          "shot": "Between past and future",
+          "heldBack": true,
+          "heldBackReason": "The source depicts a student pinned against a wall with an officer's hand hovering over pepper spray. Written instead as the student's eyeline - which is what the narrative is actually about. The walls carry the meaning; the restraint does not need to be rendered.",
+          "sourceEvent": "The lead guard grabbed the aggressor and pinned her against the wall. He readied his pepper spray, his hand wavering over the button, a surge of adrenaline accompanying the unwanted anticipation of its use.",
+          "prompt": "Slow lateral tracking shot along a school corridor wall at eye height, no people in frame. Left portion: bare institutional wall, cracked flaking paint, small bite-sized holes gouged out of the plaster. The camera continues right past a seam to a bank of lockers - some bolted shut with padlocks, others dented and mangled beyond repair, doors hanging. Cold flat fluorescent light. Very shallow depth of field, 35mm, muted desaturated palette. No people, no on-screen text.",
+          "audio": "Everything drops to near silence and a high ringing tone, as if heard from inside adrenaline. Distant shouting far off and unimportant.",
+          "encodes": [
+            "Cracked paint and bite marks on her left - past trauma and emotional damage",
+            "Damaged lockers on her right - a potential future of confinement",
+            "The student is placed physically between her past and a possible future"
+          ]
+        },
+        {
+          "n": 4,
+          "seconds": 8,
+          "shot": "The turn",
+          "prompt": "Close shot, shallow focus, on the face and shoulders of a 17-18 year old student standing in a school corridor, breathing hard, jaw tight. Over several seconds the tension leaves - the breathing slows and deepens, the shoulders drop, the jaw loosens, and the eyes change as something registers. No other people in frame. Warm light beginning to reach the corridor from off-screen right. 35mm, very shallow depth of field, documentary realism. No on-screen text.",
+          "audio": "Ragged breathing gradually steadying. A calm adult voice off-screen, low and encouraging, words indistinct. Corridor noise receding.",
+          "encodes": ["The narrative's key moment - a flicker of understanding, posture softening, breathing steadying", "Security written as wanting to help rather than punish"]
+        },
+        {
+          "n": 5,
+          "seconds": 8,
+          "shot": "Each name is a story",
+          "prompt": "Insert shot: a pair of hands holding paper attendance sheets, rows of handwritten entries, seen from above. The hands lower. Rack focus past them to a classroom door swinging open onto warm daylight flooding in from tall windows. Slow push through the doorway into the light. Warm golden light replacing cold fluorescent. 35mm, shallow depth of field. Handwriting on the sheets must be illegible. No legible on-screen text.",
+          "audio": "A door latch clicking open. Corridor sound falling away to quiet. A single sustained warm tone rising.",
+          "encodes": ["Attendance sheets - each name is a story", "The light at the end of the tunnel"]
+        }
+      ]
+    },
+    {
+      "narrativeId": "kidnapped-from-education",
+      "title": "Kidnapped From Education",
+      "alsoKnownAs": "The Bodyguards",
+      "treatment": "figurative with symbolic core",
+      "policyRisk": "expected-refusal-on-shot-3",
+      "policyNote": "Shot 3 is the assault beat and is written as aftermath. The author already flags this narrative as Draft - mediocre and confusing writing - so it is the lowest priority of the four to produce at all.",
+      "why": "Lowest priority. Produce only after the other three, and consider revising the prose first given the author's own status note.",
+      "totalSeconds": 40,
+      "shots": [
+        {
+          "n": 1,
+          "seconds": 8,
+          "shot": "Third floor tension",
+          "prompt": "Static wide shot down an empty third-floor school corridor, late afternoon light through a far window. In the foreground on a low table, an office printer sits jammed, a red error light blinking steadily, a sheet of paper crumpled half-fed in the rollers. Nothing else moves. Cold institutional palette, 35mm, documentary realism, shallow depth of field. No people, no on-screen text.",
+          "audio": "Building HVAC hum. The printer clicking and failing, clicking and failing. Muffled voices behind closed doors.",
+          "encodes": ["Jammed printer - need for improved IT systems", "Palpable tension in the third-floor hallway"]
+        },
+        {
+          "n": 2,
+          "seconds": 8,
+          "shot": "The revolving portal",
+          "prompt": "Locked-off shot on a classroom door from inside the room, slightly wide. Students drift in and out continuously, the door never settling closed, some crossing to a coat closet at the side of frame. A haze of aerosol spray catches the light near the closet. Motion is constant and aimless. Cold fluorescent light, muted palette, 35mm, documentary realism. No on-screen text.",
+          "audio": "The door handle and hinge repeating. Aerosol hiss. Overlapping conversation, none of it about the lesson. A teacher's voice underneath, losing.",
+          "encodes": ["The classroom door became a revolving portal", "Students moving between classes - need for hall pass systems"]
+        },
+        {
+          "n": 3,
+          "seconds": 8,
+          "shot": "Aftermath",
+          "heldBack": true,
+          "heldBackReason": "The source depicts multiple students picking a girl up by her hands and legs and dragging her into the hallway while a security officer laughs. Written as the aftermath instead. A synthetic photoreal video of a child being assaulted should not exist, and the drag marks and the receding laugh carry it further than the act would.",
+          "sourceEvent": "Multiple students picked up a young girl by her hands and legs and dragged her out into the hallway. A security officer, present and observed by the students, laughed along with the others.",
+          "prompt": "Low angle static shot on an open classroom doorway from inside the room, floor level. Across the vinyl tile, fresh parallel scuff marks drag from the middle of the room out through the doorway into the corridor. The door stands open, swinging very slightly. Nobody is in frame. A single dropped shoe lies near the threshold. Cold fluorescent light, muted desaturated palette, 35mm, shallow depth of field. No people, no on-screen text.",
+          "audio": "A group of voices and one adult laugh, receding down the corridor and around a corner. Then the room's silence, and the HVAC.",
+          "encodes": ["A security officer laughed along with the others - protector and participant blurred", "Subtext: students kidnapped from their education"]
+        },
+        {
+          "n": 4,
+          "seconds": 8,
+          "shot": "The bodyguards",
+          "prompt": "Tracking shot following three figures from behind as they walk down a school corridor - a teacher in the middle, flanked on either side by two taller 17-18 year old students, moving like an escort. Faces not visible. The corridor stretches ahead under flickering fluorescent light. Handheld, slight sway, 35mm, muted institutional palette, documentary realism. No on-screen text.",
+          "audio": "Three sets of footsteps in loose sync. Distant corridor noise. No conversation.",
+          "encodes": ["Teacher walking with students for protection - distrust in security", "Teachers seeking protection from students rather than security staff"]
+        },
+        {
+          "n": 5,
+          "seconds": 8,
+          "shot": "The cover",
+          "prompt": "Long lens shot down a corridor, heavily compressed, watching two adults talking at the far end outside an office door - a teacher and an administrator. Their body language is casual, dismissive, everything-is-fine. They are small and distant in the frame, partially obscured by a foreground doorframe as if observed unnoticed. Cold light, muted palette, shallow depth of field, 35mm. Faces indistinct. No on-screen text.",
+          "audio": "Their conversation reduced to indistinct pleasant murmuring and a short laugh. Foreground: one person's quiet breathing, close to the mic.",
+          "encodes": ["The teacher offering a standard cover, pretending everything was fine", "An unseen fear, a constant undercurrent of unease"]
+        }
+      ]
+    }
+  ]
+}

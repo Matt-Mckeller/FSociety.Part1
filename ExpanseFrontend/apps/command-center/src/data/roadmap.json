@@ -1,0 +1,368 @@
+{
+  "projects": [
+    {
+      "id": "4eye",
+      "name": "4Eye",
+      "color": "#4ECDC4",
+      "category": "business",
+      "description": "Audio to visual learning platform",
+      "features": [
+        {
+          "id": "4eye-f1",
+          "title": "Audio extraction/processing",
+          "description": "Extract and analyze audio content",
+          "status": "in-progress",
+          "priority": "mvp",
+          "effort": "m"
+        },
+        {
+          "id": "4eye-f2",
+          "title": "Visual generation pipeline",
+          "description": "Generate learning visuals from audio",
+          "status": "planned",
+          "priority": "mvp",
+          "effort": "l"
+        },
+        {
+          "id": "4eye-f3",
+          "title": "Core UI & playback",
+          "description": "Basic viewer and navigation",
+          "status": "planned",
+          "priority": "mvp",
+          "effort": "m"
+        },
+        {
+          "id": "4eye-f4",
+          "title": "User library",
+          "description": "Save and organize content",
+          "status": "planned",
+          "priority": "post-mvp",
+          "effort": "s"
+        }
+      ],
+      "releases": [
+        {
+          "id": "4eye-r1",
+          "title": "4Eye MVP Launch",
+          "date": "2026-02-07",
+          "type": "release",
+          "description": "Core audio-to-visual functionality working",
+          "linkedFeatures": ["4eye-f1", "4eye-f2", "4eye-f3"],
+          "stage": "development",
+          "stageProgress": 30,
+          "valueHighlights": [
+            "Transform any audio into visual learning content",
+            "Learn faster through visual comprehension",
+            "Personal AI-powered study assistant"
+          ],
+          "focusArea": "Core Learning Engine",
+          "rationale": "Proves the core value prop - that audio can be transformed into effective visual learning materials. Foundation for all future features.",
+          "effort": "l"
+        }
+      ]
+    },
+    {
+      "id": "4up",
+      "name": "4Up",
+      "color": "#FF6B35",
+      "category": "business",
+      "description": "Content generation and social media automation",
+      "features": [
+        {
+          "id": "4up-f1",
+          "title": "Content generation pipeline",
+          "description": "AI-powered content creation",
+          "status": "in-progress",
+          "priority": "mvp",
+          "effort": "l"
+        },
+        {
+          "id": "4up-f2",
+          "title": "Multi-platform posting",
+          "description": "Post to multiple social platforms",
+          "status": "planned",
+          "priority": "mvp",
+          "effort": "m"
+        },
+        {
+          "id": "4up-f3",
+          "title": "Scheduling",
+          "description": "Schedule posts in advance",
+          "status": "planned",
+          "priority": "post-mvp",
+          "effort": "s"
+        },
+        {
+          "id": "4up-f4",
+          "title": "Analytics",
+          "description": "Track performance across platforms",
+          "status": "planned",
+          "priority": "nice-to-have",
+          "effort": "m"
+        }
+      ],
+      "releases": [
+        {
+          "id": "4up-r1",
+          "title": "4Up MVP",
+          "date": "2026-02-02",
+          "type": "release",
+          "description": "<5 min/day for content generation",
+          "linkedFeatures": ["4up-f1", "4up-f2"],
+          "stage": "development",
+          "stageProgress": 60,
+          "valueHighlights": [
+            "Generate weeks of content in minutes",
+            "AI-powered content that matches your voice",
+            "Multi-platform reach with single effort"
+          ],
+          "focusArea": "Content Automation",
+          "rationale": "Immediate ROI - saves hours per week on content creation. Enables consistent digital presence while focusing on product development.",
+          "effort": "l"
+        }
+      ]
+    },
+    {
+      "id": "personal",
+      "name": "Personal",
+      "color": "#10B981",
+      "category": "personal",
+      "description": "Personal goals and milestones",
+      "features": [],
+      "releases": [
+        {
+          "id": "pers-r1",
+          "title": "Nicotine Free",
+          "date": "2026-01-19",
+          "type": "release",
+          "description": "No more nicotine needed",
+          "stage": "launched"
+        },
+        {
+          "id": "pers-r2",
+          "title": "SF Move Complete",
+          "date": "2026-01-19",
+          "type": "release",
+          "description": "Settled in San Francisco",
+          "stage": "launched"
+        }
+      ]
+    }
+  ],
+  "milestones": [
+    {
+      "id": "ms-4eye-mvp",
+      "title": "4Eye MVP Launch",
+      "phaseId": "phase-4eye-mvp",
+      "targetDate": "2026-02-07",
+      "type": "release",
+      "description": "4Eye core functionality - audio to visual learning",
+      "status": "planned",
+      "category": "business"
+    },
+    {
+      "id": "ms-4up-mvp",
+      "title": "4Up MVP",
+      "phaseId": "phase-4up-mvp",
+      "targetDate": "2026-02-02",
+      "type": "release",
+      "description": "Content generation working, <5 min/day",
+      "status": "planned",
+      "category": "business"
+    },
+    {
+      "id": "ms-funding",
+      "title": "Income/Funding Secured",
+      "targetDate": "2026-03-03",
+      "type": "deadline",
+      "description": "Major funding and/or sustainable income secured",
+      "status": "planned",
+      "category": "business"
+    }
+  ],
+  "phases": [
+    {
+      "id": "phase-planning",
+      "name": "Planning App v1",
+      "projectId": "planning-app",
+      "startMonth": "2026-01",
+      "endMonth": "2026-01",
+      "color": "#8B5CF6",
+      "category": "business"
+    },
+    {
+      "id": "phase-4up-mvp",
+      "name": "4Up MVP",
+      "projectId": "4up",
+      "startMonth": "2026-01",
+      "endMonth": "2026-02",
+      "color": "#FF6B35",
+      "category": "business"
+    },
+    {
+      "id": "phase-4eye-mvp",
+      "name": "4Eye MVP",
+      "projectId": "4eye",
+      "startMonth": "2026-02",
+      "endMonth": "2026-03",
+      "color": "#4ECDC4",
+      "category": "business"
+    },
+    {
+      "id": "phase-1game",
+      "name": "1Game MVP",
+      "projectId": "1game",
+      "startMonth": "2026-02",
+      "endMonth": "2026-03",
+      "color": "#9B59B6",
+      "category": "business"
+    },
+    {
+      "id": "phase-lotties",
+      "name": "Lottie Marketplace",
+      "projectId": "lotties",
+      "startMonth": "2026-01",
+      "endMonth": "2026-02",
+      "color": "#E74C3C",
+      "category": "business"
+    },
+    {
+      "id": "phase-sf-trip",
+      "name": "San Francisco",
+      "startMonth": "2026-01",
+      "endMonth": "2026-02",
+      "color": "#2ECC71",
+      "category": "personal"
+    }
+  ],
+  "navigationalVariables": [
+    {
+      "id": "nav-scale",
+      "title": "Global Scale Potential",
+      "description": "Apps can scale 360° around the world - no geographic limitations",
+      "type": "advantage"
+    },
+    {
+      "id": "nav-skill",
+      "title": "Exceptional Skill Level",
+      "description": "Unique combination of technical, creative, and strategic abilities",
+      "type": "advantage"
+    },
+    {
+      "id": "nav-product-demand",
+      "title": "Product in High Demand",
+      "description": "The product could sell easily when built - clear market need exists",
+      "type": "advantage"
+    },
+    {
+      "id": "nav-mvp-speed",
+      "title": "MVP is Quick to Build",
+      "description": "Core functionality is achievable in a short timeframe with current skills and tools",
+      "type": "advantage"
+    },
+    {
+      "id": "nav-recruiting-easy",
+      "title": "Easy Recruitment Potential",
+      "description": "Recruiting people to help would be relatively easy - interesting product, good timing",
+      "type": "advantage"
+    },
+    {
+      "id": "nav-spending-reduced",
+      "title": "Reduced Spending Achieved",
+      "description": "Have been successfully spending less money, extending runway organically",
+      "type": "advantage"
+    },
+    {
+      "id": "nav-velocity",
+      "title": "Rapid App Creation",
+      "description": "Ability to spin up multiple apps quickly using shared infrastructure",
+      "type": "advantage"
+    },
+    {
+      "id": "nav-education",
+      "title": "Education Space Opportunity",
+      "description": "Massive untapped potential in AI-powered education and learning",
+      "type": "opportunity"
+    },
+    {
+      "id": "nav-free-housing",
+      "title": "Potential Free Housing",
+      "description": "May have option to stay somewhere for free or secure more affordable apartment",
+      "type": "opportunity"
+    },
+    {
+      "id": "nav-credit-extension",
+      "title": "Financing Flexibility",
+      "description": "Short-term runway buffer options exist if needed",
+      "type": "opportunity"
+    },
+    {
+      "id": "nav-ai",
+      "title": "AI as Force Multiplier",
+      "description": "Leverage AI to accelerate development, automation, and user value",
+      "type": "strategy"
+    },
+    {
+      "id": "nav-4up-leverage",
+      "title": "4Up as Distribution Engine",
+      "description": "Use 4Up for mass marketing, simplified onboarding, and internationalization across all apps",
+      "type": "strategy"
+    },
+    {
+      "id": "nav-team-scaling",
+      "title": "Recruit & Utilize People to Scale",
+      "description": "Recruitment and utilization of people is achievable and can accelerate growth",
+      "type": "strategy"
+    },
+    {
+      "id": "nav-expanse-services-workforce",
+      "title": "Expanse Services Workforce Model",
+      "description": "Use Expanse Services style motivation and payment to hire people for project segments - enables faster building with investments, culture pages, and distributed work",
+      "type": "strategy"
+    },
+    {
+      "id": "nav-overlap",
+      "title": "Business Synergies",
+      "description": "Potential for cross-business overlap, shared components, and network effects",
+      "type": "insight"
+    },
+    {
+      "id": "nav-docs-helpful-not-required",
+      "title": "Documentation Helps But Not Required",
+      "description": "More clarity would improve launch quality, but is not a strict necessity for MVP",
+      "type": "insight"
+    }
+  ],
+  "ongoing": [
+    {
+      "id": "ongoing-pictures",
+      "title": "Perfect Pictures",
+      "description": "Strong portraits for personal and business presence",
+      "category": "personal"
+    },
+    {
+      "id": "ongoing-sex-life",
+      "title": "Intimate Life",
+      "description": "Ongoing personal development",
+      "category": "personal"
+    },
+    {
+      "id": "ongoing-human-project",
+      "title": "Human Project",
+      "description": "Optimize quickly",
+      "category": "personal"
+    },
+    {
+      "id": "ongoing-finance",
+      "title": "Finance Project",
+      "description": "Optimize quickly",
+      "category": "personal"
+    },
+    {
+      "id": "ongoing-journaling",
+      "title": "Journaling/Story Writing",
+      "description": "Pictures & Content, Story writing",
+      "category": "personal"
+    }
+  ]
+}

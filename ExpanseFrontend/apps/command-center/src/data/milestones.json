@@ -1,0 +1,152 @@
+{
+  "milestones": [
+    {
+      "id": "m1-p1",
+      "title": "Milestone 1 (P1)",
+      "targetDate": "2026-01-21",
+      "status": "in-progress",
+      "priority": "P1",
+      "projects": ["4up", "4eye", "expanse-services"],
+      "description": "Launch before January 21st"
+    },
+    {
+      "id": "m1-p2",
+      "title": "Milestone 1 (P2)",
+      "targetDate": null,
+      "status": "planned",
+      "priority": "P2",
+      "projects": ["4up"],
+      "description": "4Up user-based MVPs (Personal & Business)"
+    },
+    {
+      "id": "m2-p2",
+      "title": "Milestone 2 (P2)",
+      "targetDate": "2026-02-28",
+      "status": "planned",
+      "priority": "P2",
+      "projects": ["1game", "lotties"],
+      "description": "1Game Edu, Lottie Marketplace / Rewards"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "t-4up-1",
+      "milestoneId": "m1-p1",
+      "projectId": "4up",
+      "title": "Easy training and setup/scaling",
+      "done": false
+    },
+    {
+      "id": "t-4up-2",
+      "milestoneId": "m1-p1",
+      "projectId": "4up",
+      "title": "Organization for Business Information",
+      "done": false
+    },
+    {
+      "id": "t-4up-3",
+      "milestoneId": "m1-p1",
+      "projectId": "4up",
+      "title": "Marketing Automation (FB, LinkedIn, IG, TikTok)",
+      "done": false
+    },
+    {
+      "id": "t-4up-4",
+      "milestoneId": "m1-p1",
+      "projectId": "4up",
+      "title": "Artwork & Consistent Brand Image",
+      "done": false
+    },
+    {
+      "id": "t-4up-5",
+      "milestoneId": "m1-p1",
+      "projectId": "4up",
+      "title": "Components & Cleaned Up Code → Component Library",
+      "done": false
+    },
+    {
+      "id": "t-4up-6",
+      "milestoneId": "m1-p1",
+      "projectId": "4up",
+      "title": "Internationalization",
+      "done": false
+    },
+    {
+      "id": "t-4eye-1",
+      "milestoneId": "m1-p1",
+      "projectId": "4eye",
+      "title": "Chat, Whisper, Modalities, Notes",
+      "done": false
+    },
+    {
+      "id": "t-4eye-2",
+      "milestoneId": "m1-p1",
+      "projectId": "4eye",
+      "title": "Context Management MVP",
+      "done": false
+    },
+    {
+      "id": "t-4eye-3",
+      "milestoneId": "m1-p1",
+      "projectId": "4eye",
+      "title": "Classroom Lists",
+      "done": false
+    },
+    {
+      "id": "t-4eye-4",
+      "milestoneId": "m1-p1",
+      "projectId": "4eye",
+      "title": "Short Code / QR Code Access",
+      "done": false
+    },
+    {
+      "id": "t-4eye-5",
+      "milestoneId": "m1-p1",
+      "projectId": "4eye",
+      "title": "Real Time",
+      "done": false
+    },
+    {
+      "id": "t-services-1",
+      "milestoneId": "m1-p1",
+      "projectId": "expanse-services",
+      "title": "Website",
+      "done": false
+    },
+    {
+      "id": "t-services-2",
+      "milestoneId": "m1-p1",
+      "projectId": "expanse-services",
+      "title": "Automated Marketing",
+      "done": false
+    },
+    {
+      "id": "t-services-3",
+      "milestoneId": "m1-p1",
+      "projectId": "expanse-services",
+      "title": "Enrollment Form",
+      "done": false
+    },
+    {
+      "id": "t-1game-1",
+      "milestoneId": "m2-p2",
+      "projectId": "1game",
+      "title": "Stores, Rewards, Integrations, Progress Tracking",
+      "done": false
+    },
+    {
+      "id": "t-1game-2",
+      "milestoneId": "m2-p2",
+      "projectId": "1game",
+      "title": "Payment, Website",
+      "done": false
+    },
+    {
+      "id": "t-lotties-1",
+      "milestoneId": "m2-p2",
+      "projectId": "lotties",
+      "title": "Lottie Marketplace",
+      "done": false
+    }
+  ]
+}

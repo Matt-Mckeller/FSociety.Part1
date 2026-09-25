@@ -1,0 +1,123 @@
+{
+  "questions": [
+    {
+      "id": "q-launch-order",
+      "question": "What is the optimal project launch order?",
+      "context": "Need to balance speed-to-market, financial runway, and long-term vision. Services could provide income in ~2 days.",
+      "category": "strategy",
+      "status": "exploring",
+      "projectIds": ["4up", "expanse-services", "4eye", "1game"],
+      "createdDate": "2026-01-20",
+      "tags": ["launch", "priority", "revenue"]
+    },
+    {
+      "id": "q-edu-vs-business",
+      "question": "How much time should be allocated to EDU vs Business side of projects?",
+      "context": "4up has both business utility and EDU learning potential. Need to determine the right balance.",
+      "category": "strategy",
+      "status": "open",
+      "projectIds": ["4up", "4eye", "1game"],
+      "createdDate": "2026-01-20",
+      "tags": ["allocation", "edu", "strategy"]
+    },
+    {
+      "id": "q-4up-services-company",
+      "question": "Should 4up and Services be one company?",
+      "context": "They have synergies - 4up content powers services website. But may want separate branding.",
+      "category": "strategy",
+      "status": "answered",
+      "projectIds": ["4up", "expanse-services"],
+      "createdDate": "2026-01-20",
+      "answeredDate": "2026-01-20",
+      "answer": "No - keep them as separate companies",
+      "reasoning": "Cleaner branding, separate focus areas, easier to sell/spin off individually",
+      "tags": ["company-structure"]
+    },
+    {
+      "id": "q-4eye-1game-company",
+      "question": "Should 4eye and 1game be one company/project?",
+      "context": "Both are EDU-focused with gamification elements. Could share infrastructure.",
+      "category": "strategy",
+      "status": "answered",
+      "projectIds": ["4eye", "1game"],
+      "createdDate": "2026-01-20",
+      "answeredDate": "2026-01-20",
+      "answer": "No - keep them as separate companies",
+      "reasoning": "Different target audiences and value propositions despite shared tech",
+      "tags": ["company-structure"]
+    },
+    {
+      "id": "q-4eye-variations",
+      "question": "Are there multiple variations of 4eye with different targets for marketing or is it the same?",
+      "context": "Could segment by audience: students, professionals, accessibility needs, etc.",
+      "category": "strategy",
+      "status": "open",
+      "projectIds": ["4eye"],
+      "createdDate": "2026-01-20",
+      "tags": ["marketing", "segmentation"]
+    },
+    {
+      "id": "q-gamification-reuse",
+      "question": "Should the gamification code be made reusable and joined together or split?",
+      "context": "1game and other projects may share gamification systems (rewards, progress, achievements).",
+      "category": "architecture",
+      "status": "open",
+      "projectIds": ["1game", "4eye"],
+      "createdDate": "2026-01-20",
+      "tags": ["code-architecture", "reusability"]
+    },
+    {
+      "id": "q-4up-perfection",
+      "question": "How to avoid chasing perfection on 4up while still building quality?",
+      "context": "Concern noted: 'Chasing perfection' could delay launch. Need clear MVP definition.",
+      "category": "priority",
+      "status": "open",
+      "projectIds": ["4up"],
+      "createdDate": "2026-01-20",
+      "tags": ["mvp", "scope"]
+    },
+    {
+      "id": "q-mvp-definitions",
+      "question": "What are the clear MVP definitions for each project?",
+      "context": "Need explicit criteria for 'done enough to launch' for 4up, Services, 4eye, 1game.",
+      "category": "priority",
+      "status": "open",
+      "projectIds": ["4up", "expanse-services", "4eye", "1game"],
+      "createdDate": "2026-01-20",
+      "tags": ["mvp", "launch"]
+    },
+    {
+      "id": "q-services-timeline",
+      "question": "Can Services really launch in 2 days after 4up?",
+      "context": "Full requirements: checkout, accounts, onboarding, brand content, content pages, architecture, component store. TRUE MVP (landing + contact + about pages) = 2-3 days. Full vision = 2-3 weeks.",
+      "category": "timeline",
+      "status": "answered",
+      "projectIds": ["expanse-services"],
+      "createdDate": "2026-01-20",
+      "answeredDate": "2026-01-20",
+      "answer": "MVP in 2-3 days is realistic. Full checkout/accounts/store is Phase 2-3.",
+      "reasoning": "Breaking into phases: MVP (landing, contact, about) = 2-3 days. Phase 2 (checkout, accounts, onboarding) = 3-5 more days. Phase 3 (component store) = 1-2 weeks.",
+      "implications": ["Services MVP target: Jan 28", "Phase 2 complete: Feb 5", "Component store: Feb 20"],
+      "tags": ["timeline", "estimation", "phasing"]
+    },
+    {
+      "id": "q-ai-ui-necessity",
+      "question": "What is the extent of usefulness for AI UI / Kinestetic features?",
+      "context": "Unknown extent of usefulness. Could be differentiator or could be scope creep.",
+      "category": "priority",
+      "status": "open",
+      "projectIds": ["kinestetic"],
+      "createdDate": "2026-01-20",
+      "tags": ["scope", "differentiation"]
+    },
+    {
+      "id": "q-funding-path",
+      "question": "What is the optimal path to funding by March 3rd?",
+      "context": "Critical deadline. Options: Services revenue, VC, crowdfunding, angel investors.",
+      "category": "financial",
+      "status": "open",
+      "createdDate": "2026-01-20",
+      "tags": ["funding", "runway"]
+    }
+  ]
+}

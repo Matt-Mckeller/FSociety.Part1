@@ -1,0 +1,44 @@
+{
+  "name": "@yen/content",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "exports": {
+    ".": "./src/index.ts",
+    "./layers": "./src/layers.ts",
+    "./equipment": "./src/character/equipment.ts",
+    "./character/*": "./src/character/*.ts",
+    "./media": "./src/media.ts",
+    "./showcases": "./src/showcases.ts",
+    "./walkthroughs": "./src/walkthroughs.ts",
+    "./posts": "./src/posts.ts",
+    "./donate": "./src/donate.ts",
+    "./surfaces": "./src/surfaces.ts",
+    "./overview": "./src/overview.ts",
+    "./backup": "./src/backup.ts",
+    "./paths": "./src/paths.ts",
+    "./music-layers": "./src/music-layers.ts",
+    "./drive": "./src/drive.ts",
+    "./series": "./src/series.ts",
+    "./highlights": "./src/highlights.ts",
+    "./systems-highlights": "./src/systems-highlights.ts",
+    "./workshop-concepts": "./src/workshop-concepts.ts",
+    "./learning-tips": "./src/learning-tips.ts",
+    "./communication-intents": "./src/communication-intents.ts",
+    "./private-surfaces": "./src/private-surfaces.ts",
+    "./vision": "./src/vision.ts",
+    "./heart-evolve": "./src/heart-evolve.ts",
+    "./feedback-screens": "./src/feedback-screens.ts",
+    "./privacy-security": "./src/privacy-security.ts",
+    "./concepts/currency": "./src/concepts/currency.ts",
+    "./concepts/learning": "./src/concepts/learning.ts",
+    "./aion": "./src/aion.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  }
+}

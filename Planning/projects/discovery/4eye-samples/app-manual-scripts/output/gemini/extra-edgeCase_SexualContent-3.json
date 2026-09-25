@@ -1,0 +1,233 @@
+{
+  "sample": {
+    "durationSeconds": 52,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Today we're talking about healthy relationships",
+          "timestamp": 0,
+          "confidence": 0.96
+        },
+        {
+          "text": "and the concept of consent.",
+          "timestamp": 4.6,
+          "confidence": 0.95
+        },
+        {
+          "text": "Consent means clearly agreeing to something.",
+          "timestamp": 8.9,
+          "confidence": 0.96
+        },
+        {
+          "text": "In any relationship, both people should feel",
+          "timestamp": 13.7,
+          "confidence": 0.94
+        },
+        {
+          "text": "comfortable saying yes or no to activities.",
+          "timestamp": 18.3,
+          "confidence": 0.95
+        },
+        {
+          "text": "No one should ever feel pressured or forced.",
+          "timestamp": 23.6,
+          "confidence": 0.96
+        },
+        {
+          "text": "This applies to everything from holding hands",
+          "timestamp": 28.4,
+          "confidence": 0.95
+        },
+        {
+          "text": "to more serious physical contact later in life.",
+          "timestamp": 33.1,
+          "confidence": 0.93
+        },
+        {
+          "text": "Respecting boundaries is a sign of a healthy relationship,",
+          "timestamp": 38.7,
+          "confidence": 0.94
+        },
+        {
+          "text": "whether with friends, dating partners, or anyone else.",
+          "timestamp": 44.2,
+          "confidence": 0.95
+        },
+        {
+          "text": "You always have the right to say no.",
+          "timestamp": 49.3,
+          "confidence": 0.96
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.95,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "Sensitive Topic",
+        "message": "The content discusses consent, which is a sensitive but important topic. Ensure the classroom environment is safe and supportive for this discussion."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.98,
+    "isSideConversation_confidence": 0.01,
+    "isIrrelevantContent_confidence": 0.01,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "health",
+      "relationships",
+      "consent",
+      "social_emotional_learning",
+      "sel",
+      "boundaries",
+      "personal_safety",
+      "middle_school",
+      "high_school"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "The lesson introduces the concept of consent as a cornerstone of healthy relationships. Consent is defined as a clear, unpressured agreement to any activity. It emphasizes that in any relationship—be it with friends or partners—all individuals must feel comfortable saying 'yes' or 'no'. The principle applies to a wide range of interactions, from simple physical contact like holding hands to more significant actions. The key takeaway is that respecting personal boundaries is a fundamental sign of a healthy relationship, and every individual always retains the right to say 'no'.",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "• Consent is a clear agreement to an activity.\n• It is essential for all healthy relationships (friends, partners, etc.).\n• Everyone should feel comfortable saying 'yes' or 'no' without pressure.\n• Respecting boundaries is a key sign of a healthy relationship.\n• You always have the absolute right to say 'no'."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.8,
+        "text": "Consent is the clear, unpressured agreement to an activity within any healthy relationship. It requires respecting boundaries and understanding that everyone has the right to say 'no' at any time."
+      },
+      {
+        "version": "narrative",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "In the journey of building relationships, whether with friends or someone special, think of consent as your map and compass. It's the clear 'yes' that tells you you're on the right path together. If someone feels pressured or isn't sure, it's a sign to stop and check in. A healthy relationship is one where both people feel safe to point out their boundaries on the map, and those boundaries are always respected, knowing that the most important direction you have is the power to say 'no'."
+      }
+    ],
+    "oneLineSummarization": "Consent is a clear, unpressured 'yes' in any healthy relationship, where respecting boundaries and the right to say 'no' is essential.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "METAPHORS",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Think about consent like offering someone a cup of tea. If you ask, 'Would you like some tea?' and they say 'Yes, please!', you know they want tea. But if they hesitate or say 'I'm not sure,' you don't force them to drink it. If they say 'no,' you don't get angry; you just don't make them tea. And if they say yes, but then don't drink it, you don't pour it down their throat. It's simple: consent is about making sure the other person genuinely wants the tea you're offering."
+      },
+      {
+        "effectiveness": "high",
+        "type": "PROBLEM_SOLVING",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "Here is a simple, logical process for ensuring consent. Step 1: Ask Clearly. Use direct words like, 'Is it okay if I hold your hand?' Step 2: Look and Listen for the Answer. Pay attention not just to their words ('yes' or 'no') but also their body language. Do they seem happy and relaxed? Step 3: Respect the Decision. If the answer is anything but a clear and enthusiastic 'yes,' the answer is 'no.' Thank them for their honesty and move on without pressure or guilt."
+      },
+      {
+        "effectiveness": "high",
+        "type": "STORYTELLING",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "Imagine two friends, Alex and Sam. Alex takes a funny photo of Sam and wants to post it online. Instead of just posting it, Alex shows Sam the photo and asks, 'Hey, is it cool if I post this? I think it's hilarious.' Sam looks at it and says, 'Actually, I'd rather you didn't, I feel a little embarrassed.' Alex, respecting Sam's feelings, immediately says 'No problem at all!' and deletes the photo. This small moment strengthened their friendship because it was built on respect for each other's boundaries, showing that consent is important in friendships, too."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "SOCIAL",
+        "relativeEffectivenessWeight": 0.75,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.75,
+        "text": "Let's practice this together. In small groups, discuss a simple, everyday situation where you ask for permission—like borrowing a pencil or sitting next to someone. What words do you use to ask? How can you tell if the person is truly okay with it? Then, try role-playing a scenario where one person asks and the other practices saying 'no' politely but firmly. The goal is to make both asking and setting boundaries feel normal and comfortable."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "DECISION_TREE",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "MERMAID_FLOWCHART",
+          "ANNOTATED_TEXT"
+        ],
+        "title": "The Consent Checklist",
+        "reasonForSuggestion": "A decision tree or flowchart provides a clear, logical, and visual way to process the abstract concept of consent. It breaks down the decision-making process into simple yes/no questions, making it easy for students to understand and apply.",
+        "promptForGeneration": "Create a Mermaid flowchart for a 9th-grade health class titled 'The Consent Checklist'. Start with a box: 'Do you want to do something with someone?'. Arrow to a decision diamond: 'Have you asked them clearly?'. 'No' arrow leads to 'Stop. Ask first!'. 'Yes' arrow leads to another diamond: 'Did they give a clear, enthusiastic YES?'. 'No' or 'Unsure' arrow leads to 'Stop. The answer is NO.'. 'Yes' arrow leads to a final box: 'Great! Enjoy the activity respectfully and remember they can change their mind at any time.'. Use green for 'Yes' paths and red for 'No' paths. Use simple, friendly icons next to each box (e.g., a question mark for asking, a checkmark for yes, a stop sign for no)."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.9,
+        "coreType": "INFOGRAPHIC",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "SVG_DIAGRAM",
+          "HIGHLIGHTED_TEXT"
+        ],
+        "title": "The Pillars of Consent",
+        "reasonForSuggestion": "An infographic can visually summarize the key components of consent in a memorable and easily digestible format. Using an acronym like FRIES (Freely Given, Reversible, Informed, Enthusiastic, Specific) provides a powerful mnemonic device.",
+        "promptForGeneration": "Create a vertical infographic for middle/high school students titled 'Consent is as easy as FRIES'. Use a friendly, modern design with a clear icon for each letter. F - Freely Given: Icon of a hand offering a gift. Text: 'Consent is a choice, not a response to pressure or guilt.' R - Reversible: Icon of a refresh/undo arrow. Text: 'Anyone can change their mind at any time.' I - Informed: Icon of a lightbulb. Text: 'You know exactly what you are agreeing to.' E - Enthusiastic: Icon of a smiling face or thumbs-up. Text: 'It should be a wholehearted YES, not an unsure maybe.' S - Specific: Icon of a target. Text: 'Saying yes to one thing doesn't mean you've said yes to anything else.' Use a distinct color for each section."
+      }
+    ],
+    "purpose": "This lesson is fundamentally about personal autonomy and respect. Understanding consent is a critical life skill that forms the basis of all healthy relationships, preventing harm, and building trust. It empowers individuals to advocate for their own boundaries while teaching them to respect the boundaries of others, which is a cornerstone of a safe and empathetic society.",
+    "motivation": "This isn't just a rule; it's your right. Learning about consent gives you the power to control what happens to you and your body. It helps you build friendships and relationships that are based on real trust and respect, where you feel safe and valued. Knowing these skills also makes you a better friend and partner, someone that people know they can trust. This is about creating a world where everyone feels safe and respected.",
+    "learningValueScore": 0.98,
+    "availableActions": [
+      {
+        "actionLabel": "See Scenarios",
+        "reason": "Provides concrete examples of what consent looks like (and doesn't look like) in real-life situations.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "Practice Phrases",
+        "reason": "Offers students scripts and confidence to ask for consent or to say 'no' clearly and respectfully.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "What If...?",
+        "reason": "Explores nuanced or tricky situations, helping students develop critical thinking skills around consent.",
+        "recommendationPriority": "high"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "consent": {
+        "definition": "A clear, voluntary, and enthusiastic agreement to engage in an activity, given by a person with the freedom and capacity to make that choice.",
+        "context": "In any healthy relationship, consent is required before any physical contact.",
+        "simpler": "Getting a clear 'yes' from someone who feels totally free to say 'no'."
+      },
+      "boundaries": {
+        "definition": "Personal limits or rules that an individual creates to identify reasonable, safe, and permissible ways for other people to behave towards them.",
+        "context": "Respecting someone's boundaries is a sign that you care about their feelings and comfort.",
+        "simpler": "Your personal 'rules' for how you want to be treated."
+      },
+      "pressure": {
+        "definition": "The use of persuasion, influence, or intimidation to make someone do something.",
+        "context": "No one should ever feel pressure to agree to something they are not comfortable with.",
+        "simpler": "Making someone feel like they *have* to say yes."
+      }
+    },
+    "recommendationsToTeacher": [
+      "Follow up this introduction with role-playing activities where students can practice asking for consent and setting boundaries in low-stakes scenarios.",
+      "Explicitly discuss that consent is reversible—a person can say 'yes' and change their mind to 'no' at any point.",
+      "Connect this concept to digital consent, such as asking for permission before sharing photos, videos, or private information about someone online."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:56:00.753Z",
+    "latencyMs": 39886,
+    "tokenUsage": {
+      "input": 7078,
+      "output": 2911,
+      "total": 11660
+    }
+  }
+}

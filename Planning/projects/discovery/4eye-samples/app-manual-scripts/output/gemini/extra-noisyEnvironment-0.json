@@ -1,0 +1,275 @@
+{
+  "sample": {
+    "durationSeconds": 90,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Alright team, gather around!",
+          "timestamp": 0,
+          "confidence": 0.72
+        },
+        {
+          "text": "can barely hear",
+          "timestamp": 2.5,
+          "confidence": 0.31
+        },
+        {
+          "text": "Today we're working on passing drills.",
+          "timestamp": 5.8,
+          "confidence": 0.68
+        },
+        {
+          "text": "",
+          "timestamp": 9.2,
+          "confidence": 0.15
+        },
+        {
+          "text": "I want you to focus on using the inside of your foot.",
+          "timestamp": 11.5,
+          "confidence": 0.75
+        },
+        {
+          "text": "noise",
+          "timestamp": 17.3,
+          "confidence": 0.28
+        },
+        {
+          "text": "Keep your ankle locked and follow through.",
+          "timestamp": 19.7,
+          "confidence": 0.71
+        },
+        {
+          "text": "Can we start?",
+          "timestamp": 24.8,
+          "confidence": 0.54
+        },
+        {
+          "text": "Yes, let's get into pairs.",
+          "timestamp": 26.9,
+          "confidence": 0.69
+        },
+        {
+          "text": "wind noise",
+          "timestamp": 30.5,
+          "confidence": 0.22
+        },
+        {
+          "text": "Start about 10 yards apart.",
+          "timestamp": 33.2,
+          "confidence": 0.66
+        },
+        {
+          "text": "traffic sound",
+          "timestamp": 38.1,
+          "confidence": 0.19
+        },
+        {
+          "text": "Pass it back and forth, nice and controlled.",
+          "timestamp": 40.8,
+          "confidence": 0.73
+        },
+        {
+          "text": "Good job, Marcus!",
+          "timestamp": 46.5,
+          "confidence": 0.78
+        },
+        {
+          "text": "birds chirping",
+          "timestamp": 49.2,
+          "confidence": 0.25
+        },
+        {
+          "text": "Sarah, remember to plant your non-kicking foot next to the ball.",
+          "timestamp": 52.7,
+          "confidence": 0.64
+        },
+        {
+          "text": "distant voices",
+          "timestamp": 59.3,
+          "confidence": 0.33
+        },
+        {
+          "text": "Excellent! Now let's add some movement.",
+          "timestamp": 62.5,
+          "confidence": 0.76
+        },
+        {
+          "text": "One person jogs, the other passes to them.",
+          "timestamp": 68.2,
+          "confidence": 0.71
+        },
+        {
+          "text": "car horn",
+          "timestamp": 73.8,
+          "confidence": 0.18
+        },
+        {
+          "text": "Try to lead them with the pass.",
+          "timestamp": 76.4,
+          "confidence": 0.67
+        },
+        {
+          "text": "wind gust",
+          "timestamp": 81.7,
+          "confidence": 0.21
+        },
+        {
+          "text": "Great work everyone! Keep practicing!",
+          "timestamp": 84.9,
+          "confidence": 0.74
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.85,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "PII_DETECTED",
+        "details": "Student first names ('Marcus', 'Sarah') were detected in the transcription. These should be reviewed and redacted if necessary.",
+        "confidence": 0.9
+      }
+    ],
+    "isMainLectureContent_confidence": 0.9,
+    "isSideConversation_confidence": 0.1,
+    "isIrrelevantContent_confidence": 0.4,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "physical_education",
+      "sports",
+      "soccer",
+      "passing_drills",
+      "kinesthetic_learning",
+      "motor_skills",
+      "coaching",
+      "youth_sports"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "A coach is instructing a team on soccer passing drills. The focus is on proper technique: using the inside of the foot, locking the ankle, planting the non-kicking foot for balance, and following through. The drill progresses from a static exercise, where players pass back and forth in pairs from 10 yards apart, to a dynamic drill involving movement, where one player jogs and the other must lead them with a pass.",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.8,
+        "text": "A coach guides a soccer team through passing drills, emphasizing key techniques like using the inside of the foot and progressing from static to moving passes to improve control and accuracy."
+      },
+      {
+        "version": "detailed",
+        "comparativeValueToRecommendedModality": 0.95,
+        "text": "A coach is instructing a team on soccer passing drills. The focus is on proper technique: using the inside of the foot, locking the ankle, planting the non-kicking foot for balance, and following through. The drill progresses from a static exercise, where players pass back and forth in pairs from 10 yards apart, to a dynamic drill involving movement, where one player jogs and the other must lead them with a pass."
+      },
+      {
+        "version": "narrative",
+        "comparativeValueToRecommendedModality": 0.85,
+        "text": "Imagine you're on the field as the coach calls you in. Today's goal is perfecting your passes. You learn the fundamentals: lock your ankle, use the inside of your foot, and follow through. First, you partner up and pass back and forth, getting the feel for a controlled ball. Then, the challenge increases as your partner starts jogging, and you have to anticipate their movement, leading them into space with your pass. It's all about control, teamwork, and thinking one step ahead."
+      }
+    ],
+    "oneLineSummarization": "A coach leads a soccer team through passing drills, focusing on technique and progressing from static to dynamic passing exercises.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "KINESTHETIC",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Find a partner and stand about 10 yards apart. Feel the ball on the inside of your foot, not your toe. Lock your ankle so it's firm and swing your leg from the hip to make solid contact. Now, have your partner start jogging. Instead of passing to them, pass to the space in front of them. Feel how you have to adjust your body and the pace of the pass to connect with a moving target. This is about connecting your physical actions with your partner's movement."
+      },
+      {
+        "effectiveness": "high",
+        "type": "NONVERBAL",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "Observe the proper form. The non-kicking foot is planted firmly beside the ball, providing a stable base. The ankle of the kicking foot is rigid and unmoving, creating a solid surface for contact. The eyes are up, looking at the target, not down at the ball. The follow-through is a smooth, committed motion pointing directly where you want the ball to go. Your body language should communicate confidence and control through these physical cues."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "PROBLEM_SOLVING",
+        "relativeEffectivenessWeight": 0.75,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.75,
+        "text": "Problem: Your pass is weak or inaccurate. Let's troubleshoot. Step 1: Check your base. Is your non-kicking foot planted firmly next to the ball, not behind or too far away? Step 2: Analyze your contact point. Are you using the wide, solid inside of your foot, or are you accidentally using your toe? Step 3: Evaluate your follow-through. Is your leg swinging smoothly towards your target after you kick? Systematically checking these three points will solve most passing issues."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "VERBAL",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.7,
+        "text": "To execute a proper inside-of-the-foot pass, follow these key instructions. First, position your non-kicking foot alongside the ball to maintain balance. Second, ensure the ankle on your kicking foot is locked to create a firm striking surface. Third, make contact with the center of the ball using the inside arch of your foot for maximum control. Finally, complete the motion by following through with your kicking leg in the direction of your intended target."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "STEP_SEQUENCE",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "ANIMATED_SVG",
+          "ANNOTATED_TEXT"
+        ],
+        "title": "How to Make a Perfect Inside-of-the-Foot Pass",
+        "reasonForSuggestion": "A visual breakdown of the physical steps is the most effective way to teach motor skills, allowing students to see the correct form for each part of the movement.",
+        "promptForGeneration": "Create an animated SVG step-sequence diagram for a youth soccer player demonstrating an inside-of-the-foot pass. Use a simple, clear, and inclusive art style. The sequence must have 4 steps: 1. 'Plant Foot': Show the player planting their non-kicking foot beside the ball, with an annotation 'Plant for balance'. 2. 'Lock Ankle': A close-up view of the kicking foot, showing the ankle in a rigid, 'locked' position with a highlight effect. 3. 'Contact': Show the inside of the foot making clean contact with the center of the ball. Use a subtle 'impact' graphic. 4. 'Follow Through': Show the leg swinging forward towards the target after contact, with a dotted line indicating the path. The animation should loop smoothly. Use bright, engaging colors suitable for sports instruction."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.85,
+        "coreType": "SPATIAL_DIAGRAM",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "ANIMATED_SVG"
+        ],
+        "title": "Drill Setup: Passing with Movement",
+        "reasonForSuggestion": "This clarifies the spatial arrangement and movement patterns for the drill, preventing confusion on the field and illustrating the concept of 'leading' a player.",
+        "promptForGeneration": "Create a simple animated SVG diagram of a soccer passing drill from a top-down perspective on a green field. Show two player icons (Player A and Player B) starting 10 yards apart. Player A has a ball icon. Animate Player B jogging forward along a dotted line path. Simultaneously, animate a solid arrow representing the pass from Player A to a point IN FRONT of Player B's path, so the ball and player arrive at the same time. Label the starting distance '10 yards'. Add a title text: 'Lead the Player: Pass to where they are going'."
+      }
+    ],
+    "purpose": "This drill teaches the fundamental skill of passing in soccer, which is essential for teamwork, maintaining possession of the ball, and creating scoring opportunities. Mastering this technique builds a foundation for all more complex plays and improves a player's overall effectiveness.",
+    "motivation": "Passing is how you connect with your teammates and play as a unified team, not just a group of individuals. A great pass that sets up a goal is just as important and exciting as the shot itself. Getting this right means you'll be a more reliable and valuable player who can help your team succeed.",
+    "learningValueScore": 0.85,
+    "availableActions": [
+      {
+        "actionLabel": "Show Technique",
+        "reason": "Display a visual step-by-step guide to the passing motion.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "See Drill",
+        "reason": "Show a diagram of the moving drill to clarify player positions and movement.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Common Mistakes",
+        "reason": "Highlight common errors (e.g., using the toe, unlocked ankle) to help with self-correction.",
+        "recommendationPriority": "high"
+      }
+    ],
+    "recommendationsToTeacher": [
+      "Use visual aids or a live demonstration to reinforce the correct form, pausing at each key step (plant foot, locked ankle, follow-through).",
+      "Incorporate a fun, low-pressure game at the end of the drill, like 'keep-away,' that requires players to use the passing skills they just practiced in a game-like scenario.",
+      "Pay close attention to players' non-kicking foot placement, as this is a common source of error for beginners and significantly affects both balance and power."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:33:00.148Z",
+    "latencyMs": 43608,
+    "tokenUsage": {
+      "input": 7525,
+      "output": 2480,
+      "total": 12272
+    }
+  }
+}

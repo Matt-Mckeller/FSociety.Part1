@@ -1,0 +1,117 @@
+{
+  "sample": {
+    "durationSeconds": 42,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Before we start today's lesson, I want to address",
+          "timestamp": 0,
+          "confidence": 0.93
+        },
+        {
+          "text": "the situation with Michael. As you all know,",
+          "timestamp": 4.8,
+          "confidence": 0.9
+        },
+        {
+          "text": "he's been going through a difficult time",
+          "timestamp": 9.2,
+          "confidence": 0.91
+        },
+        {
+          "text": "since his parents' divorce and his mom's job loss.",
+          "timestamp": 13.5,
+          "confidence": 0.87
+        },
+        {
+          "text": "The school is providing him with free lunch now,",
+          "timestamp": 18.9,
+          "confidence": 0.89
+        },
+        {
+          "text": "so please be understanding if he seems distracted.",
+          "timestamp": 24.1,
+          "confidence": 0.91
+        },
+        {
+          "text": "Also, he's meeting with the school psychologist",
+          "timestamp": 29.3,
+          "confidence": 0.88
+        },
+        {
+          "text": "every Tuesday during 4th period.",
+          "timestamp": 34.2,
+          "confidence": 0.9
+        },
+        {
+          "text": "Let's all be supportive friends.",
+          "timestamp": 38.7,
+          "confidence": 0.94
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.98,
+    "appropriatenessScore": 0.1,
+    "warnings": [
+      {
+        "type": "PII_DETECTED",
+        "details": "The transcript contains a student's first name ('Michael')."
+      },
+      {
+        "type": "SENSITIVE_PERSONAL_INFORMATION",
+        "details": "The transcript includes sensitive information about a student's family situation (parents' divorce), financial status (mom's job loss, receiving free lunch), and health information (meeting with a school psychologist)."
+      },
+      {
+        "type": "PRIVACY_CONCERN",
+        "details": "Discussion of a specific student's personal, financial, and health information in a recorded classroom setting poses a significant privacy risk."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.01,
+    "isSideConversation_confidence": 0.3,
+    "isIrrelevantContent_confidence": 0.95,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "privacy_concern",
+      "PII",
+      "sensitive_content",
+      "classroom_management",
+      "student_support",
+      "non_instructional"
+    ],
+    "shouldSummarize": false,
+    "shouldSummarizeFalseReason": "Content contains sensitive Personally Identifiable Information (PII) and protected health information about a student. It is not instructional material and must be excluded from academic summaries to protect student privacy.",
+    "waitForMoreContent": false,
+    "summarization": "This segment involves a teacher discussing a specific student's sensitive personal, financial, and health information with the class. Due to the presence of PII and the non-instructional nature of the content, a detailed academic summary is inappropriate and has been omitted to protect student privacy.",
+    "recommendedSummarization": "concise",
+    "additionalSummarizationOptions": [],
+    "oneLineSummarization": "Teacher discloses a student's private family, financial, and health issues to the class; content flagged for severe privacy concerns.",
+    "recommendVisualizationToImproveLearning": false,
+    "visualizationEffectivenessScore": 0,
+    "learningModalityText": [],
+    "visualizationSuggestions": [],
+    "purpose": "This content does not have an academic purpose. Its intent is to foster empathy and manage classroom dynamics regarding a student's personal difficulties. However, it raises significant privacy concerns due to the disclosure of sensitive information.",
+    "motivation": "There is no academic motivation for students in this content. The intended motivation is social: to encourage students to be supportive of a classmate experiencing personal hardship.",
+    "learningValueScore": 0,
+    "availableActions": [],
+    "vocabularyEnhancements": {},
+    "relatedResearch": [],
+    "recommendationsToTeacher": [
+      "Review school and district policies on discussing a student's personal information in a classroom setting, especially when recorded. Alternative methods like one-on-one conversations or guidance counselor-led sessions are more appropriate for protecting student privacy.",
+      "Immediately flag this segment for deletion from any recordings to comply with privacy regulations (e.g., FERPA in the US) and protect the student's sensitive information.",
+      "For teaching empathy, use anonymized scenarios or fictional stories rather than disclosing the real-life, private circumstances of a specific student to the entire class."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:50:02.290Z",
+    "latencyMs": 22361,
+    "tokenUsage": {
+      "input": 7006,
+      "output": 772,
+      "total": 9333
+    }
+  }
+}

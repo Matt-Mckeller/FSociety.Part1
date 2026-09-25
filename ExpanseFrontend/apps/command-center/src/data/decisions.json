@@ -1,0 +1,141 @@
+{
+  "decisions": [
+    {
+      "id": "dec-company-structure",
+      "title": "Separate Companies for Each Business",
+      "decision": "4up, Services, 4eye, and 1game will all be separate companies",
+      "category": "company-structure",
+      "status": "active",
+      "decisionDate": "2026-01-20",
+      "confidenceLevel": "high",
+      "reasoning": "Cleaner branding, separate focus areas, easier to sell/spin off individually. Each has distinct value propositions and target audiences.",
+      "alternatives": [
+        {
+          "option": "Single umbrella company with all products",
+          "pros": [
+            "Simpler structure",
+            "Shared resources",
+            "One brand to market"
+          ],
+          "cons": [
+            "Harder to sell individual products",
+            "Diluted brand focus",
+            "Complex governance"
+          ],
+          "rejected": true,
+          "reason": "Individual products have clearer market positioning when separate"
+        },
+        {
+          "option": "4up + Services combined, 4eye + 1game combined",
+          "pros": [
+            "Natural synergies between pairs",
+            "Fewer entities to manage"
+          ],
+          "cons": [
+            "Still mixing different audiences",
+            "Limits future flexibility"
+          ],
+          "rejected": true,
+          "reason": "Even paired products have distinct enough value props to warrant separation"
+        }
+      ],
+      "impactedProjects": ["4up", "expanse-services", "4eye", "1game"],
+      "linkedQuestionIds": ["q-4up-services-company", "q-4eye-1game-company"],
+      "tags": ["structure", "legal", "branding"]
+    },
+    {
+      "id": "dec-launch-order",
+      "title": "Launch Order: 4up → Services → 4eye/1game",
+      "decision": "Launch 4up first, then Services ~2-3 days later, then 4eye/1game",
+      "category": "launch-order",
+      "status": "active",
+      "decisionDate": "2026-01-20",
+      "confidenceLevel": "high",
+      "reasoning": "Services provides income faster, funds development, and is low effort after 4up because 4up content powers the Services website. 4eye/1game require more complex architecture.",
+      "alternatives": [
+        {
+          "option": "Launch 4eye/1game first (EDU focus)",
+          "pros": [
+            "Aligns with God Tier priority",
+            "Youth market capture",
+            "Harder to replicate"
+          ],
+          "cons": [
+            "Higher complexity",
+            "Longer time to revenue",
+            "More dependencies"
+          ],
+          "rejected": true,
+          "reason": "Need revenue faster to fund development; 4up/Services are quicker wins"
+        },
+        {
+          "option": "Launch all simultaneously",
+          "pros": ["Maximum market presence", "Cross-promotion opportunities"],
+          "cons": [
+            "Spreads focus thin",
+            "Quality suffers",
+            "Impossible with current resources"
+          ],
+          "rejected": true,
+          "reason": "Not feasible with available time and resources"
+        }
+      ],
+      "impactedProjects": ["4up", "expanse-services", "4eye", "1game"],
+      "linkedQuestionIds": ["q-launch-order", "q-services-timeline"],
+      "tags": ["launch", "priority", "revenue", "timeline"]
+    },
+    {
+      "id": "dec-services-phased",
+      "title": "Services Launch in Phases",
+      "decision": "MVP (landing + contact + about) in 2-3 days, Phase 2 (checkout, accounts) in 3-5 more days, Phase 3 (component store) in 1-2 weeks",
+      "category": "scope",
+      "status": "active",
+      "decisionDate": "2026-01-20",
+      "confidenceLevel": "medium",
+      "reasoning": "Breaking into phases allows faster time-to-market while still building toward full vision. MVP can start generating leads immediately.",
+      "alternatives": [
+        {
+          "option": "Full Services launch at once",
+          "pros": ["Complete product from day one", "Better first impression"],
+          "cons": ["2-3 weeks delay", "Higher risk if assumptions wrong"],
+          "rejected": true,
+          "reason": "Speed to revenue is more critical than feature completeness"
+        }
+      ],
+      "impactedProjects": ["expanse-services"],
+      "linkedQuestionIds": ["q-services-timeline"],
+      "implications": [
+        "Services MVP target: Jan 28",
+        "Phase 2 complete: Feb 5",
+        "Component store: Feb 20"
+      ],
+      "tags": ["phasing", "mvp", "timeline"]
+    },
+    {
+      "id": "dec-target-market",
+      "title": "Primary Target: EDU Youth Market",
+      "decision": "Focus on capturing youth into brand funnel as primary target, with mass-market products (4up, Services) funding the EDU vision",
+      "category": "strategy",
+      "status": "active",
+      "decisionDate": "2026-01-19",
+      "confidenceLevel": "medium",
+      "reasoning": "The 'everyone' angle is too easily replicated. EDU market capture requires specialized knowledge and quality that's hard to replicate. However, mass-market products fund the longer-term EDU play.",
+      "alternatives": [
+        {
+          "option": "Target everyone equally",
+          "pros": [
+            "Massive immediate exposure",
+            "More revenue opportunities",
+            "Broader market"
+          ],
+          "cons": ["Easily replicated", "Diluted focus", "Generic positioning"],
+          "rejected": true,
+          "reason": "Differentiation comes from specialized EDU focus; mass-market is means to an end"
+        }
+      ],
+      "impactedProjects": ["4eye", "1game", "4up"],
+      "linkedQuestionIds": ["q-edu-vs-business"],
+      "tags": ["strategy", "market", "positioning"]
+    }
+  ]
+}

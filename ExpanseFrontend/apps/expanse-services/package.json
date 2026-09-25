@@ -1,0 +1,58 @@
+{
+  "name": "expanse-services",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev -p 3471 --hostname localhost",
+    "build": "next build",
+    "start": "serve out",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "@apollo/sandbox": "^2.5.1",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.9",
+    "@mui/lab": "^5.0.0-alpha.165",
+    "@mui/material": "^5.15.9",
+    "@mui/system": "^5.15.9",
+    "@svgr/webpack": "^8.1.0",
+    "dayjs": "^1.11.10",
+    "expanse.dynamicAssets": "../../packages/dynamicAssets",
+    "expanse.staticAssets": "../../packages/staticAssets",
+    "expanse.ui": "../../packages/ui",
+    "framer-motion": "^12.38.0",
+    "html2canvas": "^1.4.1",
+    "js-cookie": "^3.0.5",
+    "lodash.throttle": "^4.1.1",
+    "lottie-web": "^5.12.2",
+    "mysql2": "^3.11.0",
+    "next": "14.1.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "sass": "^1.77.2",
+    "serve": "^14.2.3",
+    "socket.io-client": "^4.8.1",
+    "swiper": "^11.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.6",
+    "@babel/preset-react": "^7.24.6",
+    "@babel/preset-typescript": "^7.24.6",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint-config-next": "14.1.4",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "typescript": "^5"
+  },
+  "browserslist": [
+    "> 0.5%, not dead"
+  ]
+}

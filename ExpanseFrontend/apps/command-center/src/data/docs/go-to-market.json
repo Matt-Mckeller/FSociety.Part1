@@ -1,0 +1,178 @@
+{
+  "overview": {
+    "summary": "Go-to-market strategy focusing on emotional marketing, local validation, and multi-channel outreach to schools and families.",
+    "philosophy": "Focus on the need for improved mental health and engagement. Highlight the poor state of these in society and the need for technology and science used properly."
+  },
+  "strategy": {
+    "dualLensApproach": {
+      "description": "Highlight very needy schools AND top performing students while maintaining the product works for all.",
+      "emotionalAppeals": [
+        {
+          "type": "fear-frustration",
+          "targets": [
+            "Fights and violence",
+            "Teachers unable to control classrooms",
+            "Mental health crisis",
+            "Family disconnection"
+          ],
+          "purpose": "Spread ideas, tell stories, create value"
+        },
+        {
+          "type": "hope-potential",
+          "targets": [
+            "Parent-child reconnection",
+            "Successful student futures",
+            "Teachers empowered to regain control"
+          ],
+          "purpose": "Appeal to growth and positive change"
+        }
+      ],
+      "keyMessages": [
+        "Schools and parents need to do more to improve poor engagement and mental health",
+        "Treat this as a crisis needing immediate urgent solution",
+        "Expanse provides low cost/no cost option - no excuse not to use it",
+        "Students deserve to feel worthy of successful lives and college"
+      ]
+    },
+    "localLaunch": {
+      "name": "KCPS & Local Knowledge Spread",
+      "description": "Spread knowledge related to KCPS case study in local KC environment as launchpad to get into KC area schools.",
+      "tactics": [
+        "Utilize anger, sadness, demand improvement",
+        "Have solution ready",
+        "Turn around KCPS, become a good school with help and good IT",
+        "Use KCPS as important data point that relates to local audience"
+      ]
+    },
+    "organicPromotion": {
+      "description": "Effective marketing and app design should empower students, parents, and teachers to promote the app organically.",
+      "mechanisms": [
+        "Highlight value of positive reinforcement",
+        "Features like student benefits for teacher participation",
+        "Requests for teachers to create stores",
+        "Visibility into class engagement",
+        "Community sharing success stories"
+      ]
+    }
+  },
+  "channels": [
+    {
+      "id": "conferences",
+      "name": "Educational Conferences",
+      "description": "Industry conferences for educators and edtech",
+      "priority": "high"
+    },
+    {
+      "id": "online",
+      "name": "Online Channels",
+      "platforms": ["Podcasts", "Influencers", "Interviews", "Social Media"],
+      "priority": "high"
+    },
+    {
+      "id": "local",
+      "name": "Local Outreach",
+      "activities": ["Conversations", "Validation", "Feedback"],
+      "priority": "high"
+    },
+    {
+      "id": "localized-media",
+      "name": "Localized Media",
+      "platforms": ["Talkshows", "Presentations", "News", "Word of Mouth"],
+      "priority": "medium"
+    },
+    {
+      "id": "b2b-k12",
+      "name": "B2B Outreach: K-12 Schools",
+      "description": "Direct outreach to local K-12 schools",
+      "priority": "high"
+    },
+    {
+      "id": "b2b-higher-ed",
+      "name": "B2B Outreach: Colleges",
+      "description": "Local college campus partnerships",
+      "priority": "medium"
+    },
+    {
+      "id": "app-marketplaces",
+      "name": "Educational App Marketplaces",
+      "description": "Distribution through edtech marketplaces",
+      "priority": "medium"
+    },
+    {
+      "id": "connections",
+      "name": "Personal Connections",
+      "examples": ["JCHS", "Rolla", "Lewis & Clark"],
+      "priority": "medium"
+    }
+  ],
+  "pricing": {
+    "strategy": "Possibly free for schools, possibly paid - TBD",
+    "initialApproach": "Free for districts, focus on families and teachers for revenue"
+  },
+  "audience": {
+    "targetGrades": "6-12 and Higher Education (want to target everyone)",
+    "demographics": [
+      "Low engagement schools",
+      "High performing schools",
+      "Any school"
+    ],
+    "advertisingApproach": "Target social advertisements to general public and education. Direct communication to B2B connections."
+  },
+  "productPrivacy": {
+    "strategy": "Keep features private initially but talk about problems and need for solutions.",
+    "launchPhase": "When MVP is tested, validated, and ready - begin talking about features"
+  },
+  "marketingTopics": {
+    "primary": [
+      "Engagement",
+      "Gamification",
+      "Mental Health",
+      "Positive Reinforcement",
+      "Goals and Purpose",
+      "Control and Autonomy"
+    ],
+    "psychology": [
+      "Dopamine & Chemistry",
+      "Intrinsic vs Extrinsic Motivation",
+      "Skinner/Pavlov conditioning",
+      "Visual, Auditory, Kinetic learning",
+      "Metacognition",
+      "Active learning"
+    ],
+    "classroom": [
+      "Motivated/Engaged Teacher importance",
+      "Classroom Management",
+      "Adaptive content solutions",
+      "Why learning is important"
+    ]
+  },
+  "branding": {
+    "primaryThemes": [
+      "Growth",
+      "Growth Mindset",
+      "Progression",
+      "Continuous Improvement",
+      "Competition",
+      "Customization",
+      "Reward",
+      "Positive Reinforcement",
+      "Goals",
+      "Social Recognition",
+      "Engagement",
+      "Mental Health",
+      "Gamification"
+    ],
+    "gameThemes": [
+      "Achievements",
+      "Quests",
+      "Leveling up",
+      "Experience",
+      "Gems/Crystals/Gold",
+      "Skills",
+      "Buffs/Debuffs",
+      "Inventory",
+      "Rarity",
+      "Currency/Economy"
+    ]
+  }
+}

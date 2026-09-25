@@ -1,0 +1,46 @@
+{
+  "technicalSkills": {
+    "frameworksAndLibraries": {
+      "label": "Frameworks and Libraries",
+      "values": ["React", "Angular", "Next.js", "React Native"]
+    },
+    "languages": {
+      "label": "Languages",
+      "values": ["TypeScript", "JavaScript", "HTML5", "CSS", "SCSS"]
+    },
+    "APIs": {
+      "label": "APIs",
+      "values": ["GraphQL", "Restful APIs", "SOAP"]
+    },
+    "testing": {
+      "label": "Testing",
+      "values": ["Unit Testing", "Automated Testing", "Jasmine/Jest", "Karma"]
+    }
+  },
+  "workExperience": {
+    "expanseServices": {
+      "label": "Expanse Services",
+      "values": [
+        "Developed frontend for Clever + Google Classroom integration.",
+        "Led frontend integration for NRG Energy post-acquisition.",
+        "Customized eCommerce checkout process for Ryerson.",
+        "Overhauled a web application's foundational structure using MUI and styled components."
+      ]
+    },
+    "lexisNexisRiskSolutions": {
+      "label": "LexisNexis Risk Solutions",
+      "values": [
+        "Engineered frontend for the 'Risk Intelligence Network' using TypeScript and Angular 8.",
+        "Implemented dynamic front-end experiences and RESTful API integrations."
+      ]
+    },
+    "realEquityManagement": {
+      "label": "Real Equity Management",
+      "values": [
+        "Developed single-page applications using TypeScript with Angular 2+ and multi-page applications with JavaScript, JQuery, and VueJS.",
+        "Created custom dashboards with interactive data visualizations and reports.",
+        "Developed custom CRM systems and appointment scheduling tools."
+      ]
+    }
+  }
+}

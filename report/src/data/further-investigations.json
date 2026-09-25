@@ -1,0 +1,70 @@
+{
+  "investigations": [
+    {
+      "id": "invest-001",
+      "title": "Westport Area Investigation",
+      "location": "Near 4045 Broadway Blvd, Kansas City, MO 64111",
+      "summary": "Cluster of suspicious businesses and individuals in Westport area including a book/record store with unusual locker system, a tattoo shop with mismatched clientele and distressed employees, and a vape shop owner with suspicious reactions.",
+      "description": "Investigation into a specific area of Westport with multiple concerning observations across three adjacent/nearby businesses.\n\n**Book & Record Store:** Next to the Tattoo parlor is a building which I always wondered why it existed in this area, its a Book and Record store. Very old timey. The Westport area in general is a younger crowd now. I went into the Book and Record store with my backpack (I almost always carry my backpack with me) and they instantly got frustrated with me and told me to put it in the lockers. They literally had a wall of lockers. In a Book and Record store? They said they had problems with theft. To me this is very strange. Initially I assumed that the neighbor tattoo parlor could be selling drugs or something and that people who are fucked up are going in there afterwards. Why the fuck else would people choose to rob a Book and Record store? Additionally, the wall of lockers is still quite strange. If its not just for protection from crimes it could be part of a delivery system or something else.\n\n**Tattoo Shop:** I found a Tattoo shop in Westport (a predominantly young area) with nothing but old biker tattoos and a single anime tattoo which was odd. I also noticed a relatively attractive woman going into the shop (I think it was the tattoo shop anyway) that looked pretty fucked up at like 11am, she was getting food so I assumed she worked there and she had a vehicle which looked like it was on its last leg and making a lot of noise/had difficulty starting. This could be because of the businesses failure to adapt or something else. I did advise the lady who finally came to greet me (there was no one in the front and at least 3 people in the back) that they should update to more modern art, idk if its changed or not but could probably help the business.\n\n**Vape Shop Woman:** This may or may not be related to any of the existing story, but there is a questionable area in Westport where I met a lady and talked to her about her business. Was talking about marketing and how she could build a website to get her business to grow and attract customers. Also, something felt odd during the conversation and I jokingly asked if she was selling drugs in the back or something and she immediately asked if I was wearing a wire which was strange. Personally it seemed like she didn't really want to be involved in that aspect but tbh idk. And she moved from her old location to a new location because her old position was bought out and some other story aspects she didn't want to tell me. The area she moved from was right around the corner.",
+      "observations": [
+        "Book/Record Store: Wall of lockers - unusual for this type of store",
+        "Book/Record Store: Immediate suspicion of narrator carrying backpack",
+        "Book/Record Store: Claimed theft problems",
+        "Book/Record Store: Old-timey store in young crowd area",
+        "Tattoo Shop: Only old biker tattoos plus one anime tattoo - mismatched for young area",
+        "Tattoo Shop: Woman appearing distressed at 11am, possibly employee",
+        "Tattoo Shop: Her vehicle in very poor condition",
+        "Tattoo Shop: No one at front desk, 3+ people in back",
+        "Tattoo Shop: Adjacent to suspicious book/record store",
+        "Vape Shop: Owner immediately asked if narrator was wearing wire after drug joke",
+        "Vape Shop: Owner seemed reluctant or uncomfortable with certain aspects",
+        "Vape Shop: Recently moved from nearby location",
+        "Vape Shop: Old location was bought out",
+        "Vape Shop: Story about move had gaps she wouldn't share"
+      ],
+      "suspicions": [
+        "Book/Record Store lockers could be part of delivery/drop system",
+        "Businesses may be connected through illegal activity",
+        "Unusual business models for the demographic area",
+        "Tattoo shop may be front for illegal activity",
+        "Tattoo shop employees may be in distressed situations",
+        "Tattoo shop back room activity unclear",
+        "Vape shop wire question suggests awareness of surveillance/law enforcement",
+        "Vape shop owner may be pressured into involvement with illegal activity",
+        "Vape shop move may have been forced by criminal organization",
+        "Old vape shop location buyout could be organized crime takeover"
+      ],
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Could this area have coordinated illegal activity? The book store lockers might serve as a dead drop system. The tattoo shop could potentially be a front with distressed employees who may be victims or addicts. The vape shop woman's wire question suggests criminal awareness - she may be a victim or unwilling participant/association. Worth exploring further.",
+          "likelihood": "medium"
+        },
+        {
+          "type": "criminal",
+          "author": "ai",
+          "interpretation": "Could there be organized activity here? Multiple indicators across adjacent businesses raise questions: unusual security measures, mismatched clientele, distressed workers, back room operations, awareness of law enforcement tactics. The clustering of these observations in one area seems notable. Might be worth investigating to understand the patterns.",
+          "likelihood": "medium"
+        },
+        {
+          "type": "random",
+          "author": "ai",
+          "interpretation": "Is there an innocent explanation? Some vintage stores do have theft issues. Tattoo shops may cater to niche clientele (bikers) and struggle to adapt. The vape shop owner may simply be paranoid. Could the businesses in this area be unrelated and each struggling independently? This possibility shouldn't be ruled out.",
+          "likelihood": "medium"
+        }
+      ],
+      "actionItems": [
+        "Document exact locations of all three businesses",
+        "Research business history and ownership for each",
+        "Check for patterns connecting adjacent businesses",
+        "Monitor for unusual traffic patterns",
+        "Look for connections between the businesses",
+        "Research previous vape shop location ownership",
+        "Look for patterns of distressed individuals in the area"
+      ],
+      "priority": "medium",
+      "status": "not_started"
+    }
+  ]
+}

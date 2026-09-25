@@ -1,0 +1,247 @@
+{
+  "sample": {
+    "subject": "History",
+    "gradeLevel": "10th Grade",
+    "qualityScore": 8,
+    "description": "Discussion about the American Revolution",
+    "durationSeconds": 180,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Today we're continuing our unit on the American Revolution.",
+          "timestamp": 0,
+          "confidence": 0.97
+        },
+        {
+          "text": "Last class we discussed the causes. Who remembers the main grievances the colonists had?",
+          "timestamp": 4.5,
+          "confidence": 0.95
+        },
+        {
+          "text": "Taxation without representation.",
+          "timestamp": 10.8,
+          "confidence": 0.98
+        },
+        {
+          "text": "Yes, that's a big one. What else?",
+          "timestamp": 13.2,
+          "confidence": 0.96
+        },
+        {
+          "text": "The Stamp Act and the Tea Act.",
+          "timestamp": 15.9,
+          "confidence": 0.94
+        },
+        {
+          "text": "Good. The British Parliament kept passing laws that affected the colonies without giving them any say.",
+          "timestamp": 18.7,
+          "confidence": 0.96
+        },
+        {
+          "text": "This led to increasing tensions throughout the 1760s and early 1770s.",
+          "timestamp": 25.3,
+          "confidence": 0.95
+        },
+        {
+          "text": "Now, can someone tell me about the Boston Tea Party?",
+          "timestamp": 31.8,
+          "confidence": 0.97
+        },
+        {
+          "text": "It was in 1773, right?",
+          "timestamp": 36.2,
+          "confidence": 0.93
+        },
+        {
+          "text": "Exactly, December 1773. What happened?",
+          "timestamp": 38.5,
+          "confidence": 0.98
+        },
+        {
+          "text": "The colonists dressed as Native Americans and threw tea into the harbor.",
+          "timestamp": 42.1,
+          "confidence": 0.92
+        },
+        {
+          "text": "That's right. They dumped 342 chests of tea, worth about 1.7 million dollars in today's money.",
+          "timestamp": 48.3,
+          "confidence": 0.94
+        },
+        {
+          "text": "This was a direct protest against the Tea Act.",
+          "timestamp": 56.7,
+          "confidence": 0.96
+        },
+        {
+          "text": "How did Britain respond to this?",
+          "timestamp": 60.2,
+          "confidence": 0.98
+        },
+        {
+          "text": "They passed the Intolerable Acts.",
+          "timestamp": 63.8,
+          "confidence": 0.95
+        },
+        {
+          "text": "Correct! The Intolerable Acts, or Coercive Acts, were meant to punish Massachusetts.",
+          "timestamp": 66.5,
+          "confidence": 0.94
+        },
+        {
+          "text": "They closed Boston Harbor until the tea was paid for.",
+          "timestamp": 73.2,
+          "confidence": 0.95
+        },
+        {
+          "text": "They also restricted town meetings and required colonists to house British soldiers.",
+          "timestamp": 78.9,
+          "confidence": 0.93
+        },
+        {
+          "text": "Instead of intimidating the colonists, these acts actually united them.",
+          "timestamp": 85.7,
+          "confidence": 0.96
+        },
+        {
+          "text": "This led to the First Continental Congress in 1774.",
+          "timestamp": 92.1,
+          "confidence": 0.97
+        },
+        {
+          "text": "Delegates from 12 of the 13 colonies met in Philadelphia.",
+          "timestamp": 97.5,
+          "confidence": 0.95
+        },
+        {
+          "text": "Which colony didn't send delegates?",
+          "timestamp": 103.2,
+          "confidence": 0.98
+        },
+        {
+          "text": "Georgia?",
+          "timestamp": 106.5,
+          "confidence": 0.91
+        },
+        {
+          "text": "Yes, Georgia. They were still heavily dependent on British military protection.",
+          "timestamp": 108.3,
+          "confidence": 0.94
+        },
+        {
+          "text": "The Congress organized a boycott of British goods and began preparing for potential conflict.",
+          "timestamp": 115.8,
+          "confidence": 0.95
+        },
+        {
+          "text": "By April 1775, tensions had reached a breaking point.",
+          "timestamp": 123.6,
+          "confidence": 0.96
+        },
+        {
+          "text": "British troops marched to Concord to seize colonial weapons.",
+          "timestamp": 128.9,
+          "confidence": 0.94
+        },
+        {
+          "text": "And that's when the first shots were fired at Lexington.",
+          "timestamp": 134.2,
+          "confidence": 0.97
+        },
+        {
+          "text": "The shot heard round the world, as it came to be known.",
+          "timestamp": 139.5,
+          "confidence": 0.95
+        },
+        {
+          "text": "From that moment on, there was no turning back.",
+          "timestamp": 145.1,
+          "confidence": 0.96
+        },
+        {
+          "text": "The American Revolution had begun.",
+          "timestamp": 149.3,
+          "confidence": 0.98
+        },
+        {
+          "text": "Next class, we'll discuss the major battles and turning points.",
+          "timestamp": 153.7,
+          "confidence": 0.97
+        },
+        {
+          "text": "For homework, I want you to read chapters 6 and 7 and answer the questions at the end.",
+          "timestamp": 159.2,
+          "confidence": 0.94
+        },
+        {
+          "text": "Any questions before we wrap up?",
+          "timestamp": 166.8,
+          "confidence": 0.98
+        },
+        {
+          "text": "No? Alright, see you all on Wednesday.",
+          "timestamp": 170.5,
+          "confidence": 0.97
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.98,
+    "appropriatenessScore": 1,
+    "warnings": [],
+    "isMainLectureContent_confidence": 0.99,
+    "isSideConversation_confidence": 0.01,
+    "isIrrelevantContent_confidence": 0,
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "oneLineSummarization": "American Revolution: Tracing the escalation from colonial grievances like the Tea Act to Britain's Intolerable Acts, culminating in the first shots at Lexington.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "TIMELINE",
+        "title": "Road to Revolution: A Timeline of Events",
+        "description": "A chronological timeline showing the key events from the Tea Act to the Battles of Lexington and Concord, highlighting the cause-and-effect sequence.",
+        "reasonForSuggestion": "The content is a narrative sequence of historical events. A timeline provides a clear, linear structure that helps students organize the information chronologically and understand the escalating tensions.",
+        "promptForGeneration": "Create an interactive HTML timeline for a 10th-grade history class on the American Revolution. The timeline should be horizontal and feature these key events with dates: 'The Tea Act', 'Boston Tea Party (Dec 1773)', 'The Intolerable Acts (1774)', 'First Continental Congress (Sept 1774)', and 'Battles of Lexington & Concord (April 1775)'. Each event must be a clickable point that reveals a short description from the transcript (e.g., for Intolerable Acts: 'Closed Boston Harbor, restricted meetings, and required quartering of soldiers'). Use a colonial-era aesthetic with parchment textures and classic fonts. Add arrows between events to signify the cause-and-effect flow."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.8,
+        "coreType": "MERMAID_FLOWCHART",
+        "title": "Cause and Effect: Path to War",
+        "description": "A flowchart diagram illustrating how each major action by the British led to a specific reaction from the colonists, creating a chain reaction that resulted in war.",
+        "reasonForSuggestion": "This visualization moves beyond simple chronology to explicitly map the cause-and-effect relationships discussed by the teacher, reinforcing the logic of historical escalation for students.",
+        "promptForGeneration": "Generate a Mermaid flowchart diagram with a top-to-bottom layout (graph TD) illustrating the escalation to the American Revolution. Use the following nodes and connections: A[British Policy: Tea Act] --> B{Colonial Protest: Boston Tea Party}; B --> C[British Punishment: Intolerable Acts]; C --> D{Colonial Unification: First Continental Congress}; D --> E[Armed Conflict: Lexington & Concord]. Style node A and C with a red border to signify British actions, and nodes B and D with a blue border for Colonial reactions. The final node E should have a bold outline."
+      },
+      {
+        "effectiveness": "medium",
+        "relativeEffectivenessWeight": 0.6,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.6,
+        "coreType": "COMPARISON_MATRIX",
+        "title": "British Actions vs. Colonial Reactions",
+        "description": "A two-column table that pairs specific British actions (e.g., Intolerable Acts) with the direct colonial responses (e.g., First Continental Congress).",
+        "reasonForSuggestion": "A direct comparison matrix helps students clearly organize the oppositional nature of the conflict and memorize the key action-reaction pairs that defined the pre-revolutionary period.",
+        "promptForGeneration": "Create a static HTML table with two columns and a header row. The header for the left column should be 'British Action (Cause)' and the right column 'Colonial Reaction (Effect)'. Populate the table with these rows: 1) Left: 'Tea Act', Right: 'Boston Tea Party'; 2) Left: 'Intolerable Acts', Right: 'First Continental Congress & Boycotts'; 3) Left: 'March to seize weapons in Concord', Right: 'First shots fired at Lexington'. Use clear, readable fonts and alternating row colors for readability, suitable for a 10th-grade history context."
+      }
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-26T22:09:55.358Z",
+    "latencyMs": 22746,
+    "tokenUsage": {
+      "input": 4456,
+      "output": 1081,
+      "total": 7050
+    }
+  }
+}

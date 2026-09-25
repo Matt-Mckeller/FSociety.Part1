@@ -1,0 +1,442 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-07",
+
+  "overview": {
+    "purpose": "Defines marketing stages from pre-launch through growth, with content strategies and messaging for each phase",
+    "philosophy": "Focus on the need for improved mental health and engagement. Highlight the poor state of these in society and the need for technology and science used properly.",
+    "approach": "Keep features private initially but talk about problems and need for solutions. When MVP is tested, validated, and ready - begin talking about features."
+  },
+
+  "stages": [
+    {
+      "id": "awareness",
+      "name": "Awareness / Problem Education",
+      "phase": 1,
+      "duration": "Ongoing (starts 8-12 weeks before launch)",
+      "description": "Build awareness of the problems without revealing the solution. Establish thought leadership and credibility.",
+      "goals": [
+        "Establish problem awareness in target audiences",
+        "Build email list and social following",
+        "Position Expanse as thought leader in education/mental health",
+        "Gather feedback on messaging resonance"
+      ],
+      "keyMessages": [
+        "Schools are losing control of classrooms",
+        "Youth mental health crisis needs urgent action",
+        "Student engagement is at historic lows",
+        "Technology is making things worse - but it doesn't have to"
+      ],
+      "contentTypes": [
+        {
+          "type": "problem-statistics",
+          "description": "Share alarming statistics about mental health and engagement",
+          "examples": ["145% increase in teen depression", "40%+ increase in suicidal behaviors", "Engagement decline data"],
+          "channels": ["social-media", "blog", "podcasts"],
+          "frequency": "2-3x per week"
+        },
+        {
+          "type": "story-telling",
+          "description": "Tell stories of struggling students, frustrated teachers, disconnected parents",
+          "examples": ["Day in the life of a disengaged student", "Teacher burnout stories", "Parent disconnect stories"],
+          "channels": ["social-media", "video", "blog"],
+          "frequency": "1-2x per week"
+        },
+        {
+          "type": "expert-content",
+          "description": "Share research and expert perspectives on the crisis",
+          "examples": ["Psychology research summaries", "Expert interviews", "Book reviews"],
+          "channels": ["blog", "podcasts", "linkedin"],
+          "frequency": "1x per week"
+        }
+      ],
+      "emotionalAppeals": {
+        "fear": ["Mental health crisis affects YOUR children", "Schools can't handle this alone"],
+        "frustration": ["Why isn't anyone doing anything?", "Traditional solutions aren't working"],
+        "hope": ["There IS a better way", "Technology CAN be part of the solution"]
+      },
+      "channels": [
+        { "id": "social-media", "priority": "high", "platforms": ["Twitter/X", "LinkedIn", "Facebook", "Instagram"] },
+        { "id": "content-marketing", "priority": "high", "platforms": ["Blog", "Medium", "Substack"] },
+        { "id": "podcasts", "priority": "medium", "platforms": ["Guest appearances", "Own podcast"] },
+        { "id": "local-media", "priority": "medium", "platforms": ["Local news", "Talk shows", "Community events"] }
+      ],
+      "kpis": [
+        { "metric": "Email list size", "target": "1,000+ subscribers" },
+        { "metric": "Social engagement rate", "target": "3%+" },
+        { "metric": "Content reach", "target": "10,000+ impressions/week" }
+      ],
+      "doNot": [
+        "Reveal product features",
+        "Mention specific solutions",
+        "Ask for signups to the product"
+      ]
+    },
+    {
+      "id": "pre-launch",
+      "name": "Pre-Launch / Anticipation",
+      "phase": 2,
+      "duration": "4-6 weeks before launch",
+      "description": "Begin teasing the solution. Build waitlist and anticipation. Hint at what's coming without full reveals.",
+      "goals": [
+        "Build waitlist of early adopters",
+        "Generate buzz and anticipation",
+        "Validate messaging and positioning",
+        "Secure early beta testers"
+      ],
+      "keyMessages": [
+        "We've been working on something to help",
+        "A new approach to student engagement is coming",
+        "What if learning felt like gaming?",
+        "Early access coming soon"
+      ],
+      "contentTypes": [
+        {
+          "type": "solution-tease",
+          "description": "Hint at solution without revealing details",
+          "examples": ["What if homework felt like a quest?", "Imagine an app that makes learning addictive"],
+          "channels": ["social-media", "email"],
+          "frequency": "2-3x per week"
+        },
+        {
+          "type": "behind-the-scenes",
+          "description": "Show the team, the mission, the why",
+          "examples": ["Meet the team", "Why we're building this", "Our mission"],
+          "channels": ["video", "social-media", "blog"],
+          "frequency": "1x per week"
+        },
+        {
+          "type": "waitlist-push",
+          "description": "Direct calls to join waitlist",
+          "examples": ["Be first to try", "Early access spots limited", "Join 500+ waiting"],
+          "channels": ["all"],
+          "frequency": "1-2x per week"
+        }
+      ],
+      "emotionalAppeals": {
+        "curiosity": ["What if there was a better way?", "Something new is coming"],
+        "exclusivity": ["Be among the first", "Limited early access"],
+        "hope": ["Finally, a solution that works", "This changes everything"]
+      },
+      "channels": [
+        { "id": "email", "priority": "high", "purpose": "Waitlist nurturing" },
+        { "id": "social-media", "priority": "high", "purpose": "Buzz and reach" },
+        { "id": "website", "priority": "high", "purpose": "Waitlist capture" },
+        { "id": "personal-network", "priority": "high", "purpose": "Early adopter recruitment" }
+      ],
+      "kpis": [
+        { "metric": "Waitlist signups", "target": "500+ signups" },
+        { "metric": "Email open rate", "target": "40%+" },
+        { "metric": "Social shares", "target": "100+ shares on tease content" }
+      ]
+    },
+    {
+      "id": "soft-launch",
+      "name": "Soft Launch / Beta",
+      "phase": 3,
+      "duration": "4-8 weeks",
+      "description": "Launch to limited audience. Gather feedback, iterate, and build case studies. Focus on validation over growth.",
+      "goals": [
+        "Validate product-market fit",
+        "Gather user feedback and testimonials",
+        "Build case studies and success stories",
+        "Fix bugs and improve UX",
+        "Train early advocates"
+      ],
+      "keyMessages": [
+        "Early users are seeing results",
+        "We're learning and improving every day",
+        "Join our growing community of believers",
+        "Help us shape the future of learning"
+      ],
+      "contentTypes": [
+        {
+          "type": "user-testimonials",
+          "description": "Share early user success stories",
+          "examples": ["Student engagement up 40%", "Parent finally sees homework done", "Teacher regains classroom control"],
+          "channels": ["social-media", "email", "website"],
+          "frequency": "2-3x per week"
+        },
+        {
+          "type": "feature-reveals",
+          "description": "Gradually reveal features with demos",
+          "examples": ["Demo: AI Tutor in action", "See the rewards system", "How quests work"],
+          "channels": ["video", "blog", "social-media"],
+          "frequency": "1-2x per week"
+        },
+        {
+          "type": "feedback-requests",
+          "description": "Engage beta users for feedback",
+          "examples": ["What should we build next?", "Rate your experience", "Share your story"],
+          "channels": ["in-app", "email", "community"],
+          "frequency": "Ongoing"
+        }
+      ],
+      "targetAudiences": [
+        { "segment": "personal-connections", "description": "Friends, family, professional network" },
+        { "segment": "local-schools", "description": "KCPS and local KC area schools" },
+        { "segment": "early-adopters", "description": "Waitlist members most eager to try" },
+        { "segment": "edtech-enthusiasts", "description": "Teachers and parents who love trying new tools" }
+      ],
+      "channels": [
+        { "id": "direct-outreach", "priority": "high", "purpose": "Personal recruitment" },
+        { "id": "email", "priority": "high", "purpose": "Beta user communication" },
+        { "id": "in-app", "priority": "high", "purpose": "Feedback collection" },
+        { "id": "local-events", "priority": "medium", "purpose": "Community building" }
+      ],
+      "kpis": [
+        { "metric": "Active beta users", "target": "100+ weekly actives" },
+        { "metric": "NPS score", "target": "50+" },
+        { "metric": "Feature adoption", "target": "3+ features used per user" },
+        { "metric": "Retention", "target": "40%+ 30-day retention" }
+      ]
+    },
+    {
+      "id": "public-launch",
+      "name": "Public Launch",
+      "phase": 4,
+      "duration": "Launch day + 4-6 weeks",
+      "description": "Full public launch. Maximum visibility push. Convert awareness into signups. Establish market presence.",
+      "goals": [
+        "Drive maximum signups",
+        "Generate press coverage",
+        "Achieve viral moments",
+        "Establish market position",
+        "Convert waitlist to active users"
+      ],
+      "keyMessages": [
+        "4Eye is here - make learning feel like gaming",
+        "Join thousands of students transforming their education",
+        "Free for students, powerful for teachers, visible for parents",
+        "The engagement and mental health solution schools need"
+      ],
+      "contentTypes": [
+        {
+          "type": "launch-announcement",
+          "description": "Big reveal across all channels",
+          "examples": ["We're live!", "Introducing 4Eye", "The wait is over"],
+          "channels": ["all"],
+          "frequency": "Launch day blitz"
+        },
+        {
+          "type": "demo-videos",
+          "description": "Show product in action",
+          "examples": ["Full product tour", "Student perspective", "Teacher dashboard tour"],
+          "channels": ["youtube", "website", "social-media"],
+          "frequency": "Multiple at launch"
+        },
+        {
+          "type": "press-kit",
+          "description": "Materials for media coverage",
+          "examples": ["Founder story", "Product screenshots", "Statistics and impact"],
+          "channels": ["press", "media-outreach"],
+          "frequency": "At launch"
+        },
+        {
+          "type": "case-studies",
+          "description": "Detailed success stories from beta",
+          "examples": ["How School X improved engagement 50%", "Student testimonial deep dive"],
+          "channels": ["website", "sales-materials", "blog"],
+          "frequency": "2-3 ready at launch"
+        }
+      ],
+      "emotionalAppeals": {
+        "urgency": ["Students need this now", "Don't let another semester pass"],
+        "social-proof": ["Join 1000+ students", "Teachers love this", "Parents are raving"],
+        "transformation": ["Change your child's relationship with learning", "Be the teacher students remember"]
+      },
+      "channels": [
+        { "id": "press", "priority": "high", "purpose": "Earned media coverage" },
+        { "id": "social-media", "priority": "high", "purpose": "Viral reach" },
+        { "id": "email", "priority": "high", "purpose": "Waitlist conversion" },
+        { "id": "conferences", "priority": "high", "purpose": "Industry presence" },
+        { "id": "paid-ads", "priority": "medium", "purpose": "Targeted reach" }
+      ],
+      "kpis": [
+        { "metric": "Launch day signups", "target": "500+ signups" },
+        { "metric": "Press mentions", "target": "5+ articles" },
+        { "metric": "Social reach", "target": "100,000+ impressions" },
+        { "metric": "Waitlist conversion", "target": "50%+ convert to active" }
+      ]
+    },
+    {
+      "id": "growth",
+      "name": "Growth / Expansion",
+      "phase": 5,
+      "duration": "Ongoing",
+      "description": "Sustained growth through organic and paid channels. Expand to new markets. Build B2B revenue. Create community.",
+      "goals": [
+        "Achieve sustainable growth rate",
+        "Expand to new markets and segments",
+        "Build B2B sales pipeline",
+        "Create self-sustaining community",
+        "Establish category leadership"
+      ],
+      "keyMessages": [
+        "The proven solution for student engagement",
+        "Trusted by X schools and Y students",
+        "The gamification platform that actually works",
+        "Built by educators, loved by students"
+      ],
+      "contentTypes": [
+        {
+          "type": "case-studies",
+          "description": "Detailed success stories for sales",
+          "examples": ["District-wide implementation results", "Before/after comparisons"],
+          "channels": ["sales-materials", "website", "conferences"],
+          "frequency": "Ongoing collection"
+        },
+        {
+          "type": "thought-leadership",
+          "description": "Establish category expertise",
+          "examples": ["State of EdTech reports", "Gamification best practices", "Research partnerships"],
+          "channels": ["blog", "speaking", "publications"],
+          "frequency": "1-2x per month"
+        },
+        {
+          "type": "community-content",
+          "description": "User-generated and community content",
+          "examples": ["Teacher tip sharing", "Student achievements", "Parent testimonials"],
+          "channels": ["community", "social-media", "in-app"],
+          "frequency": "Ongoing"
+        },
+        {
+          "type": "feature-updates",
+          "description": "Continuous improvement communication",
+          "examples": ["New feature launches", "Improvement announcements", "Roadmap sharing"],
+          "channels": ["email", "in-app", "blog"],
+          "frequency": "Monthly"
+        }
+      ],
+      "expansionTargets": [
+        { "segment": "k12-districts", "approach": "B2B sales, pilots, district-wide deals" },
+        { "segment": "higher-ed", "approach": "College partnerships, campus ambassadors" },
+        { "segment": "international", "approach": "Translation, localization, local partnerships" },
+        { "segment": "tutoring-centers", "approach": "B2B integrations, white-label options" }
+      ],
+      "channels": [
+        { "id": "b2b-sales", "priority": "high", "purpose": "District/school deals" },
+        { "id": "community", "priority": "high", "purpose": "Organic growth and retention" },
+        { "id": "referrals", "priority": "high", "purpose": "Word-of-mouth growth" },
+        { "id": "content-marketing", "priority": "medium", "purpose": "SEO and thought leadership" },
+        { "id": "paid-ads", "priority": "medium", "purpose": "Targeted acquisition" },
+        { "id": "partnerships", "priority": "medium", "purpose": "Channel partnerships" }
+      ],
+      "kpis": [
+        { "metric": "Monthly active users", "target": "20%+ MoM growth" },
+        { "metric": "B2B pipeline", "target": "10+ qualified leads/month" },
+        { "metric": "NPS", "target": "60+" },
+        { "metric": "Organic traffic", "target": "50%+ of signups" },
+        { "metric": "Revenue", "target": "Path to profitability" }
+      ]
+    }
+  ],
+
+  "channelStrategy": {
+    "conferences": {
+      "id": "conferences",
+      "name": "Educational Conferences",
+      "priority": "high",
+      "description": "Industry conferences for educators and edtech",
+      "examples": ["ISTE", "ASCD", "State education conferences"],
+      "bestFor": ["awareness", "public-launch", "growth"],
+      "investment": "medium-high"
+    },
+    "online": {
+      "id": "online",
+      "name": "Online Channels",
+      "priority": "high",
+      "platforms": ["Podcasts", "Influencers", "Interviews", "Social Media"],
+      "bestFor": ["all-stages"],
+      "investment": "low-medium"
+    },
+    "local": {
+      "id": "local",
+      "name": "Local Outreach",
+      "priority": "high",
+      "description": "KCPS & Local KC area as launchpad",
+      "activities": ["Conversations", "Validation", "Feedback", "Pilots"],
+      "bestFor": ["soft-launch", "public-launch"],
+      "investment": "low"
+    },
+    "b2b-k12": {
+      "id": "b2b-k12",
+      "name": "B2B Outreach: K-12 Schools",
+      "priority": "high",
+      "description": "Direct outreach to local K-12 schools",
+      "bestFor": ["soft-launch", "growth"],
+      "investment": "medium"
+    },
+    "app-marketplaces": {
+      "id": "app-marketplaces",
+      "name": "Educational App Marketplaces",
+      "priority": "medium",
+      "description": "Distribution through edtech marketplaces",
+      "bestFor": ["public-launch", "growth"],
+      "investment": "low"
+    }
+  },
+
+  "messaging": {
+    "brandThemes": [
+      "Growth",
+      "Growth Mindset", 
+      "Progression",
+      "Continuous Improvement",
+      "Competition",
+      "Customization",
+      "Reward",
+      "Positive Reinforcement",
+      "Goals",
+      "Social Recognition",
+      "Engagement",
+      "Mental Health",
+      "Gamification"
+    ],
+    "gameThemes": [
+      "Achievements",
+      "Quests",
+      "Leveling up",
+      "Experience",
+      "Gems/Crystals/Gold",
+      "Skills",
+      "Buffs/Debuffs",
+      "Inventory",
+      "Rarity",
+      "Currency/Economy"
+    ],
+    "topics": {
+      "primary": [
+        "Engagement",
+        "Gamification",
+        "Mental Health",
+        "Positive Reinforcement",
+        "Goals and Purpose",
+        "Control and Autonomy"
+      ],
+      "psychology": [
+        "Dopamine & Chemistry",
+        "Intrinsic vs Extrinsic Motivation",
+        "Skinner/Pavlov conditioning",
+        "Visual, Auditory, Kinetic learning",
+        "Metacognition",
+        "Active learning"
+      ],
+      "classroom": [
+        "Motivated/Engaged Teacher importance",
+        "Classroom Management",
+        "Adaptive content solutions",
+        "Why learning is important"
+      ]
+    }
+  },
+
+  "metadata": {
+    "campaign": "4eye",
+    "sources": [
+      "apps/command-center/src/data/docs/go-to-market.json"
+    ],
+    "designedForAudiences": ["internal", "investors", "stakeholders", "team", "public"],
+    "notes": "Stages are flexible - timing depends on product readiness and market conditions"
+  }
+}

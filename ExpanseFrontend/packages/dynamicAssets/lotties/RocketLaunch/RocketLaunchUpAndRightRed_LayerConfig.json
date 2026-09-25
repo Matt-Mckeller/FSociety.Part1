@@ -1,0 +1,296 @@
+{
+  "MainCharacterRightHandPalmFill": {
+    "id": "MainCharacterRightHandPalmFill",
+    "path": "layers[0].shapes[0].it[1].c.k",
+    "originalColor": "#ff4242ff",
+    "group": "MainCharacter",
+    "layer": "RightHandPalmFill"
+  },
+  "MainCharacterRightHandThumbFill": {
+    "id": "MainCharacterRightHandThumbFill",
+    "path": "layers[0].shapes[1].it[0].it[0].it[1].c.k",
+    "originalColor": "#ff8585ff",
+    "group": "MainCharacter",
+    "layer": "RightHandThumbFill"
+  },
+  "MainCharacterLeftHandPalmFill": {
+    "id": "MainCharacterLeftHandPalmFill",
+    "path": "layers[1].shapes[0].it[1].c.k",
+    "originalColor": "#ff4242ff",
+    "group": "MainCharacter",
+    "layer": "LeftHandPalmFill"
+  },
+  "MainCharacterLeftHandThumbFill": {
+    "id": "MainCharacterLeftHandThumbFill",
+    "path": "layers[1].shapes[1].it[0].it[0].it[1].c.k",
+    "originalColor": "#ff8585ff",
+    "group": "MainCharacter",
+    "layer": "LeftHandThumbFill"
+  },
+  "MainCharacterHeadBaseFill": {
+    "id": "MainCharacterHeadBaseFill",
+    "path": "layers[2].shapes[0].it[1].c.k",
+    "originalColor": "#fe0606ff",
+    "group": "MainCharacter",
+    "layer": "HeadBaseFill"
+  },
+  "MainCharacterHeadFaceFill": {
+    "id": "MainCharacterHeadFaceFill",
+    "path": "layers[2].shapes[1].it[1].c.k",
+    "originalColor": "#ff8585ff",
+    "group": "MainCharacter",
+    "layer": "HeadFaceFill"
+  },
+  "MainCharacterNeckFill": {
+    "id": "MainCharacterNeckFill",
+    "path": "layers[3].shapes[0].it[1].c.k",
+    "originalColor": "#ff6666ff",
+    "group": "MainCharacter",
+    "layer": "NeckFill"
+  },
+  "MainCharacterTorsoFill": {
+    "id": "MainCharacterTorsoFill",
+    "path": "layers[3].shapes[1].it[0].it[1].c.k",
+    "originalColor": "#ff4242ff",
+    "group": "MainCharacter",
+    "layer": "TorsoFill"
+  },
+  "MainCharacterLegUpperFill": {
+    "id": "MainCharacterLegUpperFill",
+    "path": "layers[4].shapes[0].it[1].c.k",
+    "originalColor": "#ff7575ff",
+    "group": "MainCharacter",
+    "layer": "LegUpperFill"
+  },
+  "MainCharacterFootFill": {
+    "id": "MainCharacterFootFill",
+    "path": "layers[4].shapes[1].it[0].it[1].c.k",
+    "originalColor": "#ff7575ff",
+    "group": "MainCharacter",
+    "layer": "FootFill"
+  },
+  "MainCharacterLegLowerFill": {
+    "id": "MainCharacterLegLowerFill",
+    "path": "layers[4].shapes[2].it[0].it[1].c.k",
+    "originalColor": "#be3030ff",
+    "group": "MainCharacter",
+    "layer": "LegLowerFill"
+  },
+  "RocketExhaustCloudFill": {
+    "id": "RocketExhaustCloudFill",
+    "path": "layers[5].shapes[0].it[1].c.k",
+    "originalColor": "#ffffffff",
+    "group": "Rocket",
+    "layer": "ExhaustCloudFill"
+  },
+  "SidekickCharacterLeftHandThumbFill": {
+    "id": "SidekickCharacterLeftHandThumbFill",
+    "path": "layers[6].shapes[0].it[0].it[0].it[1].c.k",
+    "originalColor": "#ff8585ff",
+    "group": "SidekickCharacter",
+    "layer": "LeftHandThumbFill"
+  },
+  "SidekickCharacterLeftHandPalmFill": {
+    "id": "SidekickCharacterLeftHandPalmFill",
+    "path": "layers[6].shapes[1].it[0].it[0].it[1].c.k",
+    "originalColor": "#ff7575ff",
+    "group": "SidekickCharacter",
+    "layer": "LeftHandPalmFill"
+  },
+  "RocketWindowLeftFill": {
+    "id": "RocketWindowLeftFill",
+    "path": "layers[7].layers[0].shapes[0].it[0].it[0].it[2].c.k",
+    "originalColor": "#ffffffff",
+    "group": "Rocket",
+    "layer": "WindowLeftFill"
+  },
+  "RocketWindowLeftFrameFill": {
+    "id": "RocketWindowLeftFrameFill",
+    "path": "layers[7].layers[0].shapes[0].it[1].it[0].it[1].c.k",
+    "originalColor": "#ff7575ff",
+    "group": "Rocket",
+    "layer": "WindowLeftFrameFill"
+  },
+  "RocketWindowRightFill": {
+    "id": "RocketWindowRightFill",
+    "path": "layers[7].layers[0].shapes[1].it[0].it[0].it[2].c.k",
+    "originalColor": "#ffffffff",
+    "group": "Rocket",
+    "layer": "WindowRightFill"
+  },
+  "RocketWindowRightFrameFill": {
+    "id": "RocketWindowRightFrameFill",
+    "path": "layers[7].layers[0].shapes[1].it[1].it[0].it[1].c.k",
+    "originalColor": "#ff7575ff",
+    "group": "Rocket",
+    "layer": "WindowRightFrameFill"
+  },
+  "RocketWindowBottomFill": {
+    "id": "RocketWindowBottomFill",
+    "path": "layers[7].layers[0].shapes[2].it[0].it[0].it[2].c.k",
+    "originalColor": "#ffffffff",
+    "group": "Rocket",
+    "layer": "WindowBottomFill"
+  },
+  "RocketWindowBottomFrameFill": {
+    "id": "RocketWindowBottomFrameFill",
+    "path": "layers[7].layers[0].shapes[2].it[1].it[0].it[1].c.k",
+    "originalColor": "#ff7575ff",
+    "group": "Rocket",
+    "layer": "WindowBottomFrameFill"
+  },
+  "RocketNoseConeFill": {
+    "id": "RocketNoseConeFill",
+    "path": "layers[7].layers[0].shapes[3].it[1].c.k",
+    "originalColor": "#f32020ff",
+    "group": "Rocket",
+    "layer": "NoseConeFill"
+  },
+  "RocketFinBottomFill": {
+    "id": "RocketFinBottomFill",
+    "path": "layers[7].layers[0].shapes[4].it[1].c.k",
+    "originalColor": "#db3333ff",
+    "group": "Rocket",
+    "layer": "FinBottomFill"
+  },
+  "RocketFinLeftFill": {
+    "id": "RocketFinLeftFill",
+    "path": "layers[7].layers[0].shapes[5].it[1].c.k",
+    "originalColor": "#db3333ff",
+    "group": "Rocket",
+    "layer": "FinLeftFill"
+  },
+  "RocketExhaustOuterFlameFill": {
+    "id": "RocketExhaustOuterFlameFill",
+    "path": "layers[7].layers[1].shapes[0].it[0].it[0].it[1].c.k",
+    "originalColor": "#ff7575ff",
+    "group": "Rocket",
+    "layer": "ExhaustOuterFlameFill"
+  },
+  "RocketExhaustInnerFlameFill": {
+    "id": "RocketExhaustInnerFlameFill",
+    "path": "layers[7].layers[1].shapes[1].it[0].it[0].it[1].c.k",
+    "originalColor": "#fe0606ff",
+    "group": "Rocket",
+    "layer": "ExhaustInnerFlameFill"
+  },
+  "SidekickCharacterHeadBaseFill": {
+    "id": "SidekickCharacterHeadBaseFill",
+    "path": "layers[8].shapes[0].it[1].c.k",
+    "originalColor": "#ff4242ff",
+    "group": "SidekickCharacter",
+    "layer": "HeadBaseFill"
+  },
+  "SidekickCharacterHeadFaceFill": {
+    "id": "SidekickCharacterHeadFaceFill",
+    "path": "layers[8].shapes[1].it[1].c.k",
+    "originalColor": "#ff8585ff",
+    "group": "SidekickCharacter",
+    "layer": "HeadFaceFill"
+  },
+  "SidekickCharacterRightHandPalmFill": {
+    "id": "SidekickCharacterRightHandPalmFill",
+    "path": "layers[9].shapes[0].it[1].c.k",
+    "originalColor": "#ff7575ff",
+    "group": "SidekickCharacter",
+    "layer": "RightHandPalmFill"
+  },
+  "SidekickCharacterNeckFill": {
+    "id": "SidekickCharacterNeckFill",
+    "path": "layers[10].shapes[0].it[1].c.k",
+    "originalColor": "#ff6666ff",
+    "group": "SidekickCharacter",
+    "layer": "NeckFill"
+  },
+  "SidekickCharacterTorsoFill": {
+    "id": "SidekickCharacterTorsoFill",
+    "path": "layers[10].shapes[1].it[1].c.k",
+    "originalColor": "#ff7575ff",
+    "group": "SidekickCharacter",
+    "layer": "TorsoFill"
+  },
+  "SidekickCharacterLegUpperFill": {
+    "id": "SidekickCharacterLegUpperFill",
+    "path": "layers[11].shapes[0].it[1].c.k",
+    "originalColor": "#ff4242ff",
+    "group": "SidekickCharacter",
+    "layer": "LegUpperFill"
+  },
+  "SidekickCharacterFootFill": {
+    "id": "SidekickCharacterFootFill",
+    "path": "layers[11].shapes[1].it[1].c.k",
+    "originalColor": "#ff4242ff",
+    "group": "SidekickCharacter",
+    "layer": "FootFill"
+  },
+  "SidekickCharacterLegLowerFill": {
+    "id": "SidekickCharacterLegLowerFill",
+    "path": "layers[11].shapes[2].it[1].c.k",
+    "originalColor": "#f32020ff",
+    "group": "SidekickCharacter",
+    "layer": "LegLowerFill"
+  },
+  "SparkleTopRightFill": {
+    "id": "SparkleTopRightFill",
+    "path": "assets[1].layers[0].shapes[0].it[0].it[1].c.k",
+    "originalColor": "#ff9e9eff",
+    "group": "Sparkles",
+    "layer": "TopRightFill"
+  },
+  "SparkleTopRightLateFill": {
+    "id": "SparkleTopRightLateFill",
+    "path": "assets[1].layers[1].shapes[0].it[0].it[1].c.k",
+    "originalColor": "#ff9e9eff",
+    "group": "Sparkles",
+    "layer": "TopRightLateFill"
+  },
+  "SparkleTopCenterFill": {
+    "id": "SparkleTopCenterFill",
+    "path": "assets[1].layers[2].shapes[0].it[0].it[1].c.k",
+    "originalColor": "#ff9e9eff",
+    "group": "Sparkles",
+    "layer": "TopCenterFill"
+  },
+  "SparkleFarRightFill": {
+    "id": "SparkleFarRightFill",
+    "path": "assets[1].layers[3].shapes[0].it[0].it[1].c.k",
+    "originalColor": "#f32020ff",
+    "group": "Sparkles",
+    "layer": "FarRightFill"
+  },
+  "SparkleFarLeftFill": {
+    "id": "SparkleFarLeftFill",
+    "path": "assets[1].layers[4].shapes[0].it[0].it[1].c.k",
+    "originalColor": "#f32020ff",
+    "group": "Sparkles",
+    "layer": "FarLeftFill"
+  },
+  "SparkleTopLeftFill": {
+    "id": "SparkleTopLeftFill",
+    "path": "assets[1].layers[5].shapes[0].it[0].it[1].c.k",
+    "originalColor": "#fe0606ff",
+    "group": "Sparkles",
+    "layer": "TopLeftFill"
+  },
+  "SparkleBottomLeftFill": {
+    "id": "SparkleBottomLeftFill",
+    "path": "assets[1].layers[6].shapes[0].it[0].it[1].c.k",
+    "originalColor": "#fe0606ff",
+    "group": "Sparkles",
+    "layer": "BottomLeftFill"
+  },
+  "SparkleBottomCenterFill": {
+    "id": "SparkleBottomCenterFill",
+    "path": "assets[1].layers[7].shapes[0].it[0].it[1].c.k",
+    "originalColor": "#fe0606ff",
+    "group": "Sparkles",
+    "layer": "BottomCenterFill"
+  },
+  "SparkleBottomRightFill": {
+    "id": "SparkleBottomRightFill",
+    "path": "assets[1].layers[8].shapes[0].it[0].it[1].c.k",
+    "originalColor": "#ff7575ff",
+    "group": "Sparkles",
+    "layer": "BottomRightFill"
+  }
+}

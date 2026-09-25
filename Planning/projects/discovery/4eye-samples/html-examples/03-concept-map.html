@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Concept Map - Photosynthesis</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+
+    .container {
+      background: white;
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+      max-width: 1100px;
+      width: 100%;
+    }
+
+    h1 {
+      text-align: center;
+      color: #1e293b;
+      margin-bottom: 10px;
+      font-size: 32px;
+    }
+
+    .subtitle {
+      text-align: center;
+      color: #64748b;
+      margin-bottom: 40px;
+      font-size: 16px;
+    }
+
+    .concept-map {
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .central-node {
+      animation: scaleIn 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    }
+
+    @keyframes scaleIn {
+      from {
+        opacity: 0;
+        transform: scale(0);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .branch, .sub-branch {
+      opacity: 0;
+      animation: branchGrow 0.6s ease-out forwards;
+    }
+
+    .branch[data-delay="0.3"] { animation-delay: 0.3s; }
+    .branch[data-delay="0.4"] { animation-delay: 0.4s; }
+    .branch[data-delay="0.5"] { animation-delay: 0.5s; }
+    .branch[data-delay="0.6"] { animation-delay: 0.6s; }
+    .sub-branch[data-delay="0.6"] { animation-delay: 0.6s; }
+
+    @keyframes branchGrow {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .connection {
+      stroke-dasharray: 500;
+      stroke-dashoffset: 500;
+      animation: drawLine 0.8s ease-out forwards;
+    }
+
+    @keyframes drawLine {
+      to { stroke-dashoffset: 0; }
+    }
+
+    .branch:hover circle,
+    .sub-branch:hover circle {
+      filter: brightness(1.2) drop-shadow(0 0 15px currentColor);
+      transform: scale(1.1);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .central-node circle {
+      filter: drop-shadow(0 0 20px rgba(139, 92, 246, 0.6));
+      animation: centralPulse 2s ease-in-out infinite;
+    }
+
+    @keyframes centralPulse {
+      0%, 100% { filter: drop-shadow(0 0 20px rgba(139, 92, 246, 0.6)); }
+      50% { filter: drop-shadow(0 0 30px rgba(139, 92, 246, 0.9)); }
+    }
+
+    text {
+      font-family: system-ui, -apple-system, sans-serif;
+      pointer-events: none;
+    }
+
+    .info {
+      margin-top: 40px;
+      padding: 20px;
+      background: #f1f5f9;
+      border-radius: 12px;
+      color: #475569;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    .info strong {
+      color: #1e293b;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🌱 Concept Map</h1>
+    <p class="subtitle">Photosynthesis - Interconnected Ideas</p>
+    
+    <svg viewBox="0 0 1000 700" class="concept-map">
+      <!-- Central concept -->
+      <g class="central-node">
+        <circle cx="500" cy="350" r="80" fill="#8b5cf6" />
+        <text x="500" y="350" text-anchor="middle" fill="white" font-size="18" font-weight="bold">
+          <tspan x="500" dy="-5">Photosynthesis</tspan>
+        </text>
+      </g>
+      
+      <!-- Branch 1: Light -->
+      <g class="branch" data-delay="0.3">
+        <line x1="500" y1="350" x2="300" y2="200" class="connection" stroke="#cbd5e1" stroke-width="3"/>
+        <circle cx="300" cy="200" r="60" fill="#10b981" />
+        <text x="300" y="200" text-anchor="middle" fill="white" font-size="14" font-weight="600">
+          <tspan x="300" dy="-5">Light</tspan>
+          <tspan x="300" dy="20">Energy</tspan>
+        </text>
+      </g>
+      
+      <!-- Sub-branch 1a -->
+      <g class="sub-branch" data-delay="0.6">
+        <line x1="300" y1="200" x2="150" y2="100" class="connection" stroke="#cbd5e1" stroke-width="2"/>
+        <circle cx="150" cy="100" r="45" fill="#34d399" />
+        <text x="150" y="105" text-anchor="middle" fill="white" font-size="12">Sunlight</text>
+      </g>
+      
+      <!-- Branch 2: Water -->
+      <g class="branch" data-delay="0.4">
+        <line x1="500" y1="350" x2="700" y2="200" class="connection" stroke="#cbd5e1" stroke-width="3"/>
+        <circle cx="700" cy="200" r="60" fill="#3b82f6" />
+        <text x="700" y="200" text-anchor="middle" fill="white" font-size="14" font-weight="600">
+          <tspan x="700" dy="-5">Water</tspan>
+          <tspan x="700" dy="20">(H₂O)</tspan>
+        </text>
+      </g>
+      
+      <!-- Branch 3: CO2 -->
+      <g class="branch" data-delay="0.5">
+        <line x1="500" y1="350" x2="300" y2="500" class="connection" stroke="#cbd5e1" stroke-width="3"/>
+        <circle cx="300" cy="500" r="60" fill="#f59e0b" />
+        <text x="300" y="500" text-anchor="middle" fill="white" font-size="14" font-weight="600">
+          <tspan x="300" dy="-5">Carbon</tspan>
+          <tspan x="300" dy="20">Dioxide</tspan>
+        </text>
+      </g>
+      
+      <!-- Branch 4: Output -->
+      <g class="branch" data-delay="0.6">
+        <line x1="500" y1="350" x2="700" y2="500" class="connection" stroke="#cbd5e1" stroke-width="3"/>
+        <circle cx="700" cy="500" r="60" fill="#ef4444" />
+        <text x="700" y="500" text-anchor="middle" fill="white" font-size="14" font-weight="600">
+          <tspan x="700" dy="-5">Glucose +</tspan>
+          <tspan x="700" dy="20">Oxygen</tspan>
+        </text>
+      </g>
+    </svg>
+
+    <div class="info">
+      <strong>Use Case:</strong> Showing interconnected concepts in science, branching from central idea.
+      <br><br>
+      <strong>Features:</strong> Central node pulses continuously, branches grow outward organically, connections draw themselves, hover over nodes for interaction.
+      <br><br>
+      <strong>Learning Benefit:</strong> Visual representation of relationships helps students understand how concepts connect.
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-label="Heart.Evolve ember — Becoming">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1c1917"/>
+      <stop offset="100%" stop-color="#9a3412"/>
+    </linearGradient>
+    <linearGradient id="h" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fdba74"/>
+      <stop offset="100%" stop-color="#ea580c"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="600" fill="url(#bg)"/>
+  <g transform="translate(480 300)">
+    <path d="M0 78 C-48 22 -128 -24 -128 -78 C-128 -122 -94 -146 -58 -146 C-24 -146 0 -122 0 -98 C0 -122 24 -146 58 -146 C94 -146 128 -122 128 -78 C128 -24 48 22 0 78 Z" fill="url(#h)"/>
+  </g>
+  <text x="48" y="64" fill="#fdba74" font-family="ui-monospace,Menlo,monospace" font-size="22" font-weight="700">Becoming · ember</text>
+  <text x="48" y="560" fill="#ffedd5" font-family="ui-sans-serif,system-ui" font-size="18">Variant pass — drop Desktop frames to replace</text>
+</svg>

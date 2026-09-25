@@ -1,0 +1,630 @@
+{
+  "focuses": [
+    {
+      "id": "sf-financial",
+      "name": "Financial Improvement",
+      "icon": "💰",
+      "description": "Achieving financial stability and runway to enable focused product development without existential pressure.",
+      "currentWeight": 65,
+      "previousWeight": 55,
+      "weightUpdatedAt": "2026-02-05",
+      "weightFactors": {
+        "urgency": "high",
+        "urgencyNotes": "Runway ~2 months, monthly obligations continue, blocking other priorities",
+        "importance": "critical",
+        "importanceNotes": "Foundational for all other goals, enables risk-taking on product development",
+        "feasibility": "medium",
+        "feasibilityNotes": "Multiple viable paths exist, skills and resources available",
+        "context": "favorable",
+        "contextNotes": "Market timing good for EdTech, AI capabilities expanding options"
+      },
+      "strengths": [
+        { "id": "fin-str-1", "title": "Strong technical skills", "description": "Can build products independently", "impact": "high" },
+        { "id": "fin-str-2", "title": "Actively reduced spending", "description": "Have been successfully spending less money, extending runway", "impact": "high" },
+        { "id": "fin-str-3", "title": "Multiple monetization paths", "description": "Products, services, consulting all viable", "impact": "high" },
+        { "id": "fin-str-4", "title": "Low fixed costs", "description": "Flexible lifestyle, can adjust as needed", "impact": "medium" }
+      ],
+      "weaknesses": [
+        { "id": "fin-wk-1", "title": "Solo founder bandwidth", "description": "Limited capacity to pursue all options simultaneously", "impact": "high" },
+        { "id": "fin-wk-2", "title": "No current revenue", "description": "Starting from zero, need to build from scratch", "impact": "high" },
+        { "id": "fin-wk-3", "title": "Limited sales experience", "description": "Technical background, less comfort with sales", "impact": "medium" }
+      ],
+      "opportunities": [
+        { "id": "fin-opp-1", "title": "EdTech market growth", "description": "Sector experiencing rapid expansion and investment", "impact": "high" },
+        { "id": "fin-opp-2", "title": "AI/LLM cost reductions", "description": "Technology costs decreasing, capabilities increasing", "impact": "high" },
+        { "id": "fin-opp-3", "title": "Consulting demand exists", "description": "Immediate income possible through services", "impact": "medium" },
+        { "id": "fin-opp-4", "title": "Funding available in space", "description": "Investors interested in AI/Education", "impact": "medium" },
+        { "id": "fin-opp-5", "title": "Potential free housing", "description": "May have option to stay somewhere for free or secure affordable apartment", "impact": "high" },
+        { "id": "fin-opp-6", "title": "Credit extension available", "description": "May be able to get another credit card to extend runway", "impact": "medium" }
+      ],
+      "risks": [
+        { "id": "fin-risk-1", "title": "Runway depletion", "description": "Running out of money before achieving stability", "impact": "high" },
+        { "id": "fin-risk-2", "title": "Competition moves faster", "description": "Others capture market while we're building", "impact": "medium" },
+        { "id": "fin-risk-3", "title": "Market timing shifts", "description": "Window of opportunity may close", "impact": "medium" }
+      ],
+      "problems": [
+        { "id": "fin-prob-1", "title": "No stable income stream", "description": "Currently zero recurring revenue", "severity": 9, "isActive": true },
+        { "id": "fin-prob-2", "title": "Limited runway (~2 months)", "description": "Savings depleting, timeline pressure", "severity": 9, "isActive": true },
+        { "id": "fin-prob-3", "title": "Monthly expenses continue", "description": "Rent, food, utilities don't pause", "severity": 7, "isActive": true },
+        { "id": "fin-prob-4", "title": "Uncertainty creates stress", "description": "Affects focus and productivity", "severity": 6, "isActive": true }
+      ],
+      "goals": [
+        { "id": "fin-goal-1", "title": "$100K+/year stable income", "description": "Reliable, recurring income that covers all needs", "timeframe": "short", "status": "not-started" },
+        { "id": "fin-goal-2", "title": "Extend runway to 6+ months", "description": "Breathing room to focus on product", "timeframe": "short", "status": "not-started" },
+        { "id": "fin-goal-3", "title": "Diversified revenue streams", "description": "Multiple sources - product, services, passive", "timeframe": "medium", "status": "not-started" },
+        { "id": "fin-goal-4", "title": "Financial independence", "description": "Never worry about money again", "timeframe": "long", "status": "not-started" },
+        { "id": "fin-goal-5", "title": "Ability to hire and scale", "description": "Revenue supports team growth", "timeframe": "long", "status": "not-started" }
+      ],
+      "strategies": [
+        {
+          "id": "fin-strat-1",
+          "title": "4Eye Launch",
+          "description": "Launch product, acquire users, monetize through subscriptions",
+          "speed": "60d",
+          "reward": "very-high",
+          "risk": "medium",
+          "effort": "high",
+          "sustainable": true,
+          "implementationNotes": "Requires MVP completion, marketing, user acquisition funnel",
+          "linkedCampaignIds": ["4eye"]
+        },
+        {
+          "id": "fin-strat-2",
+          "title": "Consulting/Services",
+          "description": "Take consulting gigs or contract work for immediate income",
+          "speed": "14d",
+          "reward": "medium",
+          "risk": "low",
+          "effort": "medium",
+          "sustainable": false,
+          "implementationNotes": "Time trade-off - takes away from product development",
+          "linkedCampaignIds": ["expanse-services"]
+        },
+        {
+          "id": "fin-strat-3",
+          "title": "Funding Round",
+          "description": "Raise investment capital from angels or VCs",
+          "speed": "90d",
+          "reward": "high",
+          "risk": "high",
+          "effort": "medium",
+          "sustainable": true,
+          "implementationNotes": "Need pitch deck, warm intros, time for process"
+        },
+        {
+          "id": "fin-strat-4",
+          "title": "Cost Cutting",
+          "description": "Reduce expenses to extend runway",
+          "speed": "7d",
+          "reward": "low",
+          "risk": "low",
+          "effort": "low",
+          "sustainable": false,
+          "implementationNotes": "Limited upside, may affect quality of life"
+        },
+        {
+          "id": "fin-strat-5",
+          "title": "Pre-sales / Early Access",
+          "description": "Sell before fully built, validate and fund development",
+          "speed": "30d",
+          "reward": "medium",
+          "risk": "medium",
+          "effort": "low",
+          "sustainable": true,
+          "implementationNotes": "Requires clear value prop and trust-building",
+          "linkedCampaignIds": ["4eye"]
+        },
+        {
+          "id": "fin-strat-6",
+          "title": "Financing Flexibility",
+          "description": "Add a short-term runway buffer if needed",
+          "speed": "14d",
+          "reward": "medium",
+          "risk": "medium",
+          "effort": "low",
+          "sustainable": false,
+          "implementationNotes": "Buys time; use strategically"
+        },
+        {
+          "id": "fin-strat-7",
+          "title": "Housing Cost Reduction",
+          "description": "Secure free housing or more affordable apartment",
+          "speed": "30d",
+          "reward": "high",
+          "risk": "low",
+          "effort": "medium",
+          "sustainable": true,
+          "implementationNotes": "Significantly extends runway if achieved"
+        }
+      ],
+      "currentStrategyId": "fin-strat-hybrid",
+      "currentStrategyNotes": "Hybrid approach: Minimal consulting for immediate runway + focused 4Eye development for larger long-term payoff",
+      "checkpoints": [
+        { "id": "fin-cp-1", "title": "First Income Achieved", "description": "Any revenue from any source", "triggeredWeight": 50, "status": "pending" },
+        { "id": "fin-cp-2", "title": "Runway Extended to 6 months", "description": "Comfortable buffer achieved", "triggeredWeight": 35, "status": "pending" },
+        { "id": "fin-cp-3", "title": "$100K/year Secured", "description": "Stable income milestone", "triggeredWeight": 15, "status": "pending" }
+      ],
+      "connectedCampaignIds": ["4eye", "expanse-services", "personal-excellence"],
+      "connectedStorylineIds": ["4eye-ai-chat", "expanse-services-consulting"],
+      "level": "umbrella",
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-02-05"
+    },
+    {
+      "id": "sf-planning",
+      "name": "Planning & Clarity",
+      "icon": "📋",
+      "description": "Achieving clear understanding of app/business concepts, launch strategies, organized content, and strategic clarity. Enables confident decision-making and quality execution.",
+      "currentWeight": 55,
+      "previousWeight": 40,
+      "weightUpdatedAt": "2026-02-05",
+      "weightFactors": {
+        "urgency": "high",
+        "urgencyNotes": "High value right now - need clarity on businesses, strategies, and timelines to move confidently",
+        "importance": "high",
+        "importanceNotes": "Understanding concepts clearly multiplies effectiveness and prevents wasted effort",
+        "feasibility": "high",
+        "feasibilityNotes": "Tools available, just need dedicated time and thought",
+        "context": "favorable",
+        "contextNotes": "AI assistance makes planning faster and more thorough"
+      },
+      "strengths": [
+        { "id": "plan-str-1", "title": "Strategic thinking ability", "description": "Can see big picture and details", "impact": "high" },
+        { "id": "plan-str-2", "title": "Command Center tool", "description": "Building our own planning system", "impact": "medium" },
+        { "id": "plan-str-3", "title": "AI assistance available", "description": "Can leverage AI for planning help", "impact": "high" }
+      ],
+      "weaknesses": [
+        { "id": "plan-wk-1", "title": "Analysis paralysis risk", "description": "Can over-plan instead of executing", "impact": "medium" },
+        { "id": "plan-wk-2", "title": "Solo perspective", "description": "No team to challenge assumptions", "impact": "medium" }
+      ],
+      "opportunities": [
+        { "id": "plan-opp-1", "title": "AI-enhanced planning", "description": "Use AI to explore more options faster", "impact": "high" },
+        { "id": "plan-opp-2", "title": "Command Center as product", "description": "Planning tool could be monetized", "impact": "medium" }
+      ],
+      "risks": [
+        { "id": "plan-risk-1", "title": "Over-planning", "description": "Spending too much time planning vs doing", "impact": "medium" },
+        { "id": "plan-risk-2", "title": "Plans become outdated", "description": "Situation changes faster than plans", "impact": "low" }
+      ],
+      "problems": [
+        { "id": "plan-prob-1", "title": "Launch strategy unclear", "description": "Not certain which approach is optimal", "severity": 7, "isActive": true },
+        { "id": "plan-prob-2", "title": "Priorities competing", "description": "Multiple valid options, hard to choose", "severity": 6, "isActive": true },
+        { "id": "plan-prob-3", "title": "Timeline uncertainty", "description": "Don't know how long things will take", "severity": 5, "isActive": true },
+        { "id": "plan-prob-4", "title": "Business concepts not fully clear", "description": "Need better understanding of each app/business at conceptual level", "severity": 6, "isActive": true }
+      ],
+      "goals": [
+        { "id": "plan-goal-1", "title": "Clearly understand each app/business concept", "description": "Deep understanding of what each product is, who it serves, and why it matters", "timeframe": "short", "status": "in-progress" },
+        { "id": "plan-goal-2", "title": "Clear launch strategies", "description": "Know the sequence, approach, and tactics for launching each product", "timeframe": "short", "status": "in-progress" },
+        { "id": "plan-goal-3", "title": "Visualize content and plans", "description": "Ability to see and understand timelines, roadmaps, and dependencies visually", "timeframe": "short", "status": "in-progress" },
+        { "id": "plan-goal-4", "title": "Organized content and documentation", "description": "All planning content structured, accessible, and up-to-date", "timeframe": "short", "status": "in-progress" },
+        { "id": "plan-goal-5", "title": "Clarity on timeline and milestones", "description": "Know what happens when, with clear dates and checkpoints", "timeframe": "short", "status": "not-started" },
+        { "id": "plan-goal-6", "title": "Decision framework", "description": "System for making good decisions quickly", "timeframe": "medium", "status": "in-progress" },
+        { "id": "plan-goal-7", "title": "Self-sustaining planning system", "description": "Command Center maintains itself with minimal overhead", "timeframe": "long", "status": "not-started" }
+      ],
+      "strategies": [
+        {
+          "id": "plan-strat-1",
+          "title": "Command Center Development",
+          "description": "Build out planning tool to support decisions",
+          "speed": "14d",
+          "reward": "high",
+          "risk": "low",
+          "effort": "medium",
+          "sustainable": true,
+          "linkedCampaignIds": ["command-center"]
+        },
+        {
+          "id": "plan-strat-2",
+          "title": "Focused Planning Sessions",
+          "description": "Dedicated time for strategic thinking",
+          "speed": "7d",
+          "reward": "medium",
+          "risk": "low",
+          "effort": "low",
+          "sustainable": true
+        },
+        {
+          "id": "plan-strat-3",
+          "title": "External Input",
+          "description": "Get feedback from advisors/mentors",
+          "speed": "14d",
+          "reward": "medium",
+          "risk": "low",
+          "effort": "low",
+          "sustainable": true
+        }
+      ],
+      "currentStrategyId": "plan-strat-1",
+      "currentStrategyNotes": "Building Command Center Strategic Focus system to enable better decisions",
+      "checkpoints": [
+        { "id": "plan-cp-1", "title": "Strategic Focus system complete", "description": "Can use tool for decisions", "triggeredWeight": 40, "status": "pending" },
+        { "id": "plan-cp-2", "title": "Launch plan finalized", "description": "Clear roadmap for next 90 days", "triggeredWeight": 25, "status": "pending" },
+        { "id": "plan-cp-3", "title": "Planning becomes maintenance", "description": "System runs smoothly, minimal overhead", "triggeredWeight": 10, "status": "pending" }
+      ],
+      "connectedCampaignIds": ["command-center"],
+      "connectedStorylineIds": ["command-center-core"],
+      "level": "umbrella",
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-02-05"
+    },
+    {
+      "id": "sf-development",
+      "name": "Product Development",
+      "icon": "🛠️",
+      "description": "Building and launching products that create value and generate revenue. Currently paused pending planning clarity.",
+      "currentWeight": 35,
+      "previousWeight": 50,
+      "weightUpdatedAt": "2026-02-05",
+      "weightFactors": {
+        "urgency": "medium",
+        "urgencyNotes": "Important but blocked by planning clarity, financial pressure",
+        "importance": "critical",
+        "importanceNotes": "Products are the path to sustainable business",
+        "feasibility": "high",
+        "feasibilityNotes": "Technical skills strong, just need focus",
+        "context": "favorable",
+        "contextNotes": "AI tools accelerating development speed"
+      },
+      "strengths": [
+        { "id": "dev-str-1", "title": "Strong technical skills", "description": "Full-stack, AI, modern tools", "impact": "high" },
+        { "id": "dev-str-2", "title": "Clear product vision", "description": "Know what we want to build", "impact": "high" },
+        { "id": "dev-str-3", "title": "Existing codebase", "description": "Foundation already in place", "impact": "medium" },
+        { "id": "dev-str-4", "title": "Product in high demand", "description": "Could sell easily when built - clear market need", "impact": "high" },
+        { "id": "dev-str-5", "title": "MVP is quick to build", "description": "Core functionality achievable in short timeframe", "impact": "high" }
+      ],
+      "weaknesses": [
+        { "id": "dev-wk-1", "title": "Solo developer", "description": "Bandwidth limited", "impact": "high" },
+        { "id": "dev-wk-2", "title": "Scope creep tendency", "description": "Want to build everything", "impact": "medium" }
+      ],
+      "opportunities": [
+        { "id": "dev-opp-1", "title": "AI-assisted coding", "description": "10x productivity with AI tools", "impact": "high" },
+        { "id": "dev-opp-2", "title": "Reusable components", "description": "Build once, use across products", "impact": "medium" },
+        { "id": "dev-opp-3", "title": "Easy recruitment", "description": "Recruiting people to help would be relatively easy", "impact": "high" }
+      ],
+      "risks": [
+        { "id": "dev-risk-1", "title": "Building wrong thing", "description": "Invest time in features nobody wants", "impact": "high" },
+        { "id": "dev-risk-2", "title": "Technical debt", "description": "Rushing creates future problems", "impact": "medium" }
+      ],
+      "problems": [
+        { "id": "dev-prob-1", "title": "Development paused", "description": "Focus on planning before building", "severity": 5, "isActive": true },
+        { "id": "dev-prob-2", "title": "MVP scope unclear", "description": "Need to define minimum viable version", "severity": 6, "isActive": true }
+      ],
+      "goals": [
+        { "id": "dev-goal-1", "title": "4Eye MVP launched", "description": "Core product live and usable", "timeframe": "short", "status": "not-started" },
+        { "id": "dev-goal-2", "title": "Product-market fit", "description": "Users love and pay for product", "timeframe": "medium", "status": "not-started" },
+        { "id": "dev-goal-3", "title": "Product portfolio", "description": "Multiple successful products", "timeframe": "long", "status": "not-started" }
+      ],
+      "strategies": [
+        {
+          "id": "dev-strat-1",
+          "title": "MVP First",
+          "description": "Build minimum viable version, iterate based on feedback",
+          "speed": "60d",
+          "reward": "high",
+          "risk": "medium",
+          "effort": "high",
+          "sustainable": true,
+          "linkedCampaignIds": ["4eye"]
+        },
+        {
+          "id": "dev-strat-2",
+          "title": "Feature Complete",
+          "description": "Build comprehensive product before launch",
+          "speed": "120d",
+          "reward": "high",
+          "risk": "high",
+          "effort": "very-high",
+          "sustainable": true,
+          "linkedCampaignIds": ["4eye"]
+        }
+      ],
+      "currentStrategyId": "dev-strat-1",
+      "currentStrategyNotes": "MVP approach - get something working and iterate",
+      "checkpoints": [
+        { "id": "dev-cp-1", "title": "MVP defined", "description": "Clear scope for first version", "triggeredWeight": 50, "status": "pending" },
+        { "id": "dev-cp-2", "title": "MVP launched", "description": "Product live with users", "triggeredWeight": 40, "status": "pending" },
+        { "id": "dev-cp-3", "title": "Product-market fit achieved", "description": "Clear demand and retention", "triggeredWeight": 30, "status": "pending" }
+      ],
+      "connectedCampaignIds": ["4eye", "1game", "command-center"],
+      "connectedStorylineIds": ["4eye-ai-chat", "4eye-ai-tutor"],
+      "level": "umbrella",
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-02-05"
+    },
+    {
+      "id": "sf-health",
+      "name": "Health & Mind Optimization",
+      "icon": "🧠",
+      "description": "Maintaining physical health, mental clarity, and peak performance to enable effective work on everything else.",
+      "currentWeight": 25,
+      "previousWeight": 30,
+      "weightUpdatedAt": "2026-02-05",
+      "weightFactors": {
+        "urgency": "low",
+        "urgencyNotes": "Currently stable, maintenance mode",
+        "importance": "high",
+        "importanceNotes": "Health underpins everything else, can't ignore",
+        "feasibility": "high",
+        "feasibilityNotes": "Know what to do, just need consistency",
+        "context": "neutral",
+        "contextNotes": "No special circumstances"
+      },
+      "strengths": [
+        { "id": "health-str-1", "title": "Knowledge of what works", "description": "Know the habits and routines needed", "impact": "high" },
+        { "id": "health-str-2", "title": "Medication managed", "description": "ADHD medication helping focus", "impact": "high" },
+        { "id": "health-str-3", "title": "Nicotine-free", "description": "Quit smoking, health improving", "impact": "medium" }
+      ],
+      "weaknesses": [
+        { "id": "health-wk-1", "title": "Consistency challenge", "description": "Easy to skip routines when busy", "impact": "medium" },
+        { "id": "health-wk-2", "title": "Stress impact", "description": "Financial stress affects health", "impact": "medium" }
+      ],
+      "opportunities": [
+        { "id": "health-opp-1", "title": "SF environment", "description": "Good weather, walkable, healthy options", "impact": "medium" }
+      ],
+      "risks": [
+        { "id": "health-risk-1", "title": "Burnout", "description": "Pushing too hard without recovery", "impact": "high" },
+        { "id": "health-risk-2", "title": "Stress accumulation", "description": "Financial pressure affecting wellbeing", "impact": "medium" }
+      ],
+      "problems": [
+        { "id": "health-prob-1", "title": "Sleep schedule inconsistent", "description": "Not always getting optimal rest", "severity": 4, "isActive": true },
+        { "id": "health-prob-2", "title": "Exercise irregular", "description": "Not consistent with workouts", "severity": 3, "isActive": true }
+      ],
+      "goals": [
+        { "id": "health-goal-1", "title": "Consistent sleep schedule", "description": "7-8 hours, regular times", "timeframe": "short", "status": "in-progress" },
+        { "id": "health-goal-2", "title": "Regular exercise routine", "description": "3-4x per week", "timeframe": "short", "status": "not-started" },
+        { "id": "health-goal-3", "title": "Peak performance state", "description": "Sustained high energy and focus", "timeframe": "medium", "status": "not-started" }
+      ],
+      "strategies": [
+        {
+          "id": "health-strat-1",
+          "title": "Minimum Viable Health",
+          "description": "Focus on basics: sleep, food, movement",
+          "speed": "7d",
+          "reward": "medium",
+          "risk": "low",
+          "effort": "low",
+          "sustainable": true
+        },
+        {
+          "id": "health-strat-2",
+          "title": "Comprehensive Optimization",
+          "description": "Full health stack: supplements, tracking, optimization",
+          "speed": "30d",
+          "reward": "high",
+          "risk": "low",
+          "effort": "medium",
+          "sustainable": true
+        }
+      ],
+      "currentStrategyId": "health-strat-1",
+      "currentStrategyNotes": "Maintenance mode - basics only until other priorities stabilize",
+      "checkpoints": [
+        { "id": "health-cp-1", "title": "Routines established", "description": "Consistent daily habits", "triggeredWeight": 15, "status": "pending" },
+        { "id": "health-cp-2", "title": "Health maintenance mode", "description": "Runs on autopilot", "triggeredWeight": 10, "status": "pending" }
+      ],
+      "connectedCampaignIds": ["personal-excellence"],
+      "connectedStorylineIds": ["personal-health"],
+      "level": "umbrella",
+      "createdAt": "2026-01-22",
+      "updatedAt": "2026-02-05"
+    },
+    {
+      "id": "sf-launch",
+      "name": "Launch Strategy",
+      "icon": "🚀",
+      "description": "Defining the optimal path to market - timing, sequencing, positioning, and go-to-market approach for maximum impact.",
+      "currentWeight": 45,
+      "previousWeight": null,
+      "weightUpdatedAt": "2026-02-05",
+      "weightFactors": {
+        "urgency": "medium",
+        "urgencyNotes": "Important for success but product needs to be ready first",
+        "importance": "high",
+        "importanceNotes": "Good launch strategy can 10x results, poor strategy wastes effort",
+        "feasibility": "high",
+        "feasibilityNotes": "Market understanding exists, just need to formalize approach",
+        "context": "favorable",
+        "contextNotes": "Market timing good, AI/EdTech hot, easy to get attention"
+      },
+      "strengths": [
+        { "id": "launch-str-1", "title": "Product solves real problem", "description": "High demand - could sell easily when built", "impact": "high" },
+        { "id": "launch-str-2", "title": "Clear value proposition", "description": "Easy to explain what it does and why it matters", "impact": "high" },
+        { "id": "launch-str-3", "title": "Technical credibility", "description": "Can demonstrate competence and quality", "impact": "medium" },
+        { "id": "launch-str-4", "title": "MVP achievable quickly", "description": "Don't need full product to start selling", "impact": "high" }
+      ],
+      "weaknesses": [
+        { "id": "launch-wk-1", "title": "Solo marketing bandwidth", "description": "Limited capacity for marketing and sales simultaneously", "impact": "high" },
+        { "id": "launch-wk-2", "title": "No existing audience", "description": "Starting from scratch on distribution", "impact": "medium" },
+        { "id": "launch-wk-3", "title": "Sales inexperience", "description": "Technical founder, less natural at selling", "impact": "medium" }
+      ],
+      "opportunities": [
+        { "id": "launch-opp-1", "title": "AI/EdTech market timing", "description": "Category is hot, investors and users paying attention", "impact": "high" },
+        { "id": "launch-opp-2", "title": "Early access / pre-sales", "description": "Can validate and fund with early customers", "impact": "high" },
+        { "id": "launch-opp-3", "title": "Product Hunt / launch platforms", "description": "Built-in audiences for new products", "impact": "medium" },
+        { "id": "launch-opp-4", "title": "Strategic partnerships", "description": "Schools, tutoring companies, educational orgs", "impact": "medium" }
+      ],
+      "risks": [
+        { "id": "launch-risk-1", "title": "Launching too early", "description": "Product not ready, damages reputation", "impact": "medium" },
+        { "id": "launch-risk-2", "title": "Launching too late", "description": "Market window closes, competitors capture space", "impact": "high" },
+        { "id": "launch-risk-3", "title": "Wrong positioning", "description": "Message doesn't resonate, wrong audience", "impact": "medium" }
+      ],
+      "problems": [
+        { "id": "launch-prob-1", "title": "Launch sequence undefined", "description": "Not clear what order to do things", "severity": 6, "isActive": true },
+        { "id": "launch-prob-2", "title": "Timing uncertainty", "description": "When is the right moment to launch?", "severity": 5, "isActive": true },
+        { "id": "launch-prob-3", "title": "Distribution channel unclear", "description": "Where will users come from?", "severity": 5, "isActive": true }
+      ],
+      "goals": [
+        { "id": "launch-goal-1", "title": "Define launch sequence", "description": "Clear step-by-step plan for go-to-market", "timeframe": "short", "status": "not-started" },
+        { "id": "launch-goal-2", "title": "First paying customers", "description": "Validated willingness to pay", "timeframe": "short", "status": "not-started" },
+        { "id": "launch-goal-3", "title": "Repeatable acquisition", "description": "Know how to get more customers consistently", "timeframe": "medium", "status": "not-started" },
+        { "id": "launch-goal-4", "title": "Market leadership", "description": "Recognized as top solution in space", "timeframe": "long", "status": "not-started" }
+      ],
+      "strategies": [
+        {
+          "id": "launch-strat-1",
+          "title": "MVP + Early Access",
+          "description": "Launch minimal version to small group, iterate, expand",
+          "speed": "30d",
+          "reward": "high",
+          "risk": "low",
+          "effort": "medium",
+          "sustainable": true,
+          "implementationNotes": "Lower risk, validates faster, builds word of mouth"
+        },
+        {
+          "id": "launch-strat-2",
+          "title": "Big Bang Launch",
+          "description": "Coordinated major launch with PR, Product Hunt, etc.",
+          "speed": "60d",
+          "reward": "very-high",
+          "risk": "high",
+          "effort": "high",
+          "sustainable": false,
+          "implementationNotes": "Higher risk but can create momentum"
+        },
+        {
+          "id": "launch-strat-3",
+          "title": "Partnership First",
+          "description": "Partner with schools/orgs, launch through their channels",
+          "speed": "90d",
+          "reward": "high",
+          "risk": "medium",
+          "effort": "medium",
+          "sustainable": true,
+          "implementationNotes": "Built-in distribution but slower and dependent on partners"
+        },
+        {
+          "id": "launch-strat-4",
+          "title": "Pre-sell Before Building",
+          "description": "Sell the vision, collect commitments, then build",
+          "speed": "14d",
+          "reward": "high",
+          "risk": "medium",
+          "effort": "low",
+          "sustainable": true,
+          "implementationNotes": "Fastest path to validation and revenue"
+        }
+      ],
+      "currentStrategyId": "launch-strat-1",
+      "currentStrategyNotes": "MVP + Early Access seems safest - validate before big push",
+      "checkpoints": [
+        { "id": "launch-cp-1", "title": "Launch plan defined", "description": "Clear written strategy for go-to-market", "triggeredWeight": 35, "status": "pending" },
+        { "id": "launch-cp-2", "title": "First external users", "description": "People outside friends/family using it", "triggeredWeight": 30, "status": "pending" },
+        { "id": "launch-cp-3", "title": "Product-market fit signals", "description": "Clear evidence people want this", "triggeredWeight": 20, "status": "pending" }
+      ],
+      "connectedCampaignIds": ["4eye"],
+      "connectedStorylineIds": ["4eye-ai-chat", "4eye-ai-tutor"],
+      "level": "umbrella",
+      "createdAt": "2026-02-05",
+      "updatedAt": "2026-02-05"
+    },
+    {
+      "id": "sf-scaling",
+      "name": "Growth & Scaling",
+      "icon": "📈",
+      "description": "Expanding capacity through team building, systems, and leverage - moving from solo founder to scalable organization.",
+      "currentWeight": 20,
+      "previousWeight": null,
+      "weightUpdatedAt": "2026-02-05",
+      "weightFactors": {
+        "urgency": "low",
+        "urgencyNotes": "Not critical now, but becomes important after initial traction",
+        "importance": "high",
+        "importanceNotes": "Can't stay solo forever, scaling enables bigger impact",
+        "feasibility": "high",
+        "feasibilityNotes": "Recruiting would be relatively easy, people interested in space",
+        "context": "favorable",
+        "contextNotes": "Remote work normalized, talent available, equity attractive"
+      },
+      "strengths": [
+        { "id": "scale-str-1", "title": "Recruiting likely easy", "description": "Interesting product, good timing, would attract talent", "impact": "high" },
+        { "id": "scale-str-2", "title": "Technical leadership ability", "description": "Can guide and mentor technical team", "impact": "high" },
+        { "id": "scale-str-3", "title": "Clear vision to share", "description": "Compelling story that attracts people", "impact": "medium" },
+        { "id": "scale-str-4", "title": "Existing systems/tools", "description": "Command Center, workflows already in place", "impact": "medium" }
+      ],
+      "weaknesses": [
+        { "id": "scale-wk-1", "title": "No revenue to fund team", "description": "Can't hire without money", "impact": "high" },
+        { "id": "scale-wk-2", "title": "Management inexperience", "description": "Haven't managed large teams before", "impact": "medium" },
+        { "id": "scale-wk-3", "title": "Current solo habits", "description": "May need to adjust working style for team", "impact": "low" }
+      ],
+      "opportunities": [
+        { "id": "scale-opp-1", "title": "Equity-based recruitment", "description": "Offer ownership to attract talent before revenue", "impact": "high" },
+        { "id": "scale-opp-2", "title": "Remote talent pool", "description": "Can hire anywhere, not limited to SF", "impact": "high" },
+        { "id": "scale-opp-3", "title": "AI multiplies output", "description": "Small team + AI can do work of larger team", "impact": "high" },
+        { "id": "scale-opp-4", "title": "Intern/contractor options", "description": "Flexible arrangements to test fit", "impact": "medium" }
+      ],
+      "risks": [
+        { "id": "scale-risk-1", "title": "Hiring wrong people", "description": "Bad hires can set back progress significantly", "impact": "high" },
+        { "id": "scale-risk-2", "title": "Scaling too early", "description": "Adding overhead before product-market fit", "impact": "medium" },
+        { "id": "scale-risk-3", "title": "Losing focus to management", "description": "Time spent managing vs building", "impact": "medium" }
+      ],
+      "problems": [
+        { "id": "scale-prob-1", "title": "Solo bandwidth limited", "description": "Can only do so much alone", "severity": 5, "isActive": true },
+        { "id": "scale-prob-2", "title": "No team structure yet", "description": "Haven't defined roles, processes", "severity": 3, "isActive": true }
+      ],
+      "goals": [
+        { "id": "scale-goal-1", "title": "Define team structure", "description": "Know what roles needed and when", "timeframe": "medium", "status": "not-started" },
+        { "id": "scale-goal-2", "title": "First team member", "description": "Not alone anymore, someone helping", "timeframe": "medium", "status": "not-started" },
+        { "id": "scale-goal-3", "title": "Scalable systems", "description": "Processes that work with 1 or 10 people", "timeframe": "medium", "status": "not-started" },
+        { "id": "scale-goal-4", "title": "Self-sustaining team", "description": "Organization runs without founder in every decision", "timeframe": "long", "status": "not-started" }
+      ],
+      "strategies": [
+        {
+          "id": "scale-strat-1",
+          "title": "Bootstrap Solo + AI",
+          "description": "Stay solo, maximize AI leverage, grow revenue first",
+          "speed": "ongoing",
+          "reward": "medium",
+          "risk": "low",
+          "effort": "low",
+          "sustainable": true,
+          "implementationNotes": "Safest but slowest, maintains control"
+        },
+        {
+          "id": "scale-strat-2",
+          "title": "Equity Co-founder",
+          "description": "Find co-founder to share load and ownership",
+          "speed": "60d",
+          "reward": "very-high",
+          "risk": "high",
+          "effort": "medium",
+          "sustainable": true,
+          "implementationNotes": "Right person accelerates everything, wrong person destroys"
+        },
+        {
+          "id": "scale-strat-3",
+          "title": "Contract/Part-time Help",
+          "description": "Hire contractors for specific tasks",
+          "speed": "14d",
+          "reward": "medium",
+          "risk": "low",
+          "effort": "low",
+          "sustainable": true,
+          "implementationNotes": "Flexible, lower commitment, can test people"
+        },
+        {
+          "id": "scale-strat-4",
+          "title": "Funding → Team",
+          "description": "Raise money specifically to hire team",
+          "speed": "90d",
+          "reward": "high",
+          "risk": "medium",
+          "effort": "high",
+          "sustainable": true,
+          "implementationNotes": "Enables rapid scaling but adds pressure"
+        }
+      ],
+      "currentStrategyId": "scale-strat-1",
+      "currentStrategyNotes": "Bootstrap solo for now, but ready to shift when traction proves concept",
+      "checkpoints": [
+        { "id": "scale-cp-1", "title": "Role definitions clear", "description": "Know who to hire first and why", "triggeredWeight": 30, "status": "pending" },
+        { "id": "scale-cp-2", "title": "First hire made", "description": "Someone else working on the business", "triggeredWeight": 25, "status": "pending" },
+        { "id": "scale-cp-3", "title": "Team of 3+", "description": "Real team dynamics, specialization", "triggeredWeight": 15, "status": "pending" }
+      ],
+      "connectedCampaignIds": ["4eye", "expanse-services"],
+      "connectedStorylineIds": [],
+      "level": "umbrella",
+      "createdAt": "2026-02-05",
+      "updatedAt": "2026-02-05"
+    }
+  ]
+}

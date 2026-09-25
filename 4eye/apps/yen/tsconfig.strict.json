@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "//": "yen's own code. Excludes the routes that import @4eye/web, because TS would otherwise load that package's pre-existing errors into this project. Exclusion only works when nothing else in the program imports the excluded file — so anything importing that package has to live beside its own route rather than in src/components.",
+  "//2": "src/app/integration-layer is excluded for the same reason as src/app/4eye: LayerModes renders the real IntegrationLayersTile. Its ladder half stays in src/components/layers and is still checked here.",
+  "//3": "One file from that package is in scope deliberately: src/components/crown imports Tiles/integration-layers/goals/LiquidCrown for the flat crown, rather than keeping a second copy of the same drawing here. It is a leaf — Box and one icon — and it typechecks clean. Verify with `tsc --listFiles -p tsconfig.strict.json | grep 4eye-web-mockup`; if that ever returns more than LiquidCrown.tsx, the import has grown a tail and should be reconsidered.",
+  "exclude": [
+    "node_modules",
+    "src/app/4eye",
+    "src/app/integration-layer",
+    ".next"
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "sample": {
+    "durationSeconds": 55,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Class, I want to talk about something very important today:",
+          "timestamp": 0,
+          "confidence": 0.97
+        },
+        {
+          "text": "mental health and how to support friends who might be struggling.",
+          "timestamp": 5.8,
+          "confidence": 0.95
+        },
+        {
+          "text": "Sometimes people feel overwhelmed or sad,",
+          "timestamp": 11.4,
+          "confidence": 0.94
+        },
+        {
+          "text": "and it's crucial that we know how to help.",
+          "timestamp": 15.7,
+          "confidence": 0.96
+        },
+        {
+          "text": "If a friend talks about hurting themselves,",
+          "timestamp": 20.3,
+          "confidence": 0.93
+        },
+        {
+          "text": "this is never something to keep secret.",
+          "timestamp": 25.1,
+          "confidence": 0.95
+        },
+        {
+          "text": "You should always tell a trusted adult immediately.",
+          "timestamp": 29.8,
+          "confidence": 0.96
+        },
+        {
+          "text": "The suicide prevention hotline number is 988.",
+          "timestamp": 35.2,
+          "confidence": 0.94
+        },
+        {
+          "text": "It's available 24/7 and all calls are confidential.",
+          "timestamp": 40.6,
+          "confidence": 0.95
+        },
+        {
+          "text": "Remember, asking for help is a sign of strength,",
+          "timestamp": 46.1,
+          "confidence": 0.96
+        },
+        {
+          "text": "not weakness. We're all here to support each other.",
+          "timestamp": 51.2,
+          "confidence": 0.97
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.98,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "SensitiveContentWarning",
+        "message": "The content discusses mental health and suicide prevention, which are sensitive topics. Ensure this content is presented in a supportive and age-appropriate context."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.99,
+    "isSideConversation_confidence": 0.01,
+    "isIrrelevantContent_confidence": 0,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "health",
+      "mental_health",
+      "suicide_prevention",
+      "social_emotional_learning",
+      "peer_support",
+      "help_seeking",
+      "grade_middle_high",
+      "student_safety"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "The teacher is providing critical instruction on mental health and suicide prevention. The core message is that if a friend mentions self-harm, it must never be kept a secret and should be reported to a trusted adult immediately. The teacher provides the 988 Suicide & Crisis Lifeline number, emphasizing that it's a confidential, 24/7 resource. The lesson concludes by framing help-seeking as a sign of strength and reinforcing the importance of a supportive community.",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "• Topic: How to support a friend struggling with their mental health.\n• Critical Rule: If a friend talks about hurting themselves, you MUST tell a trusted adult immediately.\n• Key Resource: The Suicide & Crisis Lifeline is available by calling or texting 988.\n• Resource Details: It's free, confidential, and available 24/7.\n• Core Mindset: Asking for help is a sign of strength, not weakness."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.85,
+        "text": "When supporting a friend with mental health struggles, always tell a trusted adult if they mention self-harm. The 988 hotline is a key 24/7 resource, and remember that seeking help is a strength."
+      },
+      {
+        "version": "narrative",
+        "comparativeValueToRecommendedModality": 0.75,
+        "text": "Today's lesson focused on being a supportive friend. We learned that while it's important to listen when someone is sad or overwhelmed, some situations require immediate action. If a friend ever mentions hurting themselves, the most helpful thing you can do is break the secret and tell a trusted adult. For immediate support, anyone can contact the 988 hotline, a confidential service that's always available. The main takeaway is that we build a strong community by looking out for each other and recognizing that asking for help is a brave and powerful step."
+      }
+    ],
+    "oneLineSummarization": "If a friend mentions self-harm, immediately tell a trusted adult and know that the 988 hotline is a key resource for help.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "PROBLEM_SOLVING",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Scenario: Your friend sends you a text saying they feel hopeless and are thinking about hurting themselves. What is the correct sequence of actions? Step 1: Do not promise to keep it a secret. Your friend's safety is the number one priority. Step 2: Immediately find a trusted adult—a parent, teacher, or school counselor—and show them the message. Step 3: While the adult is handling the situation, you can text your friend back saying 'I care about you and I'm getting you help right now.' This structured approach removes confusion in a high-stress situation and ensures the friend gets the professional help they need."
+      },
+      {
+        "effectiveness": "very_high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "Let's analyze the logic behind telling an adult. Premise 1: A friend mentioning self-harm is a serious sign of distress that requires professional help. Premise 2: As a friend, you are not a trained professional and cannot provide this level of help. Premise 3: Keeping it a secret prevents them from getting the help they need and puts their life at risk. Conclusion: Therefore, the only logical and caring action is to connect them with a trusted adult who can activate a safety plan. The secret is less important than your friend's life."
+      },
+      {
+        "effectiveness": "high",
+        "type": "STORYTELLING",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "Imagine two friends, Alex and Ben. Ben tells Alex he's been feeling really down and doesn't see the point in anything anymore, even mentioning he might hurt himself. Alex feels scared and conflicted, because Ben made him promise not to tell. But Alex remembers that a true friend prioritizes safety. He finds his school counselor, explains the situation, and the counselor is able to get Ben the help he needs. A week later, Ben thanks Alex, saying 'I was mad at first, but you saved my life.' Alex made a hard choice, but it was the right one."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "ASSOCIATIONS",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.7,
+        "text": "Think of this situation like seeing a fire. If you saw smoke coming from a friend's house, you wouldn't try to fight the fire yourself with a bucket of water, and you wouldn't keep it a secret because you promised not to tell. You would immediately call 911 to get the professional firefighters. A friend talking about self-harm is like seeing smoke. Your job isn't to fight the fire alone; your job is to call for help by telling a trusted adult. They are the emergency responders in this situation."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "FLOW_CHART",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "INFOGRAPHIC"
+        ],
+        "title": "How to Help a Friend: A Simple Guide",
+        "reasonForSuggestion": "A flowchart provides a clear, unambiguous, step-by-step guide for a high-stakes decision. It reduces cognitive load in a stressful situation and reinforces the correct, safe action.",
+        "promptForGeneration": "Create a simple and clear Mermaid flowchart for middle or high school students titled 'How to Help a Friend in Crisis'. Use a supportive and calm color palette (e.g., soft blues and greens). Start node: 'A friend tells you they are struggling'. Diamond decision point: 'Do they mention hurting themselves?'. 'No' path leads to a box: 'Listen, show you care, and encourage them to talk to an adult'. 'Yes' path leads to a red-bordered, high-emphasis box: 'TELL A TRUSTED ADULT IMMEDIATELY. This is not a secret to be kept.' From the 'Yes' box, an arrow points to a final box: 'You can also share the 988 Suicide & Crisis Lifeline. Call or Text 988 anytime.' Ensure the font is large, clear, and easy to read. The 'Yes' path should be visually distinct and direct."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.9,
+        "coreType": "INFOGRAPHIC",
+        "otherCoreType": "AI_GENERATED",
+        "secondaryTypes": [
+          "SVG_DIAGRAM"
+        ],
+        "title": "Be a Lifeline: 3 Steps to Help",
+        "reasonForSuggestion": "An infographic is highly memorable and shareable. It can condense the most critical information into a visually appealing format that students can easily recall or save on their phones.",
+        "promptForGeneration": "Generate a vertical infographic for a teen audience titled 'Be a Lifeline'. Use three large, clear icons and sections. Section 1 Icon: An ear. Header: 'LISTEN'. Text: 'Listen to your friend without judgment. Let them know you hear them.' Section 2 Icon: A speech bubble with an exclamation point inside, pointing towards an adult figure. Header: 'TELL'. Text: 'If they mention self-harm, it's time to tell a trusted adult. Your friend's safety is most important.' Section 3 Icon: A phone with '988' on the screen. Header: 'CONNECT'. Text: 'The 988 Suicide & Crisis Lifeline is free, confidential, and available 24/7. Call or text anytime.' Use modern fonts and a color scheme that feels hopeful yet serious. Include a footer: 'Asking for help is a sign of strength.'"
+      }
+    ],
+    "purpose": "This lesson provides essential life-saving information. The purpose is to equip students with the knowledge and confidence to take appropriate action when a peer is in crisis. It aims to destigmatize mental health struggles and build a school culture where students feel empowered and responsible for the safety and well-being of their community.",
+    "motivation": "You have the power to be a hero in your friend's life. Learning this information isn't just for a test; it's about knowing exactly what to do in a moment that could change a life forever. Being a good friend doesn't mean carrying their burdens alone—it means connecting them with the help they deserve. This knowledge makes you a safer, more reliable, and more compassionate friend.",
+    "learningValueScore": 0.99,
+    "availableActions": [
+      {
+        "actionLabel": "Get Help Now",
+        "reason": "Provides an immediate, actionable link to the 988 lifeline for students who may need it for themselves or a friend.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "Practice a Conversation",
+        "reason": "Interactive role-play can help students build confidence in how to talk to a trusted adult in a stressful situation.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Who Are My Adults?",
+        "reason": "Prompts students to identify their specific trusted adults, making the concept more concrete and actionable for them personally.",
+        "recommendationPriority": "high"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "trusted adult": {
+        "definition": "A reliable and responsible person over 18 who you feel safe talking to and who will act in your best interest.",
+        "context": "You should always tell a trusted adult immediately.",
+        "examples": "Parent, guardian, teacher, school counselor, coach, doctor, religious leader."
+      },
+      "confidential": {
+        "definition": "Kept secret or private. In the context of the 988 hotline, it means your conversation is not shared with others.",
+        "important_note": "While the hotline is confidential, you should not promise confidentiality to a friend if they are at risk of harming themselves. Safety comes first."
+      }
+    },
+    "recommendationsToTeacher": [
+      "Follow up this lesson by having students privately list 2-3 trusted adults in their life they could go to. This makes the concept practical.",
+      "Ensure that school-specific resources, such as the names and locations of counselors, are clearly posted in the classroom and reviewed with students.",
+      "Be prepared for students to disclose personal or peer concerns after this lesson. Review your school's mandatory reporting and student support protocols."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:51:54.931Z",
+    "latencyMs": 40573,
+    "tokenUsage": {
+      "input": 7101,
+      "output": 2897,
+      "total": 11463
+    }
+  }
+}

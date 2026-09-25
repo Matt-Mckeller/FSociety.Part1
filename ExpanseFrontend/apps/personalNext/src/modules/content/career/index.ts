@@ -1,0 +1,5 @@
+export { CoreCompetencyCards } from "./core-competency-cards.component"
+export { MattsProfile, MattProfilePicture } from "./matts-profile.component"
+export { DevelopmentTechnologies } from "./development-technologies.component"
+export { SpecializationSection } from "./specialization-section.component"
+export { ProfessionalSummary } from "./professional-summary.component"

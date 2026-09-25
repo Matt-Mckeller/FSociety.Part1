@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big O Notation: Growth Rate Comparison</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+
+        .chart-container {
+            position: relative;
+            height: 500px;
+            margin-bottom: 30px;
+        }
+
+        .info-box {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #667eea;
+            margin-top: 30px;
+        }
+
+        .info-box h3 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .info-box p {
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        .complexity-legend {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .legend-item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .legend-item.constant { border-color: #2ecc71; }
+        .legend-item.logarithmic { border-color: #3498db; }
+        .legend-item.linear { border-color: #f39c12; }
+        .legend-item.nlogn { border-color: #e74c3c; }
+        .legend-item.quadratic { border-color: #9b59b6; }
+
+        .legend-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 5px;
+        }
+
+        .legend-example {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .comparison {
+            margin-top: 30px;
+            padding: 20px;
+            background: #fff3cd;
+            border-radius: 10px;
+            border: 2px solid #ffc107;
+        }
+
+        .comparison h3 {
+            color: #856404;
+            margin-bottom: 15px;
+        }
+
+        .comparison-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            margin-bottom: 10px;
+            background: white;
+            border-radius: 5px;
+        }
+
+        .comparison-label {
+            font-weight: 600;
+        }
+
+        .comparison-value {
+            font-family: monospace;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📊 Big O: Runtime Growth Comparison 📊</h1>
+        <p class="subtitle">Understanding Algorithm Complexity</p>
+
+        <div class="chart-container">
+            <canvas id="complexityChart"></canvas>
+        </div>
+
+        <div class="complexity-legend">
+            <div class="legend-item constant">
+                <div class="legend-title" style="color: #2ecc71;">O(1) - Constant</div>
+                <div class="legend-example">Example: Accessing array by index</div>
+            </div>
+            <div class="legend-item logarithmic">
+                <div class="legend-title" style="color: #3498db;">O(log n) - Logarithmic</div>
+                <div class="legend-example">Example: Binary search</div>
+            </div>
+            <div class="legend-item linear">
+                <div class="legend-title" style="color: #f39c12;">O(n) - Linear</div>
+                <div class="legend-example">Example: Simple loop through array</div>
+            </div>
+            <div class="legend-item nlogn">
+                <div class="legend-title" style="color: #e74c3c;">O(n log n) - N log N</div>
+                <div class="legend-example">Example: Merge sort, Quick sort</div>
+            </div>
+            <div class="legend-item quadratic">
+                <div class="legend-title" style="color: #9b59b6;">O(n²) - Quadratic</div>
+                <div class="legend-example">Example: Nested loops (all pairs)</div>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <h3>💡 Why This Matters</h3>
+            <p>When working with large datasets, the time complexity of your algorithm makes a huge difference:</p>
+            <p><strong>Example with 1 million records:</strong></p>
+            <ul>
+                <li><strong>O(n²):</strong> 1 trillion operations (~several days)</li>
+                <li><strong>O(n log n):</strong> ~20 million operations (~few seconds)</li>
+                <li><strong>O(n):</strong> 1 million operations (~instant)</li>
+            </ul>
+            <p>This is why choosing the right algorithm is crucial for building scalable software!</p>
+        </div>
+
+        <div class="comparison">
+            <h3>⚡ Performance Comparison at Different Input Sizes</h3>
+            <div class="comparison-row">
+                <span class="comparison-label">Input Size:</span>
+                <span class="comparison-value">n = 10</span>
+            </div>
+            <div class="comparison-row">
+                <span class="comparison-label">O(1):</span>
+                <span class="comparison-value" style="color: #2ecc71;">10 operations</span>
+            </div>
+            <div class="comparison-row">
+                <span class="comparison-label">O(log n):</span>
+                <span class="comparison-value" style="color: #3498db;">~3 operations</span>
+            </div>
+            <div class="comparison-row">
+                <span class="comparison-label">O(n):</span>
+                <span class="comparison-value" style="color: #f39c12;">10 operations</span>
+            </div>
+            <div class="comparison-row">
+                <span class="comparison-label">O(n log n):</span>
+                <span class="comparison-value" style="color: #e74c3c;">~33 operations</span>
+            </div>
+            <div class="comparison-row">
+                <span class="comparison-label">O(n²):</span>
+                <span class="comparison-value" style="color: #9b59b6;">100 operations</span>
+            </div>
+
+            <div style="margin-top: 20px; border-top: 2px solid #ffc107; padding-top: 15px;">
+                <div class="comparison-row">
+                    <span class="comparison-label">Input Size:</span>
+                    <span class="comparison-value">n = 100</span>
+                </div>
+                <div class="comparison-row">
+                    <span class="comparison-label">O(1):</span>
+                    <span class="comparison-value" style="color: #2ecc71;">10 operations</span>
+                </div>
+                <div class="comparison-row">
+                    <span class="comparison-label">O(log n):</span>
+                    <span class="comparison-value" style="color: #3498db;">~7 operations</span>
+                </div>
+                <div class="comparison-row">
+                    <span class="comparison-label">O(n):</span>
+                    <span class="comparison-value" style="color: #f39c12;">100 operations</span>
+                </div>
+                <div class="comparison-row">
+                    <span class="comparison-label">O(n log n):</span>
+                    <span class="comparison-value" style="color: #e74c3c;">~664 operations</span>
+                </div>
+                <div class="comparison-row">
+                    <span class="comparison-label">O(n²):</span>
+                    <span class="comparison-value" style="color: #9b59b6;">10,000 operations ⚠️</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const ctx = document.getElementById('complexityChart').getContext('2d');
+        
+        // Generate data points
+        const inputSizes = [];
+        for (let i = 1; i <= 100; i++) {
+            inputSizes.push(i);
+        }
+
+        const constantData = inputSizes.map(() => 10);
+        const logarithmicData = inputSizes.map(n => Math.log2(n) * 5);
+        const linearData = inputSizes.map(n => n);
+        const nLogNData = inputSizes.map(n => n * Math.log2(n) / 2);
+        const quadraticData = inputSizes.map(n => Math.pow(n, 2) / 10);
+
+        const chart = new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: inputSizes,
+                datasets: [
+                    {
+                        label: 'O(1) - Constant',
+                        data: constantData,
+                        borderColor: '#2ecc71',
+                        backgroundColor: 'rgba(46, 204, 113, 0.1)',
+                        borderWidth: 3,
+                        tension: 0,
+                        pointRadius: 0
+                    },
+                    {
+                        label: 'O(log n) - Logarithmic',
+                        data: logarithmicData,
+                        borderColor: '#3498db',
+                        backgroundColor: 'rgba(52, 152, 219, 0.1)',
+                        borderWidth: 3,
+                        tension: 0.3,
+                        pointRadius: 0
+                    },
+                    {
+                        label: 'O(n) - Linear',
+                        data: linearData,
+                        borderColor: '#f39c12',
+                        backgroundColor: 'rgba(243, 156, 18, 0.1)',
+                        borderWidth: 3,
+                        tension: 0,
+                        pointRadius: 0
+                    },
+                    {
+                        label: 'O(n log n) - N log N',
+                        data: nLogNData,
+                        borderColor: '#e74c3c',
+                        backgroundColor: 'rgba(231, 76, 60, 0.1)',
+                        borderWidth: 3,
+                        tension: 0.3,
+                        pointRadius: 0
+                    },
+                    {
+                        label: 'O(n²) - Quadratic',
+                        data: quadraticData,
+                        borderColor: '#9b59b6',
+                        backgroundColor: 'rgba(155, 89, 182, 0.1)',
+                        borderWidth: 3,
+                        tension: 0.3,
+                        pointRadius: 0
+                    }
+                ]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                interaction: {
+                    intersect: false,
+                    mode: 'index'
+                },
+                plugins: {
+                    legend: {
+                        display: true,
+                        position: 'top',
+                        labels: {
+                            usePointStyle: true,
+                            padding: 15,
+                            font: {
+                                size: 13,
+                                weight: 'bold'
+                            }
+                        }
+                    },
+                    tooltip: {
+                        backgroundColor: 'rgba(0, 0, 0, 0.8)',
+                        padding: 12,
+                        titleFont: { size: 14, weight: 'bold' },
+                        bodyFont: { size: 13 },
+                        callbacks: {
+                            title: function(context) {
+                                return 'Input Size (n): ' + context[0].label;
+                            },
+                            label: function(context) {
+                                return context.dataset.label + ': ' + Math.round(context.parsed.y) + ' operations';
+                            }
+                        }
+                    }
+                },
+                scales: {
+                    x: {
+                        title: {
+                            display: true,
+                            text: 'Input Size (n)',
+                            font: { size: 16, weight: 'bold' }
+                        },
+                        grid: {
+                            color: 'rgba(0, 0, 0, 0.05)'
+                        }
+                    },
+                    y: {
+                        title: {
+                            display: true,
+                            text: 'Number of Operations',
+                            font: { size: 16, weight: 'bold' }
+                        },
+                        grid: {
+                            color: 'rgba(0, 0, 0, 0.05)'
+                        },
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

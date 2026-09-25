@@ -1,0 +1,270 @@
+{
+  "uncategorizedEvents": [
+    {
+      "id": "uncat-001",
+      "title": "Woman with Golden Watch Ring at Club",
+      "summary": "Woman at club had ring shaped like golden watch on index finger.",
+      "description": "Went to the club and a woman with a ring that was shaped like a golden watch on her index finger talked to me. Possibly unrelated, possibly related to the Diamond Man's giant gold watch from Casino Day 1.",
+      "dateUncertain": true,
+      "date": null,
+      "locationId": null,
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Could be connected to Diamond Man / casino network, watch symbolism",
+          "likelihood": "low"
+        },
+        {
+          "type": "random",
+          "author": "matt",
+          "interpretation": "Possibly unrelated, just a unique ring",
+          "likelihood": "medium"
+        },
+        {
+          "type": "random",
+          "author": "ai",
+          "interpretation": "Fashion jewelry is common at clubs. Without additional context or repeated appearances, likely coincidental.",
+          "likelihood": "high"
+        }
+      ],
+      "needsFollowUp": true,
+      "notes": ["Connection to Diamond Man's gold watch unclear"]
+    },
+    {
+      "id": "uncat-002",
+      "title": "Strange Towing Truck with Small Odd House",
+      "summary": "Towing truck with small odd house that wasn't reacted to.",
+      "description": "There was a strange vehicle - a towing truck with a small odd house attached to it. Did not react to it at the time but noted it as unusual.",
+      "dateUncertain": true,
+      "date": null,
+      "locationId": null,
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Observing me, mobile surveillance",
+          "likelihood": "low"
+        },
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "Possible connection to towing/TransitPros work",
+          "likelihood": "low"
+        },
+        {
+          "type": "government",
+          "author": "matt",
+          "interpretation": "Mobile observation unit",
+          "likelihood": "low"
+        },
+        {
+          "type": "random",
+          "author": "matt",
+          "interpretation": "Seems more likely to be random",
+          "likelihood": "medium"
+        },
+        {
+          "type": "random",
+          "author": "ai",
+          "interpretation": "Tow trucks with small mobile structures (tool sheds, living quarters) are not uncommon in the industry. Without repeated sightings or unusual behavior, likely coincidental.",
+          "likelihood": "high"
+        }
+      ],
+      "needsFollowUp": false,
+      "notes": []
+    },
+    {
+      "id": "uncat-003",
+      "title": "Gay Man Drove Home from Levi",
+      "summary": "Gay man drove narrator home from Levi club before new clubs opened.",
+      "description": "Had a gay man drive me home one day from Levi. This occurred before the new clubs (Q Bar, Bar Rec, The Landing) opened in the area. The timing and the subsequent opening of a gay club with a logo similar to narrator's company is notable.",
+      "dateUncertain": true,
+      "date": null,
+      "locationId": "loc-007",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Could have led to the creation of Q Club - they may have profiled me and created clubs to observe/engage",
+          "likelihood": "medium"
+        },
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "Investor/business perspective - clubs created based on profiling of potential high-value individuals",
+          "likelihood": "medium"
+        },
+        {
+          "type": "random",
+          "author": "ai",
+          "interpretation": "Rideshare/lift home from club is normal. New clubs opening in entertainment districts is common. Logo similarities could be coincidental - Q is a common letter for nightlife branding.",
+          "likelihood": "medium"
+        },
+        {
+          "type": "government",
+          "author": "ai",
+          "interpretation": "No clear government interest in club creation based on individual profiling.",
+          "likelihood": "low"
+        }
+      ],
+      "needsFollowUp": true,
+      "notes": ["Timing relative to Q Bar and other club openings is significant", "Q Bar logo similar to narrator's company logo"]
+    },
+    {
+      "id": "uncat-004",
+      "title": "Treasure Chest Sticker Changed to Teachers",
+      "summary": "Sticker on treasure chest changed from generic to something related to teachers.",
+      "description": "The sticker on the front of my treasure chest changed to be something related to teachers rather than the generic sticker which was there when purchased. The treasure chest also contained the $20 bill with green tape and 911 serial number. This is where I keep personal items.",
+      "dateUncertain": true,
+      "date": null,
+      "locationId": "loc-003",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Someone accessed apartment and changed sticker - showing they know about education business plans",
+          "likelihood": "medium"
+        },
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "Highly related to investor perspective - they know about education/Expanse EDU plans and are signaling interest or awareness",
+          "likelihood": "high"
+        },
+        {
+          "type": "government",
+          "author": "matt",
+          "interpretation": "Awareness of education plans, possible interest in EdTech work",
+          "likelihood": "low"
+        },
+        {
+          "type": "random",
+          "author": "ai",
+          "interpretation": "Stickers can sometimes peel or shift, revealing underlying labels. Memory of original sticker may be imprecise. However, combined with other apartment entry evidence, intentional modification is possible.",
+          "likelihood": "low"
+        }
+      ],
+      "needsFollowUp": true,
+      "notes": ["Treasure chest contained $20 bill evidence", "Education business connection is strong"]
+    },
+    {
+      "id": "uncat-005",
+      "title": "Bar Rec Club Opening",
+      "summary": "New gaming-themed club opened, relates to narrator's gamification work.",
+      "description": "A new club opened called Bar Rec, related to gaming. This is notable because narrator is working on gamification of work and education through Expanse. Connected to The Landing which has an 'Expanse' book on the bookshelf.",
+      "dateUncertain": true,
+      "date": null,
+      "locationId": null,
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Club created to observe/engage with narrator based on profiling",
+          "likelihood": "medium"
+        },
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "Investors aware of gamification work, creating venues that align with interests",
+          "likelihood": "medium"
+        },
+        {
+          "type": "random",
+          "author": "ai",
+          "interpretation": "Gaming/arcade bars are a popular trend in entertainment districts. The timing could be coincidental with entertainment industry trends.",
+          "likelihood": "medium"
+        },
+        {
+          "type": "government",
+          "author": "ai",
+          "interpretation": "No clear government interest in opening themed bars.",
+          "likelihood": "low"
+        }
+      ],
+      "needsFollowUp": true,
+      "notes": ["Connected to The Landing", "Gamification theme matches narrator's business"]
+    },
+    {
+      "id": "uncat-006",
+      "title": "Q Bar Club Opening",
+      "summary": "New gay club opened with logo similar to narrator's, projection on ground outside.",
+      "description": "There's a new gay club that opened with Q that looks similar to my logo, has a projection on the ground outside. Also located at 4115 Mill St area. These clubs are not mine but the logo similarity is notable.",
+      "dateUncertain": true,
+      "date": null,
+      "locationId": "loc-016",
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Created based on profiling after gay man drove me home from Levi",
+          "likelihood": "medium"
+        },
+        {
+          "type": "business",
+          "author": "matt",
+          "interpretation": "Investor interest in narrator, using similar branding",
+          "likelihood": "medium"
+        },
+        {
+          "type": "random",
+          "author": "ai",
+          "interpretation": "Q is common branding for LGBTQ+ venues. Logo similarities in minimalist design are common. Projection mapping is popular for nightlife venues.",
+          "likelihood": "medium"
+        }
+      ],
+      "needsFollowUp": true,
+      "notes": ["Logo comparison needed", "Address verification needed"]
+    },
+    {
+      "id": "uncat-007",
+      "title": "Health Vape Taken",
+      "summary": "Health vape was taken, likely unrelated to main events.",
+      "description": "A health vape was taken at some point. Originally noted as potential evidence but likely unrelated to the casino/surveillance events.",
+      "dateUncertain": true,
+      "date": null,
+      "locationId": null,
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "matt",
+          "interpretation": "Could be theft during apartment entry",
+          "likelihood": "low"
+        },
+        {
+          "type": "random",
+          "author": "matt",
+          "interpretation": "Likely unrelated, could have been misplaced or lost",
+          "likelihood": "high"
+        },
+        {
+          "type": "random",
+          "author": "ai",
+          "interpretation": "Small personal items are easily misplaced. Without clear connection to other events, likely coincidental loss.",
+          "likelihood": "high"
+        }
+      ],
+      "needsFollowUp": false,
+      "notes": ["Marked as likely unrelated"]
+    },
+    {
+      "id": "uncat-008",
+      "title": "Chase Credit Check Emails",
+      "summary": "Chase sends credit check emails despite no account and no easy removal option.",
+      "description": "Chase still sends me emails about credit checks even though I have no account there and have no easy way to remove it. This shouldn't be possible and represents a security/privacy concern.",
+      "dateUncertain": true,
+      "date": null,
+      "locationId": null,
+      "perspectives": [
+        {
+          "type": "criminal",
+          "author": "ai",
+          "interpretation": "Shouldn't be allowed to keep scanning my credit when my account is closed. At minimum should be able to easily prevent this somehow.",
+          "likelihood": "medium"
+        }
+      ],
+      "needsFollowUp": true,
+      "notes": ["Security concern", "Identity verification recommended"]
+    }
+  ]
+}

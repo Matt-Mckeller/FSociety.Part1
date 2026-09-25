@@ -1,0 +1,19 @@
+{
+  "_migrationNote": "MIGRATED TO OBJECTIVES.JSON on 2026-02-07. All tasks have been converted to objectives under the quest/campaign hierarchy.",
+  "_migrationDetails": {
+    "migratedAt": "2026-02-07",
+    "originalTaskCount": 30,
+    "migratedTo": "objectives.json",
+    "newQuests": [
+      "quest-code-architecture",
+      "quest-1game-mvp",
+      "quest-lotties-marketplace",
+      "quest-services-mvp",
+      "quest-4up-automation",
+      "quest-4eye-classroom",
+      "quest-component-library",
+      "quest-planning-refactor"
+    ]
+  },
+  "tasks": []
+}

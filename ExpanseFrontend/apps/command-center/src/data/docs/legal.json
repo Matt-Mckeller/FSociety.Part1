@@ -1,0 +1,148 @@
+{
+  "overview": {
+    "summary": "Legal considerations and compliance requirements for Expanse EDU, covering student data privacy, payment regulations, and educational technology requirements.",
+    "keyMessage": "Privacy and security are foundational to building trust with schools, parents, and students."
+  },
+  "compliance": [
+    {
+      "id": "coppa",
+      "name": "COPPA",
+      "fullName": "Children's Online Privacy Protection Act",
+      "description": "May require parental approval for application use if the student is under the age of 13.",
+      "status": "research",
+      "requirements": [
+        "Parental consent required for users under 13",
+        "Clear privacy policy disclosure",
+        "Data collection limitations"
+      ],
+      "source": "https://www.ftc.gov/business-guidance/resources/childrens-online-privacy-protection-rule-six-step-compliance-plan-your-business"
+    },
+    {
+      "id": "ferpa",
+      "name": "FERPA",
+      "fullName": "Family Educational Rights and Privacy Act",
+      "description": "Federal law protecting the privacy of student education records.",
+      "status": "research",
+      "requirements": [
+        "Protect student education records",
+        "Parental access rights to records",
+        "Limitations on disclosure without consent"
+      ],
+      "source": null
+    },
+    {
+      "id": "sopipa",
+      "name": "SOPIPA",
+      "fullName": "Student Online Personal Information Protection Act",
+      "description": "California law governing the use of student data by educational technology providers.",
+      "status": "research",
+      "requirements": [
+        "Prohibition on targeted advertising to students",
+        "Restrictions on selling student data",
+        "Security requirements for student information"
+      ],
+      "source": null
+    },
+    {
+      "id": "ccpa",
+      "name": "CCPA",
+      "fullName": "California Consumer Privacy Act",
+      "description": "California privacy law providing consumer rights over personal data.",
+      "status": "research",
+      "requirements": [
+        "Right to know what data is collected",
+        "Right to delete personal data",
+        "Right to opt-out of data sale"
+      ],
+      "source": null
+    },
+    {
+      "id": "gdpr",
+      "name": "GDPR",
+      "fullName": "General Data Protection Regulation",
+      "description": "European Union regulation on data protection and privacy.",
+      "status": "research",
+      "requirements": [
+        "Lawful basis for processing",
+        "Data subject rights",
+        "Privacy by design and default"
+      ],
+      "source": null
+    },
+    {
+      "id": "sox",
+      "name": "SOX/SOCS",
+      "fullName": "Sarbanes-Oxley Act",
+      "description": "Compliance requirements for financial reporting and internal controls.",
+      "status": "research",
+      "requirements": [
+        "Financial reporting accuracy",
+        "Internal controls documentation",
+        "Audit requirements"
+      ],
+      "source": null
+    }
+  ],
+  "privacySecurity": {
+    "encryption": {
+      "atRest": "AES 256 encryption for PII storage",
+      "inTransit": "TLS 1.3 for data transmission"
+    },
+    "hosting": {
+      "provider": "Google Cloud",
+      "features": [
+        "Enterprise security",
+        "Compliance certifications",
+        "Global infrastructure"
+      ]
+    },
+    "dataProtection": {
+      "nameObscuring": "Usernames protect identity in social and competitive features",
+      "dataDeletion": "Permanent deletion after defined retention period or when data sources removed",
+      "dpaRequired": "Data Processing Agreements for data handling partnerships"
+    },
+    "reference": "https://ed.link/community/how-does-edlink-handle-data-privacy-and-security/"
+  },
+  "legalRisks": [
+    {
+      "id": "paying-students",
+      "title": "Paying Students",
+      "question": "Is there any legal concern around rewards being monetary value?",
+      "response": "We are not directly sending money to minors, at least not yet. Parental approval and verification is something we can gain in order to accomplish this. Venmo and other apps allow sending of money between minors, and minors can have bank accounts with parental approval.",
+      "impact": "Unknown/minimal",
+      "mitigations": [
+        "Indirect transfer: parent to student",
+        "Parental approval when necessary"
+      ]
+    },
+    {
+      "id": "cryptocurrency",
+      "title": "Cryptocurrency",
+      "question": "Are there any legal barriers to providing students with cryptocurrency or coins?",
+      "response": "We will not be using cryptocurrency, at least initially or as the primary variant of the game. Currency is simply digital points. There should be no legal barrier, all games are giving players coins.",
+      "impact": "None",
+      "mitigations": ["Not using real cryptocurrency, at least not initially"]
+    },
+    {
+      "id": "payment-to-minors",
+      "title": "Payment to Minors Restrictions",
+      "question": "What are the restrictions on payment to minors?",
+      "response": "Kids can only open accounts at 13-18 with a parent or 18+. Payment to kids is restricted on Venmo but allowed on Cash App at 13. Lots of data is required to open a bank account with a kid.",
+      "impact": "Medium",
+      "mitigations": [
+        "Partner with existing minor-friendly payment platforms",
+        "Parental mediation for monetary rewards",
+        "Focus on non-monetary rewards initially"
+      ]
+    }
+  ],
+  "dpaRequirements": {
+    "description": "Data Processing Agreement requirements for handling student data",
+    "status": "needs-documentation",
+    "actions": [
+      "Document data processing protocols",
+      "Define data retention periods",
+      "Establish data deletion procedures"
+    ]
+  }
+}

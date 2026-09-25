@@ -1,0 +1,321 @@
+{
+  "fundingToDate": {
+    "type": "Self Funded",
+    "description": "Significant time investment in learning and preparation. Some money spent on learning and service development.",
+    "estimatedValue": "$200K+ (time valued at $100/hr)",
+    "notes": "Would like investors/advisors with education sector expertise to accelerate school entry"
+  },
+  "fundingPaths": [
+    {
+      "id": "self-funded",
+      "name": "Self Funded",
+      "description": "Continue bootstrapping development"
+    },
+    {
+      "id": "grants",
+      "name": "Grants",
+      "description": "SBIR, Kauffman, Digital Sandbox, LaunchKC"
+    },
+    {
+      "id": "venture-capital",
+      "name": "Venture Capital",
+      "description": "YC, TechStars, EdTech-focused VCs"
+    },
+    {
+      "id": "private-investments",
+      "name": "Private Investments",
+      "description": "Angel investors, education-focused investors"
+    },
+    {
+      "id": "crowdfunding",
+      "name": "Crowdfunding",
+      "description": "Kickstarter or similar (concern: public exposure of concepts)"
+    }
+  ],
+  "investmentReasons": [
+    {
+      "reason": "Purpose & Social Good",
+      "description": "Growing the next generation with fun and positive energy. Targets major problems with today's youth."
+    },
+    {
+      "reason": "Long & Short Term Profit",
+      "description": "Multiple options for exits, pivots, and expansion."
+    },
+    {
+      "reason": "Scale",
+      "description": "Massive potential for success with ability to scale globally using cutting-edge technology."
+    },
+    {
+      "reason": "Gamification Trend",
+      "description": "Gamification is hot and implemented in new innovative ways."
+    },
+    {
+      "reason": "Technology & Quality",
+      "description": "Uses cutting-edge technology, processes, and AI to build top-of-the-line software."
+    }
+  ],
+  "fundingOpportunities": [
+    {
+      "name": "Y Combinator",
+      "category": "Accelerator",
+      "priority": "high",
+      "notes": "Top tier accelerator"
+    },
+    {
+      "name": "TechStars",
+      "category": "Accelerator",
+      "priority": "medium",
+      "notes": "Good program but amounts seemed lower"
+    },
+    {
+      "name": "LaunchKC",
+      "category": "Local",
+      "priority": "high",
+      "notes": "Local KC funding opportunity"
+    },
+    {
+      "name": "Digital Sandbox",
+      "category": "Local",
+      "priority": "high",
+      "notes": "KC-based startup support"
+    },
+    {
+      "name": "Kauffman Foundation",
+      "category": "Grant",
+      "priority": "high",
+      "notes": "KC-based entrepreneurship foundation"
+    },
+    {
+      "name": "SBIR",
+      "category": "Grant",
+      "priority": "medium",
+      "url": "https://seedfund.nsf.gov/apply/full-proposal/",
+      "dates": [
+        "September 18, 2024",
+        "November 6, 2024",
+        "March 5, 2025",
+        "July 2, 2025",
+        "November 5, 2025"
+      ]
+    },
+    {
+      "name": "Missouri Technology Corporation",
+      "category": "Local",
+      "priority": "medium",
+      "notes": "POC fund $25-50K, requires co-investment"
+    },
+    {
+      "name": "KC Rise Fund",
+      "category": "Local",
+      "priority": "medium",
+      "notes": "Co-invests Pre-Seed through Series A, $1M+"
+    },
+    {
+      "name": "Firebrand VC",
+      "category": "VC",
+      "priority": "high",
+      "url": "https://www.firebrandvc.com/",
+      "notes": "Invests in EdTech, invested in Ed.Link"
+    },
+    {
+      "name": "Invest Midwest",
+      "category": "Event",
+      "priority": "medium",
+      "url": "https://www.investmidwest.org/",
+      "notes": "70+ startup pitches, STL event in May"
+    },
+    {
+      "name": "Pure Pitch Rally",
+      "category": "Event",
+      "priority": "medium",
+      "url": "https://purepitchrally.com/",
+      "notes": "Annual event with 100 investors bringing $1000 checks"
+    }
+  ],
+  "advisorGoals": [
+    "Gain insight from experienced minds in education, SaaS, marketing, sales, investments",
+    "Improve appearance and experience of company by bringing on advisors",
+    "Grow bigger, faster, better with right support",
+    "Make good connections that benefit the organization",
+    "Get funding at right evaluations",
+    "Form strong relationships with mutual goals, respect, and trust",
+    "Maintain control of the organization",
+    "Integration or partnership perks"
+  ],
+  "advisorAttributes": [
+    "Media & Engagement expertise",
+    "Psychology: Mental Health & Engagement",
+    "Marketing knowledge",
+    "SaaS / Technology and Web experience",
+    "Education knowledge, connections, reach, respect",
+    "Gaming expertise",
+    "Trustworthy character",
+    "Legal knowledge or connections"
+  ],
+  "idealAdvisors": [
+    {
+      "name": "Simon Sinek",
+      "reason": "Leadership and purpose expertise",
+      "priority": "ideal"
+    },
+    {
+      "name": "Ed.Link CEO",
+      "reason": "EdTech integration knowledge",
+      "priority": "ideal"
+    },
+    {
+      "name": "Andrew Huberman",
+      "reason": "Psychology and neuroscience expertise",
+      "priority": "ideal"
+    }
+  ],
+  "potentialInvestors": [
+    {
+      "name": "Mark Cuban",
+      "background": "Successful tech entrepreneur, Shark Tank investor",
+      "fit": "Interested in disruptive technology, has education interests",
+      "priority": "high"
+    },
+    {
+      "name": "John Mackey",
+      "background": "Whole Foods founder, conscious capitalism advocate",
+      "fit": "Values purpose-driven companies, wellness focus",
+      "priority": "high"
+    },
+    {
+      "name": "Andrew Yang",
+      "background": "Entrepreneur, education advocate",
+      "fit": "Strong education reform interest, future of work focus",
+      "priority": "high"
+    },
+    {
+      "name": "Chamath Palihapitiya",
+      "background": "Social Capital founder, former Facebook exec",
+      "fit": "Invests in consumer tech, understands engagement",
+      "priority": "medium"
+    },
+    {
+      "name": "Chris Sacca",
+      "background": "Lowercase Capital, early Twitter investor",
+      "fit": "Consumer-focused investments, former Shark Tank guest",
+      "priority": "medium"
+    },
+    {
+      "name": "Barbara Corcoran",
+      "background": "Real estate mogul, Shark Tank investor",
+      "fit": "Consumer product expertise, marketing savvy",
+      "priority": "medium"
+    },
+    {
+      "name": "Tony Robbins",
+      "background": "Motivational speaker, business strategist",
+      "fit": "Growth mindset alignment, massive reach",
+      "priority": "medium"
+    },
+    {
+      "name": "Tim Ferriss",
+      "background": "Author, angel investor",
+      "fit": "Education/self-improvement space, strong network",
+      "priority": "medium"
+    },
+    {
+      "name": "Alexis Ohanian",
+      "background": "Reddit co-founder, Initialized Capital",
+      "fit": "Community-focused platforms, consumer tech",
+      "priority": "medium"
+    }
+  ],
+  "kpis": {
+    "userMetrics": [
+      "User Count",
+      "User Engagement in Classroom",
+      "% of Students and teachers in a Classroom/School using the app",
+      "Family/Parent Engagement Rate",
+      "Average daily/weekly active users (DAU/WAU)",
+      "Time spent using the app"
+    ],
+    "outcomeMetrics": [
+      "Mental Health outcomes",
+      "Learning outcomes",
+      "Assignment Completion Rates",
+      "Improvement in grades or test scores",
+      "Reduction in Absenteeism/tardies",
+      "College Attendance Rates"
+    ],
+    "businessMetrics": [
+      "Revenue Growth / ARR",
+      "Conversion Rates",
+      "Referral Rates",
+      "Customer Satisfaction",
+      "Retention Rates"
+    ],
+    "engagementMetrics": [
+      "Teacher Recognition of Students / Positive Behavior Incidents",
+      "Average time to reward redemption",
+      "Frequency of Positive Behavior Incidents",
+      "Number of Social Interactions & Collaborations",
+      "Decrease in negative performance incidents"
+    ]
+  },
+  "kpiGoals2026": {
+    "finance": ["Achieved Seed or Series A funding from external source"],
+    "validation": [
+      "Gathered feedback from 10/100/1000+ users",
+      "Product believed to be solution for engagement by majority",
+      "Product believed to improve mental health by majority",
+      "Product desired by majority of relevant users",
+      "Gained 10, 100, 1000 signatures supporting product"
+    ],
+    "product": ["MVP Successfully launched"],
+    "people": ["Got help and support for team members", "Started forming team"]
+  },
+  "partnerships": {
+    "integration": [
+      {
+        "name": "Ed.Link",
+        "description": "API integration platform for LMS/SIS systems. Provides homework, attendance, and rostering data.",
+        "priority": "core"
+      },
+      {
+        "name": "Clever",
+        "description": "Dashboard offering single point of entry for students. Excellent UX. Costs scale with schools.",
+        "priority": "important"
+      },
+      {
+        "name": "ClassLink",
+        "description": "Alternative to Clever for schools preferring this platform.",
+        "priority": "important"
+      }
+    ],
+    "other": [
+      "Universities & Higher Ed (Scholarships)",
+      "Global & Local Businesses (Sponsors)",
+      "Philanthropy (Donations/Investments)",
+      "Community (Donations/Investments)"
+    ]
+  },
+  "researchTasks": [
+    {
+      "id": "delaware-c-corp",
+      "question": "Is Delaware C Corp the best type of corporate entity to create?",
+      "why": "Understand benefits and drawbacks of different corporate structures",
+      "status": "pending",
+      "priority": "medium"
+    },
+    {
+      "id": "china-lms-research",
+      "question": "Find the EdLink variant for China and figure out what LMS systems are used in China",
+      "why": "International expansion planning and integration requirements",
+      "status": "pending",
+      "priority": "medium"
+    }
+  ],
+  "investmentNotes": {
+    "shield4": {
+      "potential": "May be able to get investors pretty easily",
+      "clarificationNeeded": "Problem being targeted needs clarity",
+      "targetProblem": "Employees working from home, observability, knowledge management",
+      "status": "exploration"
+    }
+  }
+}

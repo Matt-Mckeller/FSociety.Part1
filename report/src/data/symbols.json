@@ -1,0 +1,125 @@
+{
+  "symbols": [
+    {
+      "id": "symbol-001",
+      "name": "Coins (Penny, Quarter, Special Coins)",
+      "description": "Coins appear repeatedly throughout the events with apparent symbolic meaning. Started at Harrahs with strange vending machine coins going to tip jar. The 'coins man' bartender comment. Left behind: penny with shield, quarter with 'Hope' on it, updown coin. Coins may represent small, traceable transactions or 'pieces' of larger operations.",
+      "interpretation": "Small pieces of larger transactions, 'break into small pieces' advice, traceability demonstration",
+      "associatedEventIds": ["evt-casino-day-1-coins-entryway", "evt-harrahs-day2", "evt-move-out"],
+      "associatedItemIds": ["item-004", "item-005", "item-006"],
+      "frequencyScore": 9,
+      "notes": "One of the most consistent symbols across events"
+    },
+    {
+      "id": "symbol-002",
+      "name": "Blue Color / Blue Painted Fingertips",
+      "description": "Blue appears as a significant color, most notably with the Starbucks 'Blue Painter' who had blue painted fingertips matching Expanse company color. Blue may signify unknown surveillance/tracking (can't see source of observation).",
+      "interpretation": "Unknown observability, surveillance from unseen source, Expanse connection",
+      "associatedEventIds": ["evt-starbucks-blue-painter"],
+      "associatedItemIds": ["item-018"],
+      "associatedPeopleIds": ["person-008"],
+      "frequencyScore": 6,
+      "notes": "Matches narrator's company color - personalized reference"
+    },
+    {
+      "id": "symbol-003",
+      "name": "Green Color (Chips, Folders, Tape)",
+      "description": "Green appears on poker chips, folders found on bed after casino visit, and tape on $20 bill. The green chip rolled toward narrator at Harrahs. Green chip tournament at Hollywood. May signify money, opportunity, or 'go' signal.",
+      "interpretation": "Money/financial opportunity, go signal, invitation to participate",
+      "associatedEventIds": ["evt-harrahs-day2", "evt-hollywood-tournament"],
+      "associatedItemIds": ["item-003", "item-007", "item-019"],
+      "frequencyScore": 8,
+      "notes": "Green = money makes sense in financial context"
+    },
+    {
+      "id": "symbol-004",
+      "name": "Yellow Color (Earbuds, Shirt)",
+      "description": "Yellow appears on earbuds case of man at Harrahs table and on shirt of large observer at Crow Coffee. Yellow commonly means 'warning' - possibly wire warning or caution about speaking freely.",
+      "interpretation": "Warning signal, possible wire warning, caution about surveillance",
+      "associatedEventIds": ["evt-harrahs-day2", "evt-crow-coffee"],
+      "associatedPeopleIds": ["person-005", "person-022"],
+      "frequencyScore": 5,
+      "notes": "Yellow = warning is culturally standard"
+    },
+    {
+      "id": "symbol-005",
+      "name": "Name 'Matthew'",
+      "description": "Narrator's first name appeared on dealer at Harrahs Day 2 - immediate recognition that this was personalized. Creates uncertainty whether events are coincidence or targeted.",
+      "interpretation": "Demonstrating knowledge of narrator's identity, personalized experience",
+      "associatedEventIds": ["evt-harrahs-day2"],
+      "associatedPeopleIds": ["person-004"],
+      "frequencyScore": 7,
+      "notes": "Combined with 'Shane' dealer makes coincidence very unlikely"
+    },
+    {
+      "id": "symbol-006",
+      "name": "Name 'Shane'",
+      "description": "Narrator's middle name appeared on second dealer at Harrahs Day 2. Combined with 'Matthew' dealer, demonstrated specific knowledge of narrator's full legal name.",
+      "interpretation": "Confirming identity awareness, personalized targeting",
+      "associatedEventIds": ["evt-harrahs-day2"],
+      "associatedPeopleIds": ["person-005"],
+      "frequencyScore": 7,
+      "notes": "Matthew + Shane together is statistically very unlikely to be random"
+    },
+    {
+      "id": "symbol-007",
+      "name": "911 References",
+      "description": "The number 911 appears in various forms - the hotel room entry led to 911 call. May be coded reference to emergency, danger, or call for help.",
+      "interpretation": "Emergency, danger signal, call for external help",
+      "associatedEventIds": ["evt-hotel-room-entry"],
+      "frequencyScore": 4,
+      "notes": "Less established pattern, needs more data points"
+    },
+    {
+      "id": "symbol-008",
+      "name": "Lysol",
+      "description": "Lysol was on narrator's nightstand in apartment. Logan at Keystone randomly said 'Lysol' during conversation without context. This is the strongest evidence of apartment visual surveillance - there's no way Logan could know this without seeing inside the apartment. Additionally, Lysol could symbolize 'cleaning money' (money laundering).",
+      "interpretation": "Proof of visual surveillance of apartment interior; could also mean 'cleaning money' (laundering)",
+      "associatedEventIds": ["evt-keystone-logan"],
+      "associatedItemIds": ["item-017"],
+      "associatedPeopleIds": ["person-015"],
+      "frequencyScore": 10,
+      "notes": "Most definitive surveillance evidence - highly specific, out-of-context reference. Dual meaning: surveillance confirmation + money laundering reference."
+    },
+    {
+      "id": "symbol-009",
+      "name": "Chip Movements / Rotation",
+      "description": "Poker chip movements appear to serve as nonverbal signals. Rotating chip twice then flipping seemed to correlate with opponents going all-in. The dealer 'turning it on' may reference activating this system for a player.",
+      "interpretation": "Nonverbal betting/game control signals, VIP activation",
+      "associatedEventIds": ["evt-hollywood-tournament"],
+      "associatedItemIds": ["item-003"],
+      "frequencyScore": 7,
+      "notes": "Needs validation with more tournaments, but correlation was strong"
+    },
+    {
+      "id": "symbol-010",
+      "name": "Speaker (Large Lobby Speaker)",
+      "description": "Giant car speaker appeared in apartment lobby the morning after Crow Coffee event, positioned exactly where narrator had turned bag the night before. Speaker = request to speak/clarify verbally.",
+      "interpretation": "Request for verbal communication, speak clearly, clarification needed",
+      "associatedEventIds": ["evt-lobby-speaker"],
+      "associatedItemIds": ["item-016"],
+      "associatedLocationIds": ["loc-004"],
+      "frequencyScore": 8,
+      "notes": "Exact positioning match is strong evidence of intentionality"
+    },
+    {
+      "id": "symbol-011",
+      "name": "Earmuffs (Thrown Away)",
+      "description": "At The Landing, girl found earmuffs and asked what to do with them, then threw them away. Interpretation: don't need to listen/speak directly, can communicate through data/observation.",
+      "interpretation": "Can communicate without direct speech, observation is sufficient",
+      "associatedEventIds": ["evt-landing-club"],
+      "frequencyScore": 5,
+      "notes": "Interpretation is speculative but timing was notable"
+    },
+    {
+      "id": "symbol-012",
+      "name": "Diamond / 10 of Diamonds",
+      "description": "Diamond Man at Harrahs Day 1 with large diamond rings. Dealer at Hollywood said 'you revealed a 10 of diamonds' when narrator hadn't. 10 of diamonds may be VIP/high status code.",
+      "interpretation": "Upper Management status?, high value, diamond tier in system",
+      "associatedEventIds": ["evt-casino-day-1-coins-entryway", "evt-hollywood-tournament"],
+      "associatedPeopleIds": ["person-002"],
+      "frequencyScore": 6,
+      "notes": "Diamond Man was clearly VIP-presenting, supports status interpretation"
+    }
+  ]
+}

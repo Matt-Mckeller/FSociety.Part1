@@ -1,0 +1,1 @@
+AI is quite good at application modernization, may be able to have very high payout for this too

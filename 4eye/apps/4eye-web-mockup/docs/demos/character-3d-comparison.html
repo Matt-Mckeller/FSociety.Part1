@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>4eye — 3D Approaches Compared</title>
+<style>
+  :root {
+    --accent: #7C4DFF;
+    --ink: #1a1a2e;
+    --muted: #6b7280;
+    --line: #e5e7eb;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    background: #ffffff;
+    color: var(--ink);
+    padding: 32px 24px 80px;
+  }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 28px; font-size: 0.95rem; }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+  @media (max-width: 980px) { .grid { grid-template-columns: 1fr; } }
+  .card {
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    background: #fafafa;
+    padding: 18px 18px 22px;
+    display: flex;
+    flex-direction: column;
+  }
+  .card h2 { font-size: 1.05rem; margin: 0 0 2px; display: flex; align-items: center; gap: 8px; }
+  .tag {
+    font-size: 0.62rem; font-weight: 700; letter-spacing: .04em;
+    padding: 3px 8px; border-radius: 999px; text-transform: uppercase;
+  }
+  .tag.good { background: #ecfdf5; color: #059669; }
+  .tag.mid  { background: #fffbeb; color: #d97706; }
+  .tag.heavy{ background: #fef2f2; color: #dc2626; }
+  .card p.desc { font-size: 0.82rem; color: var(--muted); margin: 6px 0 14px; min-height: 56px; }
+  .stage {
+    background: #ffffff;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    height: 280px;
+    display: flex; align-items: center; justify-content: center;
+    perspective: 700px;
+    overflow: hidden;
+    position: relative;
+  }
+  .stage canvas { width: 100% !important; height: 100% !important; display: block; }
+  .controls { margin-top: 16px; }
+  .controls label { font-size: 0.72rem; color: var(--muted); display: block; margin-bottom: 6px; }
+  input[type=range] { width: 100%; accent-color: var(--accent); }
+  .angleReadout { font-variant-numeric: tabular-nums; font-weight: 700; color: var(--accent); }
+  .row { display: flex; gap: 8px; margin-top: 10px; flex-wrap: wrap; }
+  button {
+    font: inherit; font-size: 0.74rem; font-weight: 600;
+    border: 1.5px solid var(--line); background: #fff; color: var(--ink);
+    padding: 6px 12px; border-radius: 999px; cursor: pointer; transition: .15s;
+  }
+  button:hover { border-color: var(--accent); color: var(--accent); }
+  button.on { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .pros { list-style: none; padding: 0; margin: 14px 0 0; font-size: 0.76rem; }
+  .pros li { padding: 3px 0 3px 20px; position: relative; }
+  .pros li.y::before { content: "✓"; color: #059669; position: absolute; left: 0; font-weight: 800; }
+  .pros li.n::before { content: "✕"; color: #dc2626; position: absolute; left: 0; font-weight: 800; }
+  .note { font-size: 0.7rem; color: var(--muted); text-align:center; margin-top: 8px; min-height: 14px; }
+  .footer { max-width: 1180px; margin: 32px auto 0; font-size: 0.8rem; color: var(--muted); line-height: 1.6; }
+  .footer strong { color: var(--ink); }
+  code { background: #f3f4f6; padding: 1px 5px; border-radius: 5px; font-size: 0.85em; }
+</style>
+</head>
+<body>
+  <h1>4eye — How "3D" Could Work</h1>
+  <p class="sub">Three approaches to a rotatable 4eye, with the same little character. Drag the sliders, press the buttons.</p>
+
+  <div class="grid">
+
+    <!-- ───────────────── 1. CSS 3D card flip ───────────────── -->
+    <div class="card">
+      <h2>1 · CSS 3D Flip <span class="tag good">free</span></h2>
+      <p class="desc">The <em>flat</em> SVG is spun in 3D space like a card. Looks great for a tilt or flip — but at 90° you see its paper-thin edge. Not a real turnaround.</p>
+      <div class="stage">
+        <div id="cssCard" style="width:150px;height:230px;transform-style:preserve-3d;transition:transform .1s linear;">
+          <!-- character injected here -->
+        </div>
+      </div>
+      <div class="controls">
+        <label>Rotation Y: <span class="angleReadout" id="cssVal">0°</span></label>
+        <input type="range" id="cssSlider" min="-180" max="180" value="0" />
+        <div class="row">
+          <button data-css="0">Front</button>
+          <button data-css="90">Edge (90°)</button>
+          <button data-css="180">Back</button>
+          <button id="cssSpin">Spin</button>
+        </div>
+      </div>
+      <ul class="pros">
+        <li class="y">Zero new code, pure CSS</li>
+        <li class="y">Perfect for flip / tilt / "card reveal"</li>
+        <li class="n">Goes paper-thin at the sides</li>
+        <li class="n">Not a believable 360° turn</li>
+      </ul>
+    </div>
+
+    <!-- ───────────────── 2. Pseudo-3D (angle-keyed poses) ───────────────── -->
+    <div class="card">
+      <h2>2 · Pseudo-3D <span class="tag good">recommended</span></h2>
+      <p class="desc">We draw 4eye from a few <em>angles</em> (front · 3/4 · side · back) as separate SVG poses. An <code>angle</code> state var picks the nearest one + a little skew between. This is how 2D games fake turning.</p>
+      <div class="stage">
+        <div id="pseudoHost" style="width:150px;height:230px;"></div>
+      </div>
+      <div class="controls">
+        <label>Heading (yaw): <span class="angleReadout" id="pseudoVal">0°</span> <span id="pseudoPose" style="color:var(--muted);font-weight:600"></span></label>
+        <input type="range" id="pseudoSlider" min="0" max="359" value="0" />
+        <div class="row">
+          <button data-pseudo="0">Front</button>
+          <button data-pseudo="45">3/4</button>
+          <button data-pseudo="90">Side</button>
+          <button data-pseudo="180">Back</button>
+          <button id="pseudoSpin">Spin 360°</button>
+        </div>
+        <div class="note" id="pseudoNote">Stays crisp SVG at every angle</div>
+      </div>
+      <ul class="pros">
+        <li class="y">Stays SVG — sharp on every device</li>
+        <li class="y">Reuses your existing pose/keyframe engine</li>
+        <li class="y">Believable 360° turnaround</li>
+        <li class="n">You author each angle's art (a few, not infinite)</li>
+      </ul>
+    </div>
+
+    <!-- ───────────────── 3. True 3D (Three.js) ───────────────── -->
+    <div class="card">
+      <h2>3 · True 3D <span class="tag heavy">heavy</span></h2>
+      <p class="desc">A real 3D <em>mesh</em> you can orbit freely from any angle. But 4eye must be re-modeled in 3D — SVG paths don't convert. Adds Three.js to the bundle.</p>
+      <div class="stage" id="threeStage"></div>
+      <div class="controls">
+        <label>Orbit: <span class="angleReadout" id="threeVal">drag the model →</span></label>
+        <input type="range" id="threeSlider" min="0" max="359" value="0" />
+        <div class="row">
+          <button data-three="0">Front</button>
+          <button data-three="90">Side</button>
+          <button data-three="180">Back</button>
+          <button id="threeSpin">Orbit</button>
+        </div>
+        <div class="note">Drag inside the box to free-orbit</div>
+      </div>
+      <ul class="pros">
+        <li class="y">Free orbit from literally any angle</li>
+        <li class="y">Real lighting, depth, shadows</li>
+        <li class="n">Re-model 4eye in 3D (big art task)</li>
+        <li class="n">Heavier bundle, separate render path</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer">
+    <p><strong>The takeaway:</strong> SVG coordinates don't literally "become" 3D — SVG is a flat plane with no depth.
+    But your <strong>pose-keyframe engine</strong> (the thing that already tweens between 2D poses) maps perfectly onto
+    pseudo-3D: instead of poses keyed by <code>time</code>, they're keyed by <code>time × angle</code>. You get a 360°
+    turnaround that stays crisp SVG on every device, with no new dependencies — and we can hide a Three.js renderer behind
+    the same <code>angle</code> state later if you ever want true free-orbit (card 3).</p>
+  </div>
+
+<!-- Three.js from CDN for the true-3D demo only -->
+<script type="importmap">
+{ "imports": { "three": "https://unpkg.com/three@0.160.0/build/three.module.js" } }
+</script>
+<script type="module">
+import * as THREE from "three";
+
+/* ──────────────────────────────────────────────────────────────
+   A tiny shared "4eye" SVG, parameterized by viewing angle.
+   This is a *sketch* of the real Character4eye — one eye, a visor
+   strap, antenna, little body + limbs. The point is to show how
+   one `angle` value changes which silhouette you see.
+   ────────────────────────────────────────────────────────────── */
+function foureyeSVG({ eyeCX = 75, pupilDX = 0, strapSkew = 0, bodyDX = 0, back = false, flatten = 1 } = {}) {
+  const accent = "#7C4DFF";
+  const head = back ? "#2a2342" : "#3a2f63";
+  const eye = back
+    ? "" // back of head: no eye
+    : `<ellipse cx="${eyeCX}" cy="70" rx="${20*flatten}" ry="20" fill="#0c0c1a"/>
+       <circle cx="${eyeCX+pupilDX}" cy="70" r="9" fill="${accent}"/>
+       <circle cx="${eyeCX+pupilDX-3}" cy="67" r="3" fill="#cdbbff" opacity=".9"/>`;
+  return `
+  <svg viewBox="0 0 150 230" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+    <!-- antenna -->
+    <line x1="${75+bodyDX}" y1="34" x2="${78+bodyDX+strapSkew*0.3}" y2="14" stroke="${accent}" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="${78+bodyDX+strapSkew*0.3}" cy="12" r="4" fill="${accent}"/>
+    <!-- head -->
+    <rect x="${(75-42*flatten)}" y="40" width="${84*flatten}" height="64" rx="26" fill="${head}"/>
+    <!-- visor strap -->
+    <path d="M ${(75-44*flatten)} 64 Q ${75+strapSkew} 54 ${(75+44*flatten)} 64 L ${(75+44*flatten)} 78 Q ${75+strapSkew} 70 ${(75-44*flatten)} 78 Z" fill="#1a1530" opacity=".85"/>
+    ${eye}
+    <!-- body -->
+    <line x1="${75+bodyDX}" y1="104" x2="${75+bodyDX}" y2="168" stroke="${head}" stroke-width="12" stroke-linecap="round"/>
+    <!-- arms -->
+    <line x1="${75+bodyDX}" y1="118" x2="${75+bodyDX-26*flatten}" y2="150" stroke="${head}" stroke-width="8" stroke-linecap="round" opacity=".6"/>
+    <line x1="${75+bodyDX}" y1="118" x2="${75+bodyDX+26*flatten}" y2="150" stroke="${head}" stroke-width="8" stroke-linecap="round" opacity=".6"/>
+    <!-- legs -->
+    <line x1="${75+bodyDX}" y1="168" x2="${75+bodyDX-16*flatten}" y2="208" stroke="${head}" stroke-width="8" stroke-linecap="round" opacity=".6"/>
+    <line x1="${75+bodyDX}" y1="168" x2="${75+bodyDX+16*flatten}" y2="208" stroke="${head}" stroke-width="8" stroke-linecap="round" opacity=".6"/>
+  </svg>`;
+}
+
+/* ───────── 1 · CSS 3D card flip ───────── */
+const cssCard = document.getElementById("cssCard");
+cssCard.innerHTML = foureyeSVG();
+const cssSlider = document.getElementById("cssSlider");
+const cssVal = document.getElementById("cssVal");
+let cssSpinning = false;
+function setCss(deg) {
+  cssCard.style.transform = `rotateY(${deg}deg)`;
+  cssVal.textContent = `${Math.round(deg)}°`;
+  cssSlider.value = deg;
+}
+cssSlider.addEventListener("input", e => { cssSpinning = false; setCss(+e.target.value); });
+document.querySelectorAll("[data-css]").forEach(b =>
+  b.addEventListener("click", () => { cssSpinning = false; setCss(+b.dataset.css); }));
+document.getElementById("cssSpin").addEventListener("click", () => { cssSpinning = !cssSpinning; });
+let cssAngle = 0;
+function cssLoop() {
+  if (cssSpinning) { cssAngle = (cssAngle + 2) % 360; setCss(cssAngle > 180 ? cssAngle - 360 : cssAngle); }
+  requestAnimationFrame(cssLoop);
+}
+cssLoop();
+
+/* ───────── 2 · Pseudo-3D (angle-keyed poses) ───────── */
+// Four authored "key angles". Between them we pick the nearest and add a
+// subtle skew so the turn reads smoothly. (Real impl = real art per angle.)
+const pseudoHost = document.getElementById("pseudoHost");
+const pseudoSlider = document.getElementById("pseudoSlider");
+const pseudoVal = document.getElementById("pseudoVal");
+const pseudoPose = document.getElementById("pseudoPose");
+function poseForAngle(a) {
+  a = ((a % 360) + 360) % 360;
+  // distance-based blend factor toward the 3/4 + side silhouettes
+  const rad = a * Math.PI / 180;
+  const facingBack = a > 90 && a < 270;
+  // flatten the head as we approach side profile (90° / 270°)
+  const sideness = Math.abs(Math.sin(rad));           // 0 front/back, 1 side
+  const flatten = 1 - 0.55 * sideness;                // squashes toward profile
+  // pupil + body slide toward the direction we're turning
+  const dir = Math.sin(rad);                           // -1..1
+  const pupilDX = dir * 10;
+  const bodyDX = dir * 8;
+  const strapSkew = dir * 14;
+  let name;
+  if (a < 23 || a >= 337) name = "front";
+  else if (a < 68) name = "¾ right";
+  else if (a < 113) name = "side →";
+  else if (a < 248) name = "back";
+  else if (a < 293) name = "side ←";
+  else name = "¾ left";
+  return { html: foureyeSVG({ pupilDX, bodyDX, strapSkew, back: facingBack, flatten }), name };
+}
+let pseudoSpinning = false;
+function setPseudo(a) {
+  const { html, name } = poseForAngle(a);
+  pseudoHost.innerHTML = html;
+  pseudoVal.textContent = `${Math.round(((a%360)+360)%360)}°`;
+  pseudoPose.textContent = `· ${name}`;
+  pseudoSlider.value = ((a % 360) + 360) % 360;
+}
+pseudoSlider.addEventListener("input", e => { pseudoSpinning = false; setPseudo(+e.target.value); });
+document.querySelectorAll("[data-pseudo]").forEach(b =>
+  b.addEventListener("click", () => { pseudoSpinning = false; setPseudo(+b.dataset.pseudo); }));
+document.getElementById("pseudoSpin").addEventListener("click", () => { pseudoSpinning = !pseudoSpinning; });
+let pAngle = 0;
+function pseudoLoop() {
+  if (pseudoSpinning) { pAngle = (pAngle + 1.6) % 360; setPseudo(pAngle); }
+  requestAnimationFrame(pseudoLoop);
+}
+setPseudo(0);
+pseudoLoop();
+
+/* ───────── 3 · True 3D (Three.js mesh) ───────── */
+const stage = document.getElementById("threeStage");
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(40, 1, 0.1, 100);
+camera.position.set(0, 0.3, 6);
+const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+function sizeRenderer() {
+  const w = stage.clientWidth, h = stage.clientHeight;
+  renderer.setSize(w, h, false);
+  camera.aspect = w / h; camera.updateProjectionMatrix();
+}
+renderer.setPixelRatio(window.devicePixelRatio);
+stage.appendChild(renderer.domElement);
+
+const accent = new THREE.Color("#7C4DFF");
+const dark = new THREE.Color("#3a2f63");
+const rig = new THREE.Group();
+
+// head
+const head = new THREE.Mesh(
+  new THREE.BoxGeometry(2, 1.4, 1.2),
+  new THREE.MeshStandardMaterial({ color: dark, roughness: .5 })
+);
+head.position.y = 1.2;
+rig.add(head);
+// visor strap
+const strap = new THREE.Mesh(
+  new THREE.BoxGeometry(2.05, 0.35, 1.25),
+  new THREE.MeshStandardMaterial({ color: 0x1a1530, roughness: .4 })
+);
+strap.position.y = 1.25;
+rig.add(strap);
+// eye (only on the front face → proves it's truly 3D)
+const eye = new THREE.Mesh(
+  new THREE.SphereGeometry(0.32, 24, 24),
+  new THREE.MeshStandardMaterial({ color: accent, emissive: accent, emissiveIntensity: .6 })
+);
+eye.position.set(0, 1.2, 0.62);
+rig.add(eye);
+// antenna
+const ant = new THREE.Mesh(new THREE.CylinderGeometry(0.04, 0.04, 0.6), new THREE.MeshStandardMaterial({ color: accent }));
+ant.position.set(0.2, 2.15, 0); ant.rotation.z = -0.2; rig.add(ant);
+const antTip = new THREE.Mesh(new THREE.SphereGeometry(0.12), new THREE.MeshStandardMaterial({ color: accent, emissive: accent, emissiveIntensity: .8 }));
+antTip.position.set(0.28, 2.45, 0); rig.add(antTip);
+// body
+const body = new THREE.Mesh(new THREE.CylinderGeometry(0.22, 0.22, 1.4), new THREE.MeshStandardMaterial({ color: dark }));
+body.position.y = -0.1; rig.add(body);
+scene.add(rig);
+
+scene.add(new THREE.AmbientLight(0xffffff, 0.6));
+const key = new THREE.DirectionalLight(0xffffff, 1.1); key.position.set(3, 4, 5); scene.add(key);
+const rim = new THREE.DirectionalLight(0x9a7bff, 0.6); rim.position.set(-4, 2, -3); scene.add(rim);
+
+const threeSlider = document.getElementById("threeSlider");
+const threeVal = document.getElementById("threeVal");
+let threeSpinning = false, dragging = false, lastX = 0;
+function setThree(deg) {
+  rig.rotation.y = deg * Math.PI / 180;
+  threeVal.textContent = `${Math.round(((deg%360)+360)%360)}°`;
+  threeSlider.value = ((deg % 360) + 360) % 360;
+}
+threeSlider.addEventListener("input", e => { threeSpinning = false; setThree(+e.target.value); });
+document.querySelectorAll("[data-three]").forEach(b =>
+  b.addEventListener("click", () => { threeSpinning = false; setThree(+b.dataset.three); }));
+document.getElementById("threeSpin").addEventListener("click", () => { threeSpinning = !threeSpinning; });
+renderer.domElement.addEventListener("pointerdown", e => { dragging = true; lastX = e.clientX; threeSpinning = false; });
+window.addEventListener("pointerup", () => dragging = false);
+window.addEventListener("pointermove", e => {
+  if (!dragging) return;
+  const dx = e.clientX - lastX; lastX = e.clientX;
+  setThree(rig.rotation.y * 180 / Math.PI + dx * 0.6);
+});
+let tAngle = 0;
+function threeLoop() {
+  if (threeSpinning) { tAngle = (tAngle + 1) % 360; setThree(tAngle); }
+  renderer.render(scene, camera);
+  requestAnimationFrame(threeLoop);
+}
+function onResize() { sizeRenderer(); }
+window.addEventListener("resize", onResize);
+sizeRenderer();
+setThree(0);
+threeLoop();
+</script>
+</body>
+</html>

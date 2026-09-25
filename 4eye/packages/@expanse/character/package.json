@@ -1,0 +1,78 @@
+{
+  "name": "@expanse/character",
+  "version": "0.1.0",
+  "description": "Unified 4eye character system: shared vocabulary + state (platform-neutral), 2D SVG renderer (web), and true-3D R3F renderer (web + native)",
+  "private": true,
+  "exports": {
+    "./core": "./src/core/index.ts",
+    "./state": "./src/state/index.ts",
+    "./2d": "./src/2d/index.ts",
+    "./3d": "./src/3d/index.ts",
+    "./profile": "./src/profile/index.ts",
+    "./vision": "./src/vision/index.ts",
+    "./explorer": "./src/explorer/index.ts",
+    "./mui": "./src/mui/index.ts"
+  },
+  "sideEffects": false,
+  "scripts": {
+    "storybook": "storybook dev -p 3437",
+    "build-storybook": "storybook build",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "three": ">=0.160.0",
+    "@react-three/fiber": ">=8.0.0",
+    "@react-three/drei": ">=9.0.0",
+    "@mui/material": "^9.0.0",
+    "@mui/system": "^9.0.0",
+    "@mui/icons-material": "^6.0.0",
+    "gsap": ">=3.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@react-three/drei": { "optional": true },
+    "@mui/material": { "optional": true },
+    "@mui/system": { "optional": true },
+    "@mui/icons-material": { "optional": true },
+    "gsap": { "optional": true }
+  },
+  "devDependencies": {
+    "@expanse/storybook-config": "workspace:*",
+    "@expanse/theme": "workspace:*",
+    "@mui/icons-material": "^6.0.0",
+    "@mui/material": "^9.0.0",
+    "@mui/system": "^9.0.0",
+    "@testing-library/jest-dom": "^6.0.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.0.0",
+    "@vitejs/plugin-react": "^6.0.1",
+    "gsap": "^3.0.0",
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "@storybook/addon-essentials": "^8.0.0",
+    "@storybook/builder-vite": "^8.0.0",
+    "@storybook/react": "^8.0.0",
+    "@storybook/react-vite": "^8.0.0",
+    "@types/three": "^0.169.0",
+    "jsdom": "^24.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "storybook": "^8.0.0",
+    "three": "^0.169.0",
+    "typescript": "^5.0.0",
+    "vitest": "^4.1.5"
+  },
+  "repository": {
+    "type": "git",
+    "directory": "packages/@expanse/character"
+  },
+  "keywords": [
+    "4eye",
+    "character",
+    "3d",
+    "svg",
+    "react-three-fiber",
+    "react"
+  ]
+}

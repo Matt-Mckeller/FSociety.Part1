@@ -1,0 +1,154 @@
+{
+  "overview": {
+    "title": "Communication Features Overview",
+    "description": "Comprehensive communication systems connecting students, parents, teachers, and administrators.",
+    "channels": [
+      { "channel": "In-App Notifications", "audience": "All users" },
+      { "channel": "Email Updates", "audience": "Parents, Teachers" },
+      { "channel": "SMS/Text Messages", "audience": "Parents (opt-in)" },
+      { "channel": "Push Notifications", "audience": "Mobile app users" },
+      { "channel": "In-App Inbox", "audience": "All users" }
+    ]
+  },
+  "notifications": {
+    "title": "Notifications & Inbox",
+    "description": "System for sending notifications to users with ability to view and manage them.",
+    "notificationTypes": {
+      "students": [
+        "New rewards available",
+        "Achievement unlocked",
+        "Battle results",
+        "Loot box ready to open",
+        "Quest completed",
+        "Level up notification",
+        "Friend activity",
+        "Recognition received"
+      ],
+      "parents": [
+        "Student progress updates",
+        "Rewards earned summary",
+        "Competition results",
+        "Attendance alerts",
+        "Performance milestones",
+        "Scholarship opportunities"
+      ],
+      "teachers": [
+        "Class performance summary",
+        "Student recognition reminders",
+        "Quest completion stats",
+        "Battle results",
+        "Parent message received"
+      ]
+    },
+    "inboxFeatures": [
+      "Mark as read/unread",
+      "Archive messages",
+      "Filter by type",
+      "Search functionality",
+      "Notification preferences"
+    ],
+    "deliveryOptions": [
+      "Real-time in-app",
+      "Daily digest email",
+      "Weekly summary",
+      "Instant push (mobile)"
+    ],
+    "notes": "Push notifications require mobile app (future feature)"
+  },
+  "parentCommunication": {
+    "title": "Parent Communication",
+    "description": "Tools for teachers to easily communicate with parents about student performance and behavior.",
+    "features": [
+      "Preset message templates for common situations",
+      "AI-assisted message drafting",
+      "Behavior and attention updates",
+      "Performance progress reports",
+      "Chat with AI observations and recommendations"
+    ],
+    "parentFeatures": [
+      "Pre-scripted response options",
+      "Quick acknowledgment buttons",
+      "Schedule parent-teacher time",
+      "View child's progress"
+    ],
+    "messageTypes": [
+      { "type": "Positive Updates", "examples": ["Great participation today", "Improved test score", "Helped a classmate"] },
+      { "type": "Concern Alerts", "examples": ["Missing assignments", "Behavior concern", "Attendance issue"] },
+      { "type": "General Updates", "examples": ["Upcoming events", "Class announcements", "Schedule changes"] },
+      { "type": "Recognition", "examples": ["Student of the week", "Achievement earned", "Competition winner"] }
+    ],
+    "risks": [
+      "Cost of texting at scale",
+      "Managing communication tone/mood",
+      "Unsubscribe handling",
+      "Being marked as spam"
+    ],
+    "mitigations": [
+      "Separate domain for communications",
+      "Send on behalf of teacher (not Expanse)",
+      "Clear opt-out options",
+      "Rate limiting"
+    ],
+    "concerns": [
+      "Difficult parent communication tracking",
+      "Positive/negative interaction history",
+      "Escalation paths for issues"
+    ]
+  },
+  "authentication": {
+    "title": "Authentication & Login",
+    "description": "Secure authentication system integrating with existing school systems.",
+    "studentTeacherAuth": {
+      "method": "SSO via LMS/SIS",
+      "description": "Students and teachers sign in through their existing school accounts",
+      "supportedSystems": [
+        "Google Classroom",
+        "Canvas",
+        "Clever",
+        "ClassLink",
+        "Schoology",
+        "PowerSchool"
+      ]
+    },
+    "parentAuth": {
+      "method": "Expanse Account Creation",
+      "description": "Parents and families create accounts directly in Expanse system",
+      "features": [
+        "Email verification",
+        "Phone verification (optional)",
+        "Link to student accounts",
+        "Multi-child support"
+      ]
+    },
+    "security": [
+      "Encrypted passwords",
+      "Two-factor authentication (optional)",
+      "Session management",
+      "Secure token handling"
+    ]
+  },
+  "userAccounts": {
+    "title": "User Accounts",
+    "description": "Comprehensive user account management with settings and preferences.",
+    "accountFeatures": [
+      "Profile information",
+      "Privacy settings",
+      "Security options",
+      "Billing management (parents)",
+      "Notification preferences",
+      "Connected accounts"
+    ],
+    "privacyControls": [
+      "Profile visibility settings",
+      "Data sharing preferences",
+      "Communication opt-outs",
+      "Delete account option"
+    ],
+    "userTypes": [
+      { "type": "Student", "features": ["Game profile", "Progress tracking", "Rewards inventory"] },
+      { "type": "Parent", "features": ["Child linking", "Payment methods", "Family settings"] },
+      { "type": "Teacher", "features": ["Classroom management", "Student oversight", "Recognition tools"] },
+      { "type": "Admin", "features": ["School-wide settings", "User management", "Analytics access"] }
+    ]
+  }
+}

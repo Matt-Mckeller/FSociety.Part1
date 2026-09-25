@@ -1,0 +1,829 @@
+{
+  "sample": {
+    "durationSeconds": 900,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Alright everyone, gather around!",
+          "timestamp": 0,
+          "confidence": 0.82
+        },
+        {
+          "text": "[wind noise]",
+          "timestamp": 3.7,
+          "confidence": 0.34
+        },
+        {
+          "text": "Today we're doing fitness testing for your",
+          "timestamp": 6.4,
+          "confidence": 0.76
+        },
+        {
+          "text": "[distant traffic sounds]",
+          "timestamp": 11.8,
+          "confidence": 0.29
+        },
+        {
+          "text": "Presidential Fitness Challenge.",
+          "timestamp": 13.5,
+          "confidence": 0.81
+        },
+        {
+          "text": "[birds chirping]",
+          "timestamp": 18.2,
+          "confidence": 0.41
+        },
+        {
+          "text": "We'll start with the mile run, then",
+          "timestamp": 20.9,
+          "confidence": 0.73
+        },
+        {
+          "text": "[airplane overhead]",
+          "timestamp": 25.6,
+          "confidence": 0.27
+        },
+        {
+          "text": "do push-ups, sit-ups, and the sit-and-reach test.",
+          "timestamp": 28.3,
+          "confidence": 0.69
+        },
+        {
+          "text": "[students talking in background]",
+          "timestamp": 34.7,
+          "confidence": 0.52
+        },
+        {
+          "text": "Make sure you warm up properly. Start with",
+          "timestamp": 38.2,
+          "confidence": 0.77
+        },
+        {
+          "text": "[wind gust]",
+          "timestamp": 43.8,
+          "confidence": 0.31
+        },
+        {
+          "text": "some light jogging around the track.",
+          "timestamp": 46.1,
+          "confidence": 0.74
+        },
+        {
+          "text": "[distant voices]",
+          "timestamp": 51.4,
+          "confidence": 0.43
+        },
+        {
+          "text": "Take two laps at an easy pace.",
+          "timestamp": 54.7,
+          "confidence": 0.79
+        },
+        {
+          "text": "[footsteps on gravel]",
+          "timestamp": 59.8,
+          "confidence": 0.38
+        },
+        {
+          "text": "Remember to breathe steadily!",
+          "timestamp": 63.2,
+          "confidence": 0.81
+        },
+        {
+          "text": "[construction noise from nearby site]",
+          "timestamp": 68.9,
+          "confidence": 0.24
+        },
+        {
+          "text": "After your warm-up, we'll stretch for five minutes.",
+          "timestamp": 72.6,
+          "confidence": 0.71
+        },
+        {
+          "text": "[students chattering]",
+          "timestamp": 79.3,
+          "confidence": 0.49
+        },
+        {
+          "text": "Focus on your hamstrings and quadriceps.",
+          "timestamp": 82.8,
+          "confidence": 0.75
+        },
+        {
+          "text": "[car horn in distance]",
+          "timestamp": 88.7,
+          "confidence": 0.33
+        },
+        {
+          "text": "Hold each stretch for at least 20 seconds.",
+          "timestamp": 91.4,
+          "confidence": 0.78
+        },
+        {
+          "text": "[wind noise increases]",
+          "timestamp": 97.8,
+          "confidence": 0.28
+        },
+        {
+          "text": "Okay, everyone ready for the mile?",
+          "timestamp": 101.3,
+          "confidence": 0.73
+        },
+        {
+          "text": "[multiple students responding, overlapping]",
+          "timestamp": 106.9,
+          "confidence": 0.57
+        },
+        {
+          "text": "When I blow the whistle, start running.",
+          "timestamp": 111.2,
+          "confidence": 0.8
+        },
+        {
+          "text": "[whistle blow]",
+          "timestamp": 116.8,
+          "confidence": 0.86
+        },
+        {
+          "text": "[running footsteps, heavy breathing]",
+          "timestamp": 119.4,
+          "confidence": 0.44
+        },
+        {
+          "text": "Pace yourselves! It's four laps!",
+          "timestamp": 125.7,
+          "confidence": 0.69
+        },
+        {
+          "text": "[distant cheering]",
+          "timestamp": 132.3,
+          "confidence": 0.51
+        },
+        {
+          "text": "Keep your breathing rhythmic!",
+          "timestamp": 136.8,
+          "confidence": 0.72
+        },
+        {
+          "text": "[wind and traffic]",
+          "timestamp": 143.1,
+          "confidence": 0.31
+        },
+        {
+          "text": "Good job Sarah! Keep that pace!",
+          "timestamp": 147.9,
+          "confidence": 0.75
+        },
+        {
+          "text": "[heavy breathing passing by]",
+          "timestamp": 154.6,
+          "confidence": 0.46
+        },
+        {
+          "text": "Two laps done! Halfway there!",
+          "timestamp": 159.2,
+          "confidence": 0.77
+        },
+        {
+          "text": "[airplane overhead again]",
+          "timestamp": 166.8,
+          "confidence": 0.26
+        },
+        {
+          "text": "Don't sprint yet! Save energy for the",
+          "timestamp": 171.4,
+          "confidence": 0.7
+        },
+        {
+          "text": "[wind gust obscures speech]",
+          "timestamp": 177.9,
+          "confidence": 0.22
+        },
+        {
+          "text": "final lap!",
+          "timestamp": 180.3,
+          "confidence": 0.81
+        },
+        {
+          "text": "[students breathing heavily]",
+          "timestamp": 185.7,
+          "confidence": 0.48
+        },
+        {
+          "text": "Push through! You're doing great!",
+          "timestamp": 191.2,
+          "confidence": 0.73
+        },
+        {
+          "text": "[distant siren]",
+          "timestamp": 198.4,
+          "confidence": 0.35
+        },
+        {
+          "text": "Last lap! Now you can pick up the pace!",
+          "timestamp": 203.6,
+          "confidence": 0.76
+        },
+        {
+          "text": "[multiple footsteps, heavy breathing]",
+          "timestamp": 211.3,
+          "confidence": 0.42
+        },
+        {
+          "text": "Sprint to the finish!",
+          "timestamp": 217.8,
+          "confidence": 0.79
+        },
+        {
+          "text": "[students crossing finish, panting]",
+          "timestamp": 224.7,
+          "confidence": 0.54
+        },
+        {
+          "text": "Great job everyone! Walk it off, don't stop moving.",
+          "timestamp": 231.2,
+          "confidence": 0.74
+        },
+        {
+          "text": "[wind and general outdoor noise]",
+          "timestamp": 238.9,
+          "confidence": 0.33
+        },
+        {
+          "text": "Drink some water and catch your breath.",
+          "timestamp": 243.5,
+          "confidence": 0.77
+        },
+        {
+          "text": "[water bottles opening, students talking]",
+          "timestamp": 249.8,
+          "confidence": 0.51
+        },
+        {
+          "text": "We'll do push-ups in five minutes.",
+          "timestamp": 255.3,
+          "confidence": 0.8
+        },
+        {
+          "text": "[lawn mower starts in distance]",
+          "timestamp": 262.1,
+          "confidence": 0.29
+        },
+        {
+          "text": "Remember proper push-up form. Hands shoulder-width",
+          "timestamp": 267.4,
+          "confidence": 0.71
+        },
+        {
+          "text": "[lawn mower noise continues]",
+          "timestamp": 274.7,
+          "confidence": 0.27
+        },
+        {
+          "text": "apart, back straight, chest to the ground.",
+          "timestamp": 278.2,
+          "confidence": 0.68
+        },
+        {
+          "text": "[students settling into position]",
+          "timestamp": 285.6,
+          "confidence": 0.49
+        },
+        {
+          "text": "You'll have two minutes to do as many as you can.",
+          "timestamp": 290.8,
+          "confidence": 0.75
+        },
+        {
+          "text": "[construction noise spike]",
+          "timestamp": 298.3,
+          "confidence": 0.23
+        },
+        {
+          "text": "Ready? Begin!",
+          "timestamp": 302.7,
+          "confidence": 0.82
+        },
+        {
+          "text": "[grunting and exertion sounds]",
+          "timestamp": 307.4,
+          "confidence": 0.45
+        },
+        {
+          "text": "Keep your core tight!",
+          "timestamp": 313.9,
+          "confidence": 0.73
+        },
+        {
+          "text": "[wind picks up]",
+          "timestamp": 320.6,
+          "confidence": 0.31
+        },
+        {
+          "text": "Don't let your hips sag!",
+          "timestamp": 325.1,
+          "confidence": 0.7
+        },
+        {
+          "text": "[students struggling, some giving up]",
+          "timestamp": 332.8,
+          "confidence": 0.52
+        },
+        {
+          "text": "One minute left! Push through the burn!",
+          "timestamp": 339.2,
+          "confidence": 0.74
+        },
+        {
+          "text": "[heavy breathing]",
+          "timestamp": 347.3,
+          "confidence": 0.44
+        },
+        {
+          "text": "Thirty seconds!",
+          "timestamp": 353.8,
+          "confidence": 0.81
+        },
+        {
+          "text": "[increased grunting]",
+          "timestamp": 359.7,
+          "confidence": 0.47
+        },
+        {
+          "text": "Ten, nine, eight",
+          "timestamp": 366.4,
+          "confidence": 0.76
+        },
+        {
+          "text": "[distant traffic]",
+          "timestamp": 371.2,
+          "confidence": 0.29
+        },
+        {
+          "text": "five, four, three, two, one. Stop!",
+          "timestamp": 374.8,
+          "confidence": 0.79
+        },
+        {
+          "text": "[students collapsing, groaning]",
+          "timestamp": 381.9,
+          "confidence": 0.53
+        },
+        {
+          "text": "Shake it out. Good effort from everyone.",
+          "timestamp": 387.5,
+          "confidence": 0.77
+        },
+        {
+          "text": "[wind noise]",
+          "timestamp": 394.6,
+          "confidence": 0.32
+        },
+        {
+          "text": "Next up is sit-ups. Get a partner to hold your feet.",
+          "timestamp": 399.2,
+          "confidence": 0.72
+        },
+        {
+          "text": "[students pairing up, talking]",
+          "timestamp": 406.8,
+          "confidence": 0.49
+        },
+        {
+          "text": "Same deal, two minutes, as many as you can.",
+          "timestamp": 412.7,
+          "confidence": 0.75
+        },
+        {
+          "text": "[airplane overhead]",
+          "timestamp": 419.4,
+          "confidence": 0.27
+        },
+        {
+          "text": "Hands behind your head, touch your elbows to your knees.",
+          "timestamp": 423.8,
+          "confidence": 0.69
+        },
+        {
+          "text": "[students getting into position]",
+          "timestamp": 431.6,
+          "confidence": 0.51
+        },
+        {
+          "text": "Ready? Go!",
+          "timestamp": 437.2,
+          "confidence": 0.83
+        },
+        {
+          "text": "[counting, grunting]",
+          "timestamp": 442.3,
+          "confidence": 0.46
+        },
+        {
+          "text": "Keep a steady rhythm!",
+          "timestamp": 448.9,
+          "confidence": 0.74
+        },
+        {
+          "text": "[wind gust]",
+          "timestamp": 455.7,
+          "confidence": 0.3
+        },
+        {
+          "text": "Don't use momentum! Control the movement!",
+          "timestamp": 460.3,
+          "confidence": 0.71
+        },
+        {
+          "text": "[students straining]",
+          "timestamp": 468.2,
+          "confidence": 0.48
+        },
+        {
+          "text": "One minute down!",
+          "timestamp": 474.6,
+          "confidence": 0.8
+        },
+        {
+          "text": "[construction noise]",
+          "timestamp": 481.4,
+          "confidence": 0.26
+        },
+        {
+          "text": "You're halfway there!",
+          "timestamp": 486.1,
+          "confidence": 0.77
+        },
+        {
+          "text": "[heavy breathing, some students slowing]",
+          "timestamp": 493.7,
+          "confidence": 0.5
+        },
+        {
+          "text": "Don't give up! Thirty seconds!",
+          "timestamp": 500.2,
+          "confidence": 0.73
+        },
+        {
+          "text": "[increased effort sounds]",
+          "timestamp": 507.8,
+          "confidence": 0.45
+        },
+        {
+          "text": "Last ten seconds! Give it everything!",
+          "timestamp": 514.3,
+          "confidence": 0.76
+        },
+        {
+          "text": "[final burst of effort]",
+          "timestamp": 521.9,
+          "confidence": 0.49
+        },
+        {
+          "text": "And time! Great job everyone!",
+          "timestamp": 528.7,
+          "confidence": 0.79
+        },
+        {
+          "text": "[students catching breath]",
+          "timestamp": 535.3,
+          "confidence": 0.52
+        },
+        {
+          "text": "Last test is the sit-and-reach for flexibility.",
+          "timestamp": 541.8,
+          "confidence": 0.75
+        },
+        {
+          "text": "[wind noise]",
+          "timestamp": 549.2,
+          "confidence": 0.31
+        },
+        {
+          "text": "We'll do this one at a time at the box.",
+          "timestamp": 553.6,
+          "confidence": 0.77
+        },
+        {
+          "text": "[students walking over, chatting]",
+          "timestamp": 560.4,
+          "confidence": 0.48
+        },
+        {
+          "text": "Sit with your legs straight, reach forward as far as you can.",
+          "timestamp": 566.9,
+          "confidence": 0.72
+        },
+        {
+          "text": "[distant voices and traffic]",
+          "timestamp": 575.3,
+          "confidence": 0.34
+        },
+        {
+          "text": "Hold the stretch for two seconds. Don't bounce.",
+          "timestamp": 580.7,
+          "confidence": 0.74
+        },
+        {
+          "text": "[students taking turns, various reactions]",
+          "timestamp": 588.6,
+          "confidence": 0.51
+        },
+        {
+          "text": "Good reach, Marcus! Excellent flexibility!",
+          "timestamp": 595.1,
+          "confidence": 0.76
+        },
+        {
+          "text": "[wind picks up again]",
+          "timestamp": 602.8,
+          "confidence": 0.29
+        },
+        {
+          "text": "Keep going, we're almost done.",
+          "timestamp": 607.3,
+          "confidence": 0.78
+        },
+        {
+          "text": "[lawn mower in distance]",
+          "timestamp": 614.9,
+          "confidence": 0.28
+        },
+        {
+          "text": "Remember, flexibility comes with practice. Stretch every day.",
+          "timestamp": 620.2,
+          "confidence": 0.71
+        },
+        {
+          "text": "[students waiting their turn, talking]",
+          "timestamp": 628.7,
+          "confidence": 0.47
+        },
+        {
+          "text": "Nice work, Ashley! Way to push yourself!",
+          "timestamp": 635.4,
+          "confidence": 0.75
+        },
+        {
+          "text": "[airplane overhead]",
+          "timestamp": 643.1,
+          "confidence": 0.26
+        },
+        {
+          "text": "Last few people. Then we'll cool down and head back.",
+          "timestamp": 648.7,
+          "confidence": 0.73
+        },
+        {
+          "text": "[wind and general outdoor sounds]",
+          "timestamp": 656.9,
+          "confidence": 0.33
+        },
+        {
+          "text": "Alright, everyone's finished! Great effort today!",
+          "timestamp": 663.2,
+          "confidence": 0.77
+        },
+        {
+          "text": "[students cheering, talking]",
+          "timestamp": 670.8,
+          "confidence": 0.54
+        },
+        {
+          "text": "I'll have your results calculated by next class.",
+          "timestamp": 677.3,
+          "confidence": 0.76
+        },
+        {
+          "text": "[construction noise]",
+          "timestamp": 685.1,
+          "confidence": 0.25
+        },
+        {
+          "text": "Let's do a cool-down walk around the track.",
+          "timestamp": 690.4,
+          "confidence": 0.78
+        },
+        {
+          "text": "[footsteps, students walking and chatting]",
+          "timestamp": 697.8,
+          "confidence": 0.49
+        },
+        {
+          "text": "Remember to hydrate and stretch when you get home.",
+          "timestamp": 705.2,
+          "confidence": 0.74
+        },
+        {
+          "text": "[wind noise]",
+          "timestamp": 713.6,
+          "confidence": 0.3
+        },
+        {
+          "text": "Good work today everyone! You're dismissed!",
+          "timestamp": 718.9,
+          "confidence": 0.8
+        },
+        {
+          "text": "[students dispersing, multiple conversations]",
+          "timestamp": 726.4,
+          "confidence": 0.46
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.65,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "PII_DETECTED",
+        "details": "Student first names ('Sarah', 'Marcus', 'Ashley') were detected in the transcription. Recommend reviewing and redacting if necessary.",
+        "timestamps": [
+          147.9,
+          595.1,
+          635.4
+        ]
+      },
+      {
+        "type": "AUDIO_QUALITY",
+        "details": "Significant background noise (wind, traffic, airplanes, construction) and overlapping student speech are present throughout the recording, which may impact the accuracy of the transcription and analysis."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.9,
+    "isSideConversation_confidence": 0.1,
+    "isIrrelevantContent_confidence": 0.45,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "physical_education",
+      "fitness_testing",
+      "health",
+      "exercise",
+      "cardiovascular_endurance",
+      "muscular_strength",
+      "flexibility",
+      "middle_school"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "A physical education teacher guides a class through the Presidential Fitness Challenge in an outdoor setting. The session begins with instructions for a proper warm-up, including light jogging and targeted stretching for hamstrings and quadriceps. The students then complete four main tests: a timed one-mile run, a two-minute push-up test, a two-minute sit-up test, and a sit-and-reach flexibility test. Throughout the activities, the teacher provides specific instructions on form, pacing strategies, and continuous encouragement. The class concludes with a cool-down walk and reminders to hydrate and continue stretching at home.",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "• Warm-up: Two laps of light jogging followed by five minutes of stretching (hamstrings, quadriceps).\n• Test 1 (Cardio): One-mile run (four laps), with pacing advice.\n• Test 2 (Strength): Two minutes of maximum push-ups with proper form.\n• Test 3 (Core): Two minutes of maximum sit-ups with a partner.\n• Test 4 (Flexibility): Sit-and-reach test for hamstring and lower back flexibility.\n• Cool-down: A walk around the track and reminders to hydrate."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.85,
+        "text": "A PE teacher leads students through a fitness test including a mile run, push-ups, sit-ups, and a flexibility test. The teacher provides instructions on warm-ups, proper exercise form, pacing, and cool-downs."
+      },
+      {
+        "version": "narrative",
+        "comparativeValueToRecommendedModality": 0.75,
+        "text": "The class gathered on the track as the teacher announced the day's challenge: the Presidential Fitness Test. After a warm-up jog and some deep stretches, the whistle blew for the mile run. Students paced themselves for four laps, encouraged by the teacher to save their energy for a final sprint. Next came the burn of push-ups and sit-ups, a two-minute test of strength and endurance. The session ended with the quiet focus of the sit-and-reach test, measuring flexibility before a final cool-down walk."
+      }
+    ],
+    "oneLineSummarization": "A PE teacher instructs and motivates students through the four components of a fitness test: a mile run, push-ups, sit-ups, and a flexibility test.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "KINESTHETIC",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Get ready to move your body through a full fitness circuit. First, feel your heart rate rise as you complete a two-lap jog, then focus on the pull in your hamstrings as you hold each stretch for 20 seconds. During the push-ups, concentrate on keeping your back flat like a plank and lowering your chest all the way down. For sit-ups, engage your core muscles to lift your torso, avoiding any swinging motions. Finally, experience the gentle release in your lower back as you exhale and reach forward smoothly in the sit-and-reach test."
+      },
+      {
+        "effectiveness": "very_high",
+        "type": "VISUAL",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.95,
+        "text": "Picture the perfect push-up: a straight line runs from your head to your heels, your hands are directly under your shoulders, and your elbows bend back at a 45-degree angle. For the sit-and-reach, imagine your spine lengthening as you reach forward, keeping your legs flat against the floor. Visualize your running form: arms swinging forward and back, not across your body, and your feet landing lightly beneath your center of gravity. Seeing the correct form in your mind is the first step to executing it correctly."
+      },
+      {
+        "effectiveness": "high",
+        "type": "PROBLEM_SOLVING",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "Challenge: How can you achieve your best score on the fitness test? Step 1: Strategize the mile run. Don't start too fast; maintain a steady, consistent pace for the first three laps to conserve energy for a strong final lap. Step 2: Maximize strength tests. For push-ups and sit-ups, focus on a steady rhythm rather than frantic speed, which burns energy faster and leads to poor form. Take short, controlled breaks if needed. Step 3: Optimize flexibility. Exhale deeply as you reach forward to relax your muscles and gain extra inches. The solution is not just raw effort, but smart energy management."
+      },
+      {
+        "effectiveness": "high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.8,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "The fitness test follows a structured sequence designed to measure different aspects of physical health. First, we begin with a warm-up to increase blood flow and prepare muscles for exertion, reducing injury risk. Next, we test cardiovascular endurance with the mile run. Following this, we assess muscular strength and endurance with push-ups and sit-ups. We then measure flexibility with the sit-and-reach. Finally, we conclude with a cool-down to gradually lower heart rate and aid in muscle recovery. Each step logically progresses to provide a comprehensive fitness assessment."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "ANIMATED_SVG",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "ANNOTATED_TEXT",
+          "COMPARISON_MATRIX"
+        ],
+        "title": "Proper vs. Improper Push-Up Form",
+        "reasonForSuggestion": "For physical exercises, static images can be ambiguous. An animated diagram provides a clear, continuous visual of correct movement, which is critical for safety and effectiveness. Showing common mistakes directly addresses likely student errors.",
+        "promptForGeneration": "Create an HTML container with two side-by-side animated SVG diagrams for a middle school PE class. Left side title: 'Correct Push-Up'. Show a looping animation of a figure performing a push-up with a straight back, hands shoulder-width apart, and chest lowering to just above the floor. Use green checkmarks and annotations like 'Back Straight', 'Core Engaged', 'Full Range of Motion'. Right side title: 'Common Mistakes'. Show a figure with a sagging back, hands too wide, and only partial movement. Use red 'X' marks and annotations like 'Hips Sagging', 'Strained Neck', 'Not Low Enough'. The animation should be smooth and about 3 seconds per loop. Use simple, clear line art."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.9,
+        "coreType": "INFOGRAPHIC",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "SPATIAL_DIAGRAM",
+          "HIGHLIGHTED_TEXT"
+        ],
+        "title": "What Muscles Are You Testing?",
+        "reasonForSuggestion": "This visualization connects the abstract exercises to concrete biology, helping students understand the 'why' behind each test. It enhances the educational value beyond simple performance by teaching basic anatomy and physiology.",
+        "promptForGeneration": "Generate a full-body infographic for a health class, showing an anterior and posterior view of a human muscular system. For each of the four fitness tests, draw lines to and highlight the primary muscle groups being used. Use distinct colors for each test. For 'Push-ups', highlight Pectorals, Deltoids, and Triceps in blue. For 'Sit-ups', highlight Rectus Abdominis and Obliques in green. For 'Mile Run', highlight Quadriceps, Hamstrings, Glutes, and Calves in red. For 'Sit-and-Reach', highlight Hamstrings and Erector Spinae (lower back) in orange. Include a clear legend. Title each section with the exercise name."
+      },
+      {
+        "effectiveness": "medium",
+        "relativeEffectivenessWeight": 0.75,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherSuggestions": 0.75,
+        "coreType": "MERMAID_FLOWCHART",
+        "otherCoreType": null,
+        "secondaryTypes": [],
+        "title": "Fitness Test Day Sequence",
+        "reasonForSuggestion": "A flowchart provides a simple, clear overview of the class structure, helping students know what to expect and mentally prepare for each stage. It's particularly useful for students who benefit from structured outlines.",
+        "promptForGeneration": "Create a vertical Mermaid flowchart (graph TD) that outlines the sequence of the PE fitness test. Start node: 'A[Start: Gather on Track]'. Then connect to 'B{Warm-Up} --> C[Jog 2 Laps] --> D[Stretch 5 Mins]'. Then 'D --> E[Test 1: Mile Run]'. Then 'E --> F[Rest & Hydrate]'. Then 'F --> G[Test 2: Push-ups (2 Mins)]'. Then 'G --> H[Test 3: Sit-ups (2 Mins)]'. Then 'H --> I[Test 4: Sit-and-Reach]'. Then 'I --> J{Cool-Down} --> K[Walk 1 Lap]'. Finally 'K --> L[End: Dismissed]'. Use rounded rectangles for actions and diamond shapes for phases like Warm-Up and Cool-Down."
+      }
+    ],
+    "purpose": "This content provides practical instruction for assessing key components of physical health: cardiovascular endurance, muscular strength, and flexibility. The purpose is to establish a baseline of personal fitness, teach proper exercise form, and encourage students to understand and take ownership of their physical well-being as part of a healthy lifestyle.",
+    "motivation": "Ever wonder how much energy you have in your 'tank'? This fitness challenge is like a diagnostic test for your body. It's not about competing with others; it's about discovering your own strengths and areas where you can improve. Mastering these basic exercises builds a foundation that helps you in everything—from being a better athlete in a sport you love, to having more stamina for a long day of school and fun with friends. This is your personal health report card, and you're in charge of earning the grade.",
+    "learningValueScore": 0.8,
+    "availableActions": [
+      {
+        "actionLabel": "See Proper Form",
+        "reason": "Visual aids are essential for demonstrating correct and safe exercise techniques.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "Why This Matters",
+        "reason": "Explains the real-world health benefits of each exercise, connecting the activity to long-term well-being.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Pacing Tips",
+        "reason": "Provides strategy for the mile run, teaching energy management which is a key life skill.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Common Mistakes",
+        "reason": "Proactively addresses common errors in form to prevent injury and improve effectiveness.",
+        "recommendationPriority": "high"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "Pacing": {
+        "definition": "The strategy of managing your speed and energy expenditure over a set distance or time to achieve the best possible performance.",
+        "context": "The teacher advised students to pace themselves during the mile run, rather than sprinting at the start.",
+        "simpler": "Controlling your speed so you don't run out of gas too early."
+      },
+      "Hamstrings": {
+        "definition": "A group of three large muscles located on the back of your thigh, running from your hip to just below your knee.",
+        "context": "The sit-and-reach test is a great way to measure the flexibility of your hamstrings.",
+        "simpler": "The big muscles on the back of your upper leg."
+      },
+      "Quadriceps": {
+        "definition": "A group of four large muscles on the front of your thigh, which are some of the strongest muscles in the body.",
+        "context": "Stretching your quadriceps after running can help prevent soreness.",
+        "simpler": "The big muscles on the front of your upper leg."
+      }
+    },
+    "relatedResearch": [],
+    "recommendationsToTeacher": [
+      "To ensure all students can hear instructions over the significant background noise, consider using a portable megaphone or a personal voice amplifier.",
+      "Before the test, use visual aids like posters or short video clips to demonstrate proper form for each exercise. This can improve safety and the validity of the test results.",
+      "Emphasize personal progress over comparison with peers. Consider having students record their scores privately and focus on setting personal goals for improvement for the next fitness test."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:40:45.234Z",
+    "latencyMs": 49984,
+    "tokenUsage": {
+      "input": 11708,
+      "output": 3450,
+      "total": 17222
+    }
+  }
+}

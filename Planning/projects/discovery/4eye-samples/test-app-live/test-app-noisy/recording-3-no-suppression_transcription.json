@@ -1,0 +1,106 @@
+{
+  "task": "transcribe",
+  "language": "english",
+  "duration": 14.369999885559082,
+  "text": "Live longer. Live fresher. Live longer. Live stronger. Live fresher.",
+  "segments": [
+    {
+      "id": 0,
+      "seek": 0,
+      "start": 0,
+      "end": 7.199999809265137,
+      "text": " Live longer.",
+      "tokens": [
+        50364,
+        10385,
+        2854,
+        13,
+        50724
+      ],
+      "temperature": 1,
+      "avg_logprob": -2.593768835067749,
+      "compression_ratio": 1.837837815284729,
+      "no_speech_prob": 0.23031842708587646
+    },
+    {
+      "id": 1,
+      "seek": 0,
+      "start": 7.199999809265137,
+      "end": 13.359999656677246,
+      "text": " Live fresher.",
+      "tokens": [
+        50724,
+        10385,
+        25235,
+        511,
+        13,
+        51032
+      ],
+      "temperature": 1,
+      "avg_logprob": -2.593768835067749,
+      "compression_ratio": 1.837837815284729,
+      "no_speech_prob": 0.23031842708587646
+    },
+    {
+      "id": 2,
+      "seek": 0,
+      "start": 13.359999656677246,
+      "end": 14.539999961853027,
+      "text": " Live longer.",
+      "tokens": [
+        51032,
+        10385,
+        9155,
+        1321,
+        13,
+        51091
+      ],
+      "temperature": 1,
+      "avg_logprob": -2.593768835067749,
+      "compression_ratio": 1.837837815284729,
+      "no_speech_prob": 0.23031842708587646
+    },
+    {
+      "id": 3,
+      "seek": 0,
+      "start": 14.539999961853027,
+      "end": 18.639999389648438,
+      "text": " Live stronger.",
+      "tokens": [
+        51091,
+        31738,
+        68,
+        7249,
+        13,
+        51296
+      ],
+      "temperature": 1,
+      "avg_logprob": -2.593768835067749,
+      "compression_ratio": 1.837837815284729,
+      "no_speech_prob": 0.23031842708587646
+    },
+    {
+      "id": 4,
+      "seek": 0,
+      "start": 18.639999389648438,
+      "end": 25.020000457763672,
+      "text": " Live fresher.",
+      "tokens": [
+        51296,
+        10385,
+        25235,
+        511,
+        13,
+        51615
+      ],
+      "temperature": 1,
+      "avg_logprob": -2.593768835067749,
+      "compression_ratio": 1.837837815284729,
+      "no_speech_prob": 0.23031842708587646
+    }
+  ],
+  "usage": {
+    "type": "duration",
+    "seconds": 15
+  }
+}

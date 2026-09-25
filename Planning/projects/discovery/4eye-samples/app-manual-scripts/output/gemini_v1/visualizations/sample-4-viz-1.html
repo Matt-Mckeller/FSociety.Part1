@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Action-Reaction Cycle</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background: linear-gradient(to bottom, #2c1810 0%, #5d3a1a 100%);
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: #f9f6f0;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
+            border: 4px solid #8b4513;
+        }
+
+        h1 {
+            text-align: center;
+            color: #2c1810;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #5d3a1a;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+
+        .mermaid {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            border: 3px solid #8b4513;
+            margin-bottom: 30px;
+        }
+
+        .explanation {
+            padding: 25px;
+            background: #fff8e1;
+            border-radius: 10px;
+            border-left: 6px solid #ff9800;
+            margin-top: 30px;
+        }
+
+        .explanation h3 {
+            color: #f57c00;
+            margin-bottom: 15px;
+        }
+
+        .explanation p {
+            color: #555;
+            line-height: 1.8;
+            margin-bottom: 10px;
+        }
+
+        .explanation strong {
+            color: #e65100;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔄 The Action-Reaction Cycle 🔄</h1>
+        <p class="subtitle">How Conflict Escalated from Protest to War</p>
+
+        <div class="mermaid">
+            graph TD
+                A[British Action:<br/>Tea Act] --> B[Colonial Reaction:<br/>Boston Tea Party]
+                B --> C[British Retaliation:<br/>Intolerable Acts]
+                C --> D[Colonial Unification:<br/>First Continental Congress]
+                D --> E[Conflict Begins:<br/>Lexington & Concord]
+                
+                style A fill:#ffcccc,stroke:#dc143c,stroke-width:4px,color:#000
+                style C fill:#ffcccc,stroke:#dc143c,stroke-width:4px,color:#000
+                style B fill:#cce5ff,stroke:#4169e1,stroke-width:4px,color:#000
+                style D fill:#cce5ff,stroke:#4169e1,stroke-width:4px,color:#000
+                style E fill:#ffe6cc,stroke:#ff8c00,stroke-width:5px,color:#000,font-weight:bold
+        </div>
+
+        <div class="explanation">
+            <h3>Understanding the Escalation Pattern</h3>
+            <p><strong>The Cycle:</strong> This flowchart reveals a critical pattern: every British action intended to control the colonies actually strengthened colonial resistance.</p>
+            
+            <p><strong>Step 1:</strong> Britain imposes the Tea Act → Colonists feel their rights are violated</p>
+            <p><strong>Step 2:</strong> Colonists protest dramatically (Boston Tea Party) → Britain sees this as rebellion</p>
+            <p><strong>Step 3:</strong> Britain punishes harshly (Intolerable Acts) → Other colonies feel threatened</p>
+            <p><strong>Step 4:</strong> Colonies unite for the first time → Britain sees this as dangerous</p>
+            <p><strong>Step 5:</strong> British military action → Armed conflict begins</p>
+            
+            <p><strong>Key Insight:</strong> Instead of solving the problem, each British response made it worse. This is a classic escalation cycle where:</p>
+            <ul style="margin-left: 20px; line-height: 2;">
+                <li>Punishment creates resentment</li>
+                <li>Resentment leads to more defiance</li>
+                <li>Defiance triggers harsher punishment</li>
+                <li>The cycle spirals into violence</li>
+            </ul>
+            
+            <p style="margin-top: 15px;"><strong>Historical Lesson:</strong> This pattern has repeated throughout history whenever governments try to suppress dissent through force rather than addressing grievances through dialogue.</p>
+        </div>
+    </div>
+
+    <script>
+        mermaid.initialize({ 
+            startOnLoad: true,
+            theme: 'base',
+            themeVariables: {
+                fontFamily: 'Georgia, serif',
+                fontSize: '16px'
+            }
+        });
+    </script>
+</body>
+</html>

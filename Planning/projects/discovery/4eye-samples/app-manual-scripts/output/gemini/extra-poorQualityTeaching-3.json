@@ -1,0 +1,185 @@
+{
+  "sample": {
+    "durationSeconds": 31,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Alright class, today you're going to write an essay.",
+          "timestamp": 0,
+          "confidence": 0.93
+        },
+        {
+          "text": "It should be about something interesting.",
+          "timestamp": 4.6,
+          "confidence": 0.89
+        },
+        {
+          "text": "Make it good, you know, use big words and stuff.",
+          "timestamp": 9.2,
+          "confidence": 0.86
+        },
+        {
+          "text": "It needs to be at least a page, maybe two.",
+          "timestamp": 14.8,
+          "confidence": 0.88
+        },
+        {
+          "text": "Just make sure it sounds smart.",
+          "timestamp": 19.1,
+          "confidence": 0.9
+        },
+        {
+          "text": "I'll collect them at the end of class.",
+          "timestamp": 23.3,
+          "confidence": 0.92
+        },
+        {
+          "text": "Get started now, you have 30 minutes.",
+          "timestamp": 27.7,
+          "confidence": 0.91
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.95,
+    "appropriatenessScore": 1,
+    "warnings": [],
+    "isMainLectureContent_confidence": 0.98,
+    "isSideConversation_confidence": 0.01,
+    "isIrrelevantContent_confidence": 0.01,
+    "isPartialResponse": true,
+    "expectedCompletionTime": 60,
+    "tags": [
+      "writing",
+      "essay_writing",
+      "classroom_instruction",
+      "pedagogy",
+      "english_language_arts",
+      "vague_instructions"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": true,
+    "summarization": "The teacher gives a brief and vague set of instructions for an in-class essay. Students are told to write a one-to-two-page essay on an interesting topic within 30 minutes. The primary guidance on quality is to \"use big words\" and \"make it sound smart,\" without providing any specific rubric, structural advice, or clear learning objectives.",
+    "recommendedSummarization": "concise",
+    "additionalSummarizationOptions": [
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "A teacher instructs students to write a one-to-two-page essay on an interesting topic in 30 minutes, vaguely advising them to use \"big words\" to \"sound smart.\""
+      },
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "• Task: Write an essay.\n• Topic: Something interesting.\n• Length: 1-2 pages.\n• Style Guidance: Use \"big words,\" make it \"sound smart.\"\n• Time Limit: 30 minutes.\n• Due Date: End of class."
+      },
+      {
+        "version": "narrative",
+        "comparativeValueToRecommendedModality": 0.75,
+        "text": "The class session began with the teacher announcing an impromptu essay assignment. The instructions were open-ended: students had 30 minutes to write a piece on any topic they found interesting. The teacher's main stylistic advice was to aim for a sophisticated tone by using 'big words and stuff' to make the writing sound intelligent. With the clock ticking, students were told to begin immediately to meet the end-of-class deadline."
+      }
+    ],
+    "oneLineSummarization": "A teacher gives vague instructions for a 30-minute essay, telling students to write about something interesting and \"sound smart.\"",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.9,
+    "learningModalityText": [
+      {
+        "effectiveness": "high",
+        "type": "PROBLEM_SOLVING",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "To write a good essay in 30 minutes, let's break it down. Step 1: Brainstorm an interesting topic for 5 minutes. Step 2: Create a simple outline with an introduction, two main points, and a conclusion (5 mins). This is your roadmap. Step 3: Write the essay, focusing on developing your main points clearly (15 mins). Step 4: Use the final 5 minutes to proofread for any spelling or grammar mistakes. This structured approach is the best way to produce a 'smart' essay under pressure."
+      },
+      {
+        "effectiveness": "high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.95,
+        "text": "A smart-sounding essay is built on a logical foundation, not just big words. First, your introduction must present a clear main idea, or thesis. Second, each body paragraph must support that thesis with a specific point and evidence. Third, your conclusion should summarize these points and restate the thesis. Following this logical sequence ensures your writing is coherent and persuasive, which is the true mark of intelligent writing."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "METAPHORS",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.75,
+        "text": "Think of your essay as building a house in 30 minutes. You can't just start throwing fancy windows ('big words') onto a pile of bricks. You need a blueprint first—that's your outline. The foundation is your introduction and thesis. The walls are your body paragraphs, each one holding up the roof. The conclusion is the roof that ties everything together. A strong structure makes the house stand; fancy decorations are just a bonus."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "MERMAID_DIAGRAM",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "ANNOTATED_TEXT"
+        ],
+        "title": "Basic Essay Structure",
+        "reasonForSuggestion": "The teacher's instructions completely lack guidance on essay structure, which is a critical component for success. A simple visual diagram provides a clear, essential framework for students to follow.",
+        "promptForGeneration": "Create a Mermaid graph diagram (graph TD) for a basic essay structure, suitable for middle or high school students. The title should be 'Essay Roadmap'. Start with a node labeled 'A[Introduction: Hook the reader & state your main point (Thesis)]'. This node should connect to 'B[Body Paragraph 1: Introduce first supporting idea & provide evidence]'. Node B should connect to 'C[Body Paragraph 2: Introduce second supporting idea & provide evidence]'. Node C should connect to 'D[Conclusion: Summarize your points & restate your thesis]'. Use arrows to show the clear flow from A to B to C to D. Style the nodes with rounded corners and use a clean, readable font."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.85,
+        "coreType": "HTML_INTERACTIVE",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "CHART_PIE"
+        ],
+        "title": "30-Minute Essay Pacing Guide",
+        "reasonForSuggestion": "The 30-minute time limit is a significant constraint. A visual timer with a pacing guide helps students develop time management skills, which are crucial for this task but were not mentioned by the teacher.",
+        "promptForGeneration": "Create an interactive HTML component that functions as a 30-minute countdown timer and pacing guide. Display the timer as a pie chart or donut chart. The chart should be segmented into three phases: 'Phase 1: Brainstorm & Outline (5 min)' in blue, 'Phase 2: Write (20 min)' in green, and 'Phase 3: Review & Edit (5 min)' in orange. As time counts down, the chart should visually deplete. Display the remaining time digitally (MM:SS) in the center. The label for the current phase should be highlighted. This tool helps students internalize effective time allocation for timed writing."
+      }
+    ],
+    "purpose": "This activity is intended to be a quick assessment of writing fluency and the ability to formulate ideas under pressure. The goal is to practice generating a coherent piece of writing on a chosen topic within a strict time limit, a skill useful for standardized tests and in-class assignments.",
+    "motivation": "This is your chance to quickly share your thoughts on something you find genuinely interesting. Writing isn't just about rules and grades; it's a powerful tool for expressing your unique perspective. Practicing writing under pressure helps you become a faster, more confident communicator, so you can make your point clearly and effectively when it matters most.",
+    "learningValueScore": 0.2,
+    "availableActions": [
+      {
+        "actionLabel": "Show Structure",
+        "reason": "Provides a clear essay framework that was missing from the instructions.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "Suggest Topics",
+        "reason": "Helps overcome writer's block from the vague 'something interesting' prompt.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Better Writing Tips",
+        "reason": "Replaces the poor advice to 'use big words' with actionable tips on clarity, tone, and evidence.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Start Pacing Timer",
+        "reason": "Offers a tool to help manage the 30-minute time limit effectively.",
+        "recommendationPriority": "high"
+      }
+    ],
+    "vocabularyEnhancements": null,
+    "relatedResearch": null,
+    "recommendationsToTeacher": [
+      "Provide a simple rubric before the activity. Clearly defining expectations for structure, clarity, and development gives students a concrete target to aim for, which is more effective than abstract advice like 'sound smart.'",
+      "Model the brainstorming and outlining process for 2-3 minutes. Showing students how to quickly generate and organize ideas provides a practical strategy they can immediately apply, especially under time pressure.",
+      "Offer specific, constructive feedback instead of general instructions. Focus on one or two key areas for improvement, such as strengthening the thesis statement or using better transition words between paragraphs."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:46:56.946Z",
+    "latencyMs": 41182,
+    "tokenUsage": {
+      "input": 6923,
+      "output": 2262,
+      "total": 11452
+    }
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "sample": {
+    "durationSeconds": 120,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Everyone, please settle down and open your books to chapter 5.",
+          "timestamp": 0,
+          "confidence": 0.81
+        },
+        {
+          "text": "shuffling papers",
+          "timestamp": 5.3,
+          "confidence": 0.29
+        },
+        {
+          "text": "We're going to discuss the main character's decision.",
+          "timestamp": 8.7,
+          "confidence": 0.79
+        },
+        {
+          "text": "whispers",
+          "timestamp": 14.2,
+          "confidence": 0.24
+        },
+        {
+          "text": "Jake, what did you think about what Maya did?",
+          "timestamp": 16.8,
+          "confidence": 0.76
+        },
+        {
+          "text": "Um, I thought she was brave.",
+          "timestamp": 21.5,
+          "confidence": 0.73
+        },
+        {
+          "text": "background talking",
+          "timestamp": 25.9,
+          "confidence": 0.31
+        },
+        {
+          "text": "Brave how? Can you elaborate?",
+          "timestamp": 28.3,
+          "confidence": 0.77
+        },
+        {
+          "text": "She stood up to the bully even though she was scared.",
+          "timestamp": 32.6,
+          "confidence": 0.71
+        },
+        {
+          "text": "desk scraping",
+          "timestamp": 38.4,
+          "confidence": 0.26
+        },
+        {
+          "text": "Good point. Did anyone else notice something interesting?",
+          "timestamp": 41.2,
+          "confidence": 0.74
+        },
+        {
+          "text": "coughing",
+          "timestamp": 47.8,
+          "confidence": 0.22
+        },
+        {
+          "text": "I noticed she asked her friends for help first.",
+          "timestamp": 50.5,
+          "confidence": 0.69
+        },
+        {
+          "text": "Excellent observation, Lily!",
+          "timestamp": 56.2,
+          "confidence": 0.82
+        },
+        {
+          "text": "That shows she values friendship.",
+          "timestamp": 59.7,
+          "confidence": 0.78
+        },
+        {
+          "text": "door opening",
+          "timestamp": 64.3,
+          "confidence": 0.28
+        },
+        {
+          "text": "What do you think the author is trying to teach us?",
+          "timestamp": 67.9,
+          "confidence": 0.75
+        },
+        {
+          "text": "pencil dropping",
+          "timestamp": 74.6,
+          "confidence": 0.19
+        },
+        {
+          "text": "That you don't have to face problems alone?",
+          "timestamp": 77.3,
+          "confidence": 0.68
+        },
+        {
+          "text": "sniffling",
+          "timestamp": 83.1,
+          "confidence": 0.23
+        },
+        {
+          "text": "Yes, and that courage comes in many forms.",
+          "timestamp": 86.5,
+          "confidence": 0.79
+        },
+        {
+          "text": "classroom noise",
+          "timestamp": 92.8,
+          "confidence": 0.31
+        },
+        {
+          "text": "For tomorrow, I want you to write a paragraph about a time you showed courage.",
+          "timestamp": 96.2,
+          "confidence": 0.73
+        },
+        {
+          "text": "zipper sound",
+          "timestamp": 104.7,
+          "confidence": 0.25
+        },
+        {
+          "text": "Make sure it's at least half a page.",
+          "timestamp": 107.5,
+          "confidence": 0.77
+        },
+        {
+          "text": "chairs moving",
+          "timestamp": 113.2,
+          "confidence": 0.27
+        },
+        {
+          "text": "Alright, you can start packing up.",
+          "timestamp": 116.8,
+          "confidence": 0.81
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.78,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "PII_DETECTED",
+        "details": "First names 'Jake' and 'Lily' were detected. In this educational context of a classroom discussion, this is likely appropriate and not a significant privacy risk, but is flagged for review.",
+        "riskLevel": "low"
+      }
+    ],
+    "isMainLectureContent_confidence": 0.92,
+    "isSideConversation_confidence": 0.15,
+    "isIrrelevantContent_confidence": 0.35,
+    "isPartialResponse": false,
+    "tags": [
+      "literature",
+      "character_analysis",
+      "theme_analysis",
+      "courage",
+      "friendship",
+      "social_emotional_learning",
+      "grade_4-6",
+      "classroom_discussion"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "A teacher facilitates a classroom discussion about a book character named Maya who confronted a bully. Students identify Maya's actions as brave, specifically noting that she stood up for herself despite being scared and, importantly, asked her friends for help first. The conversation explores the themes that courage comes in many forms and that valuing friendship is a source of strength. The lesson concludes with the teacher assigning a personal writing task for students to reflect on a time they showed courage.",
+    "recommendedSummarization": "narrative",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "• Topic: Analysis of a character named Maya from Chapter 5.\n• Main Action: Maya stood up to a bully.\n• Key Insights from Students:\n  - Her action was brave because she was scared.\n  - She asked friends for help first, showing she values friendship.\n• Core Themes Identified:\n  - You don't have to face problems alone.\n  - Courage comes in many forms.\n• Homework Assignment: Write a paragraph about a personal experience showing courage."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.75,
+        "text": "Students discuss a book character, Maya, who bravely stood up to a bully after seeking help from friends. The key takeaways are that courage has many forms and that friendship is a powerful support system."
+      },
+      {
+        "version": "detailed",
+        "comparativeValueToRecommendedModality": 0.95,
+        "text": "The teacher initiates a literary discussion based on Chapter 5, focusing on the main character Maya's decision. A student, Jake, suggests Maya was brave, elaborating that she confronted a bully even while feeling scared. Another student, Lily, adds the crucial observation that Maya first sought support from her friends. The teacher affirms both points, guiding the class to understand the author's message: problems don't have to be faced in isolation, and courage isn't just about confrontation but also about seeking help. To solidify this concept, the teacher assigns a reflective writing prompt for students to describe a personal instance of courage."
+      }
+    ],
+    "oneLineSummarization": "A class analyzes a character's bravery, concluding that courage involves both facing fears and seeking help from friends, leading to a personal writing assignment.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.85,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "SOCIAL",
+        "relativeEffectivenessWeight": 0.95,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Let's continue this great discussion in small groups. Talk with your partners about these questions: Besides standing up to a bully, what are two other ways a person can show courage at school? Why do you think it might be harder to ask for help than to face a problem alone? Share a time when a friend helped you be brave. This helps us see that the ideas from Maya's story are all around us in our own classroom."
+      },
+      {
+        "effectiveness": "high",
+        "type": "STORYTELLING",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.95,
+        "text": "Maya stood frozen for a moment, her heart pounding like a drum. The bully's words echoed in her ears. But then, she remembered her conversation with her friends earlier that day. Their faces, full of support, gave her a spark of strength. She took a deep breath, looked the bully in the eye, and spoke her mind. It wasn't a shout, but her voice was steady. In that moment, Maya learned that bravery wasn't about not being scared; it was about having friends who stand with you, making your own voice just a little bit louder."
+      },
+      {
+        "effectiveness": "high",
+        "type": "EXPERIENTIAL",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "Think about a time you've seen something unfair happen on the playground or in the lunchroom. It's easy to look away, but Maya's story shows us a different path. Her choice to get her friends involved is a real-world strategy. Next time you see a problem, think like Maya: who is my support system? How can we work together to make things better? This isn't just about a book; it's a practical guide for being a good friend and a strong person in our own community."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.75,
+        "text": "Let's break down Maya's decision-making process. Step 1: Identify the problem (the bully). Step 2: Assess personal limitations (she was scared). Step 3: Activate resources (she asked friends for help). Step 4: Execute the plan (she stood up to the bully). This logical sequence shows that her bravery wasn't just a random act; it was a well-supported decision. The outcome was successful because she combined her personal courage with the strength of her friendships."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "MERMAID_MINDMAP",
+        "otherCoreType": null,
+        "secondaryTypes": [],
+        "title": "What is Courage?",
+        "reasonForSuggestion": "A mind map is excellent for helping students organize abstract concepts discussed in class, connecting Maya's actions to the broader theme of courage and its different components.",
+        "promptForGeneration": "Create a Mermaid mindmap for a 5th-grade literature class. The central node should be 'Courage'. Create three main branches. Branch 1: 'Maya's Actions' with two sub-nodes: 'Stood up to bully' and 'Asked friends for help'. Branch 2: 'What Courage Feels Like' with two sub-nodes: 'Being scared but acting anyway' and 'Not feeling alone'. Branch 3: 'Key Ingredients' with two sub-nodes: 'Friendship & Support' and 'Doing the right thing'. Use bright, engaging colors (e.g., blue, green, orange) and a clear, rounded font. Ensure the layout is balanced and easy to read."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.9,
+        "coreType": "COMIC_STRIP",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "ANNOTATED_TEXT"
+        ],
+        "title": "Maya's Moment of Bravery",
+        "reasonForSuggestion": "A visual narrative like a comic strip makes the story more memorable and accessible, especially for visual learners. It clearly shows the cause-and-effect sequence of Maya's actions.",
+        "promptForGeneration": "Generate a simple 4-panel comic strip for elementary students illustrating Maya's story. Panel 1: Maya looking worried, with a bully figure in the background. A thought bubble says 'I'm scared...'. Panel 2: Maya talking to two friends, who look supportive. A speech bubble says 'Can you help me?'. Panel 3: Maya and her friends standing together, facing the bully. Maya has a determined expression. Panel 4: Maya smiling, with a large star icon above her head that says 'Courage!'. Use a simple, friendly art style with clear character emotions. Add a small caption below each panel: 1. The Problem, 2. Asking for Help, 3. Strength in Numbers, 4. Finding Courage."
+      },
+      {
+        "effectiveness": "medium",
+        "relativeEffectivenessWeight": 0.75,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherSuggestions": 0.75,
+        "coreType": "TABLE",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "HIGHLIGHTED_TEXT"
+        ],
+        "title": "Character Trait Analysis: Maya",
+        "reasonForSuggestion": "A structured table helps students practice formal character analysis by organizing evidence from the text to support abstract claims about a character's traits.",
+        "promptForGeneration": "Create an HTML table with two columns and three rows for a character analysis activity. The left column header should be 'Character Trait' and the right column header should be 'Evidence from the Discussion'. Row 1: Left cell 'Brave', Right cell '\"She stood up to the bully even though she was scared.\"'. Row 2: Left cell 'Values Friendship', Right cell '\"I noticed she asked her friends for help first.\"'. Row 3: Left cell 'Thoughtful', Right cell 'She didn\\'t act alone; she made a plan with her friends.' Use clear borders, good padding for readability, and highlight the text in the 'Evidence' column in a light yellow."
+      }
+    ],
+    "purpose": "This lesson teaches critical literary analysis skills, such as identifying character traits and thematic messages within a story. More importantly, it serves as a powerful lesson in social-emotional learning (SEL), using a fictional character to model real-world strategies for handling difficult situations like bullying. It demonstrates that courage isn't the absence of fear, but acting despite it, and normalizes seeking help as a sign of strength.",
+    "motivation": "Have you ever been in a tricky situation and weren't sure what to do? Stories like Maya's are like a practice run for real life. Learning how she found the courage to face a bully can give you ideas for how to be brave in your own world. It shows that your friends are one of your greatest superpowers and that asking for help is one of the bravest things you can do.",
+    "learningValueScore": 0.88,
+    "availableActions": [
+      {
+        "actionLabel": "Define Courage",
+        "reason": "Provides a clear definition of the core theme for students who may be unsure.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "My Story Starter",
+        "reason": "Helps students begin the reflective homework assignment with a sentence prompt.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Bully vs. Friend",
+        "reason": "Offers a simple T-chart comparing the actions of a bully versus the actions of a supportive friend.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "courage": {
+        "definition": "The ability to do something that frightens one; bravery.",
+        "context": "The class discussed how Maya showed courage by standing up to the bully.",
+        "simpler": "Being brave even when you feel scared.",
+        "visual_association": "A lion, a superhero, or a person helping someone else."
+      },
+      "elaborate": {
+        "definition": "To add more detail concerning what has already been said.",
+        "context": "The teacher asked Jake to elaborate on why he thought Maya was brave.",
+        "simpler": "To explain more or give more details.",
+        "visual_association": "A magnifying glass looking closer at something."
+      }
+    },
+    "recommendationsToTeacher": [
+      "Follow up this discussion with a role-playing activity where students can practice asking for help or standing up for a friend in a safe, structured environment.",
+      "Create a 'Wall of Courage' in the classroom where students can anonymously post notes about brave or kind acts they have witnessed, reinforcing the lesson's theme.",
+      "Introduce a follow-up text or story that shows a different kind of courage (e.g., academic courage to try a hard problem, emotional courage to admit a mistake) to broaden students' understanding of the concept."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:33:46.312Z",
+    "latencyMs": 45159,
+    "tokenUsage": {
+      "input": 7717,
+      "output": 3081,
+      "total": 12461
+    }
+  }
+}

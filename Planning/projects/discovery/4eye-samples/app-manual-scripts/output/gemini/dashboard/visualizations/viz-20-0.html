@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Protest to War: A Cause-and-Effect Flowchart</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: white;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            background: white;
+            border-radius: 8px;
+            padding: 24px;
+        }
+        h1 {
+            color: #1976d2;
+            font-size: 24px;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+        .mermaid {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 300px;
+            background: #fafafa;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        .description {
+            margin-top: 20px;
+            padding: 16px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            color: #424242;
+            line-height: 1.6;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 12px;
+            }
+            .container {
+                padding: 16px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>From Protest to War: A Cause-and-Effect Flowchart</h1>
+        <div class="mermaid">
+graph TD' syntax. Start with a node A["Protest: Boston Tea Party (Dec 1773)"]. Connect it to B["British Response: Intolerable Acts (1774)"]. From B, create an arrow to a subgraph labeled 'Key Punishments' containing two parallel nodes: B1["Boston Harbor Closed"] and B2["Town Meetings Restricted"]. Connect the subgraph to C["Colonial Reaction: Unification"]. Connect C to D["Action: First Continental Congress (Sep 1774)"]. Connect D to E["Outcome: Boycott & Military Prep"]. Finally, connect E to F["Result: Battles of Lexington & Concord (April 1775)"]. Style the nodes: Protest in blue, British Response in red, and Colonial Reaction/Outcome in green. Use clear, concise text for each node.
+        </div>
+        <div class="description">
+            <strong>Why this visualization helps learning:</strong><br>
+            This content is a perfect example of a causal chain. A flowchart will visually reinforce the step-by-step escalation, making the logical progression from a single protest to the start of a war clear and easy to remember for students.
+        </div>
+    </div>
+    <script>
+        mermaid.initialize({ 
+            startOnLoad: true,
+            theme: 'default',
+            themeVariables: {
+                primaryColor: '#1976d2',
+                primaryTextColor: '#fff',
+                primaryBorderColor: '#1565c0',
+                lineColor: '#757575',
+                secondaryColor: '#42a5f5',
+                tertiaryColor: '#90caf9'
+            }
+        });
+    </script>
+</body>
+</html>

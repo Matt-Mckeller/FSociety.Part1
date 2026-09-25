@@ -1,0 +1,40 @@
+{
+  "epics": [
+    {
+      "id": "mvp-launch",
+      "title": "MVP Launch Suite",
+      "description": "Launch core product MVPs before January 21st deadline",
+      "color": "#6B21A8",
+      "projects": ["4up", "4eye", "expanse-services"],
+      "status": "active",
+      "targetQuarter": "Q1 2026"
+    },
+    {
+      "id": "revenue-funding",
+      "title": "Revenue & Funding",
+      "description": "Generate revenue and secure funding for growth",
+      "color": "#059669",
+      "projects": ["4up", "expanse-services"],
+      "status": "active",
+      "targetQuarter": "Q1 2026"
+    },
+    {
+      "id": "platform-infrastructure",
+      "title": "Platform Infrastructure",
+      "description": "Build shared platform components and infrastructure",
+      "color": "#0284C7",
+      "projects": ["lotties", "4up"],
+      "status": "planned",
+      "targetQuarter": "Q1 2026"
+    },
+    {
+      "id": "personal-excellence",
+      "title": "Personal Excellence",
+      "description": "Optimize personal health, productivity, and stability",
+      "color": "#2ECC71",
+      "projects": ["personal"],
+      "status": "active",
+      "targetQuarter": "Q1 2026"
+    }
+  ]
+}

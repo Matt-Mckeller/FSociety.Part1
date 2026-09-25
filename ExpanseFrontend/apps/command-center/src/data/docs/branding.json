@@ -1,0 +1,48 @@
+{
+  "logoEvolution": {
+    "current": "Expanse flower logo",
+    "planned": {
+      "description": "Update logo to have flower in the middle for nip / look more like glasses and represent 4eye",
+      "goals": [
+        "Look more like glasses",
+        "Represent 4eye brand",
+        "Potential animated character"
+      ],
+      "status": "planning"
+    }
+  },
+  "presentationStyle": {
+    "nextGeneration": {
+      "title": "Next Generation Presentation",
+      "format": "Live, interactive, exploratory web page/web app",
+      "features": [
+        "Live view with interactions",
+        "5 minute length for speech",
+        "Exploratory navigation",
+        "Interactive elements"
+      ],
+      "purpose": "Modern presentation format that engages audience through interaction"
+    }
+  },
+  "characterStrategy": {
+    "overview": "Characters and symbolism matter for relatability. Having a personality and brand matters - people buy and engage because they associate with and relate to brands.",
+    "examples": [
+      {
+        "brand": "Nintendo",
+        "character": "Mario",
+        "lesson": "Beloved characters drive purchases and engagement"
+      },
+      {
+        "brand": "Nintendo",
+        "character": "Zelda/Link",
+        "lesson": "Character-driven franchises create lasting connections"
+      }
+    ],
+    "applicationToExpanse": [
+      "Develop relatable mascot characters",
+      "Create character-led tutorials and guidance",
+      "Allow student avatar customization",
+      "Use characters in marketing materials"
+    ]
+  }
+}

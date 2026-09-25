@@ -1,0 +1,1 @@
+simple version option like input one sentence or w.e. -> output ___

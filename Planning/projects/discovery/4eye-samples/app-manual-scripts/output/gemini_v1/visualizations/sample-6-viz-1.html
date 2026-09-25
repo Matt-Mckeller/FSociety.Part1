@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Common Time Complexities at a Glance</title>
+    <style>
+        body {
+            font-family: 'Monaco', 'Courier New', monospace;
+            background: linear-gradient(135deg, #232526 0%, #414345 100%);
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #1e1e1e;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+            border: 3px solid #0d7377;
+        }
+
+        h1 {
+            text-align: center;
+            color: #14ffec;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            text-shadow: 0 0 20px rgba(20, 255, 236, 0.5);
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #0d7377;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+
+        .complexity-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            margin-bottom: 40px;
+            overflow: hidden;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .complexity-table th {
+            background: linear-gradient(135deg, #0d7377 0%, #14ffec 100%);
+            color: #1e1e1e;
+            font-weight: 700;
+            padding: 20px;
+            text-align: left;
+            font-size: 1.1em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .complexity-table td {
+            padding: 20px;
+            background: #2a2a2a;
+            color: #e0e0e0;
+            border-bottom: 1px solid #3a3a3a;
+        }
+
+        .complexity-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .complexity-table tr:hover td {
+            background: #323232;
+            transition: background 0.3s;
+        }
+
+        .complexity-name {
+            font-weight: 700;
+            font-size: 1.2em;
+        }
+
+        .o1-row { border-left: 5px solid #4caf50; }
+        .ologn-row { border-left: 5px solid #2196f3; }
+        .on-row { border-left: 5px solid #ff9800; }
+        .onlogn-row { border-left: 5px solid #9c27b0; }
+        .on2-row { border-left: 5px solid #f44336; }
+
+        .complexity-name.o1 { color: #4caf50; }
+        .complexity-name.ologn { color: #2196f3; }
+        .complexity-name.on { color: #ff9800; }
+        .complexity-name.onlogn { color: #9c27b0; }
+        .complexity-name.on2 { color: #f44336; }
+
+        .code-block {
+            background: #1a1a1a;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #444;
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 0.95em;
+            color: #a9b7c6;
+            overflow-x: auto;
+            line-height: 1.6;
+        }
+
+        .code-block .keyword {
+            color: #cc7832;
+            font-weight: 600;
+        }
+
+        .code-block .variable {
+            color: #9876aa;
+        }
+
+        .code-block .function {
+            color: #ffc66d;
+        }
+
+        .code-block .comment {
+            color: #629755;
+            font-style: italic;
+        }
+
+        .growth-badge {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.9em;
+            margin-top: 8px;
+        }
+
+        .growth-constant { background: #1b5e20; color: #a5d6a7; }
+        .growth-logarithmic { background: #0d47a1; color: #90caf9; }
+        .growth-linear { background: #e65100; color: #ffccbc; }
+        .growth-loglinear { background: #4a148c; color: #ce93d8; }
+        .growth-quadratic { background: #b71c1c; color: #ffcdd2; }
+
+        .key-insight {
+            margin-top: 40px;
+            padding: 30px;
+            background: linear-gradient(135deg, #1a237e 0%, #283593 100%);
+            border-radius: 15px;
+            border-left: 8px solid #3f51b5;
+        }
+
+        .key-insight h3 {
+            color: #7986cb;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        .key-insight p {
+            color: #c5cae9;
+            line-height: 1.8;
+            font-size: 1.05em;
+        }
+
+        .key-insight strong {
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⏱️ Common Time Complexities at a Glance</h1>
+        <p class="subtitle">Quick Reference for Algorithm Analysis</p>
+
+        <table class="complexity-table">
+            <thead>
+                <tr>
+                    <th>Big O</th>
+                    <th>Name</th>
+                    <th>Example Code</th>
+                    <th>Growth Rate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="o1-row">
+                    <td>
+                        <div class="complexity-name o1">O(1)</div>
+                    </td>
+                    <td>
+                        <strong>Constant</strong>
+                        <div class="growth-badge growth-constant">⚡ Best Performance</div>
+                    </td>
+                    <td>
+                        <div class="code-block">
+<span class="comment">// Direct array access</span>
+<span class="keyword">const</span> value = array[<span class="variable">5</span>];
+<span class="keyword">return</span> value;
+
+<span class="comment">// Hash table lookup</span>
+<span class="keyword">const</span> user = hashMap[<span class="variable">'user123'</span>];
+                        </div>
+                    </td>
+                    <td>
+                        Always takes the same time, regardless of input size.<br>
+                        <strong>No growth!</strong>
+                    </td>
+                </tr>
+
+                <tr class="ologn-row">
+                    <td>
+                        <div class="complexity-name ologn">O(log n)</div>
+                    </td>
+                    <td>
+                        <strong>Logarithmic</strong>
+                        <div class="growth-badge growth-logarithmic">🚀 Excellent</div>
+                    </td>
+                    <td>
+                        <div class="code-block">
+<span class="comment">// Binary search</span>
+<span class="keyword">function</span> <span class="function">binarySearch</span>(arr, target) {
+  <span class="keyword">let</span> left = <span class="variable">0</span>, right = arr.length - <span class="variable">1</span>;
+  <span class="keyword">while</span> (left <= right) {
+    <span class="keyword">const</span> mid = Math.<span class="function">floor</span>((left + right) / <span class="variable">2</span>);
+    <span class="keyword">if</span> (arr[mid] === target) <span class="keyword">return</span> mid;
+    <span class="keyword">if</span> (arr[mid] < target) left = mid + <span class="variable">1</span>;
+    <span class="keyword">else</span> right = mid - <span class="variable">1</span>;
+  }
+}
+                        </div>
+                    </td>
+                    <td>
+                        Eliminates half the data with each step.<br>
+                        <strong>Extremely efficient!</strong>
+                    </td>
+                </tr>
+
+                <tr class="on-row">
+                    <td>
+                        <div class="complexity-name on">O(n)</div>
+                    </td>
+                    <td>
+                        <strong>Linear</strong>
+                        <div class="growth-badge growth-linear">✅ Good</div>
+                    </td>
+                    <td>
+                        <div class="code-block">
+<span class="comment">// Simple iteration</span>
+<span class="keyword">for</span> (<span class="keyword">let</span> i = <span class="variable">0</span>; i < arr.length; i++) {
+  console.<span class="function">log</span>(arr[i]);
+}
+
+<span class="comment">// Finding an element</span>
+<span class="keyword">const</span> found = arr.<span class="function">find</span>(item => item.id === targetId);
+                        </div>
+                    </td>
+                    <td>
+                        Proportional to input size.<br>
+                        <strong>Double input = double time</strong>
+                    </td>
+                </tr>
+
+                <tr class="onlogn-row">
+                    <td>
+                        <div class="complexity-name onlogn">O(n log n)</div>
+                    </td>
+                    <td>
+                        <strong>Log-linear</strong>
+                        <div class="growth-badge growth-loglinear">👍 Pretty Good</div>
+                    </td>
+                    <td>
+                        <div class="code-block">
+<span class="comment">// Merge sort</span>
+<span class="keyword">function</span> <span class="function">mergeSort</span>(arr) {
+  <span class="keyword">if</span> (arr.length <= <span class="variable">1</span>) <span class="keyword">return</span> arr;
+  <span class="keyword">const</span> mid = Math.<span class="function">floor</span>(arr.length / <span class="variable">2</span>);
+  <span class="keyword">const</span> left = <span class="function">mergeSort</span>(arr.<span class="function">slice</span>(<span class="variable">0</span>, mid));
+  <span class="keyword">const</span> right = <span class="function">mergeSort</span>(arr.<span class="function">slice</span>(mid));
+  <span class="keyword">return</span> <span class="function">merge</span>(left, right);
+}
+
+<span class="comment">// Also: QuickSort, HeapSort</span>
+                        </div>
+                    </td>
+                    <td>
+                        Best practical sorting algorithms.<br>
+                        <strong>Much better than O(n²)</strong>
+                    </td>
+                </tr>
+
+                <tr class="on2-row">
+                    <td>
+                        <div class="complexity-name on2">O(n²)</div>
+                    </td>
+                    <td>
+                        <strong>Quadratic</strong>
+                        <div class="growth-badge growth-quadratic">⚠️ Slow!</div>
+                    </td>
+                    <td>
+                        <div class="code-block">
+<span class="comment">// Nested loops</span>
+<span class="keyword">for</span> (<span class="keyword">let</span> i = <span class="variable">0</span>; i < arr.length; i++) {
+  <span class="keyword">for</span> (<span class="keyword">let</span> j = <span class="variable">0</span>; j < arr.length; j++) {
+    <span class="keyword">if</span> (arr[i] === arr[j] && i !== j) {
+      console.<span class="function">log</span>(<span class="variable">'Duplicate found!'</span>);
+    }
+  }
+}
+                        </div>
+                    </td>
+                    <td>
+                        Comparing every element with every other.<br>
+                        <strong>Avoid for large datasets!</strong>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div class="key-insight">
+            <h3>💡 Key Takeaways</h3>
+            <p>
+                <strong>1. Constant factors don't matter:</strong> O(2n) simplifies to O(n). We care about the shape of growth, not the exact numbers.<br><br>
+                
+                <strong>2. Drop lower-order terms:</strong> O(n² + n) becomes O(n²) because n² dominates as n gets large.<br><br>
+                
+                <strong>3. Logarithms are your friend:</strong> Any algorithm that repeatedly divides the problem in half is O(log n) and extremely fast.<br><br>
+                
+                <strong>4. Nested loops are a red flag:</strong> They usually mean O(n²) or worse. Always look for ways to avoid them with better algorithms or data structures.<br><br>
+                
+                <strong>5. Real-world impact:</strong> For n = 1,000,000, the difference between O(n) and O(n²) is measured in seconds vs. days. <strong>Algorithm choice matters!</strong>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

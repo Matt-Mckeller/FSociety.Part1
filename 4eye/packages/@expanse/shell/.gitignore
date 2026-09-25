@@ -1,0 +1,23 @@
+# Build outputs
+dist/
+storybook-static/
+
+# Test artifacts (not baselines)
+visual-test-report/
+test-results/
+playwright-report/
+
+# Coverage
+coverage/
+
+# Dependencies (if local)
+node_modules/
+
+# IDE
+.idea/
+*.swp
+
+# OS
+.DS_Store
+
+# Note: __screenshots__/ is intentionally tracked for baseline comparisons

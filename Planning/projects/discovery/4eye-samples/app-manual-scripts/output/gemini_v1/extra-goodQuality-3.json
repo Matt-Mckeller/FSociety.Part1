@@ -1,0 +1,349 @@
+{
+  "sample": {
+    "subject": "Psychology",
+    "gradeLevel": "College - PSYCH 201",
+    "qualityScore": 9,
+    "description": "Cognitive psychology lecture on memory systems",
+    "durationSeconds": 210,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Welcome back. Today we're exploring the different types of memory systems in the human brain.",
+          "timestamp": 0,
+          "confidence": 0.97
+        },
+        {
+          "text": "We'll look at sensory memory, short-term memory, and long-term memory.",
+          "timestamp": 6.9,
+          "confidence": 0.96
+        },
+        {
+          "text": "Let's start with sensory memory, which is the briefest form of memory.",
+          "timestamp": 13.5,
+          "confidence": 0.97
+        },
+        {
+          "text": "Sensory memory holds information from our senses for just a fraction of a second.",
+          "timestamp": 19.8,
+          "confidence": 0.96
+        },
+        {
+          "text": "There are different types for each sense: iconic for visual, echoic for auditory.",
+          "timestamp": 26.7,
+          "confidence": 0.95
+        },
+        {
+          "text": "This allows us to perceive the world as continuous rather than as discrete snapshots.",
+          "timestamp": 34.2,
+          "confidence": 0.96
+        },
+        {
+          "text": "Next is short-term memory, also called working memory.",
+          "timestamp": 41.6,
+          "confidence": 0.98
+        },
+        {
+          "text": "This is where we hold information temporarily while we're actively using it.",
+          "timestamp": 47.3,
+          "confidence": 0.97
+        },
+        {
+          "text": "George Miller's famous research found that we can hold about 7 plus or minus 2 items.",
+          "timestamp": 54.1,
+          "confidence": 0.95
+        },
+        {
+          "text": "However, more recent studies suggest the number is closer to 4 chunks of information.",
+          "timestamp": 61.8,
+          "confidence": 0.96
+        },
+        {
+          "text": "Working memory is crucial for reasoning, comprehension, and learning.",
+          "timestamp": 69.3,
+          "confidence": 0.97
+        },
+        {
+          "text": "Now, long-term memory is where things get really interesting.",
+          "timestamp": 76.1,
+          "confidence": 0.98
+        },
+        {
+          "text": "This system has virtually unlimited capacity and can store information for years or even a lifetime.",
+          "timestamp": 82.5,
+          "confidence": 0.96
+        },
+        {
+          "text": "We divide long-term memory into two main categories: explicit and implicit.",
+          "timestamp": 91.2,
+          "confidence": 0.97
+        },
+        {
+          "text": "Explicit memory, also called declarative memory, involves conscious recollection.",
+          "timestamp": 98.4,
+          "confidence": 0.96
+        },
+        {
+          "text": "It includes episodic memory, which is memory for personal experiences and events.",
+          "timestamp": 105.7,
+          "confidence": 0.95
+        },
+        {
+          "text": "And semantic memory, which is memory for facts and general knowledge.",
+          "timestamp": 112.9,
+          "confidence": 0.97
+        },
+        {
+          "text": "For example, remembering your first day of college is episodic memory.",
+          "timestamp": 119.6,
+          "confidence": 0.96
+        },
+        {
+          "text": "Knowing that Paris is the capital of France is semantic memory.",
+          "timestamp": 126.3,
+          "confidence": 0.97
+        },
+        {
+          "text": "Implicit memory, or non-declarative memory, operates without conscious awareness.",
+          "timestamp": 133.1,
+          "confidence": 0.96
+        },
+        {
+          "text": "This includes procedural memory, like knowing how to ride a bike or type on a keyboard.",
+          "timestamp": 140.5,
+          "confidence": 0.95
+        },
+        {
+          "text": "You can't easily explain these skills in words, but your body knows how to do them.",
+          "timestamp": 148.7,
+          "confidence": 0.96
+        },
+        {
+          "text": "The hippocampus plays a critical role in forming new explicit memories.",
+          "timestamp": 156.2,
+          "confidence": 0.97
+        },
+        {
+          "text": "This was famously demonstrated by the case of patient H.M., who had his hippocampus removed.",
+          "timestamp": 163.5,
+          "confidence": 0.94
+        },
+        {
+          "text": "After surgery, he could no longer form new long-term explicit memories.",
+          "timestamp": 171.8,
+          "confidence": 0.96
+        },
+        {
+          "text": "However, his implicit memory remained intact, and he could still learn new motor skills.",
+          "timestamp": 178.6,
+          "confidence": 0.95
+        },
+        {
+          "text": "Understanding these memory systems has important implications for education and learning strategies.",
+          "timestamp": 186.9,
+          "confidence": 0.96
+        },
+        {
+          "text": "We'll discuss those applications in our next lecture.",
+          "timestamp": 194.8,
+          "confidence": 0.97
+        },
+        {
+          "text": "For Thursday, please read chapter 7 on memory consolidation.",
+          "timestamp": 200.5,
+          "confidence": 0.98
+        },
+        {
+          "text": "That's all for today. Have a great rest of your day.",
+          "timestamp": 206.2,
+          "confidence": 0.97
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.98,
+    "appropriatenessScore": 1,
+    "warnings": [],
+    "isMainLectureContent_confidence": 0.99,
+    "isSideConversation_confidence": 0.01,
+    "isIrrelevantContent_confidence": 0,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "psychology",
+      "cognitive_psychology",
+      "memory_systems",
+      "long-term_memory",
+      "short-term_memory",
+      "working_memory",
+      "college",
+      "hippocampus"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "The lecture provides a structured overview of the human memory systems, beginning with sensory memory, the briefest form, which includes iconic (visual) and echoic (auditory) types that create a continuous perception of the world. It then moves to short-term (or working) memory, a temporary storage with limited capacity (around 4 chunks of information) crucial for active cognitive tasks. The main focus is on long-term memory, which has vast capacity. This is divided into explicit (declarative) memory, requiring conscious recall, and implicit (non-declarative) memory, which operates unconsciously. Explicit memory is further broken down into episodic (personal events) and semantic (general facts) memory. Implicit memory includes procedural memory for skills like riding a bike. The lecture concludes by highlighting the hippocampus's critical role in forming new explicit memories, evidenced by the famous case of patient H.M.",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "• **Three Main Memory Systems:**\n  - **Sensory Memory:** Very brief (fraction of a second). Types: Iconic (visual), Echoic (auditory).\n  - **Short-Term (Working) Memory:** Temporary hold for active information. Capacity: ~4 chunks.\n  - **Long-Term Memory:** Virtually unlimited capacity, stores for years.\n• **Types of Long-Term Memory:**\n  - **Explicit (Declarative):** Conscious recall.\n    - *Episodic:* Personal events (e.g., your first day of college).\n    - *Semantic:* Facts & knowledge (e.g., Paris is the capital of France).\n  - **Implicit (Non-Declarative):** Unconscious operation.\n    - *Procedural:* Skills (e.g., riding a bike).\n• **Key Brain Structure:** The **hippocampus** is crucial for forming new explicit memories (demonstrated by patient H.M.)."
+      },
+      {
+        "version": "narrative",
+        "comparativeValueToRecommendedModality": 0.85,
+        "text": "Imagine information on a journey through your mind. First, it briefly flashes into your sensory memory, like a spark from your eyes or an echo in your ears, just long enough to make the world feel seamless. If you pay attention, that spark travels to your short-term memory, a mental workbench where you can actively use it for a few moments. To keep it forever, it must be transferred to the vast warehouse of long-term memory. In this warehouse, some memories are stored in labeled boxes you can consciously open—like the 'My 10th Birthday' box (episodic) or the 'World Capitals' file (semantic). Other memories are built into the warehouse itself, like the muscle memory of walking up the stairs, which you do without thinking (procedural)."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.75,
+        "text": "The human brain has three main memory systems: brief sensory memory, temporary short-term (working) memory, and vast long-term memory. Long-term memory is divided into conscious explicit memory (events, facts) and unconscious implicit memory (skills)."
+      }
+    ],
+    "oneLineSummarization": "Human memory is organized into three systems: brief sensory, temporary short-term, and vast long-term, which is further divided into conscious explicit and unconscious implicit types.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.95,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "To understand memory, we can classify it hierarchically. At the highest level, we have three distinct systems based on duration and capacity. System 1: Sensory Memory, with a duration of <1 second. System 2: Short-Term Memory, with a duration of <1 minute and a capacity of ~4 items. System 3: Long-Term Memory, with a duration of years and near-infinite capacity. We can then subdivide System 3 into two primary types based on consciousness. Type A: Explicit Memory (conscious), which contains Episodic (events) and Semantic (facts) data. Type B: Implicit Memory (unconscious), which contains Procedural (skills) data. This logical structure clarifies the relationships between all components."
+      },
+      {
+        "effectiveness": "high",
+        "type": "METAPHORS",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.95,
+        "text": "Think of your memory like a computer. Sensory memory is the keyboard or mouse buffer—it holds input for an instant before it's processed. Short-term memory is like your computer's RAM; it's fast and holds what you're actively working on, but it's limited and volatile. If you want to save your work, you must store it on the hard drive, which represents your long-term memory. This hard drive has different file types: 'home videos' for your episodic memories, an 'encyclopedia' for semantic facts, and 'executable programs' for your procedural skills like typing."
+      },
+      {
+        "effectiveness": "high",
+        "type": "EXPERIENTIAL",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "You use these memory systems every moment. The fleeting image of a car passing by is your iconic sensory memory. Remembering a phone number just long enough to dial it uses your short-term memory. Your long-term memory is at play when you recall the story of your last vacation (episodic), state that the Earth revolves around the Sun (semantic), and effortlessly tie your shoelaces without thinking about the steps (procedural). Recognizing these processes in your own life makes the abstract concepts concrete and understandable."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "STORYTELLING",
+        "relativeEffectivenessWeight": 0.7,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.75,
+        "text": "Meet a memory named 'M'. Born from the light hitting your eye, M's life begins in the chaotic, fleeting world of Sensory Memory, destined to fade in a second. But you noticed M, and with your attention, whisked it away to the bustling city of Short-Term Memory. Here, M could only stay for a short while, juggling for space with a few other memories. To survive, M had to make a perilous journey to the great Library of Long-Term Memory. Once there, it found a home, filed away either as a personal diary entry (episodic), a reference book fact (semantic), or a how-to guide that your body could read automatically (procedural)."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "MERMAID_MINDMAP",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "ANNOTATED_TEXT"
+        ],
+        "title": "Hierarchical Structure of Human Memory",
+        "reasonForSuggestion": "The concepts presented are highly hierarchical and categorical. A mind map or tree structure provides the clearest possible visualization of how the different memory systems relate to and branch off from one another, which is a common point of confusion for students.",
+        "promptForGeneration": "Create a Mermaid mindmap diagram for a college psychology course illustrating the structure of human memory. The central node should be 'Human Memory'. It should have three main branches: 'Sensory Memory', 'Short-Term Memory', and 'Long-Term Memory'. Under 'Sensory Memory', add sub-nodes 'Iconic (Visual)' and 'Echoic (Auditory)'. Under 'Short-Term Memory', add a sub-node 'Working Memory (Capacity: ~4 chunks)'. The 'Long-Term Memory' branch should split into two major sub-branches: 'Explicit (Declarative)' and 'Implicit (Non-Declarative)'. Under 'Explicit', add two further sub-nodes: 'Episodic (Events)' and 'Semantic (Facts)'. Under 'Implicit', add a sub-node 'Procedural (Skills)'. Use a clean, academic style. Make the top-level branches thicker. Ensure clear visual separation between the main systems."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.9,
+        "coreType": "TABLE",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "HIGHLIGHTED_TEXT"
+        ],
+        "title": "Comparison of Memory Systems",
+        "reasonForSuggestion": "A comparative table allows students to directly contrast the key features of the three main memory systems (duration, capacity, function). This format is excellent for studying and quickly referencing the defining characteristics of each system.",
+        "promptForGeneration": "Generate an HTML table for a college psychology class comparing the three main memory systems. The table should have four columns: 'Memory System', 'Function', 'Capacity', and 'Duration'. It should have three rows for 'Sensory Memory', 'Short-Term (Working) Memory', and 'Long-Term Memory'. Populate the cells with the following data: Sensory: 'Holds raw sensory data', 'High', '< 1 second'. Short-Term: 'Holds and processes active info', 'Limited (~4 chunks)', '< 1 minute'. Long-Term: 'Stores information for later retrieval', 'Virtually unlimited', 'Years to a lifetime'. Use clear headings, alternating row colors for readability, and bold the system names. The table should be styled to be clean and professional."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherSuggestions": 0.85,
+        "coreType": "FLOW_CHART",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "SVG_DIAGRAM"
+        ],
+        "title": "The Flow of Information Through Memory",
+        "reasonForSuggestion": "A flowchart effectively visualizes the process of memory formation, encoding, and retrieval, showing how information moves between the different systems. This helps students understand memory not just as static categories but as a dynamic process.",
+        "promptForGeneration": "Create a simple SVG flowchart diagram illustrating the flow of information in memory. Start with a box labeled 'Sensory Input'. An arrow should point to a box labeled 'Sensory Memory'. From 'Sensory Memory', an arrow labeled 'Attention' should point to a box labeled 'Short-Term / Working Memory'. From this box, an arrow labeled 'Encoding' should point to a larger box labeled 'Long-Term Memory'. An arrow labeled 'Retrieval' should point from 'Long-Term Memory' back to 'Short-Term / Working Memory'. Include a dotted arrow labeled 'Forgetting' pointing away from both Sensory and Short-Term memory boxes. Use distinct colors for each stage."
+      }
+    ],
+    "purpose": "Understanding the brain's memory systems is fundamental to the field of cognitive psychology. This knowledge explains how we learn, form our identities through personal experiences, and acquire complex skills. It provides the foundational model for analyzing higher-order cognitive functions like problem-solving, language, and decision-making, and it is essential for understanding memory-related disorders.",
+    "motivation": "Have you ever wondered why you can vividly remember a childhood vacation but forget a definition you just read for an exam? Or how you can ride a bike without thinking, yet struggle to explain the steps? This lesson demystifies your own mind. By understanding how your memory works, you can develop more effective study strategies, appreciate the complexity of your own experiences, and gain insight into the very processes that make you who you are.",
+    "learningValueScore": 0.95,
+    "availableActions": [
+      {
+        "actionLabel": "Show Diagram",
+        "reason": "Visually organizes the complex hierarchy of memory systems, making it easier to understand and remember.",
+        "recommendationPriority": "critical"
+      },
+      {
+        "actionLabel": "Real-World Examples",
+        "reason": "Provides concrete, relatable examples for each abstract memory type, reinforcing comprehension.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "Case Study: H.M.",
+        "reason": "Explores the famous patient case that provided crucial evidence for the distinction between memory systems.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Quiz Me",
+        "reason": "Tests understanding by asking to classify different scenarios into the correct memory categories.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "Episodic Memory": {
+        "definition": "A type of long-term, explicit memory for specific personal events, experiences, and their context (e.g., time, place, emotions).",
+        "simpler": "Memory of your life's episodes, like a mental autobiography.",
+        "example": "Remembering your high school graduation ceremony."
+      },
+      "Semantic Memory": {
+        "definition": "A type of long-term, explicit memory for general world knowledge, facts, concepts, and language that is not tied to personal experience.",
+        "simpler": "Your internal encyclopedia of facts.",
+        "example": "Knowing that a dog is a mammal and that Washington D.C. is the U.S. capital."
+      },
+      "Procedural Memory": {
+        "definition": "A type of long-term, implicit memory for skilled actions and habits, which operates unconsciously.",
+        "simpler": "Muscle memory for skills you 'just know' how to do.",
+        "example": "Typing on a keyboard without looking at the keys."
+      },
+      "Hippocampus": {
+        "definition": "A complex brain structure embedded deep into the temporal lobe, with a major role in learning and the formation of new explicit long-term memories.",
+        "etymology": "From Greek 'hippokampos' (seahorse), due to its shape.",
+        "function": "Acts like a 'save button' for new conscious memories."
+      }
+    },
+    "relatedResearch": [],
+    "recommendationsToTeacher": [
+      "Use a classroom polling tool to ask students for examples of episodic, semantic, and procedural memory from their own lives to reinforce the concepts and check for understanding.",
+      "Show a short video clip about the case of patient H.M. to provide a powerful, real-world illustration of the hippocampus's role and the distinction between explicit and implicit memory.",
+      "Facilitate a brief discussion on how understanding these memory systems can lead to better study habits, connecting the concepts of 'working memory limits' to chunking information and 'long-term memory encoding' to strategies like elaborative rehearsal."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-26T22:33:40.037Z",
+    "latencyMs": 46195,
+    "tokenUsage": {
+      "input": 8094,
+      "output": 3687,
+      "total": 13505
+    }
+  }
+}

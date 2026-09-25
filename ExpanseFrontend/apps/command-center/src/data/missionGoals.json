@@ -1,0 +1,295 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2026-02-07",
+  
+  "mission": {
+    "statement": "Improve learning engagement and mental health through gamification, helping every student discover their identity and potential.",
+    "tagline": "Make learning feel like play. Make growth feel like winning.",
+    "philosophy": "Focus on the need for improved mental health and engagement. Highlight the poor state of these in society and the need for technology and science used properly."
+  },
+
+  "primaryPillars": [
+    {
+      "id": "engagement",
+      "name": "Improve Engagement",
+      "shortName": "Engagement",
+      "description": "Make learning fun and addictive through gamification, turning education into an experience students want to return to",
+      "icon": "🎮",
+      "color": "#4CAF50",
+      "weight": 0.30,
+      "metrics": [
+        { "id": "dau", "name": "Daily Active Users", "type": "number" },
+        { "id": "session-duration", "name": "Average Session Duration", "type": "minutes" },
+        { "id": "return-rate", "name": "7-Day Return Rate", "type": "percentage" },
+        { "id": "feature-adoption", "name": "Feature Adoption Rate", "type": "percentage" }
+      ],
+      "successIndicators": [
+        "Students voluntarily use the app outside of assignments",
+        "Session times increase over first 30 days",
+        "Users return daily without external prompting"
+      ]
+    },
+    {
+      "id": "mental-health",
+      "name": "Advance Mental Health",
+      "shortName": "Mental Health",
+      "description": "Combat the youth mental health crisis through positive reinforcement, building resilience, and fostering a sense of accomplishment",
+      "icon": "💚",
+      "color": "#9C27B0",
+      "weight": 0.25,
+      "metrics": [
+        { "id": "sentiment", "name": "User Sentiment Score", "type": "score" },
+        { "id": "self-efficacy", "name": "Self-Efficacy Indicators", "type": "score" },
+        { "id": "positive-interactions", "name": "Positive Interactions per Session", "type": "number" }
+      ],
+      "successIndicators": [
+        "Users report feeling more confident",
+        "Positive reinforcement moments outnumber challenges 3:1",
+        "Users set and achieve personal goals"
+      ],
+      "context": {
+        "crisis": {
+          "girlsDepression": "145% increase in major depressive episodes since 2010",
+          "suicidalBehavior": "40%+ increase in suicidal behaviors among youth",
+          "screenTimeCorrelation": "Social media linked to increased anxiety and depression",
+          "engagementDecline": "Student engagement at historic lows"
+        },
+        "intervention": "Technology can be part of the solution when designed with intention"
+      }
+    },
+    {
+      "id": "learning",
+      "name": "Enhance Academic Performance",
+      "shortName": "Learning",
+      "description": "Improve learning outcomes through increased motivation, better study habits, and sustained engagement with educational content",
+      "icon": "📚",
+      "color": "#2196F3",
+      "weight": 0.25,
+      "metrics": [
+        { "id": "assignment-completion", "name": "Assignment Completion Rate", "type": "percentage" },
+        { "id": "study-time", "name": "Study Time per Week", "type": "hours" },
+        { "id": "grade-improvement", "name": "Grade Improvement (self-reported)", "type": "percentage" },
+        { "id": "content-mastery", "name": "Content Mastery Indicators", "type": "score" }
+      ],
+      "successIndicators": [
+        "Assignment completion rates increase",
+        "Students study more frequently in shorter sessions",
+        "Users report improved grades"
+      ]
+    },
+    {
+      "id": "growth-mindset",
+      "name": "Instill Growth Mindset",
+      "shortName": "Growth Mindset",
+      "description": "Build identity around continuous improvement, helping students see challenges as opportunities and effort as the path to mastery",
+      "icon": "🌱",
+      "color": "#FF9800",
+      "weight": 0.20,
+      "metrics": [
+        { "id": "goal-setting", "name": "Goals Set per User", "type": "number" },
+        { "id": "challenge-persistence", "name": "Persistence on Challenges", "type": "percentage" },
+        { "id": "improvement-tracking", "name": "Progress Tracking Engagement", "type": "percentage" }
+      ],
+      "successIndicators": [
+        "Users set increasingly ambitious goals",
+        "Failure doesn't lead to abandonment",
+        "Users actively track and celebrate progress"
+      ]
+    }
+  ],
+
+  "coreThemes": [
+    {
+      "id": "improve",
+      "name": "Continuous Improvement",
+      "description": "Always getting better - every day, every session, every interaction",
+      "icon": "📈",
+      "keywords": ["progress", "growth", "better", "improve", "advance"]
+    },
+    {
+      "id": "innovate",
+      "name": "Innovation",
+      "description": "Novel solutions to old problems - rethinking education through modern technology",
+      "icon": "💡",
+      "keywords": ["new", "creative", "novel", "breakthrough", "transform"]
+    },
+    {
+      "id": "win",
+      "name": "Competition & Achievement",
+      "description": "The drive to succeed - channeling competitive energy into positive outcomes",
+      "icon": "🏆",
+      "keywords": ["win", "achieve", "compete", "succeed", "excel"]
+    },
+    {
+      "id": "heal",
+      "name": "Healing & Recovery",
+      "description": "Mental health restoration - helping students recover from disengagement and disconnection",
+      "icon": "💚",
+      "keywords": ["heal", "recover", "restore", "support", "wellness"]
+    },
+    {
+      "id": "protect",
+      "name": "Safety & Identity",
+      "description": "Building a secure sense of self - creating safe spaces for growth and self-discovery",
+      "icon": "🛡️",
+      "keywords": ["safe", "identity", "protect", "secure", "belong"]
+    }
+  ],
+
+  "humanImpact": {
+    "identity": {
+      "id": "identity",
+      "name": "Identity Formation",
+      "description": "Help students discover who they are and who they can become",
+      "icon": "🪞",
+      "targetPersonas": [
+        "Students with low self esteem",
+        "Kids in foster care", 
+        "Homeless kids",
+        "Students without clear direction"
+      ],
+      "desiredOutcomes": [
+        "Students develop positive self-image",
+        "Users identify personal strengths",
+        "Achievement becomes part of identity"
+      ]
+    },
+    "healing": {
+      "id": "healing",
+      "name": "Mental Health Healing",
+      "description": "Address the youth mental health crisis through positive technology",
+      "icon": "🩹",
+      "statistics": {
+        "girlsDepression": "145% increase in major depressive episodes",
+        "suicidalBehavior": "40%+ increase",
+        "anxietyRates": "Anxiety disorders affect 1 in 3 adolescents",
+        "screenTimeCorrelation": "Passive social media use linked to depression"
+      },
+      "intervention": [
+        "Active engagement over passive consumption",
+        "Achievement-based dopamine over comparison-based",
+        "Building up vs. tearing down"
+      ]
+    },
+    "connection": {
+      "id": "connection",
+      "name": "Human Connection",
+      "description": "Reconnect parents, teachers, and students through shared goals and visible progress",
+      "icon": "🤝",
+      "focuses": [
+        "Parent-child reconnection through shared visibility",
+        "Teacher empowerment to manage and motivate",
+        "Peer support through positive competition",
+        "Family involvement in education"
+      ]
+    }
+  },
+
+  "targetAudiences": {
+    "primary": [
+      { "id": "students", "name": "Students (6-12)", "description": "Middle and high school students" },
+      { "id": "parents", "name": "Parents", "description": "Parents seeking to support their children's education" },
+      { "id": "teachers", "name": "Teachers", "description": "Educators looking for engagement tools" }
+    ],
+    "secondary": [
+      { "id": "schools", "name": "Schools/Districts", "description": "Institutional buyers" },
+      { "id": "tutoring", "name": "Tutoring Companies", "description": "Learning centers and tutoring services" },
+      { "id": "homeschool", "name": "Homeschool Families", "description": "Home education providers" },
+      { "id": "lifelong-learners", "name": "Lifelong Learners", "description": "Adults pursuing continuous education" }
+    ],
+    "underserved": [
+      { "id": "adhd", "name": "ADHD Students", "description": "Students with attention challenges" },
+      { "id": "foster", "name": "Kids in Foster Care", "description": "Students in unstable living situations" },
+      { "id": "homeless", "name": "Homeless Kids", "description": "Students experiencing homelessness" },
+      { "id": "low-esteem", "name": "Students with Low Self-Esteem", "description": "Students lacking confidence" },
+      { "id": "low-engagement", "name": "Low-Engagement Schools", "description": "Schools with engagement challenges" }
+    ]
+  },
+
+  "guidingPrinciples": [
+    {
+      "id": "self-paced",
+      "name": "Self-Paced Learning",
+      "description": "Every student learns at their own speed - no shame in taking time, no ceiling on advancement",
+      "implementation": "Progress systems that reward individual growth, not comparison"
+    },
+    {
+      "id": "accessibility",
+      "name": "Universal Accessibility", 
+      "description": "Free or low-cost for all - no student should be excluded due to economic circumstances",
+      "implementation": "Freemium model, school subsidies, no paywall on core features"
+    },
+    {
+      "id": "identity",
+      "name": "Identity-Focused",
+      "description": "Help students discover who they are and build confidence in who they can become",
+      "implementation": "Customization, achievement systems, personal branding within app"
+    },
+    {
+      "id": "positive-reinforcement",
+      "name": "Positive Reinforcement",
+      "description": "Rewards over punishment - build up rather than tear down",
+      "implementation": "Achievement celebrations, streak rewards, comeback mechanics"
+    },
+    {
+      "id": "gamification",
+      "name": "Gamification",
+      "description": "Make learning feel like play - leverage game psychology for education",
+      "implementation": "XP, levels, achievements, quests, rewards, competition"
+    },
+    {
+      "id": "agency",
+      "name": "Student Agency",
+      "description": "Give students control and autonomy over their learning journey",
+      "implementation": "Choice in goals, customization, self-directed progress"
+    }
+  ],
+
+  "marketingMessages": {
+    "fearFrustration": [
+      "Schools are losing control of classrooms",
+      "Mental health crisis needs urgent action",
+      "Students are disengaged and disconnected",
+      "Technology is making things worse - but it doesn't have to"
+    ],
+    "hopePotential": [
+      "Students deserve to feel worthy of successful lives",
+      "Every child can develop a growth mindset",
+      "Technology can be part of the solution",
+      "Engagement and mental health CAN improve together"
+    ],
+    "valuePropositions": [
+      "Make learning feel like gaming",
+      "Turn homework into quests",
+      "Build confidence through achievement",
+      "Connect parents to their children's progress"
+    ]
+  },
+
+  "brandThemes": {
+    "primary": [
+      "Growth", "Progression", "Achievement", "Competition",
+      "Customization", "Reward", "Goals", "Engagement", "Mental Health"
+    ],
+    "gameInspired": [
+      "Achievements", "Quests", "Leveling Up", "Experience Points",
+      "Gems/Crystals", "Skills", "Inventory", "Rarity", "Economy"
+    ]
+  },
+
+  "metadata": {
+    "sources": [
+      "strategy/brand-and-design-system/PURPOSE_AND_GOALS.md",
+      "strategy/brand-and-design-system/PURPOSE_DATA.md", 
+      "strategy/brand-and-design-system/CONCEPT_DATA.md",
+      "apps/command-center/src/data/strategicFocus.json",
+      "apps/command-center/src/data/corporateVision.json",
+      "apps/command-center/src/data/docs/business.json",
+      "apps/command-center/src/data/docs/go-to-market.json",
+      "apps/command-center/src/data/docs/users.json",
+      "apps/4up/data-architecture/core/company-goals.ts"
+    ],
+    "consolidatedFrom": "10+ source files",
+    "purpose": "Single source of truth for all mission goals and strategic direction"
+  }
+}

@@ -1,0 +1,61 @@
+/*
+  4eye boot — void room, white plate, cyan band, orange limit triangle.
+  No MUI. This file is the first paint of /4eye while HudLayout compiles.
+*/
+
+.four-eye-boot {
+  --layer-void: #0b0b10;
+  --layer-plate: #f7f7f8;
+  --layer-band: #67e8f9;
+  --layer-pupil: #f97316;
+  --layer-aura: rgba(232, 232, 237, 0.24);
+  display: grid;
+  place-items: center;
+  gap: 12px;
+  color: #ededed;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.four-eye-boot--fill {
+  min-height: 100dvh;
+  width: 100%;
+  background: var(--layer-void);
+}
+
+.four-eye-boot--tile {
+  min-height: 240px;
+  width: 100%;
+  background: transparent;
+}
+
+.four-eye-boot-mark {
+  width: 72px;
+  height: 72px;
+  display: block;
+}
+
+.four-eye-boot-label {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  color: #8e8e93;
+}
+
+.four-eye-boot-ring {
+  transform-origin: 50px 50px;
+  animation: four-eye-boot-spin 1.6s linear infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .four-eye-boot-ring {
+    animation: none;
+  }
+}
+
+@keyframes four-eye-boot-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

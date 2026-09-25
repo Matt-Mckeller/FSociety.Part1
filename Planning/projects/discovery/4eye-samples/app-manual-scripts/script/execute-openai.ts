@@ -1,0 +1,232 @@
+#!/usr/bin/env tsx
+/**
+ * Execute educational content analysis using OpenAI GPT-4
+ * 
+ * This script runs classroom transcription samples through OpenAI's GPT-4 model
+ * using either the minimal or extra output prompts.
+ * 
+ * Usage:
+ *   tsx script/execute-openai.ts --prompt minimal
+ *   tsx script/execute-openai.ts --prompt extra --samples goodQuality --index 0
+ */
+
+import 'dotenv/config';
+import OpenAI from 'openai';
+import { v1MinimalPrompt, v1ExtraPrompt } from '../prompts/v1_minimal.js';
+import {
+  loadSamples,
+  formatInputForPrompt,
+  saveResult,
+  parseArgs,
+  printUsage,
+  validateResponse,
+  printResultSummary,
+  type ClassroomDialogSample,
+  type SampleCategory,
+  type PromptVersion,
+} from './utils.js';
+
+// Initialize OpenAI client
+const openai = new OpenAI({
+  apiKey: process.env.OPENAI_API_KEY,
+});
+
+/**
+ * Execute OpenAI API call with the given prompt and input
+ */
+async function executeOpenAI(
+  prompt: string,
+  input: string,
+  model: string = 'gpt-4-turbo-preview'
+): Promise<{
+  response: any;
+  metadata: {
+    model: string;
+    timestamp: string;
+    latencyMs: number;
+    tokenUsage: {
+      input: number;
+      output: number;
+      total: number;
+    };
+  };
+}> {
+  const startTime = Date.now();
+
+  const completion = await openai.chat.completions.create({
+    model,
+    messages: [
+      {
+        role: 'system',
+        content: prompt,
+      },
+      {
+        role: 'user',
+        content: input,
+      },
+    ],
+    response_format: { type: 'json_object' },
+    temperature: 0.5,
+    max_tokens: 4096,
+  });
+
+  const endTime = Date.now();
+  const latencyMs = endTime - startTime;
+
+  const responseText = completion.choices[0]?.message?.content;
+  if (!responseText) {
+    throw new Error('No response content from OpenAI');
+  }
+
+  let parsedResponse;
+  try {
+    parsedResponse = JSON.parse(responseText);
+  } catch (error) {
+    console.error('Failed to parse OpenAI response as JSON:', responseText);
+    throw error;
+  }
+
+  return {
+    response: parsedResponse,
+    metadata: {
+      model: completion.model,
+      timestamp: new Date().toISOString(),
+      latencyMs,
+      tokenUsage: {
+        input: completion.usage?.prompt_tokens || 0,
+        output: completion.usage?.completion_tokens || 0,
+        total: completion.usage?.total_tokens || 0,
+      },
+    },
+  };
+}
+
+/**
+ * Process a single sample
+ */
+async function processSample(
+  sample: ClassroomDialogSample,
+  promptVersion: PromptVersion,
+  category: SampleCategory,
+  index: number,
+  model?: string
+): Promise<void> {
+  console.log(`\nProcessing ${category}[${index}]: ${sample.subject} - ${sample.gradeLevel}`);
+  console.log(`Using prompt version: ${promptVersion}`);
+
+  const prompt = promptVersion === 'minimal' ? v1MinimalPrompt : v1ExtraPrompt;
+  const input = formatInputForPrompt(sample);
+
+  try {
+    const { response, metadata } = await executeOpenAI(prompt, input, model);
+
+    // Validate response
+    if (!validateResponse(response, promptVersion)) {
+      console.error('⚠️  Response validation failed, but saving anyway...');
+    }
+
+    // Save result
+    const filepath = saveResult('openai', promptVersion, category, index, {
+      sample,
+      response,
+      metadata,
+    });
+
+    console.log(`✅ Saved result to: ${filepath}`);
+
+    // Print summary
+    printResultSummary(sample, response, metadata);
+  } catch (error) {
+    console.error(`❌ Error processing sample:`, error);
+    throw error;
+  }
+}
+
+/**
+ * Main execution function
+ */
+async function main() {
+  const args = parseArgs();
+
+  // Check for API key
+  if (!process.env.OPENAI_API_KEY) {
+    console.error('❌ Error: OPENAI_API_KEY environment variable not set');
+    console.error('Please create a .env file with your OpenAI API key:');
+    console.error('  OPENAI_API_KEY=sk-...');
+    process.exit(1);
+  }
+
+  console.log('🚀 OpenAI GPT-4 Execution Script');
+  console.log(`Model: ${args.model || 'gpt-4-turbo-preview'}`);
+  console.log(`Prompt: ${args.promptVersion}`);
+
+  // Load samples
+  const allSamples = await loadSamples();
+
+  // Determine which samples to process
+  let samplesToProcess: Array<{
+    sample: ClassroomDialogSample;
+    category: SampleCategory;
+    index: number;
+  }> = [];
+
+  if (args.category) {
+    // Process specific category
+    const categoryName = args.category;
+    const samples = allSamples[categoryName];
+
+    if (args.index !== undefined) {
+      // Process specific index
+      if (args.index < 0 || args.index >= samples.length) {
+        console.error(`❌ Error: Index ${args.index} out of range for category ${categoryName}`);
+        console.error(`Available indices: 0-${samples.length - 1}`);
+        process.exit(1);
+      }
+      samplesToProcess.push({
+        sample: samples[args.index]!,
+        category: categoryName,
+        index: args.index,
+      });
+    } else {
+      // Process all samples in category
+      samples.forEach((sample, idx) => {
+        samplesToProcess.push({
+          sample,
+          category: categoryName,
+          index: idx,
+        });
+      });
+    }
+  } else {
+    // Process all samples from all categories
+    (Object.keys(allSamples) as SampleCategory[]).forEach((category) => {
+      allSamples[category].forEach((sample, idx) => {
+        samplesToProcess.push({
+          sample,
+          category,
+          index: idx,
+        });
+      });
+    });
+  }
+
+  console.log(`\n📊 Processing ${samplesToProcess.length} sample(s)...\n`);
+
+  // Process each sample sequentially to avoid rate limits
+  for (const { sample, category, index } of samplesToProcess) {
+    await processSample(sample, args.promptVersion, category, index, args.model);
+
+    // Small delay between requests to be respectful of rate limits
+    if (samplesToProcess.length > 1) {
+      await new Promise((resolve) => setTimeout(resolve, 1000));
+    }
+  }
+
+  console.log('\n✅ All samples processed successfully!');
+}
+
+// Run main function
+main().catch((error) => {
+  console.error('❌ Fatal error:', error);
+  process.exit(1);
+});

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Process of Photosynthesis</title>
+    <style>
+        body {
+            font-family: 'Comic Sans MS', 'Arial', sans-serif;
+            background: linear-gradient(to bottom, #87CEEB 0%, #98D8C8 100%);
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            color: #2d5016;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #4a7c2c;
+            font-size: 1.3em;
+            margin-bottom: 40px;
+        }
+
+        svg {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .info-box {
+            margin-top: 30px;
+            padding: 20px;
+            background: #e8f5e9;
+            border-radius: 10px;
+            border-left: 5px solid #4caf50;
+        }
+
+        .info-box h3 {
+            color: #2d5016;
+            margin-bottom: 10px;
+        }
+
+        .info-box p {
+            color: #4a7c2c;
+            line-height: 1.8;
+            font-size: 1.1em;
+        }
+
+        .legend {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .legend-item {
+            background: #f1f8f4;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #4caf50;
+        }
+
+        .legend-title {
+            font-weight: bold;
+            color: #2d5016;
+            margin-bottom: 5px;
+            font-size: 1.1em;
+        }
+
+        .legend-description {
+            color: #5d8a3a;
+            font-size: 0.95em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌱 The Process of Photosynthesis 🌱</h1>
+        <p class="subtitle">How Plants Make Their Own Food!</p>
+
+        <svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+            <!-- Sky background -->
+            <rect x="0" y="0" width="800" height="300" fill="#87CEEB"/>
+            
+            <!-- Sun -->
+            <circle cx="100" cy="80" r="50" fill="#FFD700"/>
+            <line x1="100" y1="80" x2="100" y2="30" stroke="#FFD700" stroke-width="3"/>
+            <line x1="100" y1="80" x2="150" y2="80" stroke="#FFD700" stroke-width="3"/>
+            <line x1="100" y1="80" x2="135" y2="45" stroke="#FFD700" stroke-width="3"/>
+            <line x1="100" y1="80" x2="135" y2="115" stroke="#FFD700" stroke-width="3"/>
+            <line x1="100" y1="80" x2="65" y2="45" stroke="#FFD700" stroke-width="3"/>
+            <line x1="100" y1="80" x2="65" y2="115" stroke="#FFD700" stroke-width="3"/>
+            <line x1="100" y1="80" x2="50" y2="80" stroke="#FFD700" stroke-width="3"/>
+            <line x1="100" y1="80" x2="100" y2="130" stroke="#FFD700" stroke-width="3"/>
+            
+            <!-- Sunlight arrow to plant -->
+            <defs>
+                <marker id="arrowhead-yellow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                    <polygon points="0 0, 10 3, 0 6" fill="#FFA500"/>
+                </marker>
+                <marker id="arrowhead-blue" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                    <polygon points="0 0, 10 3, 0 6" fill="#4169E1"/>
+                </marker>
+                <marker id="arrowhead-green" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                    <polygon points="0 0, 10 3, 0 6" fill="#32CD32"/>
+                </marker>
+                <marker id="arrowhead-brown" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+                    <polygon points="0 0, 10 3, 0 6" fill="#8B4513"/>
+                </marker>
+            </defs>
+            
+            <path d="M 130 110 Q 250 180 330 240" stroke="#FFA500" stroke-width="4" fill="none" marker-end="url(#arrowhead-yellow)" stroke-dasharray="8,4"/>
+            <text x="200" y="160" fill="#FF8C00" font-size="18" font-weight="bold">Sunlight</text>
+            <text x="195" y="180" fill="#FF8C00" font-size="14">(Energy)</text>
+            
+            <!-- Ground -->
+            <rect x="0" y="300" width="800" height="300" fill="#8B7355"/>
+            
+            <!-- Plant stem -->
+            <rect x="385" y="250" width="30" height="150" fill="#228B22"/>
+            
+            <!-- Leaves -->
+            <ellipse cx="350" cy="240" rx="60" ry="40" fill="#32CD32" stroke="#228B22" stroke-width="2"/>
+            <ellipse cx="450" cy="240" rx="60" ry="40" fill="#32CD32" stroke="#228B22" stroke-width="2"/>
+            <ellipse cx="400" cy="200" rx="70" ry="45" fill="#228B22"/>
+            
+            <!-- Roots -->
+            <path d="M 390 400 Q 350 450 340 500" stroke="#654321" stroke-width="6" fill="none"/>
+            <path d="M 400 400 Q 400 450 390 500" stroke="#654321" stroke-width="6" fill="none"/>
+            <path d="M 410 400 Q 450 450 460 500" stroke="#654321" stroke-width="6" fill="none"/>
+            
+            <!-- CO2 arrow from air to leaves -->
+            <path d="M 650 150 Q 550 190 480 220" stroke="#4169E1" stroke-width="4" fill="none" marker-end="url(#arrowhead-blue)"/>
+            <text x="550" y="140" fill="#4169E1" font-size="18" font-weight="bold">Carbon Dioxide</text>
+            <text x="585" y="160" fill="#4169E1" font-size="14">(CO₂)</text>
+            
+            <!-- Water arrow from ground to roots -->
+            <path d="M 280 420 Q 310 410 350 410" stroke="#1E90FF" stroke-width="4" fill="none" marker-end="url(#arrowhead-blue)"/>
+            <text x="200" y="415" fill="#1E90FF" font-size="18" font-weight="bold">Water</text>
+            <text x="210" y="435" fill="#1E90FF" font-size="14">(H₂O)</text>
+            
+            <!-- Photosynthesis icon (gear/recycle) in the plant -->
+            <circle cx="400" cy="240" r="35" fill="rgba(255, 255, 255, 0.8)" stroke="#228B22" stroke-width="3"/>
+            <text x="365" y="250" fill="#228B22" font-size="16" font-weight="bold">Photosynthesis</text>
+            
+            <!-- Oxygen arrow from leaves to air -->
+            <path d="M 470 220 Q 560 180 630 140" stroke="#32CD32" stroke-width="4" fill="none" marker-end="url(#arrowhead-green)"/>
+            <text x="540" y="200" fill="#228B22" font-size="18" font-weight="bold">Oxygen</text>
+            <text x="560" y="220" fill="#228B22" font-size="14">(O₂)</text>
+            
+            <!-- Glucose icon and arrow -->
+            <rect x="500" y="310" width="50" height="50" fill="#FFE4B5" stroke="#DEB887" stroke-width="3" rx="5"/>
+            <text x="510" y="340" fill="#8B4513" font-size="24">🍬</text>
+            <path d="M 450 280 Q 475 295 495 310" stroke="#8B4513" stroke-width="4" fill="none" marker-end="url(#arrowhead-brown)"/>
+            <text x="460" y="400" fill="#8B4513" font-size="18" font-weight="bold">Glucose</text>
+            <text x="445" y="420" fill="#8B4513" font-size="14">(Sugar/Food)</text>
+        </svg>
+
+        <div class="info-box">
+            <h3>🌟 How Photosynthesis Works</h3>
+            <p>Plants are amazing! They take in <strong>carbon dioxide (CO₂)</strong> from the air through tiny holes in their leaves, and <strong>water (H₂O)</strong> through their roots. Using energy from <strong>sunlight</strong>, they convert these into <strong>glucose</strong> (sugar), which is their food. As a byproduct, they release <strong>oxygen (O₂)</strong> that we breathe. That's why plants are so important for life on Earth!</p>
+        </div>
+
+        <div class="legend">
+            <div class="legend-item">
+                <div class="legend-title">☀️ Sunlight (Energy)</div>
+                <div class="legend-description">Provides the energy needed for the process</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-title">💨 Carbon Dioxide (CO₂)</div>
+                <div class="legend-description">A gas from the air absorbed by leaves</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-title">💧 Water (H₂O)</div>
+                <div class="legend-description">Absorbed from the soil through roots</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-title">🍃 Oxygen (O₂)</div>
+                <div class="legend-description">Released as a byproduct we can breathe</div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-title">🍬 Glucose (Sugar)</div>
+                <div class="legend-description">The food/energy plants create for themselves</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

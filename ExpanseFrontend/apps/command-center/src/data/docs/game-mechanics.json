@@ -1,0 +1,786 @@
+{
+  "overview": {
+    "title": "Game Mechanics Overview",
+    "description": "Expanse EDU transforms education into an engaging game experience through proven game design principles. The platform incorporates progression systems, rewards, competition, and social features to motivate students while teaching valuable life skills.",
+    "corePhilosophy": "Generally speaking ONE of the highest values we can create and offer for students and teachers is from money and things that come from money. This system is meant to be reflective of the real world and additionally help teach the value of money and managing resources.",
+    "keyPillars": [
+      {
+        "name": "Progression & Leveling",
+        "description": "Users gain experience by completing tasks, level up, and earn unlockable content and features"
+      },
+      {
+        "name": "Rewards & Incentives",
+        "description": "A variety of rewards received and purchasable for Students and Teachers from multiple sources"
+      },
+      {
+        "name": "Competition & Battles",
+        "description": "Healthy competition drives performance through PvP battles, team competitions, and rankings"
+      },
+      {
+        "name": "Customization & Expression",
+        "description": "Personalization through equipment, items, avatars, and collectibles"
+      },
+      {
+        "name": "Social & Recognition",
+        "description": "Peer recognition, achievements, and social features build community"
+      }
+    ]
+  },
+  "currencies": {
+    "title": "Currency System",
+    "description": "Coins and gems are earned from task completion and other aspects of the system such as participation, acknowledgement, battles, etc. These are then used in stores to obtain a variety of rewards.",
+    "types": [
+      {
+        "name": "Coins",
+        "purpose": "Primary currency for purchasing rewards and items",
+        "earnedFrom": ["Assignments", "Battles", "Quests", "Recognition"]
+      },
+      {
+        "name": "Gems",
+        "purpose": "Premium currency for special purchases and features",
+        "uses": [
+          "Artwork",
+          "Special gear purchases",
+          "Chat messages",
+          "Feedback submission"
+        ],
+        "notes": "Could charge money for special gem types"
+      },
+      {
+        "name": "Lottery Tickets",
+        "purpose": "Chance-based rewards for scholarships and special items",
+        "acquisition": "Coins/gems can purchase lottery tickets towards specific things"
+      }
+    ]
+  },
+  "progression": {
+    "title": "Progression & Leveling System",
+    "description": "Students earn experience as they complete rewardable activities and battles. Progress bars with checkpoints similar to Starbucks or Panera with completion rewards.",
+    "progressionTypes": [
+      {
+        "type": "Experience",
+        "description": "Overall experience earned contributing to a level"
+      },
+      {
+        "type": "Human Attributes",
+        "description": "Leveling up problem solving skills by taking math, etc."
+      },
+      {
+        "type": "Class Category Level",
+        "description": "Science, math, english etc. Gain experience in specific categories",
+        "concerns": "Classification of courses, missing data from previous years"
+      },
+      {
+        "type": "Evolutions",
+        "description": "Points at which a user will evolve into a new level that unlocks additional abilities, content, perks, etc."
+      },
+      {
+        "type": "Achievements",
+        "description": "Milestone-based progression with specific completion requirements"
+      }
+    ],
+    "userTypes": ["Students", "Teachers", "Classrooms", "Courses", "Parents"],
+    "groupProgression": "The more students in the classroom/school that submit assignments the more experience the group earns",
+    "designNotes": [
+      "Iterative release schedule with gradual improvements",
+      "Perhaps 60/40% experience gain - 40% at end, 60% throughout class",
+      "Quarterly release of experience amounts in higher quantities",
+      "Likely needs to be time based",
+      "Set a certain amount to be the goal amount to be gained for each class"
+    ],
+    "risks": [
+      "May not be able to trust assignments listed in the system - time based disbursement may help"
+    ]
+  },
+  "quests": {
+    "title": "Quest System",
+    "description": "Users complete quests for different activities in the system or classrooms. Quests provide additional rewards, experience, or perks.",
+    "purposes": [
+      "Get students to give feedback to teachers",
+      "Provide input in class",
+      "Request recognition/feedback from teachers",
+      "Use different features in the application",
+      "Socialize and participate in events",
+      "Remove awkward barriers by instructing students to socialize/request feedback"
+    ],
+    "questTypes": [
+      { "type": "Individual", "description": "Personal quests for students" },
+      { "type": "Classroom", "description": "Class-wide collaborative quests" },
+      { "type": "School", "description": "School-wide achievements" },
+      {
+        "type": "Repeatable",
+        "description": "Can be completed multiple times"
+      },
+      { "type": "One-time", "description": "Special milestone quests" }
+    ],
+    "exampleQuests": {
+      "students": [
+        "Complete 10 assignments or tests",
+        "10 assignments with greater than 90% score",
+        "Receive teacher recognition",
+        "Recognize a peer",
+        "Like 5 chat announcements",
+        "Check in to the app",
+        "Claim rewards",
+        "Visit profile customization or battles"
+      ],
+      "teachers": [
+        "Acknowledge students using the app",
+        "Acknowledge students verbally",
+        "Setup stores and custom rewards for classroom",
+        "Have students redeem rewards",
+        "Put up visual recognition of top performers"
+      ],
+      "schools": [
+        "Announce students who receive scholarships",
+        "Put up visual recognition throughout school",
+        "Setup school reward offerings (Movie day, Field Trips, Cookie days, Free Popcorn, etc)"
+      ]
+    },
+    "value": "Product exploration, goals, guidance, positive reinforcement",
+    "implementationDifficulty": "Easy-Moderate"
+  },
+  "achievements": {
+    "title": "Achievement System",
+    "description": "An achievement is a form of accomplishment celebration and high level goal. Students earn achievements by completing various predefined requirements.",
+    "examples": [
+      "Complete 10/100/1000 assignments",
+      "Complete within X timeframe",
+      "Receive recognition by teacher 1/5/100 times",
+      "Win battles",
+      "Consistent login",
+      "Shopping activity",
+      "Getting a scholarship opportunity",
+      "Using different features",
+      "Attend a month without missing",
+      "Earn > 90% on 5 assignments in a row"
+    ],
+    "value": "Positive reinforcement and guide mechanic that can increase performance in school, mental health, and app usage. Also serves as guidance."
+  },
+  "battles": {
+    "title": "Battles & Competition",
+    "philosophy": "People love battles and competition. Sports are popular for a reason. People love watching the best of the best, and people love winning. Competition drives people to perform their best. Games are the epitome of engagement.",
+    "vision": "Turn school into a game in a healthy way to improve outcomes for students worldwide.",
+    "battleTypes": [
+      {
+        "type": "Player vs Player (PvP)",
+        "description": "Individual students within same class and between similar classes matched against each other",
+        "basis": "Who gets the higher grade or completion % on assignments and tests",
+        "optional": true
+      },
+      {
+        "type": "Class vs Class",
+        "description": "Compare classes by period (1st period vs 2nd period vs 7th period)",
+        "default": true
+      },
+      {
+        "type": "Team Battles",
+        "description": "Choose your teammates (3-5 players), compete against other teams",
+        "optional": true
+      },
+      {
+        "type": "School vs School",
+        "description": "School-wide competition, likely based on completion % rather than grades",
+        "basis": "Attendance based for fairness"
+      },
+      {
+        "type": "PvE (Player vs Environment)",
+        "description": "Battle bosses and monsters based on grades, submissions, recognition"
+      },
+      {
+        "type": "Class vs Boss",
+        "description": "Completion activities and grades used to battle bosses collectively"
+      },
+      {
+        "type": "Dungeons",
+        "description": "Groups team up to battle monsters and bosses, explore dungeons"
+      }
+    ],
+    "combatMechanics": {
+      "dps": "Attendance, teacher feedback, check-ins contribute to damage",
+      "aiCombat": "Customize characters pre-emptively, select abilities used and played by AI. Students set up characters as specific roles and watch as AI plays based on selections.",
+      "factors": ["Equipment", "Talents", "Buffs", "Level", "Roles", "RNG"],
+      "powerUps": "Gain boosts from applying buffs beforehand (check ins)",
+      "replays": "Allow replay watching of battles to see how they turned out"
+    },
+    "timing": [
+      "Continuous",
+      "Hourly (allows for many winners)",
+      "Daily",
+      "Weekly",
+      "Monthly",
+      "Seasons/Yearly"
+    ],
+    "tournaments": {
+      "description": "Large regularly scheduled tournaments with different rewards such as scholarships",
+      "format": "Play many different rounds for better sorting, only highlight top winners"
+    },
+    "rankings": {
+      "system": "ELO rating system where students are sorted based on wins and losses",
+      "reference": "https://en.wikipedia.org/wiki/Elo_rating_system",
+      "features": [
+        "Individual performance tracking within team battles",
+        "Statistics and analytics (DPS, Healing, etc.)"
+      ]
+    },
+    "mentalHealthConsiderations": [
+      "Highlight winners, work as a team",
+      "Assign teams to mix strong and weaker performers so weaker performers get recognized too",
+      "Real names not shown - use usernames or generated names until picked",
+      "Team-based recognition instead of just individuals"
+    ],
+    "risks": [
+      "Players intentionally doing poorly to sabotage teammates or fear of judgement",
+      "Can prevent showing team members, eliminate people for not participating",
+      "Competition & Anger/Frustration - Can be addicting but good for developing risk tolerance",
+      "Compute costs"
+    ]
+  },
+  "personalization": {
+    "title": "Game Personalization & Customization",
+    "description": "Collect rare items and become stronger with the ability to customize preferred areas. Students can redeem equipment and consumable items that incorporate a rarity system.",
+    "categories": [
+      {
+        "name": "Equipment & Items",
+        "description": "Collect rare items and become stronger with ability to customize preferred areas",
+        "mayRelate": "Classes/subjects and education"
+      },
+      {
+        "name": "Buffs & Consumables",
+        "description": "Temporary powerups to boost experience, battle performance, goal progression, coins, etc."
+      },
+      {
+        "name": "Skills",
+        "description": "May be related to class/subjects and education",
+        "status": "TBD"
+      },
+      {
+        "name": "Talents",
+        "description": "May be related to class/subjects and education",
+        "status": "TBD"
+      },
+      {
+        "name": "Avatar",
+        "description": "Player character customization",
+        "status": "TBD"
+      },
+      {
+        "name": "Profile Display",
+        "description": "User profiles for students, teachers, classrooms, schools"
+      },
+      {
+        "name": "Art & NFTs",
+        "description": "Art can become NFT artwork with unique IDs, transferable to digital wallets. Each piece can be one of a kind using AI image generation."
+      },
+      {
+        "name": "AI Flows",
+        "description": "Setup how a battle will play out and what moves the AI will take. Teach people how to use AI through the game.",
+        "status": "TBD"
+      },
+      {
+        "name": "Perks",
+        "description": "Badges or gear that include special perks as power-ups granting bonus rewards",
+        "mechanics": "Only a certain number of perks can be utilized at the same time",
+        "examplePerks": [
+          "1% additional chance at second loot box on assignment completion",
+          "1% more coins from boxes",
+          "1% more chance at NFTs",
+          "Additional experience",
+          "Additional chance at sponsorship rewards",
+          "Additional chance at lottery spins",
+          "Additional crypto payout"
+        ]
+      },
+      {
+        "name": "Specializations",
+        "description": "May be related to class/subjects and education",
+        "status": "TBD"
+      },
+      {
+        "name": "Color Theme",
+        "description": "Users can choose their color theme for the application (Blue, Red, Purple, etc.). Represents Expanse's philosophy of choice, personalization, and self-determination.",
+        "status": "planned",
+        "options": ["Blue (default)", "Red", "Purple", "Green", "Custom colors"]
+      }
+    ],
+    "raritySystem": {
+      "description": "Reward rarities have associated colors with them. Higher rarity often have higher levels of benefit.",
+      "tiers": ["Common", "Uncommon", "Rare", "Epic", "Legendary"]
+    },
+    "collectibles": {
+      "description": "Items will be collectible, sets of unique item types",
+      "example": "The Biological Science set"
+    }
+  },
+  "profiles": {
+    "title": "Profile System",
+    "description": "Comprehensive profile system for users, classrooms, and schools with customization options.",
+    "userProfiles": {
+      "description": "User profiles with customizable public display levels",
+      "implementationDifficulty": "Easy-Moderate",
+      "value": "Auxiliary/personalization, supporting feature, required for scale",
+      "profit": "Purchasable items displayed, upgrades",
+      "defaultAspects": ["Avatars", "Artwork/NFTs", "Achievements", "Titles"],
+      "gameAspects": ["Equipment & Items", "Consumables/Buffs/Status", "Skills", "Specializations", "Perks"],
+      "customization": [
+        "Specific artwork display",
+        "Earned titles",
+        "Equipped items",
+        "Color choices",
+        "Collectible/rare NFT display"
+      ],
+      "ideas": ["AI Generated Art Profile Images", "Configuration to display real names"],
+      "userTypes": ["Individuals", "Classrooms", "Teachers"]
+    },
+    "schoolProfiles": {
+      "description": "School profiles where schools can advertise information and have specific rewards/stores",
+      "features": [
+        "Highlight students/recent winners/top performers/recent recognition",
+        "Display statistics (attendance, growth metrics, XP earned, rewards purchased/redeemed, parent involvement)",
+        "Display students by avatars and usernames (not real names)"
+      ]
+    }
+  },
+  "stores": {
+    "title": "Stores & Store Setup",
+    "description": "Users can set up stores with custom rewards for students or teachers to purchase.",
+    "storeTypes": [
+      { "type": "Expanse Store", "owner": "Platform" },
+      { "type": "Classroom Store", "owner": "Teachers" },
+      { "type": "School Store", "owner": "Schools" },
+      { "type": "Family Store", "owner": "Parents" }
+    ],
+    "ideas": [
+      "Teachers as NPCs with game reward options so they have additional options without spending personal funds"
+    ]
+  },
+  "rewards": {
+    "title": "Reward System",
+    "description": "A comprehensive system for earning, tracking, and redeeming various types of rewards.",
+    "lootBoxes": "Receive loot boxes that include artwork, gems, and perks by submitting assignments and attending class",
+    "rewardMediums": [
+      "Digital (in-game, app-based, virtual goods)",
+      "Physical (tangible items, mailed rewards)",
+      "Experience (events, trips, activities)",
+      "Financial (money, scholarships, gift cards)",
+      "Social (recognition, shout-outs, leaderboards)",
+      "Educational (courses, books, learning tools)"
+    ],
+    "distributionTypes": [
+      "Loot Box",
+      "Quest",
+      "Gift",
+      "Lottery",
+      "Auction",
+      "Store Purchase",
+      "Event Reward"
+    ],
+    "rewardCategories": {
+      "financial": [
+        "Scholarships",
+        "Partial scholarships (combine multiple parts)",
+        "Charitable donations",
+        "Gift cards (Starbucks, etc.)",
+        "School sponsored rewards at discounts"
+      ],
+      "educational": [
+        "Free online courses (Udemy, library, etc.)",
+        "Free eBooks, Audio books",
+        "Free tutor lessons (schoolhouse.world invitations)",
+        "Book coupons/tokens",
+        "University Tours",
+        "Life lessons, inspirational quotes"
+      ],
+      "experiences": [
+        "School Events (Free Snacks, Game tickets, Movie in Auditorium)",
+        "Board game nights",
+        "Music/sample extracurricular classes",
+        "Park visits",
+        "Movie Nights, Bowling Trips, Ice cream/Cookie party",
+        "Game time passes, homework passes"
+      ],
+      "recognition": [
+        "Student of the week",
+        "Wall of fame",
+        "Honors programs",
+        "Peer recognition",
+        "Visual recognition on screens in hallways",
+        "Positive home notes to parents"
+      ],
+      "physical": [
+        "Treasure box with toys",
+        "Stickers, Tattoos (printable and mailable)",
+        "Collectible/trading cards",
+        "Expanse swag (Cups, Shirts, Pens, Pencils)",
+        "School supplies"
+      ],
+      "inGame": [
+        "Currency (Coins, Gems)",
+        "Lottery Tickets",
+        "Equipment",
+        "Achievements",
+        "Titles",
+        "NFT Art",
+        "Consumables",
+        "Perks",
+        "Buffs"
+      ],
+      "integrations": [
+        "Spotify subscription",
+        "YouTube trial",
+        "Steam games",
+        "Roblox, Minecraft, Fortnite rewards",
+        "PlayStation, Xbox, Nintendo integrations"
+      ]
+    },
+    "visualStimulation": [
+      "Characters celebrating achievements (happy face, geometric shaped characters)",
+      "Visual progress as leveling up",
+      "Progress bars towards rewards",
+      "Loot box opening animations",
+      "Leveling up animations",
+      "Rare loot animations"
+    ]
+  },
+  "rankings": {
+    "title": "Rankings & Performance",
+    "description": "See where you rank on homework assignments or tests. Did you rank in the top 10%? How do your grades compare?",
+    "comparisonVariables": [
+      "Battles",
+      "Attendance",
+      "Assignments",
+      "Socialization activity",
+      "Recognition & Positive Reinforcement",
+      "Coins",
+      "Rare Items",
+      "Friends",
+      "Happiness of students",
+      "Achievements"
+    ],
+    "userTypes": ["Teachers", "Classrooms", "Students", "Schools", "Locations"],
+    "displayTypes": [
+      "Charts",
+      "Leaderboards",
+      "Top X # Spotlights",
+      "Percentile"
+    ],
+    "leaderboards": {
+      "description": "Would be configurable. Show top X number of students for experience/grades/attendance",
+      "features": [
+        "Custom user names for anonymity",
+        "Divided into groups (random or similar schools by funding/diversity)",
+        "School vs school attendance comparison"
+      ]
+    },
+    "concerns": "Actual data display may not be good for low performers - should be configurable"
+  },
+  "recognition": {
+    "title": "Feedback, Recognition & Acknowledgement",
+    "description": "Systems for recognizing students and teachers for doing good work, with associated rewards and social announcements.",
+    "recognitionTypes": [
+      {
+        "type": "Teacher to Student",
+        "description": "Time-based requests for feedback with notifications",
+        "feature": "Students can request recognition from teachers"
+      },
+      {
+        "type": "Student to Teacher",
+        "description": "Anonymous feedback to teacher or about classroom",
+        "feature": "Feedback to school/district if teachers not meeting expectations"
+      },
+      {
+        "type": "Peer to Peer",
+        "description": "Nominate classmates for awards/recognition",
+        "feature": "Send thumbs up/congratulations to other students"
+      },
+      {
+        "type": "Automated",
+        "description": "Recognition of completed activities through chat integrations, social sharing, in-app displays"
+      }
+    ],
+    "certificates": [
+      "Earn different levels of certificates from Expanse based on performance",
+      "Recognition of achievement, effort, and graduation",
+      "Certificate of college readiness"
+    ],
+    "futureIdeas": [
+      "QR Code on desk to bring up recognition screen with student name selected"
+    ]
+  },
+  "goals": {
+    "title": "Goals System",
+    "description": "Goals are either repeatable, one-time completion, interval, or a set number of times. Earn experience collectively towards goals and rewards.",
+    "goalTypes": [
+      "Classroom Goals",
+      "School Goals",
+      "Parent Goals",
+      "Achievements",
+      "Quests",
+      "Level Based Goals",
+      "Unlockable Content",
+      "Collectibles",
+      "Competition Wins & Recognition"
+    ],
+    "visualization": ["Progress Meters", "Progress Bars", "Counts/Percentiles"],
+    "examples": [
+      "Work towards classroom rewards through attendance and submissions",
+      "Pizza day, fieldtrip, movie day, activities"
+    ],
+    "notes": "Students having specific goals they are aiming to achieve helps motivate more than having no goals. Clear and specific goals are most effective."
+  },
+  "social": {
+    "title": "Social Features",
+    "description": "Social aspects are definitely really important. May require coins/gems to send chat messages.",
+    "features": [
+      {
+        "name": "Chatrooms",
+        "description": "Talk to your classroom, communicate with teacher",
+        "features": [
+          "Message reactions",
+          "Integration announcements (new assignment posted)"
+        ],
+        "considerations": [
+          "May wait on announcements due to existing areas",
+          "Existing tools may not be as open for communication"
+        ]
+      },
+      {
+        "name": "Announcements",
+        "types": [
+          "School announcements",
+          "Reward & art redemption",
+          "Recognition announcements",
+          "Loot announcements",
+          "Achievement announcements",
+          "Leveling announcements"
+        ]
+      },
+      {
+        "name": "Friends List",
+        "features": [
+          "See events from friends",
+          "Group up with friends",
+          "Possibly message friends"
+        ]
+      },
+      {
+        "name": "Public Displays",
+        "features": [
+          "School and classroom profiles",
+          "Student profiles",
+          "Searchable and viewable profiles"
+        ]
+      },
+      {
+        "name": "Social Media Platform",
+        "description": "School-wide social platform connecting all students",
+        "implementationDifficulty": "Hard",
+        "value": "High or Unused",
+        "features": [
+          "Content moderation (no violence, sex, theft topics)",
+          "AI image conversion for uploads (photos → illustrations)",
+          "AI-assisted writing (Character.AI style)",
+          "Tone improvement recommendations",
+          "Monitored content"
+        ],
+        "restrictions": ["No video posts", "AI-moderated content"],
+        "risks": [
+          "Feature may not be used",
+          "Content moderation burden",
+          "Reduced value from moderation"
+        ]
+      },
+      {
+        "name": "Social Sharing",
+        "description": "Share achievements to connected social profiles",
+        "features": [
+          "Connect external social profiles",
+          "Share achievements externally",
+          "Scholarship redemption shared publicly by default"
+        ]
+      }
+    ],
+    "socialSharing": "Scholarship redemption will likely be shared publicly by default"
+  },
+  "userJourneys": {
+    "title": "User Journeys",
+    "coreFlow": {
+      "title": "Core Starter Product Flow",
+      "highLevel": [
+        "Observe Rewardable Activity (i.e. Completed Work)",
+        "Reward Coins, Loot, and Enable Other Features",
+        "We begin to fly"
+      ],
+      "details": [
+        "Event activity is identified from monitoring changes in LMS data",
+        "Rewardable events are noted and tracked by Expanse",
+        "Student reviews activity in Expanse EDU",
+        "Student redeems rewards for rewardable event activity",
+        "Student receives: rewards, recognition, and digital currency",
+        "Student purchases rewards",
+        "Student engages with other features"
+      ]
+    },
+    "parentOnboarding": [
+      "Students invite parents to the application",
+      "Parents create an account and add information",
+      "Parents add payment information and pay monthly fee and/or upfront amount",
+      "Payment goes to students for homework completion with good grades",
+      "Parent configures distribution timing and amounts",
+      "Parents choose which reward types their student can receive"
+    ],
+    "otherJourneys": [
+      "Battles & Competition",
+      "Unlocking Content",
+      "Forming Teams",
+      "Leveling Up",
+      "Viewing History",
+      "Purchasing",
+      "Customizing Profile",
+      "Surveys"
+    ]
+  },
+  "expansions": {
+    "title": "Expansions & Seasons",
+    "description": "Release expansions that unlock additional NFTs, gear, loot, spells, talents, battle types, features, etc.",
+    "seasons": {
+      "description": "Ranking, competition, leaderboard features will have reset periods where ratings reset or reduce",
+      "purpose": "Give a chance for newcomers to take the top of the leaderboards"
+    },
+    "seasonalRewards": "Some rewards may only be offered on holidays or for limited time events"
+  },
+  "lmsIntegration": {
+    "title": "LMS/SIS Event Detection",
+    "description": "When a change occurs in the LMS we can compare old data to new data to identify if a change event has occurred.",
+    "process": [
+      "Detect changes in LMS data (e.g., submissions)",
+      "Identify rewardable events",
+      "Mark assignment as rewarded or not",
+      "If not yet rewarded, make eligible for rewards",
+      "After rewards given, mark as rewarded"
+    ]
+  },
+  "configuration": {
+    "title": "Configuration",
+    "description": "Many features will be configurable and toggle-able on various levels.",
+    "levels": ["District", "School", "Classroom", "Student", "Family"]
+  },
+  "negativeReinforcement": {
+    "title": "Negative Reinforcement & Consequences",
+    "description": "Balanced consequences for poor performance or behavior, designed to motivate improvement without being punitive.",
+    "philosophy": "Consequences should be proportional, transparent, and focused on encouraging positive change rather than punishment.",
+    "consequenceTypes": [
+      {
+        "type": "Reduced Coins/Fines",
+        "description": "Small deductions from earned currency for specific behaviors",
+        "severity": "Low"
+      },
+      {
+        "type": "Temporary Purchase Restrictions",
+        "description": "Limited access to stores or rewards for a set period",
+        "severity": "Medium"
+      },
+      {
+        "type": "Reduced Options",
+        "description": "Fewer available choices in customization or rewards",
+        "severity": "Low"
+      },
+      {
+        "type": "Lower Goal Contributions",
+        "description": "Reduced contribution toward classroom or school goals",
+        "severity": "Medium"
+      },
+      {
+        "type": "Reduced Earning Potential",
+        "description": "Lower loot box rewards or XP multipliers",
+        "severity": "Medium"
+      },
+      {
+        "type": "Battle Handicaps",
+        "description": "Temporary stat reductions in competitive modes",
+        "severity": "High"
+      }
+    ],
+    "implementation": [
+      "Consequences are configurable by teachers and administrators",
+      "Students always understand why consequences were applied",
+      "Clear path to remove consequences through positive behavior",
+      "Never impacts core learning or essential features"
+    ],
+    "risks": [
+      "Over-punishment can demotivate students",
+      "Must be carefully balanced with positive reinforcement",
+      "Requires clear communication of rules upfront"
+    ]
+  },
+  "historyReflection": {
+    "title": "History & Reflection",
+    "description": "Systems for reviewing past performance, celebrating accomplishments, and reflecting on progress over time.",
+    "features": [
+      "Look back at experience earned over the year",
+      "Review completed assignments and tests",
+      "Track progression milestones achieved",
+      "Classroom-based reflection sessions"
+    ],
+    "visualizations": [
+      {
+        "type": "Charts",
+        "description": "Visual graphs showing progress over time"
+      },
+      {
+        "type": "Progress Bars",
+        "description": "Milestone tracking with checkpoints"
+      },
+      {
+        "type": "Tables & History",
+        "description": "Detailed event logs and activity history"
+      },
+      {
+        "type": "Timelines",
+        "description": "Chronological view of achievements and milestones"
+      }
+    ],
+    "reflectionTypes": [
+      "Daily recap of accomplishments",
+      "Weekly summary reports",
+      "Monthly milestone reviews",
+      "Semester/Year-end celebrations"
+    ],
+    "value": "Helps students see their growth, reinforces positive behaviors, and provides data for goal-setting",
+    "privacyNote": "Grade/ranking insights are optional and configurable to protect low performers"
+  },
+  "games": {
+    "title": "Games & Mini-Games",
+    "description": "Various game modes and mini-games that enhance engagement and provide alternative ways to earn rewards.",
+    "status": "Future Feature",
+    "gameTypes": [
+      {
+        "type": "Card Games/Battles",
+        "description": "Collectible card-based competitions",
+        "status": "Concept"
+      },
+      {
+        "type": "Mini Educational Games",
+        "description": "Quick educational games tied to subjects",
+        "status": "Concept"
+      },
+      {
+        "type": "Turn-Based Games",
+        "description": "Strategic turn-based gameplay",
+        "status": "Concept"
+      },
+      {
+        "type": "AI-Based Games",
+        "description": "Games leveraging AI for dynamic gameplay",
+        "status": "Concept"
+      }
+    ],
+    "futureVision": [
+      "Open framework for integrating games",
+      "User-created games for variety",
+      "Metaverse integration",
+      "Augmented reality experiences"
+    ],
+    "value": "Increases engagement variety and provides alternative reward paths"
+  }
+}

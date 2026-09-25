@@ -1,0 +1,40 @@
+{
+  "name": "@4eye/sampling",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@4eye/core": "workspace:*",
+    "@4eye/types": "workspace:*",
+    "@apollo/client": "^3.11.0",
+    "@emotion/cache": "^11.13.0",
+    "@emotion/react": "^11.13.0",
+    "@emotion/styled": "^11.13.0",
+    "@expanse/auth": "workspace:*",
+    "@expanse/brand-core": "workspace:*",
+    "@expanse/character": "workspace:*",
+    "@expanse/hud": "workspace:*",
+    "@expanse/shell": "workspace:*",
+    "@expanse/theme": "workspace:*",
+    "@mui/icons-material": "^9.0.0",
+    "@mui/material": "^9.0.0",
+    "graphql": "^16.9.0",
+    "graphql-ws": "^6.0.8",
+    "gsap": "^3.12.0",
+    "next": "^14.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-hook-form": "^7.71.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.6.0"
+  }
+}

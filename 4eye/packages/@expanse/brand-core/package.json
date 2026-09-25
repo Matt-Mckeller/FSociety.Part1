@@ -1,0 +1,51 @@
+{
+  "name": "@expanse/brand-core",
+  "version": "0.1.0",
+  "description": "Expanse brand primitives, composites, and theming system",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./primitives": "./src/primitives/index.ts",
+    "./composites": "./src/composites/index.ts",
+    "./utils": "./src/utils/index.ts",
+    "./context": "./src/context/index.ts"
+  },
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "sideEffects": false,
+  "scripts": {
+    "storybook": "storybook dev -p 3436",
+    "build-storybook": "storybook build"
+  },
+  "peerDependencies": {
+    "@expanse/character": "workspace:*",
+    "@expanse/theme": "workspace:*",
+    "@mui/material": "^9.0.0",
+    "@mui/system": "^9.0.0",
+    "gsap": ">=3.0.0",
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@expanse/character": "workspace:*",
+    "@expanse/storybook-config": "workspace:*",
+    "@storybook/addon-essentials": "^8.0.0",
+    "@storybook/builder-vite": "^8.0.0",
+    "@storybook/react": "^8.0.0",
+    "@storybook/react-vite": "^8.0.0",
+    "storybook": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "directory": "packages/@expanse/brand-core"
+  },
+  "keywords": [
+    "brand",
+    "ui",
+    "primitives",
+    "svg",
+    "logo",
+    "react"
+  ]
+}

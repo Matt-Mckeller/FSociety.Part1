@@ -1,0 +1,15 @@
+# gcloud builds submit --project=expanse-terraform-3 --config=docker/cloudbuild.yen.yaml --ignore-file=docker/yen.dockerignore .
+steps:
+  - name: gcr.io/cloud-builders/docker
+    args:
+      - build
+      - -f
+      - docker/yen.Dockerfile
+      - -t
+      - us-central1-docker.pkg.dev/$PROJECT_ID/yen/yen:latest
+      - .
+images:
+  - us-central1-docker.pkg.dev/$PROJECT_ID/yen/yen:latest
+timeout: 3600s
+options:
+  machineType: E2_HIGHCPU_8

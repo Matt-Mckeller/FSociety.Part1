@@ -1,0 +1,28 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies / build caches
+node_modules/
+.next/
+dist/
+build/
+*.tsbuildinfo
+
+# Large binaries — keep locally, never commit
+*.iso
+*.dmg
+*.zip
+*.mov
+*.mp4
+*.pptx
+*.xlsx
+
+# Private — never publish
+_private/
+.private/
+
+# Secrets
+.env
+.env.*
+!.env.example

@@ -1,0 +1,468 @@
+{
+  "en": {
+    "sections": {
+      "executiveSummary": {
+        "sectionLabel": "Executive Summary",
+        "value": "A Software Development Expert with 10 years of experience across diverse organizations, ranging from global enterprises to startup environments. I specialize in building web applications and crafting APIs & integrations. I am proficient in both frontend and backend development using JavaScript/TypeScript, React.js, and Node.js. Experienced in leading teams and collaborating with cross-functional stakeholders to deliver high-quality software solutions. Passionate about continuous learning and driving innovation in software development."
+      },
+      "technicalSkillHighlights": {
+        "sectionLabel": "Technical Skill Highlights",
+        "subsections": {
+          "frameworksAndLibraries": {
+            "label": "Frameworks and Libraries",
+            "values": [
+              "React",
+              "Angular",
+              "Next.js",
+              "Laravel",
+              "React Native",
+              "Node.js",
+              "Express.js",
+              "Redux"
+            ]
+          },
+          "languages": {
+            "label": "Languages",
+            "values": [
+              "TypeScript",
+              "JavaScript",
+              "PHP",
+              "HTML5",
+              "CSS",
+              "SCSS"
+            ]
+          },
+          "apis": {
+            "label": "APIs",
+            "values": ["GraphQL", "Restful APIs", "SOAP"]
+          },
+          "databasesAndData": {
+            "label": "Databases and Data",
+            "values": [
+              "SQL",
+              "NoSQL",
+              "MySQL",
+              "OracleDB",
+              "Postgres",
+              "JSON",
+              "XML",
+              "Redis"
+            ]
+          },
+          "infrastructureAndCloud": {
+            "label": "Infrastructure and Cloud",
+            "aws": {
+              "label": "AWS",
+              "values": [
+                "EC2",
+                "S3",
+                "Lambda",
+                "RDS",
+                "VPC",
+                "Route 53",
+                "CodeCommit",
+                "CodeBuild",
+                "CodePipeline"
+              ]
+            },
+            "googleCloud": {
+              "label": "Google Cloud",
+              "values": [
+                "Compute Engine",
+                "Functions",
+                "SQL",
+                "CDN",
+                "App Engine",
+                "Storage",
+                "Build"
+              ]
+            },
+            "general": {
+              "label": "General",
+              "values": [
+                "CLI Usage",
+                "Permission and Access Control Settings",
+                "Log Viewing/Querying",
+                "CI/CD Integration",
+                "Jenkins",
+                "Docker",
+                "Linux"
+              ]
+            }
+          },
+          "testing": {
+            "label": "Testing",
+            "values": [
+              "Unit Testing",
+              "Automated Testing",
+              "Regression Testing",
+              "Quality Assurance",
+              "Jasmine/Jest",
+              "Karma"
+            ]
+          }
+        }
+      },
+      "workExperience": {
+        "sectionLabel": "Work Experience",
+        "values": [
+          {
+            "company": "EXPANSE SERVICES / CONTRACTOR",
+            "location": "Remote",
+            "startDate": "2020-03-01T00:00:00Z",
+            "endDate": "",
+            "title": "Software Development Contractor",
+            "summary": "Collaborating on contracts with a variety of organizations through my personal LLC and agencies. Utilized TypeScript, React.js, Angular, GraphQL, Node.js, and Express.js for both frontend and backend development, in cloud and self-hosted environments.",
+            "additionalOptions": [
+              {
+                "label": "GraphQL Development",
+                "text": "Over the past 4+ years, successfully utilized GraphQL to build web applications under contract. Designed and implemented backend APIs using GraphQL as the communication protocol, including crafting resolvers and defining GraphQL schemas. Developed client-side integrations, handling queries, mutations, and subscriptions via Apollo GraphQL and Fetch. Applied authorization and access control mechanisms to secure GraphQL endpoints. Leveraged NestJS to modularize segments of the GraphQL API, enhancing scalability, testability, and overall organization. View a sample implementation here: Api Explorer (https://www.expanseservices.com/api-explorer) and Example Code Here (https://github.com/Matt-Mckeller/CodeSamples/tree/main/backendSample/resolvers).",
+                "nestLevel": 0
+              }
+            ],
+            "description": [
+              {
+                "label": "Mission-Critical Ed Tech Project",
+                "text": "Contracted as a frontend engineer for Clever + Google Classroom integration. Successfully implemented solutions to set up automatic rostering from Clever’s data, supporting over 60% of U.S. school districts.",
+                "nestLevel": 0
+              },
+              {
+                "label": "Technology Migration Project Lead",
+                "text": "Contracted as a fullstack engineer for MDU Resources Group. Led a team to rebuild an end-of-life application from the ground up, utilizing modern development practices to create a robust and contemporary solution.",
+                "nestLevel": 0
+              },
+              {
+                "label": "Frontend Web Integration Project",
+                "text": "Contracted as a frontend engineer with NRG Energy post-acquisition of Direct Energy. Seamlessly weaved post pay enrollment into the front-end enrollment UI process empowering the citizens of Texas to harness the new features provided NRG.",
+                "nestLevel": 0
+              },
+              {
+                "label": "ECommerce Project",
+                "text": "Developed a tailored checkout process with custom components, integrating pricing and purchasing with ERP systems for Ryerson, while also assisting in with other tasks.",
+                "nestLevel": 0
+              },
+              {
+                "label": "Iterative Application Development and Self-Education",
+                "text": "Started the development of a web application's foundational structure, selecting MUI, styled components, and a minimalist design approach as the preferred solutions. Enhanced expertise in AI code generation, serverless techniques, and repository modularization. Migrating to nest js for microservices and architecture. Additionally, gained experience in product management, design, and system infrastructure.",
+                "nestLevel": 0
+              }
+            ]
+          },
+          {
+            "company": "LEXISNEXIS RISK SOLUTIONS",
+            "location": "West Palm Beach, FL",
+            "startDate": "2018-01-01T00:00:00Z",
+            "endDate": "2020-03-01T00:00:00Z",
+            "title": "Senior Software Developer",
+            "summary": "Partnering with a team of more than 12 technology professionals in an agile scrum environment, we developed the “Risk Intelligence Network,” a high-priority fraud analytics platform for U.S. Government Agencies.",
+            "description": [
+              {
+                "label": "Technology",
+                "text": "Developed web applications using TypeScript and Angular 8 for dynamic front-end experiences, and PHP and with Laravel framework on the backend. Implemented a RESTful API backend and seamlessly integrated with multiple APIs. Managed application data storage efficiently in MySQL.",
+                "nestLevel": 0
+              },
+              {
+                "label": "Full Stack Development with Automated Testing",
+                "text": "Engineered a feature-rich web application at an enterprise scale, specializing in reporting, data visualizations, and data analytics within a robust test-driven development environment. Meticulously executed unit testing and end-to-end testing, achieving an impressive 100% code coverage on the backend.",
+                "nestLevel": 0
+              },
+              {
+                "label": "Strategic Communicator & Dedicated Learner",
+                "text": "Proactively pursued continuous improvement through Udemy’s online learning platform ranking as a top performer in the company. Showcased effective communication abilities by delivering a presentation titled “How the Risk Intelligence Network is Built” to an audience of ~120 at the 2019 annual LexisNexis Government Conference.",
+                "nestLevel": 0
+              }
+            ]
+          },
+          {
+            "company": "REAL EQUITY MANAGEMENT",
+            "location": "Columbia, MO",
+            "startDate": "2014-06-01T00:00:00Z",
+            "endDate": "2017-12-01T00:00:00Z",
+            "title": "Software Engineer / Team Lead",
+            "summary": "Joined an 8-figure student housing company as its first software engineer, spearheading ground-up web application development and directing proprietary software engineering to streamline processes, fostering company growth and cross-state expansion in a collaborative environment.",
+            "description": [
+              {
+                "label": "Technology",
+                "text": "Developed frontend solutions including single-page applications using TypeScript with Angular 2+ and multi-page applications with JavaScript, JQuery, and VueJS. Additionally, contributed to backend development, creating services and executing complex, performant queries using PHP, Laravel Framework, MySQL, and RESTful API implementations.",
+                "nestLevel": 0
+              },
+              {
+                "label": "Digital Transformation",
+                "text": "Spearheaded a digital transformation initiative by developing software applications for Electronic Document Signing, Inventory Management Software, Appointment Scheduling, and Lead Tracking. Virtually eliminating the need for traditional pen-and-paper documents and manual inventory spreadsheets.",
+                "nestLevel": 0
+              },
+              {
+                "label": "Data & Architecture",
+                "text": "Helped conceive and bring to life a relational database system of 120 interconnected models for storing a substantial portion of the company’s data and supporting business processes across multiple application modules. Utilized ORMs and migration scripts for database management. Utilized and developed API endpoints, real-time event systems, authentication, access control, encryption, logging, forms, and validation.",
+                "nestLevel": 0
+              },
+              {
+                "label": "Collaborative Engineering Leadership",
+                "text": "Recruited and mentored 4 engineers while demonstrating effective communication in engineering web application solutions, fostering company growth. Collaborated closely with stakeholders and HR personnel to understand business processes and role-specific challenges deeply. Proactively generated innovative application ideas, implemented solutions, and educated stakeholders on software capabilities.",
+                "nestLevel": 0
+              },
+              {
+                "label": "Document Signing & Inventory Management",
+                "text": "Led the design and implementation of a customized electronic signature process, seamlessly integrating input fields onto dynamically generated PDF documents crafted from form input. Orchestrated the end-to-end workflow for creating, securely signing, and storing the company's leases and addendums, implementing automated inventory management based on data input during document creation and signing.",
+                "nestLevel": 0
+              },
+              {
+                "label": "Interactive Data Visualizations & Reports",
+                "text": "Created custom dashboards featuring analytics and data visualizations for financial and informational reports. Implemented filtering options to enable year-over-year comparisons, location-specific insights, and individualized views.",
+                "nestLevel": 0
+              },
+              {
+                "label": "Lead Tracking & Appointment Scheduling",
+                "text": "Developed custom CRM systems for customer tracking and communication, incorporating real-time functionality to enable simultaneous work on dashboards. Designed and implemented custom lead tracking rules and heat index logic to determine optimal contact times, in collaboration with stakeholders.",
+                "nestLevel": 0
+              }
+            ]
+          }
+        ]
+      },
+      "education": {
+        "sectionLabel": "Education",
+        "school": "Missouri University of Science and Technology",
+        "location": "Rolla, MO",
+        "startYear": "2010",
+        "endYear": "2014",
+        "degree": "Computer Science",
+        "additionalCourses": "Completed numerous courses on platforms such as Udemy, Coursera, Lynda, and edX, covering topics in web development, software engineering, psychology, and more."
+      },
+      "additionalTechnicalSkillsAndKnowledge": {
+        "sectionLabel": "Additional Technical Skills and Knowledge",
+        "subsections": {
+          "computerScienceFundamentals": {
+            "label": "Computer Science Fundamentals",
+            "values": [
+              "Object Oriented Programming",
+              "Polymorphism",
+              "Abstraction",
+              "Encapsulation",
+              "Inheritance",
+              "Data types",
+              "Data Structures (queues, hash maps, lists, trees, etc.)",
+              "Algorithmic Complexity",
+              "Recursion",
+              "Sorting",
+              "Mutex Locking",
+              "Asynchronous",
+              "Synchronous"
+            ]
+          },
+
+          "principles": {
+            "label": "Principles",
+            "values": ["SOLID", "DRY"]
+          },
+          "applicationArchitecturePatterns": {
+            "label": "Application Architecture Patterns",
+            "values": [
+              "Events",
+              "Listeners",
+              "Observers",
+              "Observables",
+              "Libraries/Services",
+              "Serverless APIs",
+              "Microservices",
+              "Micro frontend",
+              "Modularized Code",
+              "Component Based Development",
+              "Dependency Injection",
+              "Inversion of Control",
+              "Decorators",
+              "MVC",
+              "Middleware",
+              "Singletons",
+              "Factories",
+              "Public & Private Methods",
+              "Queues/Jobs"
+            ]
+          },
+          "webAndApplicationConcepts": {
+            "label": "Web and Application Concepts",
+            "values": [
+              "State management",
+              "Data validation",
+              "Data extraction",
+              "Data transformation",
+              "Data loading",
+              "Error handling",
+              "Logging",
+              "Sessions",
+              "Local storage",
+              "Session storage",
+              "ORMs (Object Relational Mappers)",
+              "Database management (queries, migrations, seeding)",
+              "Transpilation",
+              "Polyfills",
+              "Browser compatibility",
+              "Serialization",
+              "Rate limiting",
+              "Cookies",
+              "DOM",
+              "HTTP",
+              "AJAX/XMLHttpRequests",
+              "Fetch",
+              "Query strings",
+              "Navigation",
+              "Accessibility",
+              "Concurrent sessions (multiple tabs/devices)",
+              "Some internationalization",
+              "CSRF",
+              "Requests and responses",
+              "Polling",
+              "Real-time events"
+            ]
+          },
+          "developmentTools": {
+            "label": "Development Tools",
+            "values": [
+              "Webpack",
+              "Lint",
+              "Prettier",
+              "Babel",
+              "LLM usage",
+              "CoPilot",
+              "Swagger",
+              "Postman",
+              "Git",
+              "GitHub",
+              "Browser developer tools",
+              "Console",
+              "Debugging & breakpoints",
+              "React DevTools"
+            ]
+          },
+          "visualsAndDesign": {
+            "label": "Visuals and Design",
+            "values": [
+              "Responsive design",
+              "Grid",
+              "Flex",
+              "Spacing",
+              "Typography",
+              "Media Queries",
+              "Breakpoints",
+              "Accessibility (WCAG)",
+              "Animation",
+              "SVG",
+              "HTML Canvas",
+              "Photoshop",
+              "Illustrator",
+              "Figma"
+            ]
+          },
+          "javascriptLibrariesCssFrameworks": {
+            "label": "JavaScript Libraries and CSS Frameworks",
+            "values": [
+              "ChartJS",
+              "MUI",
+              "Lodash",
+              "Moment",
+              "Redux",
+              "dotenv",
+              "jQuery",
+              "Bootstrap",
+              "Tailwind",
+              "GSAP",
+              "Stripe",
+              "Highcharts"
+            ]
+          },
+          "otherComputerCliAndOsFunctionality": {
+            "label": "Other Computer, CLI, and OS Functionality",
+            "values": [
+              "SSH",
+              "Bash/shell scripts",
+              "Cron jobs and scheduling",
+              "Regular expressions",
+              "Encoding",
+              "Virtual machines",
+              "Zip/tar",
+              "GPG",
+              "Diskutil",
+              "Systemctl",
+              "Journalctl",
+              "Emailing",
+              "Cache",
+              "OS commands (ps, top, man, du, cat, curl, chmod, chown, etc.)",
+              "Profile scripts",
+              "Bin/executables",
+              "Symlinking",
+              "Package management (npm, yarn, apt, brew, etc.)",
+              "REPL",
+              "Asynchronous and synchronous processes",
+              "Environment variables",
+              "Nginx"
+            ]
+          },
+          "networkingBasic": {
+            "label": "Basic Networking",
+            "values": [
+              "General Understanding",
+              "VPNs",
+              "Cloud VPNs",
+              "SSH",
+              "Load Balancing",
+              "DNS",
+              "HTTP/HTTPS",
+              "TCP/IP",
+              "FTP",
+              "IP Addresses",
+              "Ports",
+              "Web Sockets",
+              "Port Forwarding",
+              "Network Configuration",
+              "Light Network Monitoring",
+              "Ping",
+              "Firewalls and Config",
+              "Encryption",
+              "Virtual Machines",
+              "Basic Network Design (i.e. API Gateways to Private Servers, Separation of Networks)",
+              "Cable Management",
+              "Nmap",
+              "Wireshark",
+              "Physical Security Awareness"
+            ]
+          },
+          "privacyAndSecurity": {
+            "label": "Privacy and Security",
+            "values": [
+              "Authentication",
+              "Access control",
+              "Encryption",
+              "SSL",
+              "Hashing",
+              "OWASP Top 10 concepts",
+              "DoS/DDoS comprehension",
+              "Firewall comprehension",
+              "Phishing awareness",
+              "Social engineering awareness",
+              "Information and observability awareness",
+              "Data minimization",
+              "Do not log PII",
+              "Basic threat modeling",
+              "Asset tracking",
+              "Password manager",
+              "MDM",
+              "Temp files/caching"
+            ]
+          },
+          "collaborationTools": {
+            "label": "Collaboration Tools",
+            "values": [
+              "Project management boards",
+              "Wikis",
+              "Chats",
+              "Video calling",
+              "Word documents",
+              "Spreadsheets",
+              "Design tools"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

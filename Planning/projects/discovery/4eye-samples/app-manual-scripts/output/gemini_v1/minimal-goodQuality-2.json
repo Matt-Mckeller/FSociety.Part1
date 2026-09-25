@@ -1,0 +1,241 @@
+{
+  "sample": {
+    "subject": "Computer Science",
+    "gradeLevel": "College - CS 101",
+    "qualityScore": 9,
+    "description": "Introduction to algorithms lecture in a quiet auditorium",
+    "durationSeconds": 240,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Good morning everyone. Today we're going to discuss algorithm complexity and Big O notation.",
+          "timestamp": 0,
+          "confidence": 0.97
+        },
+        {
+          "text": "This is a fundamental concept in computer science that you'll use throughout your career.",
+          "timestamp": 6.8,
+          "confidence": 0.96
+        },
+        {
+          "text": "Let's start with a simple question: what is an algorithm?",
+          "timestamp": 13.5,
+          "confidence": 0.98
+        },
+        {
+          "text": "An algorithm is a step-by-step procedure for solving a problem or performing a task.",
+          "timestamp": 18.9,
+          "confidence": 0.97
+        },
+        {
+          "text": "Now, not all algorithms are created equal. Some are more efficient than others.",
+          "timestamp": 26.2,
+          "confidence": 0.96
+        },
+        {
+          "text": "This is where Big O notation comes in.",
+          "timestamp": 32.7,
+          "confidence": 0.98
+        },
+        {
+          "text": "Big O describes the upper bound of an algorithm's time complexity.",
+          "timestamp": 37.4,
+          "confidence": 0.96
+        },
+        {
+          "text": "It tells us how the runtime grows as the input size increases.",
+          "timestamp": 43.9,
+          "confidence": 0.97
+        },
+        {
+          "text": "Let's look at some common time complexities.",
+          "timestamp": 49.8,
+          "confidence": 0.98
+        },
+        {
+          "text": "O of 1, or constant time, means the algorithm takes the same time regardless of input size.",
+          "timestamp": 54.5,
+          "confidence": 0.95
+        },
+        {
+          "text": "For example, accessing an array element by index is O of 1.",
+          "timestamp": 62.3,
+          "confidence": 0.97
+        },
+        {
+          "text": "O of n, or linear time, means runtime grows proportionally with input size.",
+          "timestamp": 68.7,
+          "confidence": 0.96
+        },
+        {
+          "text": "A simple loop that iterates through an array once is O of n.",
+          "timestamp": 76.1,
+          "confidence": 0.97
+        },
+        {
+          "text": "O of n squared, or quadratic time, typically involves nested loops.",
+          "timestamp": 82.9,
+          "confidence": 0.95
+        },
+        {
+          "text": "For instance, comparing every element with every other element.",
+          "timestamp": 89.6,
+          "confidence": 0.96
+        },
+        {
+          "text": "O of log n, or logarithmic time, is very efficient.",
+          "timestamp": 96.2,
+          "confidence": 0.97
+        },
+        {
+          "text": "Binary search is a classic example of O of log n.",
+          "timestamp": 102.5,
+          "confidence": 0.98
+        },
+        {
+          "text": "With each step, we eliminate half of the remaining elements.",
+          "timestamp": 108.3,
+          "confidence": 0.96
+        },
+        {
+          "text": "Now, let's consider O of n log n.",
+          "timestamp": 114.8,
+          "confidence": 0.97
+        },
+        {
+          "text": "This is the complexity of efficient sorting algorithms like merge sort and quick sort.",
+          "timestamp": 120.2,
+          "confidence": 0.95
+        },
+        {
+          "text": "It's faster than O of n squared but slower than O of n.",
+          "timestamp": 127.9,
+          "confidence": 0.96
+        },
+        {
+          "text": "Why does this matter in practice?",
+          "timestamp": 134.5,
+          "confidence": 0.98
+        },
+        {
+          "text": "Let's say you have a dataset with a million records.",
+          "timestamp": 139.1,
+          "confidence": 0.97
+        },
+        {
+          "text": "An O of n squared algorithm would perform a trillion operations.",
+          "timestamp": 145.3,
+          "confidence": 0.96
+        },
+        {
+          "text": "But an O of n log n algorithm would only perform about 20 million operations.",
+          "timestamp": 152.7,
+          "confidence": 0.95
+        },
+        {
+          "text": "That's the difference between a few seconds and several days of processing time.",
+          "timestamp": 160.8,
+          "confidence": 0.96
+        },
+        {
+          "text": "When analyzing algorithms, we focus on the worst-case scenario.",
+          "timestamp": 168.4,
+          "confidence": 0.97
+        },
+        {
+          "text": "This gives us a guarantee about the maximum time an algorithm will take.",
+          "timestamp": 174.9,
+          "confidence": 0.96
+        },
+        {
+          "text": "However, we also consider average-case and best-case complexities in some situations.",
+          "timestamp": 181.7,
+          "confidence": 0.95
+        },
+        {
+          "text": "For your homework, I want you to analyze the time complexity of three algorithms.",
+          "timestamp": 189.3,
+          "confidence": 0.96
+        },
+        {
+          "text": "You'll find them in the assignment posted on Canvas.",
+          "timestamp": 196.5,
+          "confidence": 0.97
+        },
+        {
+          "text": "Make sure to explain your reasoning for each one.",
+          "timestamp": 202.8,
+          "confidence": 0.98
+        },
+        {
+          "text": "Next class, we'll dive into space complexity and discuss the time-space tradeoff.",
+          "timestamp": 208.6,
+          "confidence": 0.96
+        },
+        {
+          "text": "Remember, efficient algorithms are the foundation of scalable software.",
+          "timestamp": 216.9,
+          "confidence": 0.97
+        },
+        {
+          "text": "Any questions before we break?",
+          "timestamp": 223.4,
+          "confidence": 0.98
+        },
+        {
+          "text": "No? Alright, see you all on Wednesday.",
+          "timestamp": 227.8,
+          "confidence": 0.97
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.98,
+    "appropriatenessScore": 1,
+    "warnings": [],
+    "isMainLectureContent_confidence": 0.99,
+    "isSideConversation_confidence": 0.01,
+    "isIrrelevantContent_confidence": 0,
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "oneLineSummarization": "Algorithm Complexity: Introduction to Big O notation, explaining how different complexities like O(1), O(n), and O(n^2) measure an algorithm's efficiency.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "CHART_LINE",
+        "title": "Big O Notation: Growth Rate Comparison",
+        "description": "A line chart comparing the growth rates of common time complexities (O(1), O(log n), O(n), O(n log n), O(n^2)) as input size increases.",
+        "reasonForSuggestion": "Visually demonstrates the dramatic difference in efficiency between complexities, making the abstract concept of 'growth rate' concrete and intuitive. This is the standard and most effective way to teach this concept.",
+        "promptForGeneration": "Generate an interactive line chart to visualize Big O time complexities. The x-axis should be labeled 'Input Size (n)' and range from 1 to 100. The y-axis should be labeled 'Number of Operations'. Plot five distinct, color-coded lines: 1. O(1) [Constant] - a flat horizontal line (e.g., y=10). 2. O(log n) [Logarithmic] - a very slowly rising curve. 3. O(n) [Linear] - a straight diagonal line. 4. O(n log n) [N log N] - a curve slightly steeper than linear. 5. O(n^2) [Quadratic] - a sharply accelerating upward curve. The chart must include an interactive legend to toggle lines. Add tooltips that show the complexity name and operation count when a user hovers over a line. The chart title should be 'Big O: Runtime Growth Comparison'. Use a clean, academic style suitable for a college CS course."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.8,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.8,
+        "coreType": "COMPARISON_MATRIX",
+        "title": "Big O Complexity Cheat Sheet",
+        "description": "A table summarizing common Big O notations with their names, growth rates, and classic algorithm examples mentioned in the lecture.",
+        "reasonForSuggestion": "Organizes the key information into a structured, easily scannable format for review and memorization. It directly links abstract notations to the concrete examples from the lecture (binary search, nested loops, etc.).",
+        "promptForGeneration": "Create a static HTML table with five columns: 'Notation', 'Name', 'Growth Rate', 'Example from Lecture', and 'Practical Impact'. Populate the table with rows for O(1), O(log n), O(n), O(n log n), and O(n^2). Use the following data: [O(1), Constant, Flat, 'Accessing array by index', 'Extremely fast'], [O(log n), Logarithmic, Very slow, 'Binary search', 'Very efficient for large data'], [O(n), Linear, Proportional, 'Simple loop through array', 'Scales predictably'], [O(n log n), N log N, Super-linear, 'Merge sort, quick sort', 'Standard for efficient sorting'], [O(n^2), Quadratic, Exponential, 'Nested loops (all pairs)', 'Becomes unusable for large datasets']. Style the 'Notation' column with a monospaced font and use alternating row colors for readability."
+      }
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-26T22:10:45.666Z",
+    "latencyMs": 24394,
+    "tokenUsage": {
+      "input": 4553,
+      "output": 950,
+      "total": 7563
+    }
+  }
+}

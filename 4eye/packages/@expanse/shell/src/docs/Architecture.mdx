@@ -1,0 +1,68 @@
+---
+title: Layout Systems/Architecture
+---
+
+# System Architecture
+
+> Overview of @expanse/shell system design.  
+> **Full documentation:** [docs/architecture/README.md](../docs/architecture/README.md)
+
+---
+
+## Two Layout Paradigms
+
+| Paradigm | Navigation | Chrome | Best For |
+|----------|------------|--------|----------|
+| **Basic Web Layout** | URL routes | ContentFrame (pushes content) | Documentation, dashboards |
+| **Spatial Layout** | MapGridNavigation (x,y) | HUD (floats over content) | Real-time interfaces, games |
+
+> **Why HUD for real-time?** The HUD keeps controls floating over content without layout shifts—ideal for live dashboards, monitoring, collaborative editing, and gaming where continuous visual attention is critical.
+
+---
+
+## Architecture Overview
+
+```
+┌─────────────────────────────────────────────────────────┐
+│                    Application Layer                     │
+│  (Your App Components, Pages, Business Logic)           │
+└─────────────────────────────────────────────────────────┘
+                          │
+        ┌─────────────────┴─────────────────┐
+        ▼                                   ▼
+┌───────────────────┐               ┌───────────────────┐
+│  Basic Web Layout │               │   Spatial Layout  │
+│   (URL Routes)    │               │ (MapGridNavigation)│
+├───────────────────┤               ├───────────────────┤
+│ ContentFrame      │               │ HUD (ScreenOverlay)│
+│ Templates         │               │ Minimap           │
+│ Standard bars     │               │ NavigationPad     │
+└───────────────────┘               └───────────────────┘
+```
+
+---
+
+## Core Modules
+
+| Module | Location | Purpose |
+|--------|----------|---------|
+| Navigation | `spatial/map/` | MapGridNavigation for spatial |
+| ContentFrame | `core/content-frame/` | Structural shell for web layouts |
+| HUD | `spatial/overlays/` | Floating overlay for spatial |
+| Components | `hud-components/` | Shared UI elements |
+
+---
+
+## Key Patterns
+
+**Floating > Pushing**: HUD floats via fixed positioning, content fills viewport  
+**Presets > Manual Config**: HudPreset bundles component visibility  
+**Context > Props**: HeaderContextProvider manages header state
+
+---
+
+📖 **Detailed documentation:**
+- [Architecture README](../docs/architecture/README.md) - Full system design
+- [Paradigms](../docs/architecture/PARADIGMS.md) - Paradigm switching details
+- [Concepts](../docs/architecture/CONCEPTS.md) - Core concepts explained
+- [Dictionary](../docs/reference/DICTIONARY.md) - Terminology definitions

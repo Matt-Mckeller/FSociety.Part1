@@ -1,0 +1,175 @@
+{
+  "topics": [
+    {
+      "id": "psychology",
+      "name": "Psychology & Motivation",
+      "icon": "🧠",
+      "findings": [
+        {
+          "title": "Dopamine & Motivation",
+          "source": "Andrew Huberman",
+          "summary": "Dopamine is the primary determinant of motivation, excitement, and willingness to pursue goals. Higher dopamine = feeling good, lower = feeling unmotivated.",
+          "application": "Expanse's reward system triggers dopamine through anticipation and achievement of rewards"
+        },
+        {
+          "title": "Approach Motivation",
+          "source": "Dopamine Reward System Research",
+          "summary": "Dopamine increases in anticipation of reward, improving mood. After receiving reward, dopamine decreases, motivating pursuit of more.",
+          "application": "Loot boxes, progress bars, and achievement unlocks leverage this cycle"
+        },
+        {
+          "title": "Operant Conditioning",
+          "source": "Behavioral Psychology",
+          "summary": "Animals trained by reward methods look forward to training because it's a way to earn treats. Same applies to students and academic tasks.",
+          "application": "Positive reinforcement through immediate rewards for task completion"
+        },
+        {
+          "title": "Learning & Attention",
+          "source": "Cognitive Psychology",
+          "summary": "Learning and memory are direct consequences of attention - the more attention devoted to something, the more likely it will be learned and remembered.",
+          "application": "Gamification increases attention and engagement, improving learning outcomes"
+        },
+        {
+          "title": "Social Validation in Puberty",
+          "source": "The Anxious Generation",
+          "summary": "Children beginning puberty are socially insecure, easily swayed by peer pressure, and attracted to activities offering social validation.",
+          "application": "Social recognition features, achievements, and sharing capabilities"
+        }
+      ]
+    },
+    {
+      "id": "engagement",
+      "name": "Student Engagement",
+      "icon": "📊",
+      "findings": [
+        {
+          "title": "Engagement Decline with Age",
+          "source": "Gallup Student Poll 2021",
+          "summary": "Only one-third of students are engaged. 74% of 5th graders are highly engaged vs only one-third of high schoolers.",
+          "application": "Target engagement interventions especially for middle and high school"
+        },
+        {
+          "title": "Engagement Impact on Success",
+          "source": "Gallup Research",
+          "summary": "Engaged students are 2.5x more likely to get excellent grades and 4.5x more likely to be hopeful about the future.",
+          "application": "Core justification for gamification approach"
+        },
+        {
+          "title": "Attention Span Decline",
+          "source": "Microsoft 2015 Study",
+          "summary": "Average attention span decreased from 12 seconds (2000) to 8 seconds (2013) - shorter than a goldfish.",
+          "application": "Quick rewards, visual feedback, and bite-sized achievements"
+        },
+        {
+          "title": "Causes of Reduced Attention",
+          "source": "Digital Media Research",
+          "summary": "Constant stimulation, multitasking, and dopamine rewards from digital platforms train brains to seek constant novelty.",
+          "application": "Compete with digital distractions by using same engagement mechanisms for education"
+        },
+        {
+          "title": "Autonomy Increases Engagement",
+          "source": "Motivational Research",
+          "summary": "Freedom to make choices and take ownership leads to greater creativity, productivity, and satisfaction.",
+          "application": "Student choice in rewards, goals, and personalization"
+        }
+      ]
+    },
+    {
+      "id": "mental-health",
+      "name": "Mental Health",
+      "icon": "💚",
+      "findings": [
+        {
+          "title": "Reward-Seeking Brain Development",
+          "source": "The Anxious Generation",
+          "summary": "Reward-seeking brain parts mature earlier than frontal cortex (self-control). Preteens are at particularly vulnerable point.",
+          "application": "Design rewards that support positive development rather than exploit vulnerabilities"
+        },
+        {
+          "title": "Loss Tolerance Through Play",
+          "source": "The Anxious Generation",
+          "summary": "Through play, children develop social skills including self-governance, joint decision making, and accepting when you lose.",
+          "application": "Competition features designed for positive experiences even when losing"
+        },
+        {
+          "title": "Social Development After School",
+          "source": "The Anxious Generation",
+          "summary": "After-school hours may be more valuable for social development and mental health than anything in school except recess.",
+          "application": "Social features that extend beyond classroom hours"
+        },
+        {
+          "title": "Overprotection Problem",
+          "source": "The Anxious Generation",
+          "summary": "Overprotection in real world and underprotection in virtual world are major reasons for increased anxiety in Gen Z.",
+          "application": "Balanced approach to competition and challenge with appropriate safeguards"
+        }
+      ]
+    },
+    {
+      "id": "edtech",
+      "name": "Education Technology",
+      "icon": "💻",
+      "findings": [
+        {
+          "title": "Technology as Supplement",
+          "source": "EdTech Research",
+          "summary": "EdTech yields greatest benefits when teachers receive proper training and use technology to enhance, not replace, instruction.",
+          "application": "Design for teacher empowerment, not teacher replacement"
+        },
+        {
+          "title": "Effective EdTech Uses",
+          "source": "EdTech Best Practices",
+          "summary": "Most impactful when personalizing learning, delivering interactive content, facilitating collaboration, and offering real-time feedback.",
+          "application": "All four areas are core to Expanse's approach"
+        }
+      ]
+    }
+  ],
+  "statistics": [
+    {
+      "stat": "47%",
+      "description": "Students engaged in school (2018 Gallup)",
+      "context": "29% not engaged, 24% actively disengaged"
+    },
+    {
+      "stat": "74%",
+      "description": "Fifth graders highly engaged",
+      "context": "Drops to ~33% for high schoolers"
+    },
+    {
+      "stat": "2.5x",
+      "description": "Engaged students more likely to get excellent grades",
+      "context": "Compared to actively disengaged peers"
+    },
+    {
+      "stat": "4.5x",
+      "description": "Engaged students more likely to be hopeful about future",
+      "context": "Compared to actively disengaged peers"
+    },
+    {
+      "stat": "8 seconds",
+      "description": "Average human attention span (2013)",
+      "context": "Down from 12 seconds in 2000"
+    },
+    {
+      "stat": "52%",
+      "description": "Students satisfied with college experience (2020)",
+      "context": "HERI Survey"
+    }
+  ],
+  "sources": [
+    {
+      "name": "The Anxious Generation",
+      "author": "Jonathan Haidt",
+      "type": "book"
+    },
+    {
+      "name": "Andrew Huberman Podcast",
+      "author": "Andrew Huberman",
+      "type": "podcast"
+    },
+    { "name": "Gallup Student Poll", "year": "2018-2021", "type": "research" },
+    { "name": "Microsoft Attention Study", "year": "2015", "type": "research" },
+    { "name": "HERI Survey", "year": "2020", "type": "research" }
+  ]
+}

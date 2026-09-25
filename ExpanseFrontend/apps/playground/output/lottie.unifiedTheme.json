@@ -1,0 +1,174 @@
+{
+  "animationName": "SmilingFace",
+  "description": "An animated smiling face emoji suitable for chat applications or user feedback. The animation shows a happy face with a winking expression and a tongue sticking out.",
+  "tags": ["emoji", "face", "happy", "smile", "chat", "feedback"],
+  "recommendations": {
+    "recommendedColorPalettes": [
+      "Vibrant & Playful",
+      "Pastel Tones",
+      "Monochromatic"
+    ],
+    "elementGroups": {
+      "logicalGrouped": {
+        "Face": {
+          "elements": ["FaceMainFill"],
+          "description": "The main circular shape of the face."
+        },
+        "Eyes": {
+          "elements": ["FaceEyeRightFill", "FaceEyeLeftFill"],
+          "description": "The fill colors for both eyes."
+        },
+        "Mouth": {
+          "elements": ["FaceMouthBackgroundFill", "FaceTongueFill"],
+          "description": "Components of the mouth, including the interior and tongue."
+        }
+      },
+      "sharedColor": {
+        "DarkFeatures": {
+          "elements": [
+            "FaceMouthBackgroundFill",
+            "FaceEyeRightFill",
+            "FaceEyeLeftFill"
+          ],
+          "description": "Elements that share the same dark color, creating a cohesive look for the eyes and mouth interior.",
+          "colorRelationship": "identical"
+        }
+      },
+      "themingPriority": {
+        "HighPriority": {
+          "elements": ["FaceMainFill"],
+          "description": "The most prominent element, defining the overall color of the emoji.",
+          "priority": "high"
+        },
+        "MediumPriority": {
+          "elements": ["FaceTongueFill"],
+          "description": "An important detail color that adds personality.",
+          "priority": "medium"
+        },
+        "LowPriority": {
+          "elements": [
+            "FaceMouthBackgroundFill",
+            "FaceEyeRightFill",
+            "FaceEyeLeftFill"
+          ],
+          "description": "Accent colors for facial features that can be themed together.",
+          "priority": "low"
+        }
+      },
+      "visualHierarchy": {
+        "PrimaryElement": {
+          "elements": ["FaceMainFill"],
+          "description": "The primary visual component that forms the base of the emoji.",
+          "hierarchy": "primary"
+        },
+        "SecondaryElements": {
+          "elements": ["FaceTongueFill", "FaceEyeRightFill", "FaceEyeLeftFill"],
+          "description": "Secondary facial features that define the expression.",
+          "hierarchy": "secondary"
+        },
+        "AccentElement": {
+          "elements": ["FaceMouthBackgroundFill"],
+          "description": "Subtle background color within the mouth.",
+          "hierarchy": "accent"
+        }
+      }
+    },
+    "optionalAiContext": {
+      "purpose": "This animation is designed to convey happiness, playfulness, or positive reinforcement. It's suitable for social interactions, rewards, or successful state feedback in applications."
+    },
+    "optionalAiStylePrompts": {
+      "cyberpunk": "Generate a theme with neon purples, electric blues, and glowing pinks, giving the emoji a futuristic, digital feel.",
+      "vintage": "Create a retro theme using faded yellows, muted reds, and off-whites, reminiscent of classic cartoons.",
+      "corporate": "Apply a professional theme using a brand's primary and secondary colors, making the face fill the primary color and details the accent colors."
+    }
+  },
+  "elements": {
+    "FaceMainFill": {
+      "name": "FaceMainFill",
+      "alternativeNames": ["EmojiBodyFill", "HeadFill"],
+      "description": "The main fill color for the circular face, acting as the skin tone of the emoji.",
+      "path": "layers[5].shapes[0].it[1].c.k",
+      "originalColor": "#a662d0ff",
+      "elementType": "fill",
+      "roleFunction": "primary_subject",
+      "visualLevel": "primary",
+      "semanticRole": "illustrative_object",
+      "isThemeable": true,
+      "isSkinTone": true,
+      "isClothing": false,
+      "isEffect": false,
+      "isBackground": false,
+      "elementGroups": ["face", "primary", "skin-tone", "themeable"],
+      "tags": ["face", "main-color", "skin"]
+    },
+    "FaceMouthBackgroundFill": {
+      "name": "FaceMouthBackgroundFill",
+      "alternativeNames": ["MouthInteriorFill"],
+      "description": "The dark background color of the open mouth, visible behind the tongue.",
+      "path": "layers[1].shapes[0].it[1].c.k",
+      "originalColor": "#2a0840ff",
+      "elementType": "fill",
+      "roleFunction": "primary_subject",
+      "visualLevel": "tertiary",
+      "semanticRole": "illustrative_object",
+      "isThemeable": true,
+      "isSkinTone": false,
+      "isClothing": false,
+      "isEffect": false,
+      "isBackground": false,
+      "elementGroups": ["face", "mouth", "themeable"],
+      "tags": ["mouth", "shadow", "detail"]
+    },
+    "FaceTongueFill": {
+      "name": "FaceTongueFill",
+      "description": "The fill color for the tongue inside the smiling mouth.",
+      "path": "layers[0].shapes[0].it[1].c.k",
+      "originalColor": "#621890ff",
+      "elementType": "fill",
+      "roleFunction": "primary_subject",
+      "visualLevel": "secondary",
+      "semanticRole": "illustrative_object",
+      "isThemeable": true,
+      "isSkinTone": false,
+      "isClothing": false,
+      "isEffect": false,
+      "isBackground": false,
+      "elementGroups": ["face", "mouth", "themeable"],
+      "tags": ["tongue", "detail", "accent"]
+    },
+    "FaceEyeLeftFill": {
+      "name": "FaceEyeLeftFill",
+      "description": "The fill color for the face's left eye.",
+      "path": "layers[4].shapes[0].it[2].c.k",
+      "originalColor": "#2a0840ff",
+      "elementType": "fill",
+      "roleFunction": "primary_subject",
+      "visualLevel": "secondary",
+      "semanticRole": "illustrative_object",
+      "isThemeable": true,
+      "isSkinTone": false,
+      "isClothing": false,
+      "isEffect": false,
+      "isBackground": false,
+      "elementGroups": ["face", "eyes", "themeable"],
+      "tags": ["eye", "left"]
+    },
+    "FaceEyeRightFill": {
+      "name": "FaceEyeRightFill",
+      "description": "The fill color for the face's right eye.",
+      "path": "layers[3].shapes[0].it[2].c.k",
+      "originalColor": "#2a0840ff",
+      "elementType": "fill",
+      "roleFunction": "primary_subject",
+      "visualLevel": "secondary",
+      "semanticRole": "illustrative_object",
+      "isThemeable": true,
+      "isSkinTone": false,
+      "isClothing": false,
+      "isEffect": false,
+      "isBackground": false,
+      "elementGroups": ["face", "eyes", "themeable"],
+      "tags": ["eye", "right"]
+    }
+  }
+}

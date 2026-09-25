@@ -1,0 +1,297 @@
+{
+  "sample": {
+    "subject": "Biology",
+    "gradeLevel": "10th Grade",
+    "qualityScore": 4,
+    "description": "Cell structure lecture with audio dropouts",
+    "durationSeconds": 110,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "Let's review the parts of a cell. First, the cell membrane",
+          "timestamp": 0,
+          "confidence": 0.84
+        },
+        {
+          "text": "controls what enters and",
+          "timestamp": 6.3,
+          "confidence": 0.67
+        },
+        {
+          "text": "",
+          "timestamp": 9.8,
+          "confidence": 0.14
+        },
+        {
+          "text": "the cell. Inside we have the cytoplasm, which is",
+          "timestamp": 13.5,
+          "confidence": 0.76
+        },
+        {
+          "text": "gel-like substance where",
+          "timestamp": 19.2,
+          "confidence": 0.71
+        },
+        {
+          "text": "",
+          "timestamp": 22.7,
+          "confidence": 0.11
+        },
+        {
+          "text": "organelles float. The nucleus is the",
+          "timestamp": 26.4,
+          "confidence": 0.79
+        },
+        {
+          "text": "control center containing",
+          "timestamp": 31.8,
+          "confidence": 0.73
+        },
+        {
+          "text": "which holds our genetic",
+          "timestamp": 35.9,
+          "confidence": 0.65
+        },
+        {
+          "text": "",
+          "timestamp": 39.6,
+          "confidence": 0.09
+        },
+        {
+          "text": "Mitochondria are known as the powerhouse because they",
+          "timestamp": 43.2,
+          "confidence": 0.81
+        },
+        {
+          "text": "produce energy through",
+          "timestamp": 49.7,
+          "confidence": 0.68
+        },
+        {
+          "text": "",
+          "timestamp": 53.1,
+          "confidence": 0.12
+        },
+        {
+          "text": "cellular respiration. The endoplasmic reticulum",
+          "timestamp": 57.5,
+          "confidence": 0.77
+        },
+        {
+          "text": "comes in two types, rough and",
+          "timestamp": 63.9,
+          "confidence": 0.72
+        },
+        {
+          "text": "",
+          "timestamp": 68.2,
+          "confidence": 0.1
+        },
+        {
+          "text": "Rough ER has ribosomes attached and makes",
+          "timestamp": 71.8,
+          "confidence": 0.75
+        },
+        {
+          "text": "while smooth ER produces",
+          "timestamp": 77.5,
+          "confidence": 0.69
+        },
+        {
+          "text": "",
+          "timestamp": 81.4,
+          "confidence": 0.13
+        },
+        {
+          "text": "The Golgi apparatus packages and",
+          "timestamp": 85.7,
+          "confidence": 0.78
+        },
+        {
+          "text": "distributes proteins",
+          "timestamp": 91.2,
+          "confidence": 0.74
+        },
+        {
+          "text": "",
+          "timestamp": 94.5,
+          "confidence": 0.08
+        },
+        {
+          "text": "Finally, lysosomes break down",
+          "timestamp": 98.3,
+          "confidence": 0.76
+        },
+        {
+          "text": "waste materials using",
+          "timestamp": 103.6,
+          "confidence": 0.64
+        },
+        {
+          "text": "",
+          "timestamp": 107.1,
+          "confidence": 0.11
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.85,
+    "appropriatenessScore": 1,
+    "warnings": [
+      {
+        "type": "AUDIO_QUALITY",
+        "message": "Low transcription confidence and multiple audio dropouts detected. The analysis required inferring missing key terms (e.g., 'leaves', 'DNA', 'proteins', 'lipids', 'enzymes') based on standard biological context."
+      }
+    ],
+    "isMainLectureContent_confidence": 0.98,
+    "isSideConversation_confidence": 0.01,
+    "isIrrelevantContent_confidence": 0.01,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "biology",
+      "cell_biology",
+      "organelles",
+      "grade_10",
+      "eukaryotic_cell",
+      "cell_structure",
+      "cellular_functions"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "The teacher reviewed the primary organelles of a eukaryotic cell and their functions. The lecture covered the cell membrane's role as a gatekeeper, the cytoplasm as the medium holding organelles, and the nucleus as the control center containing DNA. It explained that mitochondria are the 'powerhouses' generating energy via cellular respiration. The two types of endoplasmic reticulum were distinguished: rough ER for protein synthesis (due to ribosomes) and smooth ER for lipid production. Finally, the Golgi apparatus was described as the cell's packaging and distribution center, and lysosomes as the waste disposal system using enzymes.",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "• Cell Membrane: Controls what enters/leaves the cell.\n• Cytoplasm: Gel-like substance holding organelles.\n• Nucleus: Control center; contains genetic material (DNA).\n• Mitochondria: 'Powerhouse'; produces energy (ATP) via cellular respiration.\n• Rough ER: Studded with ribosomes; synthesizes proteins.\n• Smooth ER: Lacks ribosomes; produces lipids.\n• Golgi Apparatus: Packages and ships proteins and lipids.\n• Lysosomes: 'Recycling center'; breaks down waste with enzymes."
+      },
+      {
+        "version": "narrative",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "Imagine a bustling city inside each cell. The cell membrane acts as the city's border control, deciding what comes in and out. The cytoplasm is the ground and air where everything happens. At the center is the nucleus, or city hall, holding the master blueprints (DNA). The mitochondria are the power plants, generating energy for all activities. The endoplasmic reticulum is a factory complex: the rough ER section is a protein assembly line, while the smooth ER section produces fats. The Golgi apparatus is the post office, packaging and sending out the finished products. Finally, the lysosomes are the sanitation crew, cleaning up waste to keep the city running smoothly."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.75,
+        "text": "This lesson identifies key cell organelles: the protective cell membrane, the nucleus with DNA, energy-producing mitochondria, protein-making rough ER, lipid-making smooth ER, the packaging Golgi apparatus, and waste-processing lysosomes."
+      }
+    ],
+    "oneLineSummarization": "A review of key cell organelles and their functions, including the nucleus (DNA), mitochondria (energy), ER (synthesis), Golgi (packaging), and lysosomes (waste).",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "ASSOCIATIONS",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Think of the cell as a miniature factory. The nucleus is the CEO's office, holding the blueprints (DNA). The mitochondria are the power generators, keeping the lights on. The endoplasmic reticulum is the main assembly line, with the rough ER building proteins and the smooth ER making lipids. The Golgi apparatus is the shipping department, packaging products into vesicles for delivery. The cell membrane is the factory's security gate, controlling all shipments in and out. Finally, the lysosomes are the cleanup crew, recycling old parts and disposing of waste."
+      },
+      {
+        "effectiveness": "high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "Let's trace the logical flow of creating and exporting a protein. Step 1: The instructions (DNA) are stored in the nucleus. Step 2: These instructions are transcribed and sent to the ribosomes on the rough ER. Step 3: The ribosomes build the protein. Step 4: The protein travels through the ER and is then sent to the Golgi apparatus for final processing, sorting, and packaging. Step 5: The Golgi packages the protein into a vesicle, which travels to the cell membrane to be released from the cell. This entire process requires energy, which is supplied by the mitochondria."
+      },
+      {
+        "effectiveness": "high",
+        "type": "VISUAL",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.95,
+        "text": "Picture a three-dimensional sphere, the cell, enclosed by a flexible, fluid membrane. Inside, imagine a thick, jelly-like substance, the cytoplasm, crowded with structures. A large, central sphere, the nucleus, is prominent. Branching out from it is a network of folded membranes, the endoplasmic reticulum, some dotted with tiny specks (ribosomes). Scattered throughout are small, bean-shaped mitochondria. See the flattened stacks of the Golgi apparatus, like a stack of pancakes, with tiny bubbles (vesicles) pinching off its edges. It's a dynamic, crowded, and highly organized space."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "INTERACTIVE_DIAGRAM",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "HTML_INTERACTIVE",
+          "ANNOTATED_TEXT",
+          "TOOLTIP_DEFINITIONS"
+        ],
+        "title": "Interactive Animal Cell Diagram",
+        "reasonForSuggestion": "Cell biology is inherently visual. An interactive diagram allows students to explore the spatial relationships between organelles and access information on demand, which is far more effective than a static image for understanding complex functions.",
+        "promptForGeneration": "Create an interactive HTML and SVG diagram of a typical animal cell for 10th-grade biology students. The diagram should be colorful and visually engaging. Include the following organelles with clear labels and clickable hotspots: Cell Membrane, Cytoplasm, Nucleus, Mitochondria, Rough ER, Smooth ER, Golgi Apparatus, Ribosomes, and Lysosomes. When a student clicks on an organelle, a pop-up or side panel should appear with its name, a 2-3 sentence function description, and a simple analogy (e.g., Mitochondria: 'Powerhouse'). Use a clean, modern font. Ensure the diagram is responsive and works on both desktop and mobile devices. Add a toggle button to show/hide labels for self-quizzing. The background cytoplasm should have a subtle texture to indicate its gel-like nature."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.8,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.85,
+        "coreType": "MERMAID_FLOWCHART",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "STEP_SEQUENCE"
+        ],
+        "title": "The Journey of a Protein",
+        "reasonForSuggestion": "This flowchart visualizes a key cellular process, helping students understand that organelles don't work in isolation but as part of a coordinated system. It clarifies the sequence of events from DNA to exported protein.",
+        "promptForGeneration": "Generate a Mermaid flowchart diagram illustrating the process of protein synthesis and export for a 10th-grade biology class. Use a top-to-bottom layout (`graph TD`). The steps should be: 1. `A[Nucleus: DNA instructions]` --> `B{Ribosome on Rough ER}`; 2. `B --> C[Protein is synthesized]`; 3. `C --> D(Transport vesicle buds off ER)`; 4. `D --> E[Golgi Apparatus: Protein is modified, sorted, and packaged]`; 5. `E --> F(Secretory vesicle buds off Golgi)`; 6. `F --> G((Cell Membrane: Vesicle fuses and protein is released))`. Use different shapes for locations (rectangles), processes (stadium), and transport (circles). Add annotations for key terms. Use color to highlight the path of the protein."
+      }
+    ],
+    "purpose": "Understanding the structure and function of organelles is fundamental to all of biology. It explains how a single cell can perform all the complex tasks necessary for life, and it provides the foundation for understanding larger systems like tissues, organs, and entire organisms, as well as the cellular basis of diseases.",
+    "motivation": "Your body is made of trillions of these tiny, living factories, and they are working nonstop right now to keep you alive—from generating the energy you need to think, to building the proteins that make up your muscles. Learning about organelles is like getting the owner's manual for your own body. It helps you understand how you function and what can go wrong when these tiny parts don't work correctly.",
+    "learningValueScore": 0.9,
+    "availableActions": [
+      {
+        "actionLabel": "Label the Cell",
+        "reason": "Provides an interactive way for students to test their knowledge of organelle identification and location.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "See Factory Analogy",
+        "reason": "Uses a powerful metaphor to make the abstract functions of organelles concrete and memorable.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Trace a Protein",
+        "reason": "Visualizes a key cellular process, showing how different organelles collaborate in a sequence.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Quiz Me",
+        "reason": "Allows for quick self-assessment of functional knowledge with multiple-choice or fill-in-the-blank questions.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "Organelle": {
+        "definition": "A specialized subunit within a cell that has a specific function.",
+        "etymology": "From Latin 'organum' (instrument, tool) + '-elle' (diminutive). Literally means 'little tool' or 'little organ'.",
+        "context": "The nucleus and mitochondria are both examples of organelles."
+      },
+      "Endoplasmic Reticulum": {
+        "definition": "A network of membranes inside a cell involved in protein and lipid synthesis.",
+        "etymology": "Endo- (within), -plasmic (cytoplasm), Reticulum (little net). Literally 'a little net within the cytoplasm'.",
+        "context": "The rough ER is studded with ribosomes, while the smooth ER is not."
+      }
+    },
+    "recommendationsToTeacher": [
+      "Due to the audio dropouts, verify that students caught the key products of the Rough ER (proteins) and Smooth ER (lipids), as these terms were likely missed. A quick written review on the board would be beneficial.",
+      "Use a physical 3D model of a cell or a virtual/augmented reality app to help students grasp the three-dimensional structure and spatial arrangement of organelles, which is difficult to convey verbally.",
+      "Engage students with an activity where they create their own cell analogy (e.g., a cell as a school, a kingdom, or a spaceship) to reinforce their understanding of organelle functions in a creative way."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T00:03:31.641Z",
+    "latencyMs": 37995,
+    "tokenUsage": {
+      "input": 7576,
+      "output": 2849,
+      "total": 12445
+    }
+  }
+}

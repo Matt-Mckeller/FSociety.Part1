@@ -1,0 +1,1237 @@
+{
+  "overview": {
+    "title": "Ideation & Future Features",
+    "description": "Collection of feature ideas and concepts being explored for future development. These range from near-term enhancements to experimental concepts that require further research and validation.",
+    "categories": [
+      {
+        "id": "security-safety",
+        "name": "Security & Safety",
+        "description": "Features focused on school security, hall monitoring, and student safety"
+      },
+      {
+        "id": "economy-financial",
+        "name": "Economy & Financial",
+        "description": "Banking, cryptocurrency, savings, and financial literacy features"
+      },
+      {
+        "id": "rewards-engagement",
+        "name": "Rewards & Engagement",
+        "description": "Additional reward types, engagement mechanics, and incentive systems"
+      },
+      {
+        "id": "social-community",
+        "name": "Social & Community",
+        "description": "Community building, donations, friendship, events, and social features"
+      },
+      {
+        "id": "education-career",
+        "name": "Education & Career",
+        "description": "Learning enhancement, career guidance, onboarding, and educational content"
+      },
+      {
+        "id": "platform-integration",
+        "name": "Platform & Integration",
+        "description": "Admin tools, analytics, mobile apps, and platform expansion"
+      },
+      {
+        "id": "analytics-observability",
+        "name": "Analytics & Observability",
+        "description": "Real-time engagement tracking, student-level analytics, and outcome monitoring"
+      },
+      {
+        "id": "learning-content",
+        "name": "Learning & Content",
+        "description": "AI-powered content generation, translation, adaptive learning modes, and visual learning tools"
+      }
+    ]
+  },
+  "features": [
+    {
+      "id": "hall-monitoring-game",
+      "name": "Hall Monitoring Game",
+      "category": "security-safety",
+      "priority": "high",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "Team-based points system for hallway behavior and attendance with positive reinforcement",
+      "valueProposition": "Reduces hallway issues, improves attendance, builds team spirit",
+      "keyPoints": [
+        "Divide school into teams (by hallway or time block)",
+        "Award daily points to teams with best performance",
+        "Monthly rewards for winning teams (cookies, ice cream)",
+        "Public recognition via intercom announcements",
+        "Visual reminders with posters and whiteboards"
+      ],
+      "implementation": [
+        "Points system for proper hall pass usage",
+        "Security officers distribute points for compliance",
+        "Negative points system (not below zero) for violations",
+        "Baseline points per day to avoid adversarial dynamics"
+      ],
+      "risks": [
+        "Requires consistent implementation across staff",
+        "May need temporary implementation to establish norms"
+      ]
+    },
+    {
+      "id": "hall-pass-system",
+      "name": "Hall Pass & School Security",
+      "category": "security-safety",
+      "priority": "high",
+      "status": "concept",
+      "complexity": "high",
+      "description": "Digital hall pass system with tracking, rewards, and security integration",
+      "valueProposition": "Improved accountability, reduced hallway issues, better data for administration",
+      "keyPoints": [
+        "Electronic hall passes replacing paper notes",
+        "Real-time reporting to security officers",
+        "Track which teachers are giving passes and frequency",
+        "Hall passes can cost coins or currency",
+        "GPS tracking for pass usage verification (optional)"
+      ],
+      "features": [
+        "Teacher confirmation via swipe (tinder-style)",
+        "Automatic return time recording",
+        "Pass history for teachers",
+        "Teachers can set custom pricing for passes",
+        "Analytics and statistics dashboard"
+      ],
+      "integrations": [
+        "Camera system for verification (long-term)",
+        "Security team alerts",
+        "GPS tracking if enabled"
+      ],
+      "risks": [
+        "Phone use in classroom concern - mitigate with iPad/public device",
+        "Requires phone app for full functionality"
+      ]
+    },
+    {
+      "id": "food-deliveries",
+      "name": "Food Deliveries & Custom Ordering",
+      "category": "rewards-engagement",
+      "priority": "medium",
+      "status": "exploration",
+      "complexity": "very-high",
+      "description": "Integration with delivery services or custom food ordering using Expanse coins",
+      "valueProposition": "High-value reward option, teaches financial management",
+      "goals": [
+        "Order food with Expanse Coins",
+        "Delivery to school or home (with parent permission)",
+        "Vending machines with Expanse coin payment",
+        "Catering and treat rewards"
+      ],
+      "implementationOptions": [
+        {
+          "option": "Platform Integration",
+          "description": "Partner with DoorDash/Uber Eats for coin-based purchases",
+          "difficulty": "High - requires partnership negotiations"
+        },
+        {
+          "option": "Custom Solution",
+          "description": "Develop custom ordering with preset restaurants",
+          "difficulty": "Very High - restaurant onboarding complexity"
+        },
+        {
+          "option": "Limited Delivery",
+          "description": "Predefined delivery days, order ahead, focus on treats/bakery",
+          "difficulty": "Medium - easier setup, less variety"
+        },
+        {
+          "option": "Vending Integration",
+          "description": "Coin-operated vending machines with Expanse integration",
+          "difficulty": "Medium - hardware partnership needed"
+        }
+      ],
+      "concerns": [
+        "Security and delivery process at schools",
+        "Cold/warm food storage",
+        "Time-sensitive deliveries",
+        "School approval and disruption concerns"
+      ]
+    },
+    {
+      "id": "banking",
+      "name": "Banking & Savings",
+      "category": "economy-financial",
+      "priority": "medium",
+      "status": "exploration",
+      "complexity": "high",
+      "description": "Financial services integration including savings, pass-through payments, and college savings",
+      "valueProposition": "Teaches financial literacy, provides real-world value, long-term engagement",
+      "features": [
+        "Pass-through payments from parent cards",
+        "Students spend $X from parent-approved funds",
+        "College savings accounts with interest",
+        "Investment options (age-appropriate)",
+        "Transaction history and management"
+      ],
+      "businessModel": [
+        "Convert graduates to banking customers",
+        "Financial services partnership revenue"
+      ],
+      "requirements": [
+        "Privacy compliance",
+        "Security infrastructure",
+        "Financial regulatory compliance"
+      ]
+    },
+    {
+      "id": "cryptocurrency",
+      "name": "Cryptocurrency Rewards",
+      "category": "economy-financial",
+      "priority": "low",
+      "status": "exploration",
+      "complexity": "very-high",
+      "description": "Reward actual cryptocurrency that holds real-world value",
+      "valueProposition": "Real monetary value for academic achievement, teaches crypto concepts",
+      "keyPoints": [
+        "Crypto generated only through homework/test completion (limited supply like Bitcoin mining)",
+        "May be limited to 18+ or held until graduation",
+        "Purchases could support schools as donations"
+      ],
+      "concerns": [
+        "Legal and compliance requirements",
+        "Complexity of exchange listing",
+        "Age restrictions",
+        "Market volatility risks"
+      ]
+    },
+    {
+      "id": "donations",
+      "name": "Donations System",
+      "category": "social-community",
+      "priority": "medium",
+      "status": "planned",
+      "complexity": "medium",
+      "description": "Enable community, parent, and sponsor donations to schools and students",
+      "valueProposition": "Additional funding sources, community engagement, parent involvement",
+      "donationTypes": [
+        "Monetary donations to schools/districts",
+        "Food for classroom parties",
+        "Event tickets",
+        "Venue space",
+        "Gift cards and sponsorships",
+        "Internship opportunities"
+      ],
+      "features": [
+        "Donors choose where money goes",
+        "Processing fee for Expanse (optional)",
+        "Competition-based donation distribution",
+        "Public recognition for donors"
+      ],
+      "insight": "Parents are more likely to donate for their specific kids than to schools in general"
+    },
+    {
+      "id": "career-paths",
+      "name": "Career Paths & Guidance",
+      "category": "education-career",
+      "priority": "low",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "Help students discover career paths based on grades, interests, and data",
+      "valueProposition": "Purpose and direction for students, connects education to future",
+      "features": [
+        "Career suggestions based on performance and interests",
+        "Major/field recommendations",
+        "Possible integration with game roles (healer/tank/damage)",
+        "Self-discovery focused design"
+      ],
+      "notes": "Should be about students learning about themselves rather than strict categorization"
+    },
+    {
+      "id": "book-reading-library",
+      "name": "Book Reading & Library",
+      "category": "education-career",
+      "priority": "low",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "Reading incentives and library integration features",
+      "valueProposition": "Promotes literacy, provides educational rewards"
+    },
+    {
+      "id": "engagement-checklist",
+      "name": "Engagement Checklist & News",
+      "category": "rewards-engagement",
+      "priority": "medium",
+      "status": "concept",
+      "complexity": "low",
+      "description": "Daily/weekly engagement activities and news feed for students",
+      "valueProposition": "Structured engagement, habit formation, regular app usage"
+    },
+    {
+      "id": "expanse-stores",
+      "name": "Expanse Branded Stores",
+      "category": "rewards-engagement",
+      "priority": "medium",
+      "status": "concept",
+      "complexity": "high",
+      "description": "Physical or virtual Expanse-branded stores for reward redemption",
+      "valueProposition": "Brand presence, unified reward experience"
+    },
+    {
+      "id": "friendship-connector",
+      "name": "Friendship Connector",
+      "category": "social-community",
+      "priority": "low",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "Help students find and connect with potential friends based on interests",
+      "valueProposition": "Reduces isolation, improves mental health, builds community"
+    },
+    {
+      "id": "essences-lotteries",
+      "name": "Essences & Lotteries",
+      "category": "rewards-engagement",
+      "priority": "low",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "Random reward mechanics and lottery systems for engagement",
+      "valueProposition": "Variable reward excitement, engagement through chance"
+    },
+    {
+      "id": "reusable-gamification",
+      "name": "Reusable Gamification Platform",
+      "category": "platform-integration",
+      "priority": "low",
+      "status": "exploration",
+      "complexity": "very-high",
+      "description": "General purpose gamification API/framework for expansion into work or life gamification",
+      "valueProposition": "Platform scalability, multiple app variations, sub-brands",
+      "notes": "Should not overly focus on this to prioritize primary product, but consider in architecture"
+    },
+    {
+      "id": "gps-tracking",
+      "name": "GPS Data & Location Features",
+      "category": "security-safety",
+      "priority": "low",
+      "status": "exploration",
+      "complexity": "high",
+      "description": "Location-based features for attendance, hall pass verification, and safety",
+      "valueProposition": "Automated attendance, security insights",
+      "concerns": ["Privacy considerations", "Parent consent requirements"]
+    },
+    {
+      "id": "phone-policy",
+      "name": "Phone Policy & Usage Monitoring",
+      "category": "security-safety",
+      "priority": "low",
+      "status": "concept",
+      "complexity": "high",
+      "description": "Tools for managing and monitoring student phone usage in classrooms",
+      "valueProposition": "Reduces distraction, supports classroom management"
+    },
+    {
+      "id": "auctions",
+      "name": "Auction System",
+      "category": "economy-financial",
+      "priority": "low",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "Auction mechanics for rare rewards and special items",
+      "valueProposition": "Excitement, teaches bidding/economics, premium engagement"
+    },
+    {
+      "id": "savings-goals",
+      "name": "Savings Goals",
+      "category": "economy-financial",
+      "priority": "low",
+      "status": "concept",
+      "complexity": "low",
+      "description": "Save coins toward specific rewards with visual progress",
+      "valueProposition": "Teaches delayed gratification, goal setting"
+    },
+    {
+      "id": "skill-recommendations",
+      "name": "Skill Improvement Recommendations",
+      "category": "education-career",
+      "priority": "low",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "AI-powered recommendations for skill development based on performance",
+      "valueProposition": "Personalized learning guidance, growth mindset support"
+    },
+    {
+      "id": "teacher-lessons",
+      "name": "Teacher Lesson Sharing",
+      "category": "education-career",
+      "priority": "low",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "Platform for teachers to share and discover lesson plans",
+      "valueProposition": "Teacher collaboration, quality improvement"
+    },
+    {
+      "id": "custom-integrations",
+      "name": "Custom Third-Party Integrations",
+      "category": "platform-integration",
+      "priority": "medium",
+      "status": "planned",
+      "complexity": "varies",
+      "description": "Framework for integrating with various third-party services and games",
+      "valueProposition": "Expanded reward options, platform extensibility",
+      "examples": ["Roblox", "Minecraft", "PlayStation", "Xbox", "Nintendo", "Steam"]
+    },
+    {
+      "id": "pick-assignment",
+      "name": "Pick Your Assignment",
+      "category": "education-career",
+      "priority": "low",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "Allow students to choose from assignment options for increased autonomy",
+      "valueProposition": "Increases engagement through choice, supports different learning styles"
+    },
+    {
+      "id": "website-gamification",
+      "name": "Website Gamification Tools",
+      "category": "platform-integration",
+      "priority": "low",
+      "status": "exploration",
+      "complexity": "high",
+      "description": "Embeddable gamification widgets for school websites",
+      "valueProposition": "Extended reach, passive engagement"
+    },
+    {
+      "id": "vending-machines",
+      "name": "Smart Vending Machines",
+      "category": "rewards-engagement",
+      "priority": "low",
+      "status": "exploration",
+      "complexity": "very-high",
+      "description": "Expanse coin-enabled vending machines in schools",
+      "valueProposition": "Tangible reward redemption, school presence"
+    },
+    {
+      "id": "brain-breaks",
+      "name": "Brain Breaks",
+      "category": "education-career",
+      "priority": "low",
+      "status": "concept",
+      "complexity": "low",
+      "description": "Short activity breaks to refresh focus and engagement",
+      "valueProposition": "Improves attention, reduces burnout, supports learning"
+    },
+    {
+      "id": "admin-dashboard",
+      "name": "Admin Dashboard",
+      "category": "platform-integration",
+      "priority": "high",
+      "status": "planned",
+      "complexity": "high",
+      "description": "Comprehensive administrative interface for school and district management",
+      "valueProposition": "Streamlined management, better oversight, compliance tracking",
+      "keyPoints": [
+        "User management and bulk provisioning",
+        "School/district hierarchy configuration",
+        "Settings and policy enforcement",
+        "SSO and LMS integration management",
+        "Compliance and security monitoring"
+      ],
+      "features": [
+        "Role-based access control",
+        "Audit logging and change history",
+        "Bulk operations (user updates, enrollments)",
+        "System announcements and broadcasts",
+        "Support ticket management"
+      ]
+    },
+    {
+      "id": "analytics-dashboard",
+      "name": "Analytics Dashboard",
+      "category": "platform-integration",
+      "priority": "high",
+      "status": "planned",
+      "complexity": "high",
+      "description": "Data visualization and insights for teachers, admins, and parents",
+      "valueProposition": "Actionable insights, early intervention, data-driven decisions",
+      "keyPoints": [
+        "Engagement metrics (DAU, session duration, feature usage)",
+        "Academic metrics (completion rates, scores, skill progression)",
+        "Gamification health (achievement rates, economy balance)",
+        "Predictive analytics for at-risk students"
+      ],
+      "features": [
+        "Customizable dashboards and saved views",
+        "Filtering and drill-down capabilities",
+        "Scheduled reports and exports",
+        "Alert thresholds and notifications",
+        "Cohort analysis and A/B testing results"
+      ]
+    },
+    {
+      "id": "mobile-app",
+      "name": "Mobile Application",
+      "category": "platform-integration",
+      "priority": "high",
+      "status": "planned",
+      "complexity": "very-high",
+      "description": "Native iOS and Android apps for on-the-go learning and engagement",
+      "valueProposition": "Anytime access, push notifications, extended engagement",
+      "keyPoints": [
+        "Cross-platform (React Native or Flutter)",
+        "Offline mode with sync",
+        "Push notifications for achievements and reminders",
+        "Widget support for quick access",
+        "Parental control features"
+      ],
+      "features": [
+        "Quick practice and flashcard modes",
+        "Daily reward check-in",
+        "Progress dashboard",
+        "Social features and messaging",
+        "Video lesson streaming"
+      ]
+    },
+    {
+      "id": "tutorial-onboarding",
+      "name": "Tutorial & Onboarding",
+      "category": "education-career",
+      "priority": "high",
+      "status": "planned",
+      "complexity": "medium",
+      "description": "Guided first-time experience for students, teachers, and parents",
+      "valueProposition": "Higher retention, faster adoption, better user experience",
+      "keyPoints": [
+        "Progressive disclosure of features",
+        "Interactive tutorials with practice",
+        "Contextual help and tooltips",
+        "Skip options for experienced users",
+        "Different flows for each user type"
+      ],
+      "milestones": [
+        "Avatar creation and personalization",
+        "First quest completion",
+        "First achievement earned",
+        "First social interaction"
+      ]
+    },
+    {
+      "id": "badge-system",
+      "name": "Badge System",
+      "category": "rewards-engagement",
+      "priority": "high",
+      "status": "planned",
+      "complexity": "medium",
+      "description": "Visual achievement badges with rarity tiers and collections",
+      "valueProposition": "Recognition, motivation, portfolio building",
+      "keyPoints": [
+        "Rarity tiers (Common, Uncommon, Rare, Epic, Legendary)",
+        "Achievement, skill, and participation badges",
+        "Teacher-awarded custom badges",
+        "Collection sets with completion bonuses",
+        "Social sharing and display"
+      ],
+      "features": [
+        "Badge showcase on profiles",
+        "Secret/hidden badges for discovery",
+        "Progress tracking on unearned badges",
+        "Functional benefits (unlocks, multipliers)"
+      ]
+    },
+    {
+      "id": "check-in-system",
+      "name": "Check-in & Attendance",
+      "category": "rewards-engagement",
+      "priority": "medium",
+      "status": "planned",
+      "complexity": "low",
+      "description": "Daily login rewards and streak tracking for consistent engagement",
+      "valueProposition": "Encourages daily usage, builds habits, provides attendance data",
+      "keyPoints": [
+        "Daily login bonuses",
+        "Streak rewards and milestones",
+        "Streak protection options",
+        "Weekly/monthly attendance bonuses",
+        "Teacher attendance dashboard"
+      ],
+      "features": [
+        "Calendar heatmap visualization",
+        "Streak freeze tokens",
+        "Comeback bonuses after breaks",
+        "Integration with school attendance systems"
+      ]
+    },
+    {
+      "id": "event-calendar",
+      "name": "Event Calendar",
+      "category": "social-community",
+      "priority": "medium",
+      "status": "planned",
+      "complexity": "medium",
+      "description": "Scheduling system for events, deadlines, and time-limited content",
+      "valueProposition": "Organization, anticipation building, coordinated activities",
+      "keyPoints": [
+        "Academic events (deadlines, tests)",
+        "Competition events (tournaments, challenges)",
+        "Special events (seasonal, limited-time)",
+        "Community events (class, school, platform-wide)"
+      ],
+      "features": [
+        "Multiple calendar views (day, week, month)",
+        "Countdown timers for major events",
+        "Push notification reminders",
+        "Event rewards and participation tracking"
+      ]
+    },
+    {
+      "id": "guild-clan-system",
+      "name": "Guilds & Clans",
+      "category": "social-community",
+      "priority": "medium",
+      "status": "concept",
+      "complexity": "high",
+      "description": "Persistent player organizations for long-term social identity",
+      "valueProposition": "Community belonging, cooperative goals, leadership development",
+      "keyPoints": [
+        "Student-created guilds with governance",
+        "School house/faction systems",
+        "Subject-based clubs",
+        "Merit-based societies"
+      ],
+      "features": [
+        "Guild identity (name, emblem, colors)",
+        "Guild chat and communication",
+        "Guild progression and achievements",
+        "Inter-guild competitions"
+      ]
+    },
+    {
+      "id": "inventory-system",
+      "name": "Inventory System",
+      "category": "rewards-engagement",
+      "priority": "medium",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "Management system for student-owned virtual items and resources",
+      "valueProposition": "Organization, ownership, resource management learning",
+      "keyPoints": [
+        "Currency and resource tracking",
+        "Equipment and cosmetic items",
+        "Collectibles and achievements",
+        "Quest items and supplies"
+      ],
+      "features": [
+        "Category organization and search",
+        "Item details and history",
+        "Use/equip/transfer actions",
+        "Crafting and combining"
+      ]
+    },
+    {
+      "id": "tournaments",
+      "name": "Tournaments",
+      "category": "social-community",
+      "priority": "medium",
+      "status": "concept",
+      "complexity": "high",
+      "description": "Structured competitive events with brackets and elimination",
+      "valueProposition": "High-stakes motivation, celebration, memorable experiences",
+      "keyPoints": [
+        "Academic tournaments (subject showdowns, quiz bowls)",
+        "Skill tournaments (speed, accuracy, endurance)",
+        "Team tournaments (class vs class, school championships)"
+      ],
+      "formats": ["Single elimination", "Double elimination", "Round robin", "Swiss system"],
+      "safeguards": [
+        "Skill-based matchmaking",
+        "Participation rewards for all",
+        "Sportsmanship recognition",
+        "Multiple difficulty tiers"
+      ]
+    },
+    {
+      "id": "trade-system",
+      "name": "Trade System",
+      "category": "economy-financial",
+      "priority": "low",
+      "status": "concept",
+      "complexity": "high",
+      "description": "Item exchange system with age-appropriate safeguards",
+      "valueProposition": "Social interaction, economic lessons, resource optimization",
+      "keyPoints": [
+        "Direct trades with mutual acceptance",
+        "Gift giving with limits",
+        "Auction listings (optional)",
+        "Fairness warnings for unbalanced trades"
+      ],
+      "safeguards": [
+        "Scam detection algorithms",
+        "Teacher visibility and review",
+        "Daily trade limits",
+        "Alternative deterministic paths to all items"
+      ]
+    },
+    {
+      "id": "team-formation",
+      "name": "Team Formation",
+      "category": "social-community",
+      "priority": "medium",
+      "status": "planned",
+      "complexity": "medium",
+      "description": "Systems for creating and managing student teams for collaboration",
+      "valueProposition": "Cooperative learning, project management, social skills",
+      "keyPoints": [
+        "Study groups and project teams",
+        "Competition teams",
+        "Teacher-assigned or student-selected",
+        "Role-based systems (leader, specialist, support)"
+      ],
+      "features": [
+        "Team communication tools",
+        "Task coordination and tracking",
+        "Team achievements and rewards",
+        "AI-assisted matching options"
+      ]
+    },
+    {
+      "id": "referral-system",
+      "name": "Referral Program",
+      "category": "social-community",
+      "priority": "low",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "Incentivized invitations for organic platform growth",
+      "valueProposition": "Viral growth, authentic recommendations, community expansion",
+      "keyPoints": [
+        "Student, teacher, and school referrals",
+        "Unique referral links and codes",
+        "Rewards for both referrer and referred",
+        "Milestone bonuses for multiple referrals"
+      ],
+      "safeguards": [
+        "Quality control (engagement requirements)",
+        "Rate limiting and fraud detection",
+        "No spam incentives"
+      ]
+    },
+    {
+      "id": "dungeons-pve",
+      "name": "Dungeons & PvE Content",
+      "category": "education-career",
+      "priority": "low",
+      "status": "exploration",
+      "complexity": "very-high",
+      "description": "Multi-stage adventure challenges for solo or cooperative play",
+      "valueProposition": "Immersive learning, narrative engagement, replayability",
+      "keyPoints": [
+        "Themed multi-stage learning adventures",
+        "Boss encounters at milestones",
+        "Difficulty scaling (Normal, Hard, Nightmare)",
+        "Group dungeon options"
+      ],
+      "structure": ["Entry/theme introduction", "Challenge rooms (3-10)", "Mini-bosses", "Final boss", "Treasure room"]
+    },
+    {
+      "id": "gambling-mechanics",
+      "name": "Variable Reward Mechanics",
+      "category": "rewards-engagement",
+      "priority": "low",
+      "status": "exploration",
+      "complexity": "medium",
+      "description": "Carefully designed randomized reward systems (gacha-lite)",
+      "valueProposition": "High engagement, anticipation, probability learning",
+      "keyPoints": [
+        "Mystery boxes from completing work",
+        "Card packs with random distribution",
+        "Daily bonus wheels",
+        "Published odds and pity systems"
+      ],
+      "safeguards": [
+        "No real money for random outcomes",
+        "Guaranteed rewards after X attempts",
+        "Parental controls to disable",
+        "Alternative deterministic paths",
+        "Age-appropriate design"
+      ]
+    },
+    {
+      "id": "school-supplies-rewards",
+      "name": "School Supplies Rewards",
+      "category": "rewards-engagement",
+      "priority": "low",
+      "status": "exploration",
+      "complexity": "high",
+      "description": "Real-world school supply rewards through partnerships",
+      "valueProposition": "Tangible rewards, accessibility support, real-world connection",
+      "keyPoints": [
+        "Points redemption for gift cards",
+        "Achievement-triggered physical rewards",
+        "Brand partnerships (Crayola, Staples, etc.)",
+        "Scholarship programs for supplies"
+      ],
+      "implementation": [
+        "Affiliate commission model",
+        "Direct brand sponsorships",
+        "School-level bulk orders",
+        "Equity programs for low-income students"
+      ]
+    },
+    {
+      "id": "engagement-analytics",
+      "name": "Real-time Engagement Analytics",
+      "category": "analytics-observability",
+      "priority": "high",
+      "status": "concept",
+      "complexity": "high",
+      "description": "Student-level interaction tracking with real-time observability and analytics dashboards",
+      "valueProposition": "Data-driven insights for teachers and administrators to optimize engagement",
+      "keyPoints": [
+        "Real-time student interaction tracking",
+        "Engagement heatmaps and patterns",
+        "Teacher dashboards for classroom insights",
+        "Administrative reports for school-wide trends"
+      ],
+      "relatedData": [
+        "Drug usage in area correlation",
+        "Employment changes over time",
+        "Regional outcome tracking"
+      ]
+    },
+    {
+      "id": "translation-editing",
+      "name": "Real-time Translation Editing",
+      "category": "platform-integration",
+      "priority": "medium",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "Live editing and refinement of AI-generated translations for accuracy and cultural appropriateness",
+      "valueProposition": "Ensures translation quality while maintaining speed of AI generation",
+      "keyPoints": [
+        "Teacher review and edit interface",
+        "Cultural context suggestions",
+        "Version history and rollback",
+        "Community-contributed improvements"
+      ]
+    },
+    {
+      "id": "financial-literacy",
+      "name": "Financial Literacy & Money Management",
+      "category": "economy-financial",
+      "priority": "high",
+      "status": "concept",
+      "complexity": "high",
+      "description": "Comprehensive financial education with practical saving mechanics and discipline training",
+      "valueProposition": "Teaching financial discipline through hands-on experience with virtual currency",
+      "keyPoints": [
+        "Learning finance and money management concepts",
+        "Earning more by saving with set release schedules",
+        "Visual display of savings growth and compound benefits",
+        "Training discipline and understanding value"
+      ],
+      "insight": "Even learning how to manage money requires training for discipline and understanding the value. Designing systems where students earn more by saving with scheduled releases could be highly valuable."
+    },
+    {
+      "id": "understanding-depth-modes",
+      "name": "Depth of Understanding Modes",
+      "category": "learning-content",
+      "priority": "medium",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "Adaptive content presentation based on student's current understanding level",
+      "valueProposition": "Personalized learning depth that matches student readiness",
+      "keyPoints": [
+        "Surface level overview mode",
+        "Deep dive explanation mode",
+        "Expert/advanced detail mode",
+        "Adaptive switching based on comprehension signals"
+      ]
+    },
+    {
+      "id": "understanding-evaluation",
+      "name": "AI Understanding Evaluation",
+      "category": "learning-content",
+      "priority": "medium",
+      "status": "concept",
+      "complexity": "high",
+      "description": "Evaluating understanding of human-AI interaction and content comprehension",
+      "valueProposition": "Better assessment of true understanding vs. surface-level responses",
+      "keyPoints": [
+        "Evaluating understanding of human AI interactions",
+        "Evaluating understanding of content",
+        "Detecting memorization vs. comprehension",
+        "Adaptive questioning based on responses"
+      ]
+    },
+    {
+      "id": "review-cards",
+      "name": "Review Material & Flash Cards",
+      "category": "education-career",
+      "priority": "medium",
+      "status": "concept",
+      "complexity": "low",
+      "description": "Spaced repetition review system with AI-generated flash cards",
+      "valueProposition": "Improved retention through proven spaced repetition techniques",
+      "keyPoints": [
+        "Auto-generated flash cards from content",
+        "Spaced repetition scheduling",
+        "Progress tracking per topic",
+        "Gamified review sessions"
+      ]
+    },
+    {
+      "id": "focus-fatigue-tracking",
+      "name": "Focus & Fatigue Tracking",
+      "category": "analytics-observability",
+      "priority": "medium",
+      "status": "exploration",
+      "complexity": "high",
+      "description": "Monitor focus levels, fatigue, and potential impairment to optimize learning timing",
+      "valueProposition": "Help students learn when they're most receptive, prevent burnout",
+      "keyPoints": [
+        "Focus/engagement tracking patterns",
+        "Fatigue detection and alerts",
+        "Impairment tracking indicators",
+        "Optimal learning time recommendations"
+      ],
+      "relatedOutcomeData": [
+        "Drug usage in area",
+        "Employment in area changes over time"
+      ]
+    },
+    {
+      "id": "quiz-generation",
+      "name": "AI Quiz Generation",
+      "category": "learning-content",
+      "priority": "high",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "Automatic quiz and assessment generation from course content with knowledge base AI agent per class",
+      "valueProposition": "Reduces teacher workload while providing personalized assessments",
+      "keyPoints": [
+        "Quiz generation from any content",
+        "Knowledge base AI agent per class",
+        "Difficulty calibration",
+        "Immediate feedback and explanations"
+      ]
+    },
+    {
+      "id": "vocab-exposure-tracking",
+      "name": "Vocabulary Exposure Tracking",
+      "category": "education-career",
+      "priority": "low",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "Track student vocabulary exposure and mastery across all content interactions",
+      "valueProposition": "Personalized vocabulary building based on actual exposure and retention",
+      "keyPoints": [
+        "Individual vocab base per student",
+        "Word exposure frequency tracking",
+        "Mastery level indicators",
+        "Contextual vocabulary reinforcement"
+      ]
+    },
+    {
+      "id": "business-education",
+      "name": "Teaching Business Skills",
+      "category": "education-career",
+      "priority": "low",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "Practical business education teaching students to understand and run businesses",
+      "valueProposition": "Real-world skills that translate directly to career success",
+      "keyPoints": [
+        "Basic business concepts",
+        "Entrepreneurship fundamentals",
+        "Financial statements and planning",
+        "Marketing and sales basics"
+      ]
+    },
+    {
+      "id": "symbol-visualization",
+      "name": "Symbols & Visual Learning",
+      "category": "learning-content",
+      "priority": "medium",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "Visual symbols and associations to enhance learning and memory retention",
+      "valueProposition": "Leverage visual memory for better concept retention",
+      "keyPoints": [
+        "Symbol-based learning associations",
+        "Visualization for abstract concepts",
+        "AI-recommended symbols and visualizations",
+        "Personal symbol library"
+      ],
+      "seeAlso": "AI UI patterns for visualization"
+    },
+    {
+      "id": "character-branding",
+      "name": "Characters & Brand Relatability",
+      "category": "learning-content",
+      "priority": "low",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "Character-based learning with relatable personalities that students connect with",
+      "valueProposition": "Increased engagement through emotional connection with characters",
+      "keyPoints": [
+        "Characters and symbolism for relatability",
+        "Brand personality development",
+        "Character-led instruction and tutorials",
+        "Student avatar customization"
+      ],
+      "insight": "People buy and engage because they associate with brands and relate to them. Nintendo's Mario and Zelda demonstrate how beloved characters drive engagement."
+    },
+    {
+      "id": "split-bilingual-screens",
+      "name": "Split/Bilingual Display Modes",
+      "category": "platform-integration",
+      "priority": "low",
+      "status": "concept",
+      "complexity": "low",
+      "description": "Multi-display options for bilingual content, split screens, and accessibility modes",
+      "valueProposition": "Enhanced accessibility and language learning through side-by-side content",
+      "keyPoints": [
+        "Split screen layouts",
+        "Bilingual multi-display",
+        "Dark mode and light mode options",
+        "Accessibility-focused display modes"
+      ]
+    },
+    {
+      "id": "smart-glasses",
+      "name": "Smart Glasses Integration",
+      "category": "platform-integration",
+      "priority": "low",
+      "status": "exploration",
+      "complexity": "very-high",
+      "description": "Future integration with smart glasses for augmented learning experiences",
+      "valueProposition": "Cutting-edge AR learning when technology matures",
+      "keyPoints": [
+        "AR content overlay",
+        "Hands-free learning",
+        "Real-world object annotation",
+        "Immersive educational experiences"
+      ],
+      "timeline": "Long-term future exploration"
+    },
+    {
+      "id": "nonverbal-learning",
+      "name": "Nonverbal Learning Options",
+      "category": "learning-content",
+      "priority": "medium",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "Alternative learning modes that don't require verbal/text interaction",
+      "valueProposition": "Accessibility for diverse learning styles and needs",
+      "keyPoints": [
+        "Visual-only instruction modes",
+        "Gesture and interaction-based learning",
+        "Silent/quiet mode for classrooms",
+        "Alternative assessment methods"
+      ]
+    },
+    {
+      "id": "sharing-access",
+      "name": "Sharing & Access Controls",
+      "category": "social-community",
+      "priority": "low",
+      "status": "concept",
+      "complexity": "medium",
+      "description": "Robust sharing features with appropriate access controls and permissions",
+      "valueProposition": "Enable collaboration while maintaining privacy and security",
+      "keyPoints": [
+        "Granular sharing permissions",
+        "Content sharing between students",
+        "Parent visibility controls",
+        "Teacher moderation tools"
+      ]
+    },
+    {
+      "id": "healthy-smoothies",
+      "name": "Learning Smoothies & Health",
+      "category": "rewards-engagement",
+      "priority": "low",
+      "status": "exploration",
+      "complexity": "high",
+      "description": "Integration of healthy food/smoothie rewards with learning about nutrition and health",
+      "valueProposition": "Healthy rewards that teach nutrition concepts",
+      "keyPoints": [
+        "Healthy food rewards integration",
+        "Nutrition education content",
+        "Health and learning connection",
+        "Partner with healthy food vendors"
+      ],
+      "timeline": "Long-term concept for Expanse EDU/1game"
+    },
+    {
+      "id": "cross-domain-favorites",
+      "name": "Cross-Domain Favorites",
+      "category": "platform-integration",
+      "priority": "high",
+      "status": "planned",
+      "complexity": "high",
+      "description": "A consistent Favorites system for quickly pinning and reusing Keypad actions, symbols, spells, minimap tiles, and other eligible items across domains.",
+      "valueProposition": "Reduce repeated navigation and make each user's most useful tools immediately available without fragmenting state between domains.",
+      "keyPoints": [
+        "One Favorites model shared by Keypad and MINIMAP surfaces",
+        "Keypad support for Actions, Symbols, and Spells with predictable ordering",
+        "Minimap support for Tiles, including cross-domain tile references",
+        "Fast add, remove, reorder, and keyboard/controller-accessible retrieval",
+        "Per-user persistence with graceful offline behavior and conflict resolution",
+        "Eligibility, visibility, and permission checks before an item is shown or launched",
+        "Usage telemetry that measures successful retrieval without storing sensitive payloads"
+      ],
+      "features": [
+        "Favorite and unfavorite from item context menus, detail views, and the active Keypad/Minimap surface",
+        "Dedicated Favorites grouping with type labels, icons, stable names, and domain context",
+        "Drag-and-drop plus accessible move controls for custom ordering",
+        "Optional recents and most-used ranking kept separate from the user's pinned order",
+        "Duplicate prevention based on canonical item identity rather than display name",
+        "Stale-item treatment that preserves the entry while clearly explaining unavailable or moved content",
+        "Import and export of a versioned Favorites set for migration and recovery"
+      ],
+      "implementation": [
+        "Define a versioned FavoriteReference contract with canonical id, item type, domain, label snapshot, icon reference, source route, permissions metadata, createdAt, updatedAt, and sort order",
+        "Expose a shared favorites provider and reducer so Keypad and MINIMAP consume the same actions and selectors",
+        "Keep pinned order authoritative; calculate recents and usage ranking as separate derived views",
+        "Persist changes optimistically, queue offline mutations, and reconcile server conflicts with deterministic last-write handling plus order normalization",
+        "Resolve references through domain registries at render and launch time so renamed, deleted, or unauthorized items cannot silently execute",
+        "Use an explicit schema version and migration pipeline before accepting imported or persisted data",
+        "Instrument add, remove, reorder, open, unavailable, and permission-denied events with anonymized item type and domain only"
+      ],
+      "requirements": [
+        "A favorite can be launched in one interaction from its owning surface",
+        "The same favorite resolves to the same canonical item from Keypad, MINIMAP, and any future eligible surface",
+        "Favorites remain stable across reloads, account sessions, and supported devices",
+        "Unauthorized or unavailable items are never executable from Favorites",
+        "All actions are usable with keyboard navigation, screen readers, and touch/controller input",
+        "The UI remains responsive while persistence, reference resolution, or synchronization is pending",
+        "The feature has unit, integration, accessibility, and end-to-end coverage for happy, stale, offline, and conflict states"
+      ],
+      "concerns": [
+        "Cross-domain identity and permission rules must be settled before clients create references",
+        "Favorites should not become a second navigation hierarchy or obscure the full Keypad and Minimap inventories",
+        "Custom ordering must remain understandable when recents or recommendations are available",
+        "Label and icon snapshots need refresh rules so stale metadata does not mislead users"
+      ],
+      "risks": [
+        "Inconsistent canonical ids could create duplicates or launch the wrong item",
+        "Offline conflict handling could reorder or remove favorites unexpectedly",
+        "Large collections could degrade search, rendering, or synchronization performance",
+        "Telemetry could expose sensitive domain context if event fields are not constrained"
+      ],
+      "examples": [
+        "Pin a frequently used Action, Symbol, or Spell from the Keypad and launch it from the Favorites group",
+        "Pin a Tile in MINIMAP and retrieve that same Tile reference after switching domains",
+        "Open a stale favorite to see its last known label, current availability, and a route to find the replacement"
+      ]
+    },
+    {
+      "id": "keypad-feedback-input-output",
+      "name": "Keypad Feedback Input & Output Tiles",
+      "category": "learning-content",
+      "priority": "high",
+      "status": "planned",
+      "complexity": "medium",
+      "description": "Optional feedback controls that place one semi-transparent diamond tile on each side of the Symbol Grid keypad for tuning and displaying input/output performance.",
+      "valueProposition": "Make keypad performance legible at a glance while giving users precise control over how accuracy, quality, speed, and time feedback is interpreted.",
+      "keyPoints": [
+        "Add one Features toggle to enable or disable the paired Feedback Input and Feedback Output tiles",
+        "Place one diamond-shaped tile on each side of the keypad with consistent spacing, a modern border, and a connecting line",
+        "Keep the tiles semi-transparent and visually subordinate to the keypad while preserving clear state and focus affordances",
+        "Use four rarity/quality-mapped colors, with the canonical color and threshold values defined in the legend rather than duplicated in the tiles",
+        "Show an APM-style segmented bar display in the legend for each metric, adapted from the 4eye AI chat legend treatment",
+        "Support keyboard, pointer, touch, and screen-reader access without changing keypad geometry when the feature is off"
+      ],
+      "feedbackMetrics": [
+        {
+          "id": "accuracy",
+          "label": "Accuracy",
+          "options": [
+            { "level": 1, "name": "Keen", "description": "Recognizes useful patterns and catches basic misses" },
+            { "level": 2, "name": "Precise", "description": "Tightens interpretation and reduces avoidable errors" },
+            { "level": 3, "name": "Exact", "description": "Requires highly accurate input and matching" },
+            { "level": 4, "name": "Unerring", "description": "Uses the strictest accuracy thresholds" }
+          ],
+          "default": "auto"
+        },
+        {
+          "id": "quality",
+          "label": "Quality",
+          "options": [
+            { "level": 1, "name": "Refined", "description": "Applies a thoughtful baseline quality standard" },
+            { "level": 2, "name": "Polished", "description": "Favors more complete and consistent results" },
+            { "level": 3, "name": "Premium", "description": "Raises the quality bar for accepted output" },
+            { "level": 4, "name": "Perfect", "description": "Requires the highest available quality standard" }
+          ],
+          "default": "auto"
+        },
+        {
+          "id": "speed",
+          "label": "Speed",
+          "options": [
+            { "level": 1, "name": "Steady", "description": "Allows a measured response pace" },
+            { "level": 2, "name": "Swift", "description": "Encourages faster interaction without urgency" },
+            { "level": 3, "name": "Rapid", "description": "Rewards consistently quick responses" },
+            { "level": 4, "name": "Lightning", "description": "Uses the most demanding speed target" }
+          ],
+          "default": "auto"
+        },
+        {
+          "id": "time",
+          "label": "Time",
+          "options": [
+            { "level": 1, "name": "Open", "description": "Provides a generous time window" },
+            { "level": 2, "name": "Focused", "description": "Uses a clear, intentional time window" },
+            { "level": 3, "name": "Driven", "description": "Compresses the available time for momentum" },
+            { "level": 4, "name": "Limitless", "description": "Uses the maximum configured time allowance" }
+          ],
+          "default": "auto"
+        }
+      ],
+      "legend": {
+        "optionsPerMetric": 4,
+        "autoOption": {
+          "name": "Auto",
+          "value": "auto",
+          "default": true,
+          "color": "#ffffff",
+          "description": "Adapts to the active context and current keypad state"
+        },
+        "colorMapping": [
+          { "rarity": "common", "quality": "baseline", "color": "#94a3b8" },
+          { "rarity": "uncommon", "quality": "elevated", "color": "#22c55e" },
+          { "rarity": "rare", "quality": "high", "color": "#38bdf8" },
+          { "rarity": "epic", "quality": "exceptional", "color": "#f97316" }
+        ],
+        "display": "APM-style segmented bars with the metric name, selected option, mapped rarity/quality color, actual threshold/value, and Auto state",
+        "sourceOfTruth": "The legend owns the option values, thresholds, rarity/quality colors, and bar labels; tiles consume the resolved legend state"
+      },
+      "settings": {
+        "featureToggle": "feedbackInputOutputTiles",
+        "defaultEnabled": false,
+        "defaultMetricSelection": "auto",
+        "maxPreset": "Set Accuracy, Quality, Speed, and Time to level 4 simultaneously",
+        "maxPresetLabel": "All Settings Max"
+      },
+      "implementation": [
+        "Define a shared feedback configuration contract for enabled state, metric selections, resolved values, rarity/quality mapping, and legend display data",
+        "Render the input tile before the keypad and the output tile after the keypad so both remain anchored to the keypad surface across responsive layouts",
+        "Use the existing Preferences control patterns for the toggle and five-option selectors, with Auto first or clearly marked as the default",
+        "Keep Auto white in the legend and do not assign it a rarity tier; resolve its live value before rendering the metric bar",
+        "Persist the setting per user and provide migration defaults for existing keypad preferences",
+        "Expose the All Settings Max preset as one action while retaining independent metric controls"
+      ],
+      "requirements": [
+        "When disabled, neither tile nor its connector occupies layout space",
+        "When enabled, exactly one input tile and one output tile are rendered on opposite sides of the keypad",
+        "Each metric offers exactly four named levels plus Auto, with Auto selected by default",
+        "The four level values and colors are defined once in the legend and remain synchronized with tile state",
+        "The All Settings Max preset resolves every metric to level 4",
+        "Legend bars expose actual values and labels rather than color-only meaning",
+        "All settings remain usable with keyboard navigation, assistive technology, touch, and reduced-motion preferences"
+      ],
+      "concerns": [
+        "Thresholds must be defined with product and gameplay owners before visual polish is finalized",
+        "The side tiles need a narrow-screen fallback that preserves keypad usability without overlap",
+        "Color mapping must retain readable contrast against semi-transparent surfaces and remain understandable without color"
+      ]
+    }
+  ],
+  "priorityMatrix": {
+    "nearTerm": ["donations", "engagement-checklist", "custom-integrations", "tutorial-onboarding", "badge-system", "check-in-system", "review-cards", "cross-domain-favorites", "keypad-feedback-input-output"],
+    "mediumTerm": ["hall-monitoring-game", "hall-pass-system", "banking", "expanse-stores", "admin-dashboard", "analytics-dashboard", "mobile-app", "team-formation", "event-calendar", "engagement-analytics", "quiz-generation", "financial-literacy"],
+    "longTerm": ["food-deliveries", "cryptocurrency", "reusable-gamification", "vending-machines", "guild-clan-system", "inventory-system", "tournaments", "understanding-depth-modes", "symbol-visualization", "nonverbal-learning"],
+    "experimental": ["gps-tracking", "career-paths", "friendship-connector", "trade-system", "dungeons-pve", "gambling-mechanics", "school-supplies-rewards", "referral-system", "smart-glasses", "focus-fatigue-tracking", "healthy-smoothies"]
+  }
+}

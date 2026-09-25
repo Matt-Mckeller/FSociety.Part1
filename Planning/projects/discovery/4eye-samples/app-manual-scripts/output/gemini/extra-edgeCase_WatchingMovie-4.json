@@ -1,0 +1,264 @@
+{
+  "sample": {
+    "durationSeconds": 120,
+    "dialog": {
+      "transcriptions": [
+        {
+          "text": "This documentary covers ancient Egyptian civilization.",
+          "timestamp": 0,
+          "confidence": 0.96
+        },
+        {
+          "text": "I'll stop periodically to check your understanding.",
+          "timestamp": 5.4,
+          "confidence": 0.94
+        },
+        {
+          "text": "[Documentary] The pyramids were built as tombs",
+          "timestamp": 11.8,
+          "confidence": 0.88
+        },
+        {
+          "text": "for the pharaohs over 4,500 years ago.",
+          "timestamp": 17.2,
+          "confidence": 0.87
+        },
+        {
+          "text": "[Documentary music and narration]",
+          "timestamp": 24.6,
+          "confidence": 0.72
+        },
+        {
+          "text": "[Teacher pauses] Can anyone tell me why",
+          "timestamp": 42.3,
+          "confidence": 0.93
+        },
+        {
+          "text": "the Egyptians built such massive structures?",
+          "timestamp": 47.1,
+          "confidence": 0.92
+        },
+        {
+          "text": "[Student response unclear]",
+          "timestamp": 52.4,
+          "confidence": 0.76
+        },
+        {
+          "text": "[Teacher] Exactly, it showed the pharaoh's power.",
+          "timestamp": 56.8,
+          "confidence": 0.94
+        },
+        {
+          "text": "Let's continue.",
+          "timestamp": 61.3,
+          "confidence": 0.95
+        },
+        {
+          "text": "[Documentary] The Nile River was essential",
+          "timestamp": 65.7,
+          "confidence": 0.86
+        },
+        {
+          "text": "for agriculture and transportation.",
+          "timestamp": 70.9,
+          "confidence": 0.88
+        },
+        {
+          "text": "[Documentary continues with images]",
+          "timestamp": 77.2,
+          "confidence": 0.74
+        },
+        {
+          "text": "[Teacher] This flooding pattern they mention",
+          "timestamp": 98.6,
+          "confidence": 0.92
+        },
+        {
+          "text": "was predictable, unlike other ancient rivers.",
+          "timestamp": 103.7,
+          "confidence": 0.91
+        },
+        {
+          "text": "Write that down in your notes.",
+          "timestamp": 108.9,
+          "confidence": 0.94
+        },
+        {
+          "text": "[Documentary concludes]",
+          "timestamp": 115.3,
+          "confidence": 0.79
+        }
+      ]
+    }
+  },
+  "response": {
+    "confidence": 0.88,
+    "appropriatenessScore": 1,
+    "warnings": [],
+    "isMainLectureContent_confidence": 0.98,
+    "isSideConversation_confidence": 0.02,
+    "isIrrelevantContent_confidence": 0,
+    "isPartialResponse": false,
+    "expectedCompletionTime": null,
+    "tags": [
+      "history",
+      "ancient_egypt",
+      "world_history",
+      "pyramids",
+      "nile_river",
+      "civilization",
+      "grade_6"
+    ],
+    "shouldSummarize": true,
+    "shouldSummarizeFalseReason": null,
+    "waitForMoreContent": false,
+    "summarization": "The teacher uses a documentary to introduce key concepts of ancient Egyptian civilization. The lesson covers two primary topics: the purpose of the pyramids as massive tombs to display the power of the pharaohs, and the critical role of the Nile River. The teacher emphasizes that the Nile's predictable annual flooding was essential for agriculture and transportation, providing a stable foundation for the society to flourish, unlike other ancient river valley civilizations.",
+    "recommendedSummarization": "bullet_points",
+    "additionalSummarizationOptions": [
+      {
+        "version": "bullet_points",
+        "comparativeValueToRecommendedModality": 1,
+        "text": "• Subject: Ancient Egyptian Civilization.\n• Pyramids: Built over 4,500 years ago as tombs for pharaohs.\n• Purpose of Pyramids: Demonstrated the pharaoh's immense power and importance.\n• The Nile River: Essential for both agriculture and transportation.\n• Key Feature of Nile: Its flooding pattern was predictable, which was a major advantage for farming and societal stability."
+      },
+      {
+        "version": "concise",
+        "comparativeValueToRecommendedModality": 0.85,
+        "text": "Ancient Egyptian civilization was defined by massive pyramids, built as tombs to show a pharaoh's power, and the predictable flooding of the Nile River, which was essential for stable agriculture and transportation."
+      },
+      {
+        "version": "narrative",
+        "comparativeValueToRecommendedModality": 0.9,
+        "text": "In the land of ancient Egypt, life revolved around two powerful forces: the pharaoh and the Nile River. To honor their god-like rulers, the Egyptians undertook monumental construction projects, building the great pyramids as magnificent tombs that would declare the pharaoh's power for eternity. This incredible feat was only possible because of the other great force, the Nile. Its waters provided a highway for moving goods and, most importantly, its floods were so predictable that farmers could reliably grow crops year after year, creating the stability needed for a great civilization to rise."
+      }
+    ],
+    "oneLineSummarization": "Ancient Egyptian civilization was shaped by the Nile River's predictable floods and the pharaohs' power, which was demonstrated by building massive pyramid tombs.",
+    "recommendVisualizationToImproveLearning": true,
+    "visualizationEffectivenessScore": 0.95,
+    "learningModalityText": [
+      {
+        "effectiveness": "very_high",
+        "type": "VISUAL",
+        "relativeEffectivenessWeight": 0.95,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 1,
+        "text": "Picture a vast desert landscape, dominated by a single, massive, triangular structure reaching for the sky—a pyramid. Imagine it not as an empty monument, but as a secure stone house for a king's journey into the afterlife. Now, shift your focus to a wide, blue river cutting a green ribbon of life through the sandy terrain. This is the Nile. Visualize its banks overflowing each year, depositing rich, dark soil across the valley, creating a perfect, predictable farmland that feeds an entire nation and allows them the time and resources to build such wonders."
+      },
+      {
+        "effectiveness": "high",
+        "type": "LOGICAL",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherModalities": 0.9,
+        "text": "The stability of Egyptian civilization can be understood through a clear cause-and-effect chain. Premise 1: A society needs a reliable food source to prosper. Premise 2: The Nile River provided uniquely predictable annual floods, guaranteeing fertile soil. Conclusion 1: Therefore, Egypt had a stable agricultural base. This stability led to a food surplus, which allowed for labor specialization. This specialized labor, combined with a strong central government under a powerful pharaoh, created the necessary conditions for massive, long-term construction projects like the pyramids."
+      },
+      {
+        "effectiveness": "high",
+        "type": "ASSOCIATIONS",
+        "relativeEffectivenessWeight": 0.85,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.85,
+        "text": "Think of the Nile River as a reliable, yearly paycheck for the entire country. Because the Egyptians knew exactly when the 'money' of fertile soil would arrive, they could plan their entire year around it. This is very different from a river that floods randomly, which would be like having an unpredictable job where you never know when you'll get paid. The pyramids, in turn, are like the ultimate status symbol, similar to a modern skyscraper or a giant monument. They were built to send a clear message to everyone, both inside and outside of Egypt: our leader is incredibly powerful and our civilization is wealthy and stable."
+      },
+      {
+        "effectiveness": "medium",
+        "type": "STORYTELLING",
+        "relativeEffectivenessWeight": 0.75,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherModalities": 0.7,
+        "text": "Akia, a young farmer, watches the horizon. He isn't worried. He knows that soon the great river, the giver of life, will gently swell and cover his fields with the black silt that makes his barley grow tall. This certainty allows his brother to leave the farm and work on the great monument for the Pharaoh Khufu. He is helping build a mountain of stone, a stairway to the heavens, to ensure his king's eternal power. For Akia, the predictable river and the powerful pharaoh are two parts of the same whole: the eternal order of Egypt."
+      }
+    ],
+    "visualizationSuggestions": [
+      {
+        "effectiveness": "very_high",
+        "relativeEffectivenessWeight": 1,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 1,
+        "coreType": "SPATIAL_DIAGRAM",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "INTERACTIVE_DIAGRAM",
+          "ANNOTATED_TEXT"
+        ],
+        "title": "The Gift of the Nile: Interactive Map",
+        "reasonForSuggestion": "This directly visualizes the core concept of the Nile's importance to agriculture. An interactive map makes the abstract idea of 'predictable flooding' tangible and shows the stark contrast between the fertile valley and the surrounding desert.",
+        "promptForGeneration": "Create an interactive HTML map of Ancient Egypt for a 6th-grade audience. The map should feature a prominent Nile River. Include a toggle button or slider labeled 'Annual Flood'. When activated, animate a blue overlay expanding from the river to cover the 'Nile Valley' or 'Floodplain' area, which should be colored green. The surrounding desert area should be tan. Add clickable pins on Giza (for pyramids) and Thebes. When the 'Flood' is active, a text box should appear explaining: 'Each year, the Nile's predictable flood deposited rich, fertile silt, perfect for farming.' Use simple, clear fonts and high-contrast colors."
+      },
+      {
+        "effectiveness": "high",
+        "relativeEffectivenessWeight": 0.9,
+        "recommendedToDisplay": true,
+        "comparativeValueToOtherSuggestions": 0.9,
+        "coreType": "CYCLIC_DIAGRAM",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "SVG_DIAGRAM"
+        ],
+        "title": "The Egyptian Agricultural Cycle",
+        "reasonForSuggestion": "A cyclic diagram is the perfect way to illustrate the 'predictable pattern' the teacher mentioned. It reinforces the idea of a reliable, repeating process that the Egyptians could depend on, which was crucial for their stability.",
+        "promptForGeneration": "Generate an SVG cyclic diagram with three main stages for a 6th-grade history class, titled 'The Egyptian Year'. Stage 1: 'Akhet - Flooding Season (June-Sept)', with an icon of rising water. Arrow to Stage 2: 'Peret - Planting & Growing Season (Oct-Feb)', with an icon of sprouting plants. Arrow to Stage 3: 'Shemu - Harvest Season (March-May)', with an icon of wheat and a scythe. Arrow back to Stage 1. Below the diagram, add the text: 'This predictable cycle, year after year, made Egypt rich and powerful.' Use earthy colors: blue for water, green for planting, and gold for harvest."
+      },
+      {
+        "effectiveness": "medium",
+        "relativeEffectivenessWeight": 0.75,
+        "recommendedToDisplay": false,
+        "comparativeValueToOtherSuggestions": 0.75,
+        "coreType": "INFOGRAPHIC",
+        "otherCoreType": null,
+        "secondaryTypes": [
+          "COMPARISON_MATRIX"
+        ],
+        "title": "Pyramids: A Show of Power",
+        "reasonForSuggestion": "This visualization helps students grasp the immense scale of the pyramids and connect it directly to the concept of the pharaoh's power by comparing it to modern structures.",
+        "promptForGeneration": "Create a simple infographic for middle schoolers comparing the Great Pyramid of Giza to a modern structure. On the left, show a simple graphic of the pyramid with stats: 'Height: 147m', 'Built: ~2580 BCE', 'Purpose: Tomb to show Pharaoh's power'. On the right, show a graphic of a modern 40-story office building with stats: 'Height: ~150m', 'Built: ~2020 CE', 'Purpose: Business and commerce'. Use a bold title: 'A Skyscraper for Eternity'. This helps contextualize the pyramid's size and purpose."
+      }
+    ],
+    "purpose": "This lesson introduces the foundational elements that allowed ancient Egyptian civilization to thrive for thousands of years. Understanding how geography (the Nile) and culture (belief in the pharaoh's divine power) are interconnected helps explain why societies develop in unique ways. It's the first step to learning how environment and belief systems shape history.",
+    "motivation": "Why should you care about something that happened 4,500 years ago? Because the Egyptians solved problems we still face today: how to guarantee food, how to organize millions of people, and how to create something that lasts. The pyramids are a massive symbol of teamwork and ingenuity, and the story of the Nile is a powerful reminder of how crucial our natural resources are for our survival and success.",
+    "learningValueScore": 0.9,
+    "availableActions": [
+      {
+        "actionLabel": "Map the Nile",
+        "reason": "Visually explore the geography that made Egyptian civilization possible.",
+        "recommendationPriority": "very_high"
+      },
+      {
+        "actionLabel": "See the Cycle",
+        "reason": "Understand the predictable, three-stage farming cycle that the Nile created.",
+        "recommendationPriority": "high"
+      },
+      {
+        "actionLabel": "Compare Rivers",
+        "reason": "Learn why the Nile's predictable flooding was a unique advantage compared to the unpredictable rivers of Mesopotamia.",
+        "recommendationPriority": "medium"
+      }
+    ],
+    "vocabularyEnhancements": {
+      "Pharaoh": {
+        "definition": "The supreme ruler of ancient Egypt, considered a living god on Earth.",
+        "context": "The pyramids were built as grand tombs for the pharaohs.",
+        "simpler": "The king of ancient Egypt."
+      },
+      "Civilization": {
+        "definition": "An advanced stage of human society, with developed government, culture, science, and industry.",
+        "context": "The predictable Nile River allowed Egyptian civilization to become powerful and stable.",
+        "simpler": "A large group of people living together in an organized way."
+      }
+    },
+    "recommendationsToTeacher": [
+      "Use a world map to contrast the Nile Valley with the Tigris-Euphrates valley. Ask students to predict what challenges a randomly flooding river might cause for a society, reinforcing the Nile's unique advantage.",
+      "After discussing the pyramids as a show of power, facilitate a brief discussion on how leaders show power today (e.g., large buildings, military parades, economic influence).",
+      "Pause and ask students to jot down one or two ways their own lives depend on predictable natural patterns (e.g., seasons for farming, daily sunlight for solar power) to connect the historical concept to their own experience."
+    ]
+  },
+  "metadata": {
+    "model": "gemini-2.5-pro",
+    "timestamp": "2025-10-27T01:59:16.271Z",
+    "latencyMs": 43844,
+    "tokenUsage": {
+      "input": 7318,
+      "output": 2989,
+      "total": 11747
+    }
+  }
+}

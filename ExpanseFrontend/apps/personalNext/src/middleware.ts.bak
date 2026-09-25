@@ -1,0 +1,42 @@
+// import { NextResponse } from "next/server"
+// import type { NextRequest } from "next/server"
+// import { cookies } from "next/headers"
+
+// // todo, verify auth via api call, temporary measures implemented that just check for a token
+// export function middleware(request: NextRequest) {
+//   const url = request.nextUrl
+//   const { pathname, searchParams } = url
+//   console.log("Middleware:RequestedPathname:", pathname)
+
+//   const cookieStore = cookies()
+//   console.log({ cookieStore })
+//   const hasAuthToken = cookieStore.get("auth-token")?.value || false
+
+//   if (request.nextUrl.pathname === "/admin") {
+//     const adminAccessToken = searchParams.get("password")
+//     console.log({ adminAccessToken })
+//     if (!hasAuthToken || adminAccessToken != "admin") {
+//       console.log("access denied")
+//       return NextResponse.redirect(new URL("/", request.url))
+//     }
+//     console.log("has auth token and valid pass")
+
+//     // console.log("headers", request.headers)
+//     console.log("bearer?", request.headers.get("bearer"))
+//   }
+//   if (request.nextUrl.pathname === "/account") {
+//     if (!hasAuthToken) {
+//       console.log("access denied")
+//       return NextResponse.redirect(new URL("/", request.url))
+//     }
+//   }
+
+//   //   return NextResponse.redirect(new URL("/home", request.url))
+//   const response = NextResponse.next()
+//   return response
+// }
+
+// // See "Matching Paths" below to learn more
+// export const config = {
+//   matcher: "/admin",
+// }

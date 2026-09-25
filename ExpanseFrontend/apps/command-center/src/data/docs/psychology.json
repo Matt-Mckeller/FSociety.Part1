@@ -1,0 +1,131 @@
+{
+  "overview": {
+    "summary": "Expanse EDU leverages evidence-based psychology principles to drive student engagement, motivation, and learning",
+    "keyPrinciples": [
+      "Dopamine & Motivation",
+      "Positive Reinforcement",
+      "Social Development",
+      "Self-Efficacy"
+    ]
+  },
+  "dopamine": {
+    "title": "Dopamine & Motivation",
+    "description": "Dopamine is the primary determinant of how motivated we are, how excited we are, how outward facing we are, and how willing we are to lean into life and pursue things.",
+    "keyInsights": [
+      {
+        "insight": "Dopamine increases in anticipation of reward",
+        "application": "Expanse's reward system leverages anticipation to improve mood and motivation",
+        "source": "Andrew Huberman"
+      },
+      {
+        "insight": "Dopamine is a universal currency for moving us towards goals",
+        "application": "Using dopamine mechanics to drive academic goal achievement",
+        "source": "Andrew Huberman"
+      },
+      {
+        "insight": "Our experience of life depends on dopamine relative to recent experience",
+        "application": "Designing reward schedules that maintain healthy dopamine levels",
+        "source": "Andrew Huberman"
+      }
+    ],
+    "rewardVariance": {
+      "concept": "Intermittent reward schedules are highly engaging",
+      "application": "Variable rewards (sometimes small, sometimes large) maintain engagement without dopamine depletion",
+      "examples": [
+        "Loot boxes with varying rarity",
+        "Random bonus rewards",
+        "Achievement unlocks"
+      ]
+    }
+  },
+  "positiveReinforcement": {
+    "title": "Positive Reinforcement",
+    "description": "Positive reinforcement encourages repeating good behaviors, builds confidence, and develops positive motivation for success.",
+    "benefits": [
+      {
+        "benefit": "Makes children feel safe",
+        "detail": "Feeling safe at school improves academic performance because children feel connected to teachers and peers in a supportive environment"
+      },
+      {
+        "benefit": "Improves teachers' motivation and well-being",
+        "detail": "Teachers using positive reinforcement feel they're making progress, leading to more pleasant and rewarding teaching experiences"
+      },
+      {
+        "benefit": "Reduces disciplinary issues",
+        "detail": "PBIS can lead to 20-40% reduction in disciplinary referrals, including suspensions and expulsions"
+      }
+    ],
+    "pbisEvidence": {
+      "stat": "20-40% reduction in disciplinary referrals",
+      "source": "PBIS.org",
+      "impact": "Frees up valuable instructional time and creates a more positive learning environment"
+    },
+    "disparityData": {
+      "issue": "Black students are 3.6 times more likely to be suspended out of school compared to white students",
+      "source": "Berkeley Public Health",
+      "expanseRole": "Positive reinforcement systems can help reduce bias-driven punishment disparities",
+      "detailedStats": {
+        "description": "Relative to white students, Black students were:",
+        "suspendedOutOfSchool": "3.6 times more likely",
+        "suspendedInSchool": "2.5 times more likely",
+        "expelled": "3.4 times more likely",
+        "referredToLawEnforcement": "2.4 times more likely",
+        "schoolBasedArrest": "2.9 times more likely"
+      },
+      "adultificationBias": {
+        "description": "Black girls, in particular, may face 'adultification bias' where they are viewed as older and more mature than their age, leading to harsher punishments",
+        "source": "GAO.gov"
+      }
+    }
+  },
+  "socialDevelopment": {
+    "title": "Social Development",
+    "insights": [
+      {
+        "finding": "Children spend far less time in embodied social behaviors essential for development",
+        "source": "The Anxious Generation"
+      },
+      {
+        "finding": "Overprotection in real world and underprotection in virtual world are major reasons for anxious generation",
+        "source": "The Anxious Generation"
+      },
+      {
+        "finding": "After-school hours were probably more valuable for social development and mental health than anything in school (other than recess)",
+        "source": "The Anxious Generation"
+      },
+      {
+        "finding": "Children who are routinely exposed to small risks grow up to handle much larger risks without panicking",
+        "source": "The Anxious Generation"
+      }
+    ],
+    "socialValidation": "As children begin puberty, they are often socially insecure, easily swayed by peer pressure, and easily lured by any activity that seems to offer social validation"
+  },
+  "selfEfficacy": {
+    "title": "Self-Efficacy",
+    "definition": "Individual's belief in their capacity to execute behaviors necessary to produce specific performance attainments",
+    "keyPrinciples": [
+      "Help students set clear and specific goals",
+      "Students who set goals experience initial sense of self-efficacy and commit to persist",
+      "Asking students what rewards they want to achieve encourages goal-setting",
+      "Rewards equal goals in the self-efficacy framework"
+    ],
+    "instructionalPractices": [
+      "Encourage students to set clear, specific, and challenging proximal goals",
+      "Provide students with honest and explicit feedback",
+      "Facilitate accurate calibration of self-efficacy",
+      "Use peer modeling"
+    ],
+    "source": "Academic Self-Efficacy: From Educational Theory to Instructional Practice (NCBI)"
+  },
+  "learningAndAttention": {
+    "principle": "Learning and memory are direct consequences of attentional processing",
+    "detail": "The more attention is directed toward something, the more likely it is to be learned and remembered",
+    "application": "Gamification captures attention, thereby improving learning outcomes"
+  },
+  "brainDevelopment": {
+    "insight": "Reward-seeking parts of the brain mature earlier than the frontal cortex",
+    "detail": "Frontal cortex (essential for self-control, delay of gratification, resistance to temptation) is not fully developed until mid-20s",
+    "implication": "Preteens are at a particularly vulnerable point in development",
+    "source": "The Anxious Generation"
+  }
+}

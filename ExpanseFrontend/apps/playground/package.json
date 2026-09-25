@@ -1,0 +1,50 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "Playground app for testing Expanse components",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --port 3010 --hostname localhost",
+    "build": "next build",
+    "start": "next start --port 3010",
+    "lint": "next lint"
+  },
+  "engines": {
+    "node": ">=24.4.0",
+    "npm": ">=9.6.7"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.65.0",
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@google/generative-ai": "^0.24.1",
+    "@mui/icons-material": "^5.15.9",
+    "@mui/material": "^5.15.9",
+    "@mui/material-nextjs": "^7.2.0",
+    "@mui/system": "^5.15.9",
+    "expanse.dynamicAssets": "../../packages/dynamicAssets",
+    "expanse.ui": "../../packages/ui",
+    "framer-motion": "^12.34.3",
+    "gsap": "^3.14.2",
+    "lottie-web": "^5.12.2",
+    "next": "14.1.4",
+    "openai": "^6.3.0",
+    "p-queue": "^9.0.0",
+    "p-retry": "^7.1.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^20.19.21",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "dotenv": "^17.2.3",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
+    "typescript": "^5"
+  }
+}
