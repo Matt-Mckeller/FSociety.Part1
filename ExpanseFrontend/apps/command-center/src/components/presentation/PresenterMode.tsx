@@ -62,7 +62,7 @@ function PresentationTimer({
   onReset: () => void
 }) {
   const [elapsed, setElapsed] = useState(0)
-  const intervalRef = useRef<NodeJS.Timeout | null>(null)
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null)
 
   useEffect(() => {
     if (isRunning) {
