@@ -13,7 +13,7 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
-PROJECT="${GCP_PROJECT:-expanse-site-v3}"
+PROJECT="${GCP_PROJECT:-expanse-terraform-3}"
 REGION="${GCP_REGION:-us-central1}"
 SERVICE="${YEN_SERVICE:-yen}"
 IMAGE="${YEN_IMAGE:-us-central1-docker.pkg.dev/${PROJECT}/yen/yen:latest}"

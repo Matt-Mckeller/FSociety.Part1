@@ -27,7 +27,6 @@ apps/yen/public/videos
 /apps/4up
 /apps/scene-studio
 /packages/@4eye/scene-studio
-/packages/@4eye/ai-sdk
 /packages/@4eye/core
 /packages/@4eye/graphql-schema
 /packages/@expanse/auth
@@ -50,8 +49,8 @@ apps/yen/public/videos
 **/.env.*
 !**/.env.example
 
-# Copied markdown corpus; JSON indexes stay
-apps/yen/src/generated/docs
+# Source markdown is not part of the image; generated, privacy-reviewed docs
+# HTML and JSON indexes are included as deployment build inputs.
 
 *.md
 !packages/**/README.md

@@ -12,6 +12,7 @@ COPY tsconfig.base.json ./
 
 COPY apps/yen/package.json ./apps/yen/
 COPY apps/4eye-web-mockup/package.json ./apps/4eye-web-mockup/
+COPY packages/@4eye/ai-sdk/package.json ./packages/@4eye/ai-sdk/
 COPY packages/@4eye/features/package.json ./packages/@4eye/features/
 COPY packages/@4eye/icons/package.json ./packages/@4eye/icons/
 COPY packages/@4eye/types/package.json ./packages/@4eye/types/
@@ -38,6 +39,7 @@ COPY --from=deps /app ./
 
 COPY apps/yen/ ./apps/yen/
 COPY apps/4eye-web-mockup/ ./apps/4eye-web-mockup/
+COPY packages/@4eye/ai-sdk/ ./packages/@4eye/ai-sdk/
 COPY packages/@4eye/features/ ./packages/@4eye/features/
 COPY packages/@4eye/icons/ ./packages/@4eye/icons/
 COPY packages/@4eye/types/ ./packages/@4eye/types/
@@ -55,6 +57,7 @@ COPY packages/@expanse/i18n/ ./packages/@expanse/i18n/
 COPY packages/@expanse/storybook-config/ ./packages/@expanse/storybook-config/
 
 ENV NEXT_TELEMETRY_DISABLED=1
+ENV SKIP_DOCS_INDEX=1
 ENV SKIP_PHOTO_MANIFEST=1
 ENV SKIP_BUNDLE_BUDGET=1
 ARG NEXT_PUBLIC_SITE_URL=https://www.expanseservices.com
