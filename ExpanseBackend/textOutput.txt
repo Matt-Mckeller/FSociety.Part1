@@ -1,0 +1,42 @@
+{
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "**Happiness:**\n\nElara found happiness not in grand gestures, but in small moments.  The warmth of the sun on her face, the laughter of her child, the scent of baking bread.  These simple joys, woven together, created a tapestry of contentment richer than any fortune.  She understood that happiness wasn't a destination, but a way of seeing the world.\n\n\n**Chiefs Football:**\n\nThe Chiefs were down by ten with two minutes left.  Mahomes, seemingly unfazed, calmly orchestrated a drive, his passes laser-precise.  A breathtaking touchdown pass to Kelce tied the game.  Overtime was a nail-biter, but Butker's field goal sailed through the uprights.  The Arrowhead crowd erupted; victory was sweet, a testament to the team's grit and their quarterback's magic.\n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "safetyRatings": [
+          {
+            "category": "HARM_CATEGORY_HATE_SPEECH",
+            "probability": "NEGLIGIBLE"
+          },
+          {
+            "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+            "probability": "NEGLIGIBLE"
+          },
+          {
+            "category": "HARM_CATEGORY_HARASSMENT",
+            "probability": "NEGLIGIBLE"
+          },
+          {
+            "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+            "probability": "NEGLIGIBLE"
+          }
+        ],
+        "avgLogprobs": -0.26710098439996893
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 39,
+      "candidatesTokenCount": 176,
+      "totalTokenCount": 215
+    },
+    "modelVersion": "gemini-1.5-flash"
+  }
+}

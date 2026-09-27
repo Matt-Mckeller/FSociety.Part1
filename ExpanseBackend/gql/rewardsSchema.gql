@@ -1,0 +1,72 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type UserDto {
+  id: String!
+  active: Boolean!
+  fullName: String!
+}
+
+type LevelExperienceRequirementsDto {
+  level: Float!
+  totalExperience: Float!
+  currentLevelExperience: Float!
+  experienceToNextLevel: Float!
+}
+
+type RewardDto {
+  id: String!
+  userId: String
+  quantity: Float
+  category: String!
+  variant: String!
+  description: String
+  name: String
+  cost: Float
+  limitMaxPurchase: Boolean!
+  maxPurchaseQuantity: Float
+}
+
+type CoinTypesDto {
+  id: String!
+  name: String!
+  coinIconText: String
+}
+
+type Query {
+  getUsers: [UserDto!]!
+  LevelExperienceRequirements: [LevelExperienceRequirementsDto!]!
+  rewards: [RewardDto!]!
+  storeRewards: [RewardDto!]!
+  coinTypes: [CoinTypesDto!]!
+}
+
+type Mutation {
+  insertUser(input: NewUserInput!): UserDto!
+  createReward(reward: NewRewardInput!): RewardDto!
+  buyStoreReward(reward: BuyStoreRewardInput!): Boolean!
+  deleteStoreRewardOption(deleteStoreRewardOptionInput: DeleteStoreRewardOptionInput!): Boolean!
+}
+
+input NewUserInput {
+  fullName: String!
+}
+
+input NewRewardInput {
+  description: String!
+  name: String!
+  cost: Float!
+  limitMaxPurchase: Boolean!
+  maxPurchaseQuantity: Float
+  category: String!
+  variant: String!
+}
+
+input BuyStoreRewardInput {
+  id: String!
+}
+
+input DeleteStoreRewardOptionInput {
+  id: String!
+}

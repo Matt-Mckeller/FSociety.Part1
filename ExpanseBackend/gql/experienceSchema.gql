@@ -1,0 +1,13 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type LevelExperienceRequirementsDto {
+  level: Float!
+  totalExperience: Float!
+  experienceToNextLevel: Float!
+}
+
+type Query {
+  LevelExperienceRequirements: [LevelExperienceRequirementsDto!]!
+}

@@ -1,0 +1,22 @@
+# Write your query or mutation here
+mutation CreateReward($input: NewRewardInput!) {
+  createReward(reward: $input) {
+    id
+    description
+    name
+    cost
+    category
+    variant
+  }
+}
+
+query ListRewards {
+  rewards {
+    id
+    description
+    name
+    cost
+    category
+    variant
+  }
+}

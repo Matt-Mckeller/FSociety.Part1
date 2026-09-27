@@ -1,0 +1,94 @@
+update: do not like this, too much changes each time, not safe for testing, should edit function by function
+loops to copilot
+Your task is to help me create a user model class in javascript
+    # Imports and Exports
+    Prefer import and export statements rather than require or export.modules
+    Include both an export default and named export for the model being created
+        For Example: 
+            export default Model;
+            export { Model };
+
+    # Databases
+    The model will use mysql2 for reading and writing to the database
+    The database name used for this model is expanse_auth
+    The database table used for this model is users
+    The model should accept a connection object in the constructor which is a mysql2 connection object. 
+    Use this connection object for performing database read and writes.
+    This connection object is created using mysql2/promise 
+    Use the this.connection.execute function for performing queries
+
+    # Constructor
+        Define variables in the constructor like
+        constructor(connection) {
+            this.connection = connection;
+            this.id = null;
+            this.string = '';
+            this.boolean = false;
+            this.number = null;
+        }
+
+    # Variable definitions
+    Default string variables to empty quotes
+    Default number variables to null
+    Default booleans to null
+    Default arrays to be empty arrays
+
+    The model should have the following fields: 
+    id: number
+    fullName: string
+    active: boolean
+    sessions: array of Session Objects
+    agreements: array of Agreement objects
+    role: Role object
+    email: string
+    phone: string
+    password: string // Do not include in toJson()
+    salt: string // Do not include in toJson()
+    passwordResetToken: string // Do not include in toJson()
+    lastLogIn: timestamp
+    createdAt: timestamp
+    updatedAt: timestamp
+
+    firstName should be a getter function that determines its value based on the fullName field
+    lastName should be a getter function that determines its value based on the fullName field
+
+    // Function: Set Password
+        The model should have a setPassword function which is used to take a plaintext password and turn it into a hashed version and a salt
+        Use the bcrypt library. 
+        Update the models salt and password values with the generated password and salt values.
+
+    // Function: Sign Up 
+        There should be a signUp function on the model that handles inserting a new entry.
+        The sign up function expects the setPassword function to have been called and for there to be a hashed password value and salt saved to the model.
+        The sign up function should expect the fullName, email values to be set on the model.
+        The sign up function should generate a passwordResetToken using the uuid javascript package
+        The error message should be 'Error inserting user account'
+        Return the Inserted user ID
+        Access the variable values on the model
+        Utilize the mysql2 node library to insert into the database
+        Set the lastLogin timestamp as the current time formatted as YYYY-MM-DD HH:mm:ss for a mysql timestamp field. Utilize moment for formatting.
+        Update the current models id to be equal to the returned id
+
+    // Function: Login
+        This function should accept an email and plain text password. 
+        It should check the database for a user account with the provided email using the findByEmail function.
+        If no user is found for the provided email is found throw an error saying "No user account found for the provided email"
+        If a user account is found, compare the hashed password with the provided plaintext password using bcrypt.
+        If the password does not match, throw an error saying "invalid password"
+        If the password does match, update the current user model with the found user's data and return true
+
+    // Function: mapRowToModel
+        This function should accept a parameter that is a mysql2 table row response of a found user and populate the current model from this rows data
+
+    // Function: findByEmail
+        This function should accept an email parameter and query the database for a user matching the provided email address.
+        Return the found user if one was found, otherwise return null
+
+    // Compare Password Function
+        There should be a comparePasswords function on the model which accepts an inputPassword in plaintext and compares it to a provided hashedPassword value. The function should utilize the bcrypt library to do this comparison. 
+
+    // Function: toJson
+        This function should return all of the fields of the model in a json object.
+        Do not include the connection field
+
+    

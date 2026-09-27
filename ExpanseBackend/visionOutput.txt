@@ -1,0 +1,42 @@
+{
+  "response": {
+    "candidates": [
+      {
+        "content": {
+          "parts": [
+            {
+              "text": "There is one dog in the image.\n\n* **Bounding box for dog:**  Approximately (393, 118, 1000, 1000)\n* **Bounding box for dog's face:** Approximately (400, 491, 581, 732)\n* **Dog breed:** Bernese Mountain Dog.\n* **Dog's action:** The dog is being held and kissed by a woman.\n\n\nThere is one person in the image.\n\n* **Bounding box for person:** Approximately (222, 29, 922, 929)\n* **Bounding box for person's face:** Approximately (287, 360, 487, 558)\n* **Person's attributes:** The person is a woman with long brown hair. She is wearing a white shirt and appears to be affectionate towards the dog. She also seems to be wearing a ring on her left hand.\n"
+            }
+          ],
+          "role": "model"
+        },
+        "finishReason": "STOP",
+        "safetyRatings": [
+          {
+            "category": "HARM_CATEGORY_HATE_SPEECH",
+            "probability": "NEGLIGIBLE"
+          },
+          {
+            "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+            "probability": "NEGLIGIBLE"
+          },
+          {
+            "category": "HARM_CATEGORY_HARASSMENT",
+            "probability": "NEGLIGIBLE"
+          },
+          {
+            "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+            "probability": "NEGLIGIBLE"
+          }
+        ],
+        "avgLogprobs": -0.3584755713786554
+      }
+    ],
+    "usageMetadata": {
+      "promptTokenCount": 354,
+      "candidatesTokenCount": 218,
+      "totalTokenCount": 572
+    },
+    "modelVersion": "gemini-1.5-pro-002"
+  }
+}

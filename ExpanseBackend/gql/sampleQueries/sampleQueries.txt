@@ -1,0 +1,69 @@
+mutation SignInSuccess(
+    $signInInputValid: SignInInput!
+    ) {
+    signIn(input: $signInInputValid) {
+      jwt
+      success
+    }
+  }
+  
+  mutation SignInAfterPasswordUpdate(
+    $signInAfterPasswordUpdate: SignInInput!
+    ) {
+    signIn(input: $signInAfterPasswordUpdate) {
+      jwt
+      success
+    }
+  }
+  
+  
+  mutation SignInFailIncorrectPassword(
+    $signInIncorrectPassword: SignInInput!
+    ) {
+    signIn(input: $signInIncorrectPassword) {
+      jwt
+      success
+    }
+  }
+  
+  mutation SignInFailNonExistentUser(
+    $signInNonExistentUser: SignInInput!
+    ) {
+    signIn(input: $signInNonExistentUser) {
+      jwt
+      success
+    }
+  }
+  
+  mutation SignInFailInvalidPasswordInvalidFormat(
+    $signInInvalidFormat: SignInInput!
+    ) {
+    signIn(input: $signInInvalidFormat) {
+      jwt
+      success
+    }
+  }
+  
+  {
+    "signInInputValid": {
+      "email": "test-api@test.com",
+      "password": "Pass*Word123"
+    },
+    "signInAfterPasswordUpdate": {
+      "email": "test-api@test.com",
+      "password": "PasswordUpdated123*"
+    },
+    "signInIncorrectPassword": {
+      "email": "test-api@test.com",
+      "password": "incorrect-password-valid-format1"
+    },
+    "signInInvalidFormat": {
+      "email": "test-api@test.com",
+      "password": "incorrect-password-missing-number"
+    },
+    "signInNonExistentUser": {
+      "email": "does-not-exist@test.com",
+      "password": "random-password1!"
+    }
+    
+  }

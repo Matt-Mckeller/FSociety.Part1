@@ -1,0 +1,21 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type UserDto {
+  id: String!
+  active: Boolean!
+  fullName: String!
+}
+
+type Query {
+  getUsers: [UserDto!]!
+}
+
+type Mutation {
+  insertUser(input: NewUserInput!): UserDto!
+}
+
+input NewUserInput {
+  fullName: String!
+}

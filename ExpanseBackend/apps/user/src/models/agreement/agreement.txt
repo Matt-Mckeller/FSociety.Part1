@@ -1,0 +1,51 @@
+
+Your task is to create a agreement model class in javascript named Agreement
+    # Imports and Exports
+    Prefer import and export statements rather than require or export.modules
+    Include both an export default and named export for the session class
+        For Example: 
+            export default Model;
+            export { Model };
+
+    # Databases
+    The model will use mysql2 for reading and writing to the database
+    The database name used for this model is expanse_auth
+    The database table used for this model is sessions
+    The model should accept a connection object in the constructor which is a mysql2 connection object. 
+    Use this connection object for performing database read and writes.
+    This connection object is created using mysql2/promise 
+    Use the this.connection.execute function for performing queries
+
+    # Constructor
+        Define variables in the constructor like
+        constructor(connection) {
+            this.connection = connection;
+            this.id = null;
+            this.string = '';
+            this.boolean = false;
+            this.number = null;
+        }
+
+    # Variable definitions
+    Default string variables to empty quotes
+    Default number variables to null
+    Default booleans to null
+    Default arrays to be empty arrays
+
+    The model should have the following fields: 
+    id: number
+    userId: number
+    agreementType: string
+    ipAddress: string
+    userAgent: string
+    agreementTimestamp: string | TIMESTAMP
+
+    The model should contain the following functions
+
+    // Function: save
+        This function saves the properties of the model to the database using the connection object.
+        Updates the models id after successful insertion
+        Returns the id from the successful insertion
+        Do not save the createdAt or updatedAt fields to the database. They are inserted automatically by sql
+
+      

@@ -1,0 +1,157 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type RewardDto {
+  id: String!
+  quantity: Float
+  category: String!
+  variant: String!
+  description: String
+  name: String
+  creatorId: String
+  coinId: String
+  classStoreId: String
+  createdAt: String
+  updatedAt: String
+  cost: Float
+  limitMaxPurchase: Boolean!
+  maxPurchaseQuantity: Float
+  sharedIdentityIds: [String!]
+}
+
+type RewardableEventDto {
+  id: String!
+  status: String
+  submissionElId: String
+  studentElId: String
+  elAssignmentId: String
+  assignmentId: String
+}
+
+type StoreRewardDto {
+  id: String!
+  category: String!
+  variant: String!
+  description: String
+  name: String
+  cost: Float
+  limitMaxPurchase: Boolean!
+  maxPurchaseQuantity: Float
+}
+
+type ClassroomStoreDto {
+  id: String
+  elId: String!
+  name: String!
+  storeRewards: [StoreRewardDto!]!
+}
+
+type RedeemEventRewardsDto {
+  experienceIncrease: Int!
+  userLevel: Int!
+  rewardedCoins: [RewardedCoinDto!]!
+}
+
+type RewardedCoinDto {
+  id: String!
+  name: String!
+  addedCoins: Int!
+}
+
+type WalletDto {
+  coins: [WalletCoinDto!]!
+}
+
+type WalletCoinDto {
+  coinId: String!
+  quantity: String!
+  name: String!
+  coinIconText: String
+  schoolId: String
+  classId: String
+  courseId: String
+}
+
+type EnrollmentDto {
+  elId: String!
+  role: String
+}
+
+type ClassDto {
+  id: String!
+  elId: String!
+  name: String
+  enrollments: [EnrollmentDto!]
+}
+
+type AssignmentDto {
+  id: String!
+  elClassId: String!
+  elId: String!
+  title: String!
+  dueDate: String
+  rewardableEvents: [RewardableEventDto!]
+}
+
+type SubmissionDto {
+  id: String!
+  state: String
+  submissionElId: String
+  rewardableEventId: String
+  personElId: String
+  assignmentElId: String
+  assignmentId: String
+  gradePoints: Float
+  grade: String
+}
+
+type SubmissionAndRewardableEventDto {
+  submission: SubmissionDto!
+  rewardableEvent: RewardableEventDto!
+  assignmentId: String!
+  elAssignmentId: String!
+}
+
+type Query {
+  myCreatedRewards: [RewardDto!]!
+  myOwnedRewards: [RewardDto!]!
+  myClassroomStoreRewards: [ClassroomStoreDto!]!
+  wallet: WalletDto!
+  assignmentsForMyClasses(elClassIds: [String!]!): [AssignmentDto!]!
+  submissionsAndRewardableEventsForMyAssignments(elAssignmentIdWithClassId: [AssignmentIdAndClassIdInput!]!): [SubmissionAndRewardableEventDto!]!
+  myClasses: [ClassDto!]!
+}
+
+input AssignmentIdAndClassIdInput {
+  elAssignmentId: String!
+  elClassId: String!
+}
+
+type Mutation {
+  createReward(reward: NewRewardInput!): [RewardDto!]!
+  buyStoreReward(reward: BuyStoreRewardInput!): Boolean!
+  deleteStoreRewardOption(deleteStoreRewardOptionInput: DeleteStoreRewardOptionInput!): Boolean!
+  redeemEventRewards(rewardableEventIds: [String!]!): RedeemEventRewardsDto!
+}
+
+input NewRewardInput {
+  description: String!
+  name: String!
+  cost: Float!
+  limitMaxPurchase: Boolean!
+  maxPurchaseQuantity: Float
+  category: String!
+  variant: String!
+  elClassIds: [String!]!
+}
+
+input BuyStoreRewardInput {
+  id: String!
+  quantity: Float!
+}
+
+input DeleteStoreRewardOptionInput {
+  id: String!
+  deleteSet: Boolean
+}

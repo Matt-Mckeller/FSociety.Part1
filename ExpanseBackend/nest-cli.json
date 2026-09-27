@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/expanse-backend/src",
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "webpack": true,
+    "tsConfigPath": "apps/expanse-backend/tsconfig.app.json"
+  },
+  "monorepo": true,
+  "root": "apps/expanse-backend",
+  "projects": {
+    "expanse-backend": {
+      "type": "application",
+      "root": "apps/expanse-backend",
+      "entryFile": "main",
+      "sourceRoot": "apps/expanse-backend/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/expanse-backend/tsconfig.app.json"
+      }
+    },
+    "user": {
+      "type": "application",
+      "root": "apps/user",
+      "entryFile": "main",
+      "sourceRoot": "apps/user/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/user/tsconfig.app.json"
+      }
+    },
+    "email": {
+      "type": "application",
+      "root": "apps/email",
+      "entryFile": "main",
+      "sourceRoot": "apps/email/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/email/tsconfig.app.json"
+      }
+    },
+    "analytics": {
+      "type": "application",
+      "root": "apps/analytics",
+      "entryFile": "main",
+      "sourceRoot": "apps/analytics/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/analytics/tsconfig.app.json"
+      }
+    },
+    "auth": {
+      "type": "library",
+      "root": "libs/auth",
+      "entryFile": "index",
+      "sourceRoot": "libs/auth/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/auth/tsconfig.lib.json"
+      }
+    },
+    "utils": {
+      "type": "library",
+      "root": "libs/utils",
+      "entryFile": "index",
+      "sourceRoot": "libs/utils/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/utils/tsconfig.lib.json"
+      }
+    },
+    "inventory": {
+      "type": "application",
+      "root": "apps/inventory",
+      "entryFile": "main",
+      "sourceRoot": "apps/inventory/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/inventory/tsconfig.app.json"
+      }
+    },
+    "event-types": {
+      "type": "library",
+      "root": "libs/event-types",
+      "entryFile": "index",
+      "sourceRoot": "libs/event-types/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/event-types/tsconfig.lib.json"
+      }
+    },
+    "event-broadcaster": {
+      "type": "application",
+      "root": "apps/event-broadcaster",
+      "entryFile": "main",
+      "sourceRoot": "apps/event-broadcaster/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/event-broadcaster/tsconfig.app.json"
+      }
+    },
+    "rewards": {
+      "type": "application",
+      "root": "apps/rewards",
+      "entryFile": "main",
+      "sourceRoot": "apps/rewards/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/rewards/tsconfig.app.json"
+      }
+    },
+    "google": {
+      "type": "application",
+      "root": "apps/google",
+      "entryFile": "main",
+      "sourceRoot": "apps/google/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/google/tsconfig.app.json"
+      }
+    },
+    "expanse-edu-backend": {
+      "type": "application",
+      "root": "apps/expanse-edu-backend",
+      "entryFile": "main",
+      "sourceRoot": "apps/expanse-edu-backend/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/expanse-edu-backend/tsconfig.app.json"
+      }
+    },
+    "shared": {
+      "type": "library",
+      "root": "libs/shared",
+      "entryFile": "index",
+      "sourceRoot": "libs/shared/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/shared/tsconfig.lib.json"
+      }
+    },
+    "websockets": {
+      "type": "application",
+      "root": "apps/websockets",
+      "entryFile": "main",
+      "sourceRoot": "apps/websockets/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/websockets/tsconfig.app.json"
+      }
+    },
+    "redis": {
+      "type": "application",
+      "root": "apps/redis",
+      "entryFile": "main",
+      "sourceRoot": "apps/redis/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/redis/tsconfig.app.json"
+      }
+    }
+  }
+}

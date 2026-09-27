@@ -1,0 +1,38 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type UserDto {
+  id: String!
+  active: Boolean!
+  fullName: String!
+}
+
+type LevelExperienceRequirementsDto {
+  level: Float!
+  totalExperience: Float!
+  experienceToNextLevel: Float!
+}
+
+type DemoEventCompletionResponse {
+  success: Boolean!
+  errorMessage: String
+}
+
+type Query {
+  getUsers: [UserDto!]!
+  LevelExperienceRequirements: [LevelExperienceRequirementsDto!]!
+}
+
+type Mutation {
+  insertUser(input: NewUserInput!): UserDto!
+  completeDemoEvent(input: DemoEventCompletionInput!): DemoEventCompletionResponse!
+}
+
+input NewUserInput {
+  fullName: String!
+}
+
+input DemoEventCompletionInput {
+  eventType: String!
+}
