@@ -1,4 +1,4 @@
-import { FourEyeBootScreen } from "../components/boot/FourEyeBootScreen";
+import { FourEyeBootScreen } from "../../components/boot/FourEyeBootScreen";
 
 /**
  * Suspense fallback for the `(hud)` route group.

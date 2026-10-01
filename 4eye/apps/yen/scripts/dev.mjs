@@ -165,7 +165,8 @@ console.log(
     `  docs:    ${skipDocs ? "cached" : "generating"}\n` +
     `  photos:  ${skipPhotos ? "cached" : "generating"}\n` +
     `  bundler: ${webpack ? "webpack" : "turbopack"}\n` +
-    `  url:     http://localhost:${PORT}\n`,
+    `  bind:    0.0.0.0:${PORT}\n` +
+      `  url:     http://localhost:${PORT}\n`,
 );
 
 const started = Date.now();
@@ -175,7 +176,7 @@ await Promise.all([
 ]);
 console.log(`yen: generate ${((Date.now() - started) / 1000).toFixed(1)}s\n`);
 
-const args = ["dev", "-p", String(PORT)];
+const args = ["dev", "-p", String(PORT), "--hostname", "0.0.0.0"];
 if (!webpack) args.push("--turbo");
 
 const next = spawn(process.execPath, [NEXT_BIN, ...args], {

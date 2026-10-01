@@ -16,6 +16,7 @@
     "dev:yen": "npm run dev --workspace=apps/yen",
     "dev:mockup": "npm run dev --workspace=apps/4eye-web-mockup",
     "dev:mobile": "npm run start --workspace=apps/labs/4eye-mobile",
+    "dev:services": "npm run dev --workspace=apps/labs/expanse-services",
     "build": "npm run build --workspace=apps/api && npm run build --workspace=apps/labs/4eye-sampling",
     "build:yen": "npm run build --workspace=apps/yen",
     "deploy:yen": "bash docker/deploy-yen-cloudrun.sh all",

@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev -p 3311",
+    "dev": "next dev -p 3311 --hostname 0.0.0.0",
     "build": "next build",
-    "start": "next start -p 3311",
+    "start": "next start -p 3311 --hostname 0.0.0.0",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
-    "storybook": "storybook dev -p 6311",
+    "storybook": "storybook dev -p 6311 --host 0.0.0.0",
     "build-storybook": "storybook build"
   },
   "dependencies": {
