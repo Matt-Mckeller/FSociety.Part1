@@ -1,0 +1,73 @@
+name: yen-tunnel
+
+services:
+  yen:
+    image: "yen-home:${YEN_IMAGE_TAG:?Set YEN_IMAGE_TAG to a unique release tag}"
+    build:
+      context: .
+      dockerfile: docker/yen.Dockerfile
+      args:
+        NEXT_PUBLIC_SITE_URL: "${YEN_SITE_URL:?Set YEN_SITE_URL to the approved HTTPS hostname}"
+        NEXT_PUBLIC_MEDIA_BASE: "${YEN_MEDIA_BASE:-https://storage.googleapis.com/expanse-public-assets/yen}"
+    environment:
+      NODE_ENV: production
+      PORT: "8080"
+      HOSTNAME: 0.0.0.0
+      SITE_ACCESS_USER: "${SITE_ACCESS_USER:-}"
+      SITE_ACCESS_PASSWORD: "${SITE_ACCESS_PASSWORD:-}"
+      EVOLVE_LOVE_PASSWORD: "${EVOLVE_LOVE_PASSWORD:-}"
+    expose:
+      - "8080"
+    restart: unless-stopped
+    init: true
+    stop_grace_period: 30s
+    healthcheck:
+      test:
+        - CMD
+        - node
+        - -e
+        - "fetch('http://127.0.0.1:8080/robots.txt').then(r => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))"
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 45s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  cloudflared:
+    image: "${CLOUDFLARED_IMAGE:?Set CLOUDFLARED_IMAGE to a pinned cloudflared release (2025.4.0 or newer)}"
+    command:
+      - tunnel
+      - --no-autoupdate
+      - run
+      - --token-file
+      - /run/secrets/cloudflare_tunnel_token
+    user: "0:0"
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    secrets:
+      - cloudflare_tunnel_token
+    depends_on:
+      yen:
+        condition: service_healthy
+    restart: unless-stopped
+    init: true
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+secrets:
+  cloudflare_tunnel_token:
+    file: "${CLOUDFLARE_TUNNEL_TOKEN_FILE:?Set CLOUDFLARE_TUNNEL_TOKEN_FILE to the protected token-file path}"
+
+networks:
+  default:
+    name: yen-tunnel
+    driver: bridge

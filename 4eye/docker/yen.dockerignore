@@ -44,6 +44,7 @@ apps/yen/public/videos
 /tools
 
 # Keep secrets and local env out of the image
+/.secrets/
 **/.env
 **/.env.local
 **/.env.*

@@ -27,7 +27,6 @@ apps/yen/public/videos
 /apps/4up
 /apps/scene-studio
 /packages/@4eye/scene-studio
-/packages/@4eye/ai-sdk
 /packages/@4eye/core
 /packages/@4eye/graphql-schema
 /packages/@expanse/auth
@@ -45,6 +44,7 @@ apps/yen/public/videos
 /tools
 
 # Keep secrets and local env out of the image
+/.secrets/
 **/.env
 **/.env.local
 **/.env.*

@@ -10,8 +10,12 @@ build/
 
 # Environment
 .env
+.env.yen-home
 .env.local
 .env.*.local
+
+# Local deployment credentials (never commit or include in build contexts)
+/.secrets/
 
 # IDE
 .idea/
