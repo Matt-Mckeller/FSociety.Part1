@@ -37,6 +37,42 @@ services:
         max-size: "10m"
         max-file: "3"
 
+  symbol-grid:
+    image: "symbol-grid-home:${YEN_IMAGE_TAG:?Set YEN_IMAGE_TAG to a unique release tag}"
+    build:
+      context: ../ExpanseFrontend/apps/symbol-grid
+      dockerfile: ../../../4eye/docker/symbol-grid.Dockerfile
+    environment:
+      SITE_ACCESS_USER: "${SITE_ACCESS_USER:-}"
+      SITE_ACCESS_PASSWORD: "${SITE_ACCESS_PASSWORD:-}"
+    expose:
+      - "8080"
+    read_only: true
+    tmpfs:
+      - /run
+      - /tmp
+      - /var/cache/nginx
+      - /var/run
+    restart: unless-stopped
+    init: true
+    stop_grace_period: 15s
+    healthcheck:
+      test:
+        - CMD
+        - wget
+        - --quiet
+        - --spider
+        - http://127.0.0.1:8080/healthz
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
   cloudflared:
     image: "${CLOUDFLARED_IMAGE:?Set CLOUDFLARED_IMAGE to a pinned cloudflared release (2025.4.0 or newer)}"
     command:

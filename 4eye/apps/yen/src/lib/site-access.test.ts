@@ -4,7 +4,7 @@ import {
   credentialsMatch,
   parseBasicAuthorization,
   siteGateEnabled,
-} from "./site-access";
+} from "./site-access.ts";
 
 describe("site access gate", () => {
   it("treats missing user or empty password as open", () => {

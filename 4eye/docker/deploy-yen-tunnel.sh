@@ -14,7 +14,7 @@ Usage: bash docker/deploy-yen-tunnel.sh [validate|start|deploy]
 
   validate  Validate host secrets, release settings, and Compose configuration.
     start     Start the already-built stack without building or pulling images.
-  deploy    Validate, build Yen, pull cloudflared, and start the stack.
+    deploy    Validate, build Yen and Symbol Grid, pull cloudflared, and start the stack.
 
 Requires macOS with Docker Desktop, or Linux with Docker Engine; both need
 Docker Compose v2, Python 3.9+, and a configured .env.yen-home file.
@@ -140,9 +140,9 @@ if [[ "$MODE" == "validate" ]]; then
 fi
 
 if [[ "$MODE" == "deploy" ]]; then
-    docker compose --env-file "$ENV_FILE" -f "$COMPOSE_FILE" build --pull yen
+    docker compose --env-file "$ENV_FILE" -f "$COMPOSE_FILE" build --pull yen symbol-grid
     docker compose --env-file "$ENV_FILE" -f "$COMPOSE_FILE" pull cloudflared
 fi
 docker compose --env-file "$ENV_FILE" -f "$COMPOSE_FILE" up --detach --no-build --wait --wait-timeout 180
 docker compose --env-file "$ENV_FILE" -f "$COMPOSE_FILE" ps
-printf '\nYen is running. Confirm the named tunnel is Healthy in Cloudflare and test %s externally.\n' "$(sed -n 's/^YEN_SITE_URL=//p' "$ENV_FILE" | tail -n 1)"
+printf '\nYen and Symbol Grid are running. Confirm the named tunnel is Healthy in Cloudflare and test %s and https://symbolgrid.4eye.ai externally.\n' "$(sed -n 's/^YEN_SITE_URL=//p' "$ENV_FILE" | tail -n 1)"
